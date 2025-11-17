@@ -58,53 +58,56 @@ Build the modular wheel configuration system that allows swappable gate sequence
 
 ### Task 2.1: Create Sequence Files
 
-**IMPORTANT:** The V2 baseline uses Gate 41 at position 0. To maintain backward compatibility, this must remain the DEFAULT. Alternative sequences (like hd-standard) are opt-in.
+**CRITICAL:** Every sequence file MUST have three mandatory fields: `sequence`, `direction`, and `rotationOffset`. These three values work together to define both array order AND visual presentation.
 
-**File:** `core/root-system/sequences/v2-baseline.json` **(DEFAULT - V2 Compatible)**
+**File:** `core/root-system/sequences/rave-wheel-41-start.json` **(DEFAULT)**
 
 ```json
 {
-  "name": "v2-baseline",
-  "description": "V2 Baseline - Gate 41 at position 0 (maintains V2 compatibility)",
-  "version": "2.0.0",
-  "source": "HD Knowledge Engine V2.0 - Ra Uru Hu wheel order",
-  "direction": "counter-clockwise",
-  "notes": {
-    "position0": "Gate 41 at wheel position 0 (NORTH - 0 degrees)",
-    "position1": "Gate 19 at wheel position 1 (just past north)",
-    "position58": "Gate 10 at wheel position 58",
-    "compatibility": "This is the V2 baseline sequence - DO NOT CHANGE to maintain backward compatibility"
-  },
+  "name": "rave-wheel-41-start",
+  "description": "Rave Wheel - Gate 41 at array start, rotated so Gates 10/11 appear at north",
+  "version": "1.0.0",
+  "source": "Ra Uru Hu - Human Design System",
   "sequence": [
     41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
     27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
     31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
     28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
-  ]
+  ],
+  "direction": "clockwise",
+  "rotationOffset": 33.75,
+  "notes": {
+    "arrayPosition0": "Gate 41 (position 0 in array)",
+    "arrayPosition58": "Gate 10 (position 58 in array)",
+    "visualNorth": "Gates 10/11 appear at north (0°) via 33.75° rotation offset",
+    "decoupling": "Array order ≠ Visual presentation - rotation offset bridges the gap",
+    "mandatory": "direction and rotationOffset are MANDATORY fields"
+  }
 }
 ```
 
-**File:** `core/root-system/sequences/hd-standard.json` **(ALTERNATIVE)**
+**File:** `core/root-system/sequences/gates-10-start.json` **(ALTERNATIVE)**
 
 ```json
 {
-  "name": "hd-standard",
-  "description": "Human Design Standard - Gates 10/11 straddle north at 0 degrees",
+  "name": "gates-10-start",
+  "description": "Alternative - Gates 10/11 at array start (no rotation needed)",
   "version": "1.0.0",
-  "source": "Verified from Illustrator Master SVG",
-  "direction": "counter-clockwise",
-  "notes": {
-    "position0": "Gate 10 at wheel position 0 (NORTH - 0 degrees)",
-    "position1": "Gate 11 at wheel position 1 (just past north)",
-    "verification": "Extracted from the-64-hexagrams-master.svg divider lines",
-    "usage": "Use this for HD wheel visualizations where Gates 10/11 should be at north"
-  },
+  "source": "Alternative wheel arrangement",
   "sequence": [
     10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
     46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
     15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
     25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
-  ]
+  ],
+  "direction": "clockwise",
+  "rotationOffset": 0,
+  "notes": {
+    "arrayPosition0": "Gate 10 (position 0 in array)",
+    "visualNorth": "Gate 10 at north (0°) with no rotation",
+    "useCase": "When you want Gates 10/11 at array start instead of using rotation",
+    "mandatory": "direction and rotationOffset are MANDATORY fields (even if 0)"
+  }
 }
 ```
 
