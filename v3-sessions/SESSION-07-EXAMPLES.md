@@ -159,12 +159,12 @@ console.log('1. HD Standard (default):');
 const gate41default = engine.getGateKnowledge(41);
 console.log(`   Gate 41 at: ${gate41default.angle}°\n`);
 
-// Switch to I Ching traditional
-console.log('2. I Ching Traditional:');
-engine.setWheelConfiguration('iching-traditional');
-const gate41iching = engine.getGateKnowledge(41);
-console.log(`   Gate 41 at: ${gate41iching.angle}°`);
-console.log('   (Gate 41 now at north position)\n');
+// Switch to alternative sequence
+console.log('2. Alternative (Gates 10 at array start):');
+engine.setWheelConfiguration('gates-10-start');
+const gate10alt = engine.getGateKnowledge(10);
+console.log(`   Gate 10 at: ${gate10alt.angle}°`);
+console.log('   (Gates 10/11 at array position 0, north with no rotation)\n');
 
 // Reset to default
 console.log('3. Reset to default:');
@@ -644,12 +644,12 @@ function changeConfig() {
 
     switch(choice) {
       case 1:
-        engine.setWheelConfiguration('hd-standard');
-        console.log('✅ Set to HD Standard');
+        engine.setWheelConfiguration('rave-wheel-41-start');
+        console.log('✅ Set to Rave Wheel (default)');
         break;
       case 2:
-        engine.setWheelConfiguration('iching-traditional');
-        console.log('✅ Set to I Ching Traditional');
+        engine.setWheelConfiguration('gates-10-start');
+        console.log('✅ Set to Gates 10 Start (alternative)');
         break;
       case 3:
         rl.question('Enter rotation offset (degrees): ', (degrees) => {
