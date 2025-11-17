@@ -54,8 +54,9 @@ V3 adds wheel configuration (not in V2):
 
 ```javascript
 // NEW in V3
-engine.setWheelConfiguration('iching-traditional');
-engine.resetConfiguration();
+engine.setWheelConfiguration('rave-wheel-41-start');  // Set to default explicitly
+engine.setWheelConfiguration('gates-10-start');       // Or use alternative
+engine.resetConfiguration();                          // Reset to default
 ```
 
 ### 2. Extension Layer
@@ -246,7 +247,7 @@ V3 maintains V2 performance:
 Run this verification script:
 
 ```javascript
-const v2Data = require('./v2-baseline-data.json');
+const raveWheelData = require('./rave-wheel-41-start-data.json');
 const engine = require('hd-knowledge-engine-v3');
 
 // Ensure default config
@@ -309,8 +310,8 @@ Your V2 code will work unchanged.
 If you use the new configuration system, positioning will change:
 
 ```javascript
-// This changes gate positions
-engine.setWheelConfiguration('iching-traditional');
+// This changes gate positions from default
+engine.setWheelConfiguration('gates-10-start');
 ```
 
 **Impact:** Gate angles and wheel indices will differ from default.
