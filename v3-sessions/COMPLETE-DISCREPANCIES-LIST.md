@@ -68,10 +68,14 @@ export type SequenceName = 'rave-wheel-41-start' | 'gates-10-start' | 'custom';
 
 ---
 
-## SESSION-05: Integration Testing
+## SESSION-05: Integration Testing ✅
+
+**Status:** COMPLETE (all 5 instances fixed and committed)
+
+See commit: "Fix SESSION-05: Update integration tests to rave-wheel-41-start"
 
 **File:** `/v3-sessions/SESSION-05-INTEGRATION-TESTING.md`
-**Total Issues:** 5 instances
+**Total Issues:** 5 instances (FIXED)
 
 ### Line 94-96: Configuration loading test
 **Current:**
@@ -131,10 +135,14 @@ export type SequenceName = 'rave-wheel-41-start' | 'gates-10-start' | 'custom';
 
 ---
 
-## SESSION-06: Documentation
+## SESSION-06: Documentation ✅
+
+**Status:** COMPLETE (all 14 instances fixed and committed)
+
+See commit: "Fix SESSION-06: Update documentation to rave-wheel-41-start"
 
 **File:** `/v3-sessions/SESSION-06-DOCUMENTATION.md`
-**Total Issues:** 14 instances
+**Total Issues:** 14 instances (FIXED)
 
 ### Line 157: Type definition example
 **Current:**
@@ -439,14 +447,14 @@ engine.setWheelConfiguration('rave-wheel-41-start');
 |---------|------|--------------|----------|
 | SESSION-02 | Configuration System | ✅ COMPLETE | 🔴 CRITICAL |
 | SESSION-03 | TypeScript Definitions | ✅ COMPLETE | 🔴 CRITICAL |
-| SESSION-05 | Integration Testing | 5 instances | 🟡 HIGH |
-| SESSION-06 | Documentation | 14 instances | 🟡 HIGH |
+| SESSION-05 | Integration Testing | ✅ COMPLETE | 🟡 HIGH |
+| SESSION-06 | Documentation | ✅ COMPLETE | 🟡 HIGH |
 | SESSION-07 | Examples & Demos | 3 instances | 🟢 MEDIUM |
 | SESSION-08 | Migration Tools | 3 instances | 🟢 MEDIUM |
 | SESSION-09 | Extended Testing | 3 instances | 🟢 MEDIUM |
 | SESSION-10 | Release Preparation | 2 instances | ⚪ LOW |
 
-**Total remaining:** 30 instances across 6 sessions
+**Total remaining:** 11 instances across 4 sessions
 
 ---
 
@@ -480,14 +488,14 @@ Every sequence file and config MUST have:
 
 - [x] SESSION-02: ✅ Complete (34 instances fixed)
 - [x] SESSION-03: ✅ Complete (3 instances fixed)
-- [ ] SESSION-05: 5 instances
-- [ ] SESSION-06: 14 instances (includes critical angle expectation)
+- [x] SESSION-05: ✅ Complete (5 instances fixed)
+- [x] SESSION-06: ✅ Complete (14 instances fixed - including critical angle fix)
 - [ ] SESSION-07: 3 instances
 - [ ] SESSION-08: 3 instances
 - [ ] SESSION-09: 3 instances
 - [ ] SESSION-10: 2 instances
 
-**Next Priority:** SESSION-03 (TypeScript definitions must be correct)
+**Next Priority:** SESSION-07 (Examples) or complete all remaining sessions
 
 ---
 
