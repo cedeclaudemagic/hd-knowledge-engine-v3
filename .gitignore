@@ -34,3 +34,27 @@ coverage/
 # Build outputs (if any)
 dist/
 build/
+*.tsbuildinfo
+
+# CRITICAL: NEVER commit monolithic database files
+# These files represent the old V1.x architecture that must never return
+unified-hd-database.json
+hd-optimized-lookups.json
+**/database.json
+**/lookups.json
+rebuild-database.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/

@@ -1,75 +1,66 @@
 {
-  "name": "hd-knowledge-engine",
-  "version": "2.0.0",
-  "description": "Human Design Knowledge Engine - Clean, unified database system supporting 5 interpretation systems: Black Book, Gene Keys, Codon Rings, Incarnation Crosses, and Circuit relationships",
-  "main": "scripts/hd-query-engine.js",
-  "author": "HD Knowledge Base Project",
-  "license": "MIT",
+  "name": "hd-knowledge-engine-v3",
+  "version": "3.0.0-alpha.1",
+  "description": "Human Design Knowledge Engine V3 - Modular, configurable, type-safe knowledge system with 11 integrated interpretation systems",
+  "main": "unified-query-engine.js",
+  "types": "core/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./core/types/index.d.ts",
+      "require": "./unified-query-engine.js",
+      "import": "./unified-query-engine.js"
+    },
+    "./extensions": {
+      "types": "./extensions/types/extensions.d.ts",
+      "require": "./extensions/index.js",
+      "import": "./extensions/index.js"
+    },
+    "./core/positioning": {
+      "require": "./core/root-system/positioning-algorithm.js",
+      "import": "./core/root-system/positioning-algorithm.js"
+    }
+  },
+  "scripts": {
+    "test": "node tests/comprehensive-unified-query-tests.js",
+    "test:adapted": "node tests/adapted-old-tests.js",
+    "test:config": "node tests/configuration/test-wheel-config.js",
+    "test:types": "tsc --noEmit",
+    "test:integration": "node tests/integration/test-full-system.js",
+    "test:performance": "node tests/performance/benchmark.js",
+    "test:all": "npm run test && npm run test:adapted && npm run test:config && npm run test:integration",
+    "lint": "echo 'Linting not yet configured'",
+    "docs": "echo 'Documentation generation not yet configured'"
+  },
   "keywords": [
     "human-design",
-    "knowledge-base",
+    "knowledge-engine",
     "gene-keys",
+    "i-ching",
     "codon-rings",
     "incarnation-crosses",
-    "query-engine",
-    "database",
+    "bodygraph",
     "astrology",
-    "i-ching",
-    "bodygraph"
+    "typescript",
+    "modular",
+    "configurable"
   ],
-  "scripts": {
-    "rebuild": "node rebuild-database.js",
-    "test": "node tests/run-tests.js",
-    "validate": "node scripts/validation/validate-workflow-integrity.js",
-    "docs": "node scripts/documentation/generate-workflow-docs.js",
-    "query-demo": "node examples/basic-usage.js",
-    "gene-keys-demo": "node examples/gene-keys-usage.js",
-    "codon-rings-demo": "node examples/codon-rings-usage.js",
-    "crosses-demo": "node examples/incarnation-crosses-usage.js",
-    "fast-query-demo": "node examples/fast-query-demo.js",
-    "integrate-positioning": "node scripts/integration/integrate-positioning-system.js",
-    "generate-lookups": "node scripts/integration/generate-optimized-lookups.js",
-    "verify:384-lines": "node verification/scripts/automation/workflow-orchestrator.js --type=384-lines",
-    "verify:4-quarters": "node verification/scripts/automation/workflow-orchestrator.js --type=4-quarters",
-    "verify:8-trigrams": "node verification/scripts/automation/workflow-orchestrator.js --type=8-trigrams",
-    "verify:all": "node verification/scripts/automation/batch-processor.js",
-    "verify:create-type": "node verification/scripts/automation/template-generator.js",
-    "verify:status": "node verification/tools/validation-runner.js --summary",
-    "normalize-planets": "node scripts/utilities/normalize-planetary-names.js",
-    "normalize-planets:execute": "node scripts/utilities/normalize-planetary-names.js --execute",
-    "normalize-british": "node scripts/utilities/normalize-british-spellings.js",
-    "normalize-british:execute": "node scripts/utilities/normalize-british-spellings.js --execute"
-  },
+  "author": "HD Knowledge Engine Project",
+  "license": "MIT",
   "engines": {
-    "node": ">=12.0.0"
-  },
-  "directories": {
-    "data": "data",
-    "scripts": "scripts",
-    "tests": "tests",
-    "docs": "docs",
-    "examples": "examples",
-    "verification": "verification"
-  },
-  "files": [
-    "scripts/",
-    "data/source/",
-    "tests/",
-    "examples/",
-    "docs/",
-    "verification/",
-    "README.md",
-    "rebuild-database.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "Human Design Knowledge Engine"
+    "node": ">=16.0.0"
   },
   "devDependencies": {
-    "cheerio": "^1.1.2",
-    "xmldom": "^0.6.0"
+    "typescript": "^5.3.0"
   },
   "dependencies": {
     "jsdom": "^26.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/hd-knowledge-engine-v3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/hd-knowledge-engine-v3/issues"
+  },
+  "homepage": "https://github.com/your-org/hd-knowledge-engine-v3#readme"
 }
