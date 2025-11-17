@@ -58,50 +58,52 @@ Build the modular wheel configuration system that allows swappable gate sequence
 
 ### Task 2.1: Create Sequence Files
 
-**File:** `core/root-system/sequences/hd-standard.json`
+**IMPORTANT:** The V2 baseline uses Gate 41 at position 0. To maintain backward compatibility, this must remain the DEFAULT. Alternative sequences (like hd-standard) are opt-in.
+
+**File:** `core/root-system/sequences/v2-baseline.json` **(DEFAULT - V2 Compatible)**
 
 ```json
 {
-  "name": "hd-standard",
-  "description": "Human Design Standard - Gates 10/11 straddle north at 0 degrees",
+  "name": "v2-baseline",
+  "description": "V2 Baseline - Gate 41 at position 0 (maintains V2 compatibility)",
   "version": "2.0.0",
-  "source": "Verified from Illustrator Master SVG",
+  "source": "HD Knowledge Engine V2.0 - Ra Uru Hu wheel order",
   "direction": "counter-clockwise",
   "notes": {
-    "position0": "Gate 10 at wheel position 0 (NORTH - 0 degrees)",
-    "position1": "Gate 11 at wheel position 1 (just past north)",
-    "verification": "Extracted from the-64-hexagrams-master.svg divider lines",
-    "correctness": "This is the CORRECT HD wheel arrangement verified from source SVG"
-  },
-  "sequence": [
-    10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
-    46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
-    15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
-    25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
-  ]
-}
-```
-
-**File:** `core/root-system/sequences/iching-traditional.json`
-
-```json
-{
-  "name": "iching-traditional",
-  "description": "I Ching Traditional - Gate 41 at position 0",
-  "version": "1.0.0",
-  "source": "Traditional I Ching mandala arrangement",
-  "direction": "counter-clockwise",
-  "notes": {
-    "position0": "Gate 41 starts at wheel position 0",
-    "position59": "Gate 41 in HD standard is at position 59",
-    "offset": "This sequence is rotated ~59 positions from HD standard",
-    "usage": "Use this for I Ching mandala visualizations"
+    "position0": "Gate 41 at wheel position 0 (NORTH - 0 degrees)",
+    "position1": "Gate 19 at wheel position 1 (just past north)",
+    "position58": "Gate 10 at wheel position 58",
+    "compatibility": "This is the V2 baseline sequence - DO NOT CHANGE to maintain backward compatibility"
   },
   "sequence": [
     41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
     27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
     31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
     28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
+  ]
+}
+```
+
+**File:** `core/root-system/sequences/hd-standard.json` **(ALTERNATIVE)**
+
+```json
+{
+  "name": "hd-standard",
+  "description": "Human Design Standard - Gates 10/11 straddle north at 0 degrees",
+  "version": "1.0.0",
+  "source": "Verified from Illustrator Master SVG",
+  "direction": "counter-clockwise",
+  "notes": {
+    "position0": "Gate 10 at wheel position 0 (NORTH - 0 degrees)",
+    "position1": "Gate 11 at wheel position 1 (just past north)",
+    "verification": "Extracted from the-64-hexagrams-master.svg divider lines",
+    "usage": "Use this for HD wheel visualizations where Gates 10/11 should be at north"
+  },
+  "sequence": [
+    10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
+    46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
+    15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
+    25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
   ]
 }
 ```
@@ -119,17 +121,19 @@ A gate sequence defines the order of gates around the 360° wheel. Position 0 is
 
 ## Available Sequences
 
-### hd-standard.json (DEFAULT)
+### v2-baseline.json (DEFAULT - V2 Compatible)
+- Gate 41 at position 0 (north)
+- Gate 10 at position 58
+- This is the V2.0 baseline sequence
+- **Use this for:** Default behavior, backward compatibility, existing V2 code
+- **DO NOT CHANGE:** This must remain the default for V2 compatibility
+
+### hd-standard.json (ALTERNATIVE)
 - Gates 10 and 11 straddle north (0°)
 - Verified from Illustrator master SVG
-- This is the standard Human Design wheel arrangement
-- **Use this for:** HD charts, Gene Keys, standard interpretations
-
-### iching-traditional.json
-- Gate 41 at position 0 (north)
-- Traditional I Ching mandala arrangement
-- Rotated ~59 positions from HD standard
-- **Use this for:** I Ching mandala visualizations, traditional Chinese astrology
+- Alternative Human Design wheel arrangement
+- **Use this for:** HD wheel visualizations where Gates 10/11 should be at north
+- **Opt-in:** Users must explicitly request this sequence
 
 ## Creating Custom Sequences
 
@@ -161,6 +165,8 @@ You can create your own sequence file:
 The "direction" field is informational only. The actual direction is set in your wheel configuration:
 
 ```javascript
+// Default uses v2-baseline (no call needed)
+// To switch to alternative:
 setWheelConfiguration({
   sequenceName: 'hd-standard',
   direction: 'counter-clockwise'  // or 'clockwise'
@@ -214,7 +220,7 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 const { WheelConfiguration } = require('./wheel-config.js');
 
 // Global configuration (can be overridden)
-let wheelConfig = new WheelConfiguration(); // Defaults to hd-standard
+let wheelConfig = new WheelConfiguration(); // Defaults to v2-baseline (V2 compatible)
 ```
 
 2. **Add new exports:**
@@ -328,27 +334,30 @@ try {
   const config = new WheelConfiguration();
   assert(config !== null, 'Default configuration loads');
   assert(config.sequence.length === 64, 'Default sequence has 64 gates');
-  assert(config.config.sequenceName === 'hd-standard', 'Default is hd-standard');
+  assert(config.config.sequenceName === 'v2-baseline', 'Default is v2-baseline (V2 compatible)');
+  assert(config.sequence[0] === 41, 'Default starts with Gate 41 (V2 compatible)');
 } catch (error) {
   assert(false, 'Default configuration loads - ERROR: ' + error.message);
 }
 
-// Test 2: HD standard preset
+// Test 2: V2 baseline preset (default)
 console.log('\nTest Group 2: Presets\n');
+try {
+  const v2Config = WheelConfiguration.fromPreset('v2-baseline');
+  assert(v2Config.sequence[0] === 41, 'V2 baseline starts with gate 41');
+  assert(v2Config.sequence[1] === 19, 'V2 baseline position 1 is gate 19');
+  assert(v2Config.sequence[58] === 10, 'V2 baseline position 58 is gate 10');
+} catch (error) {
+  assert(false, 'V2 baseline preset - ERROR: ' + error.message);
+}
+
+// Test 3: HD standard preset (alternative)
 try {
   const hdConfig = WheelConfiguration.fromPreset('hd-standard');
   assert(hdConfig.sequence[0] === 10, 'HD standard starts with gate 10');
   assert(hdConfig.sequence[1] === 11, 'HD standard position 1 is gate 11');
 } catch (error) {
   assert(false, 'HD standard preset - ERROR: ' + error.message);
-}
-
-// Test 3: I Ching traditional preset
-try {
-  const ichingConfig = WheelConfiguration.fromPreset('iching-traditional');
-  assert(ichingConfig.sequence[0] === 41, 'I Ching traditional starts with gate 41');
-} catch (error) {
-  assert(false, 'I Ching traditional preset - ERROR: ' + error.message);
 }
 
 // Test 4: Custom sequence validation
@@ -391,73 +400,76 @@ try {
   assert(true, 'Duplicate gates rejected');
 }
 
-// Test 8: getWheelIndex() works correctly
+// Test 8: getWheelIndex() works correctly (with V2 baseline default)
 console.log('\nTest Group 4: Methods\n');
 const testConfig = new WheelConfiguration();
-const index10 = testConfig.getWheelIndex(10);
-assert(index10 === 0, 'Gate 10 is at wheel index 0 in HD standard');
-
 const index41 = testConfig.getWheelIndex(41);
-assert(index41 === 58, 'Gate 41 is at wheel index 58 in HD standard');
+assert(index41 === 0, 'Gate 41 is at wheel index 0 in V2 baseline (default)');
 
-// Test 9: getAngle() calculation
-const angle10 = testConfig.getAngle(10, 1);
-assert(angle10 === 0, 'Gate 10 line 1 is at 0 degrees');
+const index10 = testConfig.getWheelIndex(10);
+assert(index10 === 58, 'Gate 10 is at wheel index 58 in V2 baseline (default)');
 
-const angle10line2 = testConfig.getAngle(10, 2);
-assert(angle10line2 === 0.9375, 'Gate 10 line 2 is at 0.9375 degrees');
+const index19 = testConfig.getWheelIndex(19);
+assert(index19 === 1, 'Gate 19 is at wheel index 1 in V2 baseline');
+
+// Test 9: getAngle() calculation (with V2 baseline)
+const angle41 = testConfig.getAngle(41, 1);
+assert(angle41 === 0, 'Gate 41 line 1 is at 0 degrees (V2 baseline)');
+
+const angle41line2 = testConfig.getAngle(41, 2);
+assert(angle41line2 === 0.9375, 'Gate 41 line 2 is at 0.9375 degrees');
 
 // Test 10: Rotation offset works
 console.log('\nTest Group 5: Rotation Offset\n');
 const rotatedConfig = new WheelConfiguration({
-  sequenceName: 'hd-standard',
+  sequenceName: 'v2-baseline',
   rotationOffset: 45
 });
-const angleRotated = rotatedConfig.getAngle(10, 1);
-assert(angleRotated === 45, 'Rotation offset adds to angle');
+const angleRotated = rotatedConfig.getAngle(41, 1);
+assert(angleRotated === 45, 'Rotation offset adds to angle (Gate 41 now at 45° instead of 0°)');
 
 // Test 11: Clockwise direction reverses index
 console.log('\nTest Group 6: Direction\n');
 const clockwiseConfig = new WheelConfiguration({
-  sequenceName: 'hd-standard',
+  sequenceName: 'v2-baseline',
   direction: 'clockwise'
 });
 // In clockwise, indices are reversed
-const cwIndex = clockwiseConfig.getWheelIndex(10);
+const cwIndex = clockwiseConfig.getWheelIndex(41);
 // Should be different from counter-clockwise
-assert(cwIndex !== index10, 'Clockwise direction changes wheel index');
+assert(cwIndex !== index41, 'Clockwise direction changes wheel index');
 
-// Test 12: getGateAtAngle() reverse lookup
+// Test 12: getGateAtAngle() reverse lookup (V2 baseline)
 console.log('\nTest Group 7: Reverse Lookup\n');
 const ccwConfig = new WheelConfiguration();
 const gateAt0 = ccwConfig.getGateAtAngle(0);
-assert(gateAt0.gateNumber === 10, 'Reverse lookup: angle 0 = gate 10');
+assert(gateAt0.gateNumber === 41, 'Reverse lookup: angle 0 = gate 41 (V2 baseline)');
 assert(gateAt0.lineNumber === 1, 'Reverse lookup: angle 0 = line 1');
 
 // Test 13: All 64 gates are unique in sequence
 console.log('\nTest Group 8: Sequence Integrity\n');
-const hdSeq = WheelConfiguration.fromPreset('hd-standard');
-const uniqueGates = new Set(hdSeq.sequence);
-assert(uniqueGates.size === 64, 'HD sequence has 64 unique gates');
+const v2Seq = WheelConfiguration.fromPreset('v2-baseline');
+const uniqueGatesV2 = new Set(v2Seq.sequence);
+assert(uniqueGatesV2.size === 64, 'V2 baseline sequence has 64 unique gates');
 
-const ichingSeq = WheelConfiguration.fromPreset('iching-traditional');
-const uniqueGates2 = new Set(ichingSeq.sequence);
-assert(uniqueGates2.size === 64, 'I Ching sequence has 64 unique gates');
+const hdSeq = WheelConfiguration.fromPreset('hd-standard');
+const uniqueGatesHD = new Set(hdSeq.sequence);
+assert(uniqueGatesHD.size === 64, 'HD standard sequence has 64 unique gates');
 
 // Test 14: All gates 1-64 are present
 let allGatesPresent = true;
 for (let i = 1; i <= 64; i++) {
-  if (!hdSeq.sequence.includes(i)) {
+  if (!v2Seq.sequence.includes(i)) {
     allGatesPresent = false;
     break;
   }
 }
-assert(allGatesPresent, 'HD sequence contains all gates 1-64');
+assert(allGatesPresent, 'V2 baseline sequence contains all gates 1-64');
 
 // Test 15: Export config works
 console.log('\nTest Group 9: Export\n');
 const exportedConfig = testConfig.exportConfig();
-assert(exportedConfig.sequenceName === 'hd-standard', 'Export includes sequence name');
+assert(exportedConfig.sequenceName === 'v2-baseline', 'Export includes sequence name (v2-baseline default)');
 assert(Array.isArray(exportedConfig.sequence), 'Export includes sequence array');
 assert(exportedConfig.direction === 'counter-clockwise', 'Export includes direction');
 
@@ -498,34 +510,35 @@ console.log('DIRECTION HYPOTHESIS TEST');
 console.log('Testing clockwise vs counter-clockwise against known coordinates');
 console.log('='.repeat(60) + '\n');
 
-// Known coordinates from SVG master file
-// These are VERIFIED correct positions from the Illustrator master
+// Known coordinates from V2 baseline (ACTUAL current behavior)
+// These are VERIFIED positions from core/root-system/gate-sequence.json
 const KNOWN_POSITIONS = {
-  10: {
+  41: {
     expectedAngle: 0,
     position: 'NORTH',
-    description: 'Gate 10 should be at north (0°)'
+    description: 'Gate 41 at north (0°) - V2 baseline position 0'
   },
-  11: {
+  19: {
     expectedAngle: 5.625,
     position: 'Just past north',
-    description: 'Gate 11 should be at 5.625° (position 1 × 0.9375° × 6 lines)'
+    description: 'Gate 19 at 5.625° - V2 baseline position 1'
   },
-  41: {
+  10: {
     expectedAngle: 326.25,
     position: 'Near north (counter-clockwise from north)',
-    description: 'Gate 41 should be at ~326° (position 58)'
+    description: 'Gate 10 at ~326° - V2 baseline position 58'
   }
-  // Add more known positions if you have them from SVG verification
+  // These are the ACTUAL V2 positions - do not change!
+  // If testing HD standard sequence, use different test
 };
 
 function testDirection(direction) {
   console.log(`\nTesting with direction: ${direction.toUpperCase()}`);
   console.log('-'.repeat(60));
 
-  // Set configuration
+  // Set configuration (using V2 baseline for testing)
   positioning.setWheelConfiguration({
-    sequenceName: 'hd-standard',
+    sequenceName: 'v2-baseline',
     direction: direction,
     rotationOffset: 0
   });
@@ -611,12 +624,20 @@ console.log('='.repeat(60) + '\n');
 
 // Test that default config matches V2 behavior
 const positioning = require('../core/root-system/positioning-algorithm.js');
-const pos = positioning.getWheelPosition(10, 1);
-assertTest(pos.angle === 0, 'Gate 10 at 0° with default config (V2 compatible)');
 
+// V2 baseline has Gate 41 at position 0 (angle 0°)
 const pos41 = positioning.getWheelPosition(41, 1);
-// Gate 41 should be at position 58 in HD standard
-assertTest(pos41.wheelIndex === 58, 'Gate 41 at position 58 (V2 compatible)');
+assertTest(pos41.angle === 0, 'Gate 41 at 0° with default config (V2 compatible)');
+assertTest(pos41.wheelIndex === 0, 'Gate 41 at position 0 (V2 compatible)');
+
+// V2 baseline has Gate 10 at position 58 (angle ~326.25°)
+const pos10 = positioning.getWheelPosition(10, 1);
+assertTest(pos10.wheelIndex === 58, 'Gate 10 at position 58 (V2 compatible)');
+assertTest(Math.abs(pos10.angle - 326.25) < 0.01, 'Gate 10 at ~326.25° (V2 compatible)');
+
+// V2 baseline has Gate 19 at position 1
+const pos19 = positioning.getWheelPosition(19, 1);
+assertTest(pos19.wheelIndex === 1, 'Gate 19 at position 1 (V2 compatible)');
 ```
 
 ### Task 2.7: Update Package.json Scripts
@@ -659,8 +680,8 @@ git add .
 git commit -m "Session 02: Configuration system implementation
 
 - Create WheelConfiguration class with full configuration support
-- Add hd-standard.json sequence (Gates 10/11 at north)
-- Add iching-traditional.json sequence (Gate 41 at position 0)
+- Add v2-baseline.json sequence (Gate 41 at position 0 - DEFAULT)
+- Add hd-standard.json sequence (Gates 10/11 at north - ALTERNATIVE)
 - Update positioning-algorithm.js to use configurable wheel
 - Implement setWheelConfiguration() and getWheelConfiguration()
 - Support rotation offset, direction, and swappable sequences
@@ -689,10 +710,11 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 ### Code Verification:
 - [ ] `wheel-config.js` created with WheelConfiguration class
-- [ ] Both sequence files created (hd-standard, iching-traditional)
-- [ ] Sequences README explains usage
+- [ ] Sequence files created (v2-baseline as default, hd-standard as alternative)
+- [ ] Sequences README explains usage and makes default clear
 - [ ] `positioning-algorithm.js` updated to use config
 - [ ] New methods exported: setWheelConfiguration, getWheelConfiguration
+- [ ] Default configuration is v2-baseline (Gate 41 at position 0)
 
 ### Test Verification:
 - [ ] Configuration tests pass (15+ tests)
@@ -735,9 +757,10 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Issue: Tests fail with new positioning
 
 **Solution:**
-- Verify default config is 'hd-standard'
-- Check that hd-standard sequence matches old gate-sequence.json
-- Ensure angle calculations identical to V2
+- Verify default config is 'v2-baseline' (NOT 'hd-standard')
+- Check that v2-baseline sequence matches old gate-sequence.json exactly
+- Ensure angle calculations identical to V2 (Gate 41 at 0°, Gate 10 at 326.25°)
+- Remember: hd-standard is an ALTERNATIVE, not the default
 
 ### Issue: Direction test is inconclusive
 
@@ -762,11 +785,11 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 Deliverables:
 - [x] WheelConfiguration class implemented
-- [x] HD standard and I Ching traditional sequences
+- [x] V2 baseline (default) and HD standard (alternative) sequences
 - [x] Updated positioning algorithm with config support
 - [x] Configuration tests passing
 - [x] Direction hypothesis tested
-- [x] All 89 V2 tests still passing
+- [x] All 89 V2 tests still passing (backward compatible)
 
 Tests: 104+ passing (89 existing + 15 config tests)
 Duration: [X hours]

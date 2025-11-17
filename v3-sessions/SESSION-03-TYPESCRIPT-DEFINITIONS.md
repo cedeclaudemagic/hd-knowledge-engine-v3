@@ -91,7 +91,7 @@ Create complete TypeScript definitions for the HD Knowledge Engine V3, providing
  * Wheel Configuration Types
  */
 
-export type SequenceName = 'hd-standard' | 'iching-traditional' | 'custom';
+export type SequenceName = 'v2-baseline' | 'hd-standard' | 'custom';
 export type WheelDirection = 'clockwise' | 'counter-clockwise';
 
 export interface WheelConfigOptions {
