@@ -1,0 +1,130 @@
+{
+  "systemName": "The 4 Quarters",
+  "version": "1.0.0",
+  "description": "The four quarters of the mandala representing the fundamental evolutionary journey from individual mutation through purpose, relationship, and ultimately to collective civilization. Derived from the first 2 binary bits of each hexagram pattern.",
+  "completeness": "full",
+  "dataArchitecture": "grouping",
+  "totalGroups": 4,
+  "gatesPerGroup": 16,
+  "mathematicalFoundation": {
+    "principle": "Binary string position 0-1 determines quarter assignment",
+    "calculation": "First 2 bits of binary pattern (bottom 2 hexagram lines)",
+    "distribution": "64 gates ÷ 4 quarters = 16 gates per quarter"
+  },
+  "mappings": [
+    {
+      "groupName": "Mutation",
+      "binaryPattern": "11",
+      "codonLetter": "A",
+      "gatesPerQuarter": 16,
+      "wheelPosition": {
+        "startGate": 13,
+        "endGate": 24,
+        "arcDescription": "Quarter of Mutation spans from Gate 13 (Fellowship) to Gate 24 (Rationalization)"
+      },
+      "knowledge": {
+        "purpose": "Transformation through spontaneous mutation and empowered individuation",
+        "theme": "Initiation through metamorphosis - the journey of radical personal transformation",
+        "quality": "Transformative, unpredictable, evolutionary, empowering, breakthrough-oriented",
+        "direction": "Individual empowerment through mutation and radical change",
+        "gates": "All gates with binary patterns starting 11 (Yang-Yang - maximum assertive energy)",
+        "description": "The Quarter of Mutation initiates the evolutionary cycle through spontaneous transformation and empowered individuation. This quarter represents the raw creative force of change itself - unpredictable, transformative, and ultimately empowering. It is the realm where consciousness breaks free from old patterns through the pure power of mutation, creating entirely new possibilities that did not exist before.",
+        "evolutionaryRole": "Mutation provides the essential randomness and variation that makes evolution possible. Without mutation, there would be no change, no adaptation, no new forms emerging. This quarter holds the keys to breakthrough transformation.",
+        "consciousness": "The consciousness of mutation is about embracing the unknown, surrendering to transformation, and trusting the evolutionary impulse. It requires courage to release what is known for what is becoming.",
+        "keynote": "Empowerment through transformation",
+        "godheadTheme": "The God of Transformation - embracing the chaos of change as sacred evolutionary force"
+      }
+    },
+    {
+      "groupName": "Initiation",
+      "binaryPattern": "10",
+      "codonLetter": "C",
+      "gatesPerQuarter": 16,
+      "wheelPosition": {
+        "startGate": 25,
+        "endGate": 2,
+        "arcDescription": "Quarter of Initiation spans from Gate 25 (Innocence) to Gate 2 (Receptivity)"
+      },
+      "knowledge": {
+        "purpose": "Discovering and expressing individual purpose through initiation into one's unique path",
+        "theme": "Purpose through initiation - the journey of discovering what you are here to do",
+        "quality": "Purposeful, directed, intentional, self-actualizing, meaning-seeking",
+        "direction": "Individual purpose through intentional initiation and self-discovery",
+        "gates": "All gates with binary patterns starting 10 (Yang-Yin - initiating energy seeking form)",
+        "description": "The Quarter of Initiation guides individuals to discover and express their unique purpose in the world. This quarter represents the journey of finding meaning through intention and action. It is the realm where consciousness moves from mutation's chaos into purposeful direction, where the individual discovers their reason for being and begins to live it authentically.",
+        "evolutionaryRole": "Initiation provides the essential direction and purpose that gives mutation meaningful expression. Without purposeful initiation, mutation would be random chaos without significance. This quarter transforms raw potential into meaningful action.",
+        "consciousness": "The consciousness of initiation is about discovering your unique gift, finding your true purpose, and having the courage to express it in the world. It requires commitment to walk your own path regardless of external validation.",
+        "keynote": "Purpose through self-initiation",
+        "godheadTheme": "The God of Purpose - finding sacred meaning through discovering and living your unique calling"
+      }
+    },
+    {
+      "groupName": "Duality",
+      "binaryPattern": "01",
+      "codonLetter": "G",
+      "gatesPerQuarter": 16,
+      "wheelPosition": {
+        "startGate": 7,
+        "endGate": 33,
+        "arcDescription": "Quarter of Duality spans from Gate 7 (Role) to Gate 33 (Privacy)"
+      },
+      "knowledge": {
+        "purpose": "Understanding consciousness through relationship, bonding, and the dance of duality",
+        "theme": "Bonding through duality - the journey of discovering self through the mirror of the other",
+        "quality": "Relational, bonding, connecting, reflective, intimate, tribal",
+        "direction": "Tribal purpose through relationship and authentic bonding",
+        "gates": "All gates with binary patterns starting 01 (Yin-Yang - receptive energy awakening)",
+        "description": "The Quarter of Duality explores consciousness through the sacred mirror of relationship. This quarter represents the journey of discovering who you are through the reflection of others. It is the realm where individual purpose finds expression through bonding, where love, family, and tribe provide the container for consciousness to know itself through duality.",
+        "evolutionaryRole": "Duality provides the essential relational context that allows consciousness to see itself. Without the mirror of relationship, individual purpose remains abstract and unexpressed. This quarter grounds purpose in the reality of human connection.",
+        "consciousness": "The consciousness of duality is about authentic bonding, seeing yourself clearly through relationship, and understanding that love and intimacy are gateways to knowing truth. It requires vulnerability to be truly seen by another.",
+        "keynote": "Relationship as mirror of consciousness",
+        "godheadTheme": "The God of Relationship - finding sacred truth through the mirror of authentic human bonding"
+      }
+    },
+    {
+      "groupName": "Civilisation",
+      "binaryPattern": "00",
+      "codonLetter": "U",
+      "gatesPerQuarter": 16,
+      "wheelPosition": {
+        "startGate": 15,
+        "endGate": 12,
+        "arcDescription": "Quarter of Civilisation spans from Gate 15 (Extremes) to Gate 12 (Caution)"
+      },
+      "knowledge": {
+        "purpose": "Creating form, structure, and systems that serve the collective benefit of all",
+        "theme": "Form through civilization - the journey of building containers for consciousness",
+        "quality": "Structural, systematic, collective, organizing, form-building, civilizing",
+        "direction": "Collective purpose through creating forms and structures that serve humanity",
+        "gates": "All gates with binary patterns starting 00 (Yin-Yin - maximum receptive/formative energy)",
+        "description": "The Quarter of Civilisation completes the evolutionary cycle by creating structures and systems that serve the collective good. This quarter represents the journey of building civilization - the laws, forms, institutions, and shared agreements that allow human consciousness to flourish at scale. It is the realm where individual mutation, purpose, and relationship find expression in collective structures that benefit all of humanity.",
+        "evolutionaryRole": "Civilisation provides the essential structures and systems that allow evolutionary gains to be preserved and transmitted. Without civilizing form, each generation would need to start over. This quarter builds the containers that hold consciousness.",
+        "consciousness": "The consciousness of civilization is about creating structures that serve the collective, understanding natural law and timing, and building forms that endure. It requires wisdom to create systems that enhance rather than constrain consciousness.",
+        "keynote": "Form in service of the collective",
+        "godheadTheme": "The God of Form - creating sacred structures that serve the evolution of all consciousness"
+      }
+    }
+  ],
+  "quarterRelationships": {
+    "opposites": {
+      "Mutation-Civilisation": "Mutation (11) and Civilisation (00) are perfect binary opposites, representing the polarity between chaos/transformation and order/structure. Mutation breaks down forms; Civilisation builds them up.",
+      "Initiation-Duality": "Initiation (10) and Duality (01) are perfect binary opposites, representing the polarity between individual purpose and relational bonding. Initiation moves toward self; Duality moves toward other."
+    },
+    "flow": "The quarters flow in evolutionary sequence: Mutation creates raw change → Initiation gives it direction → Duality grounds it in relationship → Civilisation structures it for collective benefit. This cycle repeats eternally.",
+    "completeness": "The four quarters represent a complete evolutionary cycle: Individual transformation (Mutation) → Individual purpose (Initiation) → Tribal bonding (Duality) → Collective structure (Civilisation)"
+  },
+  "notes": [
+    "The quarters are calculated from the first 2 bits of each gate's binary pattern",
+    "This represents the bottom 2 lines of the hexagram (reading binary left-to-right = lines bottom-up)",
+    "Each quarter contains exactly 16 gates (64 ÷ 4 = 16)",
+    "The binary opposites create natural polarities: 11↔00 (Mutation↔Civilisation) and 10↔01 (Initiation↔Duality)",
+    "The quarters form the broadest grouping system in Human Design, encompassing all other systems",
+    "Traditional Human Design teaching associates each quarter with specific seasons and themes from nature"
+  ],
+  "sources": [
+    "Ra Uru Hu - The Human Design System",
+    "Gene Keys - The Four Quarters of the Mandala",
+    "Traditional I-Ching quarter teachings",
+    "Binary-first mathematical architecture of HD Knowledge Engine"
+  ]
+}

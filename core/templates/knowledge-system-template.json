@@ -1,0 +1,28 @@
+{
+  "systemName": "Your Knowledge System Name",
+  "version": "1.0.0",
+  "description": "Description of what this knowledge system provides",
+  "completeness": "full",
+  "notes": "Replace 'full' with 'partial' if not all gates are covered",
+
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "exampleField1": "Your system-specific data",
+        "exampleField2": "Can be any structure",
+        "nested": {
+          "data": "Works fine"
+        }
+      }
+    }
+  ],
+
+  "documentation": {
+    "dockingCoordinates": "gateNumber (required), lineNumber (optional if gate-level)",
+    "knowledgeStructure": "Put your system's data in the 'knowledge' field",
+    "validation": "Run: node core/templates/verify-template.js your-mapping-file.json",
+    "example": "See examples/gene-keys-mapping-example.json"
+  }
+}

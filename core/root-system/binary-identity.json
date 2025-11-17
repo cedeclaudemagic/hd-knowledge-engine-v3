@@ -1,0 +1,265 @@
+{
+  "description": "Root Binary Identity System - Immutable Mathematical Foundation",
+  "version": "1.0.0",
+  "totalGates": 64,
+  "totalLines": 384,
+  "lastUpdated": "2025-11-10",
+  "gates": {
+    "1": {
+      "binary": "111111",
+      "codon": "AAA"
+    },
+    "2": {
+      "binary": "000000",
+      "codon": "UUU"
+    },
+    "3": {
+      "binary": "100010",
+      "codon": "CGU"
+    },
+    "4": {
+      "binary": "010001",
+      "codon": "GUC"
+    },
+    "5": {
+      "binary": "111010",
+      "codon": "ACA"
+    },
+    "6": {
+      "binary": "010111",
+      "codon": "GAA"
+    },
+    "7": {
+      "binary": "010000",
+      "codon": "GUU"
+    },
+    "8": {
+      "binary": "000010",
+      "codon": "UCU"
+    },
+    "9": {
+      "binary": "111011",
+      "codon": "AGA"
+    },
+    "10": {
+      "binary": "110111",
+      "codon": "AAG"
+    },
+    "11": {
+      "binary": "111000",
+      "codon": "AUU"
+    },
+    "12": {
+      "binary": "000111",
+      "codon": "UAA"
+    },
+    "13": {
+      "binary": "101111",
+      "codon": "CAA"
+    },
+    "14": {
+      "binary": "111101",
+      "codon": "AGC"
+    },
+    "15": {
+      "binary": "001000",
+      "codon": "GCU"
+    },
+    "16": {
+      "binary": "000100",
+      "codon": "UGU"
+    },
+    "17": {
+      "binary": "100110",
+      "codon": "CGG"
+    },
+    "18": {
+      "binary": "011001",
+      "codon": "GGC"
+    },
+    "19": {
+      "binary": "110000",
+      "codon": "AUU"
+    },
+    "20": {
+      "binary": "000011",
+      "codon": "UGA"
+    },
+    "21": {
+      "binary": "100101",
+      "codon": "CGC"
+    },
+    "22": {
+      "binary": "101001",
+      "codon": "CUC"
+    },
+    "23": {
+      "binary": "000001",
+      "codon": "UUC"
+    },
+    "24": {
+      "binary": "100000",
+      "codon": "CUU"
+    },
+    "25": {
+      "binary": "100111",
+      "codon": "CGA"
+    },
+    "26": {
+      "binary": "111001",
+      "codon": "AUC"
+    },
+    "27": {
+      "binary": "100001",
+      "codon": "CUG"
+    },
+    "28": {
+      "binary": "011110",
+      "codon": "GAU"
+    },
+    "29": {
+      "binary": "010010",
+      "codon": "GGU"
+    },
+    "30": {
+      "binary": "101101",
+      "codon": "CAG"
+    },
+    "31": {
+      "binary": "001110",
+      "codon": "GAU"
+    },
+    "32": {
+      "binary": "011100",
+      "codon": "GAU"
+    },
+    "33": {
+      "binary": "001111",
+      "codon": "GAA"
+    },
+    "34": {
+      "binary": "111100",
+      "codon": "AUU"
+    },
+    "35": {
+      "binary": "000101",
+      "codon": "UGC"
+    },
+    "36": {
+      "binary": "101000",
+      "codon": "CUU"
+    },
+    "37": {
+      "binary": "101011",
+      "codon": "CGA"
+    },
+    "38": {
+      "binary": "110101",
+      "codon": "AGC"
+    },
+    "39": {
+      "binary": "001010",
+      "codon": "GCU"
+    },
+    "40": {
+      "binary": "010100",
+      "codon": "GGU"
+    },
+    "41": {
+      "binary": "110001",
+      "codon": "AUG"
+    },
+    "42": {
+      "binary": "100011",
+      "codon": "CUA"
+    },
+    "43": {
+      "binary": "111110",
+      "codon": "AAU"
+    },
+    "44": {
+      "binary": "011111",
+      "codon": "GAA"
+    },
+    "45": {
+      "binary": "000110",
+      "codon": "UAU"
+    },
+    "46": {
+      "binary": "011000",
+      "codon": "GCU"
+    },
+    "47": {
+      "binary": "010110",
+      "codon": "GAU"
+    },
+    "48": {
+      "binary": "011010",
+      "codon": "GCG"
+    },
+    "49": {
+      "binary": "101110",
+      "codon": "CAU"
+    },
+    "50": {
+      "binary": "011101",
+      "codon": "GAG"
+    },
+    "51": {
+      "binary": "100100",
+      "codon": "CGU"
+    },
+    "52": {
+      "binary": "001001",
+      "codon": "GGC"
+    },
+    "53": {
+      "binary": "001011",
+      "codon": "GGA"
+    },
+    "54": {
+      "binary": "110100",
+      "codon": "AGU"
+    },
+    "55": {
+      "binary": "101100",
+      "codon": "CAU"
+    },
+    "56": {
+      "binary": "001101",
+      "codon": "GAG"
+    },
+    "57": {
+      "binary": "011011",
+      "codon": "GGA"
+    },
+    "58": {
+      "binary": "110110",
+      "codon": "AAU"
+    },
+    "59": {
+      "binary": "010011",
+      "codon": "GUA"
+    },
+    "60": {
+      "binary": "110010",
+      "codon": "AGU"
+    },
+    "61": {
+      "binary": "110011",
+      "codon": "AUA"
+    },
+    "62": {
+      "binary": "001100",
+      "codon": "GAU"
+    },
+    "63": {
+      "binary": "101010",
+      "codon": "CCU"
+    },
+    "64": {
+      "binary": "010101",
+      "codon": "GGG"
+    }
+  }
+}

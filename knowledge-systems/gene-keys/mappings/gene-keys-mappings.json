@@ -1,0 +1,712 @@
+{
+  "systemName": "Gene Keys",
+  "version": "1.0.0",
+  "description": "Gene Keys Spectrum of Consciousness - Shadow, Gift, and Siddhi progression for all 64 gates",
+  "completeness": "full",
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Entropy",
+        "gift": "Freshness",
+        "siddhi": "Beauty",
+        "introverted": "Depressive",
+        "extroverted": "Frenetic"
+      }
+    },
+    {
+      "gateNumber": 2,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dislocation",
+        "gift": "Orientation",
+        "siddhi": "Unity",
+        "introverted": "Lost",
+        "extroverted": "Regimented"
+      }
+    },
+    {
+      "gateNumber": 3,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Chaos",
+        "gift": "Innovation",
+        "siddhi": "Innocence",
+        "introverted": "Anal",
+        "extroverted": "Disordered"
+      }
+    },
+    {
+      "gateNumber": 4,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Intolerance",
+        "gift": "Understanding",
+        "siddhi": "Forgiveness",
+        "introverted": "Apathetic",
+        "extroverted": "Nit-Picking"
+      }
+    },
+    {
+      "gateNumber": 5,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Impatience",
+        "gift": "Patience",
+        "siddhi": "Timelessness",
+        "introverted": "Pessimistic",
+        "extroverted": "Pushy"
+      }
+    },
+    {
+      "gateNumber": 6,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Conflict",
+        "gift": "Diplomacy",
+        "siddhi": "Peace",
+        "introverted": "Over-attentive",
+        "extroverted": "Tactless"
+      }
+    },
+    {
+      "gateNumber": 7,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Division",
+        "gift": "Guidance",
+        "siddhi": "Virtue",
+        "introverted": "Hidden",
+        "extroverted": "Dictatorial"
+      }
+    },
+    {
+      "gateNumber": 8,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Mediocrity",
+        "gift": "Style",
+        "siddhi": "Exquisiteness",
+        "introverted": "Wooden",
+        "extroverted": "Artificial"
+      }
+    },
+    {
+      "gateNumber": 9,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Inertia",
+        "gift": "Determination",
+        "siddhi": "Invincibility",
+        "introverted": "Reluctant",
+        "extroverted": "Diverted"
+      }
+    },
+    {
+      "gateNumber": 10,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Self-Obsession",
+        "gift": "Naturalness",
+        "siddhi": "Being",
+        "introverted": "Self-denying",
+        "extroverted": "Narcissistic"
+      }
+    },
+    {
+      "gateNumber": 11,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Obscurity",
+        "gift": "Idealism",
+        "siddhi": "Light",
+        "introverted": "Fantasising",
+        "extroverted": "Deluded"
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Vanity",
+        "gift": "Discrimination",
+        "siddhi": "Purity",
+        "introverted": "Elitist",
+        "extroverted": "Malicious"
+      }
+    },
+    {
+      "gateNumber": 13,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Discord",
+        "gift": "Discernment",
+        "siddhi": "Empathy",
+        "introverted": "Permissive",
+        "extroverted": "Narrow-Minded"
+      }
+    },
+    {
+      "gateNumber": 14,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Compromise",
+        "gift": "Competence",
+        "siddhi": "Bounteousness",
+        "introverted": "Impotent",
+        "extroverted": "Enslaved"
+      }
+    },
+    {
+      "gateNumber": 15,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dullness",
+        "gift": "Magnetism",
+        "siddhi": "Florescence",
+        "introverted": "Empty",
+        "extroverted": "Extremist"
+      }
+    },
+    {
+      "gateNumber": 16,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Indifference",
+        "gift": "Versatility",
+        "siddhi": "Mastery",
+        "introverted": "Gullible",
+        "extroverted": "Self-deluded"
+      }
+    },
+    {
+      "gateNumber": 17,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Opinion",
+        "gift": "Far-Sightedness",
+        "siddhi": "Omniscience",
+        "introverted": "Self-critical",
+        "extroverted": "Opinionated"
+      }
+    },
+    {
+      "gateNumber": 18,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Judgement",
+        "gift": "Integrity",
+        "siddhi": "Perfection",
+        "introverted": "Inferiority",
+        "extroverted": "Superiority"
+      }
+    },
+    {
+      "gateNumber": 19,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Co-Dependence",
+        "gift": "Sensitivity",
+        "siddhi": "Sacrifice",
+        "introverted": "Needy",
+        "extroverted": "Isolated"
+      }
+    },
+    {
+      "gateNumber": 20,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Superficiality",
+        "gift": "Self Assurance",
+        "siddhi": "Presence",
+        "introverted": "Absent",
+        "extroverted": "Hectic"
+      }
+    },
+    {
+      "gateNumber": 21,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Control",
+        "gift": "Authority",
+        "siddhi": "Valour",
+        "introverted": "Submissive",
+        "extroverted": "Controlling"
+      }
+    },
+    {
+      "gateNumber": 22,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dishonour",
+        "gift": "Graciousness",
+        "siddhi": "Grace",
+        "introverted": "Proper",
+        "extroverted": "Inappropriate"
+      }
+    },
+    {
+      "gateNumber": 23,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Complexity",
+        "gift": "Simplicity",
+        "siddhi": "Quintessence",
+        "introverted": "Dumb",
+        "extroverted": "Fragmented"
+      }
+    },
+    {
+      "gateNumber": 24,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Addiction",
+        "gift": "Invention",
+        "siddhi": "Silence",
+        "introverted": "Frozen",
+        "extroverted": "Anxious"
+      }
+    },
+    {
+      "gateNumber": 25,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Constriction",
+        "gift": "Acceptance",
+        "siddhi": "Universal Love",
+        "introverted": "Ignorant",
+        "extroverted": "Cold"
+      }
+    },
+    {
+      "gateNumber": 26,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Pride",
+        "gift": "Artfulness",
+        "siddhi": "Invisibility",
+        "introverted": "Manipulative",
+        "extroverted": "Boastful"
+      }
+    },
+    {
+      "gateNumber": 27,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Selfishness",
+        "gift": "Altruism",
+        "siddhi": "Selflessness",
+        "introverted": "Self-sacrificing",
+        "extroverted": "Self-Centred"
+      }
+    },
+    {
+      "gateNumber": 28,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Purposelessness",
+        "gift": "Totality",
+        "siddhi": "Immortality",
+        "introverted": "Hollow",
+        "extroverted": "Gambling"
+      }
+    },
+    {
+      "gateNumber": 29,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Half-Heartedness",
+        "gift": "Commitment",
+        "siddhi": "Devotion",
+        "introverted": "Over-Committing",
+        "extroverted": "Unreliable"
+      }
+    },
+    {
+      "gateNumber": 30,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Desire",
+        "gift": "Lightness",
+        "siddhi": "Rapture",
+        "introverted": "Over-Serious",
+        "extroverted": "Flippant"
+      }
+    },
+    {
+      "gateNumber": 31,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Arrogance",
+        "gift": "Leadership",
+        "siddhi": "Humility",
+        "introverted": "Deferring",
+        "extroverted": "Scornful"
+      }
+    },
+    {
+      "gateNumber": 32,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Failure",
+        "gift": "Preservation",
+        "siddhi": "Veneration",
+        "introverted": "Fundamentalist",
+        "extroverted": "Disjointed"
+      }
+    },
+    {
+      "gateNumber": 33,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Forgetting",
+        "gift": "Mindfulness",
+        "siddhi": "Revelation",
+        "introverted": "Reserved",
+        "extroverted": "Censorious"
+      }
+    },
+    {
+      "gateNumber": 34,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Force",
+        "gift": "Strength",
+        "siddhi": "Majesty",
+        "introverted": "Self-effacing",
+        "extroverted": "Bullish"
+      }
+    },
+    {
+      "gateNumber": 35,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Hunger",
+        "gift": "Adventure",
+        "siddhi": "Boundlessness",
+        "introverted": "Bored",
+        "extroverted": "Manic"
+      }
+    },
+    {
+      "gateNumber": 36,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Turbulence",
+        "gift": "Humanity",
+        "siddhi": "Compassion",
+        "introverted": "Nervousness",
+        "extroverted": "Crisis Prone"
+      }
+    },
+    {
+      "gateNumber": 37,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Weakness",
+        "gift": "Equality",
+        "siddhi": "Tenderness",
+        "introverted": "Over-Sentimental",
+        "extroverted": "Cruel"
+      }
+    },
+    {
+      "gateNumber": 38,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Struggle",
+        "gift": "Perseverance",
+        "siddhi": "Honour",
+        "introverted": "Defeatist",
+        "extroverted": "Aggressive"
+      }
+    },
+    {
+      "gateNumber": 39,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Provocation",
+        "gift": "Dynamism",
+        "siddhi": "Liberation",
+        "introverted": "Trapped",
+        "extroverted": "Provocative"
+      }
+    },
+    {
+      "gateNumber": 40,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Exhaustion",
+        "gift": "Resolve",
+        "siddhi": "Divine Will",
+        "introverted": "Acquiescent",
+        "extroverted": "Contemptuous"
+      }
+    },
+    {
+      "gateNumber": 41,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Fantasy",
+        "gift": "Anticipation",
+        "siddhi": "Emanation",
+        "introverted": "Dreamy",
+        "extroverted": "Hyperactive"
+      }
+    },
+    {
+      "gateNumber": 42,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Expectation",
+        "gift": "Detachment",
+        "siddhi": "Celebration",
+        "introverted": "Grasping",
+        "extroverted": "Flaky"
+      }
+    },
+    {
+      "gateNumber": 43,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Deafness",
+        "gift": "Insight",
+        "siddhi": "Epiphany",
+        "introverted": "Worried",
+        "extroverted": "Noisy"
+      }
+    },
+    {
+      "gateNumber": 44,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Interference",
+        "gift": "Teamwork",
+        "siddhi": "Synarchy",
+        "introverted": "Distrustful",
+        "extroverted": "Misleading"
+      }
+    },
+    {
+      "gateNumber": 45,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dominance",
+        "gift": "Synergy",
+        "siddhi": "Communion",
+        "introverted": "Timid",
+        "extroverted": "Pompous"
+      }
+    },
+    {
+      "gateNumber": 46,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Seriousness",
+        "gift": "Delight",
+        "siddhi": "Ecstasy",
+        "introverted": "Frigid",
+        "extroverted": "Frivolous"
+      }
+    },
+    {
+      "gateNumber": 47,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Oppression",
+        "gift": "Transmutation",
+        "siddhi": "Transfiguration",
+        "introverted": "Hopeless",
+        "extroverted": "Dogmatic"
+      }
+    },
+    {
+      "gateNumber": 48,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Inadequacy",
+        "gift": "Resourcefulness",
+        "siddhi": "Wisdom",
+        "introverted": "Bland",
+        "extroverted": "Unscrupulous"
+      }
+    },
+    {
+      "gateNumber": 49,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Reaction",
+        "gift": "Revolution",
+        "siddhi": "Rebirth",
+        "introverted": "Inert",
+        "extroverted": "Rejecting"
+      }
+    },
+    {
+      "gateNumber": 50,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Corruption",
+        "gift": "Equilibrium",
+        "siddhi": "Harmony",
+        "introverted": "Overloaded",
+        "extroverted": "Irresponsible"
+      }
+    },
+    {
+      "gateNumber": 51,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Agitation",
+        "gift": "Initiative",
+        "siddhi": "Awakening",
+        "introverted": "Cowardly",
+        "extroverted": "Hostile"
+      }
+    },
+    {
+      "gateNumber": 52,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Stress",
+        "gift": "Restraint",
+        "siddhi": "Stillness",
+        "introverted": "Stuck",
+        "extroverted": "Restless"
+      }
+    },
+    {
+      "gateNumber": 53,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Immaturity",
+        "gift": "Expansion",
+        "siddhi": "Superabundance",
+        "introverted": "Solemn",
+        "extroverted": "Fickle"
+      }
+    },
+    {
+      "gateNumber": 54,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Greed",
+        "gift": "Aspiration",
+        "siddhi": "Ascension",
+        "introverted": "Unambitious",
+        "extroverted": "Greedy"
+      }
+    },
+    {
+      "gateNumber": 55,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Victimisation",
+        "gift": "Freedom",
+        "siddhi": "Freedom",
+        "introverted": "Complaining",
+        "extroverted": "Blaming"
+      }
+    },
+    {
+      "gateNumber": 56,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Distraction",
+        "gift": "Enrichment",
+        "siddhi": "Intoxication",
+        "introverted": "Sullen",
+        "extroverted": "Over-Stimulated"
+      }
+    },
+    {
+      "gateNumber": 57,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Unease",
+        "gift": "Intuition",
+        "siddhi": "Clarity",
+        "introverted": "Hesitant",
+        "extroverted": "Impetuous"
+      }
+    },
+    {
+      "gateNumber": 58,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dissatisfaction",
+        "gift": "Vitality",
+        "siddhi": "Bliss",
+        "introverted": "None",
+        "extroverted": "Interfering"
+      }
+    },
+    {
+      "gateNumber": 59,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Dishonesty",
+        "gift": "Intimacy",
+        "siddhi": "Transparency",
+        "introverted": "Excluded",
+        "extroverted": "Intrusive"
+      }
+    },
+    {
+      "gateNumber": 60,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Limitation",
+        "gift": "Realism",
+        "siddhi": "Justice",
+        "introverted": "Unstructured",
+        "extroverted": "Rigid"
+      }
+    },
+    {
+      "gateNumber": 61,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Psychosis",
+        "gift": "Inspiration",
+        "siddhi": "Sanctity",
+        "introverted": "Disenchanted",
+        "extroverted": "Fanatical"
+      }
+    },
+    {
+      "gateNumber": 62,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Intellect",
+        "gift": "Precision",
+        "siddhi": "Impeccability",
+        "introverted": "Obsessive",
+        "extroverted": "Pedantic"
+      }
+    },
+    {
+      "gateNumber": 63,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Doubt",
+        "gift": "Inquiry",
+        "siddhi": "Truth",
+        "introverted": "Self-Doubt",
+        "extroverted": "Suspicion"
+      }
+    },
+    {
+      "gateNumber": 64,
+      "lineNumber": null,
+      "knowledge": {
+        "shadow": "Confusion",
+        "gift": "Imagination",
+        "siddhi": "Illumination",
+        "introverted": "Imitating",
+        "extroverted": "Confused"
+      }
+    }
+  ]
+}

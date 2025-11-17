@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.log
+
+# NEVER commit backups or generated files
+backups/
+*.backup
+*.bak
+
+# Test outputs
+coverage/
+*.test.log
+
+# Build outputs (if any)
+dist/
+build/

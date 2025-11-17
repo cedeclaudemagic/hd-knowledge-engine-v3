@@ -1,0 +1,154 @@
+{
+  "systemName": "The 9 Centers",
+  "version": "1.0.0",
+  "description": "The nine energy centers in the Human Design bodygraph",
+  "completeness": "full",
+  "dataArchitecture": "structure",
+  "totalCenters": 9,
+  "mappings": [
+    {
+      "centerName": "Head",
+      "type": "Pressure",
+      "gates": [61, 63, 64],
+      "totalGates": 3,
+      "knowledge": {
+        "function": "Mental pressure and inspiration",
+        "theme": "Inspiration and mental pressure to know",
+        "question": "How do we make sense of life?",
+        "whenDefined": "Consistent mental pressure and inspiration",
+        "whenUndefined": "Variable mental pressure, open to inspiration",
+        "biology": "Pineal gland",
+        "color": "Yellow/Gold",
+        "description": "The Head Center is a pressure center that generates mental pressure to think, question, and seek answers. It creates the drive to understand and make sense of existence through concepts and questions."
+      }
+    },
+    {
+      "centerName": "Ajna",
+      "type": "Awareness",
+      "gates": [4, 11, 17, 24, 43, 47],
+      "totalGates": 6,
+      "knowledge": {
+        "function": "Mental awareness and conceptualization",
+        "theme": "Processing and making sense of information",
+        "question": "What am I certain about?",
+        "whenDefined": "Fixed way of thinking and processing",
+        "whenUndefined": "Flexible thinking, open to multiple perspectives",
+        "biology": "Pituitary gland",
+        "color": "Green",
+        "description": "The Ajna Center processes mental data and creates concepts, patterns, and perspectives. It is the center of conceptualization where we form opinions, beliefs, and mental certainty."
+      }
+    },
+    {
+      "centerName": "Throat",
+      "type": "Motor/Expression",
+      "gates": [8, 12, 16, 20, 23, 31, 33, 35, 45, 56, 62],
+      "totalGates": 11,
+      "knowledge": {
+        "function": "Expression and manifestation",
+        "theme": "Communication and action",
+        "question": "What do I need to communicate or do?",
+        "whenDefined": "Consistent way of expressing and manifesting",
+        "whenUndefined": "Variable expression, receptive to others' voices",
+        "biology": "Thyroid and parathyroid glands",
+        "color": "Brown/Tan",
+        "description": "The Throat Center is the center of communication, manifestation, and metamorphosis. It brings the inner world to the outer world through voice, action, and expression. All manifestation in Human Design flows through the Throat."
+      }
+    },
+    {
+      "centerName": "G",
+      "type": "Identity",
+      "gates": [1, 2, 7, 10, 13, 15, 25, 46],
+      "totalGates": 8,
+      "knowledge": {
+        "function": "Identity, direction, and love",
+        "theme": "Self and direction in life",
+        "question": "Who am I and where am I going?",
+        "whenDefined": "Consistent sense of identity and direction",
+        "whenUndefined": "Fluid identity, searching for direction",
+        "biology": "Liver (some say heart)",
+        "color": "Yellow/Gold",
+        "description": "The G Center is the magnetic monopole, the center of identity, direction, and love. It holds our sense of self and provides direction in life. It is the driver of the vehicle, determining our path and purpose."
+      }
+    },
+    {
+      "centerName": "Heart",
+      "type": "Motor",
+      "gates": [21, 26, 40, 51],
+      "totalGates": 4,
+      "knowledge": {
+        "function": "Willpower and ego",
+        "theme": "Material world and self-worth",
+        "question": "What is my worth?",
+        "whenDefined": "Consistent willpower and sense of self-worth",
+        "whenUndefined": "Variable willpower, proving and improving",
+        "biology": "Heart, stomach, thymus",
+        "color": "Red/Maroon",
+        "description": "The Heart (Ego/Will) Center is about willpower, promises, and material world manifestation. It is the center of the ego and the small self, dealing with self-worth, value, and the ability to make and keep commitments."
+      }
+    },
+    {
+      "centerName": "Sacral",
+      "type": "Motor",
+      "gates": [3, 5, 9, 14, 27, 29, 34, 42, 59],
+      "totalGates": 9,
+      "knowledge": {
+        "function": "Life force and sexuality",
+        "theme": "Work, sexuality, and life force energy",
+        "question": "What work is sustainable for me?",
+        "whenDefined": "Consistent life force energy (Generator/MG)",
+        "whenUndefined": "No consistent access to life force (Projector/Manifestor/Reflector)",
+        "biology": "Ovaries/Testes",
+        "color": "Red/Orange",
+        "description": "The Sacral Center is the most powerful motor, providing life force and sexual energy. It is the generator of life itself, creating sustainable energy for work and reproduction. Only Generators and Manifesting Generators have this center defined."
+      }
+    },
+    {
+      "centerName": "Solar Plexus",
+      "type": "Motor/Awareness",
+      "gates": [6, 22, 30, 36, 37, 49, 55],
+      "totalGates": 7,
+      "knowledge": {
+        "function": "Emotions and emotional awareness",
+        "theme": "Emotional wave and sensitivity",
+        "question": "What is my emotional truth?",
+        "whenDefined": "Consistent emotional wave (needs clarity over time)",
+        "whenUndefined": "Emotionally open, absorbing others' emotions",
+        "biology": "Kidneys, pancreas, nervous system",
+        "color": "Yellow/Gold",
+        "description": "The Solar Plexus is the center of emotions, creating waves of feeling over time. It is evolving to become the spirit awareness center. When defined, emotional clarity requires riding the wave and waiting for clarity over time."
+      }
+    },
+    {
+      "centerName": "Spleen",
+      "type": "Awareness",
+      "gates": [18, 28, 32, 44, 48, 50, 57],
+      "totalGates": 7,
+      "knowledge": {
+        "function": "Intuition, survival, and health",
+        "theme": "In-the-moment awareness and survival",
+        "question": "Am I safe right now?",
+        "whenDefined": "Consistent intuitive awareness",
+        "whenUndefined": "Open to fears and health concerns of others",
+        "biology": "Spleen, lymphatic system, immune system",
+        "color": "Brown/Tan",
+        "description": "The Spleen is the oldest awareness center, providing survival instincts and immune function. It speaks once in the now with spontaneous intuition about safety, health, and wellbeing. Its voice is quiet and does not repeat."
+      }
+    },
+    {
+      "centerName": "Root",
+      "type": "Pressure/Motor",
+      "gates": [19, 38, 39, 41, 52, 53, 54, 58, 60],
+      "totalGates": 9,
+      "knowledge": {
+        "function": "Adrenaline and stress pressure",
+        "theme": "Pressure to act and get things done",
+        "question": "When will I be free of this pressure?",
+        "whenDefined": "Consistent adrenal pressure to complete things",
+        "whenUndefined": "Variable pressure, rushing or procrastinating",
+        "biology": "Adrenal glands",
+        "color": "Red/Maroon",
+        "description": "The Root Center generates pressure to act, evolve, and complete cycles. It is both a motor (providing fuel for action) and a pressure center (creating stress to move and accomplish). It drives us to finish what we start and evolve."
+      }
+    }
+  ]
+}

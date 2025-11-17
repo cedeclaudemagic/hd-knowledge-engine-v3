@@ -1,0 +1,969 @@
+{
+  "systemName": "Human Design Gate Names & Keywords",
+  "version": "1.0.0",
+  "description": "Ra Uru Hu's Human Design gate keywords, centers, and channel associations",
+  "completeness": "full",
+  "dataArchitecture": "gate-level",
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Creative",
+        "keyword": "Self-Expression",
+        "center": "G",
+        "description": "Creation as a primal force. The energy potential to manifest inspiration without limitation.",
+        "channel": "1-8",
+        "channelName": "Inspiration",
+        "channelKeynote": "The creative Role Model",
+        "harmonicGate": 8,
+        "harmonicGateName": "Holding Together"
+      }
+    },
+    {
+      "gateNumber": 2,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Receptive",
+        "keyword": "Direction",
+        "center": "G",
+        "description": "Receptivity as the primal base through which any response is determined. The root of action.",
+        "channel": "2-14",
+        "channelName": "The Beat",
+        "channelKeynote": "The design of being the keeper of keys",
+        "harmonicGate": 14,
+        "harmonicGateName": "Possession in Great Measure"
+      }
+    },
+    {
+      "gateNumber": 3,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Difficulty at the Beginning",
+        "keyword": "Ordering",
+        "center": "Sacral",
+        "description": "The fundamental challenge of initiation is to transcend confusion and establish order.",
+        "channel": "3-60",
+        "channelName": "Mutation",
+        "channelKeynote": "Energy which fluctuates and initiates",
+        "harmonicGate": 60,
+        "harmonicGateName": "Limitation"
+      }
+    },
+    {
+      "gateNumber": 4,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Youthful Folly",
+        "keyword": "Formulization",
+        "center": "Ajna",
+        "description": "The energy to beguile and succeed despite ignorance. Freedom from retribution.",
+        "channel": "4-63",
+        "channelName": "Logic",
+        "channelKeynote": "A design of mental ease mixed with doubt",
+        "harmonicGate": 63,
+        "harmonicGateName": "After Completion"
+      }
+    },
+    {
+      "gateNumber": 5,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Waiting",
+        "keyword": "Fixed Patterns",
+        "center": "Sacral",
+        "description": "The fundamental attunement to natural rhythms. Waiting as an active state of awareness.",
+        "channel": "5-15",
+        "channelName": "Rhythm",
+        "channelKeynote": "The design of being in the flow",
+        "harmonicGate": 15,
+        "harmonicGateName": "Modesty"
+      }
+    },
+    {
+      "gateNumber": 6,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Conflict",
+        "keyword": "Friction",
+        "center": "Solar Plexus",
+        "description": "The fundamental design component of progress. The law that growth cannot exist without friction.",
+        "channel": "6-59",
+        "channelName": "Mating",
+        "channelKeynote": "A design focused on reproduction",
+        "harmonicGate": 59,
+        "harmonicGateName": "Dispersion"
+      }
+    },
+    {
+      "gateNumber": 7,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Army",
+        "keyword": "Role of Self",
+        "center": "G",
+        "description": "The point of convergence. By design, the need for leadership to guide and order society.",
+        "channel": "7-31",
+        "channelName": "The Alpha",
+        "channelKeynote": "For 'good' or 'bad' the design of leadership",
+        "harmonicGate": 31,
+        "harmonicGateName": "Influence"
+      }
+    },
+    {
+      "gateNumber": 8,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Holding Together",
+        "keyword": "Contribution",
+        "center": "Throat",
+        "description": "The basic worth realized in contributing individual efforts to group goals.",
+        "channel": "8-1",
+        "channelName": "Inspiration",
+        "channelKeynote": "The creative Role Model",
+        "harmonicGate": 1,
+        "harmonicGateName": "The Creative"
+      }
+    },
+    {
+      "gateNumber": 9,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Taming Power of the Small",
+        "keyword": "Focus",
+        "center": "Sacral",
+        "description": "Potential can be fulfilled through detailed attention to all pertinent aspects.",
+        "channel": "9-52",
+        "channelName": "Concentration",
+        "channelKeynote": "A design of determination",
+        "harmonicGate": 52,
+        "harmonicGateName": "Keeping Still"
+      }
+    },
+    {
+      "gateNumber": 10,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Treading",
+        "keyword": "Behavior",
+        "center": "G",
+        "description": "The underlying code of behaviour which ensures successful interaction despite circumstances.",
+        "channel": null,
+        "channelName": null,
+        "channelKeynote": null,
+        "harmonicGate": "multiple",
+        "harmonicGateName": "Multiple Gates"
+      }
+    },
+    {
+      "gateNumber": 11,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Peace",
+        "keyword": "Ideas",
+        "center": "Ajna",
+        "description": "A harmonic condition in the individual or society that permits assessment before renewed action.",
+        "channel": "11-56",
+        "channelName": "Curiosity",
+        "channelKeynote": "The design of the searcher",
+        "harmonicGate": 56,
+        "harmonicGateName": "The Wanderer"
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Standstill",
+        "keyword": "Caution",
+        "center": "Throat",
+        "description": "The quality of restraint and the importance of meditation and inaction in confronting temptation.",
+        "channel": "12-22",
+        "channelName": "Openness",
+        "channelKeynote": "The design of the social being",
+        "harmonicGate": 22,
+        "harmonicGateName": "Grace"
+      }
+    },
+    {
+      "gateNumber": 13,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Fellowship",
+        "keyword": "Listener",
+        "center": "G",
+        "description": "Universal ideas and values in an ordered framework which inspires humanistic cooperation.",
+        "channel": "13-33",
+        "channelName": "The Prodigal",
+        "channelKeynote": "The design of the witness",
+        "harmonicGate": 33,
+        "harmonicGateName": "Retreat"
+      }
+    },
+    {
+      "gateNumber": 14,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Possession in Great Measure",
+        "keyword": "Power Skills",
+        "center": "Sacral",
+        "description": "The accumulation and retention of power through skilled interaction, coupling grace with control.",
+        "channel": "14-2",
+        "channelName": "The Beat",
+        "channelKeynote": "The design of being the keeper of keys",
+        "harmonicGate": 2,
+        "harmonicGateName": "The Receptive"
+      }
+    },
+    {
+      "gateNumber": 15,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Modesty",
+        "keyword": "Extremes",
+        "center": "G",
+        "description": "The quality of behaviour which expresses the proper balance between extremes.",
+        "channel": "15-5",
+        "channelName": "Rhythm",
+        "channelKeynote": "The design of being in the flow",
+        "harmonicGate": 5,
+        "harmonicGateName": "Waiting"
+      }
+    },
+    {
+      "gateNumber": 16,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Enthusiasm",
+        "keyword": "Skills",
+        "center": "Throat",
+        "description": "The great art of enriching life by the harmonic channelling of energy.",
+        "channel": "16-48",
+        "channelName": "The Wave Length",
+        "channelKeynote": "A design of talent",
+        "harmonicGate": 48,
+        "harmonicGateName": "The Well"
+      }
+    },
+    {
+      "gateNumber": 17,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Following",
+        "keyword": "Opinions",
+        "center": "Ajna",
+        "description": "The ancient law that those who wish to rule must know how to serve.",
+        "channel": "17-62",
+        "channelName": "Acceptance",
+        "channelKeynote": "A design of an organizational being",
+        "harmonicGate": 62,
+        "harmonicGateName": "Preponderance of the Small"
+      }
+    },
+    {
+      "gateNumber": 18,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Work on What Has Been Spoilt",
+        "keyword": "Correction",
+        "center": "Spleen",
+        "description": "The vigilance and determination to uphold and defend basic and fundamental human rights.",
+        "channel": "18-58",
+        "channelName": "Judgment",
+        "channelKeynote": "A design of insatiability",
+        "harmonicGate": 58,
+        "harmonicGateName": "The Joyous"
+      }
+    },
+    {
+      "gateNumber": 19,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Approach",
+        "keyword": "Wanting",
+        "center": "Root",
+        "description": "That all things are interrelated is apparent and manifested through the action of approach.",
+        "channel": "19-49",
+        "channelName": "Synthesis",
+        "channelKeynote": "A design of being sensitive",
+        "harmonicGate": 49,
+        "harmonicGateName": "Revolution"
+      }
+    },
+    {
+      "gateNumber": 20,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Contemplation",
+        "keyword": "The Now",
+        "center": "Throat",
+        "description": "Recognition and awareness in the now which transforms understanding into right action.",
+        "channel": null,
+        "channelName": null,
+        "channelKeynote": null,
+        "harmonicGate": "multiple",
+        "harmonicGateName": "Multiple Gates"
+      }
+    },
+    {
+      "gateNumber": 21,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Biting Through",
+        "keyword": "Hunter/Huntress",
+        "center": "Heart",
+        "description": "The justified and necessary use of power in overcoming deliberate and persistent interference.",
+        "channel": "21-45",
+        "channelName": "The Money Line",
+        "channelKeynote": "A design of a materialist",
+        "harmonicGate": 45,
+        "harmonicGateName": "Gathering Together"
+      }
+    },
+    {
+      "gateNumber": 22,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Grace",
+        "keyword": "Openness",
+        "center": "Solar Plexus",
+        "description": "A quality of behaviour best suited in handling mundane and trivial situations.",
+        "channel": "22-12",
+        "channelName": "Openness",
+        "channelKeynote": "The design of the social being",
+        "harmonicGate": 12,
+        "harmonicGateName": "Standstill"
+      }
+    },
+    {
+      "gateNumber": 23,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Splitting Apart",
+        "keyword": "Assimilation",
+        "center": "Throat",
+        "description": "Amorality. The awareness and understanding which leads to the acceptance of diversity.",
+        "channel": "23-43",
+        "channelName": "Structuring",
+        "channelKeynote": "A design of individuality (Genius to Freak)",
+        "harmonicGate": 43,
+        "harmonicGateName": "Breakthrough"
+      }
+    },
+    {
+      "gateNumber": 24,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Return",
+        "keyword": "Rationalization",
+        "center": "Ajna",
+        "description": "The natural and spontaneous process of transformation and renewal.",
+        "channel": "24-61",
+        "channelName": "Awareness",
+        "channelKeynote": "A design of the thinker",
+        "harmonicGate": 61,
+        "harmonicGateName": "Inner Truth"
+      }
+    },
+    {
+      "gateNumber": 25,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Innocence",
+        "keyword": "Spirit of Self",
+        "center": "G",
+        "description": "The perfection of action through uncontrived and spontaneous nature.",
+        "channel": "25-51",
+        "channelName": "Initiation",
+        "channelKeynote": "A design of needing to be first",
+        "harmonicGate": 51,
+        "harmonicGateName": "The Arousing"
+      }
+    },
+    {
+      "gateNumber": 26,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Taming Power of the Great",
+        "keyword": "The Egoist",
+        "center": "Heart",
+        "description": "The maximization of the power of memory applied to the nurturing of continuity.",
+        "channel": "26-44",
+        "channelName": "Surrender",
+        "channelKeynote": "A design of a transmitter",
+        "harmonicGate": 44,
+        "harmonicGateName": "Coming to Meet"
+      }
+    },
+    {
+      "gateNumber": 27,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Nourishment",
+        "keyword": "Caring",
+        "center": "Sacral",
+        "description": "The enhancement of the quality and the substance of all activities through caring.",
+        "channel": "27-50",
+        "channelName": "Preservation",
+        "channelKeynote": "A design of custodianship",
+        "harmonicGate": 50,
+        "harmonicGateName": "The Cauldron"
+      }
+    },
+    {
+      "gateNumber": 28,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Preponderance of the Great",
+        "keyword": "The Game Player",
+        "center": "Spleen",
+        "description": "The transitoriness of power and influence.",
+        "channel": "28-38",
+        "channelName": "Struggle",
+        "channelKeynote": "A design of stubbornness",
+        "harmonicGate": 38,
+        "harmonicGateName": "Opposition"
+      }
+    },
+    {
+      "gateNumber": 29,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Abysmal",
+        "keyword": "Perseverance",
+        "center": "Sacral",
+        "description": "The deep within the deep. Persistence despite difficulties has its inevitable rewards.",
+        "channel": "29-46",
+        "channelName": "Discovery",
+        "channelKeynote": "A design of succeeding where others fail",
+        "harmonicGate": 46,
+        "harmonicGateName": "Pushing Upward"
+      }
+    },
+    {
+      "gateNumber": 30,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Clinging Fire",
+        "keyword": "Feelings",
+        "center": "Solar Plexus",
+        "description": "Freedom recognized as an illusion and limitation accepted as a fate.",
+        "channel": "30-41",
+        "channelName": "Recognition",
+        "channelKeynote": "A design of focused energy",
+        "harmonicGate": 41,
+        "harmonicGateName": "Decrease"
+      }
+    },
+    {
+      "gateNumber": 31,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Influence",
+        "keyword": "Democracy",
+        "center": "Throat",
+        "description": "The law of friction, whether active or passive, that engenders transference and thus influence.",
+        "channel": "31-7",
+        "channelName": "The Alpha",
+        "channelKeynote": "For 'good' or 'bad', the design of leadership",
+        "harmonicGate": 7,
+        "harmonicGateName": "The Army"
+      }
+    },
+    {
+      "gateNumber": 32,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Duration",
+        "keyword": "Continuity",
+        "center": "Spleen",
+        "description": "The only thing which endures is change.",
+        "channel": "32-54",
+        "channelName": "Transformation",
+        "channelKeynote": "A design of being driven",
+        "harmonicGate": 54,
+        "harmonicGateName": "The Marrying Maiden"
+      }
+    },
+    {
+      "gateNumber": 33,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Retreat",
+        "keyword": "Privacy",
+        "center": "Throat",
+        "description": "Active withdrawal and the transformation of a weak position into a strength.",
+        "channel": "33-13",
+        "channelName": "The Prodigal",
+        "channelKeynote": "The design of the witness",
+        "harmonicGate": 13,
+        "harmonicGateName": "The Fellowship of Man"
+      }
+    },
+    {
+      "gateNumber": 34,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Great Power",
+        "keyword": "Power",
+        "center": "Sacral",
+        "description": "Power is only great when its display or use serves the common good.",
+        "channel": null,
+        "channelName": null,
+        "channelKeynote": null,
+        "harmonicGate": "multiple",
+        "harmonicGateName": "Multiple Gates"
+      }
+    },
+    {
+      "gateNumber": 35,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Progress",
+        "keyword": "Change",
+        "center": "Throat",
+        "description": "By design, progress cannot exist in a vacuum and is dependent on interaction.",
+        "channel": "35-36",
+        "channelName": "Transitoriness",
+        "channelKeynote": "A design of a 'Jack of all Trades'",
+        "harmonicGate": 36,
+        "harmonicGateName": "The Darkening of the Light"
+      }
+    },
+    {
+      "gateNumber": 36,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Darkening of the Light",
+        "keyword": "Crisis",
+        "center": "Solar Plexus",
+        "description": "The rule of cycles in which decline is a natural but not enduring stage.",
+        "channel": "36-35",
+        "channelName": "Transitoriness",
+        "channelKeynote": "A design of a 'Jack of all Trades'",
+        "harmonicGate": 35,
+        "harmonicGateName": "Progress"
+      }
+    },
+    {
+      "gateNumber": 37,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Family",
+        "keyword": "Friendship",
+        "center": "Solar Plexus",
+        "description": "The manifestation macro- and micro-cosmically of the organic nature of communities.",
+        "channel": "37-40",
+        "channelName": "Community",
+        "channelKeynote": "A design of being a part seeking a whole",
+        "harmonicGate": 40,
+        "harmonicGateName": "Deliverance"
+      }
+    },
+    {
+      "gateNumber": 38,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Opposition",
+        "keyword": "The Fighter",
+        "center": "Root",
+        "description": "The ability to preserve individual integrity through opposition to detrimental forces.",
+        "channel": "38-28",
+        "channelName": "Struggle",
+        "channelKeynote": "A design of stubbornness",
+        "harmonicGate": 28,
+        "harmonicGateName": "Preponderance of the Great"
+      }
+    },
+    {
+      "gateNumber": 39,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Obstruction",
+        "keyword": "Provocation",
+        "center": "Root",
+        "description": "The value of obstruction in provoking analysis, assessment and reevaluation.",
+        "channel": "39-55",
+        "channelName": "Emoting",
+        "channelKeynote": "A design of moodiness",
+        "harmonicGate": 55,
+        "harmonicGateName": "Abundance"
+      }
+    },
+    {
+      "gateNumber": 40,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Deliverance",
+        "keyword": "Aloneness",
+        "center": "Heart",
+        "description": "The point of transition between struggle and liberation.",
+        "channel": "40-37",
+        "channelName": "Community",
+        "channelKeynote": "A design of being a part seeking a whole",
+        "harmonicGate": 37,
+        "harmonicGateName": "The Family"
+      }
+    },
+    {
+      "gateNumber": 41,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Decrease",
+        "keyword": "Contraction",
+        "center": "Root",
+        "description": "The limitation of resources which maximizes development of potential.",
+        "channel": "41-30",
+        "channelName": "Recognition",
+        "channelKeynote": "A design of focused energy",
+        "harmonicGate": 30,
+        "harmonicGateName": "The Clinging Fire"
+      }
+    },
+    {
+      "gateNumber": 42,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Increase",
+        "keyword": "Growth",
+        "center": "Sacral",
+        "description": "The expansion of the resources which maximizes the development of full potential.",
+        "channel": "42-53",
+        "channelName": "Maturation",
+        "channelKeynote": "A design of balanced development",
+        "harmonicGate": 53,
+        "harmonicGateName": "Development"
+      }
+    },
+    {
+      "gateNumber": 43,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Breakthrough",
+        "keyword": "Insight",
+        "center": "Ajna",
+        "description": "In order for achievement to be maintained a new order must be fairly established.",
+        "channel": "43-23",
+        "channelName": "Structuring",
+        "channelKeynote": "A design of individuality (Genius to Freak)",
+        "harmonicGate": 23,
+        "harmonicGateName": "Splitting Apart"
+      }
+    },
+    {
+      "gateNumber": 44,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Coming to Meet",
+        "keyword": "Alertness",
+        "center": "Spleen",
+        "description": "The success of any interaction is based on the absence of any preconditions.",
+        "channel": "44-26",
+        "channelName": "Surrender",
+        "channelKeynote": "A design of a transmitter",
+        "harmonicGate": 26,
+        "harmonicGateName": "The Taming Power of the Great"
+      }
+    },
+    {
+      "gateNumber": 45,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Gathering Together",
+        "keyword": "The Gatherer",
+        "center": "Throat",
+        "description": "The natural and generally beneficial attraction of like forces.",
+        "channel": "45-21",
+        "channelName": "The Money Line",
+        "channelKeynote": "A design of a materialist",
+        "harmonicGate": 21,
+        "harmonicGateName": "Biting Through"
+      }
+    },
+    {
+      "gateNumber": 46,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Pushing Upward",
+        "keyword": "Love of the Body",
+        "center": "G",
+        "description": "Good fortune that may be perceived as the result of serendipity but derives from effort and dedication.",
+        "channel": "46-29",
+        "channelName": "Discovery",
+        "channelKeynote": "A design of succeeding where others fail",
+        "harmonicGate": 29,
+        "harmonicGateName": "The Abysmal"
+      }
+    },
+    {
+      "gateNumber": 47,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Oppression",
+        "keyword": "Realization",
+        "center": "Ajna",
+        "description": "A restrictive and adverse state as a result of internal weakness or external strength or both.",
+        "channel": "47-64",
+        "channelName": "Abstraction",
+        "channelKeynote": "A design of mental activity and clarity",
+        "harmonicGate": 64,
+        "harmonicGateName": "Before Completion"
+      }
+    },
+    {
+      "gateNumber": 48,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Well",
+        "keyword": "Depth",
+        "center": "Spleen",
+        "description": "The necessary and qualitative foundation that is a prerequisite to establish the common good.",
+        "channel": "48-16",
+        "channelName": "The Wave Length",
+        "channelKeynote": "A design of talent",
+        "harmonicGate": 16,
+        "harmonicGateName": "Enthusiasm"
+      }
+    },
+    {
+      "gateNumber": 49,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Revolution",
+        "keyword": "Revolution",
+        "center": "Solar Plexus",
+        "description": "Ideally the transformation of forms based on the highest principles and not simply for power.",
+        "channel": "49-19",
+        "channelName": "Synthesis",
+        "channelKeynote": "A design of being sensitive",
+        "harmonicGate": 19,
+        "harmonicGateName": "Approach"
+      }
+    },
+    {
+      "gateNumber": 50,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Cauldron",
+        "keyword": "Values",
+        "center": "Spleen",
+        "description": "The value of historical continuity whose traditional values serve and enrich the present and the future.",
+        "channel": "50-27",
+        "channelName": "Preservation",
+        "channelKeynote": "A design of custodianship",
+        "harmonicGate": 27,
+        "harmonicGateName": "Nourishment"
+      }
+    },
+    {
+      "gateNumber": 51,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Arousing",
+        "keyword": "Shock",
+        "center": "Heart",
+        "description": "The ability to respond to disorder and shock through recognition and adaptation.",
+        "channel": "51-25",
+        "channelName": "Initiation",
+        "channelKeynote": "A design of needing to be first",
+        "harmonicGate": 25,
+        "harmonicGateName": "Innocence"
+      }
+    },
+    {
+      "gateNumber": 52,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Keeping Still",
+        "keyword": "Inaction",
+        "center": "Root",
+        "description": "Temporary and self-imposed inaction for the benefit of assessment.",
+        "channel": "52-9",
+        "channelName": "Concentration",
+        "channelKeynote": "A design of determination",
+        "harmonicGate": 9,
+        "harmonicGateName": "Taming Power of the Small"
+      }
+    },
+    {
+      "gateNumber": 53,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Development",
+        "keyword": "Starting",
+        "center": "Root",
+        "description": "Development as a structured progression that is both steadfast and enduring.",
+        "channel": "53-42",
+        "channelName": "Maturation",
+        "channelKeynote": "A design of balanced development",
+        "harmonicGate": 42,
+        "harmonicGateName": "Increase"
+      }
+    },
+    {
+      "gateNumber": 54,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Marrying Maiden",
+        "keyword": "Ambition",
+        "center": "Root",
+        "description": "Interaction in its mundane social context but also one's mystical and cosmic relationships.",
+        "channel": "54-32",
+        "channelName": "Transformation",
+        "channelKeynote": "A design of being driven",
+        "harmonicGate": 32,
+        "harmonicGateName": "Duration"
+      }
+    },
+    {
+      "gateNumber": 55,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Abundance",
+        "keyword": "Spirit",
+        "center": "Solar Plexus",
+        "description": "Abundance is strictly a question of spirit.",
+        "channel": "55-39",
+        "channelName": "Emoting",
+        "channelKeynote": "A design of moodiness",
+        "harmonicGate": 39,
+        "harmonicGateName": "Obstruction"
+      }
+    },
+    {
+      "gateNumber": 56,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Wanderer",
+        "keyword": "Stimulation",
+        "center": "Throat",
+        "description": "Stability through movement. The perpetuation of continuity through the linking of short term activity.",
+        "channel": "56-11",
+        "channelName": "Curiosity",
+        "channelKeynote": "A design of a searcher",
+        "harmonicGate": 11,
+        "harmonicGateName": "Peace"
+      }
+    },
+    {
+      "gateNumber": 57,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Gentle",
+        "keyword": "Intuitive Clarity",
+        "center": "Spleen",
+        "description": "The extraordinary power of clarity.",
+        "channel": "57-20",
+        "channelName": "The Brain Wave",
+        "channelKeynote": "A design of awareness",
+        "harmonicGate": 20,
+        "harmonicGateName": "Contemplation"
+      }
+    },
+    {
+      "gateNumber": 58,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "The Joyous",
+        "keyword": "Vitality",
+        "center": "Root",
+        "description": "Stimulation is the key to joy.",
+        "channel": "58-18",
+        "channelName": "Judgment",
+        "channelKeynote": "A design of insatiability",
+        "harmonicGate": 18,
+        "harmonicGateName": "Work on What Has Been Spoilt"
+      }
+    },
+    {
+      "gateNumber": 59,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Dispersion",
+        "keyword": "Sexuality",
+        "center": "Sacral",
+        "description": "The ability to break down barriers to achieve union.",
+        "channel": "59-6",
+        "channelName": "Mating",
+        "channelKeynote": "A design focused on reproduction",
+        "harmonicGate": 6,
+        "harmonicGateName": "Conflict"
+      }
+    },
+    {
+      "gateNumber": 60,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Limitation",
+        "keyword": "Acceptance",
+        "center": "Root",
+        "description": "The acceptance of limitation is the first step in transcendence.",
+        "channel": "60-3",
+        "channelName": "Mutation",
+        "channelKeynote": "Energy which fluctuates and initiates",
+        "harmonicGate": 3,
+        "harmonicGateName": "Difficulty at the Beginning"
+      }
+    },
+    {
+      "gateNumber": 61,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Inner Truth",
+        "keyword": "Mystery",
+        "center": "Head",
+        "description": "The awareness of universal underlying principles.",
+        "channel": "61-24",
+        "channelName": "Awareness",
+        "channelKeynote": "A design of a thinker",
+        "harmonicGate": 24,
+        "harmonicGateName": "Returning"
+      }
+    },
+    {
+      "gateNumber": 62,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Small Preponderance",
+        "keyword": "Details",
+        "center": "Throat",
+        "description": "Caution, patience and detail produce excellence out of limitation.",
+        "channel": "62-17",
+        "channelName": "Acceptance",
+        "channelKeynote": "A design of an organizational being",
+        "harmonicGate": 17,
+        "harmonicGateName": "Following"
+      }
+    },
+    {
+      "gateNumber": 63,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "After Completion",
+        "keyword": "Doubt",
+        "center": "Head",
+        "description": "In the spiral of life, all ends are beginnings.",
+        "channel": "63-4",
+        "channelName": "Logic",
+        "channelKeynote": "A design of mental ease mixed with doubt",
+        "harmonicGate": 4,
+        "harmonicGateName": "Youthful Folly"
+      }
+    },
+    {
+      "gateNumber": 64,
+      "lineNumber": null,
+      "knowledge": {
+        "name": "Before Completion",
+        "keyword": "Confusion",
+        "center": "Head",
+        "description": "Transition, like birth, requires a determined strength for the passage through.",
+        "channel": "64-47",
+        "channelName": "Abstraction",
+        "channelKeynote": "A design of mental activity and clarity",
+        "harmonicGate": 47,
+        "harmonicGateName": "Oppression"
+      }
+    }
+  ]
+}

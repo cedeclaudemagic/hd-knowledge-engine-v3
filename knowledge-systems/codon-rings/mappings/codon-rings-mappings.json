@@ -1,0 +1,1354 @@
+{
+  "systemName": "Codon Rings",
+  "version": "1.0.0",
+  "description": "Biochemical amino acid correlations and DNA codon mappings across 22 codon rings",
+  "completeness": "full",
+  "totalRings": 22,
+  "totalGates": 64,
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Fire",
+        "aminoAcid": "Lysine",
+        "codons": [
+          "AAA",
+          "AAG"
+        ],
+        "ringGates": [
+          14,
+          1
+        ],
+        "biochemicalFunction": "Part of Ring of Fire - Lysine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 2,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Water",
+        "aminoAcid": "Phenylalanine",
+        "codons": [
+          "UUU",
+          "UUC"
+        ],
+        "ringGates": [
+          8,
+          2
+        ],
+        "biochemicalFunction": "Part of Ring of Water - Phenylalanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 3,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 4,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Union",
+        "aminoAcid": "Valine",
+        "codons": [
+          "GUU",
+          "GUG",
+          "GUC",
+          "GUA"
+        ],
+        "ringGates": [
+          59,
+          29,
+          4,
+          7
+        ],
+        "biochemicalFunction": "Part of Ring of Union - Valine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 5,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Light",
+        "aminoAcid": "Threonine",
+        "codons": [
+          "ACA",
+          "ACC",
+          "ACG",
+          "ACU"
+        ],
+        "ringGates": [
+          11,
+          26,
+          5,
+          9
+        ],
+        "biochemicalFunction": "Part of Ring of Light - Threonine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 6,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Alchemy",
+        "aminoAcid": "Glysine",
+        "codons": [
+          "GGU",
+          "GGG",
+          "GGC",
+          "GGA"
+        ],
+        "ringGates": [
+          6,
+          47,
+          64,
+          40
+        ],
+        "biochemicalFunction": "Part of Ring of Alchemy - Glysine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 7,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Union",
+        "aminoAcid": "Valine",
+        "codons": [
+          "GUU",
+          "GUG",
+          "GUC",
+          "GUA"
+        ],
+        "ringGates": [
+          59,
+          29,
+          4,
+          7
+        ],
+        "biochemicalFunction": "Part of Ring of Union - Valine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 8,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Water",
+        "aminoAcid": "Phenylalanine",
+        "codons": [
+          "UUU",
+          "UUC"
+        ],
+        "ringGates": [
+          8,
+          2
+        ],
+        "biochemicalFunction": "Part of Ring of Water - Phenylalanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 9,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Light",
+        "aminoAcid": "Threonine",
+        "codons": [
+          "ACA",
+          "ACC",
+          "ACG",
+          "ACU"
+        ],
+        "ringGates": [
+          11,
+          26,
+          5,
+          9
+        ],
+        "biochemicalFunction": "Part of Ring of Light - Threonine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 10,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 11,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Light",
+        "aminoAcid": "Threonine",
+        "codons": [
+          "ACA",
+          "ACC",
+          "ACG",
+          "ACU"
+        ],
+        "ringGates": [
+          11,
+          26,
+          5,
+          9
+        ],
+        "biochemicalFunction": "Part of Ring of Light - Threonine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Trials",
+        "aminoAcid": "Terminators",
+        "codons": [
+          "UAG",
+          "UAA"
+        ],
+        "ringGates": [
+          33,
+          56,
+          12
+        ],
+        "biochemicalFunction": "Part of Ring of Trials - Terminators biochemical pathway",
+        "nestedStructure": true,
+        "totalRings": 2,
+        "allRings": [
+          "Ring of Trials",
+          "Ring of Secrets"
+        ]
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Secrets",
+        "aminoAcid": "Terminator",
+        "codons": [
+          "UGA"
+        ],
+        "ringGates": [
+          12
+        ],
+        "biochemicalFunction": "Part of Ring of Secrets - Terminator biochemical pathway",
+        "nestedStructure": true,
+        "totalRings": 2,
+        "allRings": [
+          "Ring of Trials",
+          "Ring of Secrets"
+        ]
+      }
+    },
+    {
+      "gateNumber": 13,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Purification",
+        "aminoAcid": "Glutamine",
+        "codons": [
+          "CAA",
+          "CAG"
+        ],
+        "ringGates": [
+          30,
+          13
+        ],
+        "biochemicalFunction": "Part of Ring of Purification - Glutamine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 14,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Fire",
+        "aminoAcid": "Lysine",
+        "codons": [
+          "AAA",
+          "AAG"
+        ],
+        "ringGates": [
+          14,
+          1
+        ],
+        "biochemicalFunction": "Part of Ring of Fire - Lysine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 15,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 16,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Prosperity",
+        "aminoAcid": "Cysteine",
+        "codons": [
+          "UGU",
+          "UGC"
+        ],
+        "ringGates": [
+          45,
+          16
+        ],
+        "biochemicalFunction": "Part of Ring of Prosperity - Cysteine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 17,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 18,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Matter",
+        "aminoAcid": "Alanine",
+        "codons": [
+          "GCA",
+          "GCU",
+          "GCG",
+          "GCC"
+        ],
+        "ringGates": [
+          57,
+          48,
+          18,
+          46
+        ],
+        "biochemicalFunction": "Part of Ring of Matter - Alanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 19,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Gaia",
+        "aminoAcid": "Isoleucine",
+        "codons": [
+          "AUA",
+          "AUC",
+          "AUU"
+        ],
+        "ringGates": [
+          19,
+          60,
+          61
+        ],
+        "biochemicalFunction": "Part of Ring of Gaia - Isoleucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 20,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 21,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 22,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Divinity",
+        "aminoAcid": "Proline",
+        "codons": [
+          "CCA",
+          "CCC",
+          "CCG",
+          "CCU"
+        ],
+        "ringGates": [
+          36,
+          22,
+          63,
+          37
+        ],
+        "biochemicalFunction": "Part of Ring of Divinity - Proline biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 23,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 24,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 25,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 26,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Light",
+        "aminoAcid": "Threonine",
+        "codons": [
+          "ACA",
+          "ACC",
+          "ACG",
+          "ACU"
+        ],
+        "ringGates": [
+          11,
+          26,
+          5,
+          9
+        ],
+        "biochemicalFunction": "Part of Ring of Light - Threonine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 27,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 28,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Illusion",
+        "aminoAcid": "Asparaginic_Acid",
+        "codons": [
+          "GAU",
+          "GAC"
+        ],
+        "ringGates": [
+          28,
+          32
+        ],
+        "biochemicalFunction": "Part of Ring of Illusion - Asparaginic_Acid biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 29,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Union",
+        "aminoAcid": "Valine",
+        "codons": [
+          "GUU",
+          "GUG",
+          "GUC",
+          "GUA"
+        ],
+        "ringGates": [
+          59,
+          29,
+          4,
+          7
+        ],
+        "biochemicalFunction": "Part of Ring of Union - Valine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 30,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Purification",
+        "aminoAcid": "Glutamine",
+        "codons": [
+          "CAA",
+          "CAG"
+        ],
+        "ringGates": [
+          30,
+          13
+        ],
+        "biochemicalFunction": "Part of Ring of Purification - Glutamine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 31,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of No Return",
+        "aminoAcid": "Tyrosine",
+        "codons": [
+          "UAU",
+          "UAC"
+        ],
+        "ringGates": [
+          31,
+          62
+        ],
+        "biochemicalFunction": "Part of Ring of No Return - Tyrosine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 32,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Illusion",
+        "aminoAcid": "Asparaginic_Acid",
+        "codons": [
+          "GAU",
+          "GAC"
+        ],
+        "ringGates": [
+          28,
+          32
+        ],
+        "biochemicalFunction": "Part of Ring of Illusion - Asparaginic_Acid biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 33,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Trials",
+        "aminoAcid": "Terminators",
+        "codons": [
+          "UAG",
+          "UAA"
+        ],
+        "ringGates": [
+          33,
+          56,
+          12
+        ],
+        "biochemicalFunction": "Part of Ring of Trials - Terminators biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 34,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Destiny",
+        "aminoAcid": "Asparagine",
+        "codons": [
+          "AAC",
+          "AAU"
+        ],
+        "ringGates": [
+          34,
+          43
+        ],
+        "biochemicalFunction": "Part of Ring of Destiny - Asparagine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 35,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Miracles",
+        "aminoAcid": "Tryptophan",
+        "codons": [
+          "UGG"
+        ],
+        "ringGates": [
+          35
+        ],
+        "biochemicalFunction": "Part of Ring of Miracles - Tryptophan biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 36,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Divinity",
+        "aminoAcid": "Proline",
+        "codons": [
+          "CCA",
+          "CCC",
+          "CCG",
+          "CCU"
+        ],
+        "ringGates": [
+          36,
+          22,
+          63,
+          37
+        ],
+        "biochemicalFunction": "Part of Ring of Divinity - Proline biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 37,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Divinity",
+        "aminoAcid": "Proline",
+        "codons": [
+          "CCA",
+          "CCC",
+          "CCG",
+          "CCU"
+        ],
+        "ringGates": [
+          36,
+          22,
+          63,
+          37
+        ],
+        "biochemicalFunction": "Part of Ring of Divinity - Proline biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 38,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 39,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 40,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Alchemy",
+        "aminoAcid": "Glysine",
+        "codons": [
+          "GGU",
+          "GGG",
+          "GGC",
+          "GGA"
+        ],
+        "ringGates": [
+          6,
+          47,
+          64,
+          40
+        ],
+        "biochemicalFunction": "Part of Ring of Alchemy - Glysine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 41,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Origin",
+        "aminoAcid": "Methionine",
+        "codons": [
+          "AUG"
+        ],
+        "ringGates": [
+          41
+        ],
+        "biochemicalFunction": "Part of Ring of Origin - Methionine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 42,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Life And Death",
+        "aminoAcid": "Leucine",
+        "codons": [
+          "CUA",
+          "CUC",
+          "CUG",
+          "CUU",
+          "UUG",
+          "UUA"
+        ],
+        "ringGates": [
+          24,
+          27,
+          3,
+          42,
+          20,
+          23
+        ],
+        "biochemicalFunction": "Part of Ring of Life And Death - Leucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 43,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Destiny",
+        "aminoAcid": "Asparagine",
+        "codons": [
+          "AAC",
+          "AAU"
+        ],
+        "ringGates": [
+          34,
+          43
+        ],
+        "biochemicalFunction": "Part of Ring of Destiny - Asparagine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 44,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Illuminati",
+        "aminoAcid": "Glutamic_Acid",
+        "codons": [
+          "GAG",
+          "GAA"
+        ],
+        "ringGates": [
+          44,
+          50
+        ],
+        "biochemicalFunction": "Part of Ring of Illuminati - Glutamic_Acid biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 45,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Prosperity",
+        "aminoAcid": "Cysteine",
+        "codons": [
+          "UGU",
+          "UGC"
+        ],
+        "ringGates": [
+          45,
+          16
+        ],
+        "biochemicalFunction": "Part of Ring of Prosperity - Cysteine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 46,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Matter",
+        "aminoAcid": "Alanine",
+        "codons": [
+          "GCA",
+          "GCU",
+          "GCG",
+          "GCC"
+        ],
+        "ringGates": [
+          57,
+          48,
+          18,
+          46
+        ],
+        "biochemicalFunction": "Part of Ring of Matter - Alanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 47,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Alchemy",
+        "aminoAcid": "Glysine",
+        "codons": [
+          "GGU",
+          "GGG",
+          "GGC",
+          "GGA"
+        ],
+        "ringGates": [
+          6,
+          47,
+          64,
+          40
+        ],
+        "biochemicalFunction": "Part of Ring of Alchemy - Glysine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 48,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Matter",
+        "aminoAcid": "Alanine",
+        "codons": [
+          "GCA",
+          "GCU",
+          "GCG",
+          "GCC"
+        ],
+        "ringGates": [
+          57,
+          48,
+          18,
+          46
+        ],
+        "biochemicalFunction": "Part of Ring of Matter - Alanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 49,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of The Whirlwind",
+        "aminoAcid": "Histidine",
+        "codons": [
+          "CAC",
+          "CAU"
+        ],
+        "ringGates": [
+          55,
+          49
+        ],
+        "biochemicalFunction": "Part of Ring of The Whirlwind - Histidine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 50,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Illuminati",
+        "aminoAcid": "Glutamic_Acid",
+        "codons": [
+          "GAG",
+          "GAA"
+        ],
+        "ringGates": [
+          44,
+          50
+        ],
+        "biochemicalFunction": "Part of Ring of Illuminati - Glutamic_Acid biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 51,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Humanity",
+        "aminoAcid": "Arginine",
+        "codons": [
+          "CGA",
+          "CGC",
+          "CGG",
+          "CGU",
+          "AGA",
+          "AGG"
+        ],
+        "ringGates": [
+          51,
+          21,
+          17,
+          25,
+          38,
+          10
+        ],
+        "biochemicalFunction": "Part of Ring of Humanity - Arginine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 52,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 53,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 54,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 55,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of The Whirlwind",
+        "aminoAcid": "Histidine",
+        "codons": [
+          "CAC",
+          "CAU"
+        ],
+        "ringGates": [
+          55,
+          49
+        ],
+        "biochemicalFunction": "Part of Ring of The Whirlwind - Histidine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 56,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Trials",
+        "aminoAcid": "Terminators",
+        "codons": [
+          "UAG",
+          "UAA"
+        ],
+        "ringGates": [
+          33,
+          56,
+          12
+        ],
+        "biochemicalFunction": "Part of Ring of Trials - Terminators biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 57,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Matter",
+        "aminoAcid": "Alanine",
+        "codons": [
+          "GCA",
+          "GCU",
+          "GCG",
+          "GCC"
+        ],
+        "ringGates": [
+          57,
+          48,
+          18,
+          46
+        ],
+        "biochemicalFunction": "Part of Ring of Matter - Alanine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 58,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Seeking",
+        "aminoAcid": "Serine",
+        "codons": [
+          "UCU",
+          "UCG",
+          "UCC",
+          "UCA",
+          "AGC",
+          "AGU"
+        ],
+        "ringGates": [
+          53,
+          39,
+          52,
+          15,
+          54,
+          58
+        ],
+        "biochemicalFunction": "Part of Ring of Seeking - Serine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 59,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Union",
+        "aminoAcid": "Valine",
+        "codons": [
+          "GUU",
+          "GUG",
+          "GUC",
+          "GUA"
+        ],
+        "ringGates": [
+          59,
+          29,
+          4,
+          7
+        ],
+        "biochemicalFunction": "Part of Ring of Union - Valine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 60,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Gaia",
+        "aminoAcid": "Isoleucine",
+        "codons": [
+          "AUA",
+          "AUC",
+          "AUU"
+        ],
+        "ringGates": [
+          19,
+          60,
+          61
+        ],
+        "biochemicalFunction": "Part of Ring of Gaia - Isoleucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 61,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Gaia",
+        "aminoAcid": "Isoleucine",
+        "codons": [
+          "AUA",
+          "AUC",
+          "AUU"
+        ],
+        "ringGates": [
+          19,
+          60,
+          61
+        ],
+        "biochemicalFunction": "Part of Ring of Gaia - Isoleucine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 62,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of No Return",
+        "aminoAcid": "Tyrosine",
+        "codons": [
+          "UAU",
+          "UAC"
+        ],
+        "ringGates": [
+          31,
+          62
+        ],
+        "biochemicalFunction": "Part of Ring of No Return - Tyrosine biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 63,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Divinity",
+        "aminoAcid": "Proline",
+        "codons": [
+          "CCA",
+          "CCC",
+          "CCG",
+          "CCU"
+        ],
+        "ringGates": [
+          36,
+          22,
+          63,
+          37
+        ],
+        "biochemicalFunction": "Part of Ring of Divinity - Proline biochemical pathway"
+      }
+    },
+    {
+      "gateNumber": 64,
+      "lineNumber": null,
+      "knowledge": {
+        "ring": "Ring of Alchemy",
+        "aminoAcid": "Glysine",
+        "codons": [
+          "GGU",
+          "GGG",
+          "GGC",
+          "GGA"
+        ],
+        "ringGates": [
+          6,
+          47,
+          64,
+          40
+        ],
+        "biochemicalFunction": "Part of Ring of Alchemy - Glysine biochemical pathway"
+      }
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "systemName": "I Ching Gate Names",
+  "version": "1.0.0",
+  "description": "Traditional I Ching hexagram names for the 64 gates",
+  "completeness": "full",
+  "dataArchitecture": "gate-level",
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Creative",
+        "chineseName": "乾 (Qián)",
+        "hexagramNumber": 1,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 2,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Receptive",
+        "chineseName": "坤 (Kūn)",
+        "hexagramNumber": 2,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 3,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Difficulty at the Beginning",
+        "chineseName": "屯 (Zhūn)",
+        "hexagramNumber": 3,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 4,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Youthful Folly",
+        "chineseName": "蒙 (Méng)",
+        "hexagramNumber": 4,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 5,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Waiting",
+        "chineseName": "需 (Xū)",
+        "hexagramNumber": 5,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 6,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Conflict",
+        "chineseName": "訟 (Sòng)",
+        "hexagramNumber": 6,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 7,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Army",
+        "chineseName": "師 (Shī)",
+        "hexagramNumber": 7,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 8,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Holding Together",
+        "chineseName": "比 (Bǐ)",
+        "hexagramNumber": 8,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 9,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Taming Power of the Small",
+        "chineseName": "小畜 (Xiǎo Chù)",
+        "hexagramNumber": 9,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 10,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Treading",
+        "chineseName": "履 (Lǚ)",
+        "hexagramNumber": 10,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 11,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Peace",
+        "chineseName": "泰 (Tài)",
+        "hexagramNumber": 11,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Standstill",
+        "chineseName": "否 (Pǐ)",
+        "hexagramNumber": 12,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 13,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Fellowship",
+        "chineseName": "同人 (Tóng Rén)",
+        "hexagramNumber": 13,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 14,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Possession in Great Measure",
+        "chineseName": "大有 (Dà Yǒu)",
+        "hexagramNumber": 14,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 15,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Modesty",
+        "chineseName": "謙 (Qiān)",
+        "hexagramNumber": 15,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 16,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Enthusiasm",
+        "chineseName": "豫 (Yù)",
+        "hexagramNumber": 16,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 17,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Following",
+        "chineseName": "隨 (Suí)",
+        "hexagramNumber": 17,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 18,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Work on What Has Been Spoilt",
+        "chineseName": "蠱 (Gǔ)",
+        "hexagramNumber": 18,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 19,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Approach",
+        "chineseName": "臨 (Lín)",
+        "hexagramNumber": 19,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 20,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Contemplation",
+        "chineseName": "觀 (Guān)",
+        "hexagramNumber": 20,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 21,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Biting Through",
+        "chineseName": "噬嗑 (Shì Kè)",
+        "hexagramNumber": 21,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 22,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Grace",
+        "chineseName": "賁 (Bì)",
+        "hexagramNumber": 22,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 23,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Splitting Apart",
+        "chineseName": "剝 (Bō)",
+        "hexagramNumber": 23,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 24,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Return",
+        "chineseName": "復 (Fù)",
+        "hexagramNumber": 24,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 25,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Innocence",
+        "chineseName": "無妄 (Wú Wàng)",
+        "hexagramNumber": 25,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 26,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Taming Power of the Great",
+        "chineseName": "大畜 (Dà Chù)",
+        "hexagramNumber": 26,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 27,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Nourishment",
+        "chineseName": "頤 (Yí)",
+        "hexagramNumber": 27,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 28,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Preponderance of the Great",
+        "chineseName": "大過 (Dà Guò)",
+        "hexagramNumber": 28,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 29,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Abysmal",
+        "chineseName": "坎 (Kǎn)",
+        "hexagramNumber": 29,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 30,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Clinging Fire",
+        "chineseName": "離 (Lí)",
+        "hexagramNumber": 30,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 31,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Influence",
+        "chineseName": "咸 (Xián)",
+        "hexagramNumber": 31,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 32,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Duration",
+        "chineseName": "恆 (Héng)",
+        "hexagramNumber": 32,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 33,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Retreat",
+        "chineseName": "遯 (Dùn)",
+        "hexagramNumber": 33,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 34,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Great Power",
+        "chineseName": "大壯 (Dà Zhuàng)",
+        "hexagramNumber": 34,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 35,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Progress",
+        "chineseName": "晉 (Jìn)",
+        "hexagramNumber": 35,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 36,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Darkening of the Light",
+        "chineseName": "明夷 (Míng Yí)",
+        "hexagramNumber": 36,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 37,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Family",
+        "chineseName": "家人 (Jiā Rén)",
+        "hexagramNumber": 37,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 38,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Opposition",
+        "chineseName": "睽 (Kuí)",
+        "hexagramNumber": 38,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 39,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Obstruction",
+        "chineseName": "蹇 (Jiǎn)",
+        "hexagramNumber": 39,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 40,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Deliverance",
+        "chineseName": "解 (Xiè)",
+        "hexagramNumber": 40,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 41,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Decrease",
+        "chineseName": "損 (Sǔn)",
+        "hexagramNumber": 41,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 42,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Increase",
+        "chineseName": "益 (Yì)",
+        "hexagramNumber": 42,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 43,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Breakthrough",
+        "chineseName": "夬 (Guài)",
+        "hexagramNumber": 43,
+        "trigrams": {
+          "upper": "Heaven",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 44,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Coming to Meet",
+        "chineseName": "姤 (Gòu)",
+        "hexagramNumber": 44,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Heaven"
+        }
+      }
+    },
+    {
+      "gateNumber": 45,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Gathering Together",
+        "chineseName": "萃 (Cuì)",
+        "hexagramNumber": 45,
+        "trigrams": {
+          "upper": "Earth",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 46,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Pushing Upward",
+        "chineseName": "升 (Shēng)",
+        "hexagramNumber": 46,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Earth"
+        }
+      }
+    },
+    {
+      "gateNumber": 47,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Oppression",
+        "chineseName": "困 (Kùn)",
+        "hexagramNumber": 47,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 48,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Well",
+        "chineseName": "井 (Jǐng)",
+        "hexagramNumber": 48,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 49,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Revolution",
+        "chineseName": "革 (Gé)",
+        "hexagramNumber": 49,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 50,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Cauldron",
+        "chineseName": "鼎 (Dǐng)",
+        "hexagramNumber": 50,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 51,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Arousing",
+        "chineseName": "震 (Zhèn)",
+        "hexagramNumber": 51,
+        "trigrams": {
+          "upper": "Thunder",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 52,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Keeping Still",
+        "chineseName": "艮 (Gèn)",
+        "hexagramNumber": 52,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Wind"
+        }
+      }
+    },
+    {
+      "gateNumber": 53,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Development",
+        "chineseName": "漸 (Jiàn)",
+        "hexagramNumber": 53,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 54,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Marrying Maiden",
+        "chineseName": "歸妹 (Guī Mèi)",
+        "hexagramNumber": 54,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 55,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Abundance",
+        "chineseName": "豐 (Fēng)",
+        "hexagramNumber": 55,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 56,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Wanderer",
+        "chineseName": "旅 (Lǚ)",
+        "hexagramNumber": 56,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Fire"
+        }
+      }
+    },
+    {
+      "gateNumber": 57,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Gentle",
+        "chineseName": "巽 (Xùn)",
+        "hexagramNumber": 57,
+        "trigrams": {
+          "upper": "Lake",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 58,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "The Joyous",
+        "chineseName": "兌 (Duì)",
+        "hexagramNumber": 58,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Mountain"
+        }
+      }
+    },
+    {
+      "gateNumber": 59,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Dispersion",
+        "chineseName": "渙 (Huàn)",
+        "hexagramNumber": 59,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 60,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Limitation",
+        "chineseName": "節 (Jié)",
+        "hexagramNumber": 60,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 61,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Inner Truth",
+        "chineseName": "中孚 (Zhōng Fú)",
+        "hexagramNumber": 61,
+        "trigrams": {
+          "upper": "Mountain",
+          "lower": "Lake"
+        }
+      }
+    },
+    {
+      "gateNumber": 62,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Small Preponderance",
+        "chineseName": "小過 (Xiǎo Guò)",
+        "hexagramNumber": 62,
+        "trigrams": {
+          "upper": "Wind",
+          "lower": "Thunder"
+        }
+      }
+    },
+    {
+      "gateNumber": 63,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "After Completion",
+        "chineseName": "既濟 (Jì Jì)",
+        "hexagramNumber": 63,
+        "trigrams": {
+          "upper": "Fire",
+          "lower": "Water"
+        }
+      }
+    },
+    {
+      "gateNumber": 64,
+      "lineNumber": null,
+      "knowledge": {
+        "ichingName": "Before Completion",
+        "chineseName": "未濟 (Wèi Jì)",
+        "hexagramNumber": 64,
+        "trigrams": {
+          "upper": "Water",
+          "lower": "Fire"
+        }
+      }
+    }
+  ]
+}

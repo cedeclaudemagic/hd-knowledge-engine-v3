@@ -1,0 +1,138 @@
+{
+  "systemName": "The 8 Trigrams",
+  "version": "1.0.0",
+  "description": "Traditional I Ching trigrams derived from 3-bit binary patterns",
+  "completeness": "full",
+  "dataArchitecture": "grouping",
+  "totalGroups": 8,
+  "mappings": [
+    {
+      "groupName": "Heaven",
+      "chineseName": "乾",
+      "pinyin": "Qián",
+      "binaryPattern": "111",
+      "knowledge": {
+        "element": "Heaven",
+        "quality": "Creative, strong, active",
+        "nature": "Yang - Pure creative power",
+        "image": "The heavens, father, ruler",
+        "attribute": "Strength",
+        "symbol": "Three unbroken lines",
+        "meaning": "Creative force, initiative, leadership, strength",
+        "iching": "The Creative. Strong and tireless. Heaven's motion."
+      }
+    },
+    {
+      "groupName": "Earth",
+      "chineseName": "坤",
+      "pinyin": "Kūn",
+      "binaryPattern": "000",
+      "knowledge": {
+        "element": "Earth",
+        "quality": "Receptive, yielding, passive",
+        "nature": "Yin - Pure receptive power",
+        "image": "The earth, mother, nourishment",
+        "attribute": "Devotion",
+        "symbol": "Three broken lines",
+        "meaning": "Receptivity, devotion, nourishment, yielding",
+        "iching": "The Receptive. Devoted yielding. Earth's nature."
+      }
+    },
+    {
+      "groupName": "Thunder",
+      "chineseName": "震",
+      "pinyin": "Zhèn",
+      "binaryPattern": "100",
+      "knowledge": {
+        "element": "Thunder",
+        "quality": "Arousing, moving, shocking",
+        "nature": "Yang below yin - Movement and arousal",
+        "image": "Thunder, eldest son, spring",
+        "attribute": "Movement",
+        "symbol": "Yang below two yin lines",
+        "meaning": "Shock, movement, arousal, new beginnings",
+        "iching": "The Arousing. Movement. Thunder that brings shock."
+      }
+    },
+    {
+      "groupName": "Water",
+      "chineseName": "坎",
+      "pinyin": "Kǎn",
+      "binaryPattern": "010",
+      "knowledge": {
+        "element": "Water",
+        "quality": "Abysmal, dangerous, flowing",
+        "nature": "Yang between yin - Hidden danger",
+        "image": "Water, middle son, winter",
+        "attribute": "Danger",
+        "symbol": "Yang between two yin lines",
+        "meaning": "Danger, depth, flowing, persistence",
+        "iching": "The Abysmal. Danger. Water that flows into the abyss."
+      }
+    },
+    {
+      "groupName": "Mountain",
+      "chineseName": "艮",
+      "pinyin": "Gèn",
+      "binaryPattern": "110",
+      "knowledge": {
+        "element": "Mountain",
+        "quality": "Still, resting, stopping",
+        "nature": "Yang above yin - Stillness and contemplation",
+        "image": "Mountain, youngest son, transition",
+        "attribute": "Stillness",
+        "symbol": "Yang above two yin lines",
+        "meaning": "Keeping still, meditation, boundaries, rest",
+        "iching": "Keeping Still. Rest. The mountain stands firm."
+      }
+    },
+    {
+      "groupName": "Wind",
+      "chineseName": "巽",
+      "pinyin": "Xùn",
+      "binaryPattern": "001",
+      "knowledge": {
+        "element": "Wood/Wind",
+        "quality": "Gentle, penetrating, pervasive",
+        "nature": "Yin below yang - Gentle penetration",
+        "image": "Wind, eldest daughter, wood",
+        "attribute": "Penetration",
+        "symbol": "Yin below two yang lines",
+        "meaning": "Gentleness, penetration, gradual progress",
+        "iching": "The Gentle. Penetrating. Wind that disperses."
+      }
+    },
+    {
+      "groupName": "Fire",
+      "chineseName": "離",
+      "pinyin": "Lí",
+      "binaryPattern": "101",
+      "knowledge": {
+        "element": "Fire",
+        "quality": "Clinging, dependent, illuminating",
+        "nature": "Yin between yang - Light and dependence",
+        "image": "Fire, middle daughter, lightning",
+        "attribute": "Light",
+        "symbol": "Yin between two yang lines",
+        "meaning": "Light, clarity, dependence, beauty",
+        "iching": "The Clinging. Light. Fire that clings to fuel."
+      }
+    },
+    {
+      "groupName": "Lake",
+      "chineseName": "兌",
+      "pinyin": "Duì",
+      "binaryPattern": "011",
+      "knowledge": {
+        "element": "Lake/Marsh",
+        "quality": "Joyous, pleasing, open",
+        "nature": "Yin above yang - Joy and pleasure",
+        "image": "Lake, youngest daughter, autumn",
+        "attribute": "Joy",
+        "symbol": "Yin above two yang lines",
+        "meaning": "Joy, pleasure, openness, serenity",
+        "iching": "The Joyous. Pleasure. Lake that brings joy."
+      }
+    }
+  ]
+}

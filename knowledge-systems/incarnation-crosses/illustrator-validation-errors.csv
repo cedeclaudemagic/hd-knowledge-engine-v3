@@ -1,0 +1,4 @@
+CrossName,Gate,CurrentType,PS,PE,DS,DE,Issue,Status
+Rulership_3_or_Gate_64_LAX/JX,47/64,RAX vs LAX/JX,47/22 vs 64/63,45/26 vs 46/26,Formula1,"Formula 1 mismatch: Gate 47 RAX has 45/26, Gate 64 LAX/JX have 46/26",Unresolved
+Missing_Gate_16_JX,16,N/A,N/A,N/A,N/A,Formula4,Gate 16 missing JX cross,Unresolved
+Missing_Gate_42_LAX,42,N/A,N/A,N/A,N/A,Formula4,Gate 42 missing LAX cross,Unresolved

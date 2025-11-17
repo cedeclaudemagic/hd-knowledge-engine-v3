@@ -1,0 +1,247 @@
+{
+  "systemName": "The 16 Mythological Faces",
+  "version": "1.0.0",
+  "description": "Mythological archetypes derived from binary codon patterns (first 4 bits). Each face represents a fundamental archetype of human consciousness, embodied through cross-cultural mythological deities and figures.",
+  "completeness": "full",
+  "dataArchitecture": "grouping",
+  "totalGroups": 16,
+  "calculationMethod": "First 4 binary digits (bottom 4 hexagram lines) → 2 codon letters → Face archetype",
+  "mappings": [
+    {
+      "groupName": "Hades",
+      "codonPattern": "AA",
+      "binaryPattern": "1111",
+      "fullBinaryExample": "111111",
+      "knowledge": {
+        "mythology": "Greek god of the underworld, ruler of the dead and keeper of hidden riches. Brother of Zeus and Poseidon, Hades presides over the realm beneath the earth where souls journey after death.",
+        "archetype": "Death, Rebirth, and Hidden Wealth",
+        "theme": "Transformation through descent into the depths",
+        "realm": "The underworld, hidden treasures, psychological depths, transformation through confronting shadow",
+        "quality": "Depth, intensity, transformation, ability to hold paradox of death and renewal",
+        "essence": "The face of profound transformation that comes through descent into darkness and emergence with hidden riches of the psyche"
+      }
+    },
+    {
+      "groupName": "Prometheus",
+      "codonPattern": "AC",
+      "binaryPattern": "1110",
+      "fullBinaryExample": "111000",
+      "knowledge": {
+        "mythology": "Greek Titan who defied Zeus to steal fire from Mount Olympus and gift it to humanity. Bound to a rock for his transgression, his liver eaten daily by an eagle, yet his spirit remained unbroken.",
+        "archetype": "The Rebel and Divine Benefactor",
+        "theme": "Innovation and sacrifice for the advancement of humanity",
+        "realm": "Technology, foresight, rebellion against tyranny, creative fire, human empowerment",
+        "quality": "Visionary foresight, creative rebellion, self-sacrifice, technological innovation, defiance of unjust authority",
+        "essence": "The face of those who risk everything to bring new light and knowledge to humanity, paying the price for evolutionary advancement"
+      }
+    },
+    {
+      "groupName": "Vishnu",
+      "codonPattern": "AG",
+      "binaryPattern": "1101",
+      "fullBinaryExample": "110100",
+      "knowledge": {
+        "mythology": "Hindu preserver deity, one of the Trimurti (Brahma, Vishnu, Shiva). Vishnu maintains cosmic order and appears as avatars (Krishna, Rama, Buddha) whenever dharma is threatened.",
+        "archetype": "The Preserver of Cosmic Order",
+        "theme": "Maintenance of universal balance and protection of dharma",
+        "realm": "Cosmic preservation, divine incarnation, protection of the righteous, restoration of balance",
+        "quality": "Steadfast protection, adaptive wisdom, commitment to cosmic law, benevolent guardianship",
+        "essence": "The face of those who maintain order and harmony through conscious presence, manifesting in times of need to restore balance"
+      }
+    },
+    {
+      "groupName": "Keepers of the Wheel",
+      "codonPattern": "AU",
+      "binaryPattern": "1100",
+      "fullBinaryExample": "110000",
+      "knowledge": {
+        "mythology": "Guardians of the Dharma Wheel in Buddhist and Hindu traditions. These beings protect the eternal cycle of teaching, karma, and cosmic law that governs all existence.",
+        "archetype": "Guardians of Sacred Law and Cycles",
+        "theme": "Protection and perpetuation of cosmic order",
+        "realm": "Dharma, karmic law, cyclical time, sacred teaching, preservation of wisdom traditions",
+        "quality": "Guardianship, dedication to eternal principles, understanding of cyclical nature, patience with process",
+        "essence": "The face of those who serve as custodians of timeless wisdom, ensuring the wheel of dharma continues to turn for all beings"
+      }
+    },
+    {
+      "groupName": "Kali",
+      "codonPattern": "CA",
+      "binaryPattern": "1011",
+      "fullBinaryExample": "101100",
+      "knowledge": {
+        "mythology": "Hindu goddess of destruction, time, and transformation. Often depicted with dark skin, wearing skulls and severed heads, Kali destroys ego and illusion to liberate souls. Fierce mother who dances on the corpse of illusion.",
+        "archetype": "Destroyer of Illusion and Liberator",
+        "theme": "Creative destruction and liberation through annihilation of false identity",
+        "realm": "Ego death, fierce compassion, time's destructive power, radical transformation, liberation",
+        "quality": "Fierce truth, uncompromising transformation, freedom through destruction, wild feminine power",
+        "essence": "The face of radical transformation that destroys everything false to reveal the eternal truth beneath all illusions"
+      }
+    },
+    {
+      "groupName": "Mitra",
+      "codonPattern": "CC",
+      "binaryPattern": "1010",
+      "fullBinaryExample": "101000",
+      "knowledge": {
+        "mythology": "Vedic deity of friendship, contracts, and social harmony. Mitra represents the bonds that hold society together, the sanctity of oaths, and the light of day that witnesses all agreements.",
+        "archetype": "Divine Friend and Keeper of Contracts",
+        "theme": "Sacred bonds and social harmony through mutual commitment",
+        "realm": "Friendship, contracts, social order, witnessed agreements, daylight consciousness, reciprocity",
+        "quality": "Trustworthiness, social cohesion, honoring commitments, building bridges between people",
+        "essence": "The face of those who create and maintain sacred bonds between individuals and communities through integrity and mutual respect"
+      }
+    },
+    {
+      "groupName": "Michael",
+      "codonPattern": "CG",
+      "binaryPattern": "1001",
+      "fullBinaryExample": "100100",
+      "knowledge": {
+        "mythology": "Archangel and warrior of light in Abrahamic traditions. Michael defeats the dragon, leads heavenly armies, and protects the faithful. His name means 'Who is like God?'",
+        "archetype": "Divine Warrior and Protector",
+        "theme": "Spiritual warfare and protection of the innocent",
+        "realm": "Divine justice, courage in battle, protection against evil, spiritual warriorship, righteous action",
+        "quality": "Courage, spiritual strength, protective power, capacity to confront darkness, unwavering faith",
+        "essence": "The face of those who stand against darkness with spiritual power, protecting the vulnerable and fighting for divine truth"
+      }
+    },
+    {
+      "groupName": "Janus",
+      "codonPattern": "CU",
+      "binaryPattern": "1000",
+      "fullBinaryExample": "100000",
+      "knowledge": {
+        "mythology": "Roman god with two faces looking in opposite directions - one to the past, one to the future. God of beginnings, transitions, doorways, and duality. The month January is named for him.",
+        "archetype": "Guardian of Thresholds and Transitions",
+        "theme": "Simultaneous awareness of past and future at the moment of transition",
+        "realm": "Doorways, beginnings and endings, transitions, duality, time's passage, gateways",
+        "quality": "Dual perspective, awareness of cycles, comfort with transition, ability to honor both directions",
+        "essence": "The face of those who stand at thresholds between worlds, seeing both what was and what will be, guiding transitions"
+      }
+    },
+    {
+      "groupName": "Minerva",
+      "codonPattern": "GA",
+      "binaryPattern": "0111",
+      "fullBinaryExample": "011100",
+      "knowledge": {
+        "mythology": "Roman goddess of wisdom, strategic warfare, arts and crafts. Equivalent to Greek Athena, born fully armed from Jupiter's head. Patron of intellectual and creative pursuits.",
+        "archetype": "Wisdom and Strategic Intelligence",
+        "theme": "Applied wisdom and skillful action in the world",
+        "realm": "Strategy, wisdom in action, arts and crafts, intellectual pursuits, civilized warfare, practical creativity",
+        "quality": "Strategic thinking, practical wisdom, skillful craftsmanship, intellectual clarity, measured action",
+        "essence": "The face of those who combine wisdom with practical action, applying intelligence skillfully to create and protect civilization"
+      }
+    },
+    {
+      "groupName": "Christ",
+      "codonPattern": "GC",
+      "binaryPattern": "0110",
+      "fullBinaryExample": "011000",
+      "knowledge": {
+        "mythology": "Central figure of Christianity embodying divine love, compassion, and self-sacrifice. The Christ consciousness represents unconditional love and redemption through surrender to divine will.",
+        "archetype": "Unconditional Love and Sacred Sacrifice",
+        "theme": "Redemption through love and self-sacrifice",
+        "realm": "Divine love, compassion, forgiveness, sacrifice for others, redemption, Christ consciousness",
+        "quality": "Boundless compassion, self-giving love, forgiveness, spiritual surrender, redemptive power",
+        "essence": "The face of those who embody unconditional love and compassion, willing to sacrifice self for the awakening of others"
+      }
+    },
+    {
+      "groupName": "Harmonia",
+      "codonPattern": "GG",
+      "binaryPattern": "0101",
+      "fullBinaryExample": "010100",
+      "knowledge": {
+        "mythology": "Greek goddess of harmony and concord, daughter of Ares and Aphrodite. She reconciles opposites - war and love - to create beauty and balance. Her wedding gift became a cursed necklace, showing harmony's fragility.",
+        "archetype": "Divine Balance and Reconciliation",
+        "theme": "Synthesis of opposites into harmonious wholeness",
+        "realm": "Harmony, balance, reconciliation of opposites, musical consonance, peaceful resolution, unity",
+        "quality": "Balance, ability to harmonize discord, appreciation of wholeness, diplomatic grace, aesthetic sense",
+        "essence": "The face of those who bring opposing forces into balance, creating harmony from discord and beauty from tension"
+      }
+    },
+    {
+      "groupName": "Thoth",
+      "codonPattern": "GU",
+      "binaryPattern": "0100",
+      "fullBinaryExample": "010000",
+      "knowledge": {
+        "mythology": "Egyptian god of writing, magic, wisdom, and the moon. Thoth invented hieroglyphs, maintains the universe through word and number, records the judgment of souls, and mediates disputes between gods.",
+        "archetype": "Divine Scribe and Master of Sacred Knowledge",
+        "theme": "Preservation and transmission of sacred wisdom",
+        "realm": "Writing, magic, mathematics, sacred language, record-keeping, lunar wisdom, mediation",
+        "quality": "Intellectual precision, magical understanding, capacity to encode wisdom, mediation through knowledge",
+        "essence": "The face of those who preserve and transmit sacred knowledge through word, symbol, and number, bridging worlds through language"
+      }
+    },
+    {
+      "groupName": "Maat",
+      "codonPattern": "UA",
+      "binaryPattern": "0011",
+      "fullBinaryExample": "001100",
+      "knowledge": {
+        "mythology": "Egyptian goddess of truth, justice, cosmic order, and balance. Maat's feather is weighed against the heart of the deceased - if heavier, the soul is devoured. She represents the fundamental order underlying reality.",
+        "archetype": "Cosmic Truth and Divine Justice",
+        "theme": "Alignment with fundamental truth and natural order",
+        "realm": "Truth, justice, cosmic law, balance, right order, integrity, karmic measurement",
+        "quality": "Unwavering truth, perfect justice, alignment with natural law, integrity, cosmic order",
+        "essence": "The face of those who embody and uphold fundamental truth, ensuring all actions align with cosmic justice and natural order"
+      }
+    },
+    {
+      "groupName": "Parvati",
+      "codonPattern": "UC",
+      "binaryPattern": "0010",
+      "fullBinaryExample": "001000",
+      "knowledge": {
+        "mythology": "Hindu goddess, consort of Shiva, mother of Ganesha and Kartikeya. Parvati represents the divine feminine as devoted partner and powerful mother. Her gentle form contrasts with her fierce aspect as Durga/Kali.",
+        "archetype": "Divine Feminine and Sacred Partnership",
+        "theme": "Power of devotion, partnership, and nurturing strength",
+        "realm": "Divine partnership, motherhood, devotion, feminine power, sacred relationship, gentle strength",
+        "quality": "Devotional love, patient determination, nurturing power, capacity for partnership, gentle persistence",
+        "essence": "The face of those who embody the power of the divine feminine through devotion, partnership, and the strength of gentle persistence"
+      }
+    },
+    {
+      "groupName": "Lakshmi",
+      "codonPattern": "UG",
+      "binaryPattern": "0001",
+      "fullBinaryExample": "000100",
+      "knowledge": {
+        "mythology": "Hindu goddess of wealth, fortune, prosperity, beauty, and abundance. Lakshmi emerges from the cosmic ocean during the churning of the milk ocean, bringing blessings of material and spiritual wealth.",
+        "archetype": "Abundance and Divine Grace",
+        "theme": "Flow of prosperity and graceful abundance in all forms",
+        "realm": "Wealth, prosperity, abundance, good fortune, beauty, grace, material and spiritual blessings",
+        "quality": "Generosity, grace, attraction of abundance, appreciation of beauty, blessing energy",
+        "essence": "The face of those who embody and attract abundance in all forms, sharing wealth and beauty as expressions of divine grace"
+      }
+    },
+    {
+      "groupName": "Maia",
+      "codonPattern": "UU",
+      "binaryPattern": "0000",
+      "fullBinaryExample": "000000",
+      "knowledge": {
+        "mythology": "Greek goddess, eldest of the Pleiades sisters, mother of Hermes by Zeus. Maia dwells in a cave on Mount Cyllene, representing the nurturing mother who dwells in quiet seclusion. The month May is named for her.",
+        "archetype": "Primordial Mother and Nurturer",
+        "theme": "Essential nourishment and mothering from the depths",
+        "realm": "Motherhood, nurturing, quiet growth, gestation, essential care, protective seclusion, primal nourishment",
+        "quality": "Nurturing presence, protective care, patience with growth, quiet strength, essential mothering",
+        "essence": "The face of those who provide essential nurturing and care, creating safe spaces for growth and holding the primal mother energy"
+      }
+    }
+  ],
+  "notes": {
+    "calculationExample": "Gate 1 has binary '111111' → first 4 bits are '1111' → '11' + '11' → 'A' + 'A' → Face 'AA' → Hades",
+    "bigramMapping": {
+      "11": "A (Yang-Yang)",
+      "00": "U (Yin-Yin)",
+      "10": "C (Yang-Yin)",
+      "01": "G (Yin-Yang)"
+    },
+    "opposites": "Each face has an opposite through codon inversion (A↔U, C↔G): Hades↔Maia, Prometheus↔Parvati, Vishnu↔Lakshmi, Keepers↔Harmonia, Kali↔Christ, Mitra↔Thoth, Michael↔Janus, Minerva↔Keepers",
+    "culturalDiversity": "The 16 faces draw from Greek, Roman, Hindu, Egyptian, Buddhist, and Christian traditions, representing universal archetypes across cultures",
+    "gatesPerFace": "Each face contains exactly 4 gates from the 64 total gates"
+  }
+}

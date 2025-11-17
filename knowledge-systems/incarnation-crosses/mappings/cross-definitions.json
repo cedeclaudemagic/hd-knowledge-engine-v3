@@ -1,0 +1,3661 @@
+{
+  "systemName": "Incarnation Crosses",
+  "version": "1.0.0",
+  "description": "Cross-centric reference of all 190 incarnation crosses",
+  "totalCrosses": 192,
+  "crossTypes": {
+    "LAX": 64,
+    "RAX": 64,
+    "JX": 64
+  },
+  "crosses": {
+    "Education 2": {
+      "type": "LAX",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 46,
+      "designEarth": 25,
+      "gates": [
+        11,
+        12,
+        46,
+        25
+      ],
+      "gateRoles": {
+        "11": "Personality Sun",
+        "12": "Personality Earth",
+        "25": "Design Earth",
+        "46": "Design Sun"
+      }
+    },
+    "Confrontation 2": {
+      "type": "LAX",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 6,
+      "designEarth": 36,
+      "gates": [
+        26,
+        45,
+        6,
+        36
+      ],
+      "gateRoles": {
+        "6": "Design Sun",
+        "26": "Personality Sun",
+        "36": "Design Earth",
+        "45": "Personality Earth"
+      }
+    },
+    "Separation 2": {
+      "type": "LAX",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 47,
+      "designEarth": 22,
+      "gates": [
+        5,
+        35,
+        47,
+        22
+      ],
+      "gateRoles": {
+        "5": "Personality Sun",
+        "22": "Design Earth",
+        "35": "Personality Earth",
+        "47": "Design Sun"
+      }
+    },
+    "Identification 2": {
+      "type": "LAX",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 64,
+      "designEarth": 63,
+      "gates": [
+        9,
+        16,
+        64,
+        63
+      ],
+      "gateRoles": {
+        "9": "Personality Sun",
+        "16": "Personality Earth",
+        "63": "Design Earth",
+        "64": "Design Sun"
+      }
+    },
+    "Duality 2": {
+      "type": "LAX",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 40,
+      "designEarth": 37,
+      "gates": [
+        34,
+        20,
+        40,
+        37
+      ],
+      "gateRoles": {
+        "20": "Personality Earth",
+        "34": "Personality Sun",
+        "37": "Design Earth",
+        "40": "Design Sun"
+      }
+    },
+    "Uncertainty 2": {
+      "type": "LAX",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 59,
+      "designEarth": 55,
+      "gates": [
+        14,
+        8,
+        59,
+        55
+      ],
+      "gateRoles": {
+        "8": "Personality Earth",
+        "14": "Personality Sun",
+        "55": "Design Earth",
+        "59": "Design Sun"
+      }
+    },
+    "Dedication 2": {
+      "type": "LAX",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 29,
+      "designEarth": 30,
+      "gates": [
+        43,
+        23,
+        29,
+        30
+      ],
+      "gateRoles": {
+        "23": "Personality Earth",
+        "29": "Design Sun",
+        "30": "Design Earth",
+        "43": "Personality Sun"
+      }
+    },
+    "Defiance 2": {
+      "type": "LAX",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 4,
+      "designEarth": 49,
+      "gates": [
+        1,
+        2,
+        4,
+        49
+      ],
+      "gateRoles": {
+        "1": "Personality Sun",
+        "2": "Personality Earth",
+        "4": "Design Sun",
+        "49": "Design Earth"
+      }
+    },
+    "Incarnation 2": {
+      "type": "LAX",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 7,
+      "designEarth": 13,
+      "gates": [
+        44,
+        24,
+        7,
+        13
+      ],
+      "gateRoles": {
+        "7": "Design Sun",
+        "13": "Design Earth",
+        "24": "Personality Earth",
+        "44": "Personality Sun"
+      }
+    },
+    "Alignment 2": {
+      "type": "LAX",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 33,
+      "designEarth": 19,
+      "gates": [
+        28,
+        27,
+        33,
+        19
+      ],
+      "gateRoles": {
+        "19": "Design Earth",
+        "27": "Personality Earth",
+        "28": "Personality Sun",
+        "33": "Design Sun"
+      }
+    },
+    "Wishes 2": {
+      "type": "LAX",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 31,
+      "designEarth": 41,
+      "gates": [
+        50,
+        3,
+        31,
+        41
+      ],
+      "gateRoles": {
+        "3": "Personality Earth",
+        "31": "Design Sun",
+        "41": "Design Earth",
+        "50": "Personality Sun"
+      }
+    },
+    "Limitation 2": {
+      "type": "LAX",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 56,
+      "designEarth": 60,
+      "gates": [
+        32,
+        42,
+        56,
+        60
+      ],
+      "gateRoles": {
+        "32": "Personality Sun",
+        "42": "Personality Earth",
+        "56": "Design Sun",
+        "60": "Design Earth"
+      }
+    },
+    "Clarion 2": {
+      "type": "LAX",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 62,
+      "designEarth": 61,
+      "gates": [
+        57,
+        51,
+        62,
+        61
+      ],
+      "gateRoles": {
+        "51": "Personality Earth",
+        "57": "Personality Sun",
+        "61": "Design Earth",
+        "62": "Design Sun"
+      }
+    },
+    "Endeavour 2": {
+      "type": "LAX",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 53,
+      "designEarth": 54,
+      "gates": [
+        48,
+        21,
+        53,
+        54
+      ],
+      "gateRoles": {
+        "21": "Personality Earth",
+        "48": "Personality Sun",
+        "53": "Design Sun",
+        "54": "Design Earth"
+      }
+    },
+    "Upheaval 2": {
+      "type": "LAX",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 39,
+      "designEarth": 38,
+      "gates": [
+        18,
+        17,
+        39,
+        38
+      ],
+      "gateRoles": {
+        "17": "Personality Earth",
+        "18": "Personality Sun",
+        "38": "Design Earth",
+        "39": "Design Sun"
+      }
+    },
+    "Healing 2": {
+      "type": "LAX",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 52,
+      "designEarth": 58,
+      "gates": [
+        46,
+        25,
+        52,
+        58
+      ],
+      "gateRoles": {
+        "25": "Personality Earth",
+        "46": "Personality Sun",
+        "52": "Design Sun",
+        "58": "Design Earth"
+      }
+    },
+    "Plane 2": {
+      "type": "LAX",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 15,
+      "designEarth": 10,
+      "gates": [
+        6,
+        36,
+        15,
+        10
+      ],
+      "gateRoles": {
+        "6": "Personality Sun",
+        "10": "Design Earth",
+        "15": "Design Sun",
+        "36": "Personality Earth"
+      }
+    },
+    "Informing 2": {
+      "type": "LAX",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 12,
+      "designEarth": 11,
+      "gates": [
+        47,
+        22,
+        12,
+        11
+      ],
+      "gateRoles": {
+        "11": "Design Earth",
+        "12": "Design Sun",
+        "22": "Personality Earth",
+        "47": "Personality Sun"
+      }
+    },
+    "Dominion 2": {
+      "type": "LAX",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 45,
+      "designEarth": 26,
+      "gates": [
+        64,
+        63,
+        45,
+        26
+      ],
+      "gateRoles": {
+        "26": "Design Earth",
+        "45": "Design Sun",
+        "63": "Personality Earth",
+        "64": "Personality Sun"
+      }
+    },
+    "Migration 2": {
+      "type": "LAX",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 35,
+      "designEarth": 5,
+      "gates": [
+        40,
+        37,
+        35,
+        5
+      ],
+      "gateRoles": {
+        "5": "Design Earth",
+        "35": "Design Sun",
+        "37": "Personality Earth",
+        "40": "Personality Sun"
+      }
+    },
+    "Spirit 2": {
+      "type": "LAX",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 16,
+      "designEarth": 9,
+      "gates": [
+        59,
+        55,
+        16,
+        9
+      ],
+      "gateRoles": {
+        "9": "Design Earth",
+        "16": "Design Sun",
+        "55": "Personality Earth",
+        "59": "Personality Sun"
+      }
+    },
+    "Industry 2": {
+      "type": "LAX",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 20,
+      "designEarth": 34,
+      "gates": [
+        29,
+        30,
+        20,
+        34
+      ],
+      "gateRoles": {
+        "20": "Design Sun",
+        "29": "Personality Sun",
+        "30": "Personality Earth",
+        "34": "Design Earth"
+      }
+    },
+    "Revolution 2": {
+      "type": "LAX",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 8,
+      "designEarth": 14,
+      "gates": [
+        4,
+        49,
+        8,
+        14
+      ],
+      "gateRoles": {
+        "4": "Personality Sun",
+        "8": "Design Sun",
+        "14": "Design Earth",
+        "49": "Personality Earth"
+      }
+    },
+    "Masks 2": {
+      "type": "LAX",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 23,
+      "designEarth": 43,
+      "gates": [
+        7,
+        13,
+        23,
+        43
+      ],
+      "gateRoles": {
+        "7": "Personality Sun",
+        "13": "Personality Earth",
+        "23": "Design Sun",
+        "43": "Design Earth"
+      }
+    },
+    "Refinement": {
+      "type": "LAX",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 2,
+      "designEarth": 1,
+      "gates": [
+        33,
+        19,
+        2,
+        1
+      ],
+      "gateRoles": {
+        "1": "Design Earth",
+        "2": "Design Sun",
+        "19": "Personality Earth",
+        "33": "Personality Sun"
+      }
+    },
+    "Alpha": {
+      "type": "LAX",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 24,
+      "designEarth": 44,
+      "gates": [
+        31,
+        41,
+        24,
+        44
+      ],
+      "gateRoles": {
+        "24": "Design Sun",
+        "31": "Personality Sun",
+        "41": "Personality Earth",
+        "44": "Design Earth"
+      }
+    },
+    "Distraction": {
+      "type": "LAX",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 27,
+      "designEarth": 28,
+      "gates": [
+        56,
+        60,
+        27,
+        28
+      ],
+      "gateRoles": {
+        "27": "Design Sun",
+        "28": "Design Earth",
+        "56": "Personality Sun",
+        "60": "Personality Earth"
+      }
+    },
+    "Obscuration": {
+      "type": "LAX",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 3,
+      "designEarth": 50,
+      "gates": [
+        62,
+        61,
+        3,
+        50
+      ],
+      "gateRoles": {
+        "3": "Design Sun",
+        "50": "Design Earth",
+        "61": "Personality Earth",
+        "62": "Personality Sun"
+      }
+    },
+    "Cycles": {
+      "type": "LAX",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 42,
+      "designEarth": 32,
+      "gates": [
+        53,
+        54,
+        42,
+        32
+      ],
+      "gateRoles": {
+        "32": "Design Earth",
+        "42": "Design Sun",
+        "53": "Personality Sun",
+        "54": "Personality Earth"
+      }
+    },
+    "Individualism": {
+      "type": "LAX",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 51,
+      "designEarth": 57,
+      "gates": [
+        39,
+        38,
+        51,
+        57
+      ],
+      "gateRoles": {
+        "38": "Personality Earth",
+        "39": "Personality Sun",
+        "51": "Design Sun",
+        "57": "Design Earth"
+      }
+    },
+    "Demands": {
+      "type": "LAX",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 21,
+      "designEarth": 48,
+      "gates": [
+        52,
+        58,
+        21,
+        48
+      ],
+      "gateRoles": {
+        "21": "Design Sun",
+        "48": "Design Earth",
+        "52": "Personality Sun",
+        "58": "Personality Earth"
+      }
+    },
+    "Prevention": {
+      "type": "LAX",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 17,
+      "designEarth": 18,
+      "gates": [
+        15,
+        10,
+        17,
+        18
+      ],
+      "gateRoles": {
+        "10": "Personality Earth",
+        "15": "Personality Sun",
+        "17": "Design Sun",
+        "18": "Design Earth"
+      }
+    },
+    "Education": {
+      "type": "LAX",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 25,
+      "designEarth": 46,
+      "gates": [
+        12,
+        11,
+        25,
+        46
+      ],
+      "gateRoles": {
+        "11": "Personality Earth",
+        "12": "Personality Sun",
+        "25": "Design Sun",
+        "46": "Design Earth"
+      }
+    },
+    "Confrontation": {
+      "type": "LAX",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 36,
+      "designEarth": 6,
+      "gates": [
+        45,
+        26,
+        36,
+        6
+      ],
+      "gateRoles": {
+        "6": "Design Earth",
+        "26": "Personality Earth",
+        "36": "Design Sun",
+        "45": "Personality Sun"
+      }
+    },
+    "Separation": {
+      "type": "LAX",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 22,
+      "designEarth": 47,
+      "gates": [
+        35,
+        5,
+        22,
+        47
+      ],
+      "gateRoles": {
+        "5": "Personality Earth",
+        "22": "Design Sun",
+        "35": "Personality Sun",
+        "47": "Design Earth"
+      }
+    },
+    "Identification": {
+      "type": "LAX",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 63,
+      "designEarth": 64,
+      "gates": [
+        16,
+        9,
+        63,
+        64
+      ],
+      "gateRoles": {
+        "9": "Personality Earth",
+        "16": "Personality Sun",
+        "63": "Design Sun",
+        "64": "Design Earth"
+      }
+    },
+    "Uncertainty": {
+      "type": "LAX",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 55,
+      "designEarth": 59,
+      "gates": [
+        8,
+        14,
+        55,
+        59
+      ],
+      "gateRoles": {
+        "8": "Personality Sun",
+        "14": "Personality Earth",
+        "55": "Design Sun",
+        "59": "Design Earth"
+      }
+    },
+    "Dedication": {
+      "type": "LAX",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 30,
+      "designEarth": 29,
+      "gates": [
+        23,
+        43,
+        30,
+        29
+      ],
+      "gateRoles": {
+        "23": "Personality Sun",
+        "29": "Design Earth",
+        "30": "Design Sun",
+        "43": "Personality Earth"
+      }
+    },
+    "Defiance": {
+      "type": "LAX",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 49,
+      "designEarth": 4,
+      "gates": [
+        2,
+        1,
+        49,
+        4
+      ],
+      "gateRoles": {
+        "1": "Personality Earth",
+        "2": "Personality Sun",
+        "4": "Design Earth",
+        "49": "Design Sun"
+      }
+    },
+    "Incarnation": {
+      "type": "LAX",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 13,
+      "designEarth": 7,
+      "gates": [
+        24,
+        44,
+        13,
+        7
+      ],
+      "gateRoles": {
+        "7": "Design Earth",
+        "13": "Design Sun",
+        "24": "Personality Sun",
+        "44": "Personality Earth"
+      }
+    },
+    "Alignment": {
+      "type": "LAX",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 19,
+      "designEarth": 33,
+      "gates": [
+        27,
+        28,
+        19,
+        33
+      ],
+      "gateRoles": {
+        "19": "Design Sun",
+        "27": "Personality Sun",
+        "28": "Personality Earth",
+        "33": "Design Earth"
+      }
+    },
+    "Wishes": {
+      "type": "LAX",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 41,
+      "designEarth": 31,
+      "gates": [
+        3,
+        50,
+        41,
+        31
+      ],
+      "gateRoles": {
+        "3": "Personality Sun",
+        "31": "Design Earth",
+        "41": "Design Sun",
+        "50": "Personality Earth"
+      }
+    },
+    "Limitation": {
+      "type": "JX",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 28,
+      "designEarth": 27,
+      "gates": [
+        60,
+        56,
+        28,
+        27
+      ],
+      "gateRoles": {
+        "27": "Design Earth",
+        "28": "Design Sun",
+        "56": "Personality Earth",
+        "60": "Personality Sun"
+      }
+    },
+    "Clarion": {
+      "type": "LAX",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 61,
+      "designEarth": 62,
+      "gates": [
+        51,
+        57,
+        61,
+        62
+      ],
+      "gateRoles": {
+        "51": "Personality Sun",
+        "57": "Personality Earth",
+        "61": "Design Sun",
+        "62": "Design Earth"
+      }
+    },
+    "Endeavour": {
+      "type": "LAX",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 54,
+      "designEarth": 53,
+      "gates": [
+        21,
+        48,
+        54,
+        53
+      ],
+      "gateRoles": {
+        "21": "Personality Sun",
+        "48": "Personality Earth",
+        "53": "Design Earth",
+        "54": "Design Sun"
+      }
+    },
+    "Upheaval": {
+      "type": "LAX",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 38,
+      "designEarth": 39,
+      "gates": [
+        17,
+        18,
+        38,
+        39
+      ],
+      "gateRoles": {
+        "17": "Personality Sun",
+        "18": "Personality Earth",
+        "38": "Design Sun",
+        "39": "Design Earth"
+      }
+    },
+    "Healing": {
+      "type": "LAX",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 58,
+      "designEarth": 52,
+      "gates": [
+        25,
+        46,
+        58,
+        52
+      ],
+      "gateRoles": {
+        "25": "Personality Sun",
+        "46": "Personality Earth",
+        "52": "Design Earth",
+        "58": "Design Sun"
+      }
+    },
+    "Plane": {
+      "type": "LAX",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 10,
+      "designEarth": 15,
+      "gates": [
+        36,
+        6,
+        10,
+        15
+      ],
+      "gateRoles": {
+        "6": "Personality Earth",
+        "10": "Design Sun",
+        "15": "Design Earth",
+        "36": "Personality Sun"
+      }
+    },
+    "Informing": {
+      "type": "LAX",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 11,
+      "designEarth": 12,
+      "gates": [
+        22,
+        47,
+        11,
+        12
+      ],
+      "gateRoles": {
+        "11": "Design Sun",
+        "12": "Design Earth",
+        "22": "Personality Sun",
+        "47": "Personality Earth"
+      }
+    },
+    "Dominion": {
+      "type": "LAX",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 26,
+      "designEarth": 45,
+      "gates": [
+        63,
+        64,
+        26,
+        45
+      ],
+      "gateRoles": {
+        "26": "Design Sun",
+        "45": "Design Earth",
+        "63": "Personality Sun",
+        "64": "Personality Earth"
+      }
+    },
+    "Migration": {
+      "type": "LAX",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 5,
+      "designEarth": 35,
+      "gates": [
+        37,
+        40,
+        5,
+        35
+      ],
+      "gateRoles": {
+        "5": "Design Sun",
+        "35": "Design Earth",
+        "37": "Personality Sun",
+        "40": "Personality Earth"
+      }
+    },
+    "Spirit": {
+      "type": "LAX",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 9,
+      "designEarth": 16,
+      "gates": [
+        55,
+        59,
+        9,
+        16
+      ],
+      "gateRoles": {
+        "9": "Design Sun",
+        "16": "Design Earth",
+        "55": "Personality Sun",
+        "59": "Personality Earth"
+      }
+    },
+    "Industry": {
+      "type": "LAX",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 34,
+      "designEarth": 20,
+      "gates": [
+        30,
+        29,
+        34,
+        20
+      ],
+      "gateRoles": {
+        "20": "Design Earth",
+        "29": "Personality Earth",
+        "30": "Personality Sun",
+        "34": "Design Sun"
+      }
+    },
+    "Revolution": {
+      "type": "LAX",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 14,
+      "designEarth": 8,
+      "gates": [
+        49,
+        4,
+        14,
+        8
+      ],
+      "gateRoles": {
+        "4": "Personality Earth",
+        "8": "Design Earth",
+        "14": "Design Sun",
+        "49": "Personality Sun"
+      }
+    },
+    "Masks": {
+      "type": "LAX",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 43,
+      "designEarth": 23,
+      "gates": [
+        13,
+        7,
+        43,
+        23
+      ],
+      "gateRoles": {
+        "7": "Personality Earth",
+        "13": "Personality Sun",
+        "23": "Design Earth",
+        "43": "Design Sun"
+      }
+    },
+    "Refinement 2": {
+      "type": "LAX",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 1,
+      "designEarth": 2,
+      "gates": [
+        19,
+        33,
+        1,
+        2
+      ],
+      "gateRoles": {
+        "1": "Design Sun",
+        "2": "Design Earth",
+        "19": "Personality Sun",
+        "33": "Personality Earth"
+      }
+    },
+    "Alpha 2": {
+      "type": "LAX",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 44,
+      "designEarth": 24,
+      "gates": [
+        41,
+        31,
+        44,
+        24
+      ],
+      "gateRoles": {
+        "24": "Design Earth",
+        "31": "Personality Earth",
+        "41": "Personality Sun",
+        "44": "Design Sun"
+      }
+    },
+    "Distraction 2": {
+      "type": "LAX",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 28,
+      "designEarth": 27,
+      "gates": [
+        60,
+        56,
+        28,
+        27
+      ],
+      "gateRoles": {
+        "27": "Design Earth",
+        "28": "Design Sun",
+        "56": "Personality Earth",
+        "60": "Personality Sun"
+      }
+    },
+    "Obscuration 2": {
+      "type": "LAX",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 50,
+      "designEarth": 3,
+      "gates": [
+        61,
+        62,
+        50,
+        3
+      ],
+      "gateRoles": {
+        "3": "Design Earth",
+        "50": "Design Sun",
+        "61": "Personality Sun",
+        "62": "Personality Earth"
+      }
+    },
+    "Cycles 2": {
+      "type": "LAX",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 32,
+      "designEarth": 42,
+      "gates": [
+        54,
+        53,
+        32,
+        42
+      ],
+      "gateRoles": {
+        "32": "Design Sun",
+        "42": "Design Earth",
+        "53": "Personality Earth",
+        "54": "Personality Sun"
+      }
+    },
+    "Individualism 2": {
+      "type": "LAX",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 57,
+      "designEarth": 51,
+      "gates": [
+        38,
+        39,
+        57,
+        51
+      ],
+      "gateRoles": {
+        "38": "Personality Sun",
+        "39": "Personality Earth",
+        "51": "Design Earth",
+        "57": "Design Sun"
+      }
+    },
+    "Demands 2": {
+      "type": "LAX",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 48,
+      "designEarth": 21,
+      "gates": [
+        58,
+        52,
+        48,
+        21
+      ],
+      "gateRoles": {
+        "21": "Design Earth",
+        "48": "Design Sun",
+        "52": "Personality Earth",
+        "58": "Personality Sun"
+      }
+    },
+    "Prevention 2": {
+      "type": "LAX",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 18,
+      "designEarth": 17,
+      "gates": [
+        10,
+        15,
+        18,
+        17
+      ],
+      "gateRoles": {
+        "10": "Personality Sun",
+        "15": "Personality Earth",
+        "17": "Design Earth",
+        "18": "Design Sun"
+      }
+    },
+    "Eden 4": {
+      "type": "RAX",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 6,
+      "designEarth": 36,
+      "gates": [
+        11,
+        12,
+        6,
+        36
+      ],
+      "gateRoles": {
+        "6": "Design Sun",
+        "11": "Personality Sun",
+        "12": "Personality Earth",
+        "36": "Design Earth"
+      }
+    },
+    "Rulership 4": {
+      "type": "RAX",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 47,
+      "designEarth": 22,
+      "gates": [
+        26,
+        45,
+        47,
+        22
+      ],
+      "gateRoles": {
+        "22": "Design Earth",
+        "26": "Personality Sun",
+        "45": "Personality Earth",
+        "47": "Design Sun"
+      }
+    },
+    "Consciousness 4": {
+      "type": "RAX",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 64,
+      "designEarth": 63,
+      "gates": [
+        5,
+        35,
+        64,
+        63
+      ],
+      "gateRoles": {
+        "5": "Personality Sun",
+        "35": "Personality Earth",
+        "63": "Design Earth",
+        "64": "Design Sun"
+      }
+    },
+    "Planning 4": {
+      "type": "RAX",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 40,
+      "designEarth": 37,
+      "gates": [
+        9,
+        16,
+        40,
+        37
+      ],
+      "gateRoles": {
+        "9": "Personality Sun",
+        "16": "Personality Earth",
+        "37": "Design Earth",
+        "40": "Design Sun"
+      }
+    },
+    "Sleeping Phoenix 4": {
+      "type": "RAX",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 59,
+      "designEarth": 55,
+      "gates": [
+        34,
+        20,
+        59,
+        55
+      ],
+      "gateRoles": {
+        "20": "Personality Earth",
+        "34": "Personality Sun",
+        "55": "Design Earth",
+        "59": "Design Sun"
+      }
+    },
+    "Contagion 4": {
+      "type": "RAX",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 29,
+      "designEarth": 30,
+      "gates": [
+        14,
+        8,
+        29,
+        30
+      ],
+      "gateRoles": {
+        "8": "Personality Earth",
+        "14": "Personality Sun",
+        "29": "Design Sun",
+        "30": "Design Earth"
+      }
+    },
+    "Explanation 4": {
+      "type": "RAX",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 4,
+      "designEarth": 49,
+      "gates": [
+        43,
+        23,
+        4,
+        49
+      ],
+      "gateRoles": {
+        "4": "Design Sun",
+        "23": "Personality Earth",
+        "43": "Personality Sun",
+        "49": "Design Earth"
+      }
+    },
+    "The Sphinx 4": {
+      "type": "RAX",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 7,
+      "designEarth": 13,
+      "gates": [
+        1,
+        2,
+        7,
+        13
+      ],
+      "gateRoles": {
+        "1": "Personality Sun",
+        "2": "Personality Earth",
+        "7": "Design Sun",
+        "13": "Design Earth"
+      }
+    },
+    "The Four Ways 3": {
+      "type": "RAX",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 33,
+      "designEarth": 19,
+      "gates": [
+        44,
+        24,
+        33,
+        19
+      ],
+      "gateRoles": {
+        "19": "Design Earth",
+        "24": "Personality Earth",
+        "33": "Design Sun",
+        "44": "Personality Sun"
+      }
+    },
+    "Unexpected 3": {
+      "type": "RAX",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 31,
+      "designEarth": 41,
+      "gates": [
+        28,
+        27,
+        31,
+        41
+      ],
+      "gateRoles": {
+        "27": "Personality Earth",
+        "28": "Personality Sun",
+        "31": "Design Sun",
+        "41": "Design Earth"
+      }
+    },
+    "Laws 3": {
+      "type": "RAX",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 56,
+      "designEarth": 60,
+      "gates": [
+        50,
+        3,
+        56,
+        60
+      ],
+      "gateRoles": {
+        "3": "Personality Earth",
+        "50": "Personality Sun",
+        "56": "Design Sun",
+        "60": "Design Earth"
+      }
+    },
+    "Maia 3": {
+      "type": "RAX",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 62,
+      "designEarth": 61,
+      "gates": [
+        32,
+        42,
+        62,
+        61
+      ],
+      "gateRoles": {
+        "32": "Personality Sun",
+        "42": "Personality Earth",
+        "61": "Design Earth",
+        "62": "Design Sun"
+      }
+    },
+    "Penetration 3": {
+      "type": "RAX",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 53,
+      "designEarth": 54,
+      "gates": [
+        57,
+        51,
+        53,
+        54
+      ],
+      "gateRoles": {
+        "51": "Personality Earth",
+        "53": "Design Sun",
+        "54": "Design Earth",
+        "57": "Personality Sun"
+      }
+    },
+    "Tension 3": {
+      "type": "RAX",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 39,
+      "designEarth": 38,
+      "gates": [
+        48,
+        21,
+        39,
+        38
+      ],
+      "gateRoles": {
+        "21": "Personality Earth",
+        "38": "Design Earth",
+        "39": "Design Sun",
+        "48": "Personality Sun"
+      }
+    },
+    "Service 3": {
+      "type": "RAX",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 52,
+      "designEarth": 58,
+      "gates": [
+        18,
+        17,
+        52,
+        58
+      ],
+      "gateRoles": {
+        "17": "Personality Earth",
+        "18": "Personality Sun",
+        "52": "Design Sun",
+        "58": "Design Earth"
+      }
+    },
+    "Vessel of Love 3": {
+      "type": "RAX",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 15,
+      "designEarth": 10,
+      "gates": [
+        46,
+        25,
+        15,
+        10
+      ],
+      "gateRoles": {
+        "10": "Design Earth",
+        "15": "Design Sun",
+        "25": "Personality Earth",
+        "46": "Personality Sun"
+      }
+    },
+    "Eden 3": {
+      "type": "RAX",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 12,
+      "designEarth": 11,
+      "gates": [
+        6,
+        36,
+        12,
+        11
+      ],
+      "gateRoles": {
+        "6": "Personality Sun",
+        "11": "Design Earth",
+        "12": "Design Sun",
+        "36": "Personality Earth"
+      }
+    },
+    "Rulership 3": {
+      "type": "RAX",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 45,
+      "designEarth": 26,
+      "gates": [
+        47,
+        22,
+        45,
+        26
+      ],
+      "gateRoles": {
+        "22": "Personality Earth",
+        "26": "Design Earth",
+        "45": "Design Sun",
+        "47": "Personality Sun"
+      }
+    },
+    "Consciousness 3": {
+      "type": "RAX",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 35,
+      "designEarth": 5,
+      "gates": [
+        64,
+        63,
+        35,
+        5
+      ],
+      "gateRoles": {
+        "5": "Design Earth",
+        "35": "Design Sun",
+        "63": "Personality Earth",
+        "64": "Personality Sun"
+      }
+    },
+    "Planning 3": {
+      "type": "RAX",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 16,
+      "designEarth": 9,
+      "gates": [
+        40,
+        37,
+        16,
+        9
+      ],
+      "gateRoles": {
+        "9": "Design Earth",
+        "16": "Design Sun",
+        "37": "Personality Earth",
+        "40": "Personality Sun"
+      }
+    },
+    "Sleeping Phoenix 3": {
+      "type": "RAX",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 20,
+      "designEarth": 34,
+      "gates": [
+        59,
+        55,
+        20,
+        34
+      ],
+      "gateRoles": {
+        "20": "Design Sun",
+        "34": "Design Earth",
+        "55": "Personality Earth",
+        "59": "Personality Sun"
+      }
+    },
+    "Contagion 3": {
+      "type": "RAX",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 8,
+      "designEarth": 14,
+      "gates": [
+        29,
+        30,
+        8,
+        14
+      ],
+      "gateRoles": {
+        "8": "Design Sun",
+        "14": "Design Earth",
+        "29": "Personality Sun",
+        "30": "Personality Earth"
+      }
+    },
+    "Explanation 3": {
+      "type": "RAX",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 23,
+      "designEarth": 43,
+      "gates": [
+        4,
+        49,
+        23,
+        43
+      ],
+      "gateRoles": {
+        "4": "Personality Sun",
+        "23": "Design Sun",
+        "43": "Design Earth",
+        "49": "Personality Earth"
+      }
+    },
+    "The Sphinx 3": {
+      "type": "RAX",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 2,
+      "designEarth": 1,
+      "gates": [
+        7,
+        13,
+        2,
+        1
+      ],
+      "gateRoles": {
+        "1": "Design Earth",
+        "2": "Design Sun",
+        "7": "Personality Sun",
+        "13": "Personality Earth"
+      }
+    },
+    "The Four Ways 2": {
+      "type": "RAX",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 24,
+      "designEarth": 44,
+      "gates": [
+        33,
+        19,
+        24,
+        44
+      ],
+      "gateRoles": {
+        "19": "Personality Earth",
+        "24": "Design Sun",
+        "33": "Personality Sun",
+        "44": "Design Earth"
+      }
+    },
+    "Unexpected 2": {
+      "type": "RAX",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 27,
+      "designEarth": 28,
+      "gates": [
+        31,
+        41,
+        27,
+        28
+      ],
+      "gateRoles": {
+        "27": "Design Sun",
+        "28": "Design Earth",
+        "31": "Personality Sun",
+        "41": "Personality Earth"
+      }
+    },
+    "Laws 2": {
+      "type": "RAX",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 3,
+      "designEarth": 50,
+      "gates": [
+        56,
+        60,
+        3,
+        50
+      ],
+      "gateRoles": {
+        "3": "Design Sun",
+        "50": "Design Earth",
+        "56": "Personality Sun",
+        "60": "Personality Earth"
+      }
+    },
+    "Maia 2": {
+      "type": "RAX",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 42,
+      "designEarth": 32,
+      "gates": [
+        62,
+        61,
+        42,
+        32
+      ],
+      "gateRoles": {
+        "32": "Design Earth",
+        "42": "Design Sun",
+        "61": "Personality Earth",
+        "62": "Personality Sun"
+      }
+    },
+    "Penetration 2": {
+      "type": "RAX",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 51,
+      "designEarth": 57,
+      "gates": [
+        53,
+        54,
+        51,
+        57
+      ],
+      "gateRoles": {
+        "51": "Design Sun",
+        "53": "Personality Sun",
+        "54": "Personality Earth",
+        "57": "Design Earth"
+      }
+    },
+    "Tension 2": {
+      "type": "RAX",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 21,
+      "designEarth": 48,
+      "gates": [
+        39,
+        38,
+        21,
+        48
+      ],
+      "gateRoles": {
+        "21": "Design Sun",
+        "38": "Personality Earth",
+        "39": "Personality Sun",
+        "48": "Design Earth"
+      }
+    },
+    "Service 2": {
+      "type": "RAX",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 17,
+      "designEarth": 18,
+      "gates": [
+        52,
+        58,
+        17,
+        18
+      ],
+      "gateRoles": {
+        "17": "Design Sun",
+        "18": "Design Earth",
+        "52": "Personality Sun",
+        "58": "Personality Earth"
+      }
+    },
+    "Vessel of Love 2": {
+      "type": "RAX",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 25,
+      "designEarth": 46,
+      "gates": [
+        15,
+        10,
+        25,
+        46
+      ],
+      "gateRoles": {
+        "10": "Personality Earth",
+        "15": "Personality Sun",
+        "25": "Design Sun",
+        "46": "Design Earth"
+      }
+    },
+    "Eden 2": {
+      "type": "RAX",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 36,
+      "designEarth": 6,
+      "gates": [
+        12,
+        11,
+        36,
+        6
+      ],
+      "gateRoles": {
+        "6": "Design Earth",
+        "11": "Personality Earth",
+        "12": "Personality Sun",
+        "36": "Design Sun"
+      }
+    },
+    "Rulership 2": {
+      "type": "RAX",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 22,
+      "designEarth": 47,
+      "gates": [
+        45,
+        26,
+        22,
+        47
+      ],
+      "gateRoles": {
+        "22": "Design Sun",
+        "26": "Personality Earth",
+        "45": "Personality Sun",
+        "47": "Design Earth"
+      }
+    },
+    "Consciousness 2": {
+      "type": "RAX",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 63,
+      "designEarth": 64,
+      "gates": [
+        35,
+        5,
+        63,
+        64
+      ],
+      "gateRoles": {
+        "5": "Personality Earth",
+        "35": "Personality Sun",
+        "63": "Design Sun",
+        "64": "Design Earth"
+      }
+    },
+    "Planning 2": {
+      "type": "RAX",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 37,
+      "designEarth": 40,
+      "gates": [
+        16,
+        9,
+        37,
+        40
+      ],
+      "gateRoles": {
+        "9": "Personality Earth",
+        "16": "Personality Sun",
+        "37": "Design Sun",
+        "40": "Design Earth"
+      }
+    },
+    "Sleeping Phoenix 2": {
+      "type": "RAX",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 55,
+      "designEarth": 59,
+      "gates": [
+        20,
+        34,
+        55,
+        59
+      ],
+      "gateRoles": {
+        "20": "Personality Sun",
+        "34": "Personality Earth",
+        "55": "Design Sun",
+        "59": "Design Earth"
+      }
+    },
+    "Contagion 2": {
+      "type": "RAX",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 30,
+      "designEarth": 29,
+      "gates": [
+        8,
+        14,
+        30,
+        29
+      ],
+      "gateRoles": {
+        "8": "Personality Sun",
+        "14": "Personality Earth",
+        "29": "Design Earth",
+        "30": "Design Sun"
+      }
+    },
+    "Explanation 2": {
+      "type": "RAX",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 49,
+      "designEarth": 4,
+      "gates": [
+        23,
+        43,
+        49,
+        4
+      ],
+      "gateRoles": {
+        "4": "Design Earth",
+        "23": "Personality Sun",
+        "43": "Personality Earth",
+        "49": "Design Sun"
+      }
+    },
+    "The Sphinx 2": {
+      "type": "RAX",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 13,
+      "designEarth": 7,
+      "gates": [
+        2,
+        1,
+        13,
+        7
+      ],
+      "gateRoles": {
+        "1": "Personality Earth",
+        "2": "Personality Sun",
+        "7": "Design Earth",
+        "13": "Design Sun"
+      }
+    },
+    "The Four Ways": {
+      "type": "RAX",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 19,
+      "designEarth": 33,
+      "gates": [
+        24,
+        44,
+        19,
+        33
+      ],
+      "gateRoles": {
+        "19": "Design Sun",
+        "24": "Personality Sun",
+        "33": "Design Earth",
+        "44": "Personality Earth"
+      }
+    },
+    "Unexpected": {
+      "type": "RAX",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 41,
+      "designEarth": 31,
+      "gates": [
+        27,
+        28,
+        41,
+        31
+      ],
+      "gateRoles": {
+        "27": "Personality Sun",
+        "28": "Personality Earth",
+        "31": "Design Earth",
+        "41": "Design Sun"
+      }
+    },
+    "Laws": {
+      "type": "RAX",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 60,
+      "designEarth": 56,
+      "gates": [
+        3,
+        50,
+        60,
+        56
+      ],
+      "gateRoles": {
+        "3": "Personality Sun",
+        "50": "Personality Earth",
+        "56": "Design Earth",
+        "60": "Design Sun"
+      }
+    },
+    "Maia": {
+      "type": "RAX",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 61,
+      "designEarth": 62,
+      "gates": [
+        42,
+        32,
+        61,
+        62
+      ],
+      "gateRoles": {
+        "32": "Personality Earth",
+        "42": "Personality Sun",
+        "61": "Design Sun",
+        "62": "Design Earth"
+      }
+    },
+    "Penetration": {
+      "type": "RAX",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 54,
+      "designEarth": 53,
+      "gates": [
+        51,
+        57,
+        54,
+        53
+      ],
+      "gateRoles": {
+        "51": "Personality Sun",
+        "53": "Design Earth",
+        "54": "Design Sun",
+        "57": "Personality Earth"
+      }
+    },
+    "Tension": {
+      "type": "RAX",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 38,
+      "designEarth": 39,
+      "gates": [
+        21,
+        48,
+        38,
+        39
+      ],
+      "gateRoles": {
+        "21": "Personality Sun",
+        "38": "Design Sun",
+        "39": "Design Earth",
+        "48": "Personality Earth"
+      }
+    },
+    "Service": {
+      "type": "RAX",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 58,
+      "designEarth": 52,
+      "gates": [
+        17,
+        18,
+        58,
+        52
+      ],
+      "gateRoles": {
+        "17": "Personality Sun",
+        "18": "Personality Earth",
+        "52": "Design Earth",
+        "58": "Design Sun"
+      }
+    },
+    "Vessel of Love": {
+      "type": "RAX",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 10,
+      "designEarth": 15,
+      "gates": [
+        25,
+        46,
+        10,
+        15
+      ],
+      "gateRoles": {
+        "10": "Design Sun",
+        "15": "Design Earth",
+        "25": "Personality Sun",
+        "46": "Personality Earth"
+      }
+    },
+    "Eden": {
+      "type": "RAX",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 11,
+      "designEarth": 12,
+      "gates": [
+        36,
+        6,
+        11,
+        12
+      ],
+      "gateRoles": {
+        "6": "Personality Earth",
+        "11": "Design Sun",
+        "12": "Design Earth",
+        "36": "Personality Sun"
+      }
+    },
+    "Rulership": {
+      "type": "RAX",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 26,
+      "designEarth": 45,
+      "gates": [
+        22,
+        47,
+        26,
+        45
+      ],
+      "gateRoles": {
+        "22": "Personality Sun",
+        "26": "Design Sun",
+        "45": "Design Earth",
+        "47": "Personality Earth"
+      }
+    },
+    "Consciousness": {
+      "type": "RAX",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 5,
+      "designEarth": 35,
+      "gates": [
+        63,
+        64,
+        5,
+        35
+      ],
+      "gateRoles": {
+        "5": "Design Sun",
+        "35": "Design Earth",
+        "63": "Personality Sun",
+        "64": "Personality Earth"
+      }
+    },
+    "Planning": {
+      "type": "RAX",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 9,
+      "designEarth": 16,
+      "gates": [
+        37,
+        40,
+        9,
+        16
+      ],
+      "gateRoles": {
+        "9": "Design Sun",
+        "16": "Design Earth",
+        "37": "Personality Sun",
+        "40": "Personality Earth"
+      }
+    },
+    "Sleeping Phoenix": {
+      "type": "RAX",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 34,
+      "designEarth": 20,
+      "gates": [
+        55,
+        59,
+        34,
+        20
+      ],
+      "gateRoles": {
+        "20": "Design Earth",
+        "34": "Design Sun",
+        "55": "Personality Sun",
+        "59": "Personality Earth"
+      }
+    },
+    "Contagion": {
+      "type": "RAX",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 14,
+      "designEarth": 8,
+      "gates": [
+        30,
+        29,
+        14,
+        8
+      ],
+      "gateRoles": {
+        "8": "Design Earth",
+        "14": "Design Sun",
+        "29": "Personality Earth",
+        "30": "Personality Sun"
+      }
+    },
+    "Explanation": {
+      "type": "RAX",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 43,
+      "designEarth": 23,
+      "gates": [
+        49,
+        4,
+        43,
+        23
+      ],
+      "gateRoles": {
+        "4": "Personality Earth",
+        "23": "Design Earth",
+        "43": "Design Sun",
+        "49": "Personality Sun"
+      }
+    },
+    "The Sphinx": {
+      "type": "RAX",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 1,
+      "designEarth": 2,
+      "gates": [
+        13,
+        7,
+        1,
+        2
+      ],
+      "gateRoles": {
+        "1": "Design Sun",
+        "2": "Design Earth",
+        "7": "Personality Earth",
+        "13": "Personality Sun"
+      }
+    },
+    "The Four Ways 4": {
+      "type": "RAX",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 44,
+      "designEarth": 24,
+      "gates": [
+        19,
+        33,
+        44,
+        24
+      ],
+      "gateRoles": {
+        "19": "Personality Sun",
+        "24": "Design Earth",
+        "33": "Personality Earth",
+        "44": "Design Sun"
+      }
+    },
+    "Unexpected 4": {
+      "type": "RAX",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 28,
+      "designEarth": 27,
+      "gates": [
+        41,
+        31,
+        28,
+        27
+      ],
+      "gateRoles": {
+        "27": "Design Earth",
+        "28": "Design Sun",
+        "31": "Personality Earth",
+        "41": "Personality Sun"
+      }
+    },
+    "Laws 4": {
+      "type": "RAX",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 50,
+      "designEarth": 3,
+      "gates": [
+        60,
+        56,
+        50,
+        3
+      ],
+      "gateRoles": {
+        "3": "Design Earth",
+        "50": "Design Sun",
+        "56": "Personality Earth",
+        "60": "Personality Sun"
+      }
+    },
+    "Maia 4": {
+      "type": "RAX",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 32,
+      "designEarth": 42,
+      "gates": [
+        61,
+        62,
+        32,
+        42
+      ],
+      "gateRoles": {
+        "32": "Design Sun",
+        "42": "Design Earth",
+        "61": "Personality Sun",
+        "62": "Personality Earth"
+      }
+    },
+    "Penetration 4": {
+      "type": "RAX",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 57,
+      "designEarth": 51,
+      "gates": [
+        54,
+        53,
+        57,
+        51
+      ],
+      "gateRoles": {
+        "51": "Design Earth",
+        "53": "Personality Earth",
+        "54": "Personality Sun",
+        "57": "Design Sun"
+      }
+    },
+    "Tension 4": {
+      "type": "RAX",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 48,
+      "designEarth": 21,
+      "gates": [
+        38,
+        39,
+        48,
+        21
+      ],
+      "gateRoles": {
+        "21": "Design Earth",
+        "38": "Personality Sun",
+        "39": "Personality Earth",
+        "48": "Design Sun"
+      }
+    },
+    "Service 4": {
+      "type": "RAX",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 18,
+      "designEarth": 17,
+      "gates": [
+        58,
+        52,
+        18,
+        17
+      ],
+      "gateRoles": {
+        "17": "Design Earth",
+        "18": "Design Sun",
+        "52": "Personality Earth",
+        "58": "Personality Sun"
+      }
+    },
+    "Vessel of Love 4": {
+      "type": "RAX",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 46,
+      "designEarth": 25,
+      "gates": [
+        10,
+        15,
+        46,
+        25
+      ],
+      "gateRoles": {
+        "10": "Personality Sun",
+        "15": "Personality Earth",
+        "25": "Design Earth",
+        "46": "Design Sun"
+      }
+    },
+    "Ideas": {
+      "type": "JX",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 46,
+      "designEarth": 25,
+      "gates": [
+        11,
+        12,
+        46,
+        25
+      ],
+      "gateRoles": {
+        "11": "Personality Sun",
+        "12": "Personality Earth",
+        "25": "Design Earth",
+        "46": "Design Sun"
+      }
+    },
+    "Trickster": {
+      "type": "JX",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 6,
+      "designEarth": 36,
+      "gates": [
+        26,
+        45,
+        6,
+        36
+      ],
+      "gateRoles": {
+        "6": "Design Sun",
+        "26": "Personality Sun",
+        "36": "Design Earth",
+        "45": "Personality Earth"
+      }
+    },
+    "Habits": {
+      "type": "JX",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 47,
+      "designEarth": 22,
+      "gates": [
+        5,
+        35,
+        47,
+        22
+      ],
+      "gateRoles": {
+        "5": "Personality Sun",
+        "22": "Design Earth",
+        "35": "Personality Earth",
+        "47": "Design Sun"
+      }
+    },
+    "Power": {
+      "type": "JX",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 40,
+      "designEarth": 37,
+      "gates": [
+        34,
+        20,
+        40,
+        37
+      ],
+      "gateRoles": {
+        "20": "Personality Earth",
+        "34": "Personality Sun",
+        "37": "Design Earth",
+        "40": "Design Sun"
+      }
+    },
+    "Empowering": {
+      "type": "JX",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 59,
+      "designEarth": 55,
+      "gates": [
+        14,
+        8,
+        59,
+        55
+      ],
+      "gateRoles": {
+        "8": "Personality Earth",
+        "14": "Personality Sun",
+        "55": "Design Earth",
+        "59": "Design Sun"
+      }
+    },
+    "Insights": {
+      "type": "JX",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 29,
+      "designEarth": 30,
+      "gates": [
+        43,
+        23,
+        29,
+        30
+      ],
+      "gateRoles": {
+        "23": "Personality Earth",
+        "29": "Design Sun",
+        "30": "Design Earth",
+        "43": "Personality Sun"
+      }
+    },
+    "Self-Expression": {
+      "type": "JX",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 4,
+      "designEarth": 49,
+      "gates": [
+        1,
+        2,
+        4,
+        49
+      ],
+      "gateRoles": {
+        "1": "Personality Sun",
+        "2": "Personality Earth",
+        "4": "Design Sun",
+        "49": "Design Earth"
+      }
+    },
+    "Alertness": {
+      "type": "JX",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 7,
+      "designEarth": 13,
+      "gates": [
+        44,
+        24,
+        7,
+        13
+      ],
+      "gateRoles": {
+        "7": "Design Sun",
+        "13": "Design Earth",
+        "24": "Personality Earth",
+        "44": "Personality Sun"
+      }
+    },
+    "Risks": {
+      "type": "JX",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 33,
+      "designEarth": 19,
+      "gates": [
+        28,
+        27,
+        33,
+        19
+      ],
+      "gateRoles": {
+        "19": "Design Earth",
+        "27": "Personality Earth",
+        "28": "Personality Sun",
+        "33": "Design Sun"
+      }
+    },
+    "Values": {
+      "type": "JX",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 31,
+      "designEarth": 41,
+      "gates": [
+        50,
+        3,
+        31,
+        41
+      ],
+      "gateRoles": {
+        "3": "Personality Earth",
+        "31": "Design Sun",
+        "41": "Design Earth",
+        "50": "Personality Sun"
+      }
+    },
+    "Conservation": {
+      "type": "JX",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 56,
+      "designEarth": 60,
+      "gates": [
+        32,
+        42,
+        56,
+        60
+      ],
+      "gateRoles": {
+        "32": "Personality Sun",
+        "42": "Personality Earth",
+        "56": "Design Sun",
+        "60": "Design Earth"
+      }
+    },
+    "Intuition": {
+      "type": "JX",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 62,
+      "designEarth": 61,
+      "gates": [
+        57,
+        51,
+        62,
+        61
+      ],
+      "gateRoles": {
+        "51": "Personality Earth",
+        "57": "Personality Sun",
+        "61": "Design Earth",
+        "62": "Design Sun"
+      }
+    },
+    "Depth": {
+      "type": "JX",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 53,
+      "designEarth": 54,
+      "gates": [
+        48,
+        21,
+        53,
+        54
+      ],
+      "gateRoles": {
+        "21": "Personality Earth",
+        "48": "Personality Sun",
+        "53": "Design Sun",
+        "54": "Design Earth"
+      }
+    },
+    "Correction": {
+      "type": "JX",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 39,
+      "designEarth": 38,
+      "gates": [
+        18,
+        17,
+        39,
+        38
+      ],
+      "gateRoles": {
+        "17": "Personality Earth",
+        "18": "Personality Sun",
+        "38": "Design Earth",
+        "39": "Design Sun"
+      }
+    },
+    "Serendipity": {
+      "type": "JX",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 52,
+      "designEarth": 58,
+      "gates": [
+        46,
+        25,
+        52,
+        58
+      ],
+      "gateRoles": {
+        "25": "Personality Earth",
+        "46": "Personality Sun",
+        "52": "Design Sun",
+        "58": "Design Earth"
+      }
+    },
+    "Conflict": {
+      "type": "JX",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 15,
+      "designEarth": 10,
+      "gates": [
+        6,
+        36,
+        15,
+        10
+      ],
+      "gateRoles": {
+        "6": "Personality Sun",
+        "10": "Design Earth",
+        "15": "Design Sun",
+        "36": "Personality Earth"
+      }
+    },
+    "Oppression": {
+      "type": "JX",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 12,
+      "designEarth": 11,
+      "gates": [
+        47,
+        22,
+        12,
+        11
+      ],
+      "gateRoles": {
+        "11": "Design Earth",
+        "12": "Design Sun",
+        "22": "Personality Earth",
+        "47": "Personality Sun"
+      }
+    },
+    "Confusion": {
+      "type": "JX",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 45,
+      "designEarth": 26,
+      "gates": [
+        64,
+        63,
+        45,
+        26
+      ],
+      "gateRoles": {
+        "26": "Design Earth",
+        "45": "Design Sun",
+        "63": "Personality Earth",
+        "64": "Personality Sun"
+      }
+    },
+    "Denial": {
+      "type": "JX",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 35,
+      "designEarth": 5,
+      "gates": [
+        40,
+        37,
+        35,
+        5
+      ],
+      "gateRoles": {
+        "5": "Design Earth",
+        "35": "Design Sun",
+        "37": "Personality Earth",
+        "40": "Personality Sun"
+      }
+    },
+    "Strategy": {
+      "type": "JX",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 16,
+      "designEarth": 9,
+      "gates": [
+        59,
+        55,
+        16,
+        9
+      ],
+      "gateRoles": {
+        "9": "Design Earth",
+        "16": "Design Sun",
+        "55": "Personality Earth",
+        "59": "Personality Sun"
+      }
+    },
+    "Commitment": {
+      "type": "JX",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 20,
+      "designEarth": 34,
+      "gates": [
+        29,
+        30,
+        20,
+        34
+      ],
+      "gateRoles": {
+        "20": "Design Sun",
+        "29": "Personality Sun",
+        "30": "Personality Earth",
+        "34": "Design Earth"
+      }
+    },
+    "Formalization": {
+      "type": "JX",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 8,
+      "designEarth": 14,
+      "gates": [
+        4,
+        49,
+        8,
+        14
+      ],
+      "gateRoles": {
+        "4": "Personality Sun",
+        "8": "Design Sun",
+        "14": "Design Earth",
+        "49": "Personality Earth"
+      }
+    },
+    "Interaction": {
+      "type": "JX",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 23,
+      "designEarth": 43,
+      "gates": [
+        7,
+        13,
+        23,
+        43
+      ],
+      "gateRoles": {
+        "7": "Personality Sun",
+        "13": "Personality Earth",
+        "23": "Design Sun",
+        "43": "Design Earth"
+      }
+    },
+    "Retreat": {
+      "type": "JX",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 2,
+      "designEarth": 1,
+      "gates": [
+        33,
+        19,
+        2,
+        1
+      ],
+      "gateRoles": {
+        "1": "Design Earth",
+        "2": "Design Sun",
+        "19": "Personality Earth",
+        "33": "Personality Sun"
+      }
+    },
+    "Influence": {
+      "type": "JX",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 24,
+      "designEarth": 44,
+      "gates": [
+        31,
+        41,
+        24,
+        44
+      ],
+      "gateRoles": {
+        "24": "Design Sun",
+        "31": "Personality Sun",
+        "41": "Personality Earth",
+        "44": "Design Earth"
+      }
+    },
+    "Stimulation": {
+      "type": "JX",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 27,
+      "designEarth": 28,
+      "gates": [
+        56,
+        60,
+        27,
+        28
+      ],
+      "gateRoles": {
+        "27": "Design Sun",
+        "28": "Design Earth",
+        "56": "Personality Sun",
+        "60": "Personality Earth"
+      }
+    },
+    "Detail": {
+      "type": "JX",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 3,
+      "designEarth": 50,
+      "gates": [
+        62,
+        61,
+        3,
+        50
+      ],
+      "gateRoles": {
+        "3": "Design Sun",
+        "50": "Design Earth",
+        "61": "Personality Earth",
+        "62": "Personality Sun"
+      }
+    },
+    "Beginnings": {
+      "type": "JX",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 42,
+      "designEarth": 32,
+      "gates": [
+        53,
+        54,
+        42,
+        32
+      ],
+      "gateRoles": {
+        "32": "Design Earth",
+        "42": "Design Sun",
+        "53": "Personality Sun",
+        "54": "Personality Earth"
+      }
+    },
+    "Provocation": {
+      "type": "JX",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 51,
+      "designEarth": 57,
+      "gates": [
+        39,
+        38,
+        51,
+        57
+      ],
+      "gateRoles": {
+        "38": "Personality Earth",
+        "39": "Personality Sun",
+        "51": "Design Sun",
+        "57": "Design Earth"
+      }
+    },
+    "Stillness": {
+      "type": "JX",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 21,
+      "designEarth": 48,
+      "gates": [
+        52,
+        58,
+        21,
+        48
+      ],
+      "gateRoles": {
+        "21": "Design Sun",
+        "48": "Design Earth",
+        "52": "Personality Sun",
+        "58": "Personality Earth"
+      }
+    },
+    "Extremes": {
+      "type": "JX",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 17,
+      "designEarth": 18,
+      "gates": [
+        15,
+        10,
+        17,
+        18
+      ],
+      "gateRoles": {
+        "10": "Personality Earth",
+        "15": "Personality Sun",
+        "17": "Design Sun",
+        "18": "Design Earth"
+      }
+    },
+    "Articulation": {
+      "type": "JX",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 25,
+      "designEarth": 46,
+      "gates": [
+        12,
+        11,
+        25,
+        46
+      ],
+      "gateRoles": {
+        "11": "Personality Earth",
+        "12": "Personality Sun",
+        "25": "Design Sun",
+        "46": "Design Earth"
+      }
+    },
+    "Possession": {
+      "type": "JX",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 36,
+      "designEarth": 6,
+      "gates": [
+        45,
+        26,
+        36,
+        6
+      ],
+      "gateRoles": {
+        "6": "Design Earth",
+        "26": "Personality Earth",
+        "36": "Design Sun",
+        "45": "Personality Sun"
+      }
+    },
+    "Experience": {
+      "type": "JX",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 22,
+      "designEarth": 47,
+      "gates": [
+        35,
+        5,
+        22,
+        47
+      ],
+      "gateRoles": {
+        "5": "Personality Earth",
+        "22": "Design Sun",
+        "35": "Personality Sun",
+        "47": "Design Earth"
+      }
+    },
+    "Contribution": {
+      "type": "JX",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 55,
+      "designEarth": 59,
+      "gates": [
+        8,
+        14,
+        55,
+        59
+      ],
+      "gateRoles": {
+        "8": "Personality Sun",
+        "14": "Personality Earth",
+        "55": "Design Sun",
+        "59": "Design Earth"
+      }
+    },
+    "Assimilation": {
+      "type": "JX",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 30,
+      "designEarth": 29,
+      "gates": [
+        23,
+        43,
+        30,
+        29
+      ],
+      "gateRoles": {
+        "23": "Personality Sun",
+        "29": "Design Earth",
+        "30": "Design Sun",
+        "43": "Personality Earth"
+      }
+    },
+    "The Driver": {
+      "type": "JX",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 49,
+      "designEarth": 4,
+      "gates": [
+        2,
+        1,
+        49,
+        4
+      ],
+      "gateRoles": {
+        "1": "Personality Earth",
+        "2": "Personality Sun",
+        "4": "Design Earth",
+        "49": "Design Sun"
+      }
+    },
+    "Rationalisation": {
+      "type": "JX",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 13,
+      "designEarth": 7,
+      "gates": [
+        24,
+        44,
+        13,
+        7
+      ],
+      "gateRoles": {
+        "7": "Design Earth",
+        "13": "Design Sun",
+        "24": "Personality Sun",
+        "44": "Personality Earth"
+      }
+    },
+    "Caring": {
+      "type": "JX",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 19,
+      "designEarth": 33,
+      "gates": [
+        27,
+        28,
+        19,
+        33
+      ],
+      "gateRoles": {
+        "19": "Design Sun",
+        "27": "Personality Sun",
+        "28": "Personality Earth",
+        "33": "Design Earth"
+      }
+    },
+    "Mutation": {
+      "type": "JX",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 41,
+      "designEarth": 31,
+      "gates": [
+        3,
+        50,
+        41,
+        31
+      ],
+      "gateRoles": {
+        "3": "Personality Sun",
+        "31": "Design Earth",
+        "41": "Design Sun",
+        "50": "Personality Earth"
+      }
+    },
+    "Completion": {
+      "type": "JX",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 60,
+      "designEarth": 56,
+      "gates": [
+        42,
+        32,
+        60,
+        56
+      ],
+      "gateRoles": {
+        "32": "Personality Earth",
+        "42": "Personality Sun",
+        "56": "Design Earth",
+        "60": "Design Sun"
+      }
+    },
+    "Shock": {
+      "type": "JX",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 61,
+      "designEarth": 62,
+      "gates": [
+        51,
+        57,
+        61,
+        62
+      ],
+      "gateRoles": {
+        "51": "Personality Sun",
+        "57": "Personality Earth",
+        "61": "Design Sun",
+        "62": "Design Earth"
+      }
+    },
+    "Control": {
+      "type": "JX",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 54,
+      "designEarth": 53,
+      "gates": [
+        21,
+        48,
+        54,
+        53
+      ],
+      "gateRoles": {
+        "21": "Personality Sun",
+        "48": "Personality Earth",
+        "53": "Design Earth",
+        "54": "Design Sun"
+      }
+    },
+    "Opinions": {
+      "type": "JX",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 38,
+      "designEarth": 39,
+      "gates": [
+        17,
+        18,
+        38,
+        39
+      ],
+      "gateRoles": {
+        "17": "Personality Sun",
+        "18": "Personality Earth",
+        "38": "Design Sun",
+        "39": "Design Earth"
+      }
+    },
+    "Innocence": {
+      "type": "JX",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 58,
+      "designEarth": 52,
+      "gates": [
+        25,
+        46,
+        58,
+        52
+      ],
+      "gateRoles": {
+        "25": "Personality Sun",
+        "46": "Personality Earth",
+        "52": "Design Earth",
+        "58": "Design Sun"
+      }
+    },
+    "Crisis": {
+      "type": "JX",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 10,
+      "designEarth": 15,
+      "gates": [
+        36,
+        6,
+        10,
+        15
+      ],
+      "gateRoles": {
+        "6": "Personality Earth",
+        "10": "Design Sun",
+        "15": "Design Earth",
+        "36": "Personality Sun"
+      }
+    },
+    "Grace": {
+      "type": "JX",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 11,
+      "designEarth": 12,
+      "gates": [
+        22,
+        47,
+        11,
+        12
+      ],
+      "gateRoles": {
+        "11": "Design Sun",
+        "12": "Design Earth",
+        "22": "Personality Sun",
+        "47": "Personality Earth"
+      }
+    },
+    "Doubts": {
+      "type": "JX",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 26,
+      "designEarth": 45,
+      "gates": [
+        63,
+        64,
+        26,
+        45
+      ],
+      "gateRoles": {
+        "26": "Design Sun",
+        "45": "Design Earth",
+        "63": "Personality Sun",
+        "64": "Personality Earth"
+      }
+    },
+    "Bargains": {
+      "type": "JX",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 5,
+      "designEarth": 35,
+      "gates": [
+        37,
+        40,
+        5,
+        35
+      ],
+      "gateRoles": {
+        "5": "Design Sun",
+        "35": "Design Earth",
+        "37": "Personality Sun",
+        "40": "Personality Earth"
+      }
+    },
+    "Moods": {
+      "type": "JX",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 9,
+      "designEarth": 16,
+      "gates": [
+        55,
+        59,
+        9,
+        16
+      ],
+      "gateRoles": {
+        "9": "Design Sun",
+        "16": "Design Earth",
+        "55": "Personality Sun",
+        "59": "Personality Earth"
+      }
+    },
+    "Fates": {
+      "type": "JX",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 34,
+      "designEarth": 20,
+      "gates": [
+        30,
+        29,
+        34,
+        20
+      ],
+      "gateRoles": {
+        "20": "Design Earth",
+        "29": "Personality Earth",
+        "30": "Personality Sun",
+        "34": "Design Sun"
+      }
+    },
+    "Principles": {
+      "type": "JX",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 14,
+      "designEarth": 8,
+      "gates": [
+        49,
+        4,
+        14,
+        8
+      ],
+      "gateRoles": {
+        "4": "Personality Earth",
+        "8": "Design Earth",
+        "14": "Design Sun",
+        "49": "Personality Sun"
+      }
+    },
+    "Listening": {
+      "type": "JX",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 43,
+      "designEarth": 23,
+      "gates": [
+        13,
+        7,
+        43,
+        23
+      ],
+      "gateRoles": {
+        "7": "Personality Earth",
+        "13": "Personality Sun",
+        "23": "Design Earth",
+        "43": "Design Sun"
+      }
+    },
+    "Need": {
+      "type": "JX",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 1,
+      "designEarth": 2,
+      "gates": [
+        19,
+        33,
+        1,
+        2
+      ],
+      "gateRoles": {
+        "1": "Design Sun",
+        "2": "Design Earth",
+        "19": "Personality Sun",
+        "33": "Personality Earth"
+      }
+    },
+    "Fantasy": {
+      "type": "JX",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 44,
+      "designEarth": 24,
+      "gates": [
+        41,
+        31,
+        44,
+        24
+      ],
+      "gateRoles": {
+        "24": "Design Earth",
+        "31": "Personality Earth",
+        "41": "Personality Sun",
+        "44": "Design Sun"
+      }
+    },
+    "Thinking": {
+      "type": "JX",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 50,
+      "designEarth": 3,
+      "gates": [
+        61,
+        62,
+        50,
+        3
+      ],
+      "gateRoles": {
+        "3": "Design Earth",
+        "50": "Design Sun",
+        "61": "Personality Sun",
+        "62": "Personality Earth"
+      }
+    },
+    "Ambition": {
+      "type": "JX",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 32,
+      "designEarth": 42,
+      "gates": [
+        54,
+        53,
+        32,
+        42
+      ],
+      "gateRoles": {
+        "32": "Design Sun",
+        "42": "Design Earth",
+        "53": "Personality Earth",
+        "54": "Personality Sun"
+      }
+    },
+    "Opposition": {
+      "type": "JX",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 57,
+      "designEarth": 51,
+      "gates": [
+        38,
+        39,
+        57,
+        51
+      ],
+      "gateRoles": {
+        "38": "Personality Sun",
+        "39": "Personality Earth",
+        "51": "Design Earth",
+        "57": "Design Sun"
+      }
+    },
+    "Vitality": {
+      "type": "JX",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 48,
+      "designEarth": 21,
+      "gates": [
+        58,
+        52,
+        48,
+        21
+      ],
+      "gateRoles": {
+        "21": "Design Earth",
+        "48": "Design Sun",
+        "52": "Personality Earth",
+        "58": "Personality Sun"
+      }
+    },
+    "Behaviour": {
+      "type": "JX",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 18,
+      "designEarth": 17,
+      "gates": [
+        10,
+        15,
+        18,
+        17
+      ],
+      "gateRoles": {
+        "10": "Personality Sun",
+        "15": "Personality Earth",
+        "17": "Design Earth",
+        "18": "Design Sun"
+      }
+    },
+    "Duality 1": {
+      "type": "LAX",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 37,
+      "designEarth": 40,
+      "gates": [
+        20,
+        34,
+        37,
+        40
+      ],
+      "gateRoles": {
+        "20": "Personality Sun",
+        "34": "Personality Earth",
+        "37": "Design Sun",
+        "40": "Design Earth"
+      }
+    },
+    "Cross of The Now": {
+      "type": "JX",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 37,
+      "designEarth": 40,
+      "gates": [
+        20,
+        34,
+        37,
+        40
+      ],
+      "gateRoles": {
+        "20": "Personality Sun",
+        "34": "Personality Earth",
+        "37": "Design Sun",
+        "40": "Design Earth"
+      }
+    },
+    "JX Focus": {
+      "type": "JX",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 64,
+      "designEarth": 63,
+      "gates": [
+        9,
+        16,
+        64,
+        63
+      ],
+      "gateRoles": {
+        "9": "Personality Sun",
+        "16": "Personality Earth",
+        "63": "Design Earth",
+        "64": "Design Sun"
+      }
+    },
+    "JX Experimentation": {
+      "type": "JX",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 63,
+      "designEarth": 64,
+      "gates": [
+        16,
+        9,
+        63,
+        64
+      ],
+      "gateRoles": {
+        "9": "Personality Earth",
+        "16": "Personality Sun",
+        "63": "Design Sun",
+        "64": "Design Earth"
+      }
+    },
+    "LAX Limitation": {
+      "type": "LAX",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 60,
+      "designEarth": 56,
+      "gates": [
+        42,
+        32,
+        60,
+        56
+      ],
+      "gateRoles": {
+        "32": "Personality Earth",
+        "42": "Personality Sun",
+        "56": "Design Earth",
+        "60": "Design Sun"
+      }
+    }
+  }
+}

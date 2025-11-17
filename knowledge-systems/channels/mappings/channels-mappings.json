@@ -1,0 +1,559 @@
+{
+  "systemName": "The 36 Channels",
+  "version": "1.0.0",
+  "description": "The 36 defined channels connecting gates in the Human Design bodygraph. Circuit assignments verified from source data.",
+  "completeness": "full",
+  "dataArchitecture": "connection",
+  "totalChannels": 36,
+  "circuits": [
+    "Centering Circuit",
+    "Integration Circuit",
+    "Knowing Circuit",
+    "Sensing Circuit",
+    "Ego Circuit",
+    "Defense Circuit",
+    "Understanding Circuit"
+  ],
+  "mappings": [
+    {
+      "channelNumber": "1-8",
+      "gate1": 1,
+      "gate2": 8,
+      "knowledge": {
+        "name": "Inspiration",
+        "keynote": "The creative Role Model",
+        "description": "A channel connecting Gate 1 (The Creative) and Gate 8 (Holding Together)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "G to Throat",
+        "theme": "The creative Role Model",
+        "whenDefined": "Consistent access to inspiration energy",
+        "whenUndefined": "Variable access to inspiration energy"
+      }
+    },
+    {
+      "channelNumber": "2-14",
+      "gate1": 2,
+      "gate2": 14,
+      "knowledge": {
+        "name": "The Beat",
+        "keynote": "The design of being the keeper of keys",
+        "description": "A channel connecting Gate 2 (The Receptive) and Gate 14 (Possession in Great Measure)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "G to Sacral",
+        "theme": "The design of being the keeper of keys",
+        "whenDefined": "Consistent access to the beat energy",
+        "whenUndefined": "Variable access to the beat energy"
+      }
+    },
+    {
+      "channelNumber": "3-60",
+      "gate1": 3,
+      "gate2": 60,
+      "knowledge": {
+        "name": "Mutation",
+        "keynote": "Energy which fluctuates and initiates",
+        "description": "A channel connecting Gate 3 (Difficulty at the Beginning) and Gate 60 (Limitation)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Sacral to Root",
+        "theme": "Energy which fluctuates and initiates",
+        "whenDefined": "Consistent access to mutation energy",
+        "whenUndefined": "Variable access to mutation energy"
+      }
+    },
+    {
+      "channelNumber": "4-63",
+      "gate1": 4,
+      "gate2": 63,
+      "knowledge": {
+        "name": "Logic",
+        "keynote": "A design of mental ease mixed with doubt",
+        "description": "A channel connecting Gate 4 (Youthful Folly) and Gate 63 (After Completion)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Ajna to Head",
+        "theme": "A design of mental ease mixed with doubt",
+        "whenDefined": "Consistent access to logic energy",
+        "whenUndefined": "Variable access to logic energy"
+      }
+    },
+    {
+      "channelNumber": "5-15",
+      "gate1": 5,
+      "gate2": 15,
+      "knowledge": {
+        "name": "Rhythm",
+        "keynote": "The design of being in the flow",
+        "description": "A channel connecting Gate 5 (Waiting) and Gate 15 (Modesty)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Sacral to G",
+        "theme": "The design of being in the flow",
+        "whenDefined": "Consistent access to rhythm energy",
+        "whenUndefined": "Variable access to rhythm energy"
+      }
+    },
+    {
+      "channelNumber": "6-59",
+      "gate1": 6,
+      "gate2": 59,
+      "knowledge": {
+        "name": "Mating",
+        "keynote": "A design focused on reproduction",
+        "description": "A channel connecting Gate 6 (Conflict) and Gate 59 (Dispersion)",
+        "circuit": "Defense Circuit",
+        "centerConnection": "Solar Plexus to Sacral",
+        "theme": "A design focused on reproduction",
+        "whenDefined": "Consistent access to mating energy",
+        "whenUndefined": "Variable access to mating energy"
+      }
+    },
+    {
+      "channelNumber": "7-31",
+      "gate1": 7,
+      "gate2": 31,
+      "knowledge": {
+        "name": "The Alpha",
+        "keynote": "For 'good' or 'bad' the design of leadership",
+        "description": "A channel connecting Gate 7 (The Army) and Gate 31 (Influence)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "G to Throat",
+        "theme": "For 'good' or 'bad' the design of leadership",
+        "whenDefined": "Consistent access to the alpha energy",
+        "whenUndefined": "Variable access to the alpha energy"
+      }
+    },
+    {
+      "channelNumber": "9-52",
+      "gate1": 9,
+      "gate2": 52,
+      "knowledge": {
+        "name": "Concentration",
+        "keynote": "A design of determination",
+        "description": "A channel connecting Gate 9 (The Taming Power of the Small) and Gate 52 (Keeping Still)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Sacral to Root",
+        "theme": "A design of determination",
+        "whenDefined": "Consistent access to concentration energy",
+        "whenUndefined": "Variable access to concentration energy"
+      }
+    },
+    {
+      "channelNumber": "10-20",
+      "gate1": 10,
+      "gate2": 20,
+      "knowledge": {
+        "name": "Awakening",
+        "keynote": "A design of commitment to higher principles",
+        "description": "A channel connecting Gate 10 (Treading) and Gate 20 (Contemplation)",
+        "circuit": "Integration Circuit",
+        "centerConnection": "G to Throat",
+        "theme": "A design of commitment to higher principles",
+        "whenDefined": "Consistent access to awakening energy",
+        "whenUndefined": "Variable access to awakening energy"
+      }
+    },
+    {
+      "channelNumber": "10-34",
+      "gate1": 10,
+      "gate2": 34,
+      "knowledge": {
+        "name": "Exploration",
+        "keynote": "A design of following ones convictions",
+        "description": "A channel connecting Gate 10 (Treading) and Gate 34 (Great Power)",
+        "circuit": "Centering Circuit",
+        "centerConnection": "G to Sacral",
+        "theme": "A design of following ones convictions",
+        "whenDefined": "Consistent access to exploration energy",
+        "whenUndefined": "Variable access to exploration energy"
+      }
+    },
+    {
+      "channelNumber": "10-57",
+      "gate1": 10,
+      "gate2": 57,
+      "knowledge": {
+        "name": "Perfected form",
+        "keynote": "A design of survival",
+        "description": "A channel connecting Gate 10 (Treading) and Gate 57 (Unknown)",
+        "circuit": "Integration Circuit",
+        "centerConnection": "G",
+        "theme": "A design of survival",
+        "whenDefined": "Consistent access to perfected form energy",
+        "whenUndefined": "Variable access to perfected form energy"
+      }
+    },
+    {
+      "channelNumber": "11-56",
+      "gate1": 11,
+      "gate2": 56,
+      "knowledge": {
+        "name": "Curiosity",
+        "keynote": "The design of the searcher",
+        "description": "A channel connecting Gate 11 (Peace) and Gate 56 (The Wanderer)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Ajna to Throat",
+        "theme": "The design of the searcher",
+        "whenDefined": "Consistent access to curiosity energy",
+        "whenUndefined": "Variable access to curiosity energy"
+      }
+    },
+    {
+      "channelNumber": "12-22",
+      "gate1": 12,
+      "gate2": 22,
+      "knowledge": {
+        "name": "Openness",
+        "keynote": "The design of the social being",
+        "description": "A channel connecting Gate 12 (Standstill) and Gate 22 (Grace)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Throat to Solar Plexus",
+        "theme": "The design of the social being",
+        "whenDefined": "Consistent access to openness energy",
+        "whenUndefined": "Variable access to openness energy"
+      }
+    },
+    {
+      "channelNumber": "13-33",
+      "gate1": 13,
+      "gate2": 33,
+      "knowledge": {
+        "name": "The Prodigal",
+        "keynote": "The design of the witness",
+        "description": "A channel connecting Gate 13 (Fellowship) and Gate 33 (Retreat)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "G to Throat",
+        "theme": "The design of the witness",
+        "whenDefined": "Consistent access to the prodigal energy",
+        "whenUndefined": "Variable access to the prodigal energy"
+      }
+    },
+    {
+      "channelNumber": "16-48",
+      "gate1": 16,
+      "gate2": 48,
+      "knowledge": {
+        "name": "The Wave Length",
+        "keynote": "A design of talent",
+        "description": "A channel connecting Gate 16 (Enthusiasm) and Gate 48 (The Well)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Throat to Spleen",
+        "theme": "A design of talent",
+        "whenDefined": "Consistent access to the wave length energy",
+        "whenUndefined": "Variable access to the wave length energy"
+      }
+    },
+    {
+      "channelNumber": "17-62",
+      "gate1": 17,
+      "gate2": 62,
+      "knowledge": {
+        "name": "Acceptance",
+        "keynote": "A design of an organizational being",
+        "description": "A channel connecting Gate 17 (Following) and Gate 62 (Small Preponderance)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Ajna to Throat",
+        "theme": "A design of an organizational being",
+        "whenDefined": "Consistent access to acceptance energy",
+        "whenUndefined": "Variable access to acceptance energy"
+      }
+    },
+    {
+      "channelNumber": "18-58",
+      "gate1": 18,
+      "gate2": 58,
+      "knowledge": {
+        "name": "Judgment",
+        "keynote": "A design of insatiability",
+        "description": "A channel connecting Gate 18 (Work on What Has Been Spoilt) and Gate 58 (The Joyous)",
+        "circuit": "Understanding Circuit",
+        "centerConnection": "Spleen to Root",
+        "theme": "A design of insatiability",
+        "whenDefined": "Consistent access to judgment energy",
+        "whenUndefined": "Variable access to judgment energy"
+      }
+    },
+    {
+      "channelNumber": "19-49",
+      "gate1": 19,
+      "gate2": 49,
+      "knowledge": {
+        "name": "Synthesis",
+        "keynote": "A design of being sensitive",
+        "description": "A channel connecting Gate 19 (Approach) and Gate 49 (Revolution)",
+        "circuit": "Ego Circuit",
+        "centerConnection": "Root to Solar Plexus",
+        "theme": "A design of being sensitive",
+        "whenDefined": "Consistent access to synthesis energy",
+        "whenUndefined": "Variable access to synthesis energy"
+      }
+    },
+    {
+      "channelNumber": "20-34",
+      "gate1": 20,
+      "gate2": 34,
+      "knowledge": {
+        "name": "Charisma",
+        "keynote": "A design where thoughts must become deeds",
+        "description": "A channel connecting Gate 20 (Contemplation) and Gate 34 (Great Power)",
+        "circuit": "Integration Circuit",
+        "centerConnection": "Throat to Sacral",
+        "theme": "A design where thoughts must become deeds",
+        "whenDefined": "Consistent access to charisma energy",
+        "whenUndefined": "Variable access to charisma energy"
+      }
+    },
+    {
+      "channelNumber": "20-57",
+      "gate1": 20,
+      "gate2": 57,
+      "knowledge": {
+        "name": "The Brain Wave",
+        "keynote": "A design of awareness",
+        "description": "A channel connecting Gate 20 (Contemplation) and Gate 57 (The Gentle)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Throat to Spleen",
+        "theme": "A design of awareness",
+        "whenDefined": "Consistent access to the brain wave energy",
+        "whenUndefined": "Variable access to the brain wave energy"
+      }
+    },
+    {
+      "channelNumber": "21-45",
+      "gate1": 21,
+      "gate2": 45,
+      "knowledge": {
+        "name": "The Money Line",
+        "keynote": "A design of a materialist",
+        "description": "A channel connecting Gate 21 (Biting Through) and Gate 45 (Gathering Together)",
+        "circuit": "Ego Circuit",
+        "centerConnection": "Heart to Throat",
+        "theme": "A design of a materialist",
+        "whenDefined": "Consistent access to the money line energy",
+        "whenUndefined": "Variable access to the money line energy"
+      }
+    },
+    {
+      "channelNumber": "23-43",
+      "gate1": 23,
+      "gate2": 43,
+      "knowledge": {
+        "name": "Structuring",
+        "keynote": "A design of individuality (Genius to Freak)",
+        "description": "A channel connecting Gate 23 (Splitting Apart) and Gate 43 (Breakthrough)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Throat to Ajna",
+        "theme": "A design of individuality (Genius to Freak)",
+        "whenDefined": "Consistent access to structuring energy",
+        "whenUndefined": "Variable access to structuring energy"
+      }
+    },
+    {
+      "channelNumber": "24-61",
+      "gate1": 24,
+      "gate2": 61,
+      "knowledge": {
+        "name": "Awareness",
+        "keynote": "A design of the thinker",
+        "description": "A channel connecting Gate 24 (Return) and Gate 61 (Inner Truth)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Ajna to Head",
+        "theme": "A design of the thinker",
+        "whenDefined": "Consistent access to awareness energy",
+        "whenUndefined": "Variable access to awareness energy"
+      }
+    },
+    {
+      "channelNumber": "25-51",
+      "gate1": 25,
+      "gate2": 51,
+      "knowledge": {
+        "name": "Initiation",
+        "keynote": "A design of needing to be first",
+        "description": "A channel connecting Gate 25 (Innocence) and Gate 51 (The Arousing)",
+        "circuit": "Centering Circuit",
+        "centerConnection": "G to Heart",
+        "theme": "A design of needing to be first",
+        "whenDefined": "Consistent access to initiation energy",
+        "whenUndefined": "Variable access to initiation energy"
+      }
+    },
+    {
+      "channelNumber": "26-44",
+      "gate1": 26,
+      "gate2": 44,
+      "knowledge": {
+        "name": "Surrender",
+        "keynote": "A design of a transmitter",
+        "description": "A channel connecting Gate 26 (The Taming Power of the Great) and Gate 44 (Coming to Meet)",
+        "circuit": "Ego Circuit",
+        "centerConnection": "Heart to Spleen",
+        "theme": "A design of a transmitter",
+        "whenDefined": "Consistent access to surrender energy",
+        "whenUndefined": "Variable access to surrender energy"
+      }
+    },
+    {
+      "channelNumber": "27-50",
+      "gate1": 27,
+      "gate2": 50,
+      "knowledge": {
+        "name": "Preservation",
+        "keynote": "A design of custodianship",
+        "description": "A channel connecting Gate 27 (Nourishment) and Gate 50 (The Cauldron)",
+        "circuit": "Defense Circuit",
+        "centerConnection": "Sacral to Spleen",
+        "theme": "A design of custodianship",
+        "whenDefined": "Consistent access to preservation energy",
+        "whenUndefined": "Variable access to preservation energy"
+      }
+    },
+    {
+      "channelNumber": "28-38",
+      "gate1": 28,
+      "gate2": 38,
+      "knowledge": {
+        "name": "Struggle",
+        "keynote": "A design of stubbornness",
+        "description": "A channel connecting Gate 28 (Preponderance of the Great) and Gate 38 (Opposition)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Spleen to Root",
+        "theme": "A design of stubbornness",
+        "whenDefined": "Consistent access to struggle energy",
+        "whenUndefined": "Variable access to struggle energy"
+      }
+    },
+    {
+      "channelNumber": "29-46",
+      "gate1": 29,
+      "gate2": 46,
+      "knowledge": {
+        "name": "Discovery",
+        "keynote": "A design of succeeding where others fail",
+        "description": "A channel connecting Gate 29 (The Abysmal) and Gate 46 (Pushing Upward)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Sacral to G",
+        "theme": "A design of succeeding where others fail",
+        "whenDefined": "Consistent access to discovery energy",
+        "whenUndefined": "Variable access to discovery energy"
+      }
+    },
+    {
+      "channelNumber": "30-41",
+      "gate1": 30,
+      "gate2": 41,
+      "knowledge": {
+        "name": "Recognition",
+        "keynote": "A design of focused energy",
+        "description": "A channel connecting Gate 30 (Clinging Fire) and Gate 41 (Decrease)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Solar Plexus to Root",
+        "theme": "A design of focused energy",
+        "whenDefined": "Consistent access to recognition energy",
+        "whenUndefined": "Variable access to recognition energy"
+      }
+    },
+    {
+      "channelNumber": "32-54",
+      "gate1": 32,
+      "gate2": 54,
+      "knowledge": {
+        "name": "Transformation",
+        "keynote": "A design of being driven",
+        "description": "A channel connecting Gate 32 (Duration) and Gate 54 (The Marrying Maiden)",
+        "circuit": "Ego Circuit",
+        "centerConnection": "Spleen to Root",
+        "theme": "A design of being driven",
+        "whenDefined": "Consistent access to transformation energy",
+        "whenUndefined": "Variable access to transformation energy"
+      }
+    },
+    {
+      "channelNumber": "34-57",
+      "gate1": 34,
+      "gate2": 57,
+      "knowledge": {
+        "name": "Power",
+        "keynote": "A design of an archetype",
+        "description": "A channel connecting Gate 34 (Great Power) and Gate 57 (Unknown)",
+        "circuit": "Integration Circuit",
+        "centerConnection": "Sacral",
+        "theme": "A design of an archetype",
+        "whenDefined": "Consistent access to power energy",
+        "whenUndefined": "Variable access to power energy"
+      }
+    },
+    {
+      "channelNumber": "35-36",
+      "gate1": 35,
+      "gate2": 36,
+      "knowledge": {
+        "name": "Transitoriness",
+        "keynote": "A design of a 'Jack of all Trades'",
+        "description": "A channel connecting Gate 35 (Progress) and Gate 36 (Darkening of the Light)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Throat to Solar Plexus",
+        "theme": "A design of a 'Jack of all Trades'",
+        "whenDefined": "Consistent access to transitoriness energy",
+        "whenUndefined": "Variable access to transitoriness energy"
+      }
+    },
+    {
+      "channelNumber": "37-40",
+      "gate1": 37,
+      "gate2": 40,
+      "knowledge": {
+        "name": "Community",
+        "keynote": "A design of being a part seeking a whole",
+        "description": "A channel connecting Gate 37 (The Family) and Gate 40 (Deliverance)",
+        "circuit": "Ego Circuit",
+        "centerConnection": "Solar Plexus to Heart",
+        "theme": "A design of being a part seeking a whole",
+        "whenDefined": "Consistent access to community energy",
+        "whenUndefined": "Variable access to community energy"
+      }
+    },
+    {
+      "channelNumber": "39-55",
+      "gate1": 39,
+      "gate2": 55,
+      "knowledge": {
+        "name": "Emoting",
+        "keynote": "A design of moodiness",
+        "description": "A channel connecting Gate 39 (Obstruction) and Gate 55 (Abundance)",
+        "circuit": "Knowing Circuit",
+        "centerConnection": "Root to Solar Plexus",
+        "theme": "A design of moodiness",
+        "whenDefined": "Consistent access to emoting energy",
+        "whenUndefined": "Variable access to emoting energy"
+      }
+    },
+    {
+      "channelNumber": "42-53",
+      "gate1": 42,
+      "gate2": 53,
+      "knowledge": {
+        "name": "Maturation",
+        "keynote": "A design of balanced development",
+        "description": "A channel connecting Gate 42 (Increase) and Gate 53 (Development)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Sacral to Root",
+        "theme": "A design of balanced development",
+        "whenDefined": "Consistent access to maturation energy",
+        "whenUndefined": "Variable access to maturation energy"
+      }
+    },
+    {
+      "channelNumber": "47-64",
+      "gate1": 47,
+      "gate2": 64,
+      "knowledge": {
+        "name": "Abstraction",
+        "keynote": "A design of mental activity and clarity",
+        "description": "A channel connecting Gate 47 (Oppression) and Gate 64 (Before Completion)",
+        "circuit": "Sensing Circuit",
+        "centerConnection": "Ajna to Head",
+        "theme": "A design of mental activity and clarity",
+        "whenDefined": "Consistent access to abstraction energy",
+        "whenUndefined": "Variable access to abstraction energy"
+      }
+    }
+  ]
+}

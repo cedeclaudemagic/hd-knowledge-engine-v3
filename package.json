@@ -1,0 +1,75 @@
+{
+  "name": "hd-knowledge-engine",
+  "version": "2.0.0",
+  "description": "Human Design Knowledge Engine - Clean, unified database system supporting 5 interpretation systems: Black Book, Gene Keys, Codon Rings, Incarnation Crosses, and Circuit relationships",
+  "main": "scripts/hd-query-engine.js",
+  "author": "HD Knowledge Base Project",
+  "license": "MIT",
+  "keywords": [
+    "human-design",
+    "knowledge-base",
+    "gene-keys",
+    "codon-rings",
+    "incarnation-crosses",
+    "query-engine",
+    "database",
+    "astrology",
+    "i-ching",
+    "bodygraph"
+  ],
+  "scripts": {
+    "rebuild": "node rebuild-database.js",
+    "test": "node tests/run-tests.js",
+    "validate": "node scripts/validation/validate-workflow-integrity.js",
+    "docs": "node scripts/documentation/generate-workflow-docs.js",
+    "query-demo": "node examples/basic-usage.js",
+    "gene-keys-demo": "node examples/gene-keys-usage.js",
+    "codon-rings-demo": "node examples/codon-rings-usage.js",
+    "crosses-demo": "node examples/incarnation-crosses-usage.js",
+    "fast-query-demo": "node examples/fast-query-demo.js",
+    "integrate-positioning": "node scripts/integration/integrate-positioning-system.js",
+    "generate-lookups": "node scripts/integration/generate-optimized-lookups.js",
+    "verify:384-lines": "node verification/scripts/automation/workflow-orchestrator.js --type=384-lines",
+    "verify:4-quarters": "node verification/scripts/automation/workflow-orchestrator.js --type=4-quarters",
+    "verify:8-trigrams": "node verification/scripts/automation/workflow-orchestrator.js --type=8-trigrams",
+    "verify:all": "node verification/scripts/automation/batch-processor.js",
+    "verify:create-type": "node verification/scripts/automation/template-generator.js",
+    "verify:status": "node verification/tools/validation-runner.js --summary",
+    "normalize-planets": "node scripts/utilities/normalize-planetary-names.js",
+    "normalize-planets:execute": "node scripts/utilities/normalize-planetary-names.js --execute",
+    "normalize-british": "node scripts/utilities/normalize-british-spellings.js",
+    "normalize-british:execute": "node scripts/utilities/normalize-british-spellings.js --execute"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "directories": {
+    "data": "data",
+    "scripts": "scripts",
+    "tests": "tests",
+    "docs": "docs",
+    "examples": "examples",
+    "verification": "verification"
+  },
+  "files": [
+    "scripts/",
+    "data/source/",
+    "tests/",
+    "examples/",
+    "docs/",
+    "verification/",
+    "README.md",
+    "rebuild-database.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Human Design Knowledge Engine"
+  },
+  "devDependencies": {
+    "cheerio": "^1.1.2",
+    "xmldom": "^0.6.0"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
