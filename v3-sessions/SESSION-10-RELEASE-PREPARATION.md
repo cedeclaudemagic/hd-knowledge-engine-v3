@@ -65,7 +65,7 @@ Complete rebuild with modular configuration, TypeScript support, and extension a
 #### Configuration System
 - **Swappable gate sequences** - Switch between HD standard, I Ching traditional, or custom
 - **Rotation offset** - Rotate the wheel by any number of degrees
-- **Direction control** - Clockwise or counter-clockwise
+- **Direction control** - Counter-clockwise or clockwise
 - **Preset configurations** - Quick access to common configurations
 - Methods: `setWheelConfiguration()`, `getWheelConfiguration()`, `resetConfiguration()`
 

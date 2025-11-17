@@ -1,4 +1,22 @@
-# Session Prompts - Conflicts with Correct Understanding
+# [ARCHIVED] Session Prompts - Conflicts with Correct Understanding
+
+**🚨 THIS DOCUMENT IS ARCHIVED - DO NOT USE FOR IMPLEMENTATION**
+
+**Status:** Historical analysis document - contains conflicting information
+**Superseded by:** `00-DEFINITIVE-REQUIREMENTS.md` (THE SINGLE SOURCE OF TRUTH)
+**Date:** November 17, 2025
+
+---
+
+## Why This Is Archived
+
+This document represented an intermediate stage of understanding and contains some correct insights but also contradictory information. It has been superseded by the definitive requirements document.
+
+**For implementation, use:** `00-DEFINITIVE-REQUIREMENTS.md`
+
+---
+
+## Original Content Below (Historical Reference Only)
 
 **Date:** November 17, 2025
 **Correct Understanding:**

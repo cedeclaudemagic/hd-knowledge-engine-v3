@@ -442,8 +442,8 @@ Get gates in same position in other quarters.
 
 ### Available Presets
 
-- **`rave-wheel-41-start`** (DEFAULT): Rave wheel - Gate 41 at array start, clockwise, 33.75° rotation (Gates 10/11 at north visually)
-- **`gates-10-start`**: Alternative - Gates 10/11 at array start, clockwise, 0° rotation
+- **`rave-wheel-41-start`** (DEFAULT): Rave wheel - Gate 41 at array start, counter-clockwise, 33.75° rotation (Gates 10/11 at north visually)
+- **`gates-10-start`**: Alternative - Gates 10/11 at array start, counter-clockwise, 0° rotation
 - **`custom`**: User-defined sequence
 
 **Example:**
@@ -482,7 +482,7 @@ By default, V3 matches V2.0.0 behavior exactly:
 {
   sequenceName: 'rave-wheel-41-start',
   rotationOffset: 33.75,
-  direction: 'clockwise'
+  direction: 'counter-clockwise'
 }
 ```
 
@@ -506,7 +506,7 @@ engine.resetConfiguration();
 engine.setWheelConfiguration({
   sequenceName: 'rave-wheel-41-start',
   rotationOffset: 45,           // Rotate 45 degrees
-  direction: 'clockwise'        // Clockwise direction
+  direction: 'counter-clockwise'        // Counter-clockwise direction
 });
 ```
 
@@ -522,7 +522,7 @@ engine.setWheelConfiguration({
   sequenceName: 'custom',
   customSequence: mySequence,
   rotationOffset: 0,
-  direction: 'clockwise'
+  direction: 'counter-clockwise'
 });
 ```
 
@@ -532,7 +532,7 @@ engine.setWheelConfiguration({
 
 **Array order:** Gate 41 at position 0
 **Visual north:** Gates 10/11 at 0° (via 33.75° rotation)
-**Direction:** Clockwise
+**Direction:** Counter-clockwise
 **DECOUPLED:** Array order ≠ Visual presentation
 
 ```
@@ -546,7 +546,7 @@ Array Position 58: Gate 10  (appears at 0° north visually via rotation)
 
 **Array order:** Gates 10/11 at position 0
 **Visual north:** Gates 10/11 at 0° (no rotation needed)
-**Direction:** Clockwise
+**Direction:** Counter-clockwise
 
 ```
 Array Position 0:  Gate 10  (appears at 0° north)
@@ -585,7 +585,7 @@ console.log(gate10.wheelIndex);  // 58 (array position 58)
 engine.setWheelConfiguration({
   sequenceName: 'rave-wheel-41-start',
   rotationOffset: 58.5,  // Aries 0° point
-  direction: 'clockwise'
+  direction: 'counter-clockwise'
 });
 ```
 

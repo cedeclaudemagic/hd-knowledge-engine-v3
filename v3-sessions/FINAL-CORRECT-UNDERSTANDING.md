@@ -1,7 +1,24 @@
-# FINAL CORRECT UNDERSTANDING - Rave Wheel Configuration
+# [PARTIALLY SUPERSEDED] FINAL CORRECT UNDERSTANDING - Rave Wheel Configuration
 
+**⚠️ PARTIALLY SUPERSEDED - USE 00-DEFINITIVE-REQUIREMENTS.md INSTEAD**
+
+**Status:** This document has correct insights but wrong direction (says clockwise, should be counter-clockwise)
+**Superseded by:** `00-DEFINITIVE-REQUIREMENTS.md` (THE SINGLE SOURCE OF TRUTH)
 **Date:** November 17, 2025
-**Status:** CRYSTAL CLEAR
+
+---
+
+## Why This Is Partially Superseded
+
+This document correctly explains the three mandatory fields and decoupling concept, BUT it incorrectly states the default direction as "clockwise" when it should be "counter-clockwise" (matching solar system movement).
+
+**For implementation, use:** `00-DEFINITIVE-REQUIREMENTS.md`
+
+---
+
+## Original Content Below (Read with caution - direction is WRONG)
+
+**Status:** CRYSTAL CLEAR (except direction - ignore clockwise references)
 
 ---
 

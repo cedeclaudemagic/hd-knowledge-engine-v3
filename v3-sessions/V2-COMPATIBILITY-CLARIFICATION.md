@@ -1,6 +1,23 @@
-# V2 Compatibility Clarification
+# [ARCHIVED] V2 Compatibility Clarification
 
+**🚨 THIS DOCUMENT IS ARCHIVED - DO NOT USE FOR IMPLEMENTATION**
+
+**Status:** Historical analysis document - V2 compatibility is NOT a concern for V3
+**Superseded by:** `00-DEFINITIVE-REQUIREMENTS.md` (THE SINGLE SOURCE OF TRUTH)
 **Created:** November 17, 2025
+
+---
+
+## Why This Is Archived
+
+V3 is NOT trying to maintain V2 angle compatibility. This document was created during an earlier phase when we thought V2 compatibility was important. It has been superseded.
+
+**For implementation, use:** `00-DEFINITIVE-REQUIREMENTS.md`
+
+---
+
+## Original Content Below (Historical Reference Only)
+
 **Purpose:** Resolve confusion about "V2 compatible" default configuration
 
 ---

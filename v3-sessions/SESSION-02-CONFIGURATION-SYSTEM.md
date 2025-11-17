@@ -44,7 +44,7 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ## DELIVERABLES
 
 1. `core/root-system/wheel-config.js` - Configuration system
-2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (clockwise, 33.75° rotation)
+2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (counter-clockwise, 33.75° rotation)
 3. `core/root-system/sequences/gates-10-start.json` - ALTERNATIVE (Gates 10/11 at array start)
 4. `core/root-system/sequences/README.md` - Sequence documentation (explains 3 mandatory fields)
 5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration with rotation
@@ -74,14 +74,15 @@ Build the modular wheel configuration system that allows swappable gate sequence
     31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
     28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
   ],
-  "direction": "clockwise",
+  "direction": "counter-clockwise",
   "rotationOffset": 33.75,
   "notes": {
     "arrayPosition0": "Gate 41 (position 0 in array)",
     "arrayPosition58": "Gate 10 (position 58 in array)",
     "visualNorth": "Gates 10/11 appear at north (0°) via 33.75° rotation offset",
     "decoupling": "Array order ≠ Visual presentation - rotation offset bridges the gap",
-    "mandatory": "direction and rotationOffset are MANDATORY fields"
+    "mandatory": "direction and rotationOffset are MANDATORY fields",
+    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
   }
 }
 ```
@@ -100,13 +101,14 @@ Build the modular wheel configuration system that allows swappable gate sequence
     15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
     25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
   ],
-  "direction": "clockwise",
+  "direction": "counter-clockwise",
   "rotationOffset": 0,
   "notes": {
     "arrayPosition0": "Gate 10 (position 0 in array)",
     "visualNorth": "Gate 10 at north (0°) with no rotation",
     "useCase": "When you want Gates 10/11 at array start instead of using rotation",
-    "mandatory": "direction and rotationOffset are MANDATORY fields (even if 0)"
+    "mandatory": "direction and rotationOffset are MANDATORY fields (even if 0)",
+    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
   }
 }
 ```
@@ -131,14 +133,14 @@ These three values work together to decouple array order from visual presentatio
 
 ### rave-wheel-41-start.json (DEFAULT)
 - **Sequence:** Gate 41 at array position 0
-- **Direction:** Clockwise (actual rave wheel movement)
+- **Direction:** Counter-clockwise (matches solar system planets/sun)
 - **Rotation:** 33.75° (makes Gates 10/11 appear at visual north)
 - **Result:** Array starts with Gate 41, but visually Gates 10/11 are at north
 - **Use this for:** Default rave wheel, standard HD charts
 
 ### gates-10-start.json (ALTERNATIVE)
 - **Sequence:** Gates 10/11 at array position 0
-- **Direction:** Clockwise
+- **Direction:** Counter-clockwise (matches solar system planets/sun)
 - **Rotation:** 0° (no rotation needed)
 - **Result:** Array AND visual both start with Gates 10/11 at north
 - **Use this for:** When you want Gates 10/11 at array start
@@ -153,9 +155,9 @@ MANDATORY format:
   "description": "Description of what makes this unique",
   "version": "1.0.0",
   "source": "Where this comes from",
-  "sequence": [41, 19, 13, ...],        // MANDATORY: All 64 gates
-  "direction": "clockwise",              // MANDATORY: Direction
-  "rotationOffset": 33.75,              // MANDATORY: Rotation in degrees
+  "sequence": [41, 19, 13, ...],             // MANDATORY: All 64 gates
+  "direction": "counter-clockwise",       // MANDATORY: Direction (counter-clockwise = solar system)
+  "rotationOffset": 33.75,                // MANDATORY: Rotation in degrees
   "notes": {
     "arrayPosition0": "Which gate at array position 0",
     "visualNorth": "What appears at visual north after rotation"
@@ -231,7 +233,7 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 const { WheelConfiguration } = require('./wheel-config.js');
 
 // Global configuration (can be overridden)
-let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (clockwise, 33.75° rotation)
+let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (counter-clockwise, 33.75° rotation)
 ```
 
 2. **Add new exports:**
@@ -346,7 +348,7 @@ try {
   assert(config !== null, 'Default configuration loads');
   assert(config.sequence.length === 64, 'Default sequence has 64 gates');
   assert(config.config.sequenceName === 'rave-wheel-41-start', 'Default is rave-wheel-41-start');
-  assert(config.config.direction === 'clockwise', 'Default direction is clockwise');
+  assert(config.config.direction === 'counter-clockwise', 'Default direction is counter-clockwise');
   assert(config.config.rotationOffset === 33.75, 'Default rotation is 33.75°');
   assert(config.sequence[0] === 41, 'Default starts with Gate 41');
 } catch (error) {
@@ -360,7 +362,7 @@ try {
   assert(raveWheelConfig.sequence[0] === 41, 'rave-wheel-41-start starts with gate 41');
   assert(raveWheelConfig.sequence[1] === 19, 'rave-wheel-41-start position 1 is gate 19');
   assert(raveWheelConfig.sequence[58] === 10, 'rave-wheel-41-start position 58 is gate 10');
-  assert(raveWheelConfig.config.direction === 'clockwise', 'rave-wheel-41-start is clockwise');
+  assert(raveWheelConfig.config.direction === 'counter-clockwise', 'rave-wheel-41-start is counter-clockwise');
   assert(raveWheelConfig.config.rotationOffset === 33.75, 'rave-wheel-41-start has 33.75° rotation');
 } catch (error) {
   assert(false, 'rave-wheel-41-start preset - ERROR: ' + error.message);
@@ -371,7 +373,7 @@ try {
   const gates10Config = WheelConfiguration.fromPreset('gates-10-start');
   assert(gates10Config.sequence[0] === 10, 'gates-10-start starts with gate 10');
   assert(gates10Config.sequence[1] === 11, 'gates-10-start position 1 is gate 11');
-  assert(gates10Config.config.direction === 'clockwise', 'gates-10-start is clockwise');
+  assert(gates10Config.config.direction === 'counter-clockwise', 'gates-10-start is counter-clockwise');
   assert(gates10Config.config.rotationOffset === 0, 'gates-10-start has 0° rotation');
 } catch (error) {
   assert(false, 'gates-10-start preset - ERROR: ' + error.message);
@@ -497,7 +499,7 @@ console.log('\nTest Group 9: Export\n');
 const exportedConfig = testConfig.exportConfig();
 assert(exportedConfig.sequenceName === 'rave-wheel-41-start', 'Export includes sequence name (rave-wheel-41-start default)');
 assert(Array.isArray(exportedConfig.sequence), 'Export includes sequence array');
-assert(exportedConfig.direction === 'clockwise', 'Export includes direction (clockwise default)');
+assert(exportedConfig.direction === 'counter-clockwise', 'Export includes direction (counter-clockwise default)');
 assert(exportedConfig.rotationOffset === 33.75, 'Export includes rotation offset (33.75° default)');
 
 // Summary
@@ -640,9 +642,9 @@ node tests/adapted-old-tests.js
 ```
 
 **If any tests fail:**
-- The default configuration should match old behavior
-- Check that `hd-standard` sequence is correct
-- Verify angle calculations match old positioning-algorithm.js
+- The default configuration should have Gates 10/11 at north (not Gate 41)
+- Check that `rave-wheel-41-start` sequence is correct (counter-clockwise, 33.75° rotation)
+- Verify angle calculations include rotation offset
 
 **Add test to verify default configuration:**
 
@@ -716,25 +718,25 @@ git add .
 git commit -m "Session 02: Configuration system implementation
 
 - Create WheelConfiguration class with full configuration support
-- Add rave-wheel-41-start.json sequence (DEFAULT - clockwise, 33.75° rotation)
+- Add rave-wheel-41-start.json sequence (DEFAULT - counter-clockwise, 33.75° rotation)
 - Add gates-10-start.json sequence (ALTERNATIVE - Gates 10/11 at array start)
 - THREE MANDATORY fields per sequence: sequence, direction, rotationOffset
 - Update positioning-algorithm.js to use configurable wheel
 - Implement setWheelConfiguration() and getWheelConfiguration()
 - Support rotation offset, direction, and swappable sequences
-- Test clockwise vs counter-clockwise direction hypothesis
+- Test counter-clockwise vs clockwise direction hypothesis
 - All configuration tests passing
 - Default: Gates 10/11 appear at north (0°) via 33.75° rotation
 
 New capabilities:
 - Decouple array order from visual presentation
 - Rotate wheel by any angle (0-360°)
-- Flip direction clockwise/counter-clockwise
+- Flip direction counter-clockwise/clockwise
 - Custom sequences supported
 - Array position 0 = Gate 41, Visual north = Gates 10/11
 
 Architecture: Modular, configurable, maintains calculation-first model
-Direction: Clockwise (actual rave wheel)
+Direction: Counter-clockwise (solar system alignment)
 Rotation: 33.75° default (Gates 10/11 at north)
 NO monolithic database
 
@@ -754,7 +756,7 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 - [ ] Sequences README explains three mandatory fields clearly
 - [ ] `positioning-algorithm.js` updated to use config
 - [ ] New methods exported: setWheelConfiguration, getWheelConfiguration
-- [ ] Default: rave-wheel-41-start, clockwise, 33.75° rotation (Gates 10/11 at north)
+- [ ] Default: rave-wheel-41-start, counter-clockwise, 33.75° rotation (Gates 10/11 at north)
 
 ### Test Verification:
 - [ ] Configuration tests pass (15+ tests)
@@ -765,7 +767,7 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Functionality Verification:
 - [ ] Can switch between rave-wheel-41-start and gates-10-start sequences
 - [ ] Can set rotation offset (0-360°)
-- [ ] Can change direction (clockwise/counter-clockwise)
+- [ ] Can change direction (counter-clockwise/clockwise)
 - [ ] getWheelPosition() uses configuration with rotation
 - [ ] Default: Array position 0 = Gate 41, Visual north = Gates 10/11 (DECOUPLED)
 
@@ -839,9 +841,9 @@ Branch: session-02-configuration
 Tag: v3.0.0-alpha.2-session-02
 
 Key Achievement: Array order decoupled from visual presentation
-Default Config: rave-wheel-41-start, clockwise, 33.75° rotation
+Default Config: rave-wheel-41-start, counter-clockwise, 33.75° rotation
 Visual Result: Gates 10/11 at north (0°), Gate 41 at 33.75°
-Direction: Clockwise (actual rave wheel movement)
+Direction: Counter-clockwise (solar system alignment)
 
 Next Session: 03 (TypeScript Definitions)
 Status: ✅ READY TO PROCEED

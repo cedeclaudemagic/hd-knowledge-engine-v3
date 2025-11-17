@@ -93,7 +93,7 @@ test('Configuration changes affect positioning', () => {
   engine.setWheelConfiguration({
     sequenceName: 'rave-wheel-41-start',
     rotationOffset: 33.75,  // Default rotation
-    direction: 'clockwise'
+    direction: 'counter-clockwise'
   });
 
   const gate13after = engine.getGateKnowledge(13);
@@ -118,7 +118,7 @@ test('Preset configurations load correctly', () => {
   engine.setWheelConfiguration('rave-wheel-41-start');
   const config = engine.getWheelConfiguration();
   assert(config.getSequenceName() === 'rave-wheel-41-start', 'Default preset should load');
-  assert(config.getDirection() === 'clockwise', 'Default direction is clockwise');
+  assert(config.getDirection() === 'counter-clockwise', 'Default direction is counter-clockwise');
   assert(config.getRotationOffset() === 33.75, 'Default rotation is 33.75°');
 
   engine.resetConfiguration();

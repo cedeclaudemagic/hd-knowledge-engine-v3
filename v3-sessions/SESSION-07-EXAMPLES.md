@@ -214,7 +214,7 @@ engine.resetConfiguration();
 /**
  * Configuration Example 03: Direction Change
  *
- * Change wheel direction (clockwise vs counter-clockwise).
+ * Change wheel direction (counter-clockwise vs clockwise).
  */
 
 const engine = require('../../unified-query-engine');

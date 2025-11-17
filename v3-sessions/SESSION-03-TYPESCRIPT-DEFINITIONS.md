@@ -508,7 +508,7 @@ import { WheelConfiguration, SequenceName } from 'hd-knowledge-engine-v3';
 const config: WheelConfigOptions = {
   sequenceName: 'rave-wheel-41-start', // TypeScript validates this (default)
   rotationOffset: 33.75,  // Default rotation makes Gates 10/11 at north
-  direction: 'clockwise'
+  direction: 'counter-clockwise'
 };
 
 engine.setWheelConfiguration(config);
@@ -615,7 +615,7 @@ function testConfiguration(): void {
   const config: WheelConfigOptions = {
     sequenceName: 'rave-wheel-41-start',
     rotationOffset: 33.75,  // Default rotation
-    direction: 'clockwise'
+    direction: 'counter-clockwise'
   };
 
   engine.setWheelConfiguration(config);
