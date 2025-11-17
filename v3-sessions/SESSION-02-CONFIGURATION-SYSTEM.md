@@ -44,13 +44,13 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ## DELIVERABLES
 
 1. `core/root-system/wheel-config.js` - Configuration system
-2. `core/root-system/sequences/hd-standard.json` - HD wheel (Gates 10/11 at north)
-3. `core/root-system/sequences/iching-traditional.json` - I Ching wheel (Gate 41 at position 0)
-4. `core/root-system/sequences/README.md` - Sequence documentation
-5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration
+2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (counter-clockwise, 33.75° rotation)
+3. `core/root-system/sequences/gates-10-start.json` - ALTERNATIVE (Gates 10/11 at array start)
+4. `core/root-system/sequences/README.md` - Sequence documentation (explains 3 mandatory fields)
+5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration with rotation
 6. `tests/configuration/test-wheel-config.js` - Configuration tests
-7. `tests/configuration/test-direction-hypothesis.js` - Direction testing
-8. All existing tests still passing
+7. `tests/configuration/test-direction-hypothesis.js` - Direction testing (with default rotation)
+8. All existing tests updated for new default (Gates 10/11 at north via rotation)
 
 ---
 
@@ -58,51 +58,58 @@ Build the modular wheel configuration system that allows swappable gate sequence
 
 ### Task 2.1: Create Sequence Files
 
-**File:** `core/root-system/sequences/hd-standard.json`
+**CRITICAL:** Every sequence file MUST have three mandatory fields: `sequence`, `direction`, and `rotationOffset`. These three values work together to define both array order AND visual presentation.
+
+**File:** `core/root-system/sequences/rave-wheel-41-start.json` **(DEFAULT)**
 
 ```json
 {
-  "name": "hd-standard",
-  "description": "Human Design Standard - Gates 10/11 straddle north at 0 degrees",
-  "version": "2.0.0",
-  "source": "Verified from Illustrator Master SVG",
-  "direction": "counter-clockwise",
-  "notes": {
-    "position0": "Gate 10 at wheel position 0 (NORTH - 0 degrees)",
-    "position1": "Gate 11 at wheel position 1 (just past north)",
-    "verification": "Extracted from the-64-hexagrams-master.svg divider lines",
-    "correctness": "This is the CORRECT HD wheel arrangement verified from source SVG"
-  },
-  "sequence": [
-    10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
-    46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
-    15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
-    25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
-  ]
-}
-```
-
-**File:** `core/root-system/sequences/iching-traditional.json`
-
-```json
-{
-  "name": "iching-traditional",
-  "description": "I Ching Traditional - Gate 41 at position 0",
+  "name": "rave-wheel-41-start",
+  "description": "Rave Wheel - Gate 41 at array start, rotated so Gates 10/11 appear at north",
   "version": "1.0.0",
-  "source": "Traditional I Ching mandala arrangement",
-  "direction": "counter-clockwise",
-  "notes": {
-    "position0": "Gate 41 starts at wheel position 0",
-    "position59": "Gate 41 in HD standard is at position 59",
-    "offset": "This sequence is rotated ~59 positions from HD standard",
-    "usage": "Use this for I Ching mandala visualizations"
-  },
+  "source": "Ra Uru Hu - Human Design System",
   "sequence": [
     41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
     27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
     31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
     28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
-  ]
+  ],
+  "direction": "counter-clockwise",
+  "rotationOffset": 33.75,
+  "notes": {
+    "arrayPosition0": "Gate 41 (position 0 in array)",
+    "arrayPosition58": "Gate 10 (position 58 in array)",
+    "visualNorth": "Gates 10/11 appear at north (0°) via 33.75° rotation offset",
+    "decoupling": "Array order ≠ Visual presentation - rotation offset bridges the gap",
+    "mandatory": "direction and rotationOffset are MANDATORY fields",
+    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
+  }
+}
+```
+
+**File:** `core/root-system/sequences/gates-10-start.json` **(ALTERNATIVE)**
+
+```json
+{
+  "name": "gates-10-start",
+  "description": "Alternative - Gates 10/11 at array start (no rotation needed)",
+  "version": "1.0.0",
+  "source": "Alternative wheel arrangement",
+  "sequence": [
+    10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
+    46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
+    15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
+    25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
+  ],
+  "direction": "counter-clockwise",
+  "rotationOffset": 0,
+  "notes": {
+    "arrayPosition0": "Gate 10 (position 0 in array)",
+    "visualNorth": "Gate 10 at north (0°) with no rotation",
+    "useCase": "When you want Gates 10/11 at array start instead of using rotation",
+    "mandatory": "direction and rotationOffset are MANDATORY fields (even if 0)",
+    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
+  }
 }
 ```
 
@@ -111,60 +118,72 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ```markdown
 # Gate Sequence Files
 
-This directory contains swappable gate sequence arrays for different wheel traditions.
+This directory contains swappable gate sequence configurations for different wheel traditions.
 
-## What Is a Gate Sequence?
+## CRITICAL: Three Mandatory Fields
 
-A gate sequence defines the order of gates around the 360° wheel. Position 0 is at "north" (top of wheel), and positions progress counter-clockwise by default.
+Every sequence file MUST contain three fields:
+1. **sequence** - Array of 64 gates in wheel order
+2. **direction** - "clockwise" or "counter-clockwise"
+3. **rotationOffset** - Degrees (0-360) to rotate the visual wheel
+
+These three values work together to decouple array order from visual presentation.
 
 ## Available Sequences
 
-### hd-standard.json (DEFAULT)
-- Gates 10 and 11 straddle north (0°)
-- Verified from Illustrator master SVG
-- This is the standard Human Design wheel arrangement
-- **Use this for:** HD charts, Gene Keys, standard interpretations
+### rave-wheel-41-start.json (DEFAULT)
+- **Sequence:** Gate 41 at array position 0
+- **Direction:** Counter-clockwise (matches solar system planets/sun)
+- **Rotation:** 33.75° (makes Gates 10/11 appear at visual north)
+- **Result:** Array starts with Gate 41, but visually Gates 10/11 are at north
+- **Use this for:** Default rave wheel, standard HD charts
 
-### iching-traditional.json
-- Gate 41 at position 0 (north)
-- Traditional I Ching mandala arrangement
-- Rotated ~59 positions from HD standard
-- **Use this for:** I Ching mandala visualizations, traditional Chinese astrology
+### gates-10-start.json (ALTERNATIVE)
+- **Sequence:** Gates 10/11 at array position 0
+- **Direction:** Counter-clockwise (matches solar system planets/sun)
+- **Rotation:** 0° (no rotation needed)
+- **Result:** Array AND visual both start with Gates 10/11 at north
+- **Use this for:** When you want Gates 10/11 at array start
 
 ## Creating Custom Sequences
 
-You can create your own sequence file:
+MANDATORY format:
 
 ```json
 {
   "name": "my-custom-sequence",
-  "description": "Description of what makes this sequence unique",
+  "description": "Description of what makes this unique",
   "version": "1.0.0",
-  "source": "Where this sequence comes from",
-  "direction": "counter-clockwise",
+  "source": "Where this comes from",
+  "sequence": [41, 19, 13, ...],             // MANDATORY: All 64 gates
+  "direction": "counter-clockwise",       // MANDATORY: Direction (counter-clockwise = solar system)
+  "rotationOffset": 33.75,                // MANDATORY: Rotation in degrees
   "notes": {
-    "position0": "Which gate starts at north"
-  },
-  "sequence": [
-    /* All 64 gates in your desired order */
-  ]
+    "arrayPosition0": "Which gate at array position 0",
+    "visualNorth": "What appears at visual north after rotation"
+  }
 }
 ```
 
 **Requirements:**
-- Must contain exactly 64 gates
+- Must contain exactly 64 gates in sequence array
 - Each gate 1-64 must appear exactly once
 - No duplicates, no gaps
+- MUST include direction field
+- MUST include rotationOffset field (even if 0)
 
-## Direction (Clockwise vs Counter-Clockwise)
+## Understanding The Three Values
 
-The "direction" field is informational only. The actual direction is set in your wheel configuration:
+**Sequence** = Array order (for calculations)
+**Direction** = Clockwise or counter-clockwise traversal
+**RotationOffset** = Visual alignment (decouples array from display)
 
+Example:
 ```javascript
-setWheelConfiguration({
-  sequenceName: 'hd-standard',
-  direction: 'counter-clockwise'  // or 'clockwise'
-});
+// rave-wheel-41-start with 33.75° rotation:
+sequence[0] = 41        // Array position 0 = Gate 41
+visualAngle(10) = 0°    // Gate 10 appears at north visually
+// DECOUPLED! Array order ≠ Visual presentation
 ```
 
 ## Testing Your Sequence
@@ -189,7 +208,9 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 
 **File:** `core/root-system/wheel-config.js`
 
-[PASTE THE COMPLETE wheel-config.js FROM THE IMPLEMENTATION PLAN HERE - the one with the WheelConfiguration class, all methods, presets, etc.]
+**SEE:** `SESSION-02-WHEEL-CONFIG-IMPLEMENTATION.md` for the COMPLETE implementation
+
+This file contains the full WheelConfiguration class with all methods, including:
 
 **Key Methods to Implement:**
 - `constructor(config)` - Initialize with configuration
@@ -214,7 +235,7 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 const { WheelConfiguration } = require('./wheel-config.js');
 
 // Global configuration (can be overridden)
-let wheelConfig = new WheelConfiguration(); // Defaults to hd-standard
+let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (counter-clockwise, 33.75° rotation)
 ```
 
 2. **Add new exports:**
@@ -328,27 +349,36 @@ try {
   const config = new WheelConfiguration();
   assert(config !== null, 'Default configuration loads');
   assert(config.sequence.length === 64, 'Default sequence has 64 gates');
-  assert(config.config.sequenceName === 'hd-standard', 'Default is hd-standard');
+  assert(config.config.sequenceName === 'rave-wheel-41-start', 'Default is rave-wheel-41-start');
+  assert(config.config.direction === 'counter-clockwise', 'Default direction is counter-clockwise');
+  assert(config.config.rotationOffset === 33.75, 'Default rotation is 33.75°');
+  assert(config.sequence[0] === 41, 'Default starts with Gate 41');
 } catch (error) {
   assert(false, 'Default configuration loads - ERROR: ' + error.message);
 }
 
-// Test 2: HD standard preset
+// Test 2: Rave wheel preset (default)
 console.log('\nTest Group 2: Presets\n');
 try {
-  const hdConfig = WheelConfiguration.fromPreset('hd-standard');
-  assert(hdConfig.sequence[0] === 10, 'HD standard starts with gate 10');
-  assert(hdConfig.sequence[1] === 11, 'HD standard position 1 is gate 11');
+  const raveWheelConfig = WheelConfiguration.fromPreset('rave-wheel-41-start');
+  assert(raveWheelConfig.sequence[0] === 41, 'rave-wheel-41-start starts with gate 41');
+  assert(raveWheelConfig.sequence[1] === 19, 'rave-wheel-41-start position 1 is gate 19');
+  assert(raveWheelConfig.sequence[58] === 10, 'rave-wheel-41-start position 58 is gate 10');
+  assert(raveWheelConfig.config.direction === 'counter-clockwise', 'rave-wheel-41-start is counter-clockwise');
+  assert(raveWheelConfig.config.rotationOffset === 33.75, 'rave-wheel-41-start has 33.75° rotation');
 } catch (error) {
-  assert(false, 'HD standard preset - ERROR: ' + error.message);
+  assert(false, 'rave-wheel-41-start preset - ERROR: ' + error.message);
 }
 
-// Test 3: I Ching traditional preset
+// Test 3: Gates 10 start preset (alternative)
 try {
-  const ichingConfig = WheelConfiguration.fromPreset('iching-traditional');
-  assert(ichingConfig.sequence[0] === 41, 'I Ching traditional starts with gate 41');
+  const gates10Config = WheelConfiguration.fromPreset('gates-10-start');
+  assert(gates10Config.sequence[0] === 10, 'gates-10-start starts with gate 10');
+  assert(gates10Config.sequence[1] === 11, 'gates-10-start position 1 is gate 11');
+  assert(gates10Config.config.direction === 'counter-clockwise', 'gates-10-start is counter-clockwise');
+  assert(gates10Config.config.rotationOffset === 0, 'gates-10-start has 0° rotation');
 } catch (error) {
-  assert(false, 'I Ching traditional preset - ERROR: ' + error.message);
+  assert(false, 'gates-10-start preset - ERROR: ' + error.message);
 }
 
 // Test 4: Custom sequence validation
@@ -391,75 +421,88 @@ try {
   assert(true, 'Duplicate gates rejected');
 }
 
-// Test 8: getWheelIndex() works correctly
+// Test 8: getWheelIndex() works correctly (with rave-wheel-41-start default)
 console.log('\nTest Group 4: Methods\n');
 const testConfig = new WheelConfiguration();
-const index10 = testConfig.getWheelIndex(10);
-assert(index10 === 0, 'Gate 10 is at wheel index 0 in HD standard');
-
 const index41 = testConfig.getWheelIndex(41);
-assert(index41 === 58, 'Gate 41 is at wheel index 58 in HD standard');
+assert(index41 === 0, 'Gate 41 is at wheel index 0 in rave-wheel-41-start (default)');
 
-// Test 9: getAngle() calculation
+const index10 = testConfig.getWheelIndex(10);
+assert(index10 === 58, 'Gate 10 is at wheel index 58 in rave-wheel-41-start (default)');
+
+const index19 = testConfig.getWheelIndex(19);
+assert(index19 === 1, 'Gate 19 is at wheel index 1 in rave-wheel-41-start');
+
+// Test 9: getAngle() calculation (with rave-wheel-41-start default - 33.75° rotation)
+// With 33.75° rotation, Gate 41 at position 0 appears at 33.75°, Gates 10/11 at north (0°)
+const angle41 = testConfig.getAngle(41, 1);
+assert(Math.abs(angle41 - 33.75) < 0.01, 'Gate 41 line 1 is at 33.75° with default rotation');
+
 const angle10 = testConfig.getAngle(10, 1);
-assert(angle10 === 0, 'Gate 10 line 1 is at 0 degrees');
+assert(Math.abs(angle10 - 0) < 1, 'Gate 10 line 1 is at ~0° (north) with default rotation');
 
-const angle10line2 = testConfig.getAngle(10, 2);
-assert(angle10line2 === 0.9375, 'Gate 10 line 2 is at 0.9375 degrees');
+const angle41line2 = testConfig.getAngle(41, 2);
+assert(Math.abs(angle41line2 - 34.6875) < 0.01, 'Gate 41 line 2 is at ~34.69° (33.75 + 0.9375)');
 
 // Test 10: Rotation offset works
 console.log('\nTest Group 5: Rotation Offset\n');
 const rotatedConfig = new WheelConfiguration({
-  sequenceName: 'hd-standard',
+  sequenceName: 'rave-wheel-41-start',
   rotationOffset: 45
 });
-const angleRotated = rotatedConfig.getAngle(10, 1);
-assert(angleRotated === 45, 'Rotation offset adds to angle');
+const angleRotated = rotatedConfig.getAngle(41, 1);
+assert(angleRotated === 45, 'Custom rotation offset overrides default (Gate 41 at 45° with custom rotation)');
 
-// Test 11: Clockwise direction reverses index
+// Test 11: Direction affects traversal
 console.log('\nTest Group 6: Direction\n');
-const clockwiseConfig = new WheelConfiguration({
-  sequenceName: 'hd-standard',
-  direction: 'clockwise'
+const counterClockwiseConfig = new WheelConfiguration({
+  sequenceName: 'rave-wheel-41-start',
+  direction: 'counter-clockwise',
+  rotationOffset: 0
 });
-// In clockwise, indices are reversed
-const cwIndex = clockwiseConfig.getWheelIndex(10);
-// Should be different from counter-clockwise
-assert(cwIndex !== index10, 'Clockwise direction changes wheel index');
+// Test that direction actually changes the traversal
+const ccwIndex = counterClockwiseConfig.getWheelIndex(41);
+// Default is clockwise, this should be different with counter-clockwise
+assert(ccwIndex === 0, 'Gate 41 still at position 0, but direction affects angle calculation');
 
-// Test 12: getGateAtAngle() reverse lookup
+// Test 12: getGateAtAngle() reverse lookup (with default rotation)
 console.log('\nTest Group 7: Reverse Lookup\n');
-const ccwConfig = new WheelConfiguration();
-const gateAt0 = ccwConfig.getGateAtAngle(0);
-assert(gateAt0.gateNumber === 10, 'Reverse lookup: angle 0 = gate 10');
+const defaultConfig = new WheelConfiguration();
+const gateAt0 = defaultConfig.getGateAtAngle(0);
+assert(gateAt0.gateNumber === 10, 'Reverse lookup: angle 0 = gate 10 (with default 33.75° rotation)');
 assert(gateAt0.lineNumber === 1, 'Reverse lookup: angle 0 = line 1');
+
+// Gate 41 would be at angle 33.75° with default config
+const gateAt33 = defaultConfig.getGateAtAngle(33.75);
+assert(gateAt33.gateNumber === 41, 'Reverse lookup: angle 33.75 = gate 41 (array position 0 + rotation)');
 
 // Test 13: All 64 gates are unique in sequence
 console.log('\nTest Group 8: Sequence Integrity\n');
-const hdSeq = WheelConfiguration.fromPreset('hd-standard');
-const uniqueGates = new Set(hdSeq.sequence);
-assert(uniqueGates.size === 64, 'HD sequence has 64 unique gates');
+const raveSeq = WheelConfiguration.fromPreset('rave-wheel-41-start');
+const uniqueGatesRave = new Set(raveSeq.sequence);
+assert(uniqueGatesRave.size === 64, 'rave-wheel-41-start sequence has 64 unique gates');
 
-const ichingSeq = WheelConfiguration.fromPreset('iching-traditional');
-const uniqueGates2 = new Set(ichingSeq.sequence);
-assert(uniqueGates2.size === 64, 'I Ching sequence has 64 unique gates');
+const gates10Seq = WheelConfiguration.fromPreset('gates-10-start');
+const uniqueGates10 = new Set(gates10Seq.sequence);
+assert(uniqueGates10.size === 64, 'gates-10-start sequence has 64 unique gates');
 
 // Test 14: All gates 1-64 are present
 let allGatesPresent = true;
 for (let i = 1; i <= 64; i++) {
-  if (!hdSeq.sequence.includes(i)) {
+  if (!raveSeq.sequence.includes(i)) {
     allGatesPresent = false;
     break;
   }
 }
-assert(allGatesPresent, 'HD sequence contains all gates 1-64');
+assert(allGatesPresent, 'rave-wheel-41-start sequence contains all gates 1-64');
 
 // Test 15: Export config works
 console.log('\nTest Group 9: Export\n');
 const exportedConfig = testConfig.exportConfig();
-assert(exportedConfig.sequenceName === 'hd-standard', 'Export includes sequence name');
+assert(exportedConfig.sequenceName === 'rave-wheel-41-start', 'Export includes sequence name (rave-wheel-41-start default)');
 assert(Array.isArray(exportedConfig.sequence), 'Export includes sequence array');
-assert(exportedConfig.direction === 'counter-clockwise', 'Export includes direction');
+assert(exportedConfig.direction === 'counter-clockwise', 'Export includes direction (counter-clockwise default)');
+assert(exportedConfig.rotationOffset === 33.75, 'Export includes rotation offset (33.75° default)');
 
 // Summary
 console.log('\n' + '='.repeat(60));
@@ -498,36 +541,41 @@ console.log('DIRECTION HYPOTHESIS TEST');
 console.log('Testing clockwise vs counter-clockwise against known coordinates');
 console.log('='.repeat(60) + '\n');
 
-// Known coordinates from SVG master file
-// These are VERIFIED correct positions from the Illustrator master
+// Known coordinates with DEFAULT rotation (33.75°)
+// These are EXPECTED positions with rave-wheel-41-start sequence + 33.75° rotation
 const KNOWN_POSITIONS = {
   10: {
     expectedAngle: 0,
     position: 'NORTH',
-    description: 'Gate 10 should be at north (0°)'
+    description: 'Gate 10 at north (0°) with default 33.75° rotation'
   },
   11: {
-    expectedAngle: 5.625,
-    position: 'Just past north',
-    description: 'Gate 11 should be at 5.625° (position 1 × 0.9375° × 6 lines)'
+    expectedAngle: 354.375,
+    position: 'Just before north (counter-clockwise)',
+    description: 'Gate 11 near north with default rotation'
   },
   41: {
-    expectedAngle: 326.25,
-    position: 'Near north (counter-clockwise from north)',
-    description: 'Gate 41 should be at ~326° (position 58)'
+    expectedAngle: 33.75,
+    position: 'Just past north (clockwise)',
+    description: 'Gate 41 at 33.75° (array position 0 + rotation)'
+  },
+  19: {
+    expectedAngle: 39.375,
+    position: 'Slightly past Gate 41',
+    description: 'Gate 19 at 39.375° (position 1 + rotation)'
   }
-  // Add more known positions if you have them from SVG verification
+  // These test with DEFAULT 33.75° rotation that makes Gates 10/11 at north
 };
 
 function testDirection(direction) {
   console.log(`\nTesting with direction: ${direction.toUpperCase()}`);
   console.log('-'.repeat(60));
 
-  // Set configuration
+  // Set configuration with DEFAULT rotation (33.75°)
   positioning.setWheelConfiguration({
-    sequenceName: 'hd-standard',
+    sequenceName: 'rave-wheel-41-start',
     direction: direction,
-    rotationOffset: 0
+    rotationOffset: 33.75  // Test with default rotation
   });
 
   let matches = 0;
@@ -596,27 +644,40 @@ node tests/adapted-old-tests.js
 ```
 
 **If any tests fail:**
-- The default configuration should match old behavior
-- Check that `hd-standard` sequence is correct
-- Verify angle calculations match old positioning-algorithm.js
+- The default configuration should have Gates 10/11 at north (not Gate 41)
+- Check that `rave-wheel-41-start` sequence is correct (counter-clockwise, 33.75° rotation)
+- Verify angle calculations include rotation offset
 
-**Add test to verify backward compatibility:**
+**Add test to verify default configuration:**
 
 Add to `tests/comprehensive-unified-query-tests.js`:
 
 ```javascript
-// NEW TEST: Configuration backward compatibility
-console.log('\n16. CONFIGURATION BACKWARD COMPATIBILITY');
+// NEW TEST: Default configuration (rave wheel with Gates 10/11 at north)
+console.log('\n16. DEFAULT CONFIGURATION - GATES 10/11 AT NORTH');
 console.log('='.repeat(60) + '\n');
 
-// Test that default config matches V2 behavior
+// Test that default config makes Gates 10/11 appear at north
 const positioning = require('../core/root-system/positioning-algorithm.js');
-const pos = positioning.getWheelPosition(10, 1);
-assertTest(pos.angle === 0, 'Gate 10 at 0° with default config (V2 compatible)');
 
+// Default config: rave-wheel-41-start with 33.75° rotation
+// This makes Gates 10/11 appear at north (0°)
+const pos10 = positioning.getWheelPosition(10, 1);
+assertTest(Math.abs(pos10.angle - 0) < 1, 'Gate 10 at ~0° (north) with default config');
+assertTest(pos10.wheelIndex === 58, 'Gate 10 at array position 58');
+
+const pos11 = positioning.getWheelPosition(11, 1);
+assertTest(Math.abs(pos11.angle - 354.375) < 1, 'Gate 11 near north (~354°) with default config');
+
+// Gate 41 is at array position 0, but angle is 33.75° (not 0°) due to rotation
 const pos41 = positioning.getWheelPosition(41, 1);
-// Gate 41 should be at position 58 in HD standard
-assertTest(pos41.wheelIndex === 58, 'Gate 41 at position 58 (V2 compatible)');
+assertTest(pos41.wheelIndex === 0, 'Gate 41 at array position 0');
+assertTest(Math.abs(pos41.angle - 33.75) < 0.01, 'Gate 41 at 33.75° with default rotation');
+
+// Gate 19 at array position 1
+const pos19 = positioning.getWheelPosition(19, 1);
+assertTest(pos19.wheelIndex === 1, 'Gate 19 at array position 1');
+assertTest(Math.abs(pos19.angle - 39.375) < 0.01, 'Gate 19 at 39.375° (position 1 + 33.75° rotation)');
 ```
 
 ### Task 2.7: Update Package.json Scripts
@@ -659,22 +720,26 @@ git add .
 git commit -m "Session 02: Configuration system implementation
 
 - Create WheelConfiguration class with full configuration support
-- Add hd-standard.json sequence (Gates 10/11 at north)
-- Add iching-traditional.json sequence (Gate 41 at position 0)
+- Add rave-wheel-41-start.json sequence (DEFAULT - counter-clockwise, 33.75° rotation)
+- Add gates-10-start.json sequence (ALTERNATIVE - Gates 10/11 at array start)
+- THREE MANDATORY fields per sequence: sequence, direction, rotationOffset
 - Update positioning-algorithm.js to use configurable wheel
 - Implement setWheelConfiguration() and getWheelConfiguration()
 - Support rotation offset, direction, and swappable sequences
-- Test clockwise vs counter-clockwise direction hypothesis
+- Test counter-clockwise vs clockwise direction hypothesis
 - All configuration tests passing
-- All existing V2 tests still passing (backward compatible)
+- Default: Gates 10/11 appear at north (0°) via 33.75° rotation
 
 New capabilities:
-- Swap between HD and I Ching wheel arrangements
-- Rotate wheel by any angle
-- Flip direction clockwise/counter-clockwise
+- Decouple array order from visual presentation
+- Rotate wheel by any angle (0-360°)
+- Flip direction counter-clockwise/clockwise
 - Custom sequences supported
+- Array position 0 = Gate 41, Visual north = Gates 10/11
 
 Architecture: Modular, configurable, maintains calculation-first model
+Direction: Counter-clockwise (solar system alignment)
+Rotation: 33.75° default (Gates 10/11 at north)
 NO monolithic database
 
 Session: 02/10 (Configuration System)
@@ -689,23 +754,24 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 ### Code Verification:
 - [ ] `wheel-config.js` created with WheelConfiguration class
-- [ ] Both sequence files created (hd-standard, iching-traditional)
-- [ ] Sequences README explains usage
+- [ ] Sequence files created (rave-wheel-41-start with all mandatory fields)
+- [ ] Sequences README explains three mandatory fields clearly
 - [ ] `positioning-algorithm.js` updated to use config
 - [ ] New methods exported: setWheelConfiguration, getWheelConfiguration
+- [ ] Default: rave-wheel-41-start, counter-clockwise, 33.75° rotation (Gates 10/11 at north)
 
 ### Test Verification:
 - [ ] Configuration tests pass (15+ tests)
-- [ ] Direction hypothesis test runs (shows results)
+- [ ] Direction hypothesis test runs with default 33.75° rotation
 - [ ] All 89 existing tests still pass
-- [ ] Backward compatibility verified
+- [ ] Default config makes Gates 10/11 at north (0°)
 
 ### Functionality Verification:
-- [ ] Can switch between HD and I Ching sequences
-- [ ] Can set rotation offset
-- [ ] Can change direction
-- [ ] getWheelPosition() uses configuration
-- [ ] Default behavior matches V2
+- [ ] Can switch between rave-wheel-41-start and gates-10-start sequences
+- [ ] Can set rotation offset (0-360°)
+- [ ] Can change direction (counter-clockwise/clockwise)
+- [ ] getWheelPosition() uses configuration with rotation
+- [ ] Default: Array position 0 = Gate 41, Visual north = Gates 10/11 (DECOUPLED)
 
 ### Documentation Verification:
 - [ ] Sequences have clear documentation
@@ -735,9 +801,11 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Issue: Tests fail with new positioning
 
 **Solution:**
-- Verify default config is 'hd-standard'
-- Check that hd-standard sequence matches old gate-sequence.json
-- Ensure angle calculations identical to V2
+- Verify default config is 'rave-wheel-41-start' with 33.75° rotation
+- Check that rave-wheel-41-start sequence matches gate-sequence.json exactly
+- Ensure Gates 10/11 at 0° with default 33.75° rotation
+- Gate 41 should be at 33.75° (not 0°) with default rotation
+- Remember: Array order ≠ Visual presentation (rotation decouples them)
 
 ### Issue: Direction test is inconclusive
 
@@ -762,19 +830,22 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 Deliverables:
 - [x] WheelConfiguration class implemented
-- [x] HD standard and I Ching traditional sequences
+- [x] rave-wheel-41-start (default) with mandatory direction + rotation fields
+- [x] gates-10-start (alternative) sequence file
 - [x] Updated positioning algorithm with config support
 - [x] Configuration tests passing
-- [x] Direction hypothesis tested
-- [x] All 89 V2 tests still passing
+- [x] Direction hypothesis tested with default 33.75° rotation
+- [x] All 89 existing tests updated for new default
 
 Tests: 104+ passing (89 existing + 15 config tests)
 Duration: [X hours]
 Branch: session-02-configuration
 Tag: v3.0.0-alpha.2-session-02
 
-Key Achievement: Gate sequence now fully modular and configurable
-Direction Test Result: [Counter-clockwise/Clockwise] recommended
+Key Achievement: Array order decoupled from visual presentation
+Default Config: rave-wheel-41-start, counter-clockwise, 33.75° rotation
+Visual Result: Gates 10/11 at north (0°), Gate 41 at 33.75°
+Direction: Counter-clockwise (solar system alignment)
 
 Next Session: 03 (TypeScript Definitions)
 Status: ✅ READY TO PROCEED

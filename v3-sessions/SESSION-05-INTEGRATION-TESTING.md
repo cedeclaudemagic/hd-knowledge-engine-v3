@@ -91,8 +91,8 @@ test('Configuration changes affect positioning', () => {
 
   // Change configuration
   engine.setWheelConfiguration({
-    sequenceName: 'iching-traditional',
-    rotationOffset: 0,
+    sequenceName: 'rave-wheel-41-start',
+    rotationOffset: 33.75,  // Default rotation
     direction: 'counter-clockwise'
   });
 
@@ -111,13 +111,15 @@ test('Configuration reset restores defaults', () => {
   engine.resetConfiguration();
 
   const config = engine.getWheelConfiguration();
-  assert(config.getRotationOffset() === 0, 'Rotation should reset to 0');
+  assert(config.getRotationOffset() === 33.75, 'Rotation should reset to default 33.75°');
 });
 
 test('Preset configurations load correctly', () => {
-  engine.setWheelConfiguration('iching-traditional');
+  engine.setWheelConfiguration('rave-wheel-41-start');
   const config = engine.getWheelConfiguration();
-  assert(config.getSequenceName() === 'iching-traditional', 'Preset should load');
+  assert(config.getSequenceName() === 'rave-wheel-41-start', 'Default preset should load');
+  assert(config.getDirection() === 'counter-clockwise', 'Default direction is counter-clockwise');
+  assert(config.getRotationOffset() === 33.75, 'Default rotation is 33.75°');
 
   engine.resetConfiguration();
 });
@@ -150,7 +152,7 @@ test('Collection queries remain consistent', () => {
 test('Relationship queries work across configurations', () => {
   const partner1 = extensions.getGateProgrammingPartner(13);
 
-  engine.setWheelConfiguration('iching-traditional');
+  engine.setWheelConfiguration('gates-10-start');  // Alternative sequence
   const partner2 = extensions.getGateProgrammingPartner(13);
 
   assert(partner1.geneKeys.gate === partner2.geneKeys.gate, 'Programming partner should not change');
@@ -414,7 +416,7 @@ benchmark('getGateProgrammingPartner(13)', () => {
 console.log('⚙️ Configuration Performance:');
 
 benchmark('setWheelConfiguration(preset)', () => {
-  engine.setWheelConfiguration('hd-standard');
+  engine.setWheelConfiguration('gates-10-start');
 }, 1000);
 
 benchmark('resetConfiguration()', () => {

@@ -300,9 +300,9 @@ console.log('3. Configuration Switching (1,000 times):');
 const start3 = performance.now();
 
 for (let i = 0; i < 1000; i++) {
-  engine.setWheelConfiguration('hd-standard');
+  engine.setWheelConfiguration('rave-wheel-41-start');
   engine.getGateKnowledge(13);
-  engine.setWheelConfiguration('iching-traditional');
+  engine.setWheelConfiguration('gates-10-start');
   engine.getGateKnowledge(13);
   engine.resetConfiguration();
 }
@@ -677,15 +677,15 @@ test('Find programming partner for hologenetic profile', () => {
   assert(partner.geneKeys.gate === 7, 'Programming partner should be gate 7');
 });
 
-// Scenario 5: I Ching study
-console.log('\n☯️  Scenario: I Ching Study');
+// Scenario 5: Alternative configuration study
+console.log('\n☯️  Scenario: Alternative Configuration');
 
-test('Switch to I Ching traditional configuration', () => {
-  engine.setWheelConfiguration('iching-traditional');
-  const gate41 = engine.getGateKnowledge(41);
+test('Switch to gates-10-start configuration', () => {
+  engine.setWheelConfiguration('gates-10-start');
+  const gate10 = engine.getGateKnowledge(10);
 
-  assert(gate41.angle === 0, 'Gate 41 should be at 0° in I Ching traditional');
-  assert(gate41.iching.name === 'Decrease', 'Should have I Ching name');
+  assert(gate10.angle === 0, 'Gate 10 should be at 0° in gates-10-start');
+  assert(gate10.iching.name === 'Treading (Conduct)', 'Should have I Ching name');
 
   engine.resetConfiguration();
 });

@@ -212,10 +212,10 @@ const engine = require('hd-knowledge-engine-v3');
 const knowledge = engine.getGateKnowledge(13);
 console.log(knowledge.geneKeys.shadow); // "Discord"
 
-// New: Configuration
-engine.setWheelConfiguration('iching-traditional');
-const knowledge2 = engine.getGateKnowledge(41);
-console.log(knowledge2.angle); // 0° (41 now at north)
+// New: Configuration (switch to alternative sequence)
+engine.setWheelConfiguration('gates-10-start');
+const knowledge2 = engine.getGateKnowledge(10);
+console.log(knowledge2.angle); // 0° (10 now at north)
 
 // New: Extension layer
 const extensions = require('hd-knowledge-engine-v3/extensions');

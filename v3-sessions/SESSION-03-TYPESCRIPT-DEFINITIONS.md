@@ -91,7 +91,7 @@ Create complete TypeScript definitions for the HD Knowledge Engine V3, providing
  * Wheel Configuration Types
  */
 
-export type SequenceName = 'hd-standard' | 'iching-traditional' | 'custom';
+export type SequenceName = 'rave-wheel-41-start' | 'gates-10-start' | 'custom';
 export type WheelDirection = 'clockwise' | 'counter-clockwise';
 
 export interface WheelConfigOptions {
@@ -506,8 +506,8 @@ import { WheelConfiguration, SequenceName } from 'hd-knowledge-engine-v3';
 
 // Type-safe configuration
 const config: WheelConfigOptions = {
-  sequenceName: 'iching-traditional', // TypeScript validates this
-  rotationOffset: 0,
+  sequenceName: 'rave-wheel-41-start', // TypeScript validates this (default)
+  rotationOffset: 33.75,  // Default rotation makes Gates 10/11 at north
   direction: 'counter-clockwise'
 };
 
@@ -613,8 +613,8 @@ function testBasicQuery(): void {
 // Test 2: Configuration types
 function testConfiguration(): void {
   const config: WheelConfigOptions = {
-    sequenceName: 'hd-standard',
-    rotationOffset: 0,
+    sequenceName: 'rave-wheel-41-start',
+    rotationOffset: 33.75,  // Default rotation
     direction: 'counter-clockwise'
   };
 
