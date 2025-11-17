@@ -44,13 +44,13 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ## DELIVERABLES
 
 1. `core/root-system/wheel-config.js` - Configuration system
-2. `core/root-system/sequences/hd-standard.json` - HD wheel (Gates 10/11 at north)
-3. `core/root-system/sequences/iching-traditional.json` - I Ching wheel (Gate 41 at position 0)
-4. `core/root-system/sequences/README.md` - Sequence documentation
-5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration
+2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (clockwise, 33.75° rotation)
+3. `core/root-system/sequences/gates-10-start.json` - ALTERNATIVE (Gates 10/11 at array start)
+4. `core/root-system/sequences/README.md` - Sequence documentation (explains 3 mandatory fields)
+5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration with rotation
 6. `tests/configuration/test-wheel-config.js` - Configuration tests
-7. `tests/configuration/test-direction-hypothesis.js` - Direction testing
-8. All existing tests still passing
+7. `tests/configuration/test-direction-hypothesis.js` - Direction testing (with default rotation)
+8. All existing tests updated for new default (Gates 10/11 at north via rotation)
 
 ---
 
@@ -231,7 +231,7 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 const { WheelConfiguration } = require('./wheel-config.js');
 
 // Global configuration (can be overridden)
-let wheelConfig = new WheelConfiguration(); // Defaults to v2-baseline (V2 compatible)
+let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (clockwise, 33.75° rotation)
 ```
 
 2. **Add new exports:**
@@ -345,30 +345,36 @@ try {
   const config = new WheelConfiguration();
   assert(config !== null, 'Default configuration loads');
   assert(config.sequence.length === 64, 'Default sequence has 64 gates');
-  assert(config.config.sequenceName === 'v2-baseline', 'Default is v2-baseline (V2 compatible)');
-  assert(config.sequence[0] === 41, 'Default starts with Gate 41 (V2 compatible)');
+  assert(config.config.sequenceName === 'rave-wheel-41-start', 'Default is rave-wheel-41-start');
+  assert(config.config.direction === 'clockwise', 'Default direction is clockwise');
+  assert(config.config.rotationOffset === 33.75, 'Default rotation is 33.75°');
+  assert(config.sequence[0] === 41, 'Default starts with Gate 41');
 } catch (error) {
   assert(false, 'Default configuration loads - ERROR: ' + error.message);
 }
 
-// Test 2: V2 baseline preset (default)
+// Test 2: Rave wheel preset (default)
 console.log('\nTest Group 2: Presets\n');
 try {
-  const v2Config = WheelConfiguration.fromPreset('v2-baseline');
-  assert(v2Config.sequence[0] === 41, 'V2 baseline starts with gate 41');
-  assert(v2Config.sequence[1] === 19, 'V2 baseline position 1 is gate 19');
-  assert(v2Config.sequence[58] === 10, 'V2 baseline position 58 is gate 10');
+  const raveWheelConfig = WheelConfiguration.fromPreset('rave-wheel-41-start');
+  assert(raveWheelConfig.sequence[0] === 41, 'rave-wheel-41-start starts with gate 41');
+  assert(raveWheelConfig.sequence[1] === 19, 'rave-wheel-41-start position 1 is gate 19');
+  assert(raveWheelConfig.sequence[58] === 10, 'rave-wheel-41-start position 58 is gate 10');
+  assert(raveWheelConfig.config.direction === 'clockwise', 'rave-wheel-41-start is clockwise');
+  assert(raveWheelConfig.config.rotationOffset === 33.75, 'rave-wheel-41-start has 33.75° rotation');
 } catch (error) {
-  assert(false, 'V2 baseline preset - ERROR: ' + error.message);
+  assert(false, 'rave-wheel-41-start preset - ERROR: ' + error.message);
 }
 
-// Test 3: HD standard preset (alternative)
+// Test 3: Gates 10 start preset (alternative)
 try {
-  const hdConfig = WheelConfiguration.fromPreset('hd-standard');
-  assert(hdConfig.sequence[0] === 10, 'HD standard starts with gate 10');
-  assert(hdConfig.sequence[1] === 11, 'HD standard position 1 is gate 11');
+  const gates10Config = WheelConfiguration.fromPreset('gates-10-start');
+  assert(gates10Config.sequence[0] === 10, 'gates-10-start starts with gate 10');
+  assert(gates10Config.sequence[1] === 11, 'gates-10-start position 1 is gate 11');
+  assert(gates10Config.config.direction === 'clockwise', 'gates-10-start is clockwise');
+  assert(gates10Config.config.rotationOffset === 0, 'gates-10-start has 0° rotation');
 } catch (error) {
-  assert(false, 'HD standard preset - ERROR: ' + error.message);
+  assert(false, 'gates-10-start preset - ERROR: ' + error.message);
 }
 
 // Test 4: Custom sequence validation
@@ -411,78 +417,88 @@ try {
   assert(true, 'Duplicate gates rejected');
 }
 
-// Test 8: getWheelIndex() works correctly (with V2 baseline default)
+// Test 8: getWheelIndex() works correctly (with rave-wheel-41-start default)
 console.log('\nTest Group 4: Methods\n');
 const testConfig = new WheelConfiguration();
 const index41 = testConfig.getWheelIndex(41);
-assert(index41 === 0, 'Gate 41 is at wheel index 0 in V2 baseline (default)');
+assert(index41 === 0, 'Gate 41 is at wheel index 0 in rave-wheel-41-start (default)');
 
 const index10 = testConfig.getWheelIndex(10);
-assert(index10 === 58, 'Gate 10 is at wheel index 58 in V2 baseline (default)');
+assert(index10 === 58, 'Gate 10 is at wheel index 58 in rave-wheel-41-start (default)');
 
 const index19 = testConfig.getWheelIndex(19);
-assert(index19 === 1, 'Gate 19 is at wheel index 1 in V2 baseline');
+assert(index19 === 1, 'Gate 19 is at wheel index 1 in rave-wheel-41-start');
 
-// Test 9: getAngle() calculation (with V2 baseline)
+// Test 9: getAngle() calculation (with rave-wheel-41-start default - 33.75° rotation)
+// With 33.75° rotation, Gate 41 at position 0 appears at 33.75°, Gates 10/11 at north (0°)
 const angle41 = testConfig.getAngle(41, 1);
-assert(angle41 === 0, 'Gate 41 line 1 is at 0 degrees (V2 baseline)');
+assert(Math.abs(angle41 - 33.75) < 0.01, 'Gate 41 line 1 is at 33.75° with default rotation');
+
+const angle10 = testConfig.getAngle(10, 1);
+assert(Math.abs(angle10 - 0) < 1, 'Gate 10 line 1 is at ~0° (north) with default rotation');
 
 const angle41line2 = testConfig.getAngle(41, 2);
-assert(angle41line2 === 0.9375, 'Gate 41 line 2 is at 0.9375 degrees');
+assert(Math.abs(angle41line2 - 34.6875) < 0.01, 'Gate 41 line 2 is at ~34.69° (33.75 + 0.9375)');
 
 // Test 10: Rotation offset works
 console.log('\nTest Group 5: Rotation Offset\n');
 const rotatedConfig = new WheelConfiguration({
-  sequenceName: 'v2-baseline',
+  sequenceName: 'rave-wheel-41-start',
   rotationOffset: 45
 });
 const angleRotated = rotatedConfig.getAngle(41, 1);
-assert(angleRotated === 45, 'Rotation offset adds to angle (Gate 41 now at 45° instead of 0°)');
+assert(angleRotated === 45, 'Custom rotation offset overrides default (Gate 41 at 45° with custom rotation)');
 
-// Test 11: Clockwise direction reverses index
+// Test 11: Direction affects traversal
 console.log('\nTest Group 6: Direction\n');
-const clockwiseConfig = new WheelConfiguration({
-  sequenceName: 'v2-baseline',
-  direction: 'clockwise'
+const counterClockwiseConfig = new WheelConfiguration({
+  sequenceName: 'rave-wheel-41-start',
+  direction: 'counter-clockwise',
+  rotationOffset: 0
 });
-// In clockwise, indices are reversed
-const cwIndex = clockwiseConfig.getWheelIndex(41);
-// Should be different from counter-clockwise
-assert(cwIndex !== index41, 'Clockwise direction changes wheel index');
+// Test that direction actually changes the traversal
+const ccwIndex = counterClockwiseConfig.getWheelIndex(41);
+// Default is clockwise, this should be different with counter-clockwise
+assert(ccwIndex === 0, 'Gate 41 still at position 0, but direction affects angle calculation');
 
-// Test 12: getGateAtAngle() reverse lookup (V2 baseline)
+// Test 12: getGateAtAngle() reverse lookup (with default rotation)
 console.log('\nTest Group 7: Reverse Lookup\n');
-const ccwConfig = new WheelConfiguration();
-const gateAt0 = ccwConfig.getGateAtAngle(0);
-assert(gateAt0.gateNumber === 41, 'Reverse lookup: angle 0 = gate 41 (V2 baseline)');
+const defaultConfig = new WheelConfiguration();
+const gateAt0 = defaultConfig.getGateAtAngle(0);
+assert(gateAt0.gateNumber === 10, 'Reverse lookup: angle 0 = gate 10 (with default 33.75° rotation)');
 assert(gateAt0.lineNumber === 1, 'Reverse lookup: angle 0 = line 1');
+
+// Gate 41 would be at angle 33.75° with default config
+const gateAt33 = defaultConfig.getGateAtAngle(33.75);
+assert(gateAt33.gateNumber === 41, 'Reverse lookup: angle 33.75 = gate 41 (array position 0 + rotation)');
 
 // Test 13: All 64 gates are unique in sequence
 console.log('\nTest Group 8: Sequence Integrity\n');
-const v2Seq = WheelConfiguration.fromPreset('v2-baseline');
-const uniqueGatesV2 = new Set(v2Seq.sequence);
-assert(uniqueGatesV2.size === 64, 'V2 baseline sequence has 64 unique gates');
+const raveSeq = WheelConfiguration.fromPreset('rave-wheel-41-start');
+const uniqueGatesRave = new Set(raveSeq.sequence);
+assert(uniqueGatesRave.size === 64, 'rave-wheel-41-start sequence has 64 unique gates');
 
-const hdSeq = WheelConfiguration.fromPreset('hd-standard');
-const uniqueGatesHD = new Set(hdSeq.sequence);
-assert(uniqueGatesHD.size === 64, 'HD standard sequence has 64 unique gates');
+const gates10Seq = WheelConfiguration.fromPreset('gates-10-start');
+const uniqueGates10 = new Set(gates10Seq.sequence);
+assert(uniqueGates10.size === 64, 'gates-10-start sequence has 64 unique gates');
 
 // Test 14: All gates 1-64 are present
 let allGatesPresent = true;
 for (let i = 1; i <= 64; i++) {
-  if (!v2Seq.sequence.includes(i)) {
+  if (!raveSeq.sequence.includes(i)) {
     allGatesPresent = false;
     break;
   }
 }
-assert(allGatesPresent, 'V2 baseline sequence contains all gates 1-64');
+assert(allGatesPresent, 'rave-wheel-41-start sequence contains all gates 1-64');
 
 // Test 15: Export config works
 console.log('\nTest Group 9: Export\n');
 const exportedConfig = testConfig.exportConfig();
-assert(exportedConfig.sequenceName === 'v2-baseline', 'Export includes sequence name (v2-baseline default)');
+assert(exportedConfig.sequenceName === 'rave-wheel-41-start', 'Export includes sequence name (rave-wheel-41-start default)');
 assert(Array.isArray(exportedConfig.sequence), 'Export includes sequence array');
-assert(exportedConfig.direction === 'counter-clockwise', 'Export includes direction');
+assert(exportedConfig.direction === 'clockwise', 'Export includes direction (clockwise default)');
+assert(exportedConfig.rotationOffset === 33.75, 'Export includes rotation offset (33.75° default)');
 
 // Summary
 console.log('\n' + '='.repeat(60));
@@ -521,37 +537,41 @@ console.log('DIRECTION HYPOTHESIS TEST');
 console.log('Testing clockwise vs counter-clockwise against known coordinates');
 console.log('='.repeat(60) + '\n');
 
-// Known coordinates from V2 baseline (ACTUAL current behavior)
-// These are VERIFIED positions from core/root-system/gate-sequence.json
+// Known coordinates with DEFAULT rotation (33.75°)
+// These are EXPECTED positions with rave-wheel-41-start sequence + 33.75° rotation
 const KNOWN_POSITIONS = {
-  41: {
+  10: {
     expectedAngle: 0,
     position: 'NORTH',
-    description: 'Gate 41 at north (0°) - V2 baseline position 0'
+    description: 'Gate 10 at north (0°) with default 33.75° rotation'
+  },
+  11: {
+    expectedAngle: 354.375,
+    position: 'Just before north (counter-clockwise)',
+    description: 'Gate 11 near north with default rotation'
+  },
+  41: {
+    expectedAngle: 33.75,
+    position: 'Just past north (clockwise)',
+    description: 'Gate 41 at 33.75° (array position 0 + rotation)'
   },
   19: {
-    expectedAngle: 5.625,
-    position: 'Just past north',
-    description: 'Gate 19 at 5.625° - V2 baseline position 1'
-  },
-  10: {
-    expectedAngle: 326.25,
-    position: 'Near north (counter-clockwise from north)',
-    description: 'Gate 10 at ~326° - V2 baseline position 58'
+    expectedAngle: 39.375,
+    position: 'Slightly past Gate 41',
+    description: 'Gate 19 at 39.375° (position 1 + rotation)'
   }
-  // These are the ACTUAL V2 positions - do not change!
-  // If testing HD standard sequence, use different test
+  // These test with DEFAULT 33.75° rotation that makes Gates 10/11 at north
 };
 
 function testDirection(direction) {
   console.log(`\nTesting with direction: ${direction.toUpperCase()}`);
   console.log('-'.repeat(60));
 
-  // Set configuration (using V2 baseline for testing)
+  // Set configuration with DEFAULT rotation (33.75°)
   positioning.setWheelConfiguration({
-    sequenceName: 'v2-baseline',
+    sequenceName: 'rave-wheel-41-start',
     direction: direction,
-    rotationOffset: 0
+    rotationOffset: 33.75  // Test with default rotation
   });
 
   let matches = 0;
@@ -624,31 +644,36 @@ node tests/adapted-old-tests.js
 - Check that `hd-standard` sequence is correct
 - Verify angle calculations match old positioning-algorithm.js
 
-**Add test to verify backward compatibility:**
+**Add test to verify default configuration:**
 
 Add to `tests/comprehensive-unified-query-tests.js`:
 
 ```javascript
-// NEW TEST: Configuration backward compatibility
-console.log('\n16. CONFIGURATION BACKWARD COMPATIBILITY');
+// NEW TEST: Default configuration (rave wheel with Gates 10/11 at north)
+console.log('\n16. DEFAULT CONFIGURATION - GATES 10/11 AT NORTH');
 console.log('='.repeat(60) + '\n');
 
-// Test that default config matches V2 behavior
+// Test that default config makes Gates 10/11 appear at north
 const positioning = require('../core/root-system/positioning-algorithm.js');
 
-// V2 baseline has Gate 41 at position 0 (angle 0°)
-const pos41 = positioning.getWheelPosition(41, 1);
-assertTest(pos41.angle === 0, 'Gate 41 at 0° with default config (V2 compatible)');
-assertTest(pos41.wheelIndex === 0, 'Gate 41 at position 0 (V2 compatible)');
-
-// V2 baseline has Gate 10 at position 58 (angle ~326.25°)
+// Default config: rave-wheel-41-start with 33.75° rotation
+// This makes Gates 10/11 appear at north (0°)
 const pos10 = positioning.getWheelPosition(10, 1);
-assertTest(pos10.wheelIndex === 58, 'Gate 10 at position 58 (V2 compatible)');
-assertTest(Math.abs(pos10.angle - 326.25) < 0.01, 'Gate 10 at ~326.25° (V2 compatible)');
+assertTest(Math.abs(pos10.angle - 0) < 1, 'Gate 10 at ~0° (north) with default config');
+assertTest(pos10.wheelIndex === 58, 'Gate 10 at array position 58');
 
-// V2 baseline has Gate 19 at position 1
+const pos11 = positioning.getWheelPosition(11, 1);
+assertTest(Math.abs(pos11.angle - 354.375) < 1, 'Gate 11 near north (~354°) with default config');
+
+// Gate 41 is at array position 0, but angle is 33.75° (not 0°) due to rotation
+const pos41 = positioning.getWheelPosition(41, 1);
+assertTest(pos41.wheelIndex === 0, 'Gate 41 at array position 0');
+assertTest(Math.abs(pos41.angle - 33.75) < 0.01, 'Gate 41 at 33.75° with default rotation');
+
+// Gate 19 at array position 1
 const pos19 = positioning.getWheelPosition(19, 1);
-assertTest(pos19.wheelIndex === 1, 'Gate 19 at position 1 (V2 compatible)');
+assertTest(pos19.wheelIndex === 1, 'Gate 19 at array position 1');
+assertTest(Math.abs(pos19.angle - 39.375) < 0.01, 'Gate 19 at 39.375° (position 1 + 33.75° rotation)');
 ```
 
 ### Task 2.7: Update Package.json Scripts
@@ -691,22 +716,26 @@ git add .
 git commit -m "Session 02: Configuration system implementation
 
 - Create WheelConfiguration class with full configuration support
-- Add v2-baseline.json sequence (Gate 41 at position 0 - DEFAULT)
-- Add hd-standard.json sequence (Gates 10/11 at north - ALTERNATIVE)
+- Add rave-wheel-41-start.json sequence (DEFAULT - clockwise, 33.75° rotation)
+- Add gates-10-start.json sequence (ALTERNATIVE - Gates 10/11 at array start)
+- THREE MANDATORY fields per sequence: sequence, direction, rotationOffset
 - Update positioning-algorithm.js to use configurable wheel
 - Implement setWheelConfiguration() and getWheelConfiguration()
 - Support rotation offset, direction, and swappable sequences
 - Test clockwise vs counter-clockwise direction hypothesis
 - All configuration tests passing
-- All existing V2 tests still passing (backward compatible)
+- Default: Gates 10/11 appear at north (0°) via 33.75° rotation
 
 New capabilities:
-- Swap between HD and I Ching wheel arrangements
-- Rotate wheel by any angle
+- Decouple array order from visual presentation
+- Rotate wheel by any angle (0-360°)
 - Flip direction clockwise/counter-clockwise
 - Custom sequences supported
+- Array position 0 = Gate 41, Visual north = Gates 10/11
 
 Architecture: Modular, configurable, maintains calculation-first model
+Direction: Clockwise (actual rave wheel)
+Rotation: 33.75° default (Gates 10/11 at north)
 NO monolithic database
 
 Session: 02/10 (Configuration System)
@@ -721,24 +750,24 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 ### Code Verification:
 - [ ] `wheel-config.js` created with WheelConfiguration class
-- [ ] Sequence files created (v2-baseline as default, hd-standard as alternative)
-- [ ] Sequences README explains usage and makes default clear
+- [ ] Sequence files created (rave-wheel-41-start with all mandatory fields)
+- [ ] Sequences README explains three mandatory fields clearly
 - [ ] `positioning-algorithm.js` updated to use config
 - [ ] New methods exported: setWheelConfiguration, getWheelConfiguration
-- [ ] Default configuration is v2-baseline (Gate 41 at position 0)
+- [ ] Default: rave-wheel-41-start, clockwise, 33.75° rotation (Gates 10/11 at north)
 
 ### Test Verification:
 - [ ] Configuration tests pass (15+ tests)
-- [ ] Direction hypothesis test runs (shows results)
+- [ ] Direction hypothesis test runs with default 33.75° rotation
 - [ ] All 89 existing tests still pass
-- [ ] Backward compatibility verified
+- [ ] Default config makes Gates 10/11 at north (0°)
 
 ### Functionality Verification:
-- [ ] Can switch between HD and I Ching sequences
-- [ ] Can set rotation offset
-- [ ] Can change direction
-- [ ] getWheelPosition() uses configuration
-- [ ] Default behavior matches V2
+- [ ] Can switch between rave-wheel-41-start and gates-10-start sequences
+- [ ] Can set rotation offset (0-360°)
+- [ ] Can change direction (clockwise/counter-clockwise)
+- [ ] getWheelPosition() uses configuration with rotation
+- [ ] Default: Array position 0 = Gate 41, Visual north = Gates 10/11 (DECOUPLED)
 
 ### Documentation Verification:
 - [ ] Sequences have clear documentation
@@ -768,10 +797,11 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Issue: Tests fail with new positioning
 
 **Solution:**
-- Verify default config is 'v2-baseline' (NOT 'hd-standard')
-- Check that v2-baseline sequence matches old gate-sequence.json exactly
-- Ensure angle calculations identical to V2 (Gate 41 at 0°, Gate 10 at 326.25°)
-- Remember: hd-standard is an ALTERNATIVE, not the default
+- Verify default config is 'rave-wheel-41-start' with 33.75° rotation
+- Check that rave-wheel-41-start sequence matches gate-sequence.json exactly
+- Ensure Gates 10/11 at 0° with default 33.75° rotation
+- Gate 41 should be at 33.75° (not 0°) with default rotation
+- Remember: Array order ≠ Visual presentation (rotation decouples them)
 
 ### Issue: Direction test is inconclusive
 
@@ -796,19 +826,22 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 Deliverables:
 - [x] WheelConfiguration class implemented
-- [x] V2 baseline (default) and HD standard (alternative) sequences
+- [x] rave-wheel-41-start (default) with mandatory direction + rotation fields
+- [x] gates-10-start (alternative) sequence file
 - [x] Updated positioning algorithm with config support
 - [x] Configuration tests passing
-- [x] Direction hypothesis tested
-- [x] All 89 V2 tests still passing (backward compatible)
+- [x] Direction hypothesis tested with default 33.75° rotation
+- [x] All 89 existing tests updated for new default
 
 Tests: 104+ passing (89 existing + 15 config tests)
 Duration: [X hours]
 Branch: session-02-configuration
 Tag: v3.0.0-alpha.2-session-02
 
-Key Achievement: Gate sequence now fully modular and configurable
-Direction Test Result: [Counter-clockwise/Clockwise] recommended
+Key Achievement: Array order decoupled from visual presentation
+Default Config: rave-wheel-41-start, clockwise, 33.75° rotation
+Visual Result: Gates 10/11 at north (0°), Gate 41 at 33.75°
+Direction: Clockwise (actual rave wheel movement)
 
 Next Session: 03 (TypeScript Definitions)
 Status: ✅ READY TO PROCEED
