@@ -116,64 +116,72 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ```markdown
 # Gate Sequence Files
 
-This directory contains swappable gate sequence arrays for different wheel traditions.
+This directory contains swappable gate sequence configurations for different wheel traditions.
 
-## What Is a Gate Sequence?
+## CRITICAL: Three Mandatory Fields
 
-A gate sequence defines the order of gates around the 360° wheel. Position 0 is at "north" (top of wheel), and positions progress counter-clockwise by default.
+Every sequence file MUST contain three fields:
+1. **sequence** - Array of 64 gates in wheel order
+2. **direction** - "clockwise" or "counter-clockwise"
+3. **rotationOffset** - Degrees (0-360) to rotate the visual wheel
+
+These three values work together to decouple array order from visual presentation.
 
 ## Available Sequences
 
-### v2-baseline.json (DEFAULT - V2 Compatible)
-- Gate 41 at position 0 (north)
-- Gate 10 at position 58
-- This is the V2.0 baseline sequence
-- **Use this for:** Default behavior, backward compatibility, existing V2 code
-- **DO NOT CHANGE:** This must remain the default for V2 compatibility
+### rave-wheel-41-start.json (DEFAULT)
+- **Sequence:** Gate 41 at array position 0
+- **Direction:** Clockwise (actual rave wheel movement)
+- **Rotation:** 33.75° (makes Gates 10/11 appear at visual north)
+- **Result:** Array starts with Gate 41, but visually Gates 10/11 are at north
+- **Use this for:** Default rave wheel, standard HD charts
 
-### hd-standard.json (ALTERNATIVE)
-- Gates 10 and 11 straddle north (0°)
-- Verified from Illustrator master SVG
-- Alternative Human Design wheel arrangement
-- **Use this for:** HD wheel visualizations where Gates 10/11 should be at north
-- **Opt-in:** Users must explicitly request this sequence
+### gates-10-start.json (ALTERNATIVE)
+- **Sequence:** Gates 10/11 at array position 0
+- **Direction:** Clockwise
+- **Rotation:** 0° (no rotation needed)
+- **Result:** Array AND visual both start with Gates 10/11 at north
+- **Use this for:** When you want Gates 10/11 at array start
 
 ## Creating Custom Sequences
 
-You can create your own sequence file:
+MANDATORY format:
 
 ```json
 {
   "name": "my-custom-sequence",
-  "description": "Description of what makes this sequence unique",
+  "description": "Description of what makes this unique",
   "version": "1.0.0",
-  "source": "Where this sequence comes from",
-  "direction": "counter-clockwise",
+  "source": "Where this comes from",
+  "sequence": [41, 19, 13, ...],        // MANDATORY: All 64 gates
+  "direction": "clockwise",              // MANDATORY: Direction
+  "rotationOffset": 33.75,              // MANDATORY: Rotation in degrees
   "notes": {
-    "position0": "Which gate starts at north"
-  },
-  "sequence": [
-    /* All 64 gates in your desired order */
-  ]
+    "arrayPosition0": "Which gate at array position 0",
+    "visualNorth": "What appears at visual north after rotation"
+  }
 }
 ```
 
 **Requirements:**
-- Must contain exactly 64 gates
+- Must contain exactly 64 gates in sequence array
 - Each gate 1-64 must appear exactly once
 - No duplicates, no gaps
+- MUST include direction field
+- MUST include rotationOffset field (even if 0)
 
-## Direction (Clockwise vs Counter-Clockwise)
+## Understanding The Three Values
 
-The "direction" field is informational only. The actual direction is set in your wheel configuration:
+**Sequence** = Array order (for calculations)
+**Direction** = Clockwise or counter-clockwise traversal
+**RotationOffset** = Visual alignment (decouples array from display)
 
+Example:
 ```javascript
-// Default uses v2-baseline (no call needed)
-// To switch to alternative:
-setWheelConfiguration({
-  sequenceName: 'hd-standard',
-  direction: 'counter-clockwise'  // or 'clockwise'
-});
+// rave-wheel-41-start with 33.75° rotation:
+sequence[0] = 41        // Array position 0 = Gate 41
+visualAngle(10) = 0°    // Gate 10 appears at north visually
+// DECOUPLED! Array order ≠ Visual presentation
 ```
 
 ## Testing Your Sequence
