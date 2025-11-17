@@ -208,7 +208,9 @@ console.log(config.getWheelIndex(41)); // Returns position of gate 41
 
 **File:** `core/root-system/wheel-config.js`
 
-[PASTE THE COMPLETE wheel-config.js FROM THE IMPLEMENTATION PLAN HERE - the one with the WheelConfiguration class, all methods, presets, etc.]
+**SEE:** `SESSION-02-WHEEL-CONFIG-IMPLEMENTATION.md` for the COMPLETE implementation
+
+This file contains the full WheelConfiguration class with all methods, including:
 
 **Key Methods to Implement:**
 - `constructor(config)` - Initialize with configuration

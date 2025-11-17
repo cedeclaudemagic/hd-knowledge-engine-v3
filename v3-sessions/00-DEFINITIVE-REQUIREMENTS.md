@@ -202,6 +202,28 @@ Every sequence file MUST have all three fields:
 
 ---
 
+## LINE-LEVEL PRECISION (CRITICAL)
+
+**The system MUST maintain line-level precision of 0.9375° per line**
+
+- 64 gates × 6 lines = 384 total line positions
+- Each line = 0.9375 degrees (360° / 384)
+- This is the **finest granularity** of the positioning system
+- Critical for incarnation crosses and accurate chart calculations
+
+**Example:**
+```javascript
+// Gate 41, Line 1 with default rotation (33.75°)
+getAngle(41, 1) = 33.75°
+
+// Gate 41, Line 2 with default rotation
+getAngle(41, 2) = 34.6875°  // 33.75 + 0.9375 ✅
+
+// Line increment MUST be exactly 0.9375°
+```
+
+---
+
 ## VERIFICATION TESTS
 
 Default configuration must pass:
@@ -224,6 +246,11 @@ assert(Math.abs(pos10 - 0) < 1); // Gate 10 at ~0° (north)
 
 const pos41 = config.getAngle(41, 1);
 assert(Math.abs(pos41 - 33.75) < 0.01); // Gate 41 at 33.75°
+
+// LINE-LEVEL PRECISION (CRITICAL TEST)
+const line1 = config.getAngle(41, 1);
+const line2 = config.getAngle(41, 2);
+assert(Math.abs(line2 - line1 - 0.9375) < 0.0001); // Precision maintained
 ```
 
 ---
