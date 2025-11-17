@@ -154,7 +154,7 @@ Change the wheel configuration.
 **Configuration Object:**
 ```javascript
 {
-  sequenceName: 'hd-standard' | 'iching-traditional' | 'custom',
+  sequenceName: 'rave-wheel-41-start' | 'gates-10-start' | 'custom',
   customSequence: number[],        // Only if sequenceName === 'custom'
   rotationOffset: number,          // Degrees 0-360
   direction: 'clockwise' | 'counter-clockwise'
@@ -164,13 +164,13 @@ Change the wheel configuration.
 **Example:**
 ```javascript
 // Use preset
-engine.setWheelConfiguration('iching-traditional');
+engine.setWheelConfiguration('rave-wheel-41-start');
 
 // Use custom config
 engine.setWheelConfiguration({
-  sequenceName: 'hd-standard',
-  rotationOffset: 45,
-  direction: 'counter-clockwise'
+  sequenceName: 'rave-wheel-41-start',
+  rotationOffset: 33.75,  // Default: Gates 10/11 at north
+  direction: 'clockwise'
 });
 ```
 
@@ -186,9 +186,9 @@ Get current wheel configuration.
 ```javascript
 const config = engine.getWheelConfiguration();
 
-console.log(config.getSequenceName());    // 'hd-standard'
-console.log(config.getDirection());       // 'counter-clockwise'
-console.log(config.getRotationOffset());  // 0
+console.log(config.getSequenceName());    // 'rave-wheel-41-start'
+console.log(config.getDirection());       // 'clockwise'
+console.log(config.getRotationOffset());  // 33.75
 ```
 
 ---
@@ -442,8 +442,8 @@ Get gates in same position in other quarters.
 
 ### Available Presets
 
-- **`hd-standard`** (default): Standard Human Design wheel
-- **`iching-traditional`**: Traditional I Ching mandala (Gate 41 at north)
+- **`rave-wheel-41-start`** (DEFAULT): Rave wheel - Gate 41 at array start, clockwise, 33.75° rotation (Gates 10/11 at north visually)
+- **`gates-10-start`**: Alternative - Gates 10/11 at array start, clockwise, 0° rotation
 - **`custom`**: User-defined sequence
 
 **Example:**
@@ -456,7 +456,7 @@ presets.forEach(preset => {
 });
 
 // Load preset
-engine.setWheelConfiguration('iching-traditional');
+engine.setWheelConfiguration('rave-wheel-41-start');
 ```
 ```
 
@@ -480,9 +480,9 @@ By default, V3 matches V2.0.0 behavior exactly:
 
 ```javascript
 {
-  sequenceName: 'hd-standard',
-  rotationOffset: 0,
-  direction: 'counter-clockwise'
+  sequenceName: 'rave-wheel-41-start',
+  rotationOffset: 33.75,
+  direction: 'clockwise'
 }
 ```
 
@@ -493,8 +493,8 @@ By default, V3 matches V2.0.0 behavior exactly:
 ```javascript
 const engine = require('hd-knowledge-engine-v3');
 
-// Switch to I Ching traditional
-engine.setWheelConfiguration('iching-traditional');
+// Switch to alternative sequence
+engine.setWheelConfiguration('gates-10-start');
 
 // Reset to default
 engine.resetConfiguration();
@@ -504,9 +504,9 @@ engine.resetConfiguration();
 
 ```javascript
 engine.setWheelConfiguration({
-  sequenceName: 'hd-standard',
+  sequenceName: 'rave-wheel-41-start',
   rotationOffset: 45,           // Rotate 45 degrees
-  direction: 'clockwise'        // Reverse direction
+  direction: 'clockwise'        // Clockwise direction
 });
 ```
 
@@ -522,31 +522,35 @@ engine.setWheelConfiguration({
   sequenceName: 'custom',
   customSequence: mySequence,
   rotationOffset: 0,
-  direction: 'counter-clockwise'
+  direction: 'clockwise'
 });
 ```
 
 ## Understanding Sequences
 
-### HD Standard Sequence
+### rave-wheel-41-start (DEFAULT)
 
-Gates 10 and 11 straddle the north position (0°).
+**Array order:** Gate 41 at position 0
+**Visual north:** Gates 10/11 at 0° (via 33.75° rotation)
+**Direction:** Clockwise
+**DECOUPLED:** Array order ≠ Visual presentation
 
 ```
-Position 0:  Gate 10
-Position 1:  Gate 11
-Position 2:  Gate 26
+Array Position 0:  Gate 41  (appears at 33.75° visually)
+Array Position 1:  Gate 19  (appears at 39.375° visually)
+Array Position 58: Gate 10  (appears at 0° north visually via rotation)
 ...
 ```
 
-### I Ching Traditional Sequence
+### gates-10-start (ALTERNATIVE)
 
-Gate 41 at north position (0°).
+**Array order:** Gates 10/11 at position 0
+**Visual north:** Gates 10/11 at 0° (no rotation needed)
+**Direction:** Clockwise
 
 ```
-Position 0:  Gate 41
-Position 1:  Gate 19
-Position 2:  Gate 13
+Array Position 0:  Gate 10  (appears at 0° north)
+Array Position 1:  Gate 11  (appears at ~5.6°)
 ...
 ```
 
@@ -565,12 +569,13 @@ Position 2:  Gate 13
 
 ## Use Cases
 
-### 1. Traditional I Ching Study
+### 1. Default Rave Wheel
 
 ```javascript
-engine.setWheelConfiguration('iching-traditional');
-const gate41 = engine.getGateKnowledge(41);
-console.log(gate41.angle);  // 0 (at north)
+engine.setWheelConfiguration('rave-wheel-41-start');
+const gate10 = engine.getGateKnowledge(10);
+console.log(gate10.angle);  // ~0 (at north via 33.75° rotation)
+console.log(gate10.wheelIndex);  // 58 (array position 58)
 ```
 
 ### 2. Custom Wheel Overlay
@@ -578,9 +583,9 @@ console.log(gate41.angle);  // 0 (at north)
 ```javascript
 // Align with tropical astrology
 engine.setWheelConfiguration({
-  sequenceName: 'hd-standard',
+  sequenceName: 'rave-wheel-41-start',
   rotationOffset: 58.5,  // Aries 0° point
-  direction: 'counter-clockwise'
+  direction: 'clockwise'
 });
 ```
 
@@ -588,7 +593,7 @@ engine.setWheelConfiguration({
 
 ```javascript
 // Test different configurations
-const configs = ['hd-standard', 'iching-traditional'];
+const configs = ['rave-wheel-41-start', 'gates-10-start'];
 
 configs.forEach(config => {
   engine.setWheelConfiguration(config);
