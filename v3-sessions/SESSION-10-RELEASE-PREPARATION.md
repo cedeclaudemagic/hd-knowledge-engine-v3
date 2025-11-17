@@ -462,10 +462,10 @@ const engine = require('hd-knowledge-engine-v3');
 const knowledge = engine.getGateKnowledge(13);
 console.log(knowledge.geneKeys.shadow); // "Discord"
 
-// New: Configuration
-engine.setWheelConfiguration('iching-traditional');
-const knowledge2 = engine.getGateKnowledge(41);
-console.log(knowledge2.angle); // 0° (41 now at north)
+// New: Configuration (default has Gates 10/11 at north via rotation)
+engine.setWheelConfiguration('gates-10-start');
+const knowledge2 = engine.getGateKnowledge(10);
+console.log(knowledge2.angle); // 0° (Gates 10/11 at array start, north with no rotation)
 
 // New: Extension layer
 const extensions = require('hd-knowledge-engine-v3/extensions');
@@ -595,8 +595,8 @@ We're excited to announce the release of HD Knowledge Engine V3, a major upgrade
 For the first time, you can configure how the wheel is arranged:
 
 ```javascript
-// Switch to I Ching traditional (Gate 41 at north)
-engine.setWheelConfiguration('iching-traditional');
+// Switch to alternative sequence (Gates 10/11 at array start)
+engine.setWheelConfiguration('gates-10-start');
 
 // Custom rotation
 engine.setWheelConfiguration({
