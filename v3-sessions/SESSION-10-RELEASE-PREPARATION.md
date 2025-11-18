@@ -64,8 +64,9 @@ Complete rebuild with modular configuration, TypeScript support, and extension a
 
 #### Configuration System
 - **Swappable gate sequences** - Switch between HD standard, I Ching traditional, or custom
-- **Rotation offset** - Rotate the wheel by any number of degrees
-- **Direction control** - Counter-clockwise or clockwise
+- **Cardinal progression** - NWSE (counter-clockwise: 12→9→6→3) or NESW (clockwise: 12→3→6→9), plus 6 other progressions
+- **North position** - Straddled ("10|11") or centered ("10") positioning
+- **Visual clock face** - Unambiguous positioning using clock positions (12=North, 3=East, 6=South, 9=West)
 - **Preset configurations** - Quick access to common configurations
 - Methods: `setWheelConfiguration()`, `getWheelConfiguration()`, `resetConfiguration()`
 
@@ -427,8 +428,9 @@ Add release status:
 
 ### 🎛️ Modular Configuration System
 - Swappable gate sequence arrays (HD standard, I Ching traditional, custom)
-- Configurable wheel direction (clockwise/counter-clockwise)
-- Adjustable rotation offset
+- **Cardinal progression** - NWSE/NESW/etc. (visual clock face: 12→9→6→3 vs 12→3→6→9)
+- **North position** - Straddled ("10|11") or centered ("10") positioning
+- Unambiguous visual clock face terminology (no more direction confusion!)
 - Multiple presets for different traditions
 
 ### 📘 Complete TypeScript Support
@@ -462,10 +464,15 @@ const engine = require('hd-knowledge-engine-v3');
 const knowledge = engine.getGateKnowledge(13);
 console.log(knowledge.geneKeys.shadow); // "Discord"
 
-// New: Configuration (default has Gates 10/11 at north via rotation)
+// New: Configuration (default: NWSE, Gates 10|11 at north)
 engine.setWheelConfiguration('gates-10-start');
 const knowledge2 = engine.getGateKnowledge(10);
-console.log(knowledge2.angle); // 0° (Gates 10/11 at array start, north with no rotation)
+console.log(knowledge2.angle); // 0° (Gates 10/11 at north)
+
+// Change cardinal progression
+engine.setWheelConfiguration({
+  cardinalProgression: 'NESW'  // Clockwise: 12→3→6→9
+});
 
 // New: Extension layer
 const extensions = require('hd-knowledge-engine-v3/extensions');
@@ -598,11 +605,16 @@ For the first time, you can configure how the wheel is arranged:
 // Switch to alternative sequence (Gates 10/11 at array start)
 engine.setWheelConfiguration('gates-10-start');
 
-// Custom rotation
+// Use clockwise progression instead of counter-clockwise
 engine.setWheelConfiguration({
-  rotationOffset: 45,
-  direction: 'clockwise'
+  cardinalProgression: 'NESW',  // Clockwise: 12→3→6→9
+  northPosition: '10|11'         // Straddled at north
 });
+
+// Visual Clock Face Reference:
+//        12 (NORTH) - 10|11
+//  9 (WEST) - 25|36  +  3 (EAST) - 46|6
+//        6 (SOUTH) - 15|12
 ```
 
 ### 2. Extension Layer
@@ -695,10 +707,12 @@ git commit -m "Release V3.0.0 - Production Ready
 MAJOR RELEASE: HD Knowledge Engine V3
 
 Features:
-- Modular configuration system (swappable sequences, rotation, direction)
-- Complete TypeScript definitions
+- Modular configuration system with unambiguous cardinal progression (NWSE/NESW)
+- Visual clock face positioning (no more direction confusion!)
+- Complete TypeScript definitions with strict types
 - Extension layer architecture
 - 200+ comprehensive tests
+- Bulletproof configuration validation
 - Complete documentation
 - Migration tools
 - 100% V2 backward compatibility

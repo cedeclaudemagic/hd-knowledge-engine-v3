@@ -155,22 +155,33 @@ Change the wheel configuration.
 ```javascript
 {
   sequenceName: 'rave-wheel-41-start' | 'gates-10-start' | 'custom',
-  customSequence: number[],        // Only if sequenceName === 'custom'
-  rotationOffset: number,          // Degrees 0-360
-  direction: 'clockwise' | 'counter-clockwise'
+  customSequence: number[],           // Only if sequenceName === 'custom'
+  cardinalProgression: 'NWSE' | 'NESW' | ...,  // Visual clock face progression
+  northPosition: string               // Gate(s) at north: "10|11" (straddled) or "10" (centered)
 }
 ```
 
+**Visual Clock Face Reference:**
+```
+        12 (NORTH) - 10|11
+  9 (WEST) - 25|36  +  3 (EAST) - 46|6
+        6 (SOUTH) - 15|12
+```
+
+**Cardinal Progressions:**
+- `NWSE`: North→West→South→East (counter-clockwise: 12→9→6→3)
+- `NESW`: North→East→South→West (clockwise: 12→3→6→9)
+
 **Example:**
 ```javascript
-// Use preset
+// Use preset (default: NWSE, 10|11 at north)
 engine.setWheelConfiguration('rave-wheel-41-start');
 
 // Use custom config
 engine.setWheelConfiguration({
   sequenceName: 'rave-wheel-41-start',
-  rotationOffset: 33.75,  // Default: Gates 10/11 at north
-  direction: 'clockwise'
+  cardinalProgression: 'NWSE',  // Counter-clockwise on clock face
+  northPosition: '10|11'        // Straddled between gates 10 and 11
 });
 ```
 

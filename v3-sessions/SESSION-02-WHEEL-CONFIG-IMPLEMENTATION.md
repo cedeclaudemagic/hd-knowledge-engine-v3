@@ -44,8 +44,22 @@ const TOTAL_GATES = 64;
  * WheelConfiguration class
  * Manages the three mandatory configuration values:
  * 1. sequence - array of gates
- * 2. direction - "counter-clockwise" or "clockwise"
- * 3. rotationOffset - degrees (0-360)
+ * 2. cardinalProgression - "NWSE", "NESW", etc. (visual clock face progression)
+ * 3. northPosition - gate(s) at north (e.g., "10|11" straddled or "10" centered)
+ *
+ * Visual Clock Face Reference:
+ *        12 (NORTH)
+ *           10|11
+ *             |
+ *             |
+ *  9 (WEST) --+-- 3 (EAST)
+ *   25|36     |      46|6
+ *             |
+ *             |
+ *        6 (SOUTH)
+ *         15|12
+ *
+ * NWSE = Counter-clockwise: 12→9→6→3 (North→West→South→East)
  */
 class WheelConfiguration {
   /**
@@ -53,8 +67,8 @@ class WheelConfiguration {
    * @param {Object} options - Configuration options
    * @param {string} options.sequenceName - Name of sequence file (default: 'rave-wheel-41-start')
    * @param {Array<number>} options.customSequence - Custom sequence array (if sequenceName='custom')
-   * @param {string} options.direction - 'counter-clockwise' or 'clockwise'
-   * @param {number} options.rotationOffset - Rotation in degrees (0-360)
+   * @param {string} options.cardinalProgression - 'NWSE', 'NESW', etc. (overrides sequence file)
+   * @param {string} options.northPosition - Gate(s) at north: "10|11" (straddled) or "10" (centered)
    */
   constructor(options = {}) {
     const sequenceName = options.sequenceName || 'rave-wheel-41-start';
@@ -65,8 +79,8 @@ class WheelConfiguration {
     // Set configuration (file values, then option overrides)
     this.config = {
       sequenceName: sequenceName,
-      direction: options.direction || seqData.direction,
-      rotationOffset: options.rotationOffset !== undefined ? options.rotationOffset : seqData.rotationOffset
+      cardinalProgression: options.cardinalProgression || seqData.cardinalProgression,
+      northPosition: options.northPosition || seqData.northPosition
     };
 
     // Store sequence array
@@ -89,8 +103,8 @@ class WheelConfiguration {
       }
       return {
         sequence: customSequence,
-        direction: 'counter-clockwise', // Default for custom
-        rotationOffset: 0 // Default for custom
+        cardinalProgression: 'NWSE', // Default for custom (counter-clockwise)
+        northPosition: '10|11' // Default for custom (straddled)
       };
     }
 
@@ -104,14 +118,14 @@ class WheelConfiguration {
     const data = JSON.parse(fs.readFileSync(sequencePath, 'utf8'));
 
     // Verify mandatory fields exist
-    if (!data.sequence || !data.direction || data.rotationOffset === undefined) {
-      throw new Error(`Sequence file ${sequenceName}.json missing mandatory fields (sequence, direction, rotationOffset)`);
+    if (!data.sequence || !data.cardinalProgression || !data.northPosition) {
+      throw new Error(`Sequence file ${sequenceName}.json missing mandatory fields (sequence, cardinalProgression, northPosition)`);
     }
 
     return {
       sequence: data.sequence,
-      direction: data.direction,
-      rotationOffset: data.rotationOffset
+      cardinalProgression: data.cardinalProgression,
+      northPosition: data.northPosition
     };
   }
 
@@ -137,17 +151,36 @@ class WheelConfiguration {
       }
     }
 
-    // Validate direction
-    if (this.config.direction !== 'counter-clockwise' && this.config.direction !== 'clockwise') {
-      throw new Error(`Invalid direction: ${this.config.direction} (must be 'counter-clockwise' or 'clockwise')`);
+    // Validate cardinal progression
+    const validProgressions = ['NWSE', 'NESW', 'ESWN', 'ENWN', 'SWNE', 'SENW', 'WNES', 'WSEN'];
+    if (!validProgressions.includes(this.config.cardinalProgression)) {
+      throw new Error(`Invalid cardinalProgression: ${this.config.cardinalProgression} (must be one of: ${validProgressions.join(', ')})`);
     }
 
-    // Validate rotation offset
-    if (typeof this.config.rotationOffset !== 'number') {
-      throw new Error('Rotation offset must be a number');
+    // Validate north position
+    if (typeof this.config.northPosition !== 'string' || this.config.northPosition.length === 0) {
+      throw new Error('North position must be a non-empty string (e.g., "10|11" or "10")');
     }
 
-    if (this.config.rotationOffset < 0 || this.config.rotationOffset >= 360) {
+    // If straddled (contains |), validate gates are adjacent in sequence
+    if (this.config.northPosition.includes('|')) {
+      const [gate1, gate2] = this.config.northPosition.split('|').map(Number);
+      const idx1 = this.sequence.indexOf(gate1);
+      const idx2 = this.sequence.indexOf(gate2);
+
+      if (idx1 === -1 || idx2 === -1) {
+        throw new Error(`Gates in northPosition ${this.config.northPosition} not found in sequence`);
+      }
+
+      // Gates must be adjacent in sequence (differ by 1 index, accounting for wrap)
+      const diff = Math.abs(idx1 - idx2);
+      if (diff !== 1 && diff !== 63) { // 63 = wrap around (position 0 and 63)
+        throw new Error(`Gates in northPosition ${this.config.northPosition} must be adjacent in sequence`);
+      }
+    }
+
+    // Calculate derived values (rotation offset from northPosition)
+    if (this.config.rotationOffset === undefined) {
       throw new Error('Rotation offset must be between 0 and 360 degrees');
     }
   }

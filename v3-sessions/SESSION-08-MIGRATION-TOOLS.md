@@ -124,7 +124,12 @@ Your existing queries should work identically.
 ```javascript
 // Add configuration if needed
 engine.setWheelConfiguration({
-  rotationOffset: 45
+  cardinalProgression: 'NESW'  // Clockwise instead of counter-clockwise
+});
+
+// Or change north position
+engine.setWheelConfiguration({
+  northPosition: '10'  // Centered instead of straddled
 });
 
 // Use extensions for rich queries

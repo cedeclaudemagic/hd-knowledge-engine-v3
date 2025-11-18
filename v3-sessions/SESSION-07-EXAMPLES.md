@@ -173,53 +173,49 @@ const gate41reset = engine.getGateKnowledge(41);
 console.log(`   Gate 41 at: ${gate41reset.angle}°\n`);
 ```
 
-**File:** `examples/configuration/02-custom-rotation.js`
+**File:** `examples/configuration/02-cardinal-progression.js`
 
 ```javascript
 /**
- * Configuration Example 02: Custom Rotation
+ * Configuration Example 02: Cardinal Progression
  *
- * Apply rotation offset to the wheel.
+ * Change cardinal progression (NWSE vs NESW).
  */
 
 const engine = require('../../unified-query-engine');
 
-console.log('=== CUSTOM ROTATION ===\n');
+console.log('=== CARDINAL PROGRESSION ===\n');
 
-// Original position
-const gate13original = engine.getGateKnowledge(13);
-console.log(`Gate 13 original: ${gate13original.angle}°`);
+// Default NWSE (counter-clockwise)
+console.log('Default NWSE (counter-clockwise on clock: 12→9→6→3):');
+const gate13nwse = engine.getGateKnowledge(13);
+console.log(`  Gate 13: ${gate13nwse.angle}°\n`);
 
-// Rotate 45 degrees
+// Change to NESW (clockwise)
 engine.setWheelConfiguration({
-  rotationOffset: 45
+  cardinalProgression: 'NESW'
 });
-const gate13rotated = engine.getGateKnowledge(13);
-console.log(`Gate 13 rotated 45°: ${gate13rotated.angle}°`);
-
-// Rotate 90 degrees
-engine.setWheelConfiguration({
-  rotationOffset: 90
-});
-const gate13rotated90 = engine.getGateKnowledge(13);
-console.log(`Gate 13 rotated 90°: ${gate13rotated90.angle}°`);
+console.log('Changed to NESW (clockwise on clock: 12→3→6→9):');
+const gate13nesw = engine.getGateKnowledge(13);
+console.log(`  Gate 13: ${gate13nesw.angle}°\n`);
 
 // Reset
 engine.resetConfiguration();
+console.log('Reset to default NWSE');
 ```
 
-**File:** `examples/configuration/03-direction-change.js`
+**File:** `examples/configuration/03-north-position.js`
 
 ```javascript
 /**
- * Configuration Example 03: Direction Change
+ * Configuration Example 03: North Position
  *
- * Change wheel direction (counter-clockwise vs clockwise).
+ * Change what gates appear at north (12 o'clock).
  */
 
 const engine = require('../../unified-query-engine');
 
-console.log('=== DIRECTION CHANGE ===\n');
+console.log('=== NORTH POSITION ===\n');
 
 // Counter-clockwise (default)
 const gate10ccw = engine.getGateKnowledge(10);

@@ -168,30 +168,39 @@ test('Non-integer gate number throws error', () => {
 // Configuration edge cases
 console.log('\n⚙️ Configuration Edge Cases:');
 
-test('Rotation offset 360 equals 0', () => {
-  engine.setWheelConfiguration({ rotationOffset: 360 });
-  const gate1 = engine.getGateKnowledge(1);
-  const angle360 = gate1.angle;
+test('All 8 cardinal progressions work', () => {
+  const progressions = ['NWSE', 'NESW', 'ESWN', 'ENWN', 'SWNE', 'SENW', 'WNES', 'WSEN'];
 
-  engine.setWheelConfiguration({ rotationOffset: 0 });
-  const gate2 = engine.getGateKnowledge(1);
-  const angle0 = gate2.angle;
+  for (const progression of progressions) {
+    engine.setWheelConfiguration({ cardinalProgression: progression });
+    const gate = engine.getGateKnowledge(1);
+    assert(!isNaN(gate.angle), `Cardinal progression ${progression} should work`);
+  }
 
-  assert(angle360 === angle0, 'Rotation 360° should equal 0°');
   engine.resetConfiguration();
 });
 
-test('Negative rotation offset handled', () => {
-  engine.setWheelConfiguration({ rotationOffset: -45 });
-  const gate = engine.getGateKnowledge(1);
-  assert(!isNaN(gate.angle), 'Should return valid angle');
+test('Straddled north position works', () => {
+  engine.setWheelConfiguration({ northPosition: '10|11' });
+  const gate = engine.getGateKnowledge(10);
+  assert(!isNaN(gate.angle), 'Straddled position should work');
   engine.resetConfiguration();
 });
 
-test('Large rotation offset handled', () => {
-  engine.setWheelConfiguration({ rotationOffset: 720 });
-  const gate = engine.getGateKnowledge(1);
-  assert(!isNaN(gate.angle), 'Should return valid angle');
+test('Centered north position works', () => {
+  engine.setWheelConfiguration({ northPosition: '10' });
+  const gate = engine.getGateKnowledge(10);
+  assert(!isNaN(gate.angle), 'Centered position should work');
+  engine.resetConfiguration();
+});
+
+test('Invalid cardinal progression throws error', () => {
+  try {
+    engine.setWheelConfiguration({ cardinalProgression: 'INVALID' });
+    assert(false, 'Should throw for invalid cardinal progression');
+  } catch (error) {
+    assert(error.message.includes('Invalid'), 'Should throw clear error');
+  }
   engine.resetConfiguration();
 });
 
@@ -203,6 +212,102 @@ test('Invalid sequence name throws error', () => {
     assert(error.message.includes('Invalid') || error.message.includes('not found'), 'Should throw error');
   }
   engine.resetConfiguration();
+});
+
+// Line-Level Precision Tests (CRITICAL)
+console.log('\n🎯 Line-Level Precision Tests:');
+
+test('Line precision is exactly 0.9375° (360° / 384 lines)', () => {
+  engine.resetConfiguration();
+  const positioning = require('../../../core/root-system/positioning-algorithm');
+
+  // Test Gate 41 (position 0 in default sequence)
+  const line1 = positioning.getWheelPosition(41, 1);
+  const line2 = positioning.getWheelPosition(41, 2);
+  const precisionDiff = Math.abs((line2.angle - line1.angle + 360) % 360 - 0.9375);
+
+  assert(
+    precisionDiff < 0.0001,
+    `Line precision should be 0.9375°, got difference of ${precisionDiff.toFixed(6)}°`
+  );
+});
+
+test('Line precision maintained across all 64 gates', () => {
+  engine.resetConfiguration();
+  const positioning = require('../../../core/root-system/positioning-algorithm');
+
+  let errors = [];
+  for (let gate = 1; gate <= 64; gate++) {
+    const l1 = positioning.getWheelPosition(gate, 1);
+    const l2 = positioning.getWheelPosition(gate, 2);
+    const l3 = positioning.getWheelPosition(gate, 3);
+    const l4 = positioning.getWheelPosition(gate, 4);
+    const l5 = positioning.getWheelPosition(gate, 5);
+    const l6 = positioning.getWheelPosition(gate, 6);
+
+    // Check each line increment
+    const diffs = [
+      Math.abs((l2.angle - l1.angle + 360) % 360 - 0.9375),
+      Math.abs((l3.angle - l2.angle + 360) % 360 - 0.9375),
+      Math.abs((l4.angle - l3.angle + 360) % 360 - 0.9375),
+      Math.abs((l5.angle - l4.angle + 360) % 360 - 0.9375),
+      Math.abs((l6.angle - l5.angle + 360) % 360 - 0.9375)
+    ];
+
+    for (let i = 0; i < diffs.length; i++) {
+      if (diffs[i] > 0.0001) {
+        errors.push(`Gate ${gate}, line ${i+1}→${i+2}: diff ${diffs[i].toFixed(6)}°`);
+      }
+    }
+  }
+
+  assert(errors.length === 0, `Line precision errors: ${errors.join(', ')}`);
+});
+
+test('Total wheel span is exactly 360° (64 gates × 6 lines × 0.9375°)', () => {
+  const expectedTotal = 64 * 6 * 0.9375;
+  assert(
+    Math.abs(expectedTotal - 360) < 0.0001,
+    `Total should be 360°, got ${expectedTotal}°`
+  );
+});
+
+test('Line precision maintained with rotation offset', () => {
+  engine.setWheelConfiguration({ rotationOffset: 33.75 });
+  const positioning = require('../../../core/root-system/positioning-algorithm');
+
+  // Even with rotation, line differences should still be 0.9375°
+  const line1 = positioning.getWheelPosition(10, 1);
+  const line2 = positioning.getWheelPosition(10, 2);
+  const diff = Math.abs((line2.angle - line1.angle + 360) % 360 - 0.9375);
+
+  assert(
+    diff < 0.0001,
+    `Line precision with rotation should be 0.9375°, got ${diff.toFixed(6)}°`
+  );
+
+  engine.resetConfiguration();
+});
+
+test('384 total line positions span 360° exactly', () => {
+  engine.resetConfiguration();
+  const positioning = require('../../../core/root-system/positioning-algorithm');
+
+  // First line of first gate in sequence (Gate 41)
+  const firstLine = positioning.getWheelPosition(41, 1);
+
+  // Last line of last gate in sequence (Gate 60)
+  const lastLine = positioning.getWheelPosition(60, 6);
+
+  // The span should be just under 360° (359.0625°)
+  // because line 384 would wrap to 0°
+  const expectedSpan = 383 * 0.9375; // 359.0625°
+  const actualSpan = (lastLine.angle - firstLine.angle + 360) % 360;
+
+  assert(
+    Math.abs(actualSpan - expectedSpan) < 0.01,
+    `383 line span should be ${expectedSpan}°, got ${actualSpan.toFixed(4)}°`
+  );
 });
 
 // Extension edge cases

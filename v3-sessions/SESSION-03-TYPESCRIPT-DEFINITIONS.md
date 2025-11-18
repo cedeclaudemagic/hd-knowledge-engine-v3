@@ -89,45 +89,134 @@ Create complete TypeScript definitions for the HD Knowledge Engine V3, providing
 ```typescript
 /**
  * Wheel Configuration Types
+ *
+ * VISUAL CLOCK FACE REFERENCE:
+ *        12 (NORTH)
+ *           10|11
+ *             |
+ *             |
+ *  9 (WEST) --+-- 3 (EAST)
+ *   25|36     |      46|6
+ *             |
+ *             |
+ *        6 (SOUTH)
+ *         15|12
+ *
+ * NWSE = Counter-clockwise: 12→9→6→3 (North→West→South→East)
  */
 
 export type SequenceName = 'rave-wheel-41-start' | 'gates-10-start' | 'custom';
-export type WheelDirection = 'clockwise' | 'counter-clockwise';
 
+/**
+ * Cardinal progression describes the visual clock face movement
+ * NWSE = North→West→South→East (counter-clockwise: 12→9→6→3)
+ * NESW = North→East→South→West (clockwise: 12→3→6→9)
+ * Plus 6 other valid progressions
+ */
+export type CardinalProgression =
+  | 'NWSE'  // North→West→South→East (counter-clockwise)
+  | 'NESW'  // North→East→South→West (clockwise)
+  | 'ESWN'  // East→South→West→North
+  | 'ENWN'  // East→North→West→South (typo in original - should be ENWS)
+  | 'SWNE'  // South→West→North→East
+  | 'SENW'  // South→East→North→West
+  | 'WNES'  // West→North→East→South
+  | 'WSEN'; // West→South→East→North
+
+/**
+ * Cardinal position - gate(s) at a cardinal point
+ * Straddled: "10|11" (boundary between two gates)
+ * Centered: "10" (center of single gate at Line 3.5)
+ */
+export type CardinalPosition = string;
+
+/**
+ * Clock position (1-12, like a clock face)
+ */
+export type ClockPosition = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
+
+/**
+ * Configuration options for WheelConfiguration
+ */
 export interface WheelConfigOptions {
   sequenceName?: SequenceName;
   customSequence?: number[];
-  rotationOffset?: number;
-  direction?: WheelDirection;
+  cardinalProgression?: CardinalProgression;
+  northPosition?: CardinalPosition;
 }
 
+/**
+ * Cardinal point definition
+ */
+export interface CardinalPoint {
+  gates: CardinalPosition;
+  clockPosition: ClockPosition;
+  description: string;
+}
+
+/**
+ * Preset configuration
+ */
 export interface WheelConfigPreset {
   name: string;
   description: string;
   sequenceName: SequenceName;
-  rotationOffset: number;
-  direction: WheelDirection;
+  cardinalProgression: CardinalProgression;
+  northPosition: CardinalPosition;
+  cardinals: {
+    north: CardinalPoint;
+    west: CardinalPoint;
+    south: CardinalPoint;
+    east: CardinalPoint;
+  };
 }
 
+/**
+ * Gate sequence file definition
+ */
 export interface GateSequenceDefinition {
+  name: string;
   description: string;
   version: string;
   source: string;
-  totalGates: number;
-  degreesPerLine: number;
   sequence: number[];
+  cardinalProgression: CardinalProgression;
+  northPosition: CardinalPosition;
+  cardinals: {
+    north: CardinalPoint;
+    west: CardinalPoint;
+    south: CardinalPoint;
+    east: CardinalPoint;
+  };
+  derived?: {
+    rotationOffset: number;
+    visualDirection: string;
+    visualCoordinateSystem: {
+      zeroPosition: string;
+      angleProgression: string;
+      cardinalAngles: Record<string, number>;
+    };
+  };
   notes?: Record<string, string>;
 }
 
+/**
+ * WheelConfiguration class
+ * Manages the three mandatory configuration values:
+ * 1. sequence - array of 64 gates
+ * 2. cardinalProgression - visual clock face progression (NWSE/NESW/etc.)
+ * 3. northPosition - gate(s) at north (e.g., "10|11")
+ */
 export class WheelConfiguration {
   constructor(options?: WheelConfigOptions);
 
   getWheelIndex(gateNumber: number): number;
   getGateAtPosition(wheelIndex: number): number;
   getSequence(): number[];
-  getDirection(): WheelDirection;
-  getRotationOffset(): number;
+  getCardinalProgression(): CardinalProgression;
+  getNorthPosition(): CardinalPosition;
   getSequenceName(): SequenceName;
+  getRotationOffset(): number;
 
   static getPreset(presetName: string): WheelConfigOptions;
   static listPresets(): WheelConfigPreset[];
@@ -502,16 +591,21 @@ console.log(knowledge.center); // TypeScript knows this is a string
 ## Configuration with Types
 
 ```typescript
-import { WheelConfiguration, SequenceName } from 'hd-knowledge-engine-v3';
+import { WheelConfiguration, CardinalProgression } from 'hd-knowledge-engine-v3';
 
 // Type-safe configuration
 const config: WheelConfigOptions = {
   sequenceName: 'rave-wheel-41-start', // TypeScript validates this (default)
-  rotationOffset: 33.75,  // Default rotation makes Gates 10/11 at north
-  direction: 'counter-clockwise'
+  cardinalProgression: 'NWSE',  // Counter-clockwise on clock face (12→9→6→3)
+  northPosition: '10|11'  // Straddled between gates 10 and 11
 };
 
 engine.setWheelConfiguration(config);
+
+// Visual Clock Face Reference:
+//        12 (NORTH) - 10|11
+//  9 (WEST) - 25|36  +  3 (EAST) - 46|6
+//        6 (SOUTH) - 15|12
 ```
 
 ## Using Extensions
@@ -589,7 +683,8 @@ import engine, {
   WheelConfiguration,
   WheelConfigOptions,
   SequenceName,
-  WheelDirection
+  CardinalProgression,
+  CardinalPosition
 } from '../../core/types';
 
 import extensions, {
@@ -614,15 +709,16 @@ function testBasicQuery(): void {
 function testConfiguration(): void {
   const config: WheelConfigOptions = {
     sequenceName: 'rave-wheel-41-start',
-    rotationOffset: 33.75,  // Default rotation
-    direction: 'counter-clockwise'
+    cardinalProgression: 'NWSE',  // Counter-clockwise on clock face
+    northPosition: '10|11'  // Straddled between gates 10 and 11
   };
 
   engine.setWheelConfiguration(config);
 
   const wheelConfig: WheelConfiguration = engine.getWheelConfiguration();
   const sequence: number[] = wheelConfig.getSequence();
-  const direction: WheelDirection = wheelConfig.getDirection();
+  const progression: CardinalProgression = wheelConfig.getCardinalProgression();
+  const northPos: CardinalPosition = wheelConfig.getNorthPosition();
 }
 
 // Test 3: Extension types

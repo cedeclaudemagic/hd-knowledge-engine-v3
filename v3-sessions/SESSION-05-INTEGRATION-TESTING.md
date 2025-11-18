@@ -92,8 +92,8 @@ test('Configuration changes affect positioning', () => {
   // Change configuration
   engine.setWheelConfiguration({
     sequenceName: 'rave-wheel-41-start',
-    rotationOffset: 33.75,  // Default rotation
-    direction: 'counter-clockwise'
+    cardinalProgression: 'NWSE',  // Counter-clockwise on clock face (12→9→6→3)
+    northPosition: '10|11'  // Straddled between gates 10 and 11
   });
 
   const gate13after = engine.getGateKnowledge(13);
@@ -107,19 +107,20 @@ test('Configuration changes affect positioning', () => {
 });
 
 test('Configuration reset restores defaults', () => {
-  engine.setWheelConfiguration({ rotationOffset: 90 });
+  engine.setWheelConfiguration({ cardinalProgression: 'NESW' });  // Change to clockwise temporarily
   engine.resetConfiguration();
 
   const config = engine.getWheelConfiguration();
-  assert(config.getRotationOffset() === 33.75, 'Rotation should reset to default 33.75°');
+  assert(config.getCardinalProgression() === 'NWSE', 'Cardinal progression should reset to default NWSE');
+  assert(config.getNorthPosition() === '10|11', 'North position should reset to default 10|11');
 });
 
 test('Preset configurations load correctly', () => {
   engine.setWheelConfiguration('rave-wheel-41-start');
   const config = engine.getWheelConfiguration();
   assert(config.getSequenceName() === 'rave-wheel-41-start', 'Default preset should load');
-  assert(config.getDirection() === 'counter-clockwise', 'Default direction is counter-clockwise');
-  assert(config.getRotationOffset() === 33.75, 'Default rotation is 33.75°');
+  assert(config.getCardinalProgression() === 'NWSE', 'Default cardinal progression is NWSE (counter-clockwise on clock)');
+  assert(config.getNorthPosition() === '10|11', 'Default north position is 10|11 (straddled)');
 
   engine.resetConfiguration();
 });
@@ -132,7 +133,7 @@ test('Extensions use current configuration', () => {
   const allGates = extensions.getAllGates();
   assert(allGates.total === 64, 'Extensions should work with default config');
 
-  engine.setWheelConfiguration({ rotationOffset: 45 });
+  engine.setWheelConfiguration({ cardinalProgression: 'NESW' });  // Change to clockwise
   const enrichedGate = extensions.getEnrichedGate(13);
   assert(enrichedGate.position, 'Enriched queries should use active config');
 
@@ -141,7 +142,7 @@ test('Extensions use current configuration', () => {
 
 test('Collection queries remain consistent', () => {
   const channels1 = extensions.getAllChannels();
-  engine.setWheelConfiguration({ rotationOffset: 90 });
+  engine.setWheelConfiguration({ cardinalProgression: 'NESW' });  // Change progression
   const channels2 = extensions.getAllChannels();
 
   assert(channels1.total === channels2.total, 'Channel count should not change with config');

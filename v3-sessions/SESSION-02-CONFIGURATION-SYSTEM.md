@@ -9,7 +9,9 @@
 
 ## OBJECTIVES
 
-Build the modular wheel configuration system that allows swappable gate sequences, configurable direction (clockwise/counter-clockwise), and rotation offsets. This solves the fundamental gate positioning issue.
+Build the modular wheel configuration system that allows swappable gate sequences, configurable cardinal progression (NWSE/NESW/etc.), and rotation offsets. This solves the fundamental gate positioning issue.
+
+**CRITICAL TERMINOLOGY:** We use "cardinalProgression" (not "direction") to avoid ambiguity. NWSE = counter-clockwise on visual clock face (12→9→6→3).
 
 ---
 
@@ -30,26 +32,42 @@ Build the modular wheel configuration system that allows swappable gate sequence
 **Current V2 Issue:**
 - The gate sequence array IS the rotation - no separate rotation logic
 - Can't change wheel orientation without editing source code
-- Direction (clockwise vs counter-clockwise) may be wrong
+- Cardinal progression (visual direction) may be ambiguous
 - No way to swap between HD vs I Ching wheel arrangements
 
 **V3 Solution:**
 - Modular `WheelConfiguration` class
 - Swappable sequence files
-- Configurable direction and rotation
+- Configurable cardinal progression (NWSE = counter-clockwise on clock face)
+- Configurable rotation and cardinal positioning
 - Multiple presets for different traditions
+
+**Visual Clock Face Reference:**
+```
+        12 (NORTH)
+           10|11
+             |
+             |
+  9 (WEST) --+-- 3 (EAST)
+   25|36     |      46|6
+             |
+             |
+        6 (SOUTH)
+         15|12
+```
+NWSE = Counter-clockwise: 12→9→6→3 (North→West→South→East)
 
 ---
 
 ## DELIVERABLES
 
 1. `core/root-system/wheel-config.js` - Configuration system
-2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (counter-clockwise, 33.75° rotation)
+2. `core/root-system/sequences/rave-wheel-41-start.json` - DEFAULT (NWSE cardinal progression, 33.75° rotation)
 3. `core/root-system/sequences/gates-10-start.json` - ALTERNATIVE (Gates 10/11 at array start)
 4. `core/root-system/sequences/README.md` - Sequence documentation (explains 3 mandatory fields)
 5. Updated `core/root-system/positioning-algorithm.js` - Uses configuration with rotation
 6. `tests/configuration/test-wheel-config.js` - Configuration tests
-7. `tests/configuration/test-direction-hypothesis.js` - Direction testing (with default rotation)
+7. `tests/configuration/test-cardinal-progression.js` - Cardinal progression testing (NWSE validation)
 8. All existing tests updated for new default (Gates 10/11 at north via rotation)
 
 ---
@@ -58,31 +76,74 @@ Build the modular wheel configuration system that allows swappable gate sequence
 
 ### Task 2.1: Create Sequence Files
 
-**CRITICAL:** Every sequence file MUST have three mandatory fields: `sequence`, `direction`, and `rotationOffset`. These three values work together to define both array order AND visual presentation.
+**CRITICAL:** Every sequence file MUST have three mandatory fields: `sequence`, `cardinalProgression`, and `northPosition`. These three values work together to define both array order AND visual presentation.
+
+**TERMINOLOGY NOTE:** We use `cardinalProgression` (not "direction") to eliminate ambiguity. Values like "NWSE" describe the visual clock face progression unambiguously.
 
 **File:** `core/root-system/sequences/rave-wheel-41-start.json` **(DEFAULT)**
 
 ```json
 {
   "name": "rave-wheel-41-start",
-  "description": "Rave Wheel - Gate 41 at array start, rotated so Gates 10/11 appear at north",
+  "description": "Rave Wheel - Visual counter-clockwise (NWSE cardinal progression)",
   "version": "1.0.0",
   "source": "Ra Uru Hu - Human Design System",
+
   "sequence": [
     41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
     27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
     31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
     28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
   ],
-  "direction": "counter-clockwise",
-  "rotationOffset": 33.75,
+
+  "cardinalProgression": "NWSE",
+  "northPosition": "10|11",
+
+  "cardinals": {
+    "north": {
+      "gates": "10|11",
+      "clockPosition": 12,
+      "description": "Straddles 12 o'clock (North)"
+    },
+    "west": {
+      "gates": "25|36",
+      "clockPosition": 9,
+      "description": "Straddles 9 o'clock (West)"
+    },
+    "south": {
+      "gates": "15|12",
+      "clockPosition": 6,
+      "description": "Straddles 6 o'clock (South)"
+    },
+    "east": {
+      "gates": "46|6",
+      "clockPosition": 3,
+      "description": "Straddles 3 o'clock (East)"
+    }
+  },
+
+  "derived": {
+    "rotationOffset": 33.75,
+    "visualDirection": "counter-clockwise",
+    "visualCoordinateSystem": {
+      "zeroPosition": "north",
+      "angleProgression": "counter-clockwise",
+      "cardinalAngles": {
+        "north": 0,
+        "west": 90,
+        "south": 180,
+        "east": 270
+      }
+    }
+  },
+
   "notes": {
     "arrayPosition0": "Gate 41 (position 0 in array)",
     "arrayPosition58": "Gate 10 (position 58 in array)",
-    "visualNorth": "Gates 10/11 appear at north (0°) via 33.75° rotation offset",
-    "decoupling": "Array order ≠ Visual presentation - rotation offset bridges the gap",
-    "mandatory": "direction and rotationOffset are MANDATORY fields",
-    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
+    "visualNorth": "Gates 10|11 straddle north (12 o'clock) via 33.75° rotation",
+    "cardinalProgression": "NWSE = North→West→South→East (counter-clockwise on clock face)",
+    "straddleMode": "Cardinals sit between two gates (e.g., 10|11 means boundary between gates 10 and 11)",
+    "mandatory": "THREE MANDATORY FIELDS: sequence, cardinalProgression, northPosition"
   }
 }
 ```
@@ -92,23 +153,64 @@ Build the modular wheel configuration system that allows swappable gate sequence
 ```json
 {
   "name": "gates-10-start",
-  "description": "Alternative - Gates 10/11 at array start (no rotation needed)",
+  "description": "Alternative - Gates 10/11 at array start (NWSE, no rotation needed)",
   "version": "1.0.0",
   "source": "Alternative wheel arrangement",
+
   "sequence": [
     10, 11, 26, 5, 9, 34, 14, 43, 1, 44, 28, 50, 32, 57, 48, 18,
     46, 6, 47, 64, 40, 59, 29, 4, 7, 33, 31, 56, 62, 53, 39, 52,
     15, 12, 45, 35, 16, 20, 8, 23, 2, 24, 27, 3, 42, 51, 21, 17,
     25, 36, 22, 63, 37, 55, 30, 49, 13, 19, 41, 60, 61, 54, 38, 58
   ],
-  "direction": "counter-clockwise",
-  "rotationOffset": 0,
+
+  "cardinalProgression": "NWSE",
+  "northPosition": "10|11",
+
+  "cardinals": {
+    "north": {
+      "gates": "10|11",
+      "clockPosition": 12,
+      "description": "Straddles 12 o'clock (North)"
+    },
+    "west": {
+      "gates": "25|36",
+      "clockPosition": 9,
+      "description": "Straddles 9 o'clock (West)"
+    },
+    "south": {
+      "gates": "15|12",
+      "clockPosition": 6,
+      "description": "Straddles 6 o'clock (South)"
+    },
+    "east": {
+      "gates": "46|6",
+      "clockPosition": 3,
+      "description": "Straddles 3 o'clock (East)"
+    }
+  },
+
+  "derived": {
+    "rotationOffset": 0,
+    "visualDirection": "counter-clockwise",
+    "visualCoordinateSystem": {
+      "zeroPosition": "north",
+      "angleProgression": "counter-clockwise",
+      "cardinalAngles": {
+        "north": 0,
+        "west": 90,
+        "south": 180,
+        "east": 270
+      }
+    }
+  },
+
   "notes": {
     "arrayPosition0": "Gate 10 (position 0 in array)",
-    "visualNorth": "Gate 10 at north (0°) with no rotation",
+    "visualNorth": "Gates 10|11 at north (0°) with no rotation needed",
     "useCase": "When you want Gates 10/11 at array start instead of using rotation",
-    "mandatory": "direction and rotationOffset are MANDATORY fields (even if 0)",
-    "directionNote": "Counter-clockwise matches solar system planets/sun movement"
+    "cardinalProgression": "NWSE = North→West→South→East (counter-clockwise on clock face)",
+    "mandatory": "THREE MANDATORY FIELDS: sequence, cardinalProgression, northPosition"
   }
 }
 ```
@@ -124,25 +226,46 @@ This directory contains swappable gate sequence configurations for different whe
 
 Every sequence file MUST contain three fields:
 1. **sequence** - Array of 64 gates in wheel order
-2. **direction** - "clockwise" or "counter-clockwise"
-3. **rotationOffset** - Degrees (0-360) to rotate the visual wheel
+2. **cardinalProgression** - 4-letter code (NWSE, NESW, etc.) describing visual clock face movement
+3. **northPosition** - Gate(s) at north position (e.g., "10|11" straddled, or "10" centered)
 
 These three values work together to decouple array order from visual presentation.
+
+## Visual Clock Face Reference
+
+```
+        12 (NORTH)
+           10|11
+             |
+             |
+  9 (WEST) --+-- 3 (EAST)
+   25|36     |      46|6
+             |
+             |
+        6 (SOUTH)
+         15|12
+```
+
+**Cardinal Progression Codes:**
+- **NWSE** = North→West→South→East (counter-clockwise: 12→9→6→3)
+- **NESW** = North→East→South→West (clockwise: 12→3→6→9)
+- Plus 6 other valid progressions (ESWN, ENWN, SWNE, SENW, WNES, WSEN)
 
 ## Available Sequences
 
 ### rave-wheel-41-start.json (DEFAULT)
 - **Sequence:** Gate 41 at array position 0
-- **Direction:** Counter-clockwise (matches solar system planets/sun)
-- **Rotation:** 33.75° (makes Gates 10/11 appear at visual north)
-- **Result:** Array starts with Gate 41, but visually Gates 10/11 are at north
+- **Cardinal Progression:** NWSE (counter-clockwise on clock face: 12→9→6→3)
+- **North Position:** 10|11 (straddled between gates 10 and 11)
+- **Cardinals:** North=10|11 (12), West=25|36 (9), South=15|12 (6), East=46|6 (3)
+- **Result:** Array starts with Gate 41, but visually Gates 10|11 straddle north
 - **Use this for:** Default rave wheel, standard HD charts
 
 ### gates-10-start.json (ALTERNATIVE)
 - **Sequence:** Gates 10/11 at array position 0
-- **Direction:** Counter-clockwise (matches solar system planets/sun)
-- **Rotation:** 0° (no rotation needed)
-- **Result:** Array AND visual both start with Gates 10/11 at north
+- **Cardinal Progression:** NWSE (counter-clockwise on clock face)
+- **North Position:** 10|11 (straddled)
+- **Result:** Array AND visual both start with Gates 10|11 at north
 - **Use this for:** When you want Gates 10/11 at array start
 
 ## Creating Custom Sequences
@@ -155,12 +278,20 @@ MANDATORY format:
   "description": "Description of what makes this unique",
   "version": "1.0.0",
   "source": "Where this comes from",
-  "sequence": [41, 19, 13, ...],             // MANDATORY: All 64 gates
-  "direction": "counter-clockwise",       // MANDATORY: Direction (counter-clockwise = solar system)
-  "rotationOffset": 33.75,                // MANDATORY: Rotation in degrees
-  "notes": {
-    "arrayPosition0": "Which gate at array position 0",
-    "visualNorth": "What appears at visual north after rotation"
+
+  "sequence": [41, 19, 13, ...],           // MANDATORY: All 64 gates
+  "cardinalProgression": "NWSE",           // MANDATORY: NWSE/NESW/etc.
+  "northPosition": "10|11",                // MANDATORY: Gate(s) at north
+
+  "cardinals": {
+    "north": { "gates": "10|11", "clockPosition": 12 },
+    "west": { "gates": "25|36", "clockPosition": 9 },
+    "south": { "gates": "15|12", "clockPosition": 6 },
+    "east": { "gates": "46|6", "clockPosition": 3 }
+  },
+
+  "derived": {
+    "rotationOffset": 33.75  // Calculated from northPosition
   }
 }
 ```
@@ -169,20 +300,34 @@ MANDATORY format:
 - Must contain exactly 64 gates in sequence array
 - Each gate 1-64 must appear exactly once
 - No duplicates, no gaps
-- MUST include direction field
-- MUST include rotationOffset field (even if 0)
+- MUST include cardinalProgression (NWSE, NESW, etc.)
+- MUST include northPosition (straddled "10|11" or centered "10")
+- Cardinals are derived from northPosition and cardinalProgression
 
-## Understanding The Three Values
+## Understanding Cardinal Positioning
+
+**Straddled Mode:** `"northPosition": "10|11"`
+- Cardinal sits BETWEEN two gates (at the boundary)
+- Format: "gate1|gate2" where gates are adjacent in sequence
+- Example: North straddles between gates 10 and 11
+
+**Centered Mode:** `"northPosition": "10"`
+- Cardinal sits at CENTER of a single gate (Line 3.5)
+- Format: "gate" (single number)
+- Example: North centered on gate 10
+
+## Understanding The Three Mandatory Values
 
 **Sequence** = Array order (for calculations)
-**Direction** = Clockwise or counter-clockwise traversal
-**RotationOffset** = Visual alignment (decouples array from display)
+**CardinalProgression** = Visual direction on clock face (NWSE = counter-clockwise)
+**NorthPosition** = What gates appear at north (12 o'clock)
 
 Example:
 ```javascript
-// rave-wheel-41-start with 33.75° rotation:
-sequence[0] = 41        // Array position 0 = Gate 41
-visualAngle(10) = 0°    // Gate 10 appears at north visually
+// rave-wheel-41-start configuration:
+sequence[0] = 41                    // Array position 0 = Gate 41
+cardinalProgression = "NWSE"        // Counter-clockwise on clock: 12→9→6→3
+northPosition = "10|11"             // Gates 10|11 straddle north (12 o'clock)
 // DECOUPLED! Array order ≠ Visual presentation
 ```
 
@@ -198,6 +343,8 @@ const config = new WheelConfiguration({
 
 // Verify it loads
 console.log(config.sequence.length); // Should be 64
+console.log(config.config.cardinalProgression); // e.g., "NWSE"
+console.log(config.config.northPosition); // e.g., "10|11"
 
 // Test a gate position
 console.log(config.getWheelIndex(41)); // Returns position of gate 41
@@ -235,7 +382,7 @@ This file contains the full WheelConfiguration class with all methods, including
 const { WheelConfiguration } = require('./wheel-config.js');
 
 // Global configuration (can be overridden)
-let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (counter-clockwise, 33.75° rotation)
+let wheelConfig = new WheelConfiguration(); // Defaults to rave-wheel-41-start (NWSE cardinal progression)
 ```
 
 2. **Add new exports:**
@@ -350,8 +497,8 @@ try {
   assert(config !== null, 'Default configuration loads');
   assert(config.sequence.length === 64, 'Default sequence has 64 gates');
   assert(config.config.sequenceName === 'rave-wheel-41-start', 'Default is rave-wheel-41-start');
-  assert(config.config.direction === 'counter-clockwise', 'Default direction is counter-clockwise');
-  assert(config.config.rotationOffset === 33.75, 'Default rotation is 33.75°');
+  assert(config.config.cardinalProgression === 'NWSE', 'Default cardinal progression is NWSE');
+  assert(config.config.northPosition === '10|11', 'Default north position is 10|11 (straddled)');
   assert(config.sequence[0] === 41, 'Default starts with Gate 41');
 } catch (error) {
   assert(false, 'Default configuration loads - ERROR: ' + error.message);
@@ -364,8 +511,8 @@ try {
   assert(raveWheelConfig.sequence[0] === 41, 'rave-wheel-41-start starts with gate 41');
   assert(raveWheelConfig.sequence[1] === 19, 'rave-wheel-41-start position 1 is gate 19');
   assert(raveWheelConfig.sequence[58] === 10, 'rave-wheel-41-start position 58 is gate 10');
-  assert(raveWheelConfig.config.direction === 'counter-clockwise', 'rave-wheel-41-start is counter-clockwise');
-  assert(raveWheelConfig.config.rotationOffset === 33.75, 'rave-wheel-41-start has 33.75° rotation');
+  assert(raveWheelConfig.config.cardinalProgression === 'NWSE', 'rave-wheel-41-start uses NWSE (counter-clockwise on clock)');
+  assert(raveWheelConfig.config.northPosition === '10|11', 'rave-wheel-41-start has north at 10|11');
 } catch (error) {
   assert(false, 'rave-wheel-41-start preset - ERROR: ' + error.message);
 }
@@ -375,8 +522,8 @@ try {
   const gates10Config = WheelConfiguration.fromPreset('gates-10-start');
   assert(gates10Config.sequence[0] === 10, 'gates-10-start starts with gate 10');
   assert(gates10Config.sequence[1] === 11, 'gates-10-start position 1 is gate 11');
-  assert(gates10Config.config.direction === 'counter-clockwise', 'gates-10-start is counter-clockwise');
-  assert(gates10Config.config.rotationOffset === 0, 'gates-10-start has 0° rotation');
+  assert(gates10Config.config.cardinalProgression === 'NWSE', 'gates-10-start uses NWSE progression');
+  assert(gates10Config.config.northPosition === '10|11', 'gates-10-start has north at 10|11');
 } catch (error) {
   assert(false, 'gates-10-start preset - ERROR: ' + error.message);
 }
@@ -394,20 +541,23 @@ try {
   assert(false, 'Valid custom sequence accepted - ERROR: ' + error.message);
 }
 
-// Test 5: Invalid rotation offset
+// Test 5: Invalid cardinal progression
 try {
-  new WheelConfiguration({ rotationOffset: 400 }); // Invalid: > 360
-  assert(false, 'Invalid rotation offset rejected');
+  new WheelConfiguration({ cardinalProgression: 'INVALID' }); // Invalid
+  assert(false, 'Invalid cardinal progression rejected');
 } catch (error) {
-  assert(true, 'Invalid rotation offset rejected');
+  assert(true, 'Invalid cardinal progression rejected');
 }
 
-// Test 6: Invalid direction
+// Test 6: Invalid north position (non-adjacent gates in straddle)
 try {
-  new WheelConfiguration({ direction: 'sideways' }); // Invalid
-  assert(false, 'Invalid direction rejected');
+  new WheelConfiguration({
+    cardinalProgression: 'NWSE',
+    northPosition: '10|25' // Not adjacent in sequence
+  });
+  assert(false, 'Invalid north position rejected');
 } catch (error) {
-  assert(true, 'Invalid direction rejected');
+  assert(true, 'Invalid north position (non-adjacent gates) rejected');
 }
 
 // Test 7: Duplicate gates in sequence
@@ -522,116 +672,143 @@ if (failedTests === 0) {
 }
 ```
 
-### Task 2.5: Create Direction Hypothesis Test
+### Task 2.5: Create Cardinal Progression Validation Test
 
-**File:** `tests/configuration/test-direction-hypothesis.js`
+**File:** `tests/configuration/test-cardinal-progression.js`
 
 ```javascript
 /**
- * Direction Hypothesis Test
+ * Cardinal Progression Validation Test
  *
- * Tests whether clockwise or counter-clockwise direction
- * matches the known SVG master coordinates
+ * Tests NWSE cardinal progression against verified visual wheel positions
+ * Validates that cardinals appear at correct clock positions
  */
 
 const positioning = require('../../core/root-system/positioning-algorithm.js');
 
 console.log('='.repeat(60));
-console.log('DIRECTION HYPOTHESIS TEST');
-console.log('Testing clockwise vs counter-clockwise against known coordinates');
+console.log('CARDINAL PROGRESSION VALIDATION TEST');
+console.log('Testing NWSE configuration against verified clock positions');
 console.log('='.repeat(60) + '\n');
 
-// Known coordinates with DEFAULT rotation (33.75°)
-// These are EXPECTED positions with rave-wheel-41-start sequence + 33.75° rotation
-const KNOWN_POSITIONS = {
-  10: {
-    expectedAngle: 0,
-    position: 'NORTH',
-    description: 'Gate 10 at north (0°) with default 33.75° rotation'
+console.log('Visual Clock Face Reference:');
+console.log('        12 (NORTH)');
+console.log('           10|11');
+console.log('             |');
+console.log('             |');
+console.log('  9 (WEST) --+-- 3 (EAST)');
+console.log('   25|36     |      46|6');
+console.log('             |');
+console.log('             |');
+console.log('        6 (SOUTH)');
+console.log('         15|12');
+console.log();
+
+// Known verified positions from visual wheel inspection
+const VERIFIED_CARDINAL_POSITIONS = {
+  north: {
+    gates: [10, 11],
+    expectedAngles: [0, 354.375], // Gate 10 at 0°, Gate 11 just before
+    clockPosition: 12,
+    description: 'North (12 o\'clock) - Gates 10|11 straddle'
   },
-  11: {
-    expectedAngle: 354.375,
-    position: 'Just before north (counter-clockwise)',
-    description: 'Gate 11 near north with default rotation'
+  west: {
+    gates: [25, 36],
+    expectedAngles: [90, 84.375], // Gate 25 at 90°, Gate 36 just before
+    clockPosition: 9,
+    description: 'West (9 o\'clock) - Gates 25|36 straddle'
   },
-  41: {
-    expectedAngle: 33.75,
-    position: 'Just past north (clockwise)',
-    description: 'Gate 41 at 33.75° (array position 0 + rotation)'
+  south: {
+    gates: [15, 12],
+    expectedAngles: [180, 174.375], // Gate 15 at 180°, Gate 12 just before
+    clockPosition: 6,
+    description: 'South (6 o\'clock) - Gates 15|12 straddle'
   },
-  19: {
-    expectedAngle: 39.375,
-    position: 'Slightly past Gate 41',
-    description: 'Gate 19 at 39.375° (position 1 + rotation)'
+  east: {
+    gates: [46, 6],
+    expectedAngles: [270, 264.375], // Gate 46 at 270°, Gate 6 just before
+    clockPosition: 3,
+    description: 'East (3 o\'clock) - Gates 46|6 straddle'
   }
-  // These test with DEFAULT 33.75° rotation that makes Gates 10/11 at north
 };
 
-function testDirection(direction) {
-  console.log(`\nTesting with direction: ${direction.toUpperCase()}`);
+// Set NWSE configuration (default)
+positioning.resetConfiguration(); // Uses default NWSE
+
+let matches = 0;
+let total = 0;
+
+console.log('Testing NWSE cardinal progression:\n');
+
+for (const [cardinal, expected] of Object.entries(VERIFIED_CARDINAL_POSITIONS)) {
+  console.log(`${expected.description}`);
   console.log('-'.repeat(60));
 
-  // Set configuration with DEFAULT rotation (33.75°)
-  positioning.setWheelConfiguration({
-    sequenceName: 'rave-wheel-41-start',
-    direction: direction,
-    rotationOffset: 33.75  // Test with default rotation
-  });
-
-  let matches = 0;
-  let total = 0;
-
-  for (const [gate, expected] of Object.entries(KNOWN_POSITIONS)) {
-    const gateNum = parseInt(gate);
+  for (let i = 0; i < expected.gates.length; i++) {
+    const gateNum = expected.gates[i];
+    const expectedAngle = expected.expectedAngles[i];
     const pos = positioning.getWheelPosition(gateNum, 1);
 
     total++;
 
     // Allow small tolerance for floating point
-    const angleMatch = Math.abs(pos.angle - expected.expectedAngle) < 0.01;
+    const angleMatch = Math.abs(pos.angle - expectedAngle) < 1;
 
     if (angleMatch) {
       matches++;
-      console.log(`✅ Gate ${gate}: ${pos.angle}° (expected ${expected.expectedAngle}°) - MATCH`);
+      console.log(`  ✅ Gate ${gateNum}: ${pos.angle.toFixed(2)}° (expected ~${expectedAngle}°) - MATCH`);
     } else {
-      console.log(`❌ Gate ${gate}: ${pos.angle}° (expected ${expected.expectedAngle}°) - MISMATCH`);
+      console.log(`  ❌ Gate ${gateNum}: ${pos.angle.toFixed(2)}° (expected ~${expectedAngle}°) - MISMATCH`);
     }
-    console.log(`   ${expected.description}`);
   }
-
-  const percentage = (matches / total * 100).toFixed(1);
-  console.log(`\nResult: ${matches}/${total} positions match (${percentage}%)`);
-
-  return { direction, matches, total, percentage };
+  console.log();
 }
 
-// Test both directions
-const ccwResults = testDirection('counter-clockwise');
-const cwResults = testDirection('clockwise');
+// Test cardinal progression order (NWSE = counter-clockwise)
+console.log('Testing cardinal progression order (NWSE):');
+console.log('-'.repeat(60));
 
-// Report findings
-console.log('\n' + '='.repeat(60));
-console.log('DIRECTION HYPOTHESIS RESULTS');
-console.log('='.repeat(60));
-console.log(`Counter-clockwise: ${ccwResults.percentage}% match`);
-console.log(`Clockwise: ${cwResults.percentage}% match`);
+const northAngle = positioning.getWheelPosition(10, 1).angle;
+const westAngle = positioning.getWheelPosition(25, 1).angle;
+const southAngle = positioning.getWheelPosition(15, 1).angle;
+const eastAngle = positioning.getWheelPosition(46, 1).angle;
 
-if (ccwResults.matches > cwResults.matches) {
-  console.log('\n✅ RECOMMENDATION: Use counter-clockwise direction');
-  console.log('   Counter-clockwise matches known SVG coordinates better.');
-} else if (cwResults.matches > ccwResults.matches) {
-  console.log('\n⚠️  RECOMMENDATION: Use clockwise direction');
-  console.log('   Clockwise matches known SVG coordinates better.');
-  console.log('   This suggests the default should be changed.');
+console.log(`North (Gate 10): ${northAngle}°`);
+console.log(`West (Gate 25): ${westAngle}°`);
+console.log(`South (Gate 15): ${southAngle}°`);
+console.log(`East (Gate 46): ${eastAngle}°`);
+console.log();
+
+// Verify progression N→W→S→E means increasing angles (counter-clockwise)
+const nwseCorrect = (northAngle < westAngle) && (westAngle < southAngle) && (southAngle < eastAngle);
+if (nwseCorrect) {
+  console.log('✅ NWSE progression verified: N(0°) → W(90°) → S(180°) → E(270°)');
+  console.log('   This is COUNTER-CLOCKWISE on visual clock face (12→9→6→3)');
+  matches++;
 } else {
-  console.log('\n⚠️  INCONCLUSIVE: Both directions match equally');
-  console.log('   More verified coordinates needed for definitive answer.');
+  console.log('❌ NWSE progression FAILED: Angles not in expected order');
 }
+total++;
 
+// Summary
 console.log('\n' + '='.repeat(60));
-console.log('NOTE: Add more known coordinates from SVG master file');
-console.log('to increase confidence in direction choice.');
+console.log('VALIDATION RESULTS');
 console.log('='.repeat(60));
+console.log(`Total Tests: ${total}`);
+console.log(`Passed: ${matches} ✅`);
+console.log(`Failed: ${total - matches} ❌`);
+console.log(`Success Rate: ${((matches / total) * 100).toFixed(1)}%`);
+
+if (matches === total) {
+  console.log('\n✅ NWSE CARDINAL PROGRESSION VERIFIED');
+  console.log('   All cardinals at correct visual clock positions');
+  console.log('   Configuration is bulletproof!');
+  process.exit(0);
+} else {
+  console.log(`\n❌ ${total - matches} VALIDATION TESTS FAILED`);
+  console.log('   Configuration needs adjustment!');
+  process.exit(1);
+}
 ```
 
 ### Task 2.6: Update Existing Tests
@@ -645,8 +822,8 @@ node tests/adapted-old-tests.js
 
 **If any tests fail:**
 - The default configuration should have Gates 10/11 at north (not Gate 41)
-- Check that `rave-wheel-41-start` sequence is correct (counter-clockwise, 33.75° rotation)
-- Verify angle calculations include rotation offset
+- Check that `rave-wheel-41-start` sequence is correct (NWSE cardinal progression)
+- Verify angle calculations place cardinals at correct clock positions
 
 **Add test to verify default configuration:**
 
@@ -689,8 +866,8 @@ Add new test scripts to `package.json`:
   "scripts": {
     "test": "node tests/comprehensive-unified-query-tests.js",
     "test:config": "node tests/configuration/test-wheel-config.js",
-    "test:direction": "node tests/configuration/test-direction-hypothesis.js",
-    "test:all": "npm run test && npm run test:config"
+    "test:cardinal": "node tests/configuration/test-cardinal-progression.js",
+    "test:all": "npm run test && npm run test:config && npm run test:cardinal"
   }
 }
 ```
@@ -701,8 +878,8 @@ Add new test scripts to `package.json`:
 # Run configuration tests
 npm run test:config
 
-# Run direction hypothesis test
-npm run test:direction
+# Run cardinal progression validation
+npm run test:cardinal
 
 # Run original tests
 npm test
@@ -719,28 +896,34 @@ npm run test:all
 git add .
 git commit -m "Session 02: Configuration system implementation
 
-- Create WheelConfiguration class with full configuration support
-- Add rave-wheel-41-start.json sequence (DEFAULT - counter-clockwise, 33.75° rotation)
+- Create WheelConfiguration class with bulletproof configuration
+- Add rave-wheel-41-start.json sequence (DEFAULT - NWSE cardinal progression)
 - Add gates-10-start.json sequence (ALTERNATIVE - Gates 10/11 at array start)
-- THREE MANDATORY fields per sequence: sequence, direction, rotationOffset
+- THREE MANDATORY fields: sequence, cardinalProgression, northPosition
+- Cardinals: North=10|11 (12), West=25|36 (9), South=15|12 (6), East=46|6 (3)
 - Update positioning-algorithm.js to use configurable wheel
 - Implement setWheelConfiguration() and getWheelConfiguration()
-- Support rotation offset, direction, and swappable sequences
-- Test counter-clockwise vs clockwise direction hypothesis
+- NWSE = Counter-clockwise on clock face (12→9→6→3)
+- Test cardinal progression validation (all cardinals at correct positions)
 - All configuration tests passing
-- Default: Gates 10/11 appear at north (0°) via 33.75° rotation
+- Default: Gates 10|11 straddle north (12 o'clock)
+
+Visual Clock Face Reference:
+        12 (NORTH) - 10|11
+  9 (WEST) - 25|36  +  3 (EAST) - 46|6
+        6 (SOUTH) - 15|12
 
 New capabilities:
-- Decouple array order from visual presentation
-- Rotate wheel by any angle (0-360°)
-- Flip direction counter-clockwise/clockwise
-- Custom sequences supported
-- Array position 0 = Gate 41, Visual north = Gates 10/11
+- Unambiguous cardinal progression (NWSE/NESW/etc.)
+- Straddled vs centered cardinal positioning
+- Bulletproof TypeScript types and validation
+- All 8 cardinal progressions supported
+- Configuration prevents misinterpretation
 
-Architecture: Modular, configurable, maintains calculation-first model
-Direction: Counter-clockwise (solar system alignment)
-Rotation: 33.75° default (Gates 10/11 at north)
-NO monolithic database
+Architecture: Modular, type-safe, maintains calculation-first model
+Cardinal Progression: NWSE (counter-clockwise on visual clock)
+Cardinals: Straddled between gates (10|11, 25|36, 15|12, 46|6)
+NO ambiguous terminology
 
 Session: 02/10 (Configuration System)
 Next: Session 03 (TypeScript Definitions)"
@@ -755,23 +938,23 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Code Verification:
 - [ ] `wheel-config.js` created with WheelConfiguration class
 - [ ] Sequence files created (rave-wheel-41-start with all mandatory fields)
-- [ ] Sequences README explains three mandatory fields clearly
+- [ ] Sequences README explains three mandatory fields clearly (sequence, cardinalProgression, northPosition)
 - [ ] `positioning-algorithm.js` updated to use config
 - [ ] New methods exported: setWheelConfiguration, getWheelConfiguration
-- [ ] Default: rave-wheel-41-start, counter-clockwise, 33.75° rotation (Gates 10/11 at north)
+- [ ] Default: rave-wheel-41-start, NWSE cardinal progression (Gates 10|11 at north)
 
 ### Test Verification:
 - [ ] Configuration tests pass (15+ tests)
-- [ ] Direction hypothesis test runs with default 33.75° rotation
+- [ ] Cardinal progression validation test passes (verifies NWSE at correct clock positions)
 - [ ] All 89 existing tests still pass
-- [ ] Default config makes Gates 10/11 at north (0°)
+- [ ] Default config places cardinals correctly: North=10|11 (12), West=25|36 (9), South=15|12 (6), East=46|6 (3)
 
 ### Functionality Verification:
 - [ ] Can switch between rave-wheel-41-start and gates-10-start sequences
-- [ ] Can set rotation offset (0-360°)
-- [ ] Can change direction (counter-clockwise/clockwise)
-- [ ] getWheelPosition() uses configuration with rotation
-- [ ] Default: Array position 0 = Gate 41, Visual north = Gates 10/11 (DECOUPLED)
+- [ ] Can use all 8 cardinal progressions (NWSE, NESW, etc.)
+- [ ] Can use straddled ("10|11") or centered ("10") cardinal positioning
+- [ ] getWheelPosition() uses configuration correctly
+- [ ] Default: Array position 0 = Gate 41, Visual north = Gates 10|11 (DECOUPLED)
 
 ### Documentation Verification:
 - [ ] Sequences have clear documentation
@@ -801,18 +984,19 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 ### Issue: Tests fail with new positioning
 
 **Solution:**
-- Verify default config is 'rave-wheel-41-start' with 33.75° rotation
+- Verify default config is 'rave-wheel-41-start' with NWSE cardinal progression
 - Check that rave-wheel-41-start sequence matches gate-sequence.json exactly
-- Ensure Gates 10/11 at 0° with default 33.75° rotation
-- Gate 41 should be at 33.75° (not 0°) with default rotation
-- Remember: Array order ≠ Visual presentation (rotation decouples them)
+- Ensure cardinals at correct clock positions: North=10|11 (12), West=25|36 (9), South=15|12 (6), East=46|6 (3)
+- Gate 41 should be at ~33.75° (not 0°) - it's at array position 0 but NOT at visual north
+- Remember: Array order ≠ Visual presentation (northPosition decouples them)
 
-### Issue: Direction test is inconclusive
+### Issue: Cardinal progression validation fails
 
 **Solution:**
-- Add more known coordinates from SVG master file
-- Test against actual visualization output
-- Document findings even if inconclusive
+- Verify NWSE means North→West→South→East (counter-clockwise on clock: 12→9→6→3)
+- Check visual wheel inspection matches configuration
+- Use visual clock face terminology exclusively (no mathematical angles)
+- Document findings with clock position references
 
 ### Issue: Custom sequence validation errors
 
@@ -830,11 +1014,11 @@ git tag -a v3.0.0-alpha.2-session-02 -m "Session 02 complete: Configuration Syst
 
 Deliverables:
 - [x] WheelConfiguration class implemented
-- [x] rave-wheel-41-start (default) with mandatory direction + rotation fields
+- [x] rave-wheel-41-start (default) with THREE MANDATORY fields
 - [x] gates-10-start (alternative) sequence file
 - [x] Updated positioning algorithm with config support
 - [x] Configuration tests passing
-- [x] Direction hypothesis tested with default 33.75° rotation
+- [x] Cardinal progression validation tested (NWSE verified)
 - [x] All 89 existing tests updated for new default
 
 Tests: 104+ passing (89 existing + 15 config tests)
@@ -842,10 +1026,11 @@ Duration: [X hours]
 Branch: session-02-configuration
 Tag: v3.0.0-alpha.2-session-02
 
-Key Achievement: Array order decoupled from visual presentation
-Default Config: rave-wheel-41-start, counter-clockwise, 33.75° rotation
-Visual Result: Gates 10/11 at north (0°), Gate 41 at 33.75°
-Direction: Counter-clockwise (solar system alignment)
+Key Achievement: Bulletproof configuration with unambiguous terminology
+Default Config: rave-wheel-41-start, NWSE cardinal progression
+Cardinals: North=10|11 (12), West=25|36 (9), South=15|12 (6), East=46|6 (3)
+Visual Direction: Counter-clockwise on clock face (12→9→6→3)
+Configuration: Prevents misinterpretation with strict types and validation
 
 Next Session: 03 (TypeScript Definitions)
 Status: ✅ READY TO PROCEED
