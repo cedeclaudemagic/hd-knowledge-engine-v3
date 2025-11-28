@@ -54,7 +54,7 @@ if (allMatch) {
 }
 
 // Test 5: Verify binary patterns are correct (3 bits)
-const validPatterns = ['111', '000', '100', '010', '110', '001', '101', '011'];
+const validPatterns = ['111', '000', '100', '010', '001', '011', '101', '110'];
 const binaryPatterns = mappings.mappings.map(m => m.binaryPattern);
 const allValidBinary = binaryPatterns.every(b => validPatterns.includes(b));
 
@@ -106,16 +106,27 @@ if (allHaveFields) {
   failed++;
 }
 
-// Test 9: Verify specific binary-to-trigram mappings
+// Test 9: Verify CORRECT binary-to-trigram mappings
+// CRITICAL: Binary is read BOTTOM-TO-TOP (index 0 = Line 1 = bottom)
+// 
+// Heaven (111): all yang
+// Earth (000): all yin
+// Thunder (100): yang at BOTTOM (first movement)
+// Water (010): yang in MIDDLE (flowing between)
+// Mountain (001): yang at TOP (capping stillness below)
+// Wind (011): yin at BOTTOM, yang building above
+// Fire (101): yang at top and bottom, yin in middle (sustained oscillation)
+// Lake (110): yang foundation, yin opening at top
+//
 const expectedMappings = {
   '111': 'Heaven',
   '000': 'Earth',
   '100': 'Thunder',
   '010': 'Water',
-  '110': 'Mountain',
-  '001': 'Wind',
+  '001': 'Mountain',  // CORRECTED: yang at TOP caps stillness
+  '011': 'Wind',      // CORRECTED: yin at bottom, yang building above
   '101': 'Fire',
-  '011': 'Lake'
+  '110': 'Lake'       // CORRECTED: yang foundation, yin opening at top
 };
 
 let mappingsCorrect = true;
@@ -142,6 +153,61 @@ if (mappings.systemName === 'The 8 Trigrams' &&
   passed++;
 } else {
   console.log('❌ Test 10: Metadata is incorrect');
+  failed++;
+}
+
+// Test 11: Verify electromagnetic phase assignments
+const emPhaseTests = {
+  'Heaven': 'SEED',
+  'Lake': 'SEED',
+  'Fire': 'ACTIVATION',
+  'Thunder': 'ACTIVATION',
+  'Wind': 'ACCUMULATION',
+  'Water': 'ACCUMULATION',
+  'Mountain': 'MANIFESTATION',
+  'Earth': 'MANIFESTATION'
+};
+
+let emPhasesCorrect = true;
+for (const trigram of mappings.mappings) {
+  const expectedPhase = emPhaseTests[trigram.groupName];
+  if (!trigram.knowledge.emPhase || !trigram.knowledge.emPhase.startsWith(expectedPhase)) {
+    console.log(`❌ ${trigram.groupName} should be ${expectedPhase} phase`);
+    emPhasesCorrect = false;
+  }
+}
+
+if (emPhasesCorrect) {
+  console.log('✅ Test 11: Electromagnetic phases correctly assigned');
+  passed++;
+} else {
+  console.log('❌ Test 11: Some electromagnetic phase assignments incorrect');
+  failed++;
+}
+
+// Test 12: Verify trigram opposites (all bits flipped)
+const opposites = {
+  '111': '000', // Heaven ↔ Earth
+  '110': '001', // Lake ↔ Mountain
+  '101': '010', // Fire ↔ Water
+  '100': '011'  // Thunder ↔ Wind
+};
+
+let oppositesValid = true;
+for (const [binary1, binary2] of Object.entries(opposites)) {
+  const trigram1 = mappings.mappings.find(m => m.binaryPattern === binary1);
+  const trigram2 = mappings.mappings.find(m => m.binaryPattern === binary2);
+  if (!trigram1 || !trigram2) {
+    console.log(`❌ Missing trigram for opposite pair ${binary1} ↔ ${binary2}`);
+    oppositesValid = false;
+  }
+}
+
+if (oppositesValid) {
+  console.log('✅ Test 12: All opposite pairs present (Heaven↔Earth, Lake↔Mountain, Fire↔Water, Thunder↔Wind)');
+  passed++;
+} else {
+  console.log('❌ Test 12: Some opposite pairs missing');
   failed++;
 }
 

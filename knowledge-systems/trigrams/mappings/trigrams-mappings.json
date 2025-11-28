@@ -1,10 +1,12 @@
 {
   "systemName": "The 8 Trigrams",
-  "version": "1.0.0",
-  "description": "Traditional I Ching trigrams derived from 3-bit binary patterns",
+  "version": "1.1.0",
+  "description": "Traditional I Ching trigrams derived from 3-bit binary patterns. Binary read bottom-to-top: index 0 = Line 1 (bottom), index 2 = Line 3 (top).",
   "completeness": "full",
   "dataArchitecture": "grouping",
   "totalGroups": 8,
+  "binaryConvention": "bottom-to-top (Line1-Line2-Line3)",
+  "lastCorrected": "2025-11-28",
   "mappings": [
     {
       "groupName": "Heaven",
@@ -19,7 +21,8 @@
         "attribute": "Strength",
         "symbol": "Three unbroken lines",
         "meaning": "Creative force, initiative, leadership, strength",
-        "iching": "The Creative. Strong and tireless. Heaven's motion."
+        "iching": "The Creative. Strong and tireless. Heaven's motion.",
+        "emPhase": "SEED - Maximum charge, fully loaded potential that must express"
       }
     },
     {
@@ -35,7 +38,8 @@
         "attribute": "Devotion",
         "symbol": "Three broken lines",
         "meaning": "Receptivity, devotion, nourishment, yielding",
-        "iching": "The Receptive. Devoted yielding. Earth's nature."
+        "iching": "The Receptive. Devoted yielding. Earth's nature.",
+        "emPhase": "MANIFESTATION - Stable form, where structure crystallises and holds"
       }
     },
     {
@@ -46,12 +50,13 @@
       "knowledge": {
         "element": "Thunder",
         "quality": "Arousing, moving, shocking",
-        "nature": "Yang below yin - Movement and arousal",
+        "nature": "Yang at bottom - Movement initiating from below",
         "image": "Thunder, eldest son, spring",
         "attribute": "Movement",
-        "symbol": "Yang below two yin lines",
-        "meaning": "Shock, movement, arousal, new beginnings",
-        "iching": "The Arousing. Movement. Thunder that brings shock."
+        "symbol": "Yang at bottom, two yin above",
+        "meaning": "Shock, movement, arousal, new beginnings, discharge",
+        "iching": "The Arousing. Movement. Thunder that brings shock.",
+        "emPhase": "ACTIVATION - Discharge, the spark, impulse"
       }
     },
     {
@@ -62,44 +67,47 @@
       "knowledge": {
         "element": "Water",
         "quality": "Abysmal, dangerous, flowing",
-        "nature": "Yang between yin - Hidden danger",
+        "nature": "Yang in middle - Hidden current between stillness",
         "image": "Water, middle son, winter",
         "attribute": "Danger",
-        "symbol": "Yang between two yin lines",
-        "meaning": "Danger, depth, flowing, persistence",
-        "iching": "The Abysmal. Danger. Water that flows into the abyss."
+        "symbol": "Yang in middle, yin at top and bottom",
+        "meaning": "Danger, depth, flowing, persistence, current",
+        "iching": "The Abysmal. Danger. Water that flows into the abyss.",
+        "emPhase": "ACCUMULATION - Current flow, the path of least resistance"
       }
     },
     {
       "groupName": "Mountain",
       "chineseName": "艮",
       "pinyin": "Gèn",
-      "binaryPattern": "110",
+      "binaryPattern": "001",
       "knowledge": {
         "element": "Mountain",
         "quality": "Still, resting, stopping",
-        "nature": "Yang above yin - Stillness and contemplation",
+        "nature": "Yang at top capping yin below - Stillness and containment",
         "image": "Mountain, youngest son, transition",
         "attribute": "Stillness",
-        "symbol": "Yang above two yin lines",
-        "meaning": "Keeping still, meditation, boundaries, rest",
-        "iching": "Keeping Still. Rest. The mountain stands firm."
+        "symbol": "Yin at bottom and middle, yang at top",
+        "meaning": "Keeping still, meditation, boundaries, rest, storage",
+        "iching": "Keeping Still. Rest. The mountain stands firm.",
+        "emPhase": "MANIFESTATION - Storage, stillness, potential held before accumulation"
       }
     },
     {
       "groupName": "Wind",
       "chineseName": "巽",
       "pinyin": "Xùn",
-      "binaryPattern": "001",
+      "binaryPattern": "011",
       "knowledge": {
         "element": "Wood/Wind",
         "quality": "Gentle, penetrating, pervasive",
-        "nature": "Yin below yang - Gentle penetration",
+        "nature": "Yin at bottom with yang building above - Gradual accumulation",
         "image": "Wind, eldest daughter, wood",
         "attribute": "Penetration",
-        "symbol": "Yin below two yang lines",
-        "meaning": "Gentleness, penetration, gradual progress",
-        "iching": "The Gentle. Penetrating. Wind that disperses."
+        "symbol": "Yin at bottom, yang in middle and top",
+        "meaning": "Gentleness, penetration, gradual progress, inductance",
+        "iching": "The Gentle. Penetrating. Wind that disperses.",
+        "emPhase": "ACCUMULATION - Building pressure, inductance, persistent accumulation toward seed"
       }
     },
     {
@@ -110,28 +118,30 @@
       "knowledge": {
         "element": "Fire",
         "quality": "Clinging, dependent, illuminating",
-        "nature": "Yin between yang - Light and dependence",
+        "nature": "Yin in middle with yang at top and bottom - Sustained oscillation",
         "image": "Fire, middle daughter, lightning",
         "attribute": "Light",
-        "symbol": "Yin between two yang lines",
-        "meaning": "Light, clarity, dependence, beauty",
-        "iching": "The Clinging. Light. Fire that clings to fuel."
+        "symbol": "Yang at bottom and top, yin in middle",
+        "meaning": "Light, clarity, dependence, beauty, radiation",
+        "iching": "The Clinging. Light. Fire that clings to fuel.",
+        "emPhase": "ACTIVATION - Sustained oscillation, electromagnetic radiation, light"
       }
     },
     {
       "groupName": "Lake",
       "chineseName": "兌",
       "pinyin": "Duì",
-      "binaryPattern": "011",
+      "binaryPattern": "110",
       "knowledge": {
         "element": "Lake/Marsh",
         "quality": "Joyous, pleasing, open",
-        "nature": "Yin above yang - Joy and pleasure",
+        "nature": "Yang foundation with yin opening at top - Release beginning",
         "image": "Lake, youngest daughter, autumn",
         "attribute": "Joy",
-        "symbol": "Yin above two yang lines",
-        "meaning": "Joy, pleasure, openness, serenity",
-        "iching": "The Joyous. Pleasure. Lake that brings joy."
+        "symbol": "Yang at bottom and middle, yin at top",
+        "meaning": "Joy, pleasure, openness, serenity, capacitive discharge",
+        "iching": "The Joyous. Pleasure. Lake that brings joy.",
+        "emPhase": "SEED - The opening through which accumulated charge begins to release"
       }
     }
   ]

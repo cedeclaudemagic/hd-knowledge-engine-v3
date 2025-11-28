@@ -1,7 +1,7 @@
 {
   "systemName": "I Ching Gate Names",
-  "version": "1.0.0",
-  "description": "Traditional I Ching hexagram names for the 64 gates",
+  "version": "1.1.0",
+  "description": "Traditional I Ching hexagram names for the 64 gates. Trigrams calculated from binary (bottom-to-top).",
   "completeness": "full",
   "dataArchitecture": "gate-level",
   "mappings": [
@@ -39,8 +39,8 @@
         "chineseName": "屯 (Zhūn)",
         "hexagramNumber": 3,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Thunder"
         }
       }
     },
@@ -52,8 +52,8 @@
         "chineseName": "蒙 (Méng)",
         "hexagramNumber": 4,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Water"
         }
       }
     },
@@ -65,8 +65,8 @@
         "chineseName": "需 (Xū)",
         "hexagramNumber": 5,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Heaven"
         }
       }
     },
@@ -78,8 +78,8 @@
         "chineseName": "訟 (Sòng)",
         "hexagramNumber": 6,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Water"
         }
       }
     },
@@ -91,8 +91,8 @@
         "chineseName": "師 (Shī)",
         "hexagramNumber": 7,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Water"
         }
       }
     },
@@ -104,8 +104,8 @@
         "chineseName": "比 (Bǐ)",
         "hexagramNumber": 8,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Earth"
         }
       }
     },
@@ -117,8 +117,8 @@
         "chineseName": "小畜 (Xiǎo Chù)",
         "hexagramNumber": 9,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Heaven"
         }
       }
     },
@@ -130,8 +130,8 @@
         "chineseName": "履 (Lǚ)",
         "hexagramNumber": 10,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Lake"
         }
       }
     },
@@ -143,8 +143,8 @@
         "chineseName": "泰 (Tài)",
         "hexagramNumber": 11,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Heaven"
         }
       }
     },
@@ -156,8 +156,8 @@
         "chineseName": "否 (Pǐ)",
         "hexagramNumber": 12,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Earth"
         }
       }
     },
@@ -169,8 +169,8 @@
         "chineseName": "同人 (Tóng Rén)",
         "hexagramNumber": 13,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Fire"
         }
       }
     },
@@ -182,8 +182,8 @@
         "chineseName": "大有 (Dà Yǒu)",
         "hexagramNumber": 14,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Heaven"
         }
       }
     },
@@ -195,8 +195,8 @@
         "chineseName": "謙 (Qiān)",
         "hexagramNumber": 15,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Mountain"
         }
       }
     },
@@ -208,8 +208,8 @@
         "chineseName": "豫 (Yù)",
         "hexagramNumber": 16,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Earth"
         }
       }
     },
@@ -221,8 +221,8 @@
         "chineseName": "隨 (Suí)",
         "hexagramNumber": 17,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Thunder"
         }
       }
     },
@@ -234,7 +234,7 @@
         "chineseName": "蠱 (Gǔ)",
         "hexagramNumber": 18,
         "trigrams": {
-          "upper": "Lake",
+          "upper": "Mountain",
           "lower": "Wind"
         }
       }
@@ -247,8 +247,8 @@
         "chineseName": "臨 (Lín)",
         "hexagramNumber": 19,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Lake"
         }
       }
     },
@@ -260,8 +260,8 @@
         "chineseName": "觀 (Guān)",
         "hexagramNumber": 20,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Earth"
         }
       }
     },
@@ -273,8 +273,8 @@
         "chineseName": "噬嗑 (Shì Kè)",
         "hexagramNumber": 21,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Thunder"
         }
       }
     },
@@ -286,8 +286,8 @@
         "chineseName": "賁 (Bì)",
         "hexagramNumber": 22,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Fire"
         }
       }
     },
@@ -299,8 +299,8 @@
         "chineseName": "剝 (Bō)",
         "hexagramNumber": 23,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Earth"
         }
       }
     },
@@ -312,8 +312,8 @@
         "chineseName": "復 (Fù)",
         "hexagramNumber": 24,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Thunder"
         }
       }
     },
@@ -325,8 +325,8 @@
         "chineseName": "無妄 (Wú Wàng)",
         "hexagramNumber": 25,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Thunder"
         }
       }
     },
@@ -338,8 +338,8 @@
         "chineseName": "大畜 (Dà Chù)",
         "hexagramNumber": 26,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Heaven"
         }
       }
     },
@@ -351,8 +351,8 @@
         "chineseName": "頤 (Yí)",
         "hexagramNumber": 27,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Thunder"
         }
       }
     },
@@ -365,7 +365,7 @@
         "hexagramNumber": 28,
         "trigrams": {
           "upper": "Lake",
-          "lower": "Mountain"
+          "lower": "Wind"
         }
       }
     },
@@ -403,7 +403,7 @@
         "chineseName": "咸 (Xián)",
         "hexagramNumber": 31,
         "trigrams": {
-          "upper": "Wind",
+          "upper": "Lake",
           "lower": "Mountain"
         }
       }
@@ -416,8 +416,8 @@
         "chineseName": "恆 (Héng)",
         "hexagramNumber": 32,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Wind"
         }
       }
     },
@@ -429,8 +429,8 @@
         "chineseName": "遯 (Dùn)",
         "hexagramNumber": 33,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Mountain"
         }
       }
     },
@@ -442,8 +442,8 @@
         "chineseName": "大壯 (Dà Zhuàng)",
         "hexagramNumber": 34,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Heaven"
         }
       }
     },
@@ -455,8 +455,8 @@
         "chineseName": "晉 (Jìn)",
         "hexagramNumber": 35,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Earth"
         }
       }
     },
@@ -468,8 +468,8 @@
         "chineseName": "明夷 (Míng Yí)",
         "hexagramNumber": 36,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Fire"
         }
       }
     },
@@ -481,8 +481,8 @@
         "chineseName": "家人 (Jiā Rén)",
         "hexagramNumber": 37,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Fire"
         }
       }
     },
@@ -494,8 +494,8 @@
         "chineseName": "睽 (Kuí)",
         "hexagramNumber": 38,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Lake"
         }
       }
     },
@@ -507,8 +507,8 @@
         "chineseName": "蹇 (Jiǎn)",
         "hexagramNumber": 39,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Mountain"
         }
       }
     },
@@ -520,8 +520,8 @@
         "chineseName": "解 (Xiè)",
         "hexagramNumber": 40,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Water"
         }
       }
     },
@@ -534,7 +534,7 @@
         "hexagramNumber": 41,
         "trigrams": {
           "upper": "Mountain",
-          "lower": "Wind"
+          "lower": "Lake"
         }
       }
     },
@@ -546,8 +546,8 @@
         "chineseName": "益 (Yì)",
         "hexagramNumber": 42,
         "trigrams": {
-          "upper": "Thunder",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Thunder"
         }
       }
     },
@@ -559,8 +559,8 @@
         "chineseName": "夬 (Guài)",
         "hexagramNumber": 43,
         "trigrams": {
-          "upper": "Heaven",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Heaven"
         }
       }
     },
@@ -572,8 +572,8 @@
         "chineseName": "姤 (Gòu)",
         "hexagramNumber": 44,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Heaven"
+          "upper": "Heaven",
+          "lower": "Wind"
         }
       }
     },
@@ -585,8 +585,8 @@
         "chineseName": "萃 (Cuì)",
         "hexagramNumber": 45,
         "trigrams": {
-          "upper": "Earth",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Earth"
         }
       }
     },
@@ -598,8 +598,8 @@
         "chineseName": "升 (Shēng)",
         "hexagramNumber": 46,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Earth"
+          "upper": "Earth",
+          "lower": "Wind"
         }
       }
     },
@@ -611,8 +611,8 @@
         "chineseName": "困 (Kùn)",
         "hexagramNumber": 47,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Water"
         }
       }
     },
@@ -624,8 +624,8 @@
         "chineseName": "井 (Jǐng)",
         "hexagramNumber": 48,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Wind"
         }
       }
     },
@@ -637,8 +637,8 @@
         "chineseName": "革 (Gé)",
         "hexagramNumber": 49,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Fire"
         }
       }
     },
@@ -650,8 +650,8 @@
         "chineseName": "鼎 (Dǐng)",
         "hexagramNumber": 50,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Wind"
         }
       }
     },
@@ -676,8 +676,8 @@
         "chineseName": "艮 (Gèn)",
         "hexagramNumber": 52,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Wind"
+          "upper": "Mountain",
+          "lower": "Mountain"
         }
       }
     },
@@ -690,7 +690,7 @@
         "hexagramNumber": 53,
         "trigrams": {
           "upper": "Wind",
-          "lower": "Lake"
+          "lower": "Mountain"
         }
       }
     },
@@ -702,8 +702,8 @@
         "chineseName": "歸妹 (Guī Mèi)",
         "hexagramNumber": 54,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Lake"
         }
       }
     },
@@ -715,8 +715,8 @@
         "chineseName": "豐 (Fēng)",
         "hexagramNumber": 55,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Fire"
         }
       }
     },
@@ -728,8 +728,8 @@
         "chineseName": "旅 (Lǚ)",
         "hexagramNumber": 56,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Mountain"
         }
       }
     },
@@ -741,8 +741,8 @@
         "chineseName": "巽 (Xùn)",
         "hexagramNumber": 57,
         "trigrams": {
-          "upper": "Lake",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Wind"
         }
       }
     },
@@ -754,8 +754,8 @@
         "chineseName": "兌 (Duì)",
         "hexagramNumber": 58,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Mountain"
+          "upper": "Lake",
+          "lower": "Lake"
         }
       }
     },
@@ -767,8 +767,8 @@
         "chineseName": "渙 (Huàn)",
         "hexagramNumber": 59,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Lake"
+          "upper": "Wind",
+          "lower": "Water"
         }
       }
     },
@@ -780,8 +780,8 @@
         "chineseName": "節 (Jié)",
         "hexagramNumber": 60,
         "trigrams": {
-          "upper": "Mountain",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Lake"
         }
       }
     },
@@ -793,7 +793,7 @@
         "chineseName": "中孚 (Zhōng Fú)",
         "hexagramNumber": 61,
         "trigrams": {
-          "upper": "Mountain",
+          "upper": "Wind",
           "lower": "Lake"
         }
       }
@@ -806,8 +806,8 @@
         "chineseName": "小過 (Xiǎo Guò)",
         "hexagramNumber": 62,
         "trigrams": {
-          "upper": "Wind",
-          "lower": "Thunder"
+          "upper": "Thunder",
+          "lower": "Mountain"
         }
       }
     },
@@ -819,8 +819,8 @@
         "chineseName": "既濟 (Jì Jì)",
         "hexagramNumber": 63,
         "trigrams": {
-          "upper": "Fire",
-          "lower": "Water"
+          "upper": "Water",
+          "lower": "Fire"
         }
       }
     },
@@ -832,10 +832,11 @@
         "chineseName": "未濟 (Wèi Jì)",
         "hexagramNumber": 64,
         "trigrams": {
-          "upper": "Water",
-          "lower": "Fire"
+          "upper": "Fire",
+          "lower": "Water"
         }
       }
     }
-  ]
+  ],
+  "lastCorrected": "2025-11-28"
 }
