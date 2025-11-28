@@ -103,11 +103,19 @@ function getFace(gateNumber) {
 
 /**
  * Calculate Trigrams from binary (upper and lower 3 bits)
+ *
+ * IMPORTANT: Binary strings are stored BOTTOM-TO-TOP
+ * - Index 0 = Line 1 (bottom)
+ * - Index 5 = Line 6 (top)
+ *
+ * Therefore:
+ * - substring(0, 3) = Lines 1-3 = LOWER trigram
+ * - substring(3, 6) = Lines 4-6 = UPPER trigram
  */
 function getTrigrams(gateNumber) {
   const binary = getBinaryPattern(gateNumber);
-  const upper = binary.substring(0, 3);  // Lines 4-6 (top)
-  const lower = binary.substring(3, 6);  // Lines 1-3 (bottom)
+  const lower = binary.substring(0, 3);  // Lines 1-3 (bottom) - LOWER trigram
+  const upper = binary.substring(3, 6);  // Lines 4-6 (top) - UPPER trigram
 
   const trigramMap = {
     '111': 'Heaven', '000': 'Earth', '001': 'Mountain', '100': 'Thunder',

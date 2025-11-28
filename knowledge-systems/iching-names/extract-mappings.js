@@ -3,16 +3,17 @@
 const fs = require('fs');
 const path = require('path');
 
-// Trigram mappings
+// Trigram mappings (binary patterns read bottom-to-top)
+// CORRECTED: Standard I Ching trigram binary patterns
 const trigramMap = {
-  '111': { name: 'Heaven', chinese: '乾', pinyin: 'Qián' },
-  '000': { name: 'Earth', chinese: '坤', pinyin: 'Kūn' },
-  '100': { name: 'Thunder', chinese: '震', pinyin: 'Zhèn' },
-  '010': { name: 'Water', chinese: '坎', pinyin: 'Kǎn' },
-  '110': { name: 'Mountain', chinese: '艮', pinyin: 'Gèn' },
-  '001': { name: 'Wind', chinese: '巽', pinyin: 'Xùn' },
-  '101': { name: 'Fire', chinese: '離', pinyin: 'Lí' },
-  '011': { name: 'Lake', chinese: '兌', pinyin: 'Duì' }
+  '111': { name: 'Heaven', chinese: '乾', pinyin: 'Qián' },   // ☰ All yang
+  '000': { name: 'Earth', chinese: '坤', pinyin: 'Kūn' },     // ☷ All yin
+  '100': { name: 'Thunder', chinese: '震', pinyin: 'Zhèn' },  // ☳ Yang at bottom
+  '010': { name: 'Water', chinese: '坎', pinyin: 'Kǎn' },     // ☵ Yang in middle
+  '001': { name: 'Mountain', chinese: '艮', pinyin: 'Gèn' },  // ☶ Yang at top
+  '011': { name: 'Wind', chinese: '巽', pinyin: 'Xùn' },      // ☴ Yin at bottom
+  '101': { name: 'Fire', chinese: '離', pinyin: 'Lí' },       // ☲ Yin in middle
+  '110': { name: 'Lake', chinese: '兌', pinyin: 'Duì' }       // ☱ Yin at top
 };
 
 // I Ching Chinese names (hexagram number to Chinese)
@@ -36,8 +37,9 @@ const chineseNames = {
 };
 
 function getTrigramsFromBinary(binary) {
-  const upper = binary.substring(0, 3);
-  const lower = binary.substring(3, 6);
+  // Binary stored bottom-to-top: index 0 = Line 1 (bottom)
+  const lower = binary.substring(0, 3);  // Lines 1-3 = LOWER trigram
+  const upper = binary.substring(3, 6);  // Lines 4-6 = UPPER trigram
   return {
     upper: trigramMap[upper].name,
     lower: trigramMap[lower].name
