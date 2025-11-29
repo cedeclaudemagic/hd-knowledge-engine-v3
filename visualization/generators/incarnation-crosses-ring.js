@@ -36,25 +36,34 @@ const RING_RADII = {
   top: 2266.954           // Outermost boundary
 };
 
+// Text position within band (extracted from master SVG analysis)
+// Master positions text at ~72% from inner edge (not at center)
+// RAX: 71.9%, JX: 71.8%, LAX: 69.1%
+const TEXT_POSITION_RATIO = {
+  rax: 0.719,   // Text at 71.9% from inner edge
+  jx: 0.718,    // Text at 71.8% from inner edge
+  lax: 0.691    // Text at 69.1% from inner edge
+};
+
 // Three text bands (from center outward)
 const BANDS = {
   rax: {
     innerRadius: RING_RADII.bottom,
     outerRadius: RING_RADII.lowerInner,
-    get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
-    get bandWidth() { return this.outerRadius - this.innerRadius; }
+    get bandWidth() { return this.outerRadius - this.innerRadius; },
+    get midRadius() { return this.innerRadius + this.bandWidth * TEXT_POSITION_RATIO.rax; }
   },
   jx: {
     innerRadius: RING_RADII.lowerInner,
     outerRadius: RING_RADII.upperInner,
-    get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
-    get bandWidth() { return this.outerRadius - this.innerRadius; }
+    get bandWidth() { return this.outerRadius - this.innerRadius; },
+    get midRadius() { return this.innerRadius + this.bandWidth * TEXT_POSITION_RATIO.jx; }
   },
   lax: {
     innerRadius: RING_RADII.upperInner,
     outerRadius: RING_RADII.top,
-    get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
-    get bandWidth() { return this.outerRadius - this.innerRadius; }
+    get bandWidth() { return this.outerRadius - this.innerRadius; },
+    get midRadius() { return this.innerRadius + this.bandWidth * TEXT_POSITION_RATIO.lax; }
   }
 };
 
@@ -168,9 +177,21 @@ function generateRingCircles(stroke, strokeWidth) {
     <circle cx="${CENTER.x}" cy="${CENTER.y}" r="${RING_RADII.top}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>`;
 }
 
+// Tick mark geometry (extracted from master SVG analysis)
+// Each tick is ~30px, centered slightly outside each ring circle
+const TICK_LENGTH = 30;
+const TICK_CENTERS = {
+  // Tick center radii (from master analysis)
+  bottom: 2012.70,      // Ring at 2000.10, tick centered ~13px outside
+  lowerInner: 2093.38,  // Ring at 2086.57, tick centered ~7px outside
+  upperInner: 2174.06,  // Ring at 2177.81, tick centered ~4px inside
+  top: 2254.73          // Ring at 2266.95, tick centered ~12px inside
+};
+
 /**
- * Generate divider lines for 64 segments
- * Note: Dividers span all three bands
+ * Generate divider tick marks for 64 segments
+ * Each divider consists of 4 SHORT tick marks (~30px each),
+ * one at each ring boundary, NOT one continuous radial line.
  */
 function generateDividers(stroke, strokeWidth) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
@@ -183,12 +204,25 @@ function generateDividers(stroke, strokeWidth) {
     // Divider at start of gate segment (offset by half segment width)
     const dividerAngle = angle - 2.8125; // Half of 5.625 degree segment
 
-    // Inner point (at innermost ring)
-    const innerPos = calculatePosition(dividerAngle, RING_RADII.bottom);
-    // Outer point (at outermost ring)
-    const outerPos = calculatePosition(dividerAngle, RING_RADII.top);
+    const halfTick = TICK_LENGTH / 2;
 
-    dividers += `    <line x1="${innerPos.x.toFixed(4)}" y1="${innerPos.y.toFixed(4)}" x2="${outerPos.x.toFixed(4)}" y2="${outerPos.y.toFixed(4)}" stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
+    // Generate 4 tick marks per position (matching master SVG structure)
+    const tickNames = ['BOTTOM', 'LOWER_INNER', 'UPPER_INNER', 'TOP'];
+    const tickCenterKeys = ['bottom', 'lowerInner', 'upperInner', 'top'];
+
+    dividers += `      <g id="_${gate}" data-name=" ${gate}">\n`;
+
+    for (let i = 0; i < 4; i++) {
+      const tickCenter = TICK_CENTERS[tickCenterKeys[i]];
+
+      // Tick extends from center+halfTick to center-halfTick (radially inward)
+      const outerPos = calculatePosition(dividerAngle, tickCenter + halfTick);
+      const innerPos = calculatePosition(dividerAngle, tickCenter - halfTick);
+
+      dividers += `        <line id="${tickNames[i]}" x1="${outerPos.x.toFixed(4)}" y1="${outerPos.y.toFixed(4)}" x2="${innerPos.x.toFixed(4)}" y2="${innerPos.y.toFixed(4)}" stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
+    }
+
+    dividers += `      </g>\n`;
   }
 
   return dividers;
@@ -288,8 +322,11 @@ module.exports = {
   CENTER,
   RING_RADII,
   BANDS,
+  TEXT_POSITION_RATIO,
   FONT,
   COLORS,
+  TICK_LENGTH,
+  TICK_CENTERS,
   crossesData,
   calculateSVGAngle,
   calculateRotation,

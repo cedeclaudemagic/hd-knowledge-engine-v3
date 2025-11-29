@@ -44,7 +44,7 @@ V3 Knowledge Engine (unified-query-engine.js)
 | **I Ching Names** | `iching-names-ring.js` | `ichingName` | 44 | Traditional I Ching hexagram names |
 | **Gate Names** | `gate-names-ring.js` | `mandalaGateName` | 28 | HD mandala gate names |
 | **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 37 | 3-ring Gene Keys spectrum |
-| **Incarnation Crosses** | `incarnation-crosses-ring.js` | `crosses-display-mappings.json` | 30 | 192 crosses (JX/RAX/LAX) |
+| **Incarnation Crosses** | `incarnation-crosses-ring.js` | `crosses-display-mappings.json` | 35 | 192 crosses (JX/RAX/LAX) with 256 tick mark dividers |
 
 ## Key Principles
 
@@ -260,4 +260,4 @@ See `docs/reference/SVG-GENERATION-METHODOLOGY.md` for detailed methodology.
 ---
 
 *Last updated: 29 November 2025*
-*Status: 6 rings working (139+ tests), docked to V3 engine*
+*Status: 6 rings working (144+ tests), docked to V3 engine*

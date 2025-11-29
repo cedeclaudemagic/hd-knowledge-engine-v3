@@ -186,6 +186,14 @@ test('Position formula produces valid coordinates', () => {
   assertClose(distFromCenter, generator.BANDS.jx.midRadius, 1, 'Should be at JX mid radius');
 });
 
+test('Text positions match master SVG (at ~72% not 50%)', () => {
+  // Master SVG positions text at ~72% from inner edge, not band center
+  // These values extracted from the-192-crosses-verified-master.svg
+  assertClose(generator.BANDS.rax.midRadius, 2062.27, 0.5, 'RAX text radius');
+  assertClose(generator.BANDS.jx.midRadius, 2152.06, 0.5, 'JX text radius');
+  assertClose(generator.BANDS.lax.midRadius, 2239.45, 0.5, 'LAX text radius');
+});
+
 test('All 64 positions are unique', () => {
   const positions = [];
 
@@ -301,9 +309,81 @@ test('Generated SVG includes gate numbers', () => {
 });
 
 // ============================================================================
-// Test 8: Consistency with Other Ring Generators
+// Test 8: Tick Mark Dividers
 // ============================================================================
-console.log('\n8. Consistency with Other Ring Generators');
+console.log('\n8. Tick Mark Dividers');
+
+test('Generated SVG has 64 divider groups', () => {
+  const svg = generator.generateIncarnationCrossesRing();
+  const dividerGroups = svg.match(/id="_\d+"/g);
+  if (!dividerGroups || dividerGroups.length !== 64) {
+    throw new Error(`Expected 64 divider groups, found ${dividerGroups ? dividerGroups.length : 0}`);
+  }
+});
+
+test('Each divider has 4 tick marks (256 total)', () => {
+  const svg = generator.generateIncarnationCrossesRing();
+  // Count total tick lines (BOTTOM, LOWER_INNER, UPPER_INNER, TOP)
+  // 64 gates * 4 ticks each = 256 tick lines
+  const allLines = svg.match(/<line id="(BOTTOM|LOWER_INNER|UPPER_INNER|TOP)"/g);
+  if (!allLines || allLines.length !== 256) {
+    throw new Error(`Expected 256 tick lines, found ${allLines ? allLines.length : 0}`);
+  }
+});
+
+test('Tick marks are approximately 30px long', () => {
+  const svg = generator.generateIncarnationCrossesRing();
+
+  // Extract first BOTTOM tick line coordinates
+  const bottomMatch = svg.match(/<line id="BOTTOM" x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"/);
+  if (!bottomMatch) throw new Error('Could not find BOTTOM tick');
+
+  const x1 = parseFloat(bottomMatch[1]);
+  const y1 = parseFloat(bottomMatch[2]);
+  const x2 = parseFloat(bottomMatch[3]);
+  const y2 = parseFloat(bottomMatch[4]);
+
+  const length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+  assertClose(length, 30, 0.5, 'Tick should be ~30px');
+});
+
+test('Tick marks match master positions within 1px', () => {
+  // Master divider for gate 41 boundary (from the-192-crosses-verified-master.svg)
+  const masterTicks = {
+    bottom: { x1: 1143.3135, y1: 583.8081 },
+    lowerInner: { x1: 1098.4897, y1: 516.7247 },
+    upperInner: { x1: 1053.6663, y1: 449.6414 },
+    top: { x1: 1008.8426, y1: 382.5581 }
+  };
+
+  const svg = generator.generateIncarnationCrossesRing();
+
+  // Find gate 41 divider group
+  const gate41Match = svg.match(/<g id="_41"[^>]*>([\s\S]*?)<\/g>/);
+  if (!gate41Match) throw new Error('Could not find gate 41 divider');
+
+  const gate41Content = gate41Match[1];
+
+  // Extract BOTTOM tick
+  const bottomMatch = gate41Content.match(/<line id="BOTTOM" x1="([\d.]+)" y1="([\d.]+)"/);
+  if (!bottomMatch) throw new Error('Could not find BOTTOM tick in gate 41');
+
+  const genX1 = parseFloat(bottomMatch[1]);
+  const genY1 = parseFloat(bottomMatch[2]);
+
+  // Check position matches master within 1px
+  const xDiff = Math.abs(genX1 - masterTicks.bottom.x1);
+  const yDiff = Math.abs(genY1 - masterTicks.bottom.y1);
+
+  if (xDiff > 1 || yDiff > 1) {
+    throw new Error(`Gate 41 BOTTOM tick position differs by (${xDiff.toFixed(2)}, ${yDiff.toFixed(2)}) from master`);
+  }
+});
+
+// ============================================================================
+// Test 9: Consistency with Other Ring Generators
+// ============================================================================
+console.log('\n9. Consistency with Other Ring Generators');
 
 test('Uses same position offset as other rings (323.4375)', () => {
   const gate41V3Angle = 0; // Gate 41 is at V3 angle 0
