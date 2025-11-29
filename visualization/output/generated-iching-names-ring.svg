@@ -1,0 +1,784 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2670.4324"
+     height="2670.4324"
+     viewBox="0 0 2670.4324 2670.4324">
+  <rect id="background" width="100%" height="100%" fill="#151E25"/>
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="RING_-_INNER" cx="1335.2162" cy="1335.2162" r="1259.3041" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" cx="1335.2162" cy="1335.2162" r="1334.9662" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="DIVIDERS">
+      <line id="LINE_-_41_19" x1="489.5914" y1="304.8194" x2="535.0533" y2="360.2149" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_13" x1="392.6668" y1="392.6668" x2="443.3395" y2="443.3395" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_49" x1="304.8194" y1="489.5914" x2="360.2149" y2="535.0533" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_30" x1="226.8953" y1="594.6599" x2="286.4802" y2="634.4732" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_55" x1="159.6450" y1="706.8603" x2="222.8453" y2="740.6416" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_37" x1="103.7160" y1="825.1121" x2="169.9232" y2="852.5360" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_63" x1="59.6471" y1="948.2765" x2="128.2234" y2="969.0789" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_22" x1="27.8626" y1="1075.1674" x2="98.1477" y2="1089.1480" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_36" x1="8.6686" y1="1204.5627" x2="79.9856" y2="1211.5868" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_25" x1="2.2500" y1="1335.2162" x2="73.9121" y2="1335.2162" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_17" x1="8.6686" y1="1465.8697" x2="79.9856" y2="1458.8456" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_21" x1="27.8626" y1="1595.2650" x2="98.1477" y2="1581.2844" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_51" x1="59.6471" y1="1722.1559" x2="128.2234" y2="1701.3535" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_42" x1="103.7160" y1="1845.3203" x2="169.9232" y2="1817.8964" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_3" x1="159.6450" y1="1963.5721" x2="222.8453" y2="1929.7908" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_27" x1="226.8953" y1="2075.7725" x2="286.4802" y2="2035.9592" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_24" x1="304.8194" y1="2180.8410" x2="360.2149" y2="2135.3791" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_2" x1="392.6668" y1="2277.7656" x2="443.3395" y2="2227.0929" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_23" x1="489.5914" y1="2365.6130" x2="535.0533" y2="2310.2175" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_8" x1="594.6599" y1="2443.5371" x2="634.4732" y2="2383.9522" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_20" x1="706.8603" y1="2510.7874" x2="740.6416" y2="2447.5871" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_16" x1="825.1121" y1="2566.7164" x2="852.5360" y2="2500.5092" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_35" x1="948.2765" y1="2610.7853" x2="969.0789" y2="2542.2090" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_45" x1="1075.1674" y1="2642.5698" x2="1089.1480" y2="2572.2847" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_12" x1="1204.5627" y1="2661.7638" x2="1211.5868" y2="2590.4468" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_15" x1="1335.2162" y1="2668.1824" x2="1335.2162" y2="2596.5203" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_52" x1="1465.8697" y1="2661.7638" x2="1458.8456" y2="2590.4468" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_39" x1="1595.2650" y1="2642.5698" x2="1581.2844" y2="2572.2847" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_53" x1="1722.1559" y1="2610.7853" x2="1701.3535" y2="2542.2090" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_62" x1="1845.3203" y1="2566.7164" x2="1817.8964" y2="2500.5092" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_56" x1="1963.5721" y1="2510.7874" x2="1929.7908" y2="2447.5871" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_31" x1="2075.7725" y1="2443.5371" x2="2035.9592" y2="2383.9522" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_33" x1="2180.8410" y1="2365.6130" x2="2135.3791" y2="2310.2175" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_7" x1="2277.7656" y1="2277.7656" x2="2227.0929" y2="2227.0929" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_4" x1="2365.6130" y1="2180.8410" x2="2310.2175" y2="2135.3791" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_29" x1="2443.5371" y1="2075.7725" x2="2383.9522" y2="2035.9592" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_59" x1="2510.7874" y1="1963.5721" x2="2447.5871" y2="1929.7908" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_40" x1="2566.7164" y1="1845.3203" x2="2500.5092" y2="1817.8964" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_64" x1="2610.7853" y1="1722.1559" x2="2542.2090" y2="1701.3535" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_47" x1="2642.5698" y1="1595.2650" x2="2572.2847" y2="1581.2844" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_6" x1="2661.7638" y1="1465.8697" x2="2590.4468" y2="1458.8456" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_46" x1="2668.1824" y1="1335.2162" x2="2596.5203" y2="1335.2162" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_18" x1="2661.7638" y1="1204.5627" x2="2590.4468" y2="1211.5868" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_48" x1="2642.5698" y1="1075.1674" x2="2572.2847" y2="1089.1480" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_57" x1="2610.7853" y1="948.2765" x2="2542.2090" y2="969.0789" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_32" x1="2566.7164" y1="825.1121" x2="2500.5092" y2="852.5360" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_50" x1="2510.7874" y1="706.8603" x2="2447.5871" y2="740.6416" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_28" x1="2443.5371" y1="594.6599" x2="2383.9522" y2="634.4732" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_44" x1="2365.6130" y1="489.5914" x2="2310.2175" y2="535.0533" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_1" x1="2277.7656" y1="392.6668" x2="2227.0929" y2="443.3395" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_43" x1="2180.8410" y1="304.8194" x2="2135.3791" y2="360.2149" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_14" x1="2075.7725" y1="226.8953" x2="2035.9592" y2="286.4802" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_34" x1="1963.5721" y1="159.6450" x2="1929.7908" y2="222.8453" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_9" x1="1845.3203" y1="103.7160" x2="1817.8964" y2="169.9232" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_5" x1="1722.1559" y1="59.6471" x2="1701.3535" y2="128.2234" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_26" x1="1595.2650" y1="27.8626" x2="1581.2844" y2="98.1477" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_11" x1="1465.8697" y1="8.6686" x2="1458.8456" y2="79.9856" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_10" x1="1335.2162" y1="2.2500" x2="1335.2162" y2="73.9121" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_58" x1="1204.5627" y1="8.6686" x2="1211.5868" y2="79.9856" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_58_38" x1="1075.1674" y1="27.8626" x2="1089.1480" y2="98.1477" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_54" x1="948.2765" y1="59.6471" x2="969.0789" y2="128.2234" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_61" x1="825.1121" y1="103.7160" x2="852.5360" y2="169.9232" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_60" x1="706.8603" y1="159.6450" x2="740.6416" y2="222.8453" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_41" x1="594.6599" y1="226.8953" x2="634.4732" y2="286.4802" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="ICHING_NAMES" fill="#FFFFFF">
+  <text
+     data-gate="41"
+     data-iching-name="Decrease"
+     transform="translate(562.5137 293.3475) rotate(323.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Decrease</text>
+  <text
+     data-gate="19"
+     data-iching-name="Approach"
+     transform="translate(464.1135 374.1025) rotate(317.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Approach</text>
+  <text
+     data-gate="13"
+     data-iching-name="Fellowship"
+     transform="translate(374.1025 464.1135) rotate(312.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Fellowship</text>
+  <text
+     data-gate="49"
+     data-iching-name="Revolution"
+     transform="translate(293.3475 562.5137) rotate(306.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Revolution</text>
+  <text
+     data-gate="30"
+     data-iching-name="Clinging Fire"
+     transform="translate(222.6263 668.3555) rotate(300.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Clinging</tspan><tspan x="0" dy="15.62" font-size="19.00">Fire</tspan></text>
+  <text
+     data-gate="55"
+     data-iching-name="Abundance"
+     transform="translate(162.6199 780.6195) rotate(295.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Abundance</text>
+  <text
+     data-gate="37"
+     data-iching-name="The Family"
+     transform="translate(113.9063 898.2245) rotate(289.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">The Family</text>
+  <text
+     data-gate="63"
+     data-iching-name="After Completion"
+     transform="translate(76.9546 1020.0381) rotate(284.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">After</tspan><tspan x="0" dy="15.62" font-size="19.00">Completion</tspan></text>
+  <text
+     data-gate="22"
+     data-iching-name="Grace"
+     transform="translate(52.1206 1144.8869) rotate(278.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Grace</text>
+  <text
+     data-gate="36"
+     data-iching-name="Darkening of the Light"
+     transform="translate(39.6435 1271.5688) rotate(272.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="19.00">Darkening</tspan><tspan x="0" dy="15.62" font-size="19.00">of</tspan><tspan x="0" dy="15.62" font-size="19.00">The Light</tspan></text>
+  <text
+     data-gate="25"
+     data-iching-name="Innocence"
+     transform="translate(39.6435 1398.8636) rotate(267.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Innocence</text>
+  <text
+     data-gate="17"
+     data-iching-name="Following"
+     transform="translate(52.1206 1525.5455) rotate(261.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Following</text>
+  <text
+     data-gate="21"
+     data-iching-name="Biting Through"
+     transform="translate(76.9546 1650.3943) rotate(255.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Biting</tspan><tspan x="0" dy="15.62" font-size="19.00">Through</tspan></text>
+  <text
+     data-gate="51"
+     data-iching-name="The Arousing"
+     transform="translate(113.9063 1772.2079) rotate(250.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Arousing</tspan></text>
+  <text
+     data-gate="42"
+     data-iching-name="Increase"
+     transform="translate(162.6199 1889.8129) rotate(244.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Increase</text>
+  <text
+     data-gate="3"
+     data-iching-name="Difficulty at the Beginning"
+     transform="translate(222.6263 2002.0769) rotate(239.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="19.00">Difficulty</tspan><tspan x="0" dy="15.62" font-size="19.00">At the</tspan><tspan x="0" dy="15.62" font-size="19.00">Beginning</tspan></text>
+  <text
+     data-gate="27"
+     data-iching-name="Nourishment"
+     transform="translate(293.3475 2107.9187) rotate(233.4375) scale(1 1.2)"
+     font-size="17.42"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Nourishment</text>
+  <text
+     data-gate="24"
+     data-iching-name="Return"
+     transform="translate(374.1025 2206.3189) rotate(227.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Return</text>
+  <text
+     data-gate="2"
+     data-iching-name="The Receptive"
+     transform="translate(464.1135 2296.3299) rotate(222.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Receptive</tspan></text>
+  <text
+     data-gate="23"
+     data-iching-name="Splitting Apart"
+     transform="translate(562.5137 2377.0849) rotate(216.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Splitting</tspan><tspan x="0" dy="15.62" font-size="19.00">Apart</tspan></text>
+  <text
+     data-gate="8"
+     data-iching-name="Holding Together"
+     transform="translate(668.3555 2447.8061) rotate(210.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Holding</tspan><tspan x="0" dy="15.62" font-size="19.00">Together</tspan></text>
+  <text
+     data-gate="20"
+     data-iching-name="Contemplation"
+     transform="translate(780.6195 2507.8125) rotate(205.3125) scale(1 1.2)"
+     font-size="15.84"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Contemplation</text>
+  <text
+     data-gate="16"
+     data-iching-name="Enthusiasm"
+     transform="translate(898.2245 2556.5261) rotate(199.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Enthusiasm</text>
+  <text
+     data-gate="35"
+     data-iching-name="Progress"
+     transform="translate(1020.0381 2593.4778) rotate(194.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Progress</text>
+  <text
+     data-gate="45"
+     data-iching-name="Gathering Together"
+     transform="translate(1144.8869 2618.3118) rotate(188.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Gathering</tspan><tspan x="0" dy="15.62" font-size="19.00">Together</tspan></text>
+  <text
+     data-gate="12"
+     data-iching-name="Standstill"
+     transform="translate(1271.5688 2630.7889) rotate(182.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Standstill</text>
+  <text
+     data-gate="15"
+     data-iching-name="Modesty"
+     transform="translate(1398.8636 2630.7889) rotate(177.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Modesty</text>
+  <text
+     data-gate="52"
+     data-iching-name="Keeping Still"
+     transform="translate(1525.5455 2618.3118) rotate(171.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Keeping</tspan><tspan x="0" dy="15.62" font-size="19.00">Still</tspan></text>
+  <text
+     data-gate="39"
+     data-iching-name="Obstruction"
+     transform="translate(1650.3943 2593.4778) rotate(165.9375) scale(1 1.2)"
+     font-size="18.22"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Obstruction</text>
+  <text
+     data-gate="53"
+     data-iching-name="Development"
+     transform="translate(1772.2079 2556.5261) rotate(160.3125) scale(1 1.2)"
+     font-size="17.42"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Development</text>
+  <text
+     data-gate="62"
+     data-iching-name="Preponderance of the Small"
+     transform="translate(1889.8129 2507.8125) rotate(154.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="15.05">Preponderance</tspan><tspan x="0" dy="15.62" font-size="19.00">of</tspan><tspan x="0" dy="15.62" font-size="19.00">the Small</tspan></text>
+  <text
+     data-gate="56"
+     data-iching-name="The Wanderer"
+     transform="translate(2002.0769 2447.8061) rotate(149.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Wanderer</tspan></text>
+  <text
+     data-gate="31"
+     data-iching-name="Influence"
+     transform="translate(2107.9187 2377.0849) rotate(143.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Influence</text>
+  <text
+     data-gate="33"
+     data-iching-name="Retreat"
+     transform="translate(2206.3189 2296.3299) rotate(137.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Retreat</text>
+  <text
+     data-gate="7"
+     data-iching-name="The Army"
+     transform="translate(2296.3299 2206.3189) rotate(132.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">The Army</text>
+  <text
+     data-gate="4"
+     data-iching-name="Youthful Folly"
+     transform="translate(2377.0849 2107.9187) rotate(126.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Youthful</tspan><tspan x="0" dy="15.62" font-size="19.00">Folly</tspan></text>
+  <text
+     data-gate="29"
+     data-iching-name="The Abysmal"
+     transform="translate(2447.8061 2002.0769) rotate(120.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Abysmal</tspan></text>
+  <text
+     data-gate="59"
+     data-iching-name="Dispersion"
+     transform="translate(2507.8125 1889.8129) rotate(115.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Dispersion</text>
+  <text
+     data-gate="40"
+     data-iching-name="Deliverance"
+     transform="translate(2556.5261 1772.2079) rotate(109.6875) scale(1 1.2)"
+     font-size="18.22"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Deliverance</text>
+  <text
+     data-gate="64"
+     data-iching-name="Before Completion"
+     transform="translate(2593.4778 1650.3943) rotate(104.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Before</tspan><tspan x="0" dy="15.62" font-size="19.00">Completion</tspan></text>
+  <text
+     data-gate="47"
+     data-iching-name="Oppression"
+     transform="translate(2618.3118 1525.5455) rotate(98.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Oppression</text>
+  <text
+     data-gate="6"
+     data-iching-name="Conflict"
+     transform="translate(2630.7889 1398.8636) rotate(92.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Conflict</text>
+  <text
+     data-gate="46"
+     data-iching-name="Pushing Upward"
+     transform="translate(2630.7889 1271.5688) rotate(87.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Pushing</tspan><tspan x="0" dy="15.62" font-size="19.00">Upward</tspan></text>
+  <text
+     data-gate="18"
+     data-iching-name="Work on What Has Been Spoilt"
+     transform="translate(2618.3118 1144.8869) rotate(81.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="19.00">Work on</tspan><tspan x="0" dy="15.62" font-size="19.00">What has</tspan><tspan x="0" dy="15.62" font-size="18.22">Been Spoilt</tspan></text>
+  <text
+     data-gate="48"
+     data-iching-name="The Well"
+     transform="translate(2593.4778 1020.0381) rotate(75.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">The Well</text>
+  <text
+     data-gate="57"
+     data-iching-name="The Gentle"
+     transform="translate(2556.5261 898.2245) rotate(70.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">The Gentle</text>
+  <text
+     data-gate="32"
+     data-iching-name="Duration"
+     transform="translate(2507.8125 780.6195) rotate(64.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Duration</text>
+  <text
+     data-gate="50"
+     data-iching-name="The Cauldron"
+     transform="translate(2447.8061 668.3555) rotate(59.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Cauldron</tspan></text>
+  <text
+     data-gate="28"
+     data-iching-name="Preponderance of the Great"
+     transform="translate(2377.0849 562.5137) rotate(53.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="15.05">Preponderance</tspan><tspan x="0" dy="15.62" font-size="19.00">of</tspan><tspan x="0" dy="15.62" font-size="19.00">the Great</tspan></text>
+  <text
+     data-gate="44"
+     data-iching-name="Coming to Meet"
+     transform="translate(2296.3299 464.1135) rotate(47.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Coming</tspan><tspan x="0" dy="15.62" font-size="19.00">to Meet</tspan></text>
+  <text
+     data-gate="1"
+     data-iching-name="The Creative"
+     transform="translate(2206.3189 374.1025) rotate(42.1875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Creative</tspan></text>
+  <text
+     data-gate="43"
+     data-iching-name="Breakthrough"
+     transform="translate(2107.9187 293.3475) rotate(36.5625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Break</tspan><tspan x="0" dy="15.62" font-size="19.00">through</tspan></text>
+  <text
+     data-gate="14"
+     data-iching-name="Possession in Great Measure"
+     transform="translate(2002.0769 222.6263) rotate(30.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="19.00">Possession</tspan><tspan x="0" dy="15.62" font-size="19.00">In Great</tspan><tspan x="0" dy="15.62" font-size="19.00">Measure</tspan></text>
+  <text
+     data-gate="34"
+     data-iching-name="Great Power"
+     transform="translate(1889.8129 162.6199) rotate(25.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Great</tspan><tspan x="0" dy="15.62" font-size="19.00">Power</tspan></text>
+  <text
+     data-gate="9"
+     data-iching-name="The Taming Power of the Small"
+     transform="translate(1772.2079 113.9063) rotate(19.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="16.63">Taming Power</tspan><tspan x="0" dy="15.62" font-size="19.00">of</tspan><tspan x="0" dy="15.62" font-size="19.00">the Small</tspan></text>
+  <text
+     data-gate="5"
+     data-iching-name="Waiting"
+     transform="translate(1650.3943 76.9546) rotate(14.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Waiting</text>
+  <text
+     data-gate="26"
+     data-iching-name="The Taming Power of the Great"
+     transform="translate(1525.5455 52.1206) rotate(8.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="16.63">Taming Power</tspan><tspan x="0" dy="15.62" font-size="19.00">of</tspan><tspan x="0" dy="15.62" font-size="19.00">the Great</tspan></text>
+  <text
+     data-gate="11"
+     data-iching-name="Peace"
+     transform="translate(1398.8636 39.6435) rotate(2.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Peace</text>
+  <text
+     data-gate="10"
+     data-iching-name="Treading"
+     transform="translate(1271.5688 39.6435) rotate(-2.8125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Treading</text>
+  <text
+     data-gate="58"
+     data-iching-name="The Joyous"
+     transform="translate(1144.8869 52.1206) rotate(-8.4375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">The Joyous</text>
+  <text
+     data-gate="38"
+     data-iching-name="Opposition"
+     transform="translate(1020.0381 76.9546) rotate(-14.0625) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Opposition</text>
+  <text
+     data-gate="54"
+     data-iching-name="The Marrying Maiden"
+     transform="translate(898.2245 113.9063) rotate(-19.6875) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-15.62" font-size="19.00">The</tspan><tspan x="0" dy="15.62" font-size="19.00">Marrying</tspan><tspan x="0" dy="15.62" font-size="19.00">Maiden</tspan></text>
+  <text
+     data-gate="61"
+     data-iching-name="Inner Truth"
+     transform="translate(780.6195 162.6199) rotate(-25.3125) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-7.81" font-size="19.00">Inner</tspan><tspan x="0" dy="15.62" font-size="19.00">Truth</tspan></text>
+  <text
+     data-gate="60"
+     data-iching-name="Limitation"
+     transform="translate(668.3555 222.6263) rotate(-30.9375) scale(1 1.2)"
+     font-size="19.00"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate">Limitation</text>
+  </g>
+</svg>

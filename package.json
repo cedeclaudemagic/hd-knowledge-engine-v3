@@ -18,6 +18,10 @@
     "./core/positioning": {
       "require": "./core/root-system/positioning-algorithm.js",
       "import": "./core/root-system/positioning-algorithm.js"
+    },
+    "./visualization": {
+      "require": "./visualization/index.js",
+      "import": "./visualization/index.js"
     }
   },
   "scripts": {

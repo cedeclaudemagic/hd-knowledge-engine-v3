@@ -1,0 +1,456 @@
+{
+  "name": "hd-mandala-gate-names",
+  "description": "Human Design Mandala Gate Names - the full gate names as displayed on the HD mandala/wheel (e.g., \"The Gate of Self Expression\")",
+  "source": "Extracted from verified master SVG (the-64-gate-names-verified-master.svg)",
+  "note": "These may differ from hd-gates keywords due to different HD source materials (e.g., white book vs black book variations)",
+  "mappings": [
+    {
+      "gateNumber": 1,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Self Expression"
+      }
+    },
+    {
+      "gateNumber": 2,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Direction of The Self"
+      }
+    },
+    {
+      "gateNumber": 3,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Ordering"
+      }
+    },
+    {
+      "gateNumber": 4,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Formalization"
+      }
+    },
+    {
+      "gateNumber": 5,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Fixed Rhythms"
+      }
+    },
+    {
+      "gateNumber": 6,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Friction"
+      }
+    },
+    {
+      "gateNumber": 7,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Role of The Self"
+      }
+    },
+    {
+      "gateNumber": 8,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Contribution"
+      }
+    },
+    {
+      "gateNumber": 9,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Focus"
+      }
+    },
+    {
+      "gateNumber": 10,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Behaviour of The Self"
+      }
+    },
+    {
+      "gateNumber": 11,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Ideas"
+      }
+    },
+    {
+      "gateNumber": 12,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Caution"
+      }
+    },
+    {
+      "gateNumber": 13,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Listener"
+      }
+    },
+    {
+      "gateNumber": 14,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Power Skills"
+      }
+    },
+    {
+      "gateNumber": 15,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Extremes"
+      }
+    },
+    {
+      "gateNumber": 16,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Skills"
+      }
+    },
+    {
+      "gateNumber": 17,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Opinions"
+      }
+    },
+    {
+      "gateNumber": 18,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Correction"
+      }
+    },
+    {
+      "gateNumber": 19,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Wanting"
+      }
+    },
+    {
+      "gateNumber": 20,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Now"
+      }
+    },
+    {
+      "gateNumber": 21,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Hunter/Huntress"
+      }
+    },
+    {
+      "gateNumber": 22,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Openness"
+      }
+    },
+    {
+      "gateNumber": 23,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Assimilation"
+      }
+    },
+    {
+      "gateNumber": 24,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Rationalising"
+      }
+    },
+    {
+      "gateNumber": 25,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Spirit of The Self"
+      }
+    },
+    {
+      "gateNumber": 26,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of the Egoist"
+      }
+    },
+    {
+      "gateNumber": 27,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Caring"
+      }
+    },
+    {
+      "gateNumber": 28,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Game-Player"
+      }
+    },
+    {
+      "gateNumber": 29,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Saying Yes"
+      }
+    },
+    {
+      "gateNumber": 30,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of the Recognition of Feelings"
+      }
+    },
+    {
+      "gateNumber": 31,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Leading"
+      }
+    },
+    {
+      "gateNumber": 32,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Continuity"
+      }
+    },
+    {
+      "gateNumber": 33,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Privacy"
+      }
+    },
+    {
+      "gateNumber": 34,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Power"
+      }
+    },
+    {
+      "gateNumber": 35,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Change"
+      }
+    },
+    {
+      "gateNumber": 36,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Crisis"
+      }
+    },
+    {
+      "gateNumber": 37,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Friendship"
+      }
+    },
+    {
+      "gateNumber": 38,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Fighter"
+      }
+    },
+    {
+      "gateNumber": 39,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Provocateur"
+      }
+    },
+    {
+      "gateNumber": 40,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Aloneness"
+      }
+    },
+    {
+      "gateNumber": 41,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Contraction"
+      }
+    },
+    {
+      "gateNumber": 42,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Growth"
+      }
+    },
+    {
+      "gateNumber": 43,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Insight"
+      }
+    },
+    {
+      "gateNumber": 44,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Alertness"
+      }
+    },
+    {
+      "gateNumber": 45,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of The Gatherer"
+      }
+    },
+    {
+      "gateNumber": 46,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Determination of the Self"
+      }
+    },
+    {
+      "gateNumber": 47,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Realising"
+      }
+    },
+    {
+      "gateNumber": 48,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Depth"
+      }
+    },
+    {
+      "gateNumber": 49,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Principles"
+      }
+    },
+    {
+      "gateNumber": 50,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Values"
+      }
+    },
+    {
+      "gateNumber": 51,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Shock"
+      }
+    },
+    {
+      "gateNumber": 52,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Inaction"
+      }
+    },
+    {
+      "gateNumber": 53,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Beginnings"
+      }
+    },
+    {
+      "gateNumber": 54,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Ambition"
+      }
+    },
+    {
+      "gateNumber": 55,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Spirit"
+      }
+    },
+    {
+      "gateNumber": 56,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Stimulation"
+      }
+    },
+    {
+      "gateNumber": 57,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Intuitive Insight"
+      }
+    },
+    {
+      "gateNumber": 58,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Aliveness"
+      }
+    },
+    {
+      "gateNumber": 59,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Sexuality"
+      }
+    },
+    {
+      "gateNumber": 60,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Acceptance"
+      }
+    },
+    {
+      "gateNumber": 61,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Mystery"
+      }
+    },
+    {
+      "gateNumber": 62,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Detail"
+      }
+    },
+    {
+      "gateNumber": 63,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Doubt"
+      }
+    },
+    {
+      "gateNumber": 64,
+      "lineNumber": null,
+      "knowledge": {
+        "mandalaGateName": "The Gate of Confusion"
+      }
+    }
+  ]
+}

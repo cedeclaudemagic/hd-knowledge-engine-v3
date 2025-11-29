@@ -1,0 +1,2899 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2912.188"
+     height="2912.188"
+     viewBox="0 0 2902.688 2902.688">
+  <style>
+    #hexagrams rect { fill: #FFFFFF; stroke: none; }
+  </style>
+  <rect id="background" width="100%" height="100%" fill="#151E25"/>
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="RING_-_INNER" cx="1451.344" cy="1451.344" r="1334.4257" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" cx="1451.344" cy="1451.344" r="1451.094" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="DIVIDERS">
+      <line id="LINE_-_41_19" x1="532.0485" y1="331.1792" x2="603.5245" y2="418.2730" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_13" x1="426.6798" y1="426.6798" x2="506.3483" y2="506.3483" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_49" x1="331.1792" y1="532.0485" x2="418.2730" y2="603.5245" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_30" x1="246.4664" y1="646.2705" x2="340.1466" y2="708.8657" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_55" x1="173.3572" y1="768.2458" x2="272.7218" y2="821.3573" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_37" x1="112.5557" y1="896.7997" x2="216.6476" y2="939.9160" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_63" x1="64.6475" y1="1030.6942" x2="172.4643" y2="1063.4001" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_22" x1="30.0939" y1="1168.6398" x2="140.5973" y2="1190.6203" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_36" x1="9.2278" y1="1309.3080" x2="121.3536" y2="1320.3514" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_25" x1="2.2500" y1="1451.3440" x2="114.9183" y2="1451.3440" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_17" x1="9.2278" y1="1593.3800" x2="121.3536" y2="1582.3366" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_21" x1="30.0939" y1="1734.0482" x2="140.5973" y2="1712.0677" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_51" x1="64.6475" y1="1871.9938" x2="172.4643" y2="1839.2879" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_42" x1="112.5557" y1="2005.8883" x2="216.6476" y2="1962.7720" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_3" x1="173.3572" y1="2134.4422" x2="272.7218" y2="2081.3307" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_27" x1="246.4664" y1="2256.4175" x2="340.1466" y2="2193.8223" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_24" x1="331.1792" y1="2370.6395" x2="418.2730" y2="2299.1635" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_2" x1="426.6798" y1="2476.0082" x2="506.3483" y2="2396.3397" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_23" x1="532.0485" y1="2571.5088" x2="603.5245" y2="2484.4150" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_8" x1="646.2705" y1="2656.2216" x2="708.8657" y2="2562.5414" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_20" x1="768.2458" y1="2729.3308" x2="821.3573" y2="2629.9662" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_16" x1="896.7997" y1="2790.1323" x2="939.9160" y2="2686.0404" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_35" x1="1030.6942" y1="2838.0405" x2="1063.4001" y2="2730.2237" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_45" x1="1168.6398" y1="2872.5941" x2="1190.6203" y2="2762.0907" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_12" x1="1309.3080" y1="2893.4602" x2="1320.3514" y2="2781.3344" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_15" x1="1451.3440" y1="2900.4380" x2="1451.3440" y2="2787.7697" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_52" x1="1593.3800" y1="2893.4602" x2="1582.3366" y2="2781.3344" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_39" x1="1734.0482" y1="2872.5941" x2="1712.0677" y2="2762.0907" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_53" x1="1871.9938" y1="2838.0405" x2="1839.2879" y2="2730.2237" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_62" x1="2005.8883" y1="2790.1323" x2="1962.7720" y2="2686.0404" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_56" x1="2134.4422" y1="2729.3308" x2="2081.3307" y2="2629.9662" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_31" x1="2256.4175" y1="2656.2216" x2="2193.8223" y2="2562.5414" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_33" x1="2370.6395" y1="2571.5088" x2="2299.1635" y2="2484.4150" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_7" x1="2476.0082" y1="2476.0082" x2="2396.3397" y2="2396.3397" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_4" x1="2571.5088" y1="2370.6395" x2="2484.4150" y2="2299.1635" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_29" x1="2656.2216" y1="2256.4175" x2="2562.5414" y2="2193.8223" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_59" x1="2729.3308" y1="2134.4422" x2="2629.9662" y2="2081.3307" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_40" x1="2790.1323" y1="2005.8883" x2="2686.0404" y2="1962.7720" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_64" x1="2838.0405" y1="1871.9938" x2="2730.2237" y2="1839.2879" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_47" x1="2872.5941" y1="1734.0482" x2="2762.0907" y2="1712.0677" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_6" x1="2893.4602" y1="1593.3800" x2="2781.3344" y2="1582.3366" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_46" x1="2900.4380" y1="1451.3440" x2="2787.7697" y2="1451.3440" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_18" x1="2893.4602" y1="1309.3080" x2="2781.3344" y2="1320.3514" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_48" x1="2872.5941" y1="1168.6398" x2="2762.0907" y2="1190.6203" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_57" x1="2838.0405" y1="1030.6942" x2="2730.2237" y2="1063.4001" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_32" x1="2790.1323" y1="896.7997" x2="2686.0404" y2="939.9160" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_50" x1="2729.3308" y1="768.2458" x2="2629.9662" y2="821.3573" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_28" x1="2656.2216" y1="646.2705" x2="2562.5414" y2="708.8657" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_44" x1="2571.5088" y1="532.0485" x2="2484.4150" y2="603.5245" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_1" x1="2476.0082" y1="426.6798" x2="2396.3397" y2="506.3483" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_43" x1="2370.6395" y1="331.1792" x2="2299.1635" y2="418.2730" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_14" x1="2256.4175" y1="246.4664" x2="2193.8223" y2="340.1466" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_34" x1="2134.4422" y1="173.3572" x2="2081.3307" y2="272.7218" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_9" x1="2005.8883" y1="112.5557" x2="1962.7720" y2="216.6476" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_5" x1="1871.9938" y1="64.6475" x2="1839.2879" y2="172.4643" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_26" x1="1734.0482" y1="30.0939" x2="1712.0677" y2="140.5973" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_11" x1="1593.3800" y1="9.2278" x2="1582.3366" y2="121.3536" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_10" x1="1451.3440" y1="2.2500" x2="1451.3440" y2="114.9183" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_58" x1="1309.3080" y1="9.2278" x2="1320.3514" y2="121.3536" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_58_38" x1="1168.6398" y1="30.0939" x2="1190.6203" y2="140.5973" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_54" x1="1030.6942" y1="64.6475" x2="1063.4001" y2="172.4643" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_61" x1="896.7997" y1="112.5557" x2="939.9160" y2="216.6476" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_60" x1="768.2458" y1="173.3572" x2="821.3573" y2="272.7218" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_41" x1="646.2705" y1="246.4664" x2="708.8657" y2="340.1466" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="hexagrams">
+  <g id="gate-41"
+     data-gate="41"
+     data-codon="AUG"
+     data-binary="110001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Lake"
+     transform="translate(621.68, 332.67) rotate(323.44) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-19"
+     data-gate="19"
+     data-codon="AUU"
+     data-binary="110000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Lake"
+     transform="translate(516.02, 419.38) rotate(317.81) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-13"
+     data-gate="13"
+     data-codon="CAA"
+     data-binary="101111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Fire"
+     transform="translate(419.38, 516.02) rotate(312.19) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-49"
+     data-gate="49"
+     data-codon="CAC"
+     data-binary="101110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Fire"
+     transform="translate(332.67, 621.68) rotate(306.56) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-30"
+     data-gate="30"
+     data-codon="CAG"
+     data-binary="101101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Fire"
+     transform="translate(256.73, 735.32) rotate(300.94) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-55"
+     data-gate="55"
+     data-codon="CAU"
+     data-binary="101100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Fire"
+     transform="translate(192.30, 855.86) rotate(295.31) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-37"
+     data-gate="37"
+     data-codon="CCA"
+     data-binary="101011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Fire"
+     transform="translate(140.00, 982.14) rotate(289.69) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-63"
+     data-gate="63"
+     data-codon="CCC"
+     data-binary="101010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Fire"
+     transform="translate(100.32, 1112.93) rotate(284.06) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-22"
+     data-gate="22"
+     data-codon="CCG"
+     data-binary="101001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Fire"
+     transform="translate(73.66, 1246.98) rotate(278.44) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-36"
+     data-gate="36"
+     data-codon="CCU"
+     data-binary="101000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Fire"
+     transform="translate(60.26, 1383.00) rotate(272.81) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-25"
+     data-gate="25"
+     data-codon="CGA"
+     data-binary="100111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Thunder"
+     transform="translate(60.26, 1519.68) rotate(267.19) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-17"
+     data-gate="17"
+     data-codon="CGC"
+     data-binary="100110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Thunder"
+     transform="translate(73.66, 1655.70) rotate(261.56) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-21"
+     data-gate="21"
+     data-codon="CGG"
+     data-binary="100101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Thunder"
+     transform="translate(100.32, 1789.76) rotate(255.94) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-51"
+     data-gate="51"
+     data-codon="CGU"
+     data-binary="100100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Thunder"
+     transform="translate(140.00, 1920.55) rotate(250.31) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-42"
+     data-gate="42"
+     data-codon="CUA"
+     data-binary="100011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Thunder"
+     transform="translate(192.30, 2046.83) rotate(244.69) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-3"
+     data-gate="3"
+     data-codon="CUC"
+     data-binary="100010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Thunder"
+     transform="translate(256.73, 2167.37) rotate(239.06) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-27"
+     data-gate="27"
+     data-codon="CUG"
+     data-binary="100001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Thunder"
+     transform="translate(332.67, 2281.01) rotate(233.44) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-24"
+     data-gate="24"
+     data-codon="CUU"
+     data-binary="100000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Thunder"
+     transform="translate(419.38, 2386.66) rotate(227.81) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-2"
+     data-gate="2"
+     data-codon="UUU"
+     data-binary="000000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Earth"
+     transform="translate(516.02, 2483.31) rotate(222.19) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-23"
+     data-gate="23"
+     data-codon="UUG"
+     data-binary="000001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Earth"
+     transform="translate(621.68, 2570.02) rotate(216.56) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-8"
+     data-gate="8"
+     data-codon="UUC"
+     data-binary="000010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Earth"
+     transform="translate(735.32, 2645.95) rotate(210.94) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-20"
+     data-gate="20"
+     data-codon="UUA"
+     data-binary="000011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Earth"
+     transform="translate(855.86, 2710.38) rotate(205.31) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-16"
+     data-gate="16"
+     data-codon="UGU"
+     data-binary="000100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Earth"
+     transform="translate(982.14, 2762.69) rotate(199.69) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-35"
+     data-gate="35"
+     data-codon="UGG"
+     data-binary="000101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Earth"
+     transform="translate(1112.93, 2802.36) rotate(194.06) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-45"
+     data-gate="45"
+     data-codon="UGC"
+     data-binary="000110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Earth"
+     transform="translate(1246.98, 2829.03) rotate(188.44) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-12"
+     data-gate="12"
+     data-codon="UGA"
+     data-binary="000111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Earth"
+     transform="translate(1383.00, 2842.43) rotate(182.81) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-15"
+     data-gate="15"
+     data-codon="UCU"
+     data-binary="001000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Mountain"
+     transform="translate(1519.68, 2842.43) rotate(177.19) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-52"
+     data-gate="52"
+     data-codon="UCG"
+     data-binary="001001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Mountain"
+     transform="translate(1655.70, 2829.03) rotate(171.56) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-39"
+     data-gate="39"
+     data-codon="UCC"
+     data-binary="001010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Mountain"
+     transform="translate(1789.76, 2802.36) rotate(165.94) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-53"
+     data-gate="53"
+     data-codon="UCA"
+     data-binary="001011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Mountain"
+     transform="translate(1920.55, 2762.69) rotate(160.31) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-62"
+     data-gate="62"
+     data-codon="UAU"
+     data-binary="001100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Mountain"
+     transform="translate(2046.83, 2710.38) rotate(154.69) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-56"
+     data-gate="56"
+     data-codon="UAG"
+     data-binary="001101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Mountain"
+     transform="translate(2167.37, 2645.95) rotate(149.06) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-31"
+     data-gate="31"
+     data-codon="UAC"
+     data-binary="001110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Mountain"
+     transform="translate(2281.01, 2570.02) rotate(143.44) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-33"
+     data-gate="33"
+     data-codon="UAA"
+     data-binary="001111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Mountain"
+     transform="translate(2386.66, 2483.31) rotate(137.81) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="2" data-type="yin">
+    <rect x="0" y="67.64" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="67.64" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-7"
+     data-gate="7"
+     data-codon="GUU"
+     data-binary="010000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Water"
+     transform="translate(2483.31, 2386.66) rotate(132.19) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-4"
+     data-gate="4"
+     data-codon="GUG"
+     data-binary="010001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Water"
+     transform="translate(2570.02, 2281.01) rotate(126.56) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-29"
+     data-gate="29"
+     data-codon="GUC"
+     data-binary="010010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Water"
+     transform="translate(2645.95, 2167.37) rotate(120.94) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-59"
+     data-gate="59"
+     data-codon="GUA"
+     data-binary="010011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Water"
+     transform="translate(2710.38, 2046.83) rotate(115.31) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-40"
+     data-gate="40"
+     data-codon="GGU"
+     data-binary="010100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Water"
+     transform="translate(2762.69, 1920.55) rotate(109.69) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-64"
+     data-gate="64"
+     data-codon="GGG"
+     data-binary="010101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Water"
+     transform="translate(2802.36, 1789.76) rotate(104.06) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-47"
+     data-gate="47"
+     data-codon="GGC"
+     data-binary="010110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Water"
+     transform="translate(2829.03, 1655.70) rotate(98.44) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-6"
+     data-gate="6"
+     data-codon="GGA"
+     data-binary="010111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Water"
+     transform="translate(2842.43, 1519.68) rotate(92.81) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-46"
+     data-gate="46"
+     data-codon="GCU"
+     data-binary="011000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Wind"
+     transform="translate(2842.43, 1383.00) rotate(87.19) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-18"
+     data-gate="18"
+     data-codon="GCG"
+     data-binary="011001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Wind"
+     transform="translate(2829.03, 1246.98) rotate(81.56) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-48"
+     data-gate="48"
+     data-codon="GCC"
+     data-binary="011010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Wind"
+     transform="translate(2802.36, 1112.93) rotate(75.94) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-57"
+     data-gate="57"
+     data-codon="GCA"
+     data-binary="011011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Wind"
+     transform="translate(2762.69, 982.14) rotate(70.31) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-32"
+     data-gate="32"
+     data-codon="GAU"
+     data-binary="011100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Wind"
+     transform="translate(2710.38, 855.86) rotate(64.69) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-50"
+     data-gate="50"
+     data-codon="GAG"
+     data-binary="011101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Wind"
+     transform="translate(2645.95, 735.32) rotate(59.06) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-28"
+     data-gate="28"
+     data-codon="GAC"
+     data-binary="011110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Wind"
+     transform="translate(2570.02, 621.68) rotate(53.44) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-44"
+     data-gate="44"
+     data-codon="GAA"
+     data-binary="011111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Wind"
+     transform="translate(2483.31, 516.02) rotate(47.81) translate(-40.38, -47.25)">
+    <g data-line="1" data-type="yin">
+    <rect x="0" y="84.55" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="84.55" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-1"
+     data-gate="1"
+     data-codon="AAA"
+     data-binary="111111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Heaven"
+     transform="translate(2386.66, 419.38) rotate(42.19) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-43"
+     data-gate="43"
+     data-codon="AAC"
+     data-binary="111110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Heaven"
+     transform="translate(2281.01, 332.67) rotate(36.56) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-14"
+     data-gate="14"
+     data-codon="AAG"
+     data-binary="111101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Heaven"
+     transform="translate(2167.37, 256.73) rotate(30.94) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-34"
+     data-gate="34"
+     data-codon="AAU"
+     data-binary="111100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Heaven"
+     transform="translate(2046.83, 192.30) rotate(25.31) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-9"
+     data-gate="9"
+     data-codon="ACA"
+     data-binary="111011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Heaven"
+     transform="translate(1920.55, 140.00) rotate(19.69) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-5"
+     data-gate="5"
+     data-codon="ACC"
+     data-binary="111010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Heaven"
+     transform="translate(1789.76, 100.32) rotate(14.06) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-26"
+     data-gate="26"
+     data-codon="ACG"
+     data-binary="111001"
+     data-trigram-upper="Mountain"
+     data-trigram-lower="Heaven"
+     transform="translate(1655.70, 73.66) rotate(8.44) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-11"
+     data-gate="11"
+     data-codon="ACU"
+     data-binary="111000"
+     data-trigram-upper="Earth"
+     data-trigram-lower="Heaven"
+     transform="translate(1519.68, 60.26) rotate(2.81) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="3"
+    data-type="yang"
+    x="0"
+    y="50.730000000000004"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-10"
+     data-gate="10"
+     data-codon="AGA"
+     data-binary="110111"
+     data-trigram-upper="Heaven"
+     data-trigram-lower="Lake"
+     transform="translate(1383.00, 60.26) rotate(-2.81) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-58"
+     data-gate="58"
+     data-codon="AGC"
+     data-binary="110110"
+     data-trigram-upper="Lake"
+     data-trigram-lower="Lake"
+     transform="translate(1246.98, 73.66) rotate(-8.44) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-38"
+     data-gate="38"
+     data-codon="AGG"
+     data-binary="110101"
+     data-trigram-upper="Fire"
+     data-trigram-lower="Lake"
+     transform="translate(1112.93, 100.32) rotate(-14.06) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-54"
+     data-gate="54"
+     data-codon="AGU"
+     data-binary="110100"
+     data-trigram-upper="Thunder"
+     data-trigram-lower="Lake"
+     transform="translate(982.14, 140.00) rotate(-19.69) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="4"
+    data-type="yang"
+    x="0"
+    y="33.82"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="5" data-type="yin">
+    <rect x="0" y="16.91" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="16.91" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  <g id="gate-61"
+     data-gate="61"
+     data-codon="AUA"
+     data-binary="110011"
+     data-trigram-upper="Wind"
+     data-trigram-lower="Lake"
+     transform="translate(855.86, 192.30) rotate(-25.31) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="6"
+    data-type="yang"
+    x="0"
+    y="0"
+    width="80.7558"
+    height="9.9549"
+  />
+  </g>
+  <g id="gate-60"
+     data-gate="60"
+     data-codon="AUC"
+     data-binary="110010"
+     data-trigram-upper="Water"
+     data-trigram-lower="Lake"
+     transform="translate(735.32, 256.73) rotate(-30.94) translate(-40.38, -47.25)">
+    <rect
+    data-line="1"
+    data-type="yang"
+    x="0"
+    y="84.55"
+    width="80.7558"
+    height="9.9549"
+  />
+    <rect
+    data-line="2"
+    data-type="yang"
+    x="0"
+    y="67.64"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="3" data-type="yin">
+    <rect x="0" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="50.730000000000004" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <g data-line="4" data-type="yin">
+    <rect x="0" y="33.82" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="33.82" width="36.707899999999995" height="9.9549"/>
+  </g>
+    <rect
+    data-line="5"
+    data-type="yang"
+    x="0"
+    y="16.91"
+    width="80.7558"
+    height="9.9549"
+  />
+    <g data-line="6" data-type="yin">
+    <rect x="0" y="0" width="36.707899999999995" height="9.9549"/>
+    <rect x="44.0479" y="0" width="36.707899999999995" height="9.9549"/>
+  </g>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,600 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4539.9373" height="4539.9373" viewBox="0 0 4539.9373 4539.9373">
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="BOTTOM" cx="2269.7216" cy="2269.9519" r="2000.1011" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.8358"/>
+      <circle id="LOWER_INNER" data-name="LOWER INNER" cx="2269.7216" cy="2269.9519" r="2086.5709" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.1148"/>
+      <circle id="UPPER_INNER" data-name="UPPER INNER" cx="2269.7216" cy="2269.9519" r="2177.8085" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3229"/>
+      <circle id="TOP" cx="2269.7216" cy="2269.9519" r="2266.954" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.9871"/>
+    </g>
+    <g id="DIVIDERS">
+      <g id="_58_10" data-name="58|10">
+        <line id="BOTTOM-2" data-name="BOTTOM" x1="2071.1981" y1="251.8062" x2="2074.1765" y2="282.0465" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-2" data-name="LOWER_INNER" x1="2063.29" y1="171.5143" x2="2066.2685" y2="201.7546" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-2" data-name="UPPER INNER" x1="2055.382" y1="91.2223" x2="2058.3604" y2="121.4627" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-2" data-name="TOP" x1="2047.4739" y1="10.9304" x2="2050.4523" y2="41.1707" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_38_58" data-name="38|58">
+        <line id="BOTTOM-3" data-name="BOTTOM" x1="1874.3407" y1="281.0071" x2="1880.2689" y2="310.8099" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-3" data-name="LOWER_INNER" x1="1858.6008" y1="201.877" x2="1864.5289" y2="231.6797" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-3" data-name="UPPER INNER" x1="1842.8608" y1="122.7468" x2="1848.7889" y2="152.5496" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-3" data-name="TOP" x1="1827.1208" y1="43.6166" x2="1833.049" y2="73.4194" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_54_38" data-name="54|38">
+        <line id="BOTTOM-4" data-name="BOTTOM" x1="1681.2935" y1="329.3628" x2="1690.1142" y2="358.4411" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-4" data-name="LOWER_INNER" x1="1657.8732" y1="252.1565" x2="1666.694" y2="281.2347" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-4" data-name="UPPER INNER" x1="1634.4529" y1="174.9501" x2="1643.2737" y2="204.0283" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-4" data-name="TOP" x1="1611.0326" y1="97.7438" x2="1619.8534" y2="126.822" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_61_54" data-name="61|54">
+        <line id="BOTTOM-5" data-name="BOTTOM" x1="1493.9155" y1="396.4077" x2="1505.5439" y2="424.4813" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-5" data-name="LOWER_INNER" x1="1463.0404" y1="321.8687" x2="1474.6689" y2="349.9423" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-5" data-name="UPPER INNER" x1="1432.1653" y1="247.3297" x2="1443.7938" y2="275.4033" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-5" data-name="TOP" x1="1401.2903" y1="172.7907" x2="1412.9187" y2="200.8643" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_60_61" data-name="60|61">
+        <line id="BOTTOM-6" data-name="BOTTOM" x1="1314.0113" y1="481.4959" x2="1328.3355" y2="508.2945" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-6" data-name="LOWER_INNER" x1="1275.9788" y1="410.3421" x2="1290.303" y2="437.1407" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-6" data-name="UPPER INNER" x1="1237.9463" y1="339.1883" x2="1252.2705" y2="365.9869" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-6" data-name="TOP" x1="1199.9138" y1="268.0345" x2="1214.238" y2="294.8331" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_41_60" data-name="41|60">
+        <line id="BOTTOM-7" data-name="BOTTOM" x1="1143.3135" y1="583.8081" x2="1160.1954" y2="609.0736" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-7" data-name="LOWER_INNER" x1="1098.4898" y1="516.7247" x2="1115.3718" y2="541.9903" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-7" data-name="UPPER INNER" x1="1053.6662" y1="449.6414" x2="1070.5481" y2="474.907" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-7" data-name="TOP" x1="1008.8426" y1="382.5581" x2="1025.7245" y2="407.8237" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_19_41" data-name="19|41">
+        <line id="BOTTOM-8" data-name="BOTTOM" x1="983.466" y1="702.3589" x2="1002.7431" y2="725.8481" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-8" data-name="LOWER_INNER" x1="932.2829" y1="639.9921" x2="951.56" y2="663.4813" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-8" data-name="UPPER INNER" x1="881.0998" y1="577.6253" x2="900.3768" y2="601.1145" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-8" data-name="TOP" x1="829.9166" y1="515.2585" x2="849.1937" y2="538.7477" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_13_19" data-name="13|19">
+        <line id="BOTTOM-9" data-name="BOTTOM" x1="836.0082" y1="836.0067" x2="857.4949" y2="857.4933" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-9" data-name="LOWER_INNER" x1="778.9586" y1="778.957" x2="800.4452" y2="800.4436" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-9" data-name="UPPER INNER" x1="721.9089" y1="721.9073" x2="743.3955" y2="743.3939" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-9" data-name="TOP" x1="664.8592" y1="664.8576" x2="686.3458" y2="686.3443" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_49_13" data-name="49|13">
+        <line id="BOTTOM-10" data-name="BOTTOM" x1="702.3603" y1="983.4643" x2="725.8495" y2="1002.7414" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-10" data-name="LOWER_INNER" x1="639.9935" y1="932.2812" x2="663.4827" y2="951.5583" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-10" data-name="UPPER INNER" x1="577.6267" y1="881.0981" x2="601.1159" y2="900.3751" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-10" data-name="TOP" x1="515.2599" y1="829.9149" x2="538.7491" y2="849.192" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_30_49" data-name="30|49">
+        <line id="BOTTOM-11" data-name="BOTTOM" x1="583.8093" y1="1143.3117" x2="609.0749" y2="1160.1936" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-11" data-name="LOWER_INNER" x1="516.726" y1="1098.488" x2="541.9915" y2="1115.3699" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-11" data-name="UPPER INNER" x1="449.6426" y1="1053.6644" x2="474.9082" y2="1070.5463" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-11" data-name="TOP" x1="382.5593" y1="1008.8407" x2="407.8249" y2="1025.7226" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_55_30" data-name="55|30">
+        <line id="BOTTOM-12" data-name="BOTTOM" x1="481.4969" y1="1314.0093" x2="508.2955" y2="1328.3335" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-12" data-name="LOWER_INNER" x1="410.3431" y1="1275.9768" x2="437.1418" y2="1290.301" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-12" data-name="UPPER INNER" x1="339.1893" y1="1237.9444" x2="365.988" y2="1252.2685" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-12" data-name="TOP" x1="268.0355" y1="1199.9119" x2="294.8342" y2="1214.236" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_37_55" data-name="37|55">
+        <line id="BOTTOM-13" data-name="BOTTOM" x1="396.4085" y1="1493.9134" x2="424.4821" y2="1505.5419" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-13" data-name="LOWER_INNER" x1="321.8695" y1="1463.0384" x2="349.9431" y2="1474.6668" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-13" data-name="UPPER INNER" x1="247.3305" y1="1432.1633" x2="275.4041" y2="1443.7918" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-13" data-name="TOP" x1="172.7915" y1="1401.2882" x2="200.8651" y2="1412.9167" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_63_37" data-name="63|37">
+        <line id="BOTTOM-14" data-name="BOTTOM" x1="329.3635" y1="1681.2914" x2="358.4417" y2="1690.1121" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-14" data-name="LOWER_INNER" x1="252.1571" y1="1657.8711" x2="281.2353" y2="1666.6918" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-14" data-name="UPPER INNER" x1="174.9508" y1="1634.4508" x2="204.029" y2="1643.2715" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-14" data-name="TOP" x1="97.7444" y1="1611.0305" x2="126.8226" y2="1619.8513" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_22_63" data-name="22|63">
+        <line id="BOTTOM-15" data-name="BOTTOM" x1="281.0076" y1="1874.3386" x2="310.8103" y2="1880.2667" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-15" data-name="LOWER_INNER" x1="201.8774" y1="1858.5986" x2="231.6802" y2="1864.5267" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-15" data-name="UPPER INNER" x1="122.7472" y1="1842.8586" x2="152.55" y2="1848.7868" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-15" data-name="TOP" x1="43.617" y1="1827.1187" x2="73.4198" y2="1833.0468" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_36_22" data-name="36|22">
+        <line id="BOTTOM-16" data-name="BOTTOM" x1="251.8064" y1="2071.1959" x2="282.0468" y2="2074.1743" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-16" data-name="LOWER_INNER" x1="171.5145" y1="2063.2878" x2="201.7548" y2="2066.2663" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-16" data-name="UPPER INNER" x1="91.2226" y1="2055.3798" x2="121.4629" y2="2058.3582" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-16" data-name="TOP" x1="10.9306" y1="2047.4717" x2="41.171" y2="2050.4501" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_25_36" data-name="25|36">
+        <line id="BOTTOM-17" data-name="BOTTOM" x1="242.0413" y1="2269.9675" x2="272.4279" y2="2269.9675" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-17" data-name="LOWER_INNER" x1="161.3609" y1="2269.9675" x2="191.7475" y2="2269.9675" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-17" data-name="UPPER INNER" x1="80.6804" y1="2269.9675" x2="111.0671" y2="2269.9675" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-17" data-name="TOP" y1="2269.9675" x2="30.3867" y2="2269.9675" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_17_25" data-name="17|25">
+        <line id="BOTTOM-18" data-name="BOTTOM" x1="251.8062" y1="2468.7392" x2="282.0465" y2="2465.7608" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-18" data-name="LOWER_INNER" x1="171.5143" y1="2476.6473" x2="201.7546" y2="2473.6688" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-18" data-name="UPPER INNER" x1="91.2223" y1="2484.5553" x2="121.4627" y2="2481.5769" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-18" data-name="TOP" x1="10.9304" y1="2492.4634" x2="41.1707" y2="2489.485" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_21_17" data-name="21|17">
+        <line id="BOTTOM-19" data-name="BOTTOM" x1="281.0071" y1="2665.5966" x2="310.8099" y2="2659.6684" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-19" data-name="LOWER_INNER" x1="201.877" y1="2681.3365" x2="231.6797" y2="2675.4084" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-19" data-name="UPPER INNER" x1="122.7468" y1="2697.0765" x2="152.5496" y2="2691.1484" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-19" data-name="TOP" x1="43.6166" y1="2712.8165" x2="73.4194" y2="2706.8883" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_51_21" data-name="51|21">
+        <line id="BOTTOM-20" data-name="BOTTOM" x1="329.3628" y1="2858.6438" x2="358.4411" y2="2849.8231" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-20" data-name="LOWER_INNER" x1="252.1565" y1="2882.0641" x2="281.2347" y2="2873.2433" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-20" data-name="UPPER INNER" x1="174.9501" y1="2905.4844" x2="204.0283" y2="2896.6636" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-20" data-name="TOP" x1="97.7438" y1="2928.9047" x2="126.822" y2="2920.0839" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_42_51" data-name="42|51">
+        <line id="BOTTOM-21" data-name="BOTTOM" x1="396.4077" y1="3046.0218" x2="424.4813" y2="3034.3934" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-21" data-name="LOWER_INNER" x1="321.8687" y1="3076.8969" x2="349.9423" y2="3065.2684" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-21" data-name="UPPER INNER" x1="247.3297" y1="3107.772" x2="275.4033" y2="3096.1435" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-21" data-name="TOP" x1="172.7907" y1="3138.647" x2="200.8643" y2="3127.0186" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_3_42" data-name="3|42">
+        <line id="BOTTOM-22" data-name="BOTTOM" x1="481.4959" y1="3225.926" x2="508.2945" y2="3211.6018" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-22" data-name="LOWER_INNER" x1="410.3421" y1="3263.9585" x2="437.1407" y2="3249.6343" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-22" data-name="UPPER INNER" x1="339.1883" y1="3301.991" x2="365.9869" y2="3287.6668" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-22" data-name="TOP" x1="268.0345" y1="3340.0235" x2="294.8331" y2="3325.6993" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_27_3" data-name="27|3">
+        <line id="BOTTOM-23" data-name="BOTTOM" x1="583.8081" y1="3396.6238" x2="609.0736" y2="3379.7419" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-23" data-name="LOWER_INNER" x1="516.7247" y1="3441.4475" x2="541.9903" y2="3424.5655" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-23" data-name="UPPER INNER" x1="449.6414" y1="3486.2711" x2="474.907" y2="3469.3892" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-23" data-name="TOP" x1="382.5581" y1="3531.0947" x2="407.8237" y2="3514.2128" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_24_27" data-name="24|27">
+        <line id="BOTTOM-24" data-name="BOTTOM" x1="702.3589" y1="3556.4713" x2="725.8481" y2="3537.1942" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-24" data-name="LOWER_INNER" x1="639.9921" y1="3607.6544" x2="663.4813" y2="3588.3773" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-24" data-name="UPPER INNER" x1="577.6253" y1="3658.8375" x2="601.1145" y2="3639.5605" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-24" data-name="TOP" x1="515.2585" y1="3710.0207" x2="538.7477" y2="3690.7436" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_2_24" data-name="2|24">
+        <line id="BOTTOM-25" data-name="BOTTOM" x1="836.0067" y1="3703.9291" x2="857.4933" y2="3682.4424" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-25" data-name="LOWER_INNER" x1="778.957" y1="3760.9787" x2="800.4436" y2="3739.4921" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-25" data-name="UPPER INNER" x1="721.9073" y1="3818.0284" x2="743.3939" y2="3796.5418" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-25" data-name="TOP" x1="664.8576" y1="3875.0781" x2="686.3443" y2="3853.5915" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_23_2" data-name="23|2">
+        <line id="BOTTOM-26" data-name="BOTTOM" x1="983.4643" y1="3837.577" x2="1002.7414" y2="3814.0878" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-26" data-name="LOWER_INNER" x1="932.2812" y1="3899.9438" x2="951.5583" y2="3876.4546" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-26" data-name="UPPER INNER" x1="881.0981" y1="3962.3106" x2="900.3751" y2="3938.8214" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-26" data-name="TOP" x1="829.9149" y1="4024.6774" x2="849.192" y2="4001.1882" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_8_23" data-name="8|23">
+        <line id="BOTTOM-27" data-name="BOTTOM" x1="1143.3117" y1="3956.128" x2="1160.1936" y2="3930.8624" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-27" data-name="LOWER_INNER" x1="1098.488" y1="4023.2113" x2="1115.3699" y2="3997.9458" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-27" data-name="UPPER INNER" x1="1053.6644" y1="4090.2947" x2="1070.5463" y2="4065.0291" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-27" data-name="TOP" x1="1008.8407" y1="4157.378" x2="1025.7226" y2="4132.1124" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_20_8" data-name="20|8">
+        <line id="BOTTOM-28" data-name="BOTTOM" x1="1314.0093" y1="4058.4404" x2="1328.3335" y2="4031.6418" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-28" data-name="LOWER_INNER" x1="1275.9768" y1="4129.5942" x2="1290.301" y2="4102.7955" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-28" data-name="UPPER INNER" x1="1237.9444" y1="4200.748" x2="1252.2685" y2="4173.9493" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-28" data-name="TOP" x1="1199.9119" y1="4271.9017" x2="1214.236" y2="4245.1031" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_16_20" data-name="16|20">
+        <line id="BOTTOM-29" data-name="BOTTOM" x1="1493.9134" y1="4143.5288" x2="1505.5419" y2="4115.4552" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-29" data-name="LOWER_INNER" x1="1463.0384" y1="4218.0678" x2="1474.6668" y2="4189.9942" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-29" data-name="UPPER INNER" x1="1432.1633" y1="4292.6068" x2="1443.7918" y2="4264.5332" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-29" data-name="TOP" x1="1401.2882" y1="4367.1458" x2="1412.9167" y2="4339.0722" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_35_16" data-name="35|16">
+        <line id="BOTTOM-30" data-name="BOTTOM" x1="1681.2914" y1="4210.5738" x2="1690.1121" y2="4181.4956" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-30" data-name="LOWER_INNER" x1="1657.8711" y1="4287.7802" x2="1666.6918" y2="4258.702" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-30" data-name="UPPER INNER" x1="1634.4508" y1="4364.9865" x2="1643.2715" y2="4335.9083" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-30" data-name="TOP" x1="1611.0305" y1="4442.1929" x2="1619.8513" y2="4413.1147" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_45_35" data-name="45|35">
+        <line id="BOTTOM-31" data-name="BOTTOM" x1="1874.3386" y1="4258.9297" x2="1880.2667" y2="4229.127" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-31" data-name="LOWER_INNER" x1="1858.5986" y1="4338.0599" x2="1864.5267" y2="4308.2571" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-31" data-name="UPPER INNER" x1="1842.8586" y1="4417.1901" x2="1848.7868" y2="4387.3873" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-31" data-name="TOP" x1="1827.1187" y1="4496.3203" x2="1833.0468" y2="4466.5175" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_12_45" data-name="12|45">
+        <line id="BOTTOM-32" data-name="BOTTOM" x1="2071.1959" y1="4288.1309" x2="2074.1743" y2="4257.8905" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-32" data-name="LOWER_INNER" x1="2063.2878" y1="4368.4228" x2="2066.2663" y2="4338.1825" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-32" data-name="UPPER INNER" x1="2055.3798" y1="4448.7147" x2="2058.3582" y2="4418.4744" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-32" data-name="TOP" x1="2047.4717" y1="4529.0067" x2="2050.4501" y2="4498.7663" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_15_12" data-name="15|12">
+        <line id="BOTTOM-33" data-name="BOTTOM" x1="2269.9675" y1="4297.896" x2="2269.9675" y2="4267.5094" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-33" data-name="LOWER_INNER" x1="2269.9675" y1="4378.5764" x2="2269.9675" y2="4348.1898" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-33" data-name="UPPER INNER" x1="2269.9675" y1="4459.2569" x2="2269.9675" y2="4428.8702" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-33" data-name="TOP" x1="2269.9675" y1="4539.9373" x2="2269.9675" y2="4509.5506" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_52_15" data-name="52|15">
+        <line id="BOTTOM-34" data-name="BOTTOM" x1="2468.7392" y1="4288.1311" x2="2465.7608" y2="4257.8908" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-34" data-name="LOWER_INNER" x1="2476.6473" y1="4368.423" x2="2473.6688" y2="4338.1827" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-34" data-name="UPPER INNER" x1="2484.5553" y1="4448.715" x2="2481.5769" y2="4418.4746" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-34" data-name="TOP" x1="2492.4634" y1="4529.0069" x2="2489.485" y2="4498.7666" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_39_52" data-name="39|52">
+        <line id="BOTTOM-35" data-name="BOTTOM" x1="2665.5966" y1="4258.9302" x2="2659.6684" y2="4229.1274" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-35" data-name="LOWER_INNER" x1="2681.3365" y1="4338.0603" x2="2675.4084" y2="4308.2576" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-35" data-name="UPPER INNER" x1="2697.0765" y1="4417.1905" x2="2691.1484" y2="4387.3877" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-35" data-name="TOP" x1="2712.8165" y1="4496.3207" x2="2706.8883" y2="4466.5179" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_53_39" data-name="53|39">
+        <line id="BOTTOM-36" data-name="BOTTOM" x1="2858.6438" y1="4210.5745" x2="2849.8231" y2="4181.4962" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-36" data-name="LOWER_INNER" x1="2882.0641" y1="4287.7808" x2="2873.2433" y2="4258.7026" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-36" data-name="UPPER INNER" x1="2905.4844" y1="4364.9872" x2="2896.6636" y2="4335.909" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-36" data-name="TOP" x1="2928.9047" y1="4442.1935" x2="2920.0839" y2="4413.1153" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_62_53" data-name="62|53">
+        <line id="BOTTOM-37" data-name="BOTTOM" x1="3046.0218" y1="4143.5296" x2="3034.3934" y2="4115.456" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-37" data-name="LOWER_INNER" x1="3076.8969" y1="4218.0686" x2="3065.2684" y2="4189.995" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-37" data-name="UPPER INNER" x1="3107.772" y1="4292.6076" x2="3096.1435" y2="4264.534" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-37" data-name="TOP" x1="3138.647" y1="4367.1466" x2="3127.0186" y2="4339.073" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_56_62" data-name="56|62">
+        <line id="BOTTOM-38" data-name="BOTTOM" x1="3225.926" y1="4058.4414" x2="3211.6018" y2="4031.6428" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-38" data-name="LOWER_INNER" x1="3263.9585" y1="4129.5952" x2="3249.6343" y2="4102.7966" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-38" data-name="UPPER INNER" x1="3301.991" y1="4200.749" x2="3287.6668" y2="4173.9504" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-38" data-name="TOP" x1="3340.0235" y1="4271.9028" x2="3325.6993" y2="4245.1042" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_31_56" data-name="31|56">
+        <line id="BOTTOM-39" data-name="BOTTOM" x1="3396.6238" y1="3956.1292" x2="3379.7419" y2="3930.8637" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-39" data-name="LOWER_INNER" x1="3441.4475" y1="4023.2126" x2="3424.5655" y2="3997.947" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-39" data-name="UPPER INNER" x1="3486.2711" y1="4090.2959" x2="3469.3892" y2="4065.0303" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-39" data-name="TOP" x1="3531.0947" y1="4157.3792" x2="3514.2128" y2="4132.1136" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_33_31" data-name="33|31">
+        <line id="BOTTOM-40" data-name="BOTTOM" x1="3556.4713" y1="3837.5784" x2="3537.1942" y2="3814.0892" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-40" data-name="LOWER_INNER" x1="3607.6544" y1="3899.9452" x2="3588.3773" y2="3876.456" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-40" data-name="UPPER INNER" x1="3658.8375" y1="3962.312" x2="3639.5605" y2="3938.8228" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-40" data-name="TOP" x1="3710.0207" y1="4024.6788" x2="3690.7436" y2="4001.1896" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_7_33" data-name="7|33">
+        <line id="BOTTOM-41" data-name="BOTTOM" x1="3703.9291" y1="3703.9306" x2="3682.4424" y2="3682.444" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-41" data-name="LOWER_INNER" x1="3760.9787" y1="3760.9803" x2="3739.4921" y2="3739.4937" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-41" data-name="UPPER INNER" x1="3818.0284" y1="3818.03" x2="3796.5418" y2="3796.5434" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-41" data-name="TOP" x1="3875.0781" y1="3875.0797" x2="3853.5915" y2="3853.593" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_4_7" data-name="4|7">
+        <line id="BOTTOM-42" data-name="BOTTOM" x1="3837.577" y1="3556.473" x2="3814.0878" y2="3537.1959" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-42" data-name="LOWER_INNER" x1="3899.9438" y1="3607.6561" x2="3876.4546" y2="3588.379" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-42" data-name="UPPER INNER" x1="3962.3106" y1="3658.8392" x2="3938.8214" y2="3639.5622" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-42" data-name="TOP" x1="4024.6774" y1="3710.0224" x2="4001.1882" y2="3690.7453" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_29_4" data-name="29|4">
+        <line id="BOTTOM-43" data-name="BOTTOM" x1="3956.128" y1="3396.6256" x2="3930.8624" y2="3379.7437" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-43" data-name="LOWER_INNER" x1="4023.2113" y1="3441.4493" x2="3997.9458" y2="3424.5674" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-43" data-name="UPPER INNER" x1="4090.2947" y1="3486.2729" x2="4065.0291" y2="3469.391" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-43" data-name="TOP" x1="4157.378" y1="3531.0966" x2="4132.1124" y2="3514.2147" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_59_29" data-name="59|29">
+        <line id="BOTTOM-44" data-name="BOTTOM" x1="4058.4404" y1="3225.928" x2="4031.6418" y2="3211.6038" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-44" data-name="LOWER_INNER" x1="4129.5942" y1="3263.9605" x2="4102.7955" y2="3249.6363" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-44" data-name="UPPER INNER" x1="4200.748" y1="3301.9929" x2="4173.9493" y2="3287.6688" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-44" data-name="TOP" x1="4271.9017" y1="3340.0254" x2="4245.1031" y2="3325.7013" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_40_59" data-name="40|59">
+        <line id="BOTTOM-45" data-name="BOTTOM" x1="4143.5288" y1="3046.0239" x2="4115.4552" y2="3034.3954" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-45" data-name="LOWER_INNER" x1="4218.0678" y1="3076.8989" x2="4189.9942" y2="3065.2705" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-45" data-name="UPPER INNER" x1="4292.6068" y1="3107.774" x2="4264.5332" y2="3096.1455" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-45" data-name="TOP" x1="4367.1458" y1="3138.6491" x2="4339.0722" y2="3127.0206" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_64_40" data-name="64|40">
+        <line id="BOTTOM-46" data-name="BOTTOM" x1="4210.5738" y1="2858.6459" x2="4181.4956" y2="2849.8252" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-46" data-name="LOWER_INNER" x1="4287.7802" y1="2882.0662" x2="4258.702" y2="2873.2455" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-46" data-name="UPPER INNER" x1="4364.9865" y1="2905.4865" x2="4335.9083" y2="2896.6657" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-46" data-name="TOP" x1="4442.1929" y1="2928.9068" x2="4413.1147" y2="2920.086" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_47_64" data-name="47|64">
+        <line id="BOTTOM-47" data-name="BOTTOM" x1="4258.9297" y1="2665.5987" x2="4229.127" y2="2659.6706" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-47" data-name="LOWER_INNER" x1="4338.0599" y1="2681.3387" x2="4308.2571" y2="2675.4106" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-47" data-name="UPPER INNER" x1="4417.1901" y1="2697.0787" x2="4387.3873" y2="2691.1505" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-47" data-name="TOP" x1="4496.3203" y1="2712.8186" x2="4466.5175" y2="2706.8905" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_6_47" data-name="6|47">
+        <line id="BOTTOM-48" data-name="BOTTOM" x1="4288.1309" y1="2468.7414" x2="4257.8905" y2="2465.763" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-48" data-name="LOWER_INNER" x1="4368.4228" y1="2476.6495" x2="4338.1825" y2="2473.671" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-48" data-name="UPPER INNER" x1="4448.7147" y1="2484.5575" x2="4418.4744" y2="2481.5791" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-48" data-name="TOP" x1="4529.0067" y1="2492.4656" x2="4498.7663" y2="2489.4872" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_46_6" data-name="46|6">
+        <line id="BOTTOM-49" data-name="BOTTOM" x1="4297.896" y1="2269.9698" x2="4267.5094" y2="2269.9698" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-49" data-name="LOWER_INNER" x1="4378.5764" y1="2269.9698" x2="4348.1898" y2="2269.9698" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-49" data-name="UPPER INNER" x1="4459.2569" y1="2269.9698" x2="4428.8702" y2="2269.9698" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-49" data-name="TOP" x1="4539.9373" y1="2269.9698" x2="4509.5506" y2="2269.9698" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_18_46" data-name="18|46">
+        <line id="BOTTOM-50" data-name="BOTTOM" x1="4288.1311" y1="2071.1981" x2="4257.8908" y2="2074.1765" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-50" data-name="LOWER_INNER" x1="4368.423" y1="2063.29" x2="4338.1827" y2="2066.2685" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-50" data-name="UPPER INNER" x1="4448.715" y1="2055.382" x2="4418.4746" y2="2058.3604" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-50" data-name="TOP" x1="4529.0069" y1="2047.4739" x2="4498.7666" y2="2050.4523" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_48_18" data-name="48|18">
+        <line id="BOTTOM-51" data-name="BOTTOM" x1="4258.9302" y1="1874.3407" x2="4229.1274" y2="1880.2689" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-51" data-name="LOWER_INNER" x1="4338.0603" y1="1858.6008" x2="4308.2576" y2="1864.5289" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-51" data-name="UPPER INNER" x1="4417.1905" y1="1842.8608" x2="4387.3877" y2="1848.7889" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-51" data-name="TOP" x1="4496.3207" y1="1827.1208" x2="4466.5179" y2="1833.049" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_57_48" data-name="57|48">
+        <line id="BOTTOM-52" data-name="BOTTOM" x1="4210.5745" y1="1681.2935" x2="4181.4962" y2="1690.1142" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-52" data-name="LOWER_INNER" x1="4287.7808" y1="1657.8732" x2="4258.7026" y2="1666.694" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-52" data-name="UPPER INNER" x1="4364.9872" y1="1634.4529" x2="4335.909" y2="1643.2737" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-52" data-name="TOP" x1="4442.1935" y1="1611.0326" x2="4413.1153" y2="1619.8534" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_32_57" data-name="32|57">
+        <line id="BOTTOM-53" data-name="BOTTOM" x1="4143.5296" y1="1493.9155" x2="4115.456" y2="1505.5439" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-53" data-name="LOWER_INNER" x1="4218.0686" y1="1463.0404" x2="4189.995" y2="1474.6689" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-53" data-name="UPPER INNER" x1="4292.6076" y1="1432.1653" x2="4264.534" y2="1443.7938" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-53" data-name="TOP" x1="4367.1466" y1="1401.2903" x2="4339.073" y2="1412.9187" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_50_32" data-name="50|32">
+        <line id="BOTTOM-54" data-name="BOTTOM" x1="4058.4414" y1="1314.0113" x2="4031.6428" y2="1328.3355" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-54" data-name="LOWER_INNER" x1="4129.5952" y1="1275.9788" x2="4102.7966" y2="1290.303" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-54" data-name="UPPER INNER" x1="4200.749" y1="1237.9463" x2="4173.9504" y2="1252.2705" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-54" data-name="TOP" x1="4271.9028" y1="1199.9138" x2="4245.1042" y2="1214.238" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_28_50" data-name="28|50">
+        <line id="BOTTOM-55" data-name="BOTTOM" x1="3956.1292" y1="1143.3135" x2="3930.8637" y2="1160.1954" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-55" data-name="LOWER_INNER" x1="4023.2126" y1="1098.4898" x2="3997.947" y2="1115.3718" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-55" data-name="UPPER INNER" x1="4090.2959" y1="1053.6662" x2="4065.0303" y2="1070.5481" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-55" data-name="TOP" x1="4157.3792" y1="1008.8426" x2="4132.1136" y2="1025.7245" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_44_28" data-name="44|28">
+        <line id="BOTTOM-56" data-name="BOTTOM" x1="3837.5784" y1="983.466" x2="3814.0892" y2="1002.7431" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-56" data-name="LOWER_INNER" x1="3899.9452" y1="932.2829" x2="3876.456" y2="951.56" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-56" data-name="UPPER INNER" x1="3962.312" y1="881.0998" x2="3938.8228" y2="900.3768" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-56" data-name="TOP" x1="4024.6788" y1="829.9166" x2="4001.1896" y2="849.1937" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_1_44" data-name="1|44">
+        <line id="BOTTOM-57" data-name="BOTTOM" x1="3703.9306" y1="836.0082" x2="3682.444" y2="857.4949" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-57" data-name="LOWER_INNER" x1="3760.9803" y1="778.9586" x2="3739.4937" y2="800.4452" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-57" data-name="UPPER INNER" x1="3818.03" y1="721.9089" x2="3796.5434" y2="743.3955" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-57" data-name="TOP" x1="3875.0797" y1="664.8592" x2="3853.593" y2="686.3458" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_43_1" data-name="43|1">
+        <line id="BOTTOM-58" data-name="BOTTOM" x1="3556.473" y1="702.3603" x2="3537.1959" y2="725.8495" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-58" data-name="LOWER_INNER" x1="3607.6561" y1="639.9935" x2="3588.379" y2="663.4827" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-58" data-name="UPPER INNER" x1="3658.8392" y1="577.6267" x2="3639.5622" y2="601.1159" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-58" data-name="TOP" x1="3710.0224" y1="515.2599" x2="3690.7453" y2="538.7491" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_14_43" data-name="14|43">
+        <line id="BOTTOM-59" data-name="BOTTOM" x1="3396.6256" y1="583.8093" x2="3379.7437" y2="609.0749" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-59" data-name="LOWER_INNER" x1="3441.4493" y1="516.726" x2="3424.5674" y2="541.9915" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-59" data-name="UPPER INNER" x1="3486.2729" y1="449.6426" x2="3469.391" y2="474.9082" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-59" data-name="TOP" x1="3531.0966" y1="382.5593" x2="3514.2147" y2="407.8249" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_34_14" data-name="34|14">
+        <line id="BOTTOM-60" data-name="BOTTOM" x1="3225.928" y1="481.4969" x2="3211.6038" y2="508.2955" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-60" data-name="LOWER_INNER" x1="3263.9605" y1="410.3431" x2="3249.6363" y2="437.1418" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-60" data-name="UPPER INNER" x1="3301.9929" y1="339.1893" x2="3287.6688" y2="365.988" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-60" data-name="TOP" x1="3340.0254" y1="268.0355" x2="3325.7013" y2="294.8342" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_9_34" data-name="9|34">
+        <line id="BOTTOM-61" data-name="BOTTOM" x1="3046.0239" y1="396.4085" x2="3034.3954" y2="424.4821" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-61" data-name="LOWER_INNER" x1="3076.8989" y1="321.8695" x2="3065.2705" y2="349.9431" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-61" data-name="UPPER INNER" x1="3107.774" y1="247.3305" x2="3096.1455" y2="275.4041" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-61" data-name="TOP" x1="3138.6491" y1="172.7915" x2="3127.0206" y2="200.8651" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_5_9" data-name="5|9">
+        <line id="BOTTOM-62" data-name="BOTTOM" x1="2858.6459" y1="329.3635" x2="2849.8252" y2="358.4417" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-62" data-name="LOWER_INNER" x1="2882.0662" y1="252.1571" x2="2873.2455" y2="281.2353" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-62" data-name="UPPER INNER" x1="2905.4865" y1="174.9508" x2="2896.6657" y2="204.029" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-62" data-name="TOP" x1="2928.9068" y1="97.7444" x2="2920.086" y2="126.8226" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_26_5" data-name="26|5">
+        <line id="BOTTOM-63" data-name="BOTTOM" x1="2665.5987" y1="281.0076" x2="2659.6706" y2="310.8103" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-63" data-name="LOWER_INNER" x1="2681.3387" y1="201.8774" x2="2675.4106" y2="231.6802" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-63" data-name="UPPER INNER" x1="2697.0787" y1="122.7472" x2="2691.1505" y2="152.55" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-63" data-name="TOP" x1="2712.8186" y1="43.617" x2="2706.8905" y2="73.4198" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_11_26" data-name="11|26">
+        <line id="BOTTOM-64" data-name="BOTTOM" x1="2468.7414" y1="251.8064" x2="2465.763" y2="282.0468" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-64" data-name="LOWER_INNER" x1="2476.6495" y1="171.5145" x2="2473.671" y2="201.7548" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-64" data-name="UPPER INNER" x1="2484.5575" y1="91.2226" x2="2481.5791" y2="121.4629" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-64" data-name="TOP" x1="2492.4656" y1="10.9306" x2="2489.4872" y2="41.171" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+      <g id="_10_11" data-name="10|11">
+        <line id="BOTTOM-65" data-name="BOTTOM" x1="2269.9698" y1="242.0413" x2="2269.9698" y2="272.4279" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="LOWER_INNER-65" data-name="LOWER_INNER" x1="2269.9698" y1="161.3609" x2="2269.9698" y2="191.7475" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="UPPER_INNER-65" data-name="UPPER INNER" x1="2269.9698" y1="80.6804" x2="2269.9698" y2="111.0671" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+        <line id="TOP-65" data-name="TOP" x1="2269.9698" x2="2269.9698" y2="30.3867" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.2133"/>
+      </g>
+    </g>
+  </g>
+  <g id="GROUP_-_THE_192_INCARNATION_CROSSES" data-name="GROUP - THE 192 INCARNATION CROSSES">
+    <g id="GROUP_-_JUXTAPOSITION_CROSSES_-_JX_-_4_1" data-name="GROUP - JUXTAPOSITION CROSSES - JX - 4/1">
+      <text transform="translate(2149.8492 121.2367) rotate(-2.8)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-54.501" y="24.5093">Behaviour</tspan><tspan x="-66.502" y="49.0186">10/15 - 18/17</tspan></text>
+      <text transform="translate(1939.709 143.3044) rotate(-8.4247)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-39.6465" y="24.5093">Vitality</tspan><tspan x="-66.5015" y="49.0186">58/52 - 48/21</tspan></text>
+      <text transform="translate(1732.7491 185.7734) rotate(-14.0501)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-55.2139" y="24.5093">Opposition</tspan><tspan x="-66.5015" y="49.0181">38/39 - 57/51</tspan></text>
+      <text transform="translate(1531.1557 248.5516) rotate(-19.6747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-43.1621" y="24.5088">Ambition</tspan><tspan x="-66.5015" y="49.0186">54/53 - 32/42</tspan></text>
+      <text transform="matrix(0.9041, -0.4274, 0.4274, 0.9041, 1336.5435, 330.6027)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-42.4614" y="24.5088">Thinking</tspan><tspan x="-58.7173" y="49.0186">61/62 - 50/3</tspan></text>
+      <text transform="matrix(0.8578, -0.5139, 0.5139, 0.8578, 1151.0281, 431.4653)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-54.5007" y="24.5088">Limitation</tspan><tspan x="-66.5015" y="49.0186">60/56 - 28/27</tspan></text>
+      <text transform="matrix(0.8033, -0.5955, 0.5955, 0.8033, 976.1378, 549.9637)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-41.0731" y="24.5088">Fantasy</tspan><tspan x="-66.5015" y="49.0186">41/31 - 44/24</tspan></text>
+      <text transform="translate(813.8787 685.1031) rotate(-42.175)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-18.3963" y="24.5088">Need</tspan><tspan x="-50.9336" y="49.0186">19/33 - 1/2</tspan></text>
+      <text transform="matrix(0.6717, -0.7408, 0.7408, 0.6717, 665.3721, 835.2926)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-48.8441" y="24.5088">Listening</tspan><tspan x="-58.7172" y="49.0186">13/7 - 43/23</tspan></text>
+      <text transform="translate(532.5744 999.4876) rotate(-53.4253)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-55.2142" y="24.5088">Principles</tspan><tspan x="-50.9335" y="49.0186">49/4 - 14/8</tspan></text>
+      <text transform="translate(416.4827 1175.9761) rotate(-59.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-24.0784" y="24.5088">Fates</tspan><tspan x="-66.5015" y="49.0186">30/29 - 34/20</tspan></text>
+      <text transform="translate(318.1669 1362.8831) rotate(-64.6752)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-26.1802" y="24.5088">Moods</tspan><tspan x="-58.7175" y="49.0186">55/59 - 9/16</tspan></text>
+      <text transform="translate(238.5876 1558.5291) rotate(-70.2997)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-46.7168" y="24.5088">Bargains</tspan><tspan x="-58.7178" y="49.0186">37/40 - 5/35</tspan></text>
+      <text transform="translate(178.6633 1761.0291) rotate(-75.9251)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-32.563" y="24.5093">Doubts</tspan><tspan x="-66.5015" y="49.0186">63/64 - 26/45</tspan></text>
+      <text transform="matrix(0.1469, -0.9891, 0.9891, 0.1469, 138.7197, 1968.324)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-26.1802" y="24.5093">Grace</tspan><tspan x="-66.5015" y="49.0181">22/47 - 11/12</tspan></text>
+      <text transform="translate(119.4124 2178.623) rotate(-87.1747)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-24.7661" y="24.5093">Crisis</tspan><tspan x="-58.7173" y="49.0181">36/6 - 10/15</tspan></text>
+      <text transform="translate(121.0065 2390.0376) rotate(-92.8)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-54.501" y="24.5093">Innocence</tspan><tspan x="-66.502" y="49.0186">25/46 - 58/52</tspan></text>
+      <text transform="translate(143.0288 2600.0032) rotate(-98.4247)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-41.7607" y="24.5093">Opinions</tspan><tspan x="-66.502" y="49.0186">17/18 - 38/39</tspan></text>
+      <text transform="translate(185.5668 2806.7123) rotate(-104.0501)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-40.3467" y="24.509">Control</tspan><tspan x="-66.501" y="49.0181">21/48 - 54/53</tspan></text>
+      <text transform="translate(248.2755 3008.5617) rotate(-109.6747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-25.4795" y="24.5093">Shock</tspan><tspan x="-66.502" y="49.0183">51/57 - 61/62</tspan></text>
+      <text transform="matrix(-0.4274, -0.9041, 0.9041, -0.4274, 330.4018, 3203.0509)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-60.8701" y="24.5092">Completion</tspan><tspan x="-66.502" y="49.0183">42/32 - 60/56</tspan></text>
+      <text transform="matrix(-0.5139, -0.8578, 0.8578, -0.5139, 431.274, 3388.7347)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-47.4307" y="24.5092">Mutation</tspan><tspan x="-58.7178" y="49.0184">3/50 - 41/31</tspan></text>
+      <text transform="matrix(-0.5955, -0.8033, 0.8033, -0.5955, 549.6896, 3563.5174)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-31.1357" y="24.5092">Caring</tspan><tspan x="-66.502" y="49.0183">27/28 - 19/33</tspan></text>
+      <text transform="translate(684.8771 3725.9921) rotate(-132.175)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-93.4463" y="24.5093">Rationalisation</tspan><tspan x="-58.7178" y="49.0186">24/44 - 13/7</tspan></text>
+      <text transform="matrix(-0.7408, -0.6717, 0.6717, -0.7408, 835.0368, 3874.0941)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-56.959" y="24.509">The Driver</tspan><tspan x="-43.1494" y="49.0181">2/1 - 49/4</tspan></text>
+      <text transform="translate(999.3063 4007.0599) rotate(-143.4253)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-69.3682" y="24.5093">Assimilation</tspan><tspan x="-66.502" y="49.0183">23/43 - 30/29</tspan></text>
+      <text transform="translate(1175.7624 4123.3675) rotate(-149.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-73.6104" y="24.5093">Contribution</tspan><tspan x="-58.7178" y="49.0186">8/14 - 55/59</tspan></text>
+      <text transform="translate(1362.6886 4221.6507) rotate(-154.6752)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-41.3916" y="24.5093">The Now</tspan><tspan x="-66.502" y="49.0186">20/34 - 37/40</tspan></text>
+      <text transform="translate(1558.2545 4301.1422) rotate(-160.2997)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-96.9756" y="24.5093">Experimentation</tspan><tspan x="-58.7178" y="49.0186">16/9 - 63/64</tspan></text>
+      <text transform="translate(1760.8198 4361.0773) rotate(-165.9251)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-60.1572" y="24.5093">Experience</tspan><tspan x="-58.7178" y="49.0186">35/5 - 22/47</tspan></text>
+      <text transform="matrix(-0.9891, -0.1469, 0.1469, -0.9891, 1968.0519, 4400.7351)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-58.0557" y="24.5088">Possession</tspan><tspan x="-58.7168" y="49.0186">45/26 - 36/6</tspan></text>
+      <text transform="translate(2178.3481 4420.0121) rotate(-177.1747)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-72.9092" y="24.5088">Articulation</tspan><tspan x="-66.501" y="49.0186">12/11 - 25/46</tspan></text>
+      <text transform="translate(2389.8073 4418.8808) rotate(177.2)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-48.1313" y="24.5098">Extremes</tspan><tspan x="-66.502" y="49.0186">15/10 - 17/18</tspan></text>
+      <text transform="translate(2599.7268 4396.6845) rotate(171.5753)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-49.5708" y="24.5088">Stillness</tspan><tspan x="-66.5015" y="49.0186">52/58 - 21/48</tspan></text>
+      <text transform="translate(2806.5034 4353.8964) rotate(165.9499)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-67.9536" y="24.5088">Provocation</tspan><tspan x="-66.5015" y="49.0186">39/38 - 51/57</tspan></text>
+      <text transform="translate(3008.2827 4291.4432) rotate(160.3253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-58.7432" y="24.5088">Beginnings</tspan><tspan x="-66.5015" y="49.0186">53/54 - 42/32</tspan></text>
+      <text transform="matrix(-0.9041, 0.4274, -0.4274, -0.9041, 3202.847, 4209.1929)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-29.021" y="24.5088">Detail</tspan><tspan x="-58.7173" y="49.0186">62/61 - 3/50</tspan></text>
+      <text transform="matrix(-0.8578, 0.5139, -0.5139, -0.8578, 3388.5429, 4108.4913)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-65.8391" y="24.5088">Stimulation</tspan><tspan x="-66.5015" y="49.0186">56/60 - 27/28</tspan></text>
+      <text transform="matrix(-0.8033, 0.5955, -0.5955, -0.8033, 3563.241, 3989.9658)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-53.0994" y="24.5088">Influence</tspan><tspan x="-66.5015" y="49.0186">31/41 - 24/44</tspan></text>
+      <text transform="translate(3725.7657 3854.9948) rotate(137.825)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-40.347" y="24.5088">Retreat</tspan><tspan x="-50.9336" y="49.0186">33/19 - 2/1</tspan></text>
+      <text transform="matrix(-0.6717, 0.7408, -0.7408, -0.6717, 3873.8373, 3704.4294)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-65.1255" y="24.5088">Interaction</tspan><tspan x="-58.7172" y="49.0186">7/13 - 23/43</tspan></text>
+      <text transform="translate(4006.8779 3540.3308) rotate(126.5747)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-81.4071" y="24.5088">Formalization</tspan><tspan x="-50.9335" y="49.0186">4/49 - 8/14</tspan></text>
+      <text transform="translate(4123.1539 3364.0892) rotate(120.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-64.3994" y="24.5088">Commitment</tspan><tspan x="-66.5015" y="49.0186">29/30 - 20/34</tspan></text>
+      <text transform="translate(4221.4561 3177.1309) rotate(115.3248)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-47.4304" y="24.5088">Strategy</tspan><tspan x="-58.7175" y="49.0186">59/55 - 16/9</tspan></text>
+      <text transform="translate(4300.8683 2981.4761) rotate(109.7003)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-30.4355" y="24.5088">Denial</tspan><tspan x="-58.7178" y="49.0186">40/37 - 35/5</tspan></text>
+      <text transform="translate(4360.8664 2778.923) rotate(104.0749)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-53.8003" y="24.5088">Confusion</tspan><tspan x="-66.5015" y="49.0186">64/63 - 45/26</tspan></text>
+      <text transform="matrix(-0.1469, 0.9891, -0.9891, -0.1469, 4400.4647, 2571.4046)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-58.7559" y="24.5088">Oppression</tspan><tspan x="-66.5015" y="49.0186">47/22 - 12/11</tspan></text>
+      <text transform="translate(4419.7368 2361.0764) rotate(92.8253)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-43.8887" y="24.5088">Conflict</tspan><tspan x="-58.7173" y="49.0186">6/36 - 15/10</tspan></text>
+      <text transform="translate(4418.6505 2150.0795) rotate(87.2)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-63.6992" y="24.5098">Serendipity</tspan><tspan x="-66.502" y="49.0186">46/25 - 52/58</tspan></text>
+      <text transform="translate(4396.4086 1939.9865) rotate(81.5753)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-60.8584" y="24.5088">Correction</tspan><tspan x="-66.502" y="49.0186">18/17 - 39/38</tspan></text>
+      <text transform="translate(4353.6877 1732.9586) rotate(75.9499)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-24.7793" y="24.5093">Depth</tspan><tspan x="-66.501" y="49.0181">48/21 - 53/54</tspan></text>
+      <text transform="translate(4291.1652 1531.4343) rotate(70.3253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-46.0166" y="24.5093">Intuition</tspan><tspan x="-66.502" y="49.0186">57/51 - 62/61</tspan></text>
+      <text transform="matrix(0.4274, 0.9041, -0.9041, 0.4274, 4208.9894, 1336.7476)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-76.4512" y="24.5093">Conservation</tspan><tspan x="-66.502" y="49.0181">32/42 - 56/60</tspan></text>
+      <text transform="matrix(0.5139, 0.8578, -0.8578, 0.5139, 4108.2994, 1151.2204)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-32.5762" y="24.5093">Values</tspan><tspan x="-58.7178" y="49.0186">50/3 - 31/41</tspan></text>
+      <text transform="matrix(0.5955, 0.8033, -0.8033, 0.5955, 3989.6892, 976.4145)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-20.5234" y="24.5093">Risks</tspan><tspan x="-66.502" y="49.0183">28/27 - 33/19</tspan></text>
+      <text transform="translate(3854.7677 814.1082) rotate(47.825)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-54.5137" y="24.5093">Alertness</tspan><tspan x="-58.7178" y="49.0186">44/24 - 7/13</tspan></text>
+      <text transform="matrix(0.7408, 0.6717, -0.6717, 0.7408, 3704.1745, 665.6301)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-93.4463" y="24.509">Self-Expression</tspan><tspan x="-43.1494" y="49.0182">1/2 - 4/49</tspan></text>
+      <text transform="translate(3540.147 532.7589) rotate(36.5747)" font-size="25.4798" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-40.3594" y="24.5092">Insights</tspan><tspan x="-66.502" y="49.0183">43/23 - 29/30</tspan></text>
+      <text transform="translate(3363.8738 416.6983) rotate(30.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-64.3994" y="24.5093">Empowering</tspan><tspan x="-58.7178" y="49.0185">14/8 - 59/55</tspan></text>
+      <text transform="translate(3176.937 318.3647) rotate(25.3248)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-27.5947" y="24.5093">Power</tspan><tspan x="-66.502" y="49.0186">34/20 - 40/37</tspan></text>
+      <text transform="translate(2981.2027 238.8625) rotate(19.7003)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-96.9756" y="24.5093">Experimentation</tspan><tspan x="-58.7178" y="49.0186">9/16 - 64/63</tspan></text>
+      <text transform="translate(2778.7135 178.8747) rotate(14.0749)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-29.7354" y="24.5093">Habits</tspan><tspan x="-58.7178" y="49.0183">5/35 - 47/22</tspan></text>
+      <text transform="matrix(0.9891, 0.1469, -0.1469, 0.9891, 2571.1333, 138.9922)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-50.2451" y="24.5093">Trickster</tspan><tspan x="-58.7168" y="49.0181">26/45 - 6/36</tspan></text>
+      <text transform="translate(2360.8016 119.6872) rotate(2.8253)" font-size="25.4797" font-family="Copperplate-Bold, Copperplate" font-weight="700">Jx<tspan x="-21.2373" y="24.5093">Ideas</tspan><tspan x="-66.501" y="49.0181">11/12 - 46/25</tspan></text>
+    </g>
+    <g id="GROUP_-_RIGHT-ANGLE_CROSSES_-_RAX_-_1_3_1_4_2_4_2_5_3_5_3_6_4_6" data-name="GROUP - RIGHT-ANGLE CROSSES - RAX  - 1/3 | 1/4 | 2/4 | 2/5 | 3/5 | 3/6 | 4/6">
+      <text transform="translate(2145.7075 211.6059) rotate(-2.8)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-78.4702" y="22.5488">Vessel of Love 4</tspan><tspan x="-51.4185" y="45.0972">10/15 - 46/25</tspan></text>
+      <text transform="translate(1944.4298 233.6349) rotate(-8.4247)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.1777" y="22.5483">Service 4</tspan><tspan x="-51.4185" y="45.0972">58/52 - 18/17</tspan></text>
+      <text transform="translate(1746.2643 275.191) rotate(-14.0501)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.8335" y="22.5483">Tension 4</tspan><tspan x="-51.418" y="45.0967">38/39 - 48/21</tspan></text>
+      <text transform="translate(1553.4141 336.2312) rotate(-19.6747)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.147" y="22.5488">Penetration 4</tspan><tspan x="-51.4185" y="45.0967">54/53 - 57/51</tspan></text>
+      <text transform="matrix(0.9041, -0.4274, 0.4274, 0.9041, 1367.2556, 415.667)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-16.5964" y="22.5488">Maia 4</tspan><tspan x="-51.4182" y="45.0967">61/62 - 32/42</tspan></text>
+      <text transform="matrix(0.8578, -0.5139, 0.5139, 0.8578, 1189.9469, 513.1124)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-19.2102" y="22.5488">Laws 4</tspan><tspan x="-44.2571" y="45.0967">60/56 - 50/3</tspan></text>
+      <text transform="matrix(0.8033, -0.5955, 0.5955, 0.8033, 1022.8881, 627.4101)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-60.2323" y="22.5488">Unexpected 4</tspan><tspan x="-51.4182" y="45.0967">41/31 - 28/27</tspan></text>
+      <text transform="translate(868.0018 757.5926) rotate(-42.175)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-79.1027" y="22.5488">The Four Ways 4</tspan><tspan x="-51.4185" y="45.0977">19/33 - 44/24</tspan></text>
+      <text transform="matrix(0.6717, -0.7408, 0.7408, 0.6717, 726.3068, 902.13)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-43.3073" y="22.5479">The Sphinx</tspan><tspan x="-29.9341" y="45.0967">13/7 - 1/2</tspan></text>
+      <text transform="translate(599.7451 1060.021) rotate(-53.4253)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-53.4226" y="22.5488">Explanation</tspan><tspan x="-44.2568" y="45.0967">49/4 - 43/23</tspan></text>
+      <text transform="translate(489.3055 1229.6327) rotate(-59.0501)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-40.3777" y="22.5488">Contagion</tspan><tspan x="-44.2573" y="45.0977">30/29 - 14/8</tspan></text>
+      <text transform="translate(395.8786 1409.1416) rotate(-64.6752)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-83.0291" y="22.5488">Sleeping Phoenix</tspan><tspan x="-51.4185" y="45.0967">55/59 - 34/20</tspan></text>
+      <text transform="translate(320.5089 1596.9565) rotate(-70.2997)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-33.2285" y="22.5488">Planning</tspan><tspan x="-44.2573" y="45.0967">37/40 - 9/16</tspan></text>
+      <text transform="translate(263.907 1791.2392) rotate(-75.9251)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-67.0894" y="22.5483">Consciousness</tspan><tspan x="-44.2573" y="45.0972">63/64 - 5/35</tspan></text>
+      <text transform="matrix(0.1469, -0.9891, 0.9891, 0.1469, 226.5419, 1990.0449)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-38.4316" y="22.5483">Rulership</tspan><tspan x="-51.418" y="45.0967">22/47 - 26/45</tspan></text>
+      <text transform="translate(208.942 2191.6337) rotate(-87.1747)" font-size="23.4412" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-6.5166" y="22.5483">Eden</tspan><tspan x="-44.2563" y="45.0967">36/6 - 11/12</tspan></text>
+      <text transform="translate(211.3753 2394.1925) rotate(-92.8)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-67.7344" y="22.5488">Vessel of Love</tspan><tspan x="-51.418" y="45.0972">25/46 - 10/15</tspan></text>
+      <text transform="translate(233.4033 2595.2858) rotate(-98.4247)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-23.4414" y="22.5483">Service</tspan><tspan x="-51.418" y="45.0972">17/18 - 58/52</tspan></text>
+      <text transform="translate(274.9599 2793.1856) rotate(-104.0501)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-24.0977" y="22.5483">Tension</tspan><tspan x="-51.418" y="45.0964">21/48 - 38/39</tspan></text>
+      <text transform="translate(335.9996 2986.3066) rotate(-109.6747)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-53.4111" y="22.5486">Penetration</tspan><tspan x="-51.418" y="45.0969">51/57 - 54/53</tspan></text>
+      <text transform="matrix(-0.4274, -0.9041, 0.9041, -0.4274, 415.4353, 3172.3329)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-5.8604" y="22.5483">Maia</tspan><tspan x="-51.418" y="45.0968">42/32 - 61/62</tspan></text>
+      <text transform="matrix(-0.5139, -0.8578, 0.8578, -0.5139, 512.8819, 3349.8261)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-8.4736" y="22.5485">Laws</tspan><tspan x="-44.2568" y="45.097">3/50 - 60/56</tspan></text>
+      <text transform="matrix(-0.5955, -0.8033, 0.8033, -0.5955, 627.1796, 3516.765)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-49.4961" y="22.5484">Unexpected</tspan><tspan x="-51.418" y="45.0968">27/28 - 41/31</tspan></text>
+      <text transform="translate(757.3614 3671.8827) rotate(-132.175)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-68.3662" y="22.5486">The Four Ways</tspan><tspan x="-51.418" y="45.0972">24/44 - 19/33</tspan></text>
+      <text transform="matrix(-0.7408, -0.6717, 0.6717, -0.7408, 901.8981, 3813.1474)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-54.0439" y="22.5483">The Sphinx 2</tspan><tspan x="-29.9346" y="45.0964">2/1 - 13/7</tspan></text>
+      <text transform="translate(1059.7904 3939.8896) rotate(-143.4253)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.1582" y="22.5483">Explanation 2</tspan><tspan x="-44.2568" y="45.0969">23/43 - 49/4</tspan></text>
+      <text transform="translate(1229.4005 4050.5557) rotate(-149.0501)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-51.1133" y="22.5483">Contagion 2</tspan><tspan x="-44.2568" y="45.0972">8/14 - 30/29</tspan></text>
+      <text transform="translate(1408.9099 4143.9479) rotate(-154.6752)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-93.7646" y="22.5483">Sleeping Phoenix 2</tspan><tspan x="-51.418" y="45.0972">20/34 - 55/59</tspan></text>
+      <text transform="translate(1596.7257 4219.2258) rotate(-160.2997)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-43.9639" y="22.5483">Planning 2</tspan><tspan x="-44.2568" y="45.0972">16/9 - 37/40</tspan></text>
+      <text transform="translate(1791.0077 4275.8396) rotate(-165.9251)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-77.8252" y="22.5483">Consciousness 2</tspan><tspan x="-44.2568" y="45.0972">35/5 - 63/64</tspan></text>
+      <text transform="matrix(-0.9891, -0.1469, 0.1469, -0.9891, 1989.8144, 4312.9018)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-49.168" y="22.5479">Rulership 2</tspan><tspan x="-51.418" y="45.0967">45/26 - 22/47</tspan></text>
+      <text transform="translate(2191.4027 4330.4661) rotate(-177.1747)" font-size="23.4412" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-17.2529" y="22.5479">Eden 2</tspan><tspan x="-44.2568" y="45.0967">12/11 - 36/6</tspan></text>
+      <text transform="translate(2393.961 4328.5257) rotate(177.2)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-78.4702" y="22.5488">Vessel of Love 2</tspan><tspan x="-51.4185" y="45.0977">15/10 - 25/46</tspan></text>
+      <text transform="translate(2595.0533 4306.31) rotate(171.5753)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.1777" y="22.5488">Service 2</tspan><tspan x="-51.4185" y="45.0967">52/58 - 17/18</tspan></text>
+      <text transform="translate(2792.9552 4264.4917) rotate(165.9499)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.8335" y="22.5479">Tension 2</tspan><tspan x="-51.418" y="45.0967">39/38 - 21/48</tspan></text>
+      <text transform="translate(2986.0749 4203.7207) rotate(160.3253)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.147" y="22.5488">Penetration 2</tspan><tspan x="-51.4185" y="45.0967">53/54 - 51/57</tspan></text>
+      <text transform="matrix(-0.9041, 0.4274, -0.4274, -0.9041, 3172.1012, 4124.1521)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-16.5964" y="22.5488">Maia 2</tspan><tspan x="-51.4182" y="45.0967">62/61 - 42/32</tspan></text>
+      <text transform="matrix(-0.8578, 0.5139, -0.5139, -0.8578, 3349.5937, 4026.8909)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-19.2102" y="22.5488">Laws 2</tspan><tspan x="-44.2571" y="45.0967">56/60 - 3/50</tspan></text>
+      <text transform="matrix(-0.8033, 0.5955, -0.5955, -0.8033, 3516.5326, 3912.4736)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-60.2323" y="22.5488">Unexpected 2</tspan><tspan x="-51.4182" y="45.0967">31/41 - 27/28</tspan></text>
+      <text transform="translate(3671.6502 3782.5222) rotate(137.825)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-79.1027" y="22.5488">The Four Ways 2</tspan><tspan x="-51.4185" y="45.0977">33/19 - 24/44</tspan></text>
+      <text transform="matrix(-0.6717, 0.7408, -0.7408, -0.6717, 3812.9151, 3637.555)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-54.0432" y="22.5479">The Sphinx 3</tspan><tspan x="-29.9341" y="45.0967">7/13 - 2/1</tspan></text>
+      <text transform="translate(3939.6574 3479.8432) rotate(126.5747)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.1586" y="22.5488">Explanation 3</tspan><tspan x="-44.2568" y="45.0967">4/49 - 23/43</tspan></text>
+      <text transform="translate(4050.3259 3310.4602) rotate(120.9499)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-51.1138" y="22.5488">Contagion 3</tspan><tspan x="-44.2573" y="45.0977">29/30 - 8/14</tspan></text>
+      <text transform="translate(4143.7158 3130.9167) rotate(115.3248)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-93.7651" y="22.5488">Sleeping Phoenix 3</tspan><tspan x="-51.4185" y="45.0967">59/55 - 20/34</tspan></text>
+      <text transform="translate(4218.9924 2943.009) rotate(109.7003)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-43.9644" y="22.5488">Planning 3</tspan><tspan x="-44.2573" y="45.0967">40/37 - 16/9</tspan></text>
+      <text transform="translate(4275.6073 2748.7382) rotate(104.0749)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-77.8252" y="22.5488">Consciousness 3</tspan><tspan x="-44.2573" y="45.0967">64/63 - 35/5</tspan></text>
+      <text transform="matrix(-0.1469, 0.9891, -0.9891, -0.1469, 4312.6697, 2549.6305)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-49.1675" y="22.5479">Rulership 3</tspan><tspan x="-51.418" y="45.0967">47/22 - 45/26</tspan></text>
+      <text transform="translate(4330.2346 2348.0054) rotate(92.8253)" font-size="23.4412" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-17.2524" y="22.5479">Eden 3</tspan><tspan x="-44.2563" y="45.0967">6/36 - 12/11</tspan></text>
+      <text transform="translate(4328.2931 2145.9386) rotate(87.2)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-78.4697" y="22.5488">Vessel of Love 3</tspan><tspan x="-51.418" y="45.0977">46/25 - 15/10</tspan></text>
+      <text transform="translate(4306.0789 1944.6627) rotate(81.5753)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.1768" y="22.5488">Service 3</tspan><tspan x="-51.418" y="45.0967">18/17 - 52/58</tspan></text>
+      <text transform="translate(4264.2606 1746.4978) rotate(75.9499)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-34.834" y="22.5483">Tension 3</tspan><tspan x="-51.418" y="45.0967">48/21 - 39/38</tspan></text>
+      <text transform="translate(4203.4885 1553.6445) rotate(70.3253)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.1465" y="22.5483">Penetration 3</tspan><tspan x="-51.418" y="45.0972">57/51 - 53/54</tspan></text>
+      <text transform="matrix(0.4274, 0.9041, -0.9041, 0.4274, 4123.9219, 1367.486)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-16.5957" y="22.5483">Maia 3</tspan><tspan x="-51.418" y="45.0967">32/42 - 62/61</tspan></text>
+      <text transform="matrix(0.5139, 0.8578, -0.8578, 0.5139, 4026.6599, 1190.1787)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-19.21" y="22.5483">Laws 3</tspan><tspan x="-44.2568" y="45.0972">50/3 - 56/60</tspan></text>
+      <text transform="matrix(0.5955, 0.8033, -0.8033, 0.5955, 3912.2419, 1023.1206)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-60.2324" y="22.5483">Unexpected 3</tspan><tspan x="-51.418" y="45.0969">28/27 - 31/41</tspan></text>
+      <text transform="translate(3782.2915 868.2339) rotate(47.825)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-79.1025" y="22.5486">The Four Ways 3</tspan><tspan x="-51.418" y="45.0972">44/24 - 33/19</tspan></text>
+      <text transform="matrix(0.7408, 0.6717, -0.6717, 0.7408, 3637.3255, 726.5401)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-54.0439" y="22.5482">The Sphinx 4</tspan><tspan x="-29.9346" y="45.0966">1/2 - 7/13</tspan></text>
+      <text transform="translate(3479.6123 599.976) rotate(36.5747)" font-size="23.4414" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-64.1582" y="22.5484">Explanation 4</tspan><tspan x="-44.2568" y="45.0968">43/23 - 4/49</tspan></text>
+      <text transform="translate(3310.2289 489.5367) rotate(30.9499)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-51.1133" y="22.5486">Contagion 4</tspan><tspan x="-44.2568" y="45.0972">14/8 - 29/30</tspan></text>
+      <text transform="translate(3130.6853 396.1113) rotate(25.3248)" font-size="23.4416" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-93.7646" y="22.5486">Sleeping Phoenix 4</tspan><tspan x="-51.418" y="45.0972">34/20 - 59/55</tspan></text>
+      <text transform="translate(2942.7783 320.7407) rotate(19.7003)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-43.9639" y="22.5486">Planning 4</tspan><tspan x="-44.2568" y="45.0969">9/16 - 40/37</tspan></text>
+      <text transform="translate(2748.5068 264.1389) rotate(14.0749)" font-size="23.4415" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-77.8252" y="22.5486">Consciousness 4</tspan><tspan x="-44.2568" y="45.0969">5/35 - 64/63</tspan></text>
+      <text transform="matrix(0.9891, 0.1469, -0.1469, 0.9891, 2549.401, 226.7747)" font-size="23.4413" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-49.168" y="22.5483">Rulership 4</tspan><tspan x="-51.418" y="45.0967">26/45 - 47/22</tspan></text>
+      <text transform="translate(2347.7773 209.1741) rotate(2.8253)" font-size="23.4412" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rax<tspan x="-17.2529" y="22.5483">Eden 4</tspan><tspan x="-44.2568" y="45.0967">11/12 - 6/36</tspan></text>
+    </g>
+    <g id="GROUP_-_LEFT-ANGLE_CROSSES_-_LAX_-_5_1_5_2_6_2_6_3" data-name="GROUP - LEFT-ANGLE CROSSES - LAX - 5/1 | 5/2 | 6/2 | 6/3">
+      <g>
+        <text transform="translate(2135.7425 34.5153) rotate(-2.8)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-61.9282" y="24.5093">Prevention 2</tspan><tspan x="-56.5903" y="49.0186">10/15 - 18/17</tspan></text>
+        <text transform="translate(1917.1193 58.3639) rotate(-8.4247)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-44.9331" y="24.5093">Demands 2</tspan><tspan x="-56.5903" y="49.0186">58/52 - 48/21</tspan></text>
+        <text transform="translate(1701.8806 103.4223) rotate(-14.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-76.082" y="24.5093">Individualism 2</tspan><tspan x="-56.5903" y="49.0186">38/39 - 57/51</tspan></text>
+        <text transform="translate(1492.4233 169.6475) rotate(-19.6747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-33.6079" y="24.5088">Cycles 2</tspan><tspan x="-56.5903" y="49.0186">54/53 - 32/42</tspan></text>
+        <text transform="matrix(0.9041, -0.4274, 0.4274, 0.9041, 1290.2334, 255.8789)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-71.1265" y="24.5088">Obscuration 2</tspan><tspan x="-48.8062" y="49.0186">61/62 - 50/3</tspan></text>
+        <text transform="matrix(0.8578, -0.5139, 0.5139, 0.8578, 1097.6757, 361.6743)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-66.1707" y="24.5088">Distraction 2</tspan><tspan x="-56.5903" y="49.0186">60/56 - 28/27</tspan></text>
+        <text transform="matrix(0.8033, -0.5955, 0.5955, 0.8033, 916.1661, 485.7112)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-27.2505" y="24.5088">Alpha 2</tspan><tspan x="-56.5901" y="49.0186">41/31 - 44/24</tspan></text>
+        <text transform="translate(747.945 627.0861) rotate(-42.175)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-64.0429" y="24.5088">Refinement 2</tspan><tspan x="-41.0221" y="49.0186">19/33 - 1/2</tspan></text>
+        <text transform="matrix(0.6717, -0.7408, 0.7408, 0.6717, 593.9774, 783.9308)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-16.2817" y="24.5088">Masks</tspan><tspan x="-48.8061" y="49.0186">13/7 - 43/23</tspan></text>
+        <text transform="translate(456.5083 955.3776) rotate(-53.4253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-50.2587" y="24.5088">Revolution</tspan><tspan x="-41.0221" y="49.0186">49/4 - 14/8</tspan></text>
+        <text transform="translate(336.5342 1139.6101) rotate(-59.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-34.6907" y="24.5088">Industry</tspan><tspan x="-56.5903" y="49.0186">30/29 - 34/20</tspan></text>
+        <text transform="translate(235.0407 1334.5315) rotate(-64.6752)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-14.1541" y="24.5088">Spirit</tspan><tspan x="-48.8062" y="49.0186">55/59 - 9/16</tspan></text>
+        <text transform="translate(153.0109 1538.4281) rotate(-70.2997)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-41.7485" y="24.5088">Migration</tspan><tspan x="-48.8062" y="49.0186">37/40 - 5/35</tspan></text>
+        <text transform="translate(91.5702 1749.4254) rotate(-75.9251)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-34.665" y="24.5093">Dominion</tspan><tspan x="-56.5903" y="49.0186">63/64 - 26/45</tspan></text>
+        <text transform="matrix(0.1469, -0.9891, 0.9891, 0.1469, 50.8358, 1965.2372)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-41.0479" y="24.5093">Informing</tspan><tspan x="-56.5903" y="49.0186">22/47 - 11/12</tspan></text>
+        <text transform="translate(31.6396 2184.1505) rotate(-87.1747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-15.5811" y="24.5093">Plane</tspan><tspan x="-48.8062" y="49.0186">36/6 - 10/15</tspan></text>
+        <text transform="translate(34.3106 2404.2662) rotate(-92.8)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-29.0215" y="24.5093">Healing</tspan><tspan x="-56.5898" y="49.0186">25/46 - 58/52</tspan></text>
+        <text transform="translate(58.1023 2622.6146) rotate(-98.4247)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-39.6592" y="24.5093">Upheaval</tspan><tspan x="-56.5898" y="49.0186">17/18 - 38/39</tspan></text>
+        <text transform="translate(103.2077 2837.4666) rotate(-104.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-47.4297" y="24.5093">Endeavour</tspan><tspan x="-56.5898" y="49.0186">21/48 - 54/53</tspan></text>
+        <text transform="translate(169.3892 3047.3111) rotate(-109.6747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-28.3076" y="24.5093">Clarion</tspan><tspan x="-56.5898" y="49.0186">51/57 - 61/62</tspan></text>
+        <text transform="matrix(-0.4274, -0.9041, 0.9041, -0.4274, 255.6673, 3249.3104)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-44.5889" y="24.5093">Limitation</tspan><tspan x="-56.5898" y="49.0186">42/32 - 60/56</tspan></text>
+        <text transform="matrix(-0.5139, -0.8578, 0.8578, -0.5139, 361.4694, 3442.1506)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-21.9375" y="24.5093">Wishes</tspan><tspan x="-48.8057" y="49.0186">3/50 - 41/31</tspan></text>
+        <text transform="matrix(-0.5955, -0.8033, 0.8033, -0.5955, 485.4297, 3623.4848)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-44.5889" y="24.5093">Alignment</tspan><tspan x="-56.5898" y="49.0186">27/28 - 19/33</tspan></text>
+        <text transform="translate(626.8569 3792.0386) rotate(-132.175)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-57.3418" y="24.5093">Incarnation</tspan><tspan x="-48.8057" y="49.0186">24/44 - 13/7</tspan></text>
+        <text transform="matrix(-0.7408, -0.6717, 0.6717, -0.7408, 783.6694, 3945.3783)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-36.0918" y="24.5093">Defiance</tspan><tspan x="-33.2373" y="49.0186">2/1 - 49/4</tspan></text>
+        <text transform="translate(955.1807 4083.0514) rotate(-143.4253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-48.1182" y="24.5093">Dedication</tspan><tspan x="-56.5898" y="49.0186">23/43 - 30/29</tspan></text>
+        <text transform="translate(1139.3939 4203.4233) rotate(-149.0501)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-60.1699" y="24.5093">Uncertainty</tspan><tspan x="-48.8057" y="49.0186">8/14 - 55/59</tspan></text>
+        <text transform="translate(1334.3682 4304.9245) rotate(-154.6752)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-27.6064" y="24.5093">Duality</tspan><tspan x="-56.5898" y="49.0186">20/34 - 37/40</tspan></text>
+        <text transform="translate(1538.114 4386.7089) rotate(-160.2997)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-70.7822" y="24.5093">Identification</tspan><tspan x="-48.8057" y="49.0186">16/9 - 63/64</tspan></text>
+        <text transform="translate(1749.2611 4448.2517) rotate(-165.9251)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-50.9717" y="24.5093">Separation</tspan><tspan x="-48.8057" y="49.0186">35/5 - 22/47</tspan></text>
+        <text transform="matrix(-0.9891, -0.1469, 0.1469, -0.9891, 1964.9692, 4488.4715)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-75.0371" y="24.5088">Confrontation</tspan><tspan x="-48.8057" y="49.0186">45/26 - 36/6</tspan></text>
+        <text transform="translate(2183.877 4507.6085) rotate(-177.1747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-43.8887" y="24.5088">Education</tspan><tspan x="-56.5898" y="49.0186">12/11 - 25/46</tspan></text>
+        <text transform="translate(2404.0358 4505.7126) rotate(177.2)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-50.2588" y="24.5088">Prevention</tspan><tspan x="-56.5903" y="49.0186">15/10 - 17/18</tspan></text>
+        <text transform="translate(2622.34 4481.6537) rotate(171.5753)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-33.2637" y="24.5088">Demands</tspan><tspan x="-56.5903" y="49.0186">52/58 - 21/48</tspan></text>
+        <text transform="translate(2837.2523 4436.1074) rotate(165.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-64.4126" y="24.5088">Individualism</tspan><tspan x="-56.5903" y="49.0186">39/38 - 51/57</tspan></text>
+        <text transform="translate(3047.026 4370.3371) rotate(160.3253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-21.938" y="24.5088">Cycles</tspan><tspan x="-56.5903" y="49.0186">53/54 - 42/32</tspan></text>
+        <text transform="matrix(-0.9041, 0.4274, -0.4274, -0.9041, 3249.0964, 4283.8936)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-59.4568" y="24.5088">Obscuration</tspan><tspan x="-48.8062" y="49.0186">62/61 - 3/50</tspan></text>
+        <text transform="matrix(-0.8578, 0.5139, -0.5139, -0.8578, 3441.9655, 4178.3586)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-54.501" y="24.5088">Distraction</tspan><tspan x="-56.5903" y="49.0186">56/60 - 27/28</tspan></text>
+        <text transform="matrix(-0.8033, 0.5955, -0.5955, -0.8033, 3623.2157, 4054.2307)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-15.5808" y="24.5088">Alpha</tspan><tspan x="-56.5901" y="49.0186">31/41 - 24/44</tspan></text>
+        <text transform="translate(3791.8133 3913.1353) rotate(137.825)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-52.3733" y="24.5088">Refinement</tspan><tspan x="-41.0221" y="49.0186">33/19 - 2/1</tspan></text>
+        <text transform="matrix(-0.6717, 0.7408, -0.7408, -0.6717, 3945.122, 3755.6828)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-27.9513" y="24.5088">Masks 2</tspan><tspan x="-48.8061" y="49.0186">7/13 - 23/43</tspan></text>
+        <text transform="translate(4082.8854 3584.3723) rotate(126.5747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-61.9282" y="24.5088">Revolution 2</tspan><tspan x="-41.0221" y="49.0186">4/49 - 8/14</tspan></text>
+        <text transform="translate(4203.219 3400.5647) rotate(120.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-46.3604" y="24.5088">Industry 2</tspan><tspan x="-56.5903" y="49.0186">29/30 - 20/34</tspan></text>
+        <text transform="translate(4304.7178 3205.5887) rotate(115.3248)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-25.8237" y="24.5088">Spirit 2</tspan><tspan x="-48.8062" y="49.0186">59/55 - 16/9</tspan></text>
+        <text transform="translate(4386.4226 3001.5935) rotate(109.7003)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-53.418" y="24.5088">Migration 2</tspan><tspan x="-48.8062" y="49.0186">40/37 - 35/5</tspan></text>
+        <text transform="translate(4448.0643 2790.5806) rotate(104.0749)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-46.3345" y="24.5088">Dominion 2</tspan><tspan x="-56.5903" y="49.0186">64/63 - 45/26</tspan></text>
+        <text transform="matrix(-0.1469, 0.9891, -0.9891, -0.1469, 4488.2194, 2574.3711)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-52.7173" y="24.5088">Informing 2</tspan><tspan x="-56.5903" y="49.0186">47/22 - 12/11</tspan></text>
+        <text transform="translate(4507.3429 2355.4106) rotate(92.8253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-27.2505" y="24.5088">Plane 2</tspan><tspan x="-48.8062" y="49.0186">6/36 - 15/10</tspan></text>
+        <text transform="translate(4505.4805 2135.9733) rotate(87.2)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-40.6904" y="24.5088">Healing 2</tspan><tspan x="-56.5898" y="49.0186">46/25 - 52/58</tspan></text>
+        <text transform="translate(4481.3647 1917.3984) rotate(81.5753)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-51.3291" y="24.5088">Upheaval 2</tspan><tspan x="-56.5898" y="49.0186">18/17 - 39/38</tspan></text>
+        <text transform="translate(4435.9192 1702.0883) rotate(75.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-59.0996" y="24.5093">Endeavour 2</tspan><tspan x="-56.5898" y="49.0186">48/21 - 53/54</tspan></text>
+        <text transform="translate(4370.0764 1492.7103) rotate(70.3253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-39.9766" y="24.5093">Clarion 2</tspan><tspan x="-56.5898" y="49.0186">57/51 - 62/61</tspan></text>
+        <text transform="matrix(0.4274, 0.9041, -0.9041, 0.4274, 4283.6836, 1290.4445)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-56.2588" y="24.5093">Limitation 2</tspan><tspan x="-56.5898" y="49.0186">32/42 - 56/60</tspan></text>
+        <text transform="matrix(0.5139, 0.8578, -0.8578, 0.5139, 4178.1553, 1097.8615)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-33.6074" y="24.5093">Wishes 2</tspan><tspan x="-48.8057" y="49.0186">50/3 - 31/41</tspan></text>
+        <text transform="matrix(0.5955, 0.8033, -0.8033, 0.5955, 4053.9443, 916.4384)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-56.2588" y="24.5093">Alignment 2</tspan><tspan x="-56.5898" y="49.0186">28/27 - 33/19</tspan></text>
+        <text transform="translate(3912.904 748.1727) rotate(47.825)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-69.0107" y="24.5093">Incarnation 2</tspan><tspan x="-48.8057" y="49.0186">44/24 - 7/13</tspan></text>
+        <text transform="matrix(0.7408, 0.6717, -0.6717, 0.7408, 3755.421, 594.2351)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-47.7607" y="24.5093">Defiance 2</tspan><tspan x="-33.2373" y="49.0186">1/2 - 4/49</tspan></text>
+        <text transform="translate(3584.1725 456.6793) rotate(36.5747)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-59.7871" y="24.5093">Dedication 2</tspan><tspan x="-56.5898" y="49.0186">43/23 - 29/30</tspan></text>
+        <text transform="translate(3400.3463 336.7408) rotate(30.9499)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-71.8398" y="24.5093">Uncertainty 2</tspan><tspan x="-48.8057" y="49.0186">14/8 - 59/55</tspan></text>
+        <text transform="translate(3205.4284 235.2409) rotate(25.3248)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-39.2764" y="24.5093">Duality 2</tspan><tspan x="-56.5898" y="49.0186">34/20 - 40/37</tspan></text>
+        <text transform="translate(3001.2782 153.2977) rotate(19.7003)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-82.4512" y="24.5093">Identification 2</tspan><tspan x="-48.8057" y="49.0186">9/16 - 64/63</tspan></text>
+        <text transform="translate(2790.4095 91.7825) rotate(14.0749)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-62.6416" y="24.5093">Separation 2</tspan><tspan x="-48.8057" y="49.0186">5/35 - 47/22</tspan></text>
+        <text transform="matrix(0.9891, 0.1469, -0.1469, 0.9891, 2574.099, 51.1125)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-86.707" y="24.5093">Confrontation 2</tspan><tspan x="-48.8057" y="49.0186">26/45 - 6/36</tspan></text>
+        <g id="Lax_Education_2_11_12_-_46_25" data-name="Lax Education 2 11/12 - 46/25">
+          <text transform="translate(2355.137 31.9277) rotate(2.8253)" font-size="25.4799" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lax<tspan x="-55.5576" y="24.5093">Education 2</tspan><tspan x="-56.5898" y="49.0186">11/12 - 46/25</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

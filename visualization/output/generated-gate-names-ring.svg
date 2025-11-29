@@ -1,0 +1,784 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="3076.7334"
+     height="3076.7334"
+     viewBox="0 0 3076.7334 3076.7334">
+  <rect id="background" width="100%" height="100%" fill="#151E25"/>
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="RING_-_INNER" cx="1538.3667" cy="1538.3667" r="1457.367" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" cx="1538.3667" cy="1538.3667" r="1538.0506" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="DIVIDERS">
+      <line id="LINE_-_41_19" x1="563.9065" y1="350.9835" x2="612.5541" y2="410.2608" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_13" x1="452.2149" y1="452.2149" x2="506.4384" y2="506.4384" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_49" x1="350.9835" y1="563.9065" x2="410.2608" y2="612.5541" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_30" x1="261.1873" y1="684.9827" x2="324.9474" y2="727.5858" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_55" x1="183.6910" y1="814.2775" x2="251.3199" y2="850.4259" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_37" x1="119.2410" y1="950.5456" x2="190.0874" y2="979.8911" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_63" x1="68.4579" y1="1092.4747" x2="141.8396" y2="1114.7348" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_22" x1="31.8309" y1="1238.6981" x2="107.0410" y2="1253.6583" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_36" x1="9.7126" y1="1387.8074" x2="86.0270" y2="1395.3237" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_25" x1="2.3161" y1="1538.3667" x2="78.9997" y2="1538.3667" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_17" x1="9.7126" y1="1688.9260" x2="86.0270" y2="1681.4097" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_21" x1="31.8309" y1="1838.0353" x2="107.0410" y2="1823.0751" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_51" x1="68.4579" y1="1984.2587" x2="141.8396" y2="1961.9986" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_42" x1="119.2410" y1="2126.1878" x2="190.0874" y2="2096.8423" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_3" x1="183.6910" y1="2262.4559" x2="251.3199" y2="2226.3075" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_27" x1="261.1873" y1="2391.7507" x2="324.9474" y2="2349.1476" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_24" x1="350.9835" y1="2512.8269" x2="410.2608" y2="2464.1793" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_2" x1="452.2149" y1="2624.5185" x2="506.4384" y2="2570.2950" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_23" x1="563.9065" y1="2725.7499" x2="612.5541" y2="2666.4726" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_8" x1="684.9827" y1="2815.5461" x2="727.5858" y2="2751.7860" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_20" x1="814.2775" y1="2893.0424" x2="850.4259" y2="2825.4135" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_16" x1="950.5456" y1="2957.4924" x2="979.8911" y2="2886.6460" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_35" x1="1092.4747" y1="3008.2755" x2="1114.7348" y2="2934.8938" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_45" x1="1238.6981" y1="3044.9025" x2="1253.6583" y2="2969.6924" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_12" x1="1387.8074" y1="3067.0208" x2="1395.3237" y2="2990.7064" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_15" x1="1538.3667" y1="3074.4173" x2="1538.3667" y2="2997.7337" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_52" x1="1688.9260" y1="3067.0208" x2="1681.4097" y2="2990.7064" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_39" x1="1838.0353" y1="3044.9025" x2="1823.0751" y2="2969.6924" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_53" x1="1984.2587" y1="3008.2755" x2="1961.9986" y2="2934.8938" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_62" x1="2126.1878" y1="2957.4924" x2="2096.8423" y2="2886.6460" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_56" x1="2262.4559" y1="2893.0424" x2="2226.3075" y2="2825.4135" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_31" x1="2391.7507" y1="2815.5461" x2="2349.1476" y2="2751.7860" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_33" x1="2512.8269" y1="2725.7499" x2="2464.1793" y2="2666.4726" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_7" x1="2624.5185" y1="2624.5185" x2="2570.2950" y2="2570.2950" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_4" x1="2725.7499" y1="2512.8269" x2="2666.4726" y2="2464.1793" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_29" x1="2815.5461" y1="2391.7507" x2="2751.7860" y2="2349.1476" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_59" x1="2893.0424" y1="2262.4559" x2="2825.4135" y2="2226.3075" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_40" x1="2957.4924" y1="2126.1878" x2="2886.6460" y2="2096.8423" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_64" x1="3008.2755" y1="1984.2587" x2="2934.8938" y2="1961.9986" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_47" x1="3044.9025" y1="1838.0353" x2="2969.6924" y2="1823.0751" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_6" x1="3067.0208" y1="1688.9260" x2="2990.7064" y2="1681.4097" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_46" x1="3074.4173" y1="1538.3667" x2="2997.7337" y2="1538.3667" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_18" x1="3067.0208" y1="1387.8074" x2="2990.7064" y2="1395.3237" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_48" x1="3044.9025" y1="1238.6981" x2="2969.6924" y2="1253.6583" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_57" x1="3008.2755" y1="1092.4747" x2="2934.8938" y2="1114.7348" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_32" x1="2957.4924" y1="950.5456" x2="2886.6460" y2="979.8911" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_50" x1="2893.0424" y1="814.2775" x2="2825.4135" y2="850.4259" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_28" x1="2815.5461" y1="684.9827" x2="2751.7860" y2="727.5858" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_44" x1="2725.7499" y1="563.9065" x2="2666.4726" y2="612.5541" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_1" x1="2624.5185" y1="452.2149" x2="2570.2950" y2="506.4384" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_43" x1="2512.8269" y1="350.9835" x2="2464.1793" y2="410.2608" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_14" x1="2391.7507" y1="261.1873" x2="2349.1476" y2="324.9474" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_34" x1="2262.4559" y1="183.6910" x2="2226.3075" y2="251.3199" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_9" x1="2126.1878" y1="119.2410" x2="2096.8423" y2="190.0874" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_5" x1="1984.2587" y1="68.4579" x2="1961.9986" y2="141.8396" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_26" x1="1838.0353" y1="31.8309" x2="1823.0751" y2="107.0410" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_11" x1="1688.9260" y1="9.7126" x2="1681.4097" y2="86.0270" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_10" x1="1538.3667" y1="2.3161" x2="1538.3667" y2="78.9997" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_58" x1="1387.8074" y1="9.7126" x2="1395.3237" y2="86.0270" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_58_38" x1="1238.6981" y1="31.8309" x2="1253.6583" y2="107.0410" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_54" x1="1092.4747" y1="68.4579" x2="1114.7348" y2="141.8396" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_61" x1="950.5456" y1="119.2410" x2="979.8911" y2="190.0874" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_60" x1="814.2775" y1="183.6910" x2="850.4259" y2="251.3199" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_41" x1="684.9827" y1="261.1873" x2="727.5858" y2="324.9474" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="GATE_NAMES" fill="#FFFFFF">
+  <text
+     data-gate="41"
+     data-gate-name="The Gate of Contraction"
+     transform="translate(646.1826 335.3957) rotate(323.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Contraction</tspan></text>
+  <text
+     data-gate="19"
+     data-gate-name="The Gate of Wanting"
+     transform="translate(532.5669 428.6377) rotate(317.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Wanting</tspan></text>
+  <text
+     data-gate="13"
+     data-gate-name="The Gate of The Listener"
+     transform="translate(428.6377 532.5669) rotate(312.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68">Listener</tspan></text>
+  <text
+     data-gate="49"
+     data-gate-name="The Gate of Principles"
+     transform="translate(335.3957 646.1826) rotate(306.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Principles</tspan></text>
+  <text
+     data-gate="30"
+     data-gate-name="The Gate of the Recognition of Feelings"
+     transform="translate(253.7390 768.3905) rotate(300.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">Recognition</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Feelings</tspan></text>
+  <text
+     data-gate="55"
+     data-gate-name="The Gate of Spirit"
+     transform="translate(184.4540 898.0137) rotate(295.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Spirit</tspan></text>
+  <text
+     data-gate="37"
+     data-gate-name="The Gate of Friendship"
+     transform="translate(128.2079 1033.8038) rotate(289.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Friendship</tspan></text>
+  <text
+     data-gate="63"
+     data-gate-name="The Gate of Doubt"
+     transform="translate(85.5424 1174.4531) rotate(284.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Doubt</tspan></text>
+  <text
+     data-gate="22"
+     data-gate-name="The Gate of Openness"
+     transform="translate(56.8683 1318.6072) rotate(278.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Openness</tspan></text>
+  <text
+     data-gate="36"
+     data-gate-name="The Gate of Crisis"
+     transform="translate(42.4620 1464.8776) rotate(272.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Crisis</tspan></text>
+  <text
+     data-gate="25"
+     data-gate-name="The Spirit of The Self"
+     transform="translate(42.4620 1611.8558) rotate(267.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The</tspan><tspan x="0" dy="13.68">Spirit</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The Self</tspan></text>
+  <text
+     data-gate="17"
+     data-gate-name="The Gate of Opinions"
+     transform="translate(56.8683 1758.1262) rotate(261.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Opinions</tspan></text>
+  <text
+     data-gate="21"
+     data-gate-name="The Gate of The Hunter/Huntress"
+     transform="translate(85.5424 1902.2803) rotate(255.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68">Hunter/ess</tspan></text>
+  <text
+     data-gate="51"
+     data-gate-name="The Gate of Shock"
+     transform="translate(128.2079 2042.9296) rotate(250.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Shock</tspan></text>
+  <text
+     data-gate="42"
+     data-gate-name="The Gate of Growth"
+     transform="translate(184.4540 2178.7197) rotate(244.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Growth</tspan></text>
+  <text
+     data-gate="3"
+     data-gate-name="The Gate of Ordering"
+     transform="translate(253.7390 2308.3429) rotate(239.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Ordering</tspan></text>
+  <text
+     data-gate="27"
+     data-gate-name="The Gate of Caring"
+     transform="translate(335.3957 2430.5508) rotate(233.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Caring</tspan></text>
+  <text
+     data-gate="24"
+     data-gate-name="The Gate of Rationalising"
+     transform="translate(428.6377 2544.1665) rotate(227.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68" font-size="19.1771">Rationalising</tspan></text>
+  <text
+     data-gate="2"
+     data-gate-name="The Direction of The Self"
+     transform="translate(532.5669 2648.0957) rotate(222.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The</tspan><tspan x="0" dy="13.68">Direction</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The Self</tspan></text>
+  <text
+     data-gate="23"
+     data-gate-name="The Gate of Assimilation"
+     transform="translate(646.1826 2741.3377) rotate(216.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68" font-size="19.9750">Assimilation</tspan></text>
+  <text
+     data-gate="8"
+     data-gate-name="The Gate of Contribution"
+     transform="translate(768.3905 2822.9944) rotate(210.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68" font-size="19.9763">Contribution</tspan></text>
+  <text
+     data-gate="20"
+     data-gate-name="The Gate of The Now"
+     transform="translate(898.0137 2892.2794) rotate(205.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68">Now</tspan></text>
+  <text
+     data-gate="16"
+     data-gate-name="The Gate of Skills"
+     transform="translate(1033.8038 2948.5255) rotate(199.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Skills</tspan></text>
+  <text
+     data-gate="35"
+     data-gate-name="The Gate of Change"
+     transform="translate(1174.4531 2991.1910) rotate(194.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Change</tspan></text>
+  <text
+     data-gate="45"
+     data-gate-name="The Gate of The Gatherer"
+     transform="translate(1318.6072 3019.8651) rotate(188.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68">Gatherer</tspan></text>
+  <text
+     data-gate="12"
+     data-gate-name="The Gate of Caution"
+     transform="translate(1464.8776 3034.2714) rotate(182.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Caution</tspan></text>
+  <text
+     data-gate="15"
+     data-gate-name="The Gate of Extremes"
+     transform="translate(1611.8558 3034.2714) rotate(177.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Extremes</tspan></text>
+  <text
+     data-gate="52"
+     data-gate-name="The Gate of Inaction"
+     transform="translate(1758.1262 3019.8651) rotate(171.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Inaction</tspan></text>
+  <text
+     data-gate="39"
+     data-gate-name="The Gate of The Provocateur"
+     transform="translate(1902.2803 2991.1910) rotate(165.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68" font-size="19.9763">Provocateur</tspan></text>
+  <text
+     data-gate="53"
+     data-gate-name="The Gate of Beginnings"
+     transform="translate(2042.9296 2948.5255) rotate(160.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Beginnings</tspan></text>
+  <text
+     data-gate="62"
+     data-gate-name="The Gate of Detail"
+     transform="translate(2178.7197 2892.2794) rotate(154.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Detail</tspan></text>
+  <text
+     data-gate="56"
+     data-gate-name="The Gate of Stimulation"
+     transform="translate(2308.3429 2822.9944) rotate(149.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Stimulation</tspan></text>
+  <text
+     data-gate="31"
+     data-gate-name="The Gate of Leading"
+     transform="translate(2430.5508 2741.3377) rotate(143.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Leading</tspan></text>
+  <text
+     data-gate="33"
+     data-gate-name="The Gate of Privacy"
+     transform="translate(2544.1665 2648.0957) rotate(137.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Privacy</tspan></text>
+  <text
+     data-gate="7"
+     data-gate-name="The Role of The Self"
+     transform="translate(2648.0957 2544.1665) rotate(132.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The</tspan><tspan x="0" dy="13.68">Role</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The Self</tspan></text>
+  <text
+     data-gate="4"
+     data-gate-name="The Gate of Formalization"
+     transform="translate(2741.3377 2430.5508) rotate(126.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68" font-size="18.3782">Formalization</tspan></text>
+  <text
+     data-gate="29"
+     data-gate-name="The Gate of Saying Yes"
+     transform="translate(2822.9944 2308.3429) rotate(120.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Saying</tspan><tspan x="0" dy="13.68">Yes</tspan></text>
+  <text
+     data-gate="59"
+     data-gate-name="The Gate of Sexuality"
+     transform="translate(2892.2794 2178.7197) rotate(115.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Sexuality</tspan></text>
+  <text
+     data-gate="40"
+     data-gate-name="The Gate of Aloneness"
+     transform="translate(2948.5255 2042.9296) rotate(109.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Aloneness</tspan></text>
+  <text
+     data-gate="64"
+     data-gate-name="The Gate of Confusion"
+     transform="translate(2991.1910 1902.2803) rotate(104.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Confusion</tspan></text>
+  <text
+     data-gate="47"
+     data-gate-name="The Gate of Realising"
+     transform="translate(3019.8651 1758.1262) rotate(98.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Realising</tspan></text>
+  <text
+     data-gate="6"
+     data-gate-name="The Gate of Friction"
+     transform="translate(3034.2714 1611.8558) rotate(92.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Friction</tspan></text>
+  <text
+     data-gate="46"
+     data-gate-name="The Determination of the Self"
+     transform="translate(3034.2714 1464.8776) rotate(87.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The</tspan><tspan x="0" dy="13.68" font-size="18.3781">Determination</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">the Self</tspan></text>
+  <text
+     data-gate="18"
+     data-gate-name="The Gate of Correction"
+     transform="translate(3019.8651 1318.6072) rotate(81.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Correction</tspan></text>
+  <text
+     data-gate="48"
+     data-gate-name="The Gate of Depth"
+     transform="translate(2991.1910 1174.4531) rotate(75.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Depth</tspan></text>
+  <text
+     data-gate="57"
+     data-gate-name="The Gate of Intuitive Insight"
+     transform="translate(2948.5255 1033.8038) rotate(70.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Intuitive</tspan><tspan x="0" dy="13.68">Insight</tspan></text>
+  <text
+     data-gate="32"
+     data-gate-name="The Gate of Continuity"
+     transform="translate(2892.2794 898.0137) rotate(64.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Continuity</tspan></text>
+  <text
+     data-gate="50"
+     data-gate-name="The Gate of Values"
+     transform="translate(2822.9944 768.3905) rotate(59.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Values</tspan></text>
+  <text
+     data-gate="28"
+     data-gate-name="The Gate of The Game-Player"
+     transform="translate(2741.3377 646.1826) rotate(53.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68" font-size="19.9762">Game-Player</tspan></text>
+  <text
+     data-gate="44"
+     data-gate-name="The Gate of Alertness"
+     transform="translate(2648.0957 532.5669) rotate(47.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Alertness</tspan></text>
+  <text
+     data-gate="1"
+     data-gate-name="The Gate of Self Expression"
+     transform="translate(2544.1665 428.6377) rotate(42.1875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Self</tspan><tspan x="0" dy="13.68">Expression</tspan></text>
+  <text
+     data-gate="43"
+     data-gate-name="The Gate of Insight"
+     transform="translate(2430.5508 335.3957) rotate(36.5625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Insight</tspan></text>
+  <text
+     data-gate="14"
+     data-gate-name="The Gate of Power Skills"
+     transform="translate(2308.3429 253.7390) rotate(30.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Power</tspan><tspan x="0" dy="13.68">Skills</tspan></text>
+  <text
+     data-gate="34"
+     data-gate-name="The Gate of Power"
+     transform="translate(2178.7197 184.4540) rotate(25.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Power</tspan></text>
+  <text
+     data-gate="9"
+     data-gate-name="The Gate of Focus"
+     transform="translate(2042.9296 128.2079) rotate(19.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Focus</tspan></text>
+  <text
+     data-gate="5"
+     data-gate-name="The Gate of Fixed Rhythms"
+     transform="translate(1902.2803 85.5424) rotate(14.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Fixed</tspan><tspan x="0" dy="13.68">Rhythms</tspan></text>
+  <text
+     data-gate="26"
+     data-gate-name="The Gate of the Egoist"
+     transform="translate(1758.1262 56.8683) rotate(8.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">the</tspan><tspan x="0" dy="13.68">Egoist</tspan></text>
+  <text
+     data-gate="11"
+     data-gate-name="The Gate of Ideas"
+     transform="translate(1611.8558 42.4620) rotate(2.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Ideas</tspan></text>
+  <text
+     data-gate="10"
+     data-gate-name="The Behaviour of The Self"
+     transform="translate(1464.8776 42.4620) rotate(-2.8125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The</tspan><tspan x="0" dy="13.68">Behaviour</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The Self</tspan></text>
+  <text
+     data-gate="58"
+     data-gate-name="The Gate of Aliveness"
+     transform="translate(1318.6072 56.8683) rotate(-8.4375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Aliveness</tspan></text>
+  <text
+     data-gate="38"
+     data-gate-name="The Gate of The Fighter"
+     transform="translate(1174.4531 85.5424) rotate(-14.0625) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-20.51">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">The</tspan><tspan x="0" dy="13.68">Fighter</tspan></text>
+  <text
+     data-gate="54"
+     data-gate-name="The Gate of Ambition"
+     transform="translate(1033.8038 128.2079) rotate(-19.6875) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Ambition</tspan></text>
+  <text
+     data-gate="61"
+     data-gate-name="The Gate of Mystery"
+     transform="translate(898.0137 184.4540) rotate(-25.3125) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Mystery</tspan></text>
+  <text
+     data-gate="60"
+     data-gate-name="The Gate of Acceptance"
+     transform="translate(768.3905 253.7390) rotate(-30.9375) scale(1 1.2)"
+     font-size="20.81"
+     font-family="Copperplate-Bold, Copperplate"
+     font-weight="700"
+     text-anchor="middle"
+     dominant-baseline="central"
+     stroke="none"
+     style="isolation: isolate"><tspan x="0" dy="-13.68">The Gate</tspan><tspan x="0" dy="13.68">of</tspan><tspan x="0" dy="13.68">Acceptance</tspan></text>
+  </g>
+</svg>

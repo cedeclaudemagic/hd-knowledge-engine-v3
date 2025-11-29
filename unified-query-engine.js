@@ -12,6 +12,7 @@ const positioning = require('./core/root-system/positioning-algorithm.js');
 // Load all knowledge systems
 const geneKeys = require('./knowledge-systems/gene-keys/mappings/gene-keys-mappings.json');
 const ichingNames = require('./knowledge-systems/iching-names/mappings/iching-names-mappings.json');
+const hdMandalaNames = require('./knowledge-systems/hd-mandala-gate-names/mappings/hd-mandala-gate-names-mappings.json');
 const hdGates = require('./knowledge-systems/hd-gates/mappings/hd-gates-mappings.json');
 const hdTraditional = require('./knowledge-systems/hd-traditional-gates/mappings/hd-gates-mappings.json');
 const quarters = require('./knowledge-systems/quarters/mappings/quarters-mappings.json');
@@ -52,6 +53,7 @@ function getGateKnowledge(gateNumber, lineNumber = null) {
     // Gate-level knowledge (lookups)
     geneKeys: geneKeys.mappings.find(m => m.gateNumber === gateNumber)?.knowledge,
     ichingName: ichingNames.mappings.find(m => m.gateNumber === gateNumber)?.knowledge,
+    mandalaGateName: hdMandalaNames.mappings.find(m => m.gateNumber === gateNumber)?.knowledge,
     humanDesign: hdGates.mappings.find(m => m.gateNumber === gateNumber)?.knowledge,
     codonRing: codonRings.mappings.find(m => m.gateNumber === gateNumber)?.knowledge,
 

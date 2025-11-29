@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3076.7334" height="3076.7334" viewBox="0 0 3076.7334 3076.7334">
+  <g id="INNER_-_THE_SIXTY-FOUR_GATE_NAMES" data-name="INNER - THE SIXTY-FOUR GATE NAMES">
+    <g id="STRUCTURE">
+      <g id="STRUCTURE-2" data-name="STRUCTURE">
+        <g id="RINGS">
+          <circle id="BOTTOM_RING" data-name="BOTTOM RING" cx="1538.3667" cy="1538.3667" r="1457.367" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5943"/>
+          <circle id="TOP_RING" data-name="TOP RING" cx="1538.3667" cy="1538.3667" r="1538.0506" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.6322"/>
+        </g>
+        <g id="DIVIDERS">
+          <line x1="1538.3667" y1="6.4817" x2="1538.3667" y2="74.2981" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1388.2158" y1="13.8581" x2="1394.863" y2="81.3479" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1239.5109" y1="35.9163" x2="1252.7413" y2="102.4296" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1093.6842" y1="72.4439" x2="1113.3703" y2="137.3401" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="952.14" y1="123.0891" x2="978.0922" y2="185.7433" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="816.2415" y1="187.3642" x2="848.2099" y2="247.1729" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="687.2974" y1="264.6503" x2="724.9741" y2="321.0375" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="566.5495" y1="354.2028" x2="609.5718" y2="406.6256" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="455.1608" y1="455.1596" x2="503.1143" y2="503.113" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="354.204" y1="566.5481" x2="406.6268" y2="609.5704" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="264.6513" y1="687.2959" x2="321.0385" y2="724.9726" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="187.3651" y1="816.2399" x2="247.1738" y2="848.2083" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="123.0898" y1="952.1383" x2="185.744" y2="978.0905" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="72.4444" y1="1093.6825" x2="137.3406" y2="1113.3685" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="35.9166" y1="1239.5092" x2="102.4299" y2="1252.7395" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="13.8583" y1="1388.214" x2="81.3481" y2="1394.8612" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="6.4817" y1="1538.3649" x2="74.2981" y2="1538.3649" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="13.8581" y1="1688.5158" x2="81.3479" y2="1681.8686" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="35.9163" y1="1837.2207" x2="102.4296" y2="1823.9904" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="72.4439" y1="1983.0474" x2="137.3401" y2="1963.3614" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="123.0891" y1="2124.5916" x2="185.7433" y2="2098.6394" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="187.3642" y1="2260.4902" x2="247.1729" y2="2228.5217" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="264.6502" y1="2389.4342" x2="321.0375" y2="2351.7575" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="354.2028" y1="2510.1821" x2="406.6256" y2="2467.1598" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="455.1596" y1="2621.5708" x2="503.113" y2="2573.6174" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="566.5481" y1="2722.5276" x2="609.5704" y2="2670.1049" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="687.2959" y1="2812.0804" x2="724.9726" y2="2755.6931" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="816.2399" y1="2889.3665" x2="848.2083" y2="2829.5578" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="952.1383" y1="2953.6418" x2="978.0905" y2="2890.9876" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1093.6825" y1="3004.2872" x2="1113.3685" y2="2939.391" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1239.5092" y1="3040.815" x2="1252.7395" y2="2974.3017" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1388.214" y1="3062.8733" x2="1394.8612" y2="2995.3835" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1538.3649" y1="3070.2499" x2="1538.3649" y2="3002.4335" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1688.5158" y1="3062.8735" x2="1681.8686" y2="2995.3837" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1837.2207" y1="3040.8153" x2="1823.9904" y2="2974.302" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1983.0474" y1="3004.2877" x2="1963.3614" y2="2939.3915" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2124.5916" y1="2953.6425" x2="2098.6394" y2="2890.9883" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2260.4902" y1="2889.3674" x2="2228.5217" y2="2829.5587" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2389.4342" y1="2812.0814" x2="2351.7575" y2="2755.6941" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2510.1821" y1="2722.5288" x2="2467.1598" y2="2670.106" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2621.5708" y1="2621.5721" x2="2573.6174" y2="2573.6186" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2722.5276" y1="2510.1835" x2="2670.1049" y2="2467.1612" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2812.0804" y1="2389.4358" x2="2755.6931" y2="2351.759" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2889.3665" y1="2260.4918" x2="2829.5578" y2="2228.5233" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2953.6418" y1="2124.5933" x2="2890.9876" y2="2098.6411" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3004.2872" y1="1983.0491" x2="2939.391" y2="1963.3631" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3040.815" y1="1837.2225" x2="2974.3017" y2="1823.9921" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3062.8733" y1="1688.5176" x2="2995.3835" y2="1681.8704" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3070.2499" y1="1538.3667" x2="3002.4335" y2="1538.3667" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3062.8735" y1="1388.2158" x2="2995.3837" y2="1394.863" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3040.8153" y1="1239.5109" x2="2974.302" y2="1252.7413" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="3004.2877" y1="1093.6842" x2="2939.3915" y2="1113.3703" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2953.6425" y1="952.14" x2="2890.9883" y2="978.0922" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2889.3674" y1="816.2415" x2="2829.5587" y2="848.2099" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2812.0814" y1="687.2974" x2="2755.6941" y2="724.9741" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2722.5288" y1="566.5495" x2="2670.106" y2="609.5718" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2621.5721" y1="455.1608" x2="2573.6186" y2="503.1143" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2510.1835" y1="354.204" x2="2467.1612" y2="406.6268" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2389.4358" y1="264.6513" x2="2351.759" y2="321.0385" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2260.4918" y1="187.3651" x2="2228.5233" y2="247.1738" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="2124.5933" y1="123.0898" x2="2098.6411" y2="185.744" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1983.0491" y1="72.4444" x2="1963.3631" y2="137.3406" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1837.2225" y1="35.9166" x2="1823.9921" y2="102.4299" fill="none" stroke="#000" stroke-miterlimit="10"/>
+          <line x1="1688.5176" y1="13.8583" x2="1681.8704" y2="81.3481" fill="none" stroke="#000" stroke-miterlimit="10"/>
+        </g>
+      </g>
+    </g>
+    <g id="LAKE">
+      <g id="TEXT_-_10_-_The_Behaviour_of_The_Self" data-name="TEXT - 10 - The Behaviour of  The Self">
+        <text transform="matrix(0.9988, -0.0493, 0.0591, 1.1985, 1440.7604, 25.9363)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The <tspan x="-33.8213" y="13.6747">Behaviour</tspan><tspan x="7.5112" y="27.3499">of </tspan><tspan x="-24.8643" y="41.0246">The Self</tspan></text>
+      </g>
+      <g id="TEXT_-_58_-_The_Gate_of_Aliveness" data-name="TEXT - 58 - The Gate of Aliveness">
+        <text transform="matrix(0.9891, -0.1469, 0.1763, 1.187, 1266.7267, 46.6981)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6747">of</tspan><tspan x="-4.3491" y="27.3499">Aliveness</tspan></text>
+      </g>
+      <g id="TEXT_-_38_-_The_Gate_of_The_Fighter" data-name="TEXT - 38 - The Gate of The Fighter">
+        <text transform="translate(1121.9627 80.7486) rotate(-14.0749) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-15.6055" y="27.3503">The Fighter</tspan></text>
+      </g>
+      <g id="TEXT_-_54_-_The_Gate_of_Ambition" data-name="TEXT - 54 - The Gate of Ambition">
+        <text transform="translate(981.1689 128.4846) rotate(-19.7003) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="2.0288" y="27.3503">Ambition</tspan></text>
+      </g>
+      <g id="TEXT_-_61_-_The_Gate_of_Mystery" data-name="TEXT - 61 - The Gate of Mystery">
+        <text transform="matrix(0.9039, -0.4278, 0.5133, 1.0847, 845.6119, 190.0556)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="3.7556" y="27.3503">Mystery</tspan></text>
+      </g>
+      <g id="TEXT_-_60_-_The_Gate_of_Acceptance" data-name="TEXT - 60 - The Gate of Acceptance">
+        <text transform="matrix(0.8576, -0.5143, 0.6171, 1.0291, 716.8232, 264.4486)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="-15.3245" y="27.3503">Acceptance</tspan></text>
+      </g>
+      <g id="TEXT_-_41_-_The_Gate_of_Contraction" data-name="TEXT - 41 - The Gate of Contraction">
+        <text transform="translate(595.7212 351.0235) rotate(-36.5747) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2755" y="13.6751">of</tspan><tspan x="-19.3713" y="27.3503">Contraction</tspan></text>
+      </g>
+      <g id="TEXT_-_19_-_The_Gate_of_Wanting" data-name="TEXT - 19 - The Gate of Wanting">
+        <text transform="matrix(0.7408, -0.6717, 0.8061, 0.889, 483.8772, 448.9279)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="3.173" y="27.3494">Wanting</tspan></text>
+      </g>
+    </g>
+    <g id="FIRE">
+      <g id="TEXT_-_13_-_The_Gate_of_The_Listener" data-name="TEXT - 13 - The Gate of The Listener">
+        <text transform="translate(382.401 557.812) rotate(-47.825) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="29.7646" y="27.3503">The</tspan><tspan x="1.4355" y="41.0254">Listener</tspan></text>
+      </g>
+      <g id="TEXT_-_49_-_The_Gate_of_Principles" data-name="TEXT - 49 - The Gate of Principles">
+        <text transform="translate(291.7794 675.647) rotate(-53.4503) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2755" y="13.6751">of</tspan><tspan x="-7.8132" y="27.3503">Principles</tspan></text>
+      </g>
+      <g id="TEXT_-_30_-_The_Gate_of_the_Recognition_of_Feelings" data-name="TEXT - 30 - The Gate of the Recognition of Feelings">
+        <text transform="translate(204.7169 816.2956) rotate(-59.0748) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">Recognition<tspan x="53.7446" y="13.6751">of</tspan><tspan x="17.9043" y="27.3503">Feelings</tspan></text>
+      </g>
+      <g id="TEXT_-_55_-_The_Gate_of_Spirit" data-name="TEXT - 55 - The Gate of Spirit">
+        <text transform="translate(147.3077 935.4825) rotate(-64.6998) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2756" y="13.6751">of</tspan><tspan x="17.6235" y="27.3503">Spirit</tspan></text>
+      </g>
+      <g id="TEXT_-_37_-_The_Gate_of_Friendship" data-name="TEXT - 37 - The Gate of Friendship">
+        <text transform="translate(95.095 1074.7088) rotate(-70.3253) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-8.9683" y="27.3503">Friendship</tspan></text>
+      </g>
+      <g id="TEXT_-_63_-_The_Gate_of_Doubt" data-name="TEXT - 63 - The Gate of Doubt">
+        <text transform="translate(56.3562 1218.3272) rotate(-75.9499) scale(1 1.2)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="16.4683" y="27.3494">Doubt</tspan></text>
+      </g>
+      <g id="TEXT_-_22_-_The_Gate_of_Openness" data-name="TEXT - 22 - The Gate of Openness">
+        <text transform="translate(32.3802 1365.1979) rotate(-81.5753) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-2.0396" y="27.3503">Openness</tspan></text>
+      </g>
+      <g id="TEXT_-_36_-_The_Gate_of_Crisis" data-name="TEXT - 36 - The Gate of Crisis">
+        <text transform="translate(22.7016 1513.8341) rotate(-87.2) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="17.0513" y="27.3503">Crisis</tspan></text>
+      </g>
+    </g>
+    <g id="THUNDER">
+      <g id="TEXT_-_25_-_The_Spirit_of_The_Self" data-name="TEXT - 25 - The Spirit of The Self">
+        <text transform="matrix(-0.0493, -0.9988, 1.1985, -0.0591, 25.915, 1632.4028)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The<tspan x="-12.1406" y="13.6747">Spirit</tspan><tspan x="7.5117" y="27.3499">of</tspan><tspan x="-31.21" y="41.0246">The Self </tspan></text>
+      </g>
+      <g id="TEXT_-_17_-_The_Gate_of_Opinions" data-name="TEXT - 17 - The Gate of Opinions">
+        <text transform="matrix(-0.1469, -0.9891, 1.187, -0.1763, 46.8302, 1809.6565)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6747">of</tspan><tspan x="3.1729" y="27.3499">Opinions</tspan></text>
+      </g>
+      <g id="TEXT_-_21_-_The_Gate_of_The_Hunter_Huntress" data-name="TEXT - 21 - The Gate of The Hunter/Huntress">
+        <text transform="translate(80.699 1954.8282) rotate(-104.0749) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="29.7646" y="27.3503">The</tspan><tspan x="-11.8701" y="41.025">Hunter/ess</tspan></text>
+      </g>
+      <g id="TEXT_-_51_-_The_Gate_of_Shock" data-name="TEXT - 51 - The Gate of Shock">
+        <text transform="translate(128.6236 2095.6065) rotate(-109.7003) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="16.4688" y="27.3501">Shock</tspan></text>
+      </g>
+      <g id="TEXT_-_42_-_The_Gate_of_Growth" data-name="TEXT - 42 - The Gate of Growth">
+        <text transform="matrix(-0.4278, -0.9039, 1.0847, -0.5133, 189.9669, 2231.2813)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="7.8027" y="27.3503">Growth</tspan></text>
+      </g>
+      <g id="TEXT_-_3_-_The_Gate_of_Ordering" data-name="TEXT - 3 - The Gate of Ordering">
+        <text transform="matrix(-0.5143, -0.8576, 1.0291, -0.6171, 264.4139, 2360.1144)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="-0.2813" y="27.3502">Ordering</tspan></text>
+      </g>
+      <g id="TEXT_-_27_-_The_Gate_of_Caring" data-name="TEXT - 27 - The Gate of Caring">
+        <text transform="translate(350.9028 2480.9067) rotate(-126.5747) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.675">of</tspan><tspan x="11.8506" y="27.35">Caring</tspan></text>
+      </g>
+      <g id="TEXT_-_24_-_The_Gate_of_Rationalising" data-name="TEXT - 24 - The Gate of Rationalising">
+        <text transform="matrix(-0.6717, -0.7408, 0.889, -0.8061, 449.014, 2592.5146)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6749">of</tspan><tspan font-size="19.1771"><tspan x="-20.3779" y="27.3499">Rationalising</tspan></tspan></text>
+      </g>
+    </g>
+    <g id="EARTH">
+      <g id="TEXT_-_2_-_The_Direction_of_The_Self" data-name="TEXT - 2 - The Direction of The Self">
+        <text transform="translate(535.7555 2674.5841) rotate(-137.825) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The<tspan x="-32.9375" y="13.6751">Direction</tspan><tspan x="7.5117" y="27.3503">of</tspan><tspan x="-28.0381" y="41.0254">The Self</tspan></text>
+      </g>
+      <g id="TEXT_-_23_-_The_Gate_of_Assimilation" data-name="TEXT - 23 - The Gate of Assimilation">
+        <text transform="translate(675.7875 2784.8773) rotate(-143.4503) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6749">of</tspan><tspan x="-19.3711" y="27.3501">Assimilation</tspan></text>
+      </g>
+      <g id="TEXT_-_8_-_The_Gate_of_Contribution" data-name="TEXT - 8 - The Gate of Contribution">
+        <text transform="translate(802.0701 2863.6326) rotate(-149.0748) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan font-size="19.9763"><tspan x="-19.9502" y="27.3503">Contribution</tspan></tspan></text>
+      </g>
+      <g id="TEXT_-_20_-_The_Gate_of_The_Now" data-name="TEXT - 20 - The Gate of The Now">
+        <text transform="translate(935.4121 2929.2683) rotate(-154.6998) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="3.4746" y="27.3499">The Now</tspan></text>
+      </g>
+      <g id="TEXT_-_16_-_The_Gate_of_Skills" data-name="TEXT - 16 - The Gate of Skills">
+        <text transform="translate(1074.8582 2981.6524) rotate(-160.3253) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="15.3037" y="27.3503">Skills</tspan></text>
+      </g>
+      <g id="TEXT_-_35_-_The_Gate_of_Change" data-name="TEXT - 35 - The Gate of Change">
+        <text transform="translate(1218.2787 3020.0311) rotate(-165.9499) scale(1 1.2)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6747">of</tspan><tspan x="8.375" y="27.3499">Change</tspan></text>
+      </g>
+      <g id="TEXT_-_45_-_The_Gate_of_The_Gatherer" data-name="TEXT - 45 - The Gate of The Gatherer">
+        <text transform="translate(1365.3432 3044.3588) rotate(-171.5753) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="29.7646" y="27.3503">The</tspan><tspan x="-3.1836" y="41.0254">Gatherer</tspan></text>
+      </g>
+      <g id="TEXT_-_12_-_The_Gate_of_Caution" data-name="TEXT - 12 - The Gate of Caution">
+        <text transform="translate(1513.8459 3054.2891) rotate(-177.2) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="5.4824" y="27.3503">Caution</tspan></text>
+      </g>
+    </g>
+    <g id="MOUNTAIN">
+      <g id="TEXT_-_15_-_The_Gate_of_Extremes" data-name="TEXT - 15 - The Gate of Extremes">
+        <text transform="matrix(-0.9988, 0.0493, -0.0591, -1.1985, 1662.2772, 3048.9427)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-2.0288" y="27.3494">Extremes</tspan></text>
+      </g>
+      <g id="TEXT_-_52_-_The_Gate_of_Inaction" data-name="TEXT - 52 - The Gate of Inaction">
+        <text transform="matrix(-0.9891, 0.1469, -0.1763, -1.187, 1809.7814, 3029.554)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="2.5903" y="27.3494">Inaction</tspan></text>
+      </g>
+      <g id="TEXT_-_39_-_The_Gate_of_The_Provocateur" data-name="TEXT - 39 - The Gate of The Provocateur">
+        <text transform="translate(1954.7741 2996.0901) rotate(165.9251) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="29.7642" y="27.3503">The</tspan><tspan font-size="19.9763"><tspan x="-18.2925" y="41.0254">Provocateur</tspan></tspan></text>
+      </g>
+      <g id="TEXT_-_53_-_The_Gate_of_Beginnings" data-name="TEXT - 53 - The Gate of Beginnings">
+        <text transform="translate(2095.7436 2948.1445) rotate(160.2997) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-10.6948" y="27.3503">Beginnings</tspan></text>
+      </g>
+      <g id="TEXT_-_62_-_The_Gate_of_Detail" data-name="TEXT - 62 - The Gate of Detail">
+        <text transform="matrix(-0.9039, 0.4278, -0.5133, -1.0847, 2231.1816, 2886.9202)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="13.5767" y="27.3503">Detail</tspan></text>
+      </g>
+      <g id="TEXT_-_56_-_The_Gate_of_Stimulation" data-name="TEXT - 56 - The Gate of Stimulation">
+        <text transform="matrix(-0.8576, 0.5143, -0.6171, -1.0291, 2360.0722, 2812.5222)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="-16.4897" y="27.3503">Stimulation</tspan></text>
+      </g>
+      <g id="TEXT_-_31_-_The_Gate_of_Leading" data-name="TEXT - 31 - The Gate of Leading">
+        <text transform="translate(2480.7677 2725.7238) rotate(143.4253) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2755" y="13.6751">of</tspan><tspan x="6.0652" y="27.3503">Leading</tspan></text>
+      </g>
+      <g id="TEXT_-_33_-_The_Gate_of_Privacy" data-name="TEXT - 33 - The Gate of Privacy">
+        <text transform="matrix(-0.7408, 0.6717, -0.8061, -0.889, 2592.597, 2627.3794)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2753" y="13.6751">of</tspan><tspan x="7.2198" y="27.3494">Privacy</tspan></text>
+      </g>
+    </g>
+    <g id="WATER">
+      <g id="TEXT_-_7_-_The_Role_of_The_Self" data-name="TEXT - 7 - The Role of The Self">
+        <text transform="translate(2674.5792 2541.2133) rotate(132.175) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The<tspan x="-6.3566" y="13.6751">Role</tspan><tspan x="7.5113" y="27.3503">of</tspan><tspan x="-28.0377" y="41.0254">The Self</tspan></text>
+      </g>
+      <g id="TEXT_-_4_-_The_Gate_of_Formalization" data-name="TEXT - 4 - The Gate of Formalization">
+        <text transform="translate(2785.015 2400.869) rotate(126.5497) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2755" y="13.6751">of</tspan><tspan font-size="18.3782"><tspan x="-20.0245" y="27.3503">Formalization</tspan></tspan></text>
+      </g>
+      <g id="TEXT_-_29_-_The_Gate_of_Saying_Yes" data-name="TEXT - 29 - The Gate of Saying Yes">
+        <text transform="translate(2863.5265 2274.7469) rotate(120.9252) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2756" y="13.6751">of</tspan><tspan x="-9.8313" y="27.3503">Saying Yes</tspan></text>
+      </g>
+      <g id="TEXT_-_59_-_The_Gate_of_Sexuality" data-name="TEXT - 59 - The Gate of Sexuality">
+        <text transform="translate(2929.1874 2141.1644) rotate(115.3002) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2756" y="13.6751">of</tspan><tspan x="-5.5034" y="27.3503">Sexuality</tspan></text>
+      </g>
+      <g id="TEXT_-_40_-_The_Gate_of_Aloneness" data-name="TEXT - 40 - The Gate of Aloneness">
+        <text transform="translate(2981.7983 2001.8989) rotate(109.6747) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-8.396" y="27.3503">Aloneness</tspan></text>
+      </g>
+      <g id="TEXT_-_64_-_The_Gate_of_Confusion" data-name="TEXT - 64 - The Gate of Confusion">
+        <text transform="translate(3019.9713 1858.1153) rotate(104.0501) scale(1 1.2)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-6.6587" y="27.3494">Confusion</tspan></text>
+      </g>
+      <g id="TEXT_-_47_-_The_Gate_of_Realising" data-name="TEXT - 47 - The Gate of Realising">
+        <text transform="translate(3044.5027 1711.4054) rotate(98.4247) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-3.1836" y="27.3503">Realising</tspan></text>
+      </g>
+      <g id="TEXT_-_6_-_The_Gate_of_Friction" data-name="TEXT - 6 - The Gate of Friction">
+        <text transform="translate(3054.2981 1563.1515) rotate(92.8) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2759" y="13.6751">of</tspan><tspan x="3.7559" y="27.3503">Friction</tspan></text>
+      </g>
+    </g>
+    <g id="WIND">
+      <g id="TEXT_-_46_-_The_Determination_of_the_Self" data-name="TEXT - 46 - The Determination of the Self">
+        <text transform="matrix(0.0493, 0.9988, -1.1985, 0.0591, 3050.5489, 1443.7842)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The<tspan font-size="18.3781"><tspan x="-50.7988" y="13.6751">Determination</tspan></tspan><tspan x="7.5117" y="27.3494">of</tspan><tspan x="-28.0371" y="41.0246">The Self</tspan></text>
+      </g>
+      <g id="TEXT_-_18_-_The_Gate_of_Correction" data-name="TEXT - 18 - The Gate of Correction">
+        <text transform="matrix(0.1469, 0.9891, -1.187, 0.1763, 3029.6782, 1266.5981)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6751">of</tspan><tspan x="-12.4219" y="27.3494">Correction</tspan></text>
+      </g>
+      <g id="TEXT_-_48_-_The_Gate_of_Depth" data-name="TEXT - 48 - The Gate of Depth">
+        <text transform="translate(2996.0312 1122.0162) rotate(75.9251) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="17.041" y="27.3503">Depth</tspan></text>
+      </g>
+      <g id="TEXT_-_57_-_The_Gate_of_Intuitive_Insight" data-name="TEXT - 57 - The Gate of Intuitive Insight">
+        <text transform="translate(2948.2788 981.0283) rotate(70.2997) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="0.8535" y="27.3503">Intuitive</tspan><tspan x="10.1016" y="41.025">Insight</tspan></text>
+      </g>
+      <g id="TEXT_-_32_-_The_Gate_of_Continuity" data-name="TEXT - 32 - The Gate of Continuity">
+        <text transform="matrix(0.4278, 0.9039, -1.0847, 0.5133, 2886.8302, 845.71)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="-10.123" y="27.3503">Continuity</tspan></text>
+      </g>
+      <g id="TEXT_-_50_-_The_Gate_of_Values" data-name="TEXT - 50 - The Gate of Values">
+        <text transform="matrix(0.5143, 0.8576, -1.0291, 0.6171, 2812.4878, 716.8651)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="10.6738" y="27.3503">Values</tspan></text>
+      </g>
+      <g id="TEXT_-_28_-_The_Gate_of_The_Game-Player" data-name="TEXT - 28 - The Gate of The Game-Player">
+        <text transform="translate(2725.5989 595.8591) rotate(53.4253) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6749">of</tspan><tspan x="29.7646" y="27.3501">The</tspan><tspan font-size="19.9762"><tspan x="-18.2813" y="41.025">Game-Player</tspan></tspan></text>
+      </g>
+      <g id="TEXT_-_44_-_The_Gate_of_Alertness" data-name="TEXT - 44 - The Gate of Alertness">
+        <text transform="matrix(0.6717, 0.7408, -0.889, 0.8061, 2627.4621, 483.8029)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6749">of</tspan><tspan x="-7.2412" y="27.3499">Alertness</tspan></text>
+      </g>
+    </g>
+    <g id="HEAVEN">
+      <g id="TEXT_-_1_-_The_Gate_of_Self_Expression" data-name="TEXT - 1 - The Gate of Self Expression">
+        <text transform="translate(2519.1573 382.4052) rotate(42.175) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="24.5527" y="27.3503">Self</tspan><tspan x="-10.7051" y="41.0253">Expression</tspan></text>
+      </g>
+      <g id="TEXT_-_43_-_The_Gate_of_Insight" data-name="TEXT - 43 - The Gate of Insight">
+        <text transform="translate(2401.0075 291.6412) rotate(36.5497) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="34.1025" y="13.675">of </tspan><tspan x="10.1025" y="27.35">Insight</tspan></text>
+      </g>
+      <g id="TEXT_-_14_-_The_Gate_of_Power_Skills" data-name="TEXT - 14 - The Gate of  Power  Skills">
+        <text transform="translate(2274.6449 213.29) rotate(30.9252) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="34.1025" y="13.675">of </tspan><tspan x="11.5693" y="27.3502">Power </tspan><tspan x="15.3037" y="41.0252">Skills</tspan></text>
+      </g>
+      <g id="TEXT_-_34_-_The_Gate_of_Power" data-name="TEXT - 34 - The Gate of Power">
+        <text transform="translate(2141.096 147.3877) rotate(25.3002) scale(1 1.2)" font-size="20.8072" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6749">of</tspan><tspan x="14.7412" y="27.3499">Power</tspan></text>
+      </g>
+      <g id="TEXT_-_9_-_The_Gate_of_Focus" data-name="TEXT - 9 - The Gate of Focus">
+        <text transform="translate(2002.0481 94.9509) rotate(19.6747) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="17.041" y="27.3501">Focus</tspan></text>
+      </g>
+      <g id="TEXT_-_5_-_The_Gate_of_Fixed_Rhythms" data-name="TEXT - 5 - The Gate of Fixed Rhythms">
+        <text transform="translate(1858.0653 56.422) rotate(14.0501) scale(1 1.2)" font-size="20.8071" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2754" y="13.6747">of</tspan><tspan x="19.9434" y="27.3499">Fixed</tspan><tspan x="2.5898" y="41.0246">Rhythms</tspan></text>
+      </g>
+      <g id="TEXT_-_26_-_The_Gate_of_the_Egoist" data-name="TEXT - 26 - The Gate of the Egoist">
+        <text transform="translate(1711.5501 32.2402) rotate(8.4247) scale(1 1.2)" font-size="20.8073" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="37.2764" y="13.6751">of</tspan><tspan x="-8.0938" y="27.3503">The Egoist</tspan></text>
+      </g>
+      <g id="TEXT_-_11_-_The_Gate_of_Ideas" data-name="TEXT - 11 - The Gate of  Ideas">
+        <text transform="translate(1563.1612 22.6958) rotate(2.8) scale(1 1.2)" font-size="20.8074" font-family="Copperplate-Bold, Copperplate" font-weight="700">The Gate<tspan x="34.1025" y="13.6751">of </tspan><tspan x="19.9336" y="27.3503">Ideas</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

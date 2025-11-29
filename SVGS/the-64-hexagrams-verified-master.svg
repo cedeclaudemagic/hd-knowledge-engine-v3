@@ -1,0 +1,880 @@
+<svg id="ROOT_-_THE_64_HEXAGRAM_SYMBOLS_-_ORIGINAL" data-name="ROOT - THE 64 HEXAGRAM SYMBOLS - ORIGINAL" xmlns="http://www.w3.org/2000/svg" width="2902.6881" height="2902.6881" viewBox="0 0 2902.6881 2902.6881">
+  <g id="GROUP_-_STRUCTURE" data-name="GROUP - STRUCTURE">
+    <g id="GROUP_-_RINGS" data-name="GROUP - RINGS">
+      <circle id="RING_-_INNER" data-name="RING - INNER" cx="1451.344" cy="1451.344" r="1334.4257" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" data-name="RING - OUTER" cx="1451.344" cy="1451.344" r="1451.094" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="GROUP_-_DIVIDERS" data-name="GROUP - DIVIDERS">
+      <line id="LINE_-_58_10" data-name="LINE - 58|10" x1="1309.8591" y1="14.8223" x2="1319.7004" y2="114.7423" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_38_58" data-name="LINE - 38|58" x1="1169.7367" y1="35.6074" x2="1189.3245" y2="134.0817" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_54_38" data-name="LINE - 54|38" x1="1032.3264" y1="70.0269" x2="1061.472" y2="166.107" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_61_54" data-name="LINE - 61|54" x1="898.9514" y1="117.7491" x2="937.3741" y2="210.5098" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_60_61" data-name="LINE - 60|61" x1="770.8962" y1="178.3146" x2="818.2261" y2="266.8625" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_41_60" data-name="LINE - 41|60" x1="649.3941" y1="251.14" x2="705.1753" y2="334.6224" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_19_41" data-name="LINE - 19|41" x1="535.6153" y1="335.5241" x2="599.3106" y2="413.137" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_13_19" data-name="LINE - 13|19" x1="430.6554" y1="430.6541" x2="501.6513" y2="501.65" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_49_13" data-name="LINE - 49|13" x1="335.5252" y1="535.6139" x2="413.1382" y2="599.3091" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_30_49" data-name="LINE - 30|49" x1="251.141" y1="649.3926" x2="334.6235" y2="705.1738" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_55_30" data-name="LINE - 55|30" x1="178.3154" y1="770.8946" x2="266.8634" y2="818.2245" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_37_55" data-name="LINE - 37|55" x1="117.7498" y1="898.9497" x2="210.5105" y2="937.3724" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_63_37" data-name="LINE - 63|37" x1="70.0274" y1="1032.3246" x2="166.1075" y2="1061.4702" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_22_63" data-name="LINE - 22|63" x1="35.6078" y1="1169.7349" x2="134.082" y2="1189.3227" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_36_22" data-name="LINE - 36|22" x1="14.8225" y1="1309.8573" x2="114.7425" y2="1319.6985" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_25_36" data-name="LINE - 25|36" x1="7.8717" y1="1451.3422" x2="108.2752" y2="1451.3422" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_17_25" data-name="LINE - 17|25" x1="14.8223" y1="1592.8272" x2="114.7423" y2="1582.9859" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_21_17" data-name="LINE - 21|17" x1="35.6074" y1="1732.9495" x2="134.0817" y2="1713.3618" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_51_21" data-name="LINE - 51|21" x1="70.0269" y1="1870.3599" x2="166.107" y2="1841.2143" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_42_51" data-name="LINE - 42|51" x1="117.7491" y1="2003.7349" x2="210.5098" y2="1965.3121" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_3_42" data-name="LINE - 3|42" x1="178.3146" y1="2131.79" x2="266.8625" y2="2084.4602" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_27_3" data-name="LINE - 27|3" x1="251.14" y1="2253.2921" x2="334.6224" y2="2197.5109" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_24_27" data-name="LINE - 24|27" x1="335.5241" y1="2367.071" x2="413.137" y2="2303.3757" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_2_24" data-name="LINE - 2|24" x1="430.6541" y1="2472.0309" x2="501.65" y2="2401.0349" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_23_2" data-name="LINE - 23|2" x1="535.6139" y1="2567.161" x2="599.3091" y2="2489.5481" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_8_23" data-name="LINE - 8|23" x1="649.3926" y1="2651.5452" x2="705.1738" y2="2568.0628" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_20_8" data-name="LINE - 20|8" x1="770.8946" y1="2724.3708" x2="818.2245" y2="2635.8229" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_16_20" data-name="LINE - 16|20" x1="898.9497" y1="2784.9365" x2="937.3724" y2="2692.1758" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_35_16" data-name="LINE - 35|16" x1="1032.3246" y1="2832.6589" x2="1061.4702" y2="2736.5787" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_45_35" data-name="LINE - 45|35" x1="1169.7349" y1="2867.0784" x2="1189.3227" y2="2768.6042" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_12_45" data-name="LINE - 12|45" x1="1309.8573" y1="2887.8637" x2="1319.6985" y2="2787.9437" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_15_12" data-name="LINE - 15|12" x1="1451.3422" y1="2894.8145" x2="1451.3422" y2="2794.4111" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_52_15" data-name="LINE - 52|15" x1="1592.8272" y1="2887.8639" x2="1582.9859" y2="2787.9439" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_39_52" data-name="LINE - 39|52" x1="1732.9495" y1="2867.0788" x2="1713.3618" y2="2768.6046" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_53_39" data-name="LINE - 53|39" x1="1870.3599" y1="2832.6594" x2="1841.2143" y2="2736.5793" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_62_53" data-name="LINE - 62|53" x1="2003.7349" y1="2784.9372" x2="1965.3121" y2="2692.1764" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_56_62" data-name="LINE - 56|62" x1="2131.79" y1="2724.3717" x2="2084.4602" y2="2635.8237" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_31_56" data-name="LINE - 31|56" x1="2253.2921" y1="2651.5462" x2="2197.5109" y2="2568.0638" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_33_31" data-name="LINE - 33|31" x1="2367.071" y1="2567.1622" x2="2303.3757" y2="2489.5493" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_7_33" data-name="LINE - 7|33" x1="2472.0309" y1="2472.0322" x2="2401.0349" y2="2401.0362" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_4_7" data-name="LINE - 4|7" x1="2567.161" y1="2367.0724" x2="2489.5481" y2="2303.3771" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_29_4" data-name="LINE - 29|4" x1="2651.5452" y1="2253.2936" x2="2568.0628" y2="2197.5124" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_59_29" data-name="LINE - 59|29" x1="2724.3708" y1="2131.7916" x2="2635.8229" y2="2084.4618" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_40_59" data-name="LINE - 40|59" x1="2784.9365" y1="2003.7366" x2="2692.1758" y2="1965.3138" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_64_40" data-name="LINE - 64|40" x1="2832.6589" y1="1870.3616" x2="2736.5787" y2="1841.216" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_47_64" data-name="LINE - 47|64" x1="2867.0784" y1="1732.9513" x2="2768.6042" y2="1713.3636" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_6_47" data-name="LINE - 6|47" x1="2887.8637" y1="1592.829" x2="2787.9437" y2="1582.9877" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_46_6" data-name="LINE - 46|6" x1="2894.8145" y1="1451.344" x2="2794.4111" y2="1451.344" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_18_46" data-name="LINE - 18|46" x1="2887.8639" y1="1309.8591" x2="2787.9439" y2="1319.7004" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_48_18" data-name="LINE - 48|18" x1="2867.0788" y1="1169.7367" x2="2768.6046" y2="1189.3245" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_57_48" data-name="LINE - 57|48" x1="2832.6594" y1="1032.3264" x2="2736.5793" y2="1061.472" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_32_57" data-name="LINE - 32|57" x1="2784.9372" y1="898.9514" x2="2692.1764" y2="937.3741" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_50_32" data-name="LINE - 50|32" x1="2724.3717" y1="770.8962" x2="2635.8237" y2="818.2261" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_28_50" data-name="LINE - 28|50" x1="2651.5462" y1="649.3941" x2="2568.0638" y2="705.1753" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_44_28" data-name="LINE - 44|28" x1="2567.1622" y1="535.6153" x2="2489.5493" y2="599.3106" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_1_44" data-name="LINE - 1|44" x1="2472.0322" y1="430.6554" x2="2401.0362" y2="501.6513" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_43_1" data-name="LINE - 43|1" x1="2367.0724" y1="335.5252" x2="2303.3771" y2="413.1382" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_14_43" data-name="LINE - 14|43" x1="2253.2936" y1="251.141" x2="2197.5124" y2="334.6235" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_34_14" data-name="LINE - 34|14" x1="2131.7916" y1="178.3154" x2="2084.4618" y2="266.8634" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_9_34" data-name="LINE - 9|34" x1="2003.7366" y1="117.7498" x2="1965.3138" y2="210.5105" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_5_9" data-name="LINE - 5|9" x1="1870.3616" y1="70.0274" x2="1841.216" y2="166.1075" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_26_5" data-name="LINE - 26|5" x1="1732.9513" y1="35.6078" x2="1713.3636" y2="134.082" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_11_26" data-name="LINE - 11|26" x1="1592.829" y1="14.8225" x2="1582.9877" y2="114.7425" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="LINE_-_10_11" data-name="LINE - 10|11" x1="1451.344" y1="7.8717" x2="1451.344" y2="108.2752" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </g>
+  <g id="GROUP_-_THE_64_HEXAGRAMS" data-name="GROUP - THE 64 HEXAGRAMS">
+    <g id="GROUP_-_WEST" data-name="GROUP - WEST">
+      <g id="GROUP_-_FIRE" data-name="GROUP - FIRE">
+        <g id="_GROUP_-_GATE_-_13_-_CAA" data-name=" GROUP - GATE - 13 - CAA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG" data-name="SYMBOL - LINE - 1 - YANG" x="461.6959" y="584.6526" width="80.7558" height="9.9549" transform="translate(-320.4664 512.9548) rotate(-47.5316)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN" data-name="SYMBOL - LINE - 2 - YIN" d="M458.673,604.6431l20.5475-22.4484,7.3432,6.7214-20.5474,22.4484Zm41.3209-30.4,20.5474-22.4484-7.3432-6.7214L492.6506,567.522Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG" data-name="SYMBOL - LINE - 3 - YANG" x="436.7485" y="561.8178" width="80.7558" height="9.9549" transform="translate(-311.7256 487.1353) rotate(-47.5316)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG" data-name="SYMBOL - LINE - 4 - YANG" x="424.2679" y="550.394" width="80.7558" height="9.9549" transform="translate(-307.3528 474.2182) rotate(-47.5316)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG" data-name="SYMBOL - LINE - 5 - YANG" x="411.7872" y="538.9702" width="80.7558" height="9.9549" transform="translate(-302.98 461.3012) rotate(-47.5316)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG" data-name="SYMBOL - LINE - 6 - YANG" x="399.3205" y="527.5592" width="80.7558" height="9.9549" transform="translate(-298.612 448.3987) rotate(-47.5316)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_49_-_CAC" data-name=" GROUP - GATE - 49 - CAC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_2" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-2" data-name="SYMBOL - LINE - 1 - YANG" x="377.5627" y="687.5691" width="80.7558" height="9.9549" transform="translate(-435.4647 562.41) rotate(-53.1272)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-2" data-name="SYMBOL - LINE - 2 - YIN" d="M376.1954,711.7086l18.2606-24.345,7.9636,5.9733-18.2606,24.345Zm38.1595-34.2838,18.2607-24.345-7.9637-5.9733-18.2606,24.345Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-2" data-name="SYMBOL - LINE - 3 - YANG" x="350.4925" y="667.2643" width="80.7558" height="9.9549" transform="translate(-430.0485 532.6335) rotate(-53.1272)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-2" data-name="SYMBOL - LINE - 4 - YANG" x="336.9574" y="657.1119" width="80.7558" height="9.9549" transform="translate(-427.3404 517.7453) rotate(-53.1272)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-2" data-name="SYMBOL - LINE - 5 - YANG" x="323.4374" y="646.9708" width="80.7558" height="9.9549" transform="translate(-424.6353 502.8737) rotate(-53.1272)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN" data-name="SYMBOL - LINE - 6 - YIN" d="M322.07,671.11l18.2606-24.345,7.9636,5.9733-18.2607,24.345ZM360.23,636.8266l18.2606-24.345-7.9636-5.9733-18.2606,24.345Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_30_-_CAG" data-name=" GROUP - GATE - 30 - CAG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_3" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-3" data-name="SYMBOL - LINE - 1 - YANG" x="302.0958" y="798.0038" width="80.7558" height="9.9549" transform="matrix(0.519, -0.8548, 0.8548, 0.519, -570.2463, 630.0558)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-3" data-name="SYMBOL - LINE - 2 - YIN" d="M302.8169,826.1408l15.7943-26.0129,8.5092,5.1665-15.7942,26.0129Zm34.6366-37.8648,15.7942-26.0129-8.5092-5.1666-15.7942,26.0129Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-3" data-name="SYMBOL - LINE - 3 - YANG" x="273.1871" y="780.4513" width="80.7558" height="9.9549" transform="translate(-569.1481 596.9025) rotate(-58.7351)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-3" data-name="SYMBOL - LINE - 4 - YANG" x="258.7247" y="771.6701" width="80.7558" height="9.9549" transform="translate(-568.5987 580.3165) rotate(-58.7351)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN" data-name="SYMBOL - LINE - 5 - YIN" d="M285.5569,756.7659l15.7943-26.0129L309.86,735.92l-15.7942,26.0129Zm-17.6181,48.198,15.7943-26.0129-8.5092-5.1666L259.43,799.7973Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-2" data-name="SYMBOL - LINE - 6 - YANG" x="229.816" y="754.1177" width="80.7558" height="9.9549" transform="translate(-567.5004 547.1632) rotate(-58.7351)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_55_-_CAU" data-name=" GROUP - GATE - 55 - CAU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_4" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-4" data-name="SYMBOL - LINE - 1 - YANG" x="238.9559" y="916.0681" width="80.7557" height="9.9549" transform="translate(-720.5411 725.6902) rotate(-64.3774)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-4" data-name="SYMBOL - LINE - 2 - YIN" d="M242.1461,947.9917l13.16-27.44,8.9759,4.3049-13.16,27.44Zm30.7379-41.07,13.16-27.44-8.9759-4.3049-13.16,27.44Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-4" data-name="SYMBOL - LINE - 3 - YANG" x="208.4616" y="901.4428" width="80.7557" height="9.9549" transform="translate(-724.6614 689.894) rotate(-64.3774)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-4" data-name="SYMBOL - LINE - 4 - YANG" x="193.2059" y="894.1261" width="80.7557" height="9.9549" transform="translate(-726.7227 671.9858) rotate(-64.3774)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-2" data-name="SYMBOL - LINE - 5 - YIN" d="M218.1409,880.667l13.16-27.44,8.9759,4.3049-13.16,27.44ZM205.355,930.3465l13.16-27.44-8.9759-4.305-13.16,27.44Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-2" data-name="SYMBOL - LINE - 6 - YIN" d="M181.14,918.733l13.16-27.44,8.9759,4.3049-13.16,27.44Zm30.7378-41.07,13.16-27.44-8.9759-4.3049-13.16,27.44Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_37_-_CCA" data-name=" GROUP - GATE - 37 - CCA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_5" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-5" data-name="SYMBOL - LINE - 1 - YANG" x="187.4554" y="1040.0316" width="80.7557" height="9.9549" transform="translate(-881.1679 856.3821) rotate(-70.1954)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-5" data-name="SYMBOL - LINE - 2 - YIN" d="M193.5508,1075.58l10.311-28.6325,9.3661,3.3729-10.311,28.6325Zm26.4228-43.9919,10.311-28.6325-9.3661-3.3728-10.311,28.6325Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-5" data-name="SYMBOL - LINE - 3 - YANG" x="155.6356" y="1028.5729" width="80.7557" height="9.9549" transform="translate(-891.4257 818.868) rotate(-70.1954)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN" data-name="SYMBOL - LINE - 4 - YIN" d="M178.7877,1016.7562l10.311-28.6325,9.3661,3.3729-10.311,28.6325Zm-7.6905,50.7376,10.3109-28.6325-9.3661-3.3728-10.311,28.6325Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-3" data-name="SYMBOL - LINE - 5 - YANG" x="123.798" y="1017.1077" width="80.7557" height="9.9549" transform="translate(-901.6893 781.3329) rotate(-70.1954)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-3" data-name="SYMBOL - LINE - 6 - YANG" x="107.8792" y="1011.3751" width="80.7557" height="9.9549" transform="matrix(0.3388, -0.9409, 0.9409, 0.3388, -906.821, 762.5653)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_63_-_CCC" data-name=" GROUP - GATE - 63 - CCC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_6" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-6" data-name="SYMBOL - LINE - 1 - YANG" x="149.5001" y="1164.5737" width="80.7557" height="9.9549" transform="translate(-1039.3006 1019.8525) rotate(-75.8993)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-6" data-name="SYMBOL - LINE - 2 - YIN" d="M158.822,1203.3823l7.4141-29.5156,9.655,2.4253-7.4142,29.5156Zm21.915-46.3817,7.4142-29.5155-9.655-2.4253-7.4141,29.5155Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-6" data-name="SYMBOL - LINE - 3 - YANG" x="116.699" y="1156.3342" width="80.7557" height="9.9549" transform="translate(-1056.1192 981.8076) rotate(-75.8993)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-2" data-name="SYMBOL - LINE - 4 - YIN" d="M138.2626,1146.3312l7.4142-29.5155,9.6549,2.4253-7.4142,29.5155Zm-2.6052,51.2322,7.4142-29.5155-9.6549-2.4253-7.4142,29.5155Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-4" data-name="SYMBOL - LINE - 5 - YANG" x="83.8795" y="1148.09" width="80.7557" height="9.9549" transform="translate(-1072.9473 943.7413) rotate(-75.8993)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-3" data-name="SYMBOL - LINE - 6 - YIN" d="M93.2014,1186.8986l7.4142-29.5155,9.6549,2.4253-7.4142,29.5155Zm21.9151-46.3816,7.4141-29.5155-9.6549-2.4253-7.4142,29.5155Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_22_-_CCG" data-name=" GROUP - GATE - 22 - CCG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_7" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-7" data-name="SYMBOL - LINE - 1 - YANG" x="123.9978" y="1293.5918" width="80.7557" height="9.9549" transform="translate(-1192.8476 1220.8868) rotate(-81.5267)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-7" data-name="SYMBOL - LINE - 2 - YIN" d="M136.768,1335.28l4.4842-30.1,9.8463,1.4669-4.4842,30.1Zm17.2614-48.3071,4.4841-30.1-9.8462-1.4668-4.4842,30.1Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-7" data-name="SYMBOL - LINE - 3 - YANG" x="90.5281" y="1288.6057" width="80.7557" height="9.9549" transform="translate(-1216.4538 1183.531) rotate(-81.5267)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-3" data-name="SYMBOL - LINE - 4 - YIN" d="M110.7321,1280.5226l4.4842-30.1,9.8463,1.4669-4.4842,30.1Zm2.4312,51.2408,4.4842-30.1-9.8462-1.4668-4.4842,30.1Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-3" data-name="SYMBOL - LINE - 5 - YIN" d="M93.9973,1278.03l4.4842-30.1,9.8462,1.4669-4.4842,30.1Zm2.4312,51.2408,4.4841-30.1-9.8462-1.4668-4.4842,30.1Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-4" data-name="SYMBOL - LINE - 6 - YANG" x="40.3422" y="1281.1292" width="80.7557" height="9.9549" transform="translate(-1251.85 1127.5182) rotate(-81.5267)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_36_-_CCU" data-name=" GROUP - GATE - 36 - CCU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_8" data-name="GROUP - LOWER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-8" data-name="SYMBOL - LINE - 1 - YANG" x="109.7728" y="1427.6131" width="80.7557" height="9.9549" transform="translate(-1336.5388 1466.0232) rotate(-87.2942)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-8" data-name="SYMBOL - LINE - 2 - YIN" d="M126.3909,1471.8906l1.4366-30.3985,9.9438.47-1.4366,30.3986Zm12.3194-49.7972,1.4367-30.3985-9.9438-.47-1.4367,30.3986Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-8" data-name="SYMBOL - LINE - 3 - YANG" x="75.9904" y="1426.0166" width="80.7557" height="9.9549" transform="translate(-1367.1316 1430.7573) rotate(-87.2942)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-4" data-name="SYMBOL - LINE - 4 - YIN" d="M94.9652,1420.026l1.4366-30.3985,9.9438.47-1.4366,30.3986Zm7.5681,50.7371,1.4367-30.3985-9.9438-.47L92.59,1470.2932Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-4" data-name="SYMBOL - LINE - 5 - YIN" d="M78.0645,1419.2273l1.4366-30.3986,9.9439.47-1.4367,30.3985Zm7.5682,50.7371,1.4366-30.3986-9.9438-.47-1.4367,30.3985Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-4" data-name="SYMBOL - LINE - 6 - YIN" d="M58.8071,1468.6966l1.4366-30.3986,9.9439.47-1.4367,30.3985Zm12.3195-49.7972,1.4366-30.3986-9.9438-.47-1.4367,30.3985Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+      </g>
+      <g id="GROUP_-_THUNDER" data-name="GROUP - THUNDER">
+        <g id="_GROUP_-_GATE_-_25_-_CGA" data-name=" GROUP - GATE - 25 - CGA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-9" data-name="SYMBOL - LINE - 1 - YANG" x="145.3597" y="1525.9494" width="9.9549" height="80.7557" transform="translate(-126.9446 -39.4144) rotate(-2.8737)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-9" data-name="SYMBOL - LINE - 2 - YIN" d="M130.492,1607.7521l-1.5257-30.3942,9.9424-.499,1.5257,30.3942Zm7.4195-50.759-1.5257-30.3942-9.9424.4991,1.5257,30.3942Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN" data-name="SYMBOL - LINE - 3 - YIN" d="M113.5938,1608.6l-1.5257-30.3942,9.9424-.4991,1.5257,30.3942Zm7.4195-50.7591-1.5257-30.3942-9.9424.4991,1.5257,30.3942Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_2" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-5" data-name="SYMBOL - LINE - 4 - YANG" x="94.6839" y="1528.4932" width="9.9549" height="80.7557" transform="translate(-127.1359 -41.9518) rotate(-2.8737)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-5" data-name="SYMBOL - LINE - 5 - YANG" x="77.7856" y="1529.3414" width="9.9549" height="80.7557" transform="translate(-127.1996 -42.7979) rotate(-2.8737)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-5" data-name="SYMBOL - LINE - 6 - YANG" x="60.8874" y="1530.1897" width="9.9549" height="80.7557" transform="translate(-127.2634 -43.644) rotate(-2.8737)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_17_-_CGC" data-name=" GROUP - GATE - 17 - CGC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_2" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-10" data-name="SYMBOL - LINE - 1 - YANG" x="158.5495" y="1656.2173" width="9.9549" height="80.7557" transform="matrix(0.9891, -0.1475, 0.1475, 0.9891, -297.1187, -6.2306)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-10" data-name="SYMBOL - LINE - 2 - YIN" d="M147.8452,1739.7589l-4.49-30.1,9.846-1.4687,4.49,30.0995Zm2.4218-51.2413-4.49-30.0995-9.846,1.4687,4.49,30.1Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-2" data-name="SYMBOL - LINE - 3 - YIN" d="M131.1109,1742.255l-4.49-30.1,9.846-1.4686,4.49,30.1Zm2.4217-51.2412-4.49-30.1-9.846,1.4687,4.49,30.0994Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_2" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-6" data-name="SYMBOL - LINE - 4 - YANG" x="108.365" y="1663.703" width="9.9549" height="80.7557" transform="translate(-298.7722 -13.5525) rotate(-8.4839)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-6" data-name="SYMBOL - LINE - 5 - YANG" x="91.6306" y="1666.1991" width="9.9549" height="80.7557" transform="translate(-299.3236 -15.994) rotate(-8.4839)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-5" data-name="SYMBOL - LINE - 6 - YIN" d="M80.9264,1749.7407l-4.49-30.1,9.8459-1.4686,4.49,30.0994Zm2.4217-51.2413-4.49-30.0994-9.846,1.4686,4.49,30.1Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_21_-_CGG" data-name=" GROUP - GATE - 21 - CGG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_3" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-11" data-name="SYMBOL - LINE - 1 - YANG" x="183.2071" y="1785.564" width="9.9549" height="80.7557" transform="translate(-481.5347 49.6825) rotate(-13.8932)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-11" data-name="SYMBOL - LINE - 2 - YIN" d="M176.6234,1870.3962l-7.3072-29.5422,9.6636-2.39,7.3073,29.5422Zm-2.42-51.2414-7.3072-29.5421-9.6637,2.39,7.3072,29.5421Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-3" data-name="SYMBOL - LINE - 3 - YIN" d="M160.1988,1874.4588l-7.3072-29.5422,9.6637-2.39,7.3072,29.5422Zm-2.42-51.2414-7.3072-29.5421-9.6637,2.39,7.3073,29.5421Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_2" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-7" data-name="SYMBOL - LINE - 4 - YANG" x="133.9518" y="1797.7472" width="9.9549" height="80.7557" transform="translate(-485.901 38.2121) rotate(-13.8932)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-5" data-name="SYMBOL - LINE - 5 - YIN" d="M115.2848,1833.7284l-7.3072-29.5422,9.6637-2.39,7.3072,29.5422Zm21.747,46.4607-7.3072-29.5422-9.6637,2.39,7.3072,29.5422Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-6" data-name="SYMBOL - LINE - 6 - YANG" x="101.1027" y="1805.8724" width="9.9549" height="80.7557" transform="translate(-488.8129 30.5623) rotate(-13.8932)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_51_-_CGU" data-name=" GROUP - GATE - 51 - CGU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_4" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-12" data-name="SYMBOL - LINE - 1 - YANG" x="221.4964" y="1912.9701" width="9.9549" height="80.7557" transform="translate(-688.0283 138.8999) rotate(-19.512)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-12" data-name="SYMBOL - LINE - 2 - YIN" d="M219.3208,1998.7207l-10.1646-28.6848,9.3832-3.325,10.1646,28.6848Zm-7.425-50.7582-10.1646-28.6848-9.3832,3.325,10.1646,28.6848Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-4" data-name="SYMBOL - LINE - 3 - YIN" d="M203.3729,2004.3719l-10.1646-28.6848,9.3832-3.325,10.1646,28.6848Zm-7.425-50.7582-10.1646-28.6848-9.3832,3.325,10.1646,28.6848Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_2" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-8" data-name="SYMBOL - LINE - 4 - YANG" x="173.6706" y="1929.9174" width="9.9549" height="80.7557" transform="translate(-696.4353 123.8992) rotate(-19.512)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-6" data-name="SYMBOL - LINE - 5 - YIN" d="M154.6868,1968.2347,144.5222,1939.55l9.3832-3.325L164.07,1964.91Zm26.1914,44.1083-10.1646-28.6848-9.3832,3.325,10.1646,28.6848Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-6" data-name="SYMBOL - LINE - 6 - YIN" d="M155.5471,2021.3192l-10.1646-28.6848,9.3833-3.325,10.1645,28.6848Zm-7.4249-50.7583-10.1646-28.6848-9.3832,3.325,10.1645,28.6848Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_42_-_CUA" data-name=" GROUP - GATE - 42 - CUA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_5" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-13" data-name="SYMBOL - LINE - 1 - YANG" x="272.5284" y="2036.5178" width="9.9549" height="80.7557" transform="translate(-912.2976 270.6535) rotate(-25.389)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-13" data-name="SYMBOL - LINE - 2 - YIN" d="M275.0532,2122.7543l-13.0483-27.4933,8.9935-4.2683,13.0482,27.4933ZM262.47,2073.0231,249.4217,2045.53l-8.9934,4.2683,13.0482,27.4933Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-5" data-name="SYMBOL - LINE - 3 - YIN" d="M259.7678,2130.0087,246.72,2102.5155l8.9934-4.2683,13.0482,27.4933Zm-12.5833-49.7311-13.0483-27.4933-8.9933,4.2682,13.0482,27.4933Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_2" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-5" data-name="SYMBOL - LINE - 4 - YIN" d="M222.9057,2091.8l-13.0482-27.4932,8.9934-4.2683,13.0483,27.4933Zm30.57,41.1947-13.0483-27.4933-8.9934,4.2683,13.0483,27.4933Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-7" data-name="SYMBOL - LINE - 5 - YANG" x="211.4209" y="2065.5194" width="9.9549" height="80.7557" transform="translate(-930.6343 247.254) rotate(-25.389)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-7" data-name="SYMBOL - LINE - 6 - YANG" x="196.1355" y="2072.7738" width="9.9549" height="80.7557" transform="translate(-935.221 241.4009) rotate(-25.389)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_3_-_CUC" data-name=" GROUP - GATE - 3 - CUC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_6" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-14" data-name="SYMBOL - LINE - 1 - YANG" x="334.7817" y="2153.4768" width="9.9549" height="80.7557" transform="translate(-1128.0792 437.8252) rotate(-30.9356)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-14" data-name="SYMBOL - LINE - 2 - YIN" d="M341.7342,2239.7454,326.09,2213.642l8.5387-5.1175,15.6446,26.1033Zm-17.3408-48.2984-15.6446-26.1033-8.5387,5.1175,15.6445,26.1034Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-6" data-name="SYMBOL - LINE - 3 - YIN" d="M327.2216,2248.4432,311.5771,2222.34l8.5388-5.1176,15.6445,26.1033Zm-17.3408-48.2984-15.6445-26.1033-8.5388,5.1176,15.6445,26.1033Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_2" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-6" data-name="SYMBOL - LINE - 4 - YIN" d="M286.8455,2213.9506l-15.6445-26.1033,8.5388-5.1176,15.6445,26.1034Zm34.4184,38.0633-15.6445-26.1034-8.5388,5.1176,15.6445,26.1033Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-8" data-name="SYMBOL - LINE - 5 - YANG" x="276.7473" y="2188.2587" width="9.9549" height="80.7557" transform="translate(-1154.2153 412.9391) rotate(-30.9356)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-7" data-name="SYMBOL - LINE - 6 - YIN" d="M283.7,2274.5272l-15.6445-26.1033,8.5387-5.1176,15.6446,26.1033Zm-17.3408-48.2984-15.6446-26.1033-8.5388,5.1176,15.6446,26.1033Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_27_-_CUG" data-name=" GROUP - GATE - 27 - CUG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_7" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-15" data-name="SYMBOL - LINE - 1 - YANG" x="406.8336" y="2261.6129" width="9.9549" height="80.7558" transform="translate(-1333.8585 644.1163) rotate(-36.3841)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-15" data-name="SYMBOL - LINE - 2 - YIN" d="M418.1347,2347.4865l-18.0523-24.5,8.0142-5.9052,18.0524,24.5Zm-21.8485-46.4336-18.0524-24.5-8.0143,5.9052,18.0524,24.5Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-7" data-name="SYMBOL - LINE - 3 - YIN" d="M404.5134,2357.5232l-18.0524-24.5,8.0143-5.9052,18.0524,24.5ZM382.6649,2311.09l-18.0524-24.5-8.0143,5.9052,18.0524,24.5Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_2" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-7" data-name="SYMBOL - LINE - 4 - YIN" d="M361.0447,2327.02l-18.0524-24.5,8.0143-5.9052,18.0524,24.5Zm37.8771,34.6233-18.0524-24.5-8.0142,5.9052,18.0523,24.5Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-7" data-name="SYMBOL - LINE - 5 - YIN" d="M347.4234,2337.0567l-18.0524-24.5,8.0143-5.9052,18.0524,24.5Zm37.8771,34.6232-18.0524-24.5-8.0143,5.9052,18.0524,24.5Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-8" data-name="SYMBOL - LINE - 6 - YANG" x="338.7428" y="2311.7846" width="9.9549" height="80.7558" transform="translate(-1376.8938 613.5057) rotate(-36.3841)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_24_-_CUU" data-name=" GROUP - GATE - 24 - CUU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_8" data-name="GROUP - LOWER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-16" data-name="SYMBOL - LINE - 1 - YANG" x="491.2818" y="2365.5633" width="9.9549" height="80.7557" transform="translate(-1536.155 908.1109) rotate(-42.2022)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-16" data-name="SYMBOL - LINE - 2 - YIN" d="M507.1621,2450.5616l-20.4429-22.5437,7.3744-6.6872,20.4429,22.5437Zm-26.43-43.9657-20.4429-22.5437-7.3744,6.6872,20.4429,22.5437Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-8" data-name="SYMBOL - LINE - 3 - YIN" d="M494.6426,2461.9145,474.2,2439.3708l7.3744-6.6872,20.443,22.5437Zm-26.43-43.9657-20.443-22.5437-7.3744,6.6872,20.443,22.5437Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_2" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-8" data-name="SYMBOL - LINE - 4 - YIN" d="M448.3042,2436.0018l-20.443-22.5438,7.3744-6.6872,20.443,22.5438Zm41.179,30.5912L469.04,2444.0493l-7.3744,6.6872,20.443,22.5437Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-8" data-name="SYMBOL - LINE - 5 - YIN" d="M435.7707,2447.3674l-20.443-22.5438,7.3744-6.6872L443.145,2440.68Zm41.179,30.5913-20.4429-22.5438-7.3744,6.6872,20.4429,22.5438Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-8" data-name="SYMBOL - LINE - 6 - YIN" d="M457.0416,2496.0116l-20.443-22.5437,7.3744-6.6872,20.443,22.5437Zm-26.43-43.9657-20.443-22.5437-7.3744,6.6872,20.443,22.5437Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="GROUP_-_SOUTH" data-name="GROUP - SOUTH">
+      <g id="GROUP_-_EARTH" data-name="GROUP - EARTH">
+        <g id="_GROUP_-_GATE_-_2_-_UUU" data-name=" GROUP - GATE - 2 - UUU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN" data-name="SYMBOL - LINE - 1 - YIN" d="M563.078,2469.027l22.5509,20.435-6.6845,7.3767-22.551-20.4349Zm30.6059,41.1682,22.551,20.4349,6.6846-7.3767-22.5511-20.435Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-17" data-name="SYMBOL - LINE - 2 - YIN" d="M589.0071,2515.3562l22.5511,20.4349-6.6846,7.3768-22.551-20.435Zm-43.975-26.4146,22.551,20.4349L574.2676,2502l-22.5509-20.4349Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-9" data-name="SYMBOL - LINE - 3 - YIN" d="M577.646,2527.8938l22.551,20.4349-6.6845,7.3768-22.5511-20.435Zm-43.975-26.4146,22.5509,20.4349,6.6846-7.3768-22.551-20.4349Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_3" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-9" data-name="SYMBOL - LINE - 4 - YIN" d="M529.007,2506.6261l22.5509,20.435-6.6845,7.3767-22.551-20.4349Zm30.6059,41.1682,22.551,20.4349,6.6846-7.3768-22.5511-20.4349Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-9" data-name="SYMBOL - LINE - 5 - YIN" d="M517.6458,2519.1637l22.551,20.435-6.6846,7.3767-22.551-20.4349Zm30.6059,41.1682,22.551,20.4349,6.6846-7.3768-22.551-20.4349Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-9" data-name="SYMBOL - LINE - 6 - YIN" d="M506.2845,2531.7015l22.551,20.4349-6.6846,7.3768L499.6,2539.0783ZM536.89,2572.87l22.551,20.435,6.6846-7.3768-22.551-20.4349Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_23_-_UUG" data-name=" GROUP - GATE - 23 - UUG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_2" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-2" data-name="SYMBOL - LINE - 1 - YIN" d="M720.8323,2612.0787l-24.3778-18.2169,5.9591-7.9744,24.3777,18.217Zm-34.3522-38.098-24.3778-18.217-5.9591,7.9743,24.3778,18.217Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-18" data-name="SYMBOL - LINE - 2 - YIN" d="M710.7156,2625.6168,686.3379,2607.4l5.959-7.9743,24.3778,18.2169Zm-34.3522-38.0981-24.3778-18.2169-5.9591,7.9743,24.3778,18.217Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-10" data-name="SYMBOL - LINE - 3 - YIN" d="M700.5875,2639.17l-24.3778-18.217,5.959-7.9743,24.3778,18.2169Zm-34.3523-38.098-24.3778-18.217-5.959,7.9743,24.3778,18.217Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_3" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-10" data-name="SYMBOL - LINE - 4 - YIN" d="M650.1482,2622.6l-24.3778-18.217,5.959-7.9743,24.3778,18.217Zm46.27,22.1494-24.3778-18.217-5.959,7.9744,24.3777,18.2169Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-10" data-name="SYMBOL - LINE - 5 - YIN" d="M640.02,2636.1531l-24.3778-18.2169,5.959-7.9744,24.3779,18.217Zm46.27,22.1494-24.3777-18.217-5.9591,7.9744,24.3778,18.2169Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-9" data-name="SYMBOL - LINE - 6 - YANG" x="635.8721" y="2611.2795" width="9.9549" height="80.7558" transform="translate(-1915.4717 1528.796) rotate(-53.2301)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_8_-_UUC" data-name=" GROUP - GATE - 8 - UUC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_3" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-3" data-name="SYMBOL - LINE - 1 - YIN" d="M835.0183,2684.0784l-26.0449-15.7416,5.1493-8.52,26.0449,15.7416Zm-37.9187-34.55-26.045-15.7416-5.1493,8.52,26.0449,15.7416Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-19" data-name="SYMBOL - LINE - 2 - YIN" d="M826.2663,2698.5587l-26.0449-15.7417,5.1494-8.52,26.0449,15.7416Zm-37.9187-34.55-26.0449-15.7416-5.1493,8.52,26.0449,15.7416Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-11" data-name="SYMBOL - LINE - 3 - YIN" d="M817.5145,2713.0387,791.47,2697.2971l5.1493-8.52,26.045,15.7417Zm-37.9187-34.55-26.0449-15.7416-5.1493,8.52,26.0449,15.7416Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_3" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-11" data-name="SYMBOL - LINE - 4 - YIN" d="M765.7044,2701.4723,739.66,2685.7307l5.1493-8.52,26.0449,15.7417Zm48.2173,17.5108-26.0449-15.7416-5.1493,8.52,26.0449,15.7416Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-9" data-name="SYMBOL - LINE - 5 - YANG" x="763.0614" y="2676.4592" width="9.9549" height="80.7557" transform="translate(-2002.9873 1919.9017) rotate(-58.8511)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-10" data-name="SYMBOL - LINE - 6 - YIN" d="M791.2687,2756.4632l-26.0449-15.7417,5.1493-8.52,26.0449,15.7416Zm-37.9187-34.55-26.045-15.7416-5.1493,8.52,26.0449,15.7416Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_20_-_UUA" data-name=" GROUP - GATE - 20 - UUA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_4" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-4" data-name="SYMBOL - LINE - 1 - YIN" d="M953.9783,2743.19l-27.5234-12.9846,4.2475-9.0033,27.5234,12.9846Zm-41.2654-30.4746L885.19,2699.73l-4.2475,9.0033,27.5234,12.9846Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-20" data-name="SYMBOL - LINE - 2 - YIN" d="M946.7675,2758.4744,919.2441,2745.49l4.2474-9.0033,27.5234,12.9845ZM905.502,2728l-27.5234-12.9845-4.2474,9.0033,27.5234,12.9845Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-12" data-name="SYMBOL - LINE - 3 - YIN" d="M939.5484,2773.7767l-27.5234-12.9845,4.2474-9.0033,27.5234,12.9845Zm-41.2655-30.4746L870.76,2730.3176l-4.2474,9.0033,27.5234,12.9845Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_3" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <g id="SYMBOL_-_LINE_-_4_-_YIN-12" data-name="SYMBOL - LINE - 4 - YIN">
+              <rect x="870.2011" y="2741.3973" width="9.9549" height="30.4325" transform="translate(-2039.9447 2323.0568) rotate(-64.7438)"/>
+              <rect x="915.714" y="2762.8686" width="9.9549" height="30.4325" transform="translate(-2033.2695 2376.5293) rotate(-64.7438)"/>
+            </g>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-10" data-name="SYMBOL - LINE - 5 - YANG" x="885.7386" y="2742.2737" width="9.9549" height="80.7557" transform="translate(-2054.5856 2352.0375) rotate(-64.7438)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-10" data-name="SYMBOL - LINE - 6 - YANG" x="878.5277" y="2757.5586" width="9.9549" height="80.7557" transform="translate(-2072.5436 2354.2793) rotate(-64.7438)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_16_-_UGU" data-name=" GROUP - GATE - 16 - UGU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_5" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-5" data-name="SYMBOL - LINE - 1 - YIN" d="M1079.9633,2791.5167l-28.6753-10.1912,3.3337-9.38,28.6753,10.1913Zm-44.0839-26.2324-28.6753-10.1913-3.3337,9.38,28.6753,10.1913Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-21" data-name="SYMBOL - LINE - 2 - YIN" d="M1074.2972,2807.46l-28.6753-10.1913,3.3337-9.38,28.6753,10.1912Zm-44.0839-26.2325-28.6753-10.1913-3.3337,9.38,28.6753,10.1913Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-13" data-name="SYMBOL - LINE - 3 - YIN" d="M1068.6376,2823.3841l-28.6754-10.1913,3.3338-9.38,28.6753,10.1913Zm-44.0839-26.2325L995.8784,2786.96l-3.3337,9.38,28.6753,10.1913Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_3" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-9" data-name="SYMBOL - LINE - 4 - YANG" x="1021.6144" y="2780.7371" width="9.9549" height="80.7557" transform="translate(-2024.027 2794.7708) rotate(-70.4347)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-11" data-name="SYMBOL - LINE - 5 - YIN" d="M1009.8879,2838.417l-28.6753-10.1913,3.3337-9.38,28.6753,10.1913Zm50.7513,7.4722-28.6753-10.1913-3.3337,9.38,28.6753,10.1913Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-11" data-name="SYMBOL - LINE - 6 - YIN" d="M1051.6394,2871.212l-28.6753-10.1913,3.3337-9.38,28.6753,10.1913Zm-44.0839-26.2324L978.88,2834.7883l-3.3337,9.38,28.6753,10.1913Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_35_-_UGG" data-name=" GROUP - GATE - 35 - UGG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_6" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-6" data-name="SYMBOL - LINE - 1 - YIN" d="M1208.414,2826.4349l-29.559-7.2389,2.368-9.6692,29.559,7.239Zm-46.5109-21.64-29.5589-7.239-2.368,9.6692,29.559,7.2389Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-22" data-name="SYMBOL - LINE - 2 - YIN" d="M1204.3939,2842.85l-29.559-7.239,2.368-9.6691,29.5589,7.2389Zm-46.5109-21.64-29.559-7.239-2.3679,9.6692,29.5589,7.2389Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-14" data-name="SYMBOL - LINE - 3 - YIN" d="M1200.3692,2859.2843l-29.559-7.2389,2.368-9.6692,29.559,7.2389Zm-46.5109-21.6395-29.5589-7.239-2.368,9.6692,29.559,7.2389Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_3" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-10" data-name="SYMBOL - LINE - 4 - YANG" x="1153.3322" y="2820.901" width="9.9549" height="80.7557" transform="translate(-1944.9767 3256.8086) rotate(-76.2391)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-12" data-name="SYMBOL - LINE - 5 - YIN" d="M1143.4456,2880.1633l-29.559-7.2389,2.368-9.6692,29.559,7.239Zm51.2468,2.3012-29.559-7.2389-2.368,9.6691,29.559,7.239Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-11" data-name="SYMBOL - LINE - 6 - YANG" x="1145.2874" y="2853.7504" width="9.9549" height="80.7557" transform="translate(-1983.0144 3274.0303) rotate(-76.2391)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_45_-_UGC" data-name=" GROUP - GATE - 45 - UGC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_7" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-7" data-name="SYMBOL - LINE - 1 - YIN" d="M1340.3569,2848.603l-30.1365-4.2344,1.3852-9.8581,30.1364,4.2345Zm-48.4486-16.86-30.1364-4.2344-1.3852,9.858,30.1365,4.2345Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-23" data-name="SYMBOL - LINE - 2 - YIN" d="M1338.0026,2865.3581l-30.1364-4.2345,1.3851-9.858,30.1365,4.2344Zm-48.4485-16.86-30.1365-4.2345-1.3851,9.8581,30.1364,4.2345Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-15" data-name="SYMBOL - LINE - 3 - YIN" d="M1335.651,2882.0942l-30.1364-4.2345,1.3852-9.8581,30.1364,4.2345Zm-48.4485-16.86L1257.066,2861l-1.3851,9.8581,30.1364,4.2345Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_3" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-11" data-name="SYMBOL - LINE - 4 - YANG" x="1289.0268" y="2847.924" width="9.9549" height="80.7557" transform="translate(-1794.8606 3718.91) rotate(-82.0017)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-11" data-name="SYMBOL - LINE - 5 - YANG" x="1286.6726" y="2864.6789" width="9.9549" height="80.7557" transform="translate(-1813.4791 3731.0022) rotate(-82.0017)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-12" data-name="SYMBOL - LINE - 6 - YIN" d="M1328.5909,2932.34l-30.1364-4.2345,1.3852-9.8581,30.1364,4.2345Zm-48.4485-16.86-30.1365-4.2345-1.3851,9.8581,30.1364,4.2345Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_12_-_UGA" data-name=" GROUP - GATE - 12 - UGA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_8" data-name="GROUP - LOWER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-8" data-name="SYMBOL - LINE - 1 - YIN" d="M1471.98,2857.3076l-30.4059-1.2713.4158-9.9463,30.406,1.2713Zm-49.8636-12.0485-30.4059-1.2713-.4158,9.9462,30.4059,1.2713Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-24" data-name="SYMBOL - LINE - 2 - YIN" d="M1471.2729,2874.2122l-30.4059-1.2713.4158-9.9462,30.406,1.2713Zm-49.8636-12.0485-30.4059-1.2713-.4159,9.9463,30.406,1.2713Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-16" data-name="SYMBOL - LINE - 3 - YIN" d="M1470.5661,2891.1171l-30.4059-1.2713.4158-9.9462,30.4059,1.2713Zm-49.8636-12.0485-30.4059-1.2713-.4159,9.9462,30.4059,1.2713Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_3" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-12" data-name="SYMBOL - LINE - 4 - YANG" x="1424.7471" y="2860.984" width="9.9549" height="80.7557" transform="translate(-1577.4388 4159.7134) rotate(-87.6058)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-12" data-name="SYMBOL - LINE - 5 - YANG" x="1424.0411" y="2877.87" width="9.9549" height="80.7557" transform="translate(-1594.9866 4175.1885) rotate(-87.6058)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-12" data-name="SYMBOL - LINE - 6 - YANG" x="1423.3343" y="2894.7746" width="9.9549" height="80.7557" transform="translate(-1612.5538 4190.6808) rotate(-87.6058)"/>
+          </g>
+        </g>
+      </g>
+      <g id="GROUP_-_MOUNTAIN" data-name="GROUP - MOUNTAIN">
+        <g id="_GROUP_-_GATE_-_15_-_UCU" data-name=" GROUP - GATE - 15 - UCU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-9" data-name="SYMBOL - LINE - 1 - YIN" d="M1603.2455,2853.8193l-30.4,1.4061-.46-9.9443,30.4-1.4061Zm-50.7294-7.6191-30.4,1.4061.46,9.9442,30.4-1.4061Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-25" data-name="SYMBOL - LINE - 2 - YIN" d="M1604.0264,2870.7018l-30.4,1.406-.46-9.9442,30.4-1.4061Zm-50.7295-7.6192-30.4,1.4061.46,9.9443,30.4-1.4061Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-9" data-name="SYMBOL - LINE - 3 - YANG" x="1523.8656" y="2879.5194" width="80.7557" height="9.9549" transform="matrix(0.9989, -0.0462, 0.0462, 0.9989, -180.2115, 26.4332)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_4" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-13" data-name="SYMBOL - LINE - 4 - YIN" d="M1555.32,2906.83l-30.4,1.4061-.46-9.9443,30.4-1.4061ZM1605.13,2894.56l-30.4,1.4061.46,9.9443,30.4-1.4061Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-13" data-name="SYMBOL - LINE - 5 - YIN" d="M1556.1012,2923.7125l-30.4,1.4061-.46-9.9443,30.4-1.4061Zm49.81-12.2694-30.4,1.4061.46,9.9442,30.4-1.406Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-13" data-name="SYMBOL - LINE - 6 - YIN" d="M1607.1525,2938.2887l-30.4,1.4061-.46-9.9443,30.4-1.4061Zm-50.7295-7.6192-30.4,1.4061.46,9.9443,30.4-1.4061Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_52_-_UCG" data-name=" GROUP - GATE - 52 - UCG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_2" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-10" data-name="SYMBOL - LINE - 1 - YIN" d="M1736.8259,2837.1992l-30.1107,4.414-1.4439-9.85,30.1107-4.4139Zm-51.2351-2.5507-30.1107,4.414,1.4439,9.85,30.1107-4.4139Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-26" data-name="SYMBOL - LINE - 2 - YIN" d="M1739.28,2853.94l-30.1107,4.414-1.4439-9.85,30.1107-4.4139Zm-51.2351-2.5507-30.1107,4.414,1.4439,9.85,30.1107-4.4139Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-10" data-name="SYMBOL - LINE - 3 - YANG" x="1660.6832" y="2866.6346" width="80.7557" height="9.9549" transform="translate(-447.1214 228.1678) rotate(-8.3396)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_4" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-14" data-name="SYMBOL - LINE - 4 - YIN" d="M1694.394,2894.7012l-30.1107,4.4139-1.4439-9.85,30.1107-4.414Zm48.3473-17.1486-30.1106,4.4139,1.4438,9.85,30.1107-4.414Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-14" data-name="SYMBOL - LINE - 5 - YIN" d="M1696.848,2911.4419l-30.1107,4.414-1.4438-9.85,30.1106-4.4139Zm48.3474-17.1486-30.1107,4.414,1.4439,9.85,30.1106-4.4139Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-13" data-name="SYMBOL - LINE - 6 - YANG" x="1668.0426" y="2916.8376" width="80.7557" height="9.9549" transform="matrix(0.9894, -0.145, 0.145, 0.9894, -454.3251, 229.7661)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_39_-_UCC" data-name=" GROUP - GATE - 39 - UCC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_3" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-11" data-name="SYMBOL - LINE - 1 - YIN" d="M1867.0442,2807.69l-29.5317,7.3493-2.4041-9.66,29.5318-7.3493Zm-51.2378,2.4925-29.5318,7.3493,2.4041,9.66,29.5318-7.3493Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-27" data-name="SYMBOL - LINE - 2 - YIN" d="M1871.1257,2824.0908l-29.5318,7.3492-2.404-9.66,29.5317-7.3493Zm-51.2379,2.4925-29.5317,7.3493,2.404,9.66,29.5318-7.3493Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-11" data-name="SYMBOL - LINE - 3 - YANG" x="1794.449" y="2840.4529" width="80.7557" height="9.9549" transform="translate(-681.4578 478.3993) rotate(-13.9748)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_4" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-15" data-name="SYMBOL - LINE - 4 - YIN" d="M1830.4639,2869.0811l-29.5318,7.3493-2.4041-9.66,29.5318-7.3493Zm46.43-21.8131-29.5318,7.3493,2.4041,9.66,29.5317-7.3493Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-13" data-name="SYMBOL - LINE - 5 - YANG" x="1802.6209" y="2873.2904" width="80.7557" height="9.9549" transform="translate(-689.146 481.3447) rotate(-13.9748)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-14" data-name="SYMBOL - LINE - 6 - YIN" d="M1887.465,2889.7474l-29.5317,7.3493-2.4041-9.66,29.5318-7.3493Zm-51.2378,2.4925-29.5318,7.3493,2.4041,9.66,29.5317-7.3493Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_53_-_UCA" data-name=" GROUP - GATE - 53 - UCA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_4" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-12" data-name="SYMBOL - LINE - 1 - YIN" d="M1992.2124,2765.4193l-28.6275,10.3248-3.3774-9.3645,28.6275-10.3247Zm-50.716,7.7086-28.6276,10.3248,3.3774,9.3645,28.6275-10.3248Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-28" data-name="SYMBOL - LINE - 2 - YIN" d="M1997.9462,2781.3175l-28.6275,10.3247-3.3774-9.3645,28.6275-10.3247Zm-50.7161,7.7085-28.6275,10.3248,3.3774,9.3645,28.6275-10.3248Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-12" data-name="SYMBOL - LINE - 3 - YANG" x="1923.6369" y="2801.2728" width="80.7557" height="9.9549" transform="translate(-884.1911 783.8437) rotate(-19.8322)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_4" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-16" data-name="SYMBOL - LINE - 4 - YIN" d="M1962.088,2830.2226l-28.6275,10.3248-3.3774-9.3645,28.6275-10.3248Zm43.9613-26.4375-28.6275,10.3247,3.3774,9.3645,28.6275-10.3248Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-14" data-name="SYMBOL - LINE - 5 - YANG" x="1935.1174" y="2833.1049" width="80.7557" height="9.9549" transform="translate(-894.3098 789.6267) rotate(-19.8322)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-14" data-name="SYMBOL - LINE - 6 - YANG" x="1940.8511" y="2849.003" width="80.7557" height="9.9549" transform="translate(-899.3634 792.5149) rotate(-19.8322)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_62_-_UAU" data-name=" GROUP - GATE - 62 - UAU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_5" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-13" data-name="SYMBOL - LINE - 1 - YIN" d="M2112.5732,2712.3851l-27.6076,12.8046-4.1886-9.0309,27.6076-12.8045Zm-49.8578,12.1508-27.6076,12.8045,4.1886,9.0309,27.6076-12.8046Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-29" data-name="SYMBOL - LINE - 2 - YIN" d="M2119.6841,2727.7168l-27.6076,12.8046-4.1885-9.0309,27.6076-12.8045Zm-49.8577,12.1508-27.6076,12.8045,4.1885,9.0309,27.6076-12.8046Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-13" data-name="SYMBOL - LINE - 3 - YANG" x="2047.7012" y="2750.5621" width="80.7557" height="9.9549" transform="translate(-1014.1832 1085.4256) rotate(-24.8821)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_4" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-13" data-name="SYMBOL - LINE - 4 - YANG" x="2054.82" y="2765.911" width="80.7557" height="9.9549" transform="translate(-1019.9805 1089.8456) rotate(-24.8821)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-15" data-name="SYMBOL - LINE - 5 - YIN" d="M2095.3638,2794.9283l-27.6076,12.8046-4.1885-9.0309,27.6076-12.8045Zm41.4807-30.2124-27.6076,12.8045,4.1885,9.0309,27.6076-12.8046Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-15" data-name="SYMBOL - LINE - 6 - YIN" d="M2148.1519,2789.0956,2120.5443,2801.9l-4.1885-9.0309,27.6075-12.8045Zm-49.8577,12.1508-27.6076,12.8045,4.1885,9.0309,27.6076-12.8046Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_56_-_UAG" data-name=" GROUP - GATE - 56 - UAG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_6" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-14" data-name="SYMBOL - LINE - 1 - YIN" d="M2231.3133,2643.7566l-26.0455,15.74-5.1489-8.52,26.0455-15.74Zm-48.218,17.5085-26.0456,15.74,5.149,8.52,26.0455-15.74Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-30" data-name="SYMBOL - LINE - 2 - YIN" d="M2240.0645,2658.2371l-26.0456,15.74-5.1489-8.52,26.0456-15.74Zm-48.2181,17.5085-26.0455,15.74,5.1489,8.52,26.0455-15.74Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-14" data-name="SYMBOL - LINE - 3 - YANG" x="2171.3059" y="2684.3648" width="80.7558" height="9.9549" transform="translate(-1120.7866 1482.6852) rotate(-31.1463)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_4" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-14" data-name="SYMBOL - LINE - 4 - YANG" x="2180.0473" y="2698.829" width="80.7558" height="9.9549" transform="translate(-1127.0079 1489.2914) rotate(-31.1463)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-16" data-name="SYMBOL - LINE - 5 - YIN" d="M2223.2392,2727.6911l-26.0455,15.74-5.149-8.52,26.0456-15.74Zm37.92-34.5483-26.0455,15.74,5.1489,8.52,26.0455-15.74Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-15" data-name="SYMBOL - LINE - 6 - YANG" x="2197.5497" y="2727.7902" width="80.7558" height="9.9549" transform="translate(-1139.4643 1502.5189) rotate(-31.1463)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_31_-_UAC" data-name=" GROUP - GATE - 31 - UAC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_7" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-15" data-name="SYMBOL - LINE - 1 - YIN" d="M2339.49,2567.2409l-24.4873,18.0693-5.9108-8.01,24.4874-18.0693Zm-46.4034,21.87-24.4874,18.0692,5.9108,8.01,24.4873-18.0692Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-31" data-name="SYMBOL - LINE - 2 - YIN" d="M2349.5361,2580.8551l-24.4874,18.0693-5.9107-8.01,24.4873-18.0693Zm-46.4035,21.8695-24.4873,18.0692,5.9107,8.01,24.4874-18.0692Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-15" data-name="SYMBOL - LINE - 3 - YANG" x="2283.7588" y="2609.4614" width="80.7558" height="9.9549" transform="translate(-1146.9111 1841.7734) rotate(-36.4237)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_4" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-15" data-name="SYMBOL - LINE - 4 - YANG" x="2293.8048" y="2623.0756" width="80.7558" height="9.9549" transform="translate(-1153.0321 1850.3977) rotate(-36.4237)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-15" data-name="SYMBOL - LINE - 5 - YANG" x="2303.8396" y="2636.6747" width="80.7558" height="9.9549" transform="translate(-1159.1462 1859.0125) rotate(-36.4237)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-16" data-name="SYMBOL - LINE - 6 - YIN" d="M2389.7088,2635.297l-24.4873,18.0693-5.9108-8.01,24.4874-18.0693Zm-46.4034,21.8694-24.4874,18.0693,5.9108,8.01,24.4873-18.0693Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_33_-_UAA" data-name=" GROUP - GATE - 33 - UAA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_8" data-name="GROUP - LOWER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-16" data-name="SYMBOL - LINE - 1 - YIN" d="M2438.076,2481.6521l-22.61,20.37-6.6634-7.3959,22.61-20.37Zm-44.0506,26.2881-22.61,20.37,6.6634,7.3959,22.61-20.37Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_2_-_YIN-32" data-name="SYMBOL - LINE - 2 - YIN" d="M2449.4013,2494.2224l-22.61,20.37-6.6634-7.396,22.61-20.37Zm-44.0507,26.2882-22.61,20.37,6.6634,7.396,22.61-20.37Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-16" data-name="SYMBOL - LINE - 3 - YANG" x="2387.0183" y="2525.1443" width="80.7558" height="9.9549" transform="translate(-1118.1775 2226.2548) rotate(-42.0173)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_4" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-16" data-name="SYMBOL - LINE - 4 - YANG" x="2398.3308" y="2537.7006" width="80.7558" height="9.9549" transform="translate(-1123.6742 2237.0546) rotate(-42.0173)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-16" data-name="SYMBOL - LINE - 5 - YANG" x="2409.6559" y="2550.2707" width="80.7558" height="9.9549" transform="translate(-1129.1769 2247.8663) rotate(-42.0173)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-16" data-name="SYMBOL - LINE - 6 - YANG" x="2420.9812" y="2562.8411" width="80.7558" height="9.9549" transform="translate(-1134.6796 2258.6783) rotate(-42.0173)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="GROUP_-_EAST" data-name="GROUP - EAST">
+      <g id="GROUP_-_WATER" data-name="GROUP - WATER">
+        <g id="_GROUP_-_GATE_-_7_-_GUU" data-name=" GROUP - GATE - 7 - GUU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-17" data-name="SYMBOL - LINE - 1 - YIN" d="M2528.6109,2386.0936l-20.5478,22.4481-7.3431-6.7215,20.5478-22.4481Zm-41.3341,30.4131-20.5478,22.4481,7.3432,6.7215,20.5478-22.4481Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG" data-name="SYMBOL - LINE - 2 - YANG" x="2469.779" y="2418.9638" width="80.7558" height="9.9549" transform="translate(-1021.2905 2589.9785) rotate(-47.5307)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-17" data-name="SYMBOL - LINE - 3 - YIN" d="M2553.5719,2408.9416l-20.5477,22.4481-7.3432-6.7215,20.5478-22.4481Zm-41.334,30.413-20.5478,22.4481,7.3431,6.7215,20.5478-22.4481Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_5" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-17" data-name="SYMBOL - LINE - 4 - YIN" d="M2532.0616,2457.5l-20.5478,22.4481-7.3431-6.7215,20.5478-22.4481Zm26.6478-43.8561-20.5478,22.4481,7.3432,6.7215,20.5477-22.4481Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-17" data-name="SYMBOL - LINE - 5 - YIN" d="M2544.5281,2468.9113l-20.5478,22.4481-7.3432-6.7215,20.5478-22.4481Zm26.6478-43.8561-20.5478,22.4482,7.3431,6.7215,20.5478-22.4482Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-17" data-name="SYMBOL - LINE - 6 - YIN" d="M2591,2443.2008l-20.5478,22.4481-7.3431-6.7215,20.5478-22.4481Zm-41.3341,30.4131-20.5478,22.4481,7.3432,6.7215,20.5478-22.4481Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_4_-_GUG" data-name=" GROUP - GATE - 4 - GUG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_2" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-18" data-name="SYMBOL - LINE - 1 - YIN" d="M2611.3735,2279.82l-18.2445,24.3571-7.9676-5.968,18.2445-24.3572Zm-38.1369,34.3093-18.2445,24.3571,7.9676,5.9681,18.2445-24.3572Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-2" data-name="SYMBOL - LINE - 2 - YANG" x="2556.3467" y="2314.3193" width="80.7558" height="9.9549" transform="translate(-864.9327 2958.2773) rotate(-53.1654)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-18" data-name="SYMBOL - LINE - 3 - YIN" d="M2638.4421,2300.0956l-18.2445,24.3571-7.9676-5.968,18.2445-24.3571Zm-38.137,34.3093-18.2444,24.3571,7.9676,5.9681,18.2444-24.3571Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_5" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-18" data-name="SYMBOL - LINE - 4 - YIN" d="M2621.8145,2350.5163l-18.2444,24.3571-7.9676-5.968,18.2444-24.3572Zm22.2017-46.2454-18.2444,24.3571,7.9676,5.9681,18.2444-24.3572Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-18" data-name="SYMBOL - LINE - 5 - YIN" d="M2635.3565,2360.66l-18.2444,24.3571-7.9676-5.9681,18.2444-24.3571Zm22.2017-46.2454-18.2444,24.3571,7.9676,5.968,18.2444-24.3571Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-17" data-name="SYMBOL - LINE - 6 - YANG" x="2610.499" y="2354.8815" width="80.7558" height="9.9549" transform="translate(-875.7099 3017.864) rotate(-53.1654)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_29_-_GUC" data-name=" GROUP - GATE - 29 - GUC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_3" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-19" data-name="SYMBOL - LINE - 1 - YIN" d="M2682.3614,2167.5586l-15.6792,26.0824-8.532-5.1289,15.6792-26.0824Zm-34.4593,38.0012-15.6792,26.0824,8.532,5.1289,15.6792-26.0824Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-3" data-name="SYMBOL - LINE - 2 - YANG" x="2631.4151" y="2203.3402" width="80.7558" height="9.9549" transform="translate(-646.0256 3311.5274) rotate(-58.9882)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-19" data-name="SYMBOL - LINE - 3 - YIN" d="M2711.3635,2184.993l-15.6792,26.0824-8.532-5.1289,15.6793-26.0824Zm-34.4592,38.0012-15.6793,26.0824,8.532,5.1289,15.6792-26.0824Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_5" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-19" data-name="SYMBOL - LINE - 4 - YIN" d="M2699.9372,2236.84l-15.6792,26.0824-8.532-5.129,15.6792-26.0823Zm17.3953-48.259-15.6792,26.0824,8.532,5.1289,15.6792-26.0824Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-17" data-name="SYMBOL - LINE - 5 - YANG" x="2674.9022" y="2229.4821" width="80.7558" height="9.9549" transform="translate(-647.3489 3361.4717) rotate(-58.9882)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-18" data-name="SYMBOL - LINE - 6 - YIN" d="M2754.85,2211.1348l-15.6792,26.0824-8.532-5.1289,15.6792-26.0824Zm-34.4592,38.0012-15.6793,26.0824,8.532,5.1289,15.6792-26.0824Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_59_-_GUA" data-name=" GROUP - GATE - 59 - GUA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_4" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-20" data-name="SYMBOL - LINE - 1 - YIN" d="M2741.6878,2049.4485l-13.0946,27.4711-8.9862-4.2834,13.0946-27.4711Zm-30.64,41.1432-13.0945,27.4712,8.9862,4.2834,13.0945-27.4711Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-4" data-name="SYMBOL - LINE - 2 - YANG" x="2694.6498" y="2086.1528" width="80.7558" height="9.9549" transform="translate(-378.0676 3611.3232) rotate(-64.5145)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-20" data-name="SYMBOL - LINE - 3 - YIN" d="M2772.217,2064.0007l-13.0945,27.4711-8.9863-4.2834,13.0946-27.4711Zm-30.64,41.1433-13.0945,27.4711,8.9862,4.2834,13.0946-27.4711Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_5" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-20" data-name="SYMBOL - LINE - 4 - YIN" d="M2765.8367,2116.7076l-13.0945,27.4711-8.9863-4.2835,13.0946-27.4711Zm12.6671-49.71-13.0945,27.4712,8.9862,4.2834,13.0946-27.4711Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-18" data-name="SYMBOL - LINE - 5 - YANG" x="2740.4694" y="2107.9935" width="80.7558" height="9.9549" transform="translate(-371.6788 3665.1273) rotate(-64.5145)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-18" data-name="SYMBOL - LINE - 6 - YANG" x="2755.7254" y="2115.2655" width="80.7558" height="9.9549" transform="translate(-369.5516 3683.0417) rotate(-64.5145)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_40_-_GGU" data-name=" GROUP - GATE - 40 - GGU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_5" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-21" data-name="SYMBOL - LINE - 1 - YIN" d="M2790.2327,1924.4205l-10.4457,28.5835-9.35-3.417,10.4457-28.5835Zm-26.6233,43.8489-10.4458,28.5835,9.35,3.417,10.4458-28.5835Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-5" data-name="SYMBOL - LINE - 2 - YANG" x="2747.1939" y="1961.4604" width="80.7558" height="9.9549" transform="translate(-64.8261 3860.7602) rotate(-69.9253)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-21" data-name="SYMBOL - LINE - 3 - YIN" d="M2821.9982,1936.0291l-10.4458,28.5835-9.35-3.417,10.4457-28.5834Zm-26.6234,43.849-10.4458,28.5834,9.35,3.417,10.4458-28.5835Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_5" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-17" data-name="SYMBOL - LINE - 4 - YANG" x="2778.9771" y="1973.0755" width="80.7558" height="9.9549" transform="translate(-54.8618 3898.2408) rotate(-69.9253)"/>
+            <g id="SYMBOL_-_LINE_-_5_-_YIN-19" data-name="SYMBOL - LINE - 5 - YIN">
+              <rect x="2811.394" y="2002.5159" width="30.4324" height="9.9549" transform="translate(-77.7488 3924.3902) rotate(-69.9253)"/>
+              <rect x="2828.6672" y="1955.25" width="30.4324" height="9.9549" transform="translate(-22.0102 3909.572) rotate(-69.9253)"/>
+            </g>
+            <g id="SYMBOL_-_LINE_-_6_-_YIN-19" data-name="SYMBOL - LINE - 6 - YIN">
+              <rect x="2844.5409" y="1961.0511" width="30.4324" height="9.9549" transform="translate(-17.0337 3928.2911) rotate(-69.9253)"/>
+              <rect x="2827.2677" y="2008.317" width="30.4324" height="9.9549" transform="matrix(0.3432, -0.9392, 0.9392, 0.3432, -72.7723, 3943.1094)"/>
+            </g>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_64_-_GGG" data-name=" GROUP - GATE - 64 - GGG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_6" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-22" data-name="SYMBOL - LINE - 1 - YIN" d="M2824.4171,1796.7861l-7.3882,29.5219-9.6571-2.4168,7.3882-29.5219Zm-21.8743,46.4011-7.3883,29.522,9.6571,2.4168,7.3883-29.522Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-6" data-name="SYMBOL - LINE - 2 - YANG" x="2785.8214" y="1833.8779" width="80.7558" height="9.9549" transform="translate(307.6194 4085.153) rotate(-75.9496)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-22" data-name="SYMBOL - LINE - 3 - YIN" d="M2857.2438,1805.0014l-7.3882,29.5219-9.6571-2.4168,7.3882-29.5219Zm-21.8743,46.4011-7.3883,29.5219,9.6571,2.4168,7.3882-29.5219Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_5" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-18" data-name="SYMBOL - LINE - 4 - YANG" x="2818.6481" y="1842.0931" width="80.7558" height="9.9549" transform="translate(324.5071 4123.2184) rotate(-75.9496)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-20" data-name="SYMBOL - LINE - 5 - YIN" d="M2877.8349,1862.03l-7.3882,29.5219-9.6571-2.4168,7.3882-29.5219Zm2.56-51.2347-7.3883,29.5219,9.6571,2.4168,7.3883-29.5219Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-19" data-name="SYMBOL - LINE - 6 - YANG" x="2851.4564" y="1850.3038" width="80.7558" height="9.9549" transform="translate(341.3853 4161.2626) rotate(-75.9496)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_47_-_GGC" data-name=" GROUP - GATE - 47 - GGC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_7" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-23" data-name="SYMBOL - LINE - 1 - YIN" d="M2846.4438,1666.478,2842.107,1696.6l-9.8533-1.4186,4.3368-30.1218Zm-17.0247,48.3912-4.3368,30.1218,9.8534,1.4186,4.3367-30.1218Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-7" data-name="SYMBOL - LINE - 2 - YANG" x="2812.1321" y="1703.1681" width="80.7558" height="9.9549" transform="matrix(0.1425, -0.9898, 0.9898, 0.1425, 706.692, 4239.2021)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-23" data-name="SYMBOL - LINE - 3 - YIN" d="M2879.9188,1671.2975l-4.3368,30.1218-9.8533-1.4187,4.3368-30.1217Zm-17.0247,48.3912-4.3368,30.1218,9.8533,1.4187,4.3368-30.1218Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_5" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-19" data-name="SYMBOL - LINE - 4 - YANG" x="2845.6071" y="1707.9877" width="80.7558" height="9.9549" transform="matrix(0.1425, -0.9898, 0.9898, 0.1425, 730.6262, 4276.4681)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-19" data-name="SYMBOL - LINE - 5 - YANG" x="2862.3538" y="1710.3988" width="80.7558" height="9.9549" transform="translate(742.5999 4295.1115) rotate(-81.8072)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-20" data-name="SYMBOL - LINE - 6 - YIN" d="M2930.1407,1678.5282l-4.3368,30.1218-9.8533-1.4187,4.3368-30.1217Zm-17.0247,48.3912-4.3368,30.1218,9.8534,1.4186,4.3367-30.1217Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_6_-_GGA" data-name=" GROUP - GATE - 6 - GGA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_8" data-name="GROUP - LOWER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-24" data-name="SYMBOL - LINE - 1 - YIN" d="M2856.5845,1532.9038l-1.5623,30.3923-9.9418-.5111,1.5623-30.3922Zm-12.5252,49.7459-1.5622,30.3922,9.9418.5111,1.5622-30.3923Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-8" data-name="SYMBOL - LINE - 2 - YANG" x="2826.0602" y="1568.8641" width="80.7558" height="9.9549" transform="translate(1098.9149 4306.7858) rotate(-87.0574)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-24" data-name="SYMBOL - LINE - 3 - YIN" d="M2890.36,1534.64l-1.5623,30.3922-9.9417-.511,1.5622-30.3922Zm-12.5251,49.7458-1.5623,30.3923,9.9418.511,1.5622-30.3922Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_5" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-20" data-name="SYMBOL - LINE - 4 - YANG" x="2859.8357" y="1570.6003" width="80.7558" height="9.9549" transform="translate(1129.2227 4342.1638) rotate(-87.0574)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-20" data-name="SYMBOL - LINE - 5 - YANG" x="2876.7328" y="1571.4688" width="80.7558" height="9.9549" transform="translate(1144.3849 4359.8627) rotate(-87.0574)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-20" data-name="SYMBOL - LINE - 6 - YANG" x="2893.6113" y="1572.3364" width="80.7558" height="9.9549" transform="translate(1159.5305 4377.5419) rotate(-87.0574)"/>
+          </g>
+        </g>
+      </g>
+      <g id="GROUP_-_WIND" data-name="GROUP - WIND">
+        <g id="_GROUP_-_GATE_-_46_-_GCU" data-name=" GROUP - GATE - 46 - GCU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-25" data-name="SYMBOL - LINE - 1 - YIN" d="M2853.5,1400.9957l1.3016,30.4046-9.9458.4257-1.3016-30.4045Zm-7.7935,50.703,1.3017,30.4045,9.9458-.4258-1.3017-30.4045Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-9" data-name="SYMBOL - LINE - 2 - YANG" x="2862.1807" y="1400.448" width="9.9549" height="80.7558" transform="translate(-107.61 75.0296) rotate(-2.4514)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-17" data-name="SYMBOL - LINE - 3 - YANG" x="2879.0848" y="1399.7243" width="9.9549" height="80.7558" transform="translate(-107.5636 75.752) rotate(-2.4514)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_6" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-21" data-name="SYMBOL - LINE - 4 - YIN" d="M2906.3645,1449.1019l1.3016,30.4045-9.9458.4258-1.3016-30.4045Zm-12.0982-49.8514,1.3016,30.4045,9.9458-.4258-1.3016-30.4045Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-21" data-name="SYMBOL - LINE - 5 - YIN" d="M2923.25,1448.3791l1.3017,30.4045-9.9458.4258-1.3017-30.4046Zm-12.0982-49.8515,1.3017,30.4046,9.9458-.4258-1.3017-30.4045Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-21" data-name="SYMBOL - LINE - 6 - YIN" d="M2938.0013,1397.3782l1.3016,30.4045-9.9458.4258-1.3016-30.4045Zm-7.7934,50.703,1.3016,30.4045,9.9458-.4258-1.3016-30.4045Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_18_-_GCG" data-name=" GROUP - GATE - 18 - GCG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_2" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-26" data-name="SYMBOL - LINE - 1 - YIN" d="M2837.52,1269.577l4.2131,30.1393-9.859,1.3782-4.2131-30.1393Zm-2.8922,51.2168,4.2131,30.1393,9.8591-1.3781-4.2131-30.1394Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-10" data-name="SYMBOL - LINE - 2 - YANG" x="2849.9596" y="1267.5349" width="9.9549" height="80.7558" transform="matrix(0.9904, -0.1384, 0.1384, 0.9904, -202.186, 358.9155)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-18" data-name="SYMBOL - LINE - 3 - YANG" x="2866.7164" y="1265.1925" width="9.9549" height="80.7558" transform="translate(-201.7004 361.2128) rotate(-7.9577)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_6" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-22" data-name="SYMBOL - LINE - 4 - YIN" d="M2894.7379,1312.3912l4.2131,30.1393-9.859,1.3782-4.2131-30.1393Zm-16.8259-48.4605,4.2132,30.1393,9.859-1.3782-4.2131-30.1393Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-22" data-name="SYMBOL - LINE - 5 - YIN" d="M2911.4947,1310.0488l4.2131,30.1393-9.8591,1.3782-4.2131-30.1393Zm-16.8259-48.4605,4.2131,30.1393,9.859-1.3781-4.2131-30.1394Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-21" data-name="SYMBOL - LINE - 6 - YANG" x="2916.9673" y="1258.1681" width="9.9549" height="80.7558" transform="matrix(0.9904, -0.1384, 0.1384, 0.9904, -200.244, 368.102)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_48_-_GCC" data-name=" GROUP - GATE - 48 - GCC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_3" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-27" data-name="SYMBOL - LINE - 1 - YIN" d="M2808.2013,1138.0719l7.3056,29.5424-9.6638,2.39-7.3056-29.5424Zm2.4169,51.2414,7.3056,29.5425,9.6639-2.39-7.3057-29.5425Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-11" data-name="SYMBOL - LINE - 2 - YANG" x="2824.5098" y="1134.0243" width="9.9549" height="80.7558" transform="translate(-247.7961 664.6742) rotate(-13.8902)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-19" data-name="SYMBOL - LINE - 3 - YANG" x="2840.9163" y="1129.9671" width="9.9549" height="80.7558" transform="translate(-246.3423 668.4942) rotate(-13.8902)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_6" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-23" data-name="SYMBOL - LINE - 4 - YIN" d="M2869.5378,1174.7429l7.3057,29.5424-9.6639,2.39-7.3056-29.5424Zm-21.7445-46.4619,7.3056,29.5425,9.6638-2.39-7.3056-29.5425Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-21" data-name="SYMBOL - LINE - 5 - YANG" x="2873.7658" y="1121.8436" width="9.9549" height="80.7558" transform="translate(-243.4316 676.1425) rotate(-13.8902)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-22" data-name="SYMBOL - LINE - 6 - YIN" d="M2890.3066,1117.7677l7.3057,29.5425-9.6638,2.39-7.3057-29.5425Zm2.4169,51.2415,7.3057,29.5425,9.6638-2.39-7.3057-29.5425Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_57_-_GCA" data-name=" GROUP - GATE - 57 - GCA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_4" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-28" data-name="SYMBOL - LINE - 1 - YIN" d="M2765.7684,1010.1434l10.1748,28.681-9.382,3.3284-10.1748-28.6811Zm7.4431,50.7556,10.1748,28.681,9.382-3.3283-10.1748-28.6811Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-12" data-name="SYMBOL - LINE - 2 - YANG" x="2785.528" y="1003.8333" width="9.9549" height="80.7558" transform="translate(-237.1429 944.152) rotate(-19.5325)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-20" data-name="SYMBOL - LINE - 3 - YANG" x="2801.4738" y="998.1764" width="9.9549" height="80.7558" transform="translate(-234.3339 949.1578) rotate(-19.5325)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_6" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-24" data-name="SYMBOL - LINE - 4 - YIN" d="M2830.4134,1040.6062l10.1747,28.6811-9.382,3.3283-10.1748-28.681Zm-26.2072-44.0989,10.1748,28.6811,9.382-3.3284-10.1748-28.681Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-22" data-name="SYMBOL - LINE - 5 - YANG" x="2833.3476" y="986.869" width="9.9549" height="80.7558" transform="translate(-228.7191 959.1638) rotate(-19.5325)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-22" data-name="SYMBOL - LINE - 6 - YANG" x="2849.2936" y="981.212" width="9.9549" height="80.7558" transform="translate(-225.9101 964.1696) rotate(-19.5325)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_32_-_GAU" data-name=" GROUP - GATE - 32 - GAU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_5" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-29" data-name="SYMBOL - LINE - 1 - YIN" d="M2712.57,890.6211l12.9557,27.5369-9.0078,4.238-12.9556-27.5369Zm12.424,49.7907,12.9556,27.5368,9.0078-4.238-12.9556-27.5368Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-13" data-name="SYMBOL - LINE - 2 - YANG" x="2735.571" y="881.7035" width="9.9549" height="80.7558" transform="translate(-180.4071 1205.5135) rotate(-25.1962)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-21" data-name="SYMBOL - LINE - 3 - YANG" x="2750.8809" y="874.5005" width="9.9549" height="80.7558" transform="translate(-175.8839 1211.3459) rotate(-25.1962)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_6" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-21" data-name="SYMBOL - LINE - 4 - YANG" x="2766.1905" y="867.2976" width="9.9549" height="80.7558" transform="translate(-171.3609 1217.1782) rotate(-25.1962)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-23" data-name="SYMBOL - LINE - 5 - YIN" d="M2795.2066,907.378l12.9557,27.5369-9.0078,4.238-12.9556-27.5369Zm-30.4395-41.3146L2777.7228,893.6l9.0077-4.238-12.9556-27.5369Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-23" data-name="SYMBOL - LINE - 6 - YIN" d="M2789.0845,854.6225l12.9557,27.5369-9.0078,4.238-12.9556-27.5369Zm12.424,49.7906,12.9556,27.5369,9.0078-4.238-12.9556-27.5369Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_50_-_GAG" data-name=" GROUP - GATE - 50 - GAG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_6" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-30" data-name="SYMBOL - LINE - 1 - YIN" d="M2646.42,773.6169l15.41,26.2423L2653.246,804.9l-15.41-26.2423Zm16.898,48.4356,15.41,26.2423,8.5843-5.0409-15.41-26.2423Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-14" data-name="SYMBOL - LINE - 2 - YANG" x="2672.1869" y="762.0103" width="9.9549" height="80.7558" transform="translate(-86.3109 1417.1918) rotate(-30.4224)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-22" data-name="SYMBOL - LINE - 3 - YANG" x="2686.7604" y="753.4524" width="9.9549" height="80.7558" transform="translate(-79.9709 1423.3931) rotate(-30.4224)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_6" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-22" data-name="SYMBOL - LINE - 4 - YANG" x="2701.3505" y="744.8848" width="9.9549" height="80.7558" transform="translate(-73.6237 1429.6015) rotate(-30.4224)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-24" data-name="SYMBOL - LINE - 5 - YIN" d="M2730.2461,782.751l15.41,26.2423-8.5843,5.0409-15.41-26.2424ZM2696.18,744.3971l15.41,26.2423,8.5843-5.0409-15.41-26.2423Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-23" data-name="SYMBOL - LINE - 6 - YANG" x="2730.5142" y="727.7593" width="9.9549" height="80.7558" transform="translate(-60.9365 1442.0112) rotate(-30.4224)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_28_-_GAC" data-name=" GROUP - GATE - 28 - GAC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_7" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-31" data-name="SYMBOL - LINE - 1 - YIN" d="M2568.9023,664.9621l17.9811,24.5522-8.0314,5.8819-17.9811-24.5522Zm21.7023,46.4817,17.981,24.5522,8.0315-5.8819-17.9811-24.5522Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-15" data-name="SYMBOL - LINE - 2 - YANG" x="2597.4017" y="650.1154" width="9.9549" height="80.7558" transform="translate(46.2462 1622.1211) rotate(-36.2176)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-23" data-name="SYMBOL - LINE - 3 - YANG" x="2611.052" y="640.1185" width="9.9549" height="80.7558" transform="translate(54.7904 1628.2547) rotate(-36.2176)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_6" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-23" data-name="SYMBOL - LINE - 4 - YANG" x="2624.7024" y="630.1215" width="9.9549" height="80.7558" transform="translate(63.3348 1634.3885) rotate(-36.2176)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-23" data-name="SYMBOL - LINE - 5 - YANG" x="2638.3375" y="620.1356" width="9.9549" height="80.7558" transform="translate(71.8695 1640.5154) rotate(-36.2176)"/>
+            <g id="SYMBOL_-_LINE_-_6_-_YIN-24" data-name="SYMBOL - LINE - 6 - YIN">
+              <rect x="2637.1209" y="615.0005" width="9.9549" height="30.4324" transform="translate(89.5354 1633.9425) rotate(-36.2176)"/>
+              <rect x="2666.8545" y="655.6002" width="9.9549" height="30.4324" transform="translate(71.2921 1659.3555) rotate(-36.2176)"/>
+            </g>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_44_-_GAA" data-name=" GROUP - GATE - 44 - GAA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_8" data-name="GROUP - LOWER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_1_-_YIN-32" data-name="SYMBOL - LINE - 1 - YIN" d="M2480.9416,562.22l20.1948,22.7661-7.4471,6.6061-20.1949-22.7662Zm25.9472,44.2523,20.1949,22.7662,7.4471-6.6061L2514.336,599.866Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-16" data-name="SYMBOL - LINE - 2 - YANG" x="2511.6927" y="544.1232" width="9.9549" height="80.7558" transform="translate(197.494 1768.3777) rotate(-41.5748)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-24" data-name="SYMBOL - LINE - 3 - YANG" x="2524.3357" y="532.9081" width="9.9549" height="80.7558" transform="translate(208.1213 1773.9424) rotate(-41.5748)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_6" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-24" data-name="SYMBOL - LINE - 4 - YANG" x="2536.9931" y="521.6803" width="9.9549" height="80.7558" transform="translate(218.7606 1779.5134) rotate(-41.5748)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-24" data-name="SYMBOL - LINE - 5 - YANG" x="2549.6504" y="510.4526" width="9.9549" height="80.7558" transform="translate(229.3998 1785.0843) rotate(-41.5748)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-24" data-name="SYMBOL - LINE - 6 - YANG" x="2562.3078" y="499.2247" width="9.9549" height="80.7558" transform="translate(240.0391 1790.6554) rotate(-41.5748)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="GROUP_-_NORTH" data-name="GROUP - NORTH">
+      <g id="GROUP_-_LAKE" data-name="GROUP - LAKE">
+        <g id="_GROUP_-_GATE_-_10_-_AGA" data-name=" GROUP - GATE - 10 - AGA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-17" data-name="SYMBOL - LINE - 1 - YANG" x="1395.3058" y="145.7709" width="80.7558" height="9.9549" transform="translate(-54.2598 21.4281) rotate(-2.8014)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-17" data-name="SYMBOL - LINE - 2 - YANG" x="1394.4798" y="128.8905" width="80.7558" height="9.9549" transform="translate(-53.4358 21.3675) rotate(-2.8014)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-25" data-name="SYMBOL - LINE - 3 - YIN" d="M1393.4578,113.9706l30.396-1.4874.4866,9.943-30.396,1.4874Zm50.75,7.4835,30.396-1.4874-.4866-9.943-30.3959,1.4873Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_7" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-25" data-name="SYMBOL - LINE - 4 - YANG" x="1392.8259" y="95.0919" width="80.7558" height="9.9549" transform="translate(-51.7858 21.2463) rotate(-2.8014)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-25" data-name="SYMBOL - LINE - 5 - YANG" x="1391.9999" y="78.2115" width="80.7558" height="9.9549" transform="translate(-50.9618 21.1857) rotate(-2.8014)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-25" data-name="SYMBOL - LINE - 6 - YANG" x="1391.173" y="61.3121" width="80.7558" height="9.9549" transform="translate(-50.1368 21.1251) rotate(-2.8014)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_58_-_AGC" data-name=" GROUP - GATE - 58 - AGC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_2" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-18" data-name="SYMBOL - LINE - 1 - YANG" x="1262.9293" y="158.7657" width="80.7558" height="9.9549" transform="translate(-58.574 141.9225) rotate(-8.3431)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-18" data-name="SYMBOL - LINE - 2 - YANG" x="1260.477" y="142.044" width="80.7558" height="9.9549" transform="translate(-56.1736 141.3897) rotate(-8.3431)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-26" data-name="SYMBOL - LINE - 3 - YIN" d="M1257.7271,131.215l30.11-4.4157,1.4444,9.8495-30.11,4.4158Zm51.2538,2.5449,30.11-4.4157-1.4444-9.85-30.11,4.4158Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_7" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-26" data-name="SYMBOL - LINE - 4 - YANG" x="1255.5669" y="108.563" width="80.7558" height="9.9549" transform="translate(-51.3675 140.3229) rotate(-8.3431)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-26" data-name="SYMBOL - LINE - 5 - YANG" x="1253.1119" y="91.8225" width="80.7558" height="9.9549" transform="translate(-48.9644 139.7895) rotate(-8.3431)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-25" data-name="SYMBOL - LINE - 6 - YIN" d="M1250.3647,81.0123l30.11-4.4157,1.4445,9.85-30.11,4.4158Zm51.2539,2.5449,30.11-4.4157-1.4445-9.85-30.11,4.4158Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_38_-_AGG" data-name=" GROUP - GATE - 38 - AGG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_3" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-19" data-name="SYMBOL - LINE - 1 - YANG" x="1132.6663" y="184.6751" width="80.7558" height="9.9549" transform="translate(-59.4827 242.3989) rotate(-14.092)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-19" data-name="SYMBOL - LINE - 2 - YANG" x="1128.5468" y="168.2647" width="80.7558" height="9.9549" transform="translate(-55.6111 240.9021) rotate(-14.092)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-27" data-name="SYMBOL - LINE - 3 - YIN" d="M1124.435,161.8537l29.5166-7.41,2.4238,9.6553-29.5165,7.41Zm51.2327-2.5973,29.5165-7.41-2.4238-9.6553-29.5165,7.41Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_7" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-27" data-name="SYMBOL - LINE - 4 - YANG" x="1120.3123" y="135.4624" width="80.7558" height="9.9549" transform="translate(-47.8722 237.91) rotate(-14.092)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-25" data-name="SYMBOL - LINE - 5 - YIN" d="M1165.0047,116.78l29.5166-7.41,2.4238,9.6553-29.5165,7.41Zm-46.385,21.9081,29.5166-7.41-2.4238-9.6553-29.5166,7.41Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-26" data-name="SYMBOL - LINE - 6 - YANG" x="1112.0731" y="102.6417" width="80.7558" height="9.9549" transform="translate(-40.129 234.9162) rotate(-14.092)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_54_-_AGU" data-name=" GROUP - GATE - 54 - AGU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_4" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-20" data-name="SYMBOL - LINE - 1 - YANG" x="1004.5906" y="223.3856" width="80.7558" height="9.9549" transform="translate(-64.3556 317.2455) rotate(-19.7295)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-20" data-name="SYMBOL - LINE - 2 - YANG" x="998.8789" y="207.4593" width="80.7558" height="9.9549" transform="translate(-59.3145 314.3824) rotate(-19.7295)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-28" data-name="SYMBOL - LINE - 3 - YIN" d="M993.8636,205.4738,1022.51,195.2l3.3606,9.3706-28.6459,10.2733Zm50.73-7.6176,28.6459-10.2734-3.3606-9.37-28.6459,10.2734Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_7" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-28" data-name="SYMBOL - LINE - 4 - YANG" x="987.4619" y="175.6245" width="80.7558" height="9.9549" transform="translate(-49.2379 308.6594) rotate(-19.7295)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-26" data-name="SYMBOL - LINE - 5 - YIN" d="M1029.8093,156.633l28.6459-10.2733,3.3606,9.37L1033.17,166.0036Zm-44.0085,26.3587,28.6459-10.2734-3.3606-9.37L982.44,173.6212Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-26" data-name="SYMBOL - LINE - 6 - YIN" d="M976.7285,157.6949l28.6459-10.2734,3.3606,9.37-28.6459,10.2734Zm50.73-7.6176,28.6459-10.2734-3.3606-9.37-28.6459,10.2733Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_61_-_AUA" data-name=" GROUP - GATE - 61 - AUA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_5" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-21" data-name="SYMBOL - LINE - 1 - YANG" x="883.1518" y="273.6946" width="80.7558" height="9.9549" transform="translate(-79.6043 369.1964) rotate(-25.1025)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-21" data-name="SYMBOL - LINE - 2 - YANG" x="875.9739" y="258.3731" width="80.7558" height="9.9549" transform="translate(-73.7822 364.7041) rotate(-25.1025)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-29" data-name="SYMBOL - LINE - 3 - YIN" d="M870.5061,260.6688l27.558-12.9106,4.2233,9.0147-27.5581,12.9105ZM920.3,248.3344l27.558-12.9106-4.2233-9.0147L916.0763,239.32Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_7" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-25" data-name="SYMBOL - LINE - 4 - YIN" d="M908.8984,223.9982l27.558-12.9106,4.2233,9.0147-27.5581,12.9106Zm-41.347,30.3637,27.558-12.91-4.2232-9.0147-27.5581,12.9106Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-27" data-name="SYMBOL - LINE - 5 - YANG" x="854.4482" y="212.4258" width="80.7558" height="9.9549" transform="translate(-56.3227 351.2324) rotate(-25.1025)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-27" data-name="SYMBOL - LINE - 6 - YANG" x="847.2783" y="197.1214" width="80.7558" height="9.9549" transform="translate(-50.5072 346.7451) rotate(-25.1025)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_60_-_AUC" data-name=" GROUP - GATE - 60 - AUC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_6" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-22" data-name="SYMBOL - LINE - 1 - YANG" x="765.3809" y="336.4764" width="80.7558" height="9.9549" transform="translate(-109.7472 412.2219) rotate(-30.8265)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-22" data-name="SYMBOL - LINE - 2 - YANG" x="756.7107" y="321.9472" width="80.7558" height="9.9549" transform="translate(-103.5267 405.7262) rotate(-30.8265)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-30" data-name="SYMBOL - LINE - 3 - YIN" d="M751.204,328.8287l26.1329-15.5947,5.1013,8.5485-26.1329,15.5947ZM799.5192,311.59l26.133-15.5948-5.1013-8.5485-26.133,15.5947Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_7" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-26" data-name="SYMBOL - LINE - 4 - YIN" d="M785.7476,288.5118l26.133-15.5948,5.1013,8.5485L790.8489,297.06ZM747.635,322.848l26.133-15.5947-5.1013-8.5485L742.5337,314.3Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-28" data-name="SYMBOL - LINE - 5 - YANG" x="730.7096" y="278.3759" width="80.7558" height="9.9549" transform="matrix(0.8587, -0.5124, 0.5124, 0.8587, -84.8724, 386.2466)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-27" data-name="SYMBOL - LINE - 6 - YIN" d="M725.1932,285.2411l26.133-15.5947,5.1013,8.5485L730.2945,293.79Zm48.3152-17.2392,26.133-15.5948-5.1013-8.5485-26.133,15.5948Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_41_-_AUG" data-name=" GROUP - GATE - 41 - AUG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_7" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-23" data-name="SYMBOL - LINE - 1 - YANG" x="656.0291" y="409.406" width="80.7558" height="9.9549" transform="translate(-158.5367 446.2015) rotate(-36.472)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-23" data-name="SYMBOL - LINE - 2 - YANG" x="645.9716" y="395.8002" width="80.7558" height="9.9549" transform="translate(-152.4188 437.5583) rotate(-36.472)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-31" data-name="SYMBOL - LINE - 3 - YIN" d="M640.8747,407.1863l24.4722-18.09,5.9174,8.0053-24.4721,18.09Zm46.4-21.92,24.4721-18.09-5.9175-8.0052-24.4721,18.09Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_7" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-27" data-name="SYMBOL - LINE - 4 - YIN" d="M671.3,363.6555l24.4721-18.09,5.9175,8.0052-24.4721,18.09Zm-34.5652,37.93,24.4721-18.09-5.9175-8.0052-24.4721,18.09Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-27" data-name="SYMBOL - LINE - 5 - YIN" d="M661.2425,350.05l24.4722-18.09,5.9175,8.0052-24.4722,18.09Zm-34.5652,37.93,24.4721-18.09-5.9175-8.0052-24.4721,18.09Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-28" data-name="SYMBOL - LINE - 6 - YANG" x="605.753" y="341.3922" width="80.7558" height="9.9549" transform="translate(-127.954 402.9953) rotate(-36.472)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_19_-_AUU" data-name=" GROUP - GATE - 19 - AUU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_8" data-name="GROUP - LOWER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-24" data-name="SYMBOL - LINE - 1 - YANG" x="553.5493" y="493.4536" width="80.7558" height="9.9549" transform="translate(-229.5422 477.3023) rotate(-42.058)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-24" data-name="SYMBOL - LINE - 2 - YANG" x="542.2152" y="480.8913" width="80.7558" height="9.9549" transform="matrix(0.7425, -0.6699, 0.6699, 0.7425, -224.0459, 466.4746)"/>
+            <path id="SYMBOL_-_LINE_-_3_-_YIN-32" data-name="SYMBOL - LINE - 3 - YIN" d="M537.9455,496.6594l22.595-20.3861,6.6686,7.3912-22.595,20.3861Zm44.032-26.3194,22.595-20.3861-6.6686-7.3912-22.5951,20.3861Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_7" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-28" data-name="SYMBOL - LINE - 4 - YIN" d="M563.9874,450.4007l22.5951-20.3861,6.6686,7.3912-22.595,20.3861Zm-30.6947,41.1018,22.595-20.3861-6.6686-7.3912-22.595,20.3861Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-28" data-name="SYMBOL - LINE - 5 - YIN" d="M552.6533,437.8384l22.5951-20.386,6.6686,7.3911L559.322,445.23ZM521.9586,478.94l22.595-20.3861-6.6686-7.3912L515.29,471.5491Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-28" data-name="SYMBOL - LINE - 6 - YIN" d="M503.9558,458.9868l22.5951-20.3861,6.6686,7.3912-22.595,20.3861Zm44.032-26.3194,22.5951-20.3861-6.6686-7.3912-22.5951,20.3861Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+      </g>
+      <g id="GROUP_-_HEAVEN" data-name="GROUP - HEAVEN">
+        <g id="_GROUP_-_GATE_-_1-_AAA" data-name=" GROUP - GATE - 1- AAA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-25" data-name="SYMBOL - LINE - 1 - YANG" x="2405.6975" y="461.1652" width="9.9549" height="80.7558" transform="translate(384.1783 1919.2015) rotate(-48.3092)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-25" data-name="SYMBOL - LINE - 2 - YANG" x="2416.9508" y="448.5307" width="9.9549" height="80.7558" transform="translate(397.3817 1923.3736) rotate(-48.3092)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-25" data-name="SYMBOL - LINE - 3 - YANG" x="2428.1916" y="435.9102" width="9.9549" height="80.7558" transform="translate(410.5705 1927.5412) rotate(-48.3092)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_8" data-name="GROUP - UPPER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-29" data-name="SYMBOL - LINE - 4 - YANG" x="2439.4449" y="423.2757" width="9.9549" height="80.7558" transform="translate(423.7738 1931.7134) rotate(-48.3092)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-29" data-name="SYMBOL - LINE - 5 - YANG" x="2450.6983" y="410.641" width="9.9549" height="80.7558" transform="translate(436.9774 1935.8856) rotate(-48.3092)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-29" data-name="SYMBOL - LINE - 6 - YANG" x="2461.939" y="398.0207" width="9.9549" height="80.7558" transform="translate(450.166 1940.0531) rotate(-48.3092)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_43_-_AAC" data-name=" GROUP - GATE - 43 - AAC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_2" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-26" data-name="SYMBOL - LINE - 1 - YANG" x="2302.4751" y="375.9738" width="9.9549" height="80.7558" transform="translate(544.4103 1966.9308) rotate(-53.2419)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-26" data-name="SYMBOL - LINE - 2 - YANG" x="2312.6004" y="362.4183" width="9.9549" height="80.7558" transform="translate(559.3366 1969.5995) rotate(-53.2419)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-26" data-name="SYMBOL - LINE - 3 - YANG" x="2322.7256" y="348.8629" width="9.9549" height="80.7558" transform="translate(574.2626 1972.2682) rotate(-53.2419)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_8" data-name="GROUP - UPPER TRIGRAM - LAKE - YANG (BOTTOM) - YANG - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-30" data-name="SYMBOL - LINE - 4 - YANG" x="2332.8397" y="335.3226" width="9.9549" height="80.7558" transform="translate(589.1721 1974.934) rotate(-53.2419)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-30" data-name="SYMBOL - LINE - 5 - YANG" x="2342.9649" y="321.7673" width="9.9549" height="80.7558" transform="translate(604.0981 1977.6027) rotate(-53.2419)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-29" data-name="SYMBOL - LINE - 6 - YIN" d="M2328.6968,320.4383l24.3815,18.2118-5.9574,7.9756-24.3815-18.2119Zm34.3753,38.1022,24.3814,18.2118,5.9574-7.9755L2369.03,350.5649Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_14_-_AAG" data-name=" GROUP - GATE - 14 - AAG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_3" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-27" data-name="SYMBOL - LINE - 1 - YANG" x="2194.0609" y="303.5354" width="9.9549" height="80.7558" transform="translate(716.5103 1997.3197) rotate(-58.7802)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-27" data-name="SYMBOL - LINE - 2 - YANG" x="2202.8307" y="289.066" width="9.9549" height="80.7558" transform="translate(733.1086 1997.8499) rotate(-58.7802)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-27" data-name="SYMBOL - LINE - 3 - YANG" x="2211.6005" y="274.5967" width="9.9549" height="80.7558" transform="translate(749.7066 1998.3802) rotate(-58.7802)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_8" data-name="GROUP - UPPER TRIGRAM - FIRE - YANG (BOTTOM) - YIN - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-31" data-name="SYMBOL - LINE - 4 - YANG" x="2220.3605" y="260.1435" width="9.9549" height="80.7558" transform="translate(766.2863 1998.9098) rotate(-58.7802)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-29" data-name="SYMBOL - LINE - 5 - YIN" d="M2245.1927,286.95l26.0253,15.7738-5.16,8.5133-26.0253-15.7738Zm-48.1956-17.57,26.0253,15.7738,5.16-8.5133-26.0253-15.7738Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-30" data-name="SYMBOL - LINE - 6 - YANG" x="2237.9" y="231.2048" width="9.9549" height="80.7558" transform="translate(799.4827 1999.9702) rotate(-58.7802)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_34_-_AAU" data-name=" GROUP - GATE - 34 - AAU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_4" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-28" data-name="SYMBOL - LINE - 1 - YANG" x="2076.0142" y="239.8985" width="9.9549" height="80.7558" transform="translate(894.2283 1995.9186) rotate(-64.8484)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-28" data-name="SYMBOL - LINE - 2 - YANG" x="2083.2053" y="224.5831" width="9.9549" height="80.7558" transform="translate(912.2264 1993.6217) rotate(-64.8484)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-28" data-name="SYMBOL - LINE - 3 - YANG" x="2090.3883" y="209.285" width="9.9549" height="80.7558" transform="translate(930.2041 1991.3275) rotate(-64.8484)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_8" data-name="GROUP - UPPER TRIGRAM - THUNDER - YANG (BOTTOM) - YIN - YIN (TOP)">
+            <rect id="SYMBOL_-_LINE_-_4_-_YANG-32" data-name="SYMBOL - LINE - 4 - YANG" x="2097.5794" y="193.9697" width="9.9549" height="80.7558" transform="translate(948.2021 1989.0306) rotate(-64.8484)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-30" data-name="SYMBOL - LINE - 5 - YIN" d="M2120.8658,218.7536l27.5469,12.9343-4.231,9.011-27.5469-12.9342Zm-49.7829-12.3771,27.5469,12.9343,4.231-9.0111-27.547-12.9342Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-30" data-name="SYMBOL - LINE - 6 - YIN" d="M2082.5049,182.05l27.547,12.9342-4.231,9.011-27.547-12.9342Zm41.3209,30.3992,27.547,12.9342,4.231-9.0111-27.547-12.9342Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_9_-_ACA" data-name=" GROUP - GATE - 9 - ACA">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_5" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-29" data-name="SYMBOL - LINE - 1 - YANG" x="1953.5814" y="188.019" width="9.9549" height="80.7558" transform="translate(1035.4297 1946.7705) rotate(-70.3236)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-29" data-name="SYMBOL - LINE - 2 - YANG" x="1959.2783" y="172.0874" width="9.9549" height="80.7558" transform="translate(1054.2098 1941.5675) rotate(-70.3236)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-29" data-name="SYMBOL - LINE - 3 - YANG" x="1964.9753" y="156.1558" width="9.9549" height="80.7558" transform="translate(1072.9899 1936.3645) rotate(-70.3236)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_8" data-name="GROUP - UPPER TRIGRAM - WIND - YIN (BOTTOM) - YANG - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-29" data-name="SYMBOL - LINE - 4 - YIN" d="M1986.6838,179.2818l28.6554,10.2468-3.3519,9.3736-28.6554-10.2468Zm-50.7367-7.5706,28.6554,10.2468,3.3519-9.3736-28.6554-10.2468Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-31" data-name="SYMBOL - LINE - 5 - YANG" x="1976.3627" y="124.3104" width="9.9549" height="80.7558" transform="translate(1110.529 1925.9642) rotate(-70.3236)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-31" data-name="SYMBOL - LINE - 6 - YANG" x="1982.0597" y="108.3788" width="9.9549" height="80.7558" transform="translate(1129.3091 1920.7612) rotate(-70.3236)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_5_-_ACC" data-name=" GROUP - GATE - 5 - ACC">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_6" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-30" data-name="SYMBOL - LINE - 1 - YANG" x="1827.0395" y="149.408" width="9.9549" height="80.7558" transform="translate(1156.9855 1872.8863) rotate(-76.0308)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-30" data-name="SYMBOL - LINE - 2 - YANG" x="1831.1239" y="132.9888" width="9.9549" height="80.7558" transform="translate(1176.0175 1864.3943) rotate(-76.0308)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-30" data-name="SYMBOL - LINE - 3 - YANG" x="1835.2083" y="116.5697" width="9.9549" height="80.7558" transform="translate(1195.0494 1855.9024) rotate(-76.0308)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_8" data-name="GROUP - UPPER TRIGRAM - WATER - YIN (BOTTOM) - YANG - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-30" data-name="SYMBOL - LINE - 4 - YIN" d="M1855.1186,138.1173l29.5323,7.3464-2.4031,9.6605-29.5324-7.3464ZM1803.88,135.63l29.5323,7.3464,2.4031-9.6605-29.5323-7.3464Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_5_-_YANG-32" data-name="SYMBOL - LINE - 5 - YANG" x="1843.3725" y="83.7497" width="9.9549" height="80.7558" transform="translate(1233.0921 1838.928) rotate(-76.0308)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-31" data-name="SYMBOL - LINE - 6 - YIN" d="M1814.4521,93.131l29.5324,7.3464-2.4031,9.66-29.5324-7.3464Zm46.4321,21.8086,29.5323,7.3464,2.4032-9.66-29.5324-7.3464Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_26_-_ACG" data-name=" GROUP - GATE - 26 - ACG">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_7" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-31" data-name="SYMBOL - LINE - 1 - YANG" x="1696.5079" y="123.3167" width="9.9549" height="80.7558" transform="translate(1254.0613 1776.939) rotate(-82.003)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-31" data-name="SYMBOL - LINE - 2 - YANG" x="1698.8618" y="106.5617" width="9.9549" height="80.7558" transform="translate(1272.6797 1764.846) rotate(-82.003)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-31" data-name="SYMBOL - LINE - 3 - YANG" x="1701.2156" y="89.8067" width="9.9549" height="80.7558" transform="translate(1291.2982 1752.753) rotate(-82.003)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_8" data-name="GROUP - UPPER TRIGRAM - MOUNTAIN - YIN (BOTTOM) - YIN - YANG (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-31" data-name="SYMBOL - LINE - 4 - YIN" d="M1719.0854,109.9029l30.1364,4.2338-1.3849,9.8582-30.1364-4.2339Zm-51.2188,2.8571,30.1364,4.2338,1.385-9.8581-30.1364-4.2338Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-31" data-name="SYMBOL - LINE - 5 - YIN" d="M1721.4393,93.1479l30.1364,4.2338-1.3849,9.8582-30.1364-4.2339Zm-51.2188,2.8571,30.1364,4.2338,1.385-9.8581-30.1365-4.2338Z" transform="translate(-48.6078 -48.921)"/>
+            <rect id="SYMBOL_-_LINE_-_6_-_YANG-32" data-name="SYMBOL - LINE - 6 - YANG" x="1708.2746" y="39.5605" width="9.9549" height="80.7558" transform="translate(1347.1327 1716.4874) rotate(-82.003)"/>
+          </g>
+        </g>
+        <g id="_GROUP_-_GATE_-_11_-_ACU" data-name=" GROUP - GATE - 11 - ACU">
+          <g id="GROUP_-_LOWER_TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_8" data-name="GROUP - LOWER TRIGRAM - HEAVEN - YANG (BOTTOM) - YANG - YANG (TOP)">
+            <rect id="SYMBOL_-_LINE_-_1_-_YANG-32" data-name="SYMBOL - LINE - 1 - YANG" x="1567.0622" y="110.4134" width="9.9549" height="80.7558" transform="translate(1302.825 1665.6412) rotate(-87.4492)"/>
+            <rect id="SYMBOL_-_LINE_-_2_-_YANG-32" data-name="SYMBOL - LINE - 2 - YANG" x="1567.8153" y="93.5106" width="9.9549" height="80.7558" transform="translate(1320.4306 1650.243) rotate(-87.4492)"/>
+            <rect id="SYMBOL_-_LINE_-_3_-_YANG-32" data-name="SYMBOL - LINE - 3 - YANG" x="1568.5683" y="76.6079" width="9.9549" height="80.7558" transform="translate(1338.0361 1634.8447) rotate(-87.4492)"/>
+          </g>
+          <g id="GROUP_-_UPPER_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_8" data-name="GROUP - UPPER TRIGRAM - EARTH - YIN (BOTTOM) - YIN - YIN (TOP)">
+            <path id="SYMBOL_-_LINE_-_4_-_YIN-32" data-name="SYMBOL - LINE - 4 - YIN" d="M1584.4551,95.572l30.4023,1.3545-.4431,9.945-30.4022-1.3544Zm-50.7166,7.7054,30.4022,1.3544.443-9.945-30.4022-1.3544Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_5_-_YIN-32" data-name="SYMBOL - LINE - 5 - YIN" d="M1585.2082,78.6693l30.4022,1.3544-.4431,9.945-30.4022-1.3544Zm-50.7167,7.7053,30.4022,1.3544.4431-9.945L1534.9345,76.43Z" transform="translate(-48.6078 -48.921)"/>
+            <path id="SYMBOL_-_LINE_-_6_-_YIN-32" data-name="SYMBOL - LINE - 6 - YIN" d="M1535.6876,59.5268l30.4022,1.3544-.4431,9.9451-30.4022-1.3544Zm49.8305,12.1847L1615.92,73.066l.4431-9.9451-30.4022-1.3544Z" transform="translate(-48.6078 -48.921)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

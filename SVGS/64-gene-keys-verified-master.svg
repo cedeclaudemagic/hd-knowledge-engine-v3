@@ -1,0 +1,282 @@
+<svg id="_64_GENE_KEYS" data-name="64 GENE KEYS" xmlns="http://www.w3.org/2000/svg" width="3970.7204" height="3970.7204" viewBox="0 0 3970.7204 3970.7204">
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <g id="RINGS_-_SHADOWS" data-name="RINGS - SHADOWS">
+        <circle id="BOTTOM" cx="1985.3602" cy="1985.3602" r="1730.5472" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.9998"/>
+        <circle id="TOP" cx="1985.3602" cy="1985.3602" r="1782.4786" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      </g>
+      <g id="RINGS_-_GIFTS" data-name="RINGS - GIFTS">
+        <circle id="BOTTOM-2" data-name="BOTTOM" cx="1985.3602" cy="1985.3602" r="1784.2557" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.001"/>
+        <circle id="TOP-2" data-name="TOP" cx="1985.3602" cy="1985.3602" r="1835.9456" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      </g>
+      <g id="RINGS_-_SIDDHIS" data-name="RINGS - SIDDHIS">
+        <circle id="BOTTOM-3" data-name="BOTTOM" cx="1985.3602" cy="1985.3602" r="1837.7815" fill="none" stroke="#000" stroke-miterlimit="10"/>
+        <circle id="TOP-3" data-name="TOP" cx="1985.3602" cy="1985.3602" r="1889.9038" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.9998"/>
+      </g>
+    </g>
+    <g id="DIVIDERS">
+      <line x1="1985.3611" x2="1985.3611" y2="337.7608" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1790.7618" y1="9.56" x2="1823.8681" y2="345.6943" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1598.0365" y1="38.148" x2="1663.9304" y2="369.4188" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1409.0414" y1="85.4887" x2="1507.0882" y2="408.7056" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1225.5966" y1="151.1262" x2="1354.8521" y2="463.1765" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1049.4687" y1="234.4284" x2="1208.688" y2="532.3068" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="882.3539" y1="334.593" x2="1070.0038" y2="615.4309" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="725.8617" y1="450.6554" x2="940.1349" y2="711.7481" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="581.4992" y1="581.4979" x2="820.3321" y2="820.3308" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="450.6566" y1="725.8603" x2="711.7492" y2="940.1335" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="334.594" y1="882.3524" x2="615.4319" y2="1070.0023" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="234.4293" y1="1049.4671" x2="532.3077" y2="1208.6864" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="151.1269" y1="1225.5949" x2="463.1772" y2="1354.8504" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="85.4892" y1="1409.0397" x2="408.7061" y2="1507.0865" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="38.1483" y1="1598.0348" x2="369.4191" y2="1663.9286" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="9.5601" y1="1790.76" x2="345.6945" y2="1823.8663" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line y1="1985.3593" x2="337.7608" y2="1985.3593" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="9.56" y1="2179.9586" x2="345.6943" y2="2146.8523" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="38.148" y1="2372.6839" x2="369.4188" y2="2306.79" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="85.4887" y1="2561.679" x2="408.7056" y2="2463.6322" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="151.1262" y1="2745.1238" x2="463.1765" y2="2615.8684" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="234.4284" y1="2921.2517" x2="532.3068" y2="2762.0324" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="334.593" y1="3088.3665" x2="615.4309" y2="2900.7167" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="450.6554" y1="3244.8587" x2="711.7481" y2="3030.5855" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="581.4979" y1="3389.2213" x2="820.3308" y2="3150.3883" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="725.8603" y1="3520.0638" x2="940.1335" y2="3258.9712" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="882.3524" y1="3636.1264" x2="1070.0023" y2="3355.2886" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1049.4671" y1="3736.2912" x2="1208.6864" y2="3438.4128" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1225.5949" y1="3819.5935" x2="1354.8504" y2="3507.5433" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1409.0397" y1="3885.2312" x2="1507.0865" y2="3562.0143" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1598.0348" y1="3932.5721" x2="1663.9286" y2="3601.3013" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1790.76" y1="3961.1603" x2="1823.8663" y2="3625.0259" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="1985.3593" y1="3970.7204" x2="1985.3593" y2="3632.9597" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2179.9586" y1="3961.1605" x2="2146.8523" y2="3625.0261" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2372.6839" y1="3932.5725" x2="2306.79" y2="3601.3017" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2561.679" y1="3885.2318" x2="2463.6322" y2="3562.0148" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2745.1238" y1="3819.5942" x2="2615.8684" y2="3507.544" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2921.2517" y1="3736.292" x2="2762.0324" y2="3438.4136" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3088.3665" y1="3636.1274" x2="2900.7167" y2="3355.2896" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3244.8587" y1="3520.065" x2="3030.5855" y2="3258.9724" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3389.2213" y1="3389.2225" x2="3150.3883" y2="3150.3896" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3520.0638" y1="3244.8601" x2="3258.9712" y2="3030.5869" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3636.1264" y1="3088.368" x2="3355.2886" y2="2900.7182" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3736.2912" y1="2921.2534" x2="3438.4128" y2="2762.034" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3819.5935" y1="2745.1255" x2="3507.5433" y2="2615.8701" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3885.2312" y1="2561.6807" x2="3562.0143" y2="2463.634" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3932.5721" y1="2372.6857" x2="3601.3013" y2="2306.7918" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3961.1603" y1="2179.9605" x2="3625.0259" y2="2146.8541" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3970.7204" y1="1985.3611" x2="3632.9597" y2="1985.3611" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3961.1605" y1="1790.7618" x2="3625.0261" y2="1823.8681" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3932.5725" y1="1598.0365" x2="3601.3017" y2="1663.9304" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3885.2318" y1="1409.0414" x2="3562.0148" y2="1507.0882" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3819.5942" y1="1225.5966" x2="3507.544" y2="1354.8521" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3736.292" y1="1049.4687" x2="3438.4136" y2="1208.688" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3636.1274" y1="882.3539" x2="3355.2896" y2="1070.0038" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3520.065" y1="725.8617" x2="3258.9724" y2="940.1349" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3389.2225" y1="581.4992" x2="3150.3896" y2="820.3321" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3244.8601" y1="450.6566" x2="3030.5869" y2="711.7492" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="3088.368" y1="334.594" x2="2900.7182" y2="615.4319" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2921.2534" y1="234.4293" x2="2762.034" y2="532.3077" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2745.1255" y1="151.1269" x2="2615.8701" y2="463.1772" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2561.6807" y1="85.4892" x2="2463.634" y2="408.7061" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2372.6857" y1="38.1483" x2="2306.7918" y2="369.4191" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line x1="2179.9605" y1="9.5601" x2="2146.8541" y2="345.6945" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="GROUP_-_64_SHADOWS" data-name="GROUP - 64 SHADOWS">
+    <text id="_10_-_Self_Obsession" data-name="10 - Self Obsession" transform="translate(1875.339 227.3636) rotate(-2.8) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Self<tspan x="-30.1372" y="15.1054">Obsession</tspan></text>
+    <text id="_58_-_Dissatisfaction" data-name="58 - Dissatisfaction" transform="translate(1707.832 247.4284) rotate(-8.4247) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dis-<tspan x="-50.2642" y="15.1054">satisfaction</tspan></text>
+    <text id="_38_-_Struggle" data-name="38 - Struggle" transform="translate(1510.3168 297.499) rotate(-14.0501) scale(1 1.2)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Struggle</text>
+    <text id="_54_-_Greed" data-name="54 - Greed" transform="translate(1364.7714 346.2639) rotate(-19.6747) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Greed</text>
+    <text id="_61_-_Psychosis" data-name="61 - Psychosis" transform="translate(1187.9093 424.048) rotate(-25.3002) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Psychosis</text>
+    <text id="_60_-_Limitation" data-name="60 - Limitation" transform="translate(1036.4631 511.4227) rotate(-30.9252) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Limitation</text>
+    <text id="_41_-_Fantasy" data-name="41 - Fantasy" transform="translate(905.5973 604.8725) rotate(-36.5497) scale(1 1.2)" font-size="21.276" font-family="Copperplate-Bold, Copperplate" font-weight="700">Fantasy</text>
+    <text id="_19_-_Co-dependence" data-name="19 - Co-dependence" transform="translate(793.529 691.8503) rotate(-42.175) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Co-<tspan x="-49.0626" y="15.1058">Dependence</tspan></text>
+    <text id="_13_-_Discord" data-name="13 - Discord" transform="matrix(0.6717, -0.7408, 0.889, 0.8061, 659.5789, 839.369)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Discord</text>
+    <text id="_49_-_Reaction" data-name="49 - Reaction" transform="translate(549.3521 981.1695) rotate(-53.4253) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Reaction</text>
+    <text id="_30_-_Desire" data-name="30 - Desire" transform="matrix(0.5143, -0.8576, 1.0291, 0.6171, 465.4214, 1114.8254)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Desire</text>
+    <text id="_55_-_Victimisation" data-name="55 - Victimisation" transform="matrix(0.4278, -0.9039, 1.0847, 0.5133, 371.5936, 1301.7116)" font-size="21.2762" font-family="Copperplate-Bold, Copperplate" font-weight="700">Victimisation</text>
+    <text id="_37_-_Weakness" data-name="37 - Weakness" transform="translate(318.5742 1445.9661) rotate(-70.2997) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Weakness</text>
+    <text id="_63_-_Doubt" data-name="63 - Doubt" transform="translate(279.2114 1590.7868) rotate(-75.9251) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Doubt</text>
+    <text id="_22_-_Dishonour" data-name="22 - Dishonour" transform="matrix(0.1469, -0.9891, 1.187, 0.1763, 245.1123, 1783.7456)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dishonour</text>
+    <text id="_36_-_Turbulence" data-name="36 - Turbulence" transform="matrix(0.0493, -0.9988, 1.1985, 0.0591, 233.4528, 1963.5765)" font-size="21.2756" font-family="Copperplate-Bold, Copperplate" font-weight="700">Turbulence</text>
+    <text id="_25_-_Constriction" data-name="25 - Constriction" transform="translate(240.5614 2142.3164) rotate(-92.8) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Constriction</text>
+    <text id="_17_-_Opinion" data-name="17 - Opinion" transform="translate(259.7445 2281.539) rotate(-98.4247) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Opinion</text>
+    <text id="_21_-_Control" data-name="21 - Control" transform="translate(298.2274 2453.6756) rotate(-104.0501) scale(1 1.2)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Control</text>
+    <text id="_51_-_Agitation" data-name="51 - Agitation" transform="translate(355.1365 2624.3111) rotate(-109.6747) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Agitation</text>
+    <text id="_42_-_Expectation" data-name="42 - Expectation" transform="translate(432.0261 2794.3409) rotate(-115.3002) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Expectation</text>
+    <text id="_3_-_Chaos" data-name="3 - Chaos" transform="translate(501.4477 2913.4973) rotate(-120.9252) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Chaos</text>
+    <text id="_27_-_Selfishness" data-name="27 - Selfishness" transform="translate(619.2971 3081.0703) rotate(-126.5497) scale(1 1.2)" font-size="21.276" font-family="Copperplate-Bold, Copperplate" font-weight="700">Selfishness</text>
+    <text id="_24_-_Addiction" data-name="24 - Addiction" transform="translate(724.4475 3199.8487) rotate(-132.175) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Addiction</text>
+    <text id="_2_-_Dislocation" data-name="2 - Dislocation" transform="matrix(-0.7408, -0.6717, 0.8061, -0.889, 858.5729, 3325.6405)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dislocation</text>
+    <text id="_23_-_Complexity" data-name="23 - Complexity" transform="translate(992.8427 3427.7056) rotate(-143.4253) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Complexity</text>
+    <text id="_8_-_Mediocrity" data-name="8 - Mediocrity" transform="matrix(-0.8576, -0.5143, 0.6171, -1.0291, 1137.7532, 3517.4098)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Mediocrity</text>
+    <text id="_20_-_Superficiality" data-name="20 - Superficiality" transform="matrix(-0.9039, -0.4278, 0.5133, -1.0847, 1264.6097, 3595.4442)" font-size="21.2762" font-family="Copperplate-Bold, Copperplate" font-weight="700">Super-<tspan x="-11.8193" y="15.1054">ficiality</tspan></text>
+    <text id="_16_-_Indifference" data-name="16 - Indifference" transform="translate(1464.2115 3657.3799) rotate(-160.2997) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Indifference</text>
+    <text id="_35_-_Hunger" data-name="35 - Hunger" transform="translate(1600.9771 3692.995) rotate(-165.9251) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Hunger</text>
+    <text id="_45_-_Dominance" data-name="45 - Dominance" transform="matrix(-0.9891, -0.1469, 0.1763, -1.187, 1787.5974, 3724.8704)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dominance</text>
+    <text id="_12_-_Vanity" data-name="12 - Vanity" transform="matrix(-0.9988, -0.0493, 0.0591, -1.1985, 1936.7578, 3734.7836)" font-size="21.2756" font-family="Copperplate-Bold, Copperplate" font-weight="700">Vanity</text>
+    <text id="_15_-_Dullness" data-name="15 - Dullness" transform="translate(2123.8131 3730.8851) rotate(177.2) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dullness</text>
+    <text id="_52_-_Stress" data-name="52 - Stress" transform="translate(2280.1476 3710.9262) rotate(171.5753) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Stress</text>
+    <text id="_39_-_Provocation" data-name="39 - Provocation" transform="translate(2478.1975 3665.9104) rotate(165.9499) scale(1 1.2)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Provocation</text>
+    <text id="_53_-_Immaturity" data-name="53 - Immaturity" transform="translate(2634.2079 3612.2294) rotate(160.3253) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Immaturity</text>
+    <text id="_62_-_Intellect" data-name="62 - Intellect" transform="translate(2783.6841 3543.9953) rotate(154.6998) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Intellect</text>
+    <text id="_56_-_Distraction" data-name="56 - Distraction" transform="translate(2943.0466 3452.3877) rotate(149.0748) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Distraction</text>
+    <text id="_31_-_Arrogance" data-name="31 - Arrogance" transform="translate(3077.9271 3354.6369) rotate(143.4503) scale(1 1.2)" font-size="21.276" font-family="Copperplate-Bold, Copperplate" font-weight="700">Arrogance</text>
+    <text id="_33_-_Forgetting" data-name="33 - Forgetting" transform="translate(3208.1367 3240.3994) rotate(137.825) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Forgetting</text>
+    <text id="_7_-_Division" data-name="7 - Division" transform="matrix(-0.6717, 0.7408, -0.889, -0.8061, 3312.6734, 3127.8017)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Division</text>
+    <text id="_4_-_Intolerance" data-name="4 - Intolerance" transform="translate(3434.1198 2971.4659) rotate(126.5747) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Intolerance</text>
+    <text id="_29_-_Half_Heartedness" data-name="29 - Half Heartedness" transform="matrix(-0.5143, 0.8576, -1.0291, -0.6171, 3512.0901, 2866.1713)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Half<tspan x="-45.5093" y="15.1058">Heartedness</tspan></text>
+    <text id="_59_-_Dishonesty" data-name="59 - Dishonesty" transform="matrix(-0.4278, 0.9039, -1.0847, -0.5133, 3596.0942, 2676.5785)" font-size="21.2762" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dishonesty</text>
+    <text id="_40_-_Exhaustion" data-name="40 - Exhaustion" transform="translate(3656.5034 2514.3013) rotate(109.7003) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Exhaustion</text>
+    <text id="_64_-_Confusion" data-name="64 - Confusion" transform="translate(3698.8953 2354.3118) rotate(104.0749) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Confusion</text>
+    <text id="_47_-_Oppression" data-name="47 - Oppression" transform="matrix(-0.1469, 0.9891, -1.187, -0.1763, 3727.2346, 2180.3536)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Oppression</text>
+    <text id="_6_-_Conflict" data-name="6 - Conflict" transform="matrix(-0.0493, 0.9988, -1.1985, -0.0591, 3737.4701, 2021.1014)" font-size="21.2756" font-family="Copperplate-Bold, Copperplate" font-weight="700">Conflict</text>
+    <text id="_46_-_Seriousness" data-name="46 - Seriousness" transform="translate(3732.2216 1830.1027) rotate(87.2) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Seriousness</text>
+    <text id="_18_-_Judgement" data-name="18 - Judgement" transform="translate(3709.826 1668.3801) rotate(81.5753) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Judgement</text>
+    <text id="_48_-_Inadequacy" data-name="48 - Inadequacy" transform="translate(3669.0736 1495.5478) rotate(75.9499) scale(1 1.2)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Inadequacy</text>
+    <text id="_57_-_Unease" data-name="57 - Unease" transform="translate(3621.2935 1355.416) rotate(70.3253) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Unease</text>
+    <text id="_32_-_Failure" data-name="32 - Failure" transform="translate(3550.7072 1195.9052) rotate(64.6998) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Failure</text>
+    <text id="_50_-_Corruption" data-name="50 - Corruption" transform="translate(3456.0795 1029.7277) rotate(59.0748) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Corruption</text>
+    <text id="_28_-_Purposelessness" data-name="28 - Purposelessness" transform="translate(3354.0228 878.3818) rotate(53.4503) scale(1 1.2)" font-size="21.276" font-family="Copperplate-Bold, Copperplate" font-weight="700">Purposeless-<tspan x="47.8809" y="15.1054">ness</tspan></text>
+    <text id="_44_-_Interference" data-name="44 - Interference" transform="translate(3233.4137 752.1986) rotate(47.825) scale(1 1.2)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Interference</text>
+    <text id="_1_-_Entropy" data-name="1 - Entropy" transform="matrix(0.7408, 0.6717, -0.8061, 0.889, 3128.5928, 655.8575)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Entropy</text>
+    <text id="_43_-_Deafness" data-name="43 - Deafness" transform="translate(2987.4081 546.1054) rotate(36.5747) scale(1 1.2)" font-size="21.2759" font-family="Copperplate-Bold, Copperplate" font-weight="700">Deafness</text>
+    <text id="_14_-_Compromise" data-name="14 - Compromise" transform="matrix(0.8576, 0.5143, -0.6171, 1.0291, 2831.7282, 448.9828)" font-size="21.2763" font-family="Copperplate-Bold, Copperplate" font-weight="700">Compromise</text>
+    <text id="_34_-_Force" data-name="34 - Force" transform="matrix(0.9039, 0.4278, -0.5133, 1.0847, 2705.4705, 386.8678)" font-size="21.2762" font-family="Copperplate-Bold, Copperplate" font-weight="700">Force</text>
+    <text id="_9_-_Inertia" data-name="9 - Inertia" transform="translate(2538.1238 321.4505) rotate(19.7003) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Inertia</text>
+    <text id="_5-_Impatience" data-name="5- Impatience" transform="translate(2353.0362 270.4445) rotate(14.0749) scale(1 1.2)" font-size="21.2761" font-family="Copperplate-Bold, Copperplate" font-weight="700">Impatience</text>
+    <text id="_26_-_Pride" data-name="26 - Pride" transform="matrix(0.9891, 0.1469, -0.1763, 1.187, 2213.4617, 247.0886)" font-size="21.2757" font-family="Copperplate-Bold, Copperplate" font-weight="700">Pride</text>
+    <text id="_11_-_Obscurity" data-name="11 - Obscurity" transform="matrix(0.9988, 0.0493, -0.0591, 1.1985, 2016.1276, 231.8447)" font-size="21.2756" font-family="Copperplate-Bold, Copperplate" font-weight="700">Obscurity</text>
+  </g>
+  <g id="GROUP_-_64_GIFTS" data-name="GROUP - 64 GIFTS">
+    <text id="_15_-_Magnetism" data-name="15 - Magnetism" transform="translate(2133.3364 3783.3763) rotate(177.2) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Magnetism</text>
+    <text id="_52_-_Restraint" data-name="52 - Restraint" transform="translate(2305.9033 3760.5762) rotate(171.5753) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Restraint</text>
+    <text id="_39_-_Dynamism" data-name="39 - Dynamism" transform="translate(2475.4509 3721.1243) rotate(165.9499) scale(1 1.2)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Dynamism</text>
+    <text id="_53_-_Expansion" data-name="53 - Expansion" transform="translate(2646.9089 3663.8611) rotate(160.3253) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Expansion</text>
+    <text id="_62_-_Precision" data-name="62 - Precision" transform="translate(2805.1047 3592.3728) rotate(154.6998) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Precision</text>
+    <text id="_56_-_Enrichment" data-name="56 - Enrichment" transform="translate(2969.0989 3498.4302) rotate(149.0748) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Enrichment</text>
+    <text id="_31_-_Leadership" data-name="31 - Leadership" transform="translate(3110.7621 3396.1406) rotate(143.4503) scale(1 1.2)" font-size="21.2334" font-family="Copperplate-Bold, Copperplate" font-weight="700">Leadership</text>
+    <text id="_33_-_Mindfulness" data-name="33 - Mindfulness" transform="translate(3249.6799 3274.1237) rotate(137.825) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Mindfulness</text>
+    <text id="_7_-_Guidance" data-name="7 - Guidance" transform="matrix(-0.6717, 0.7408, -0.889, -0.8061, 3357.3502, 3157.2835)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Guidance</text>
+    <text id="_4_-_Understanding" data-name="4 - Understanding" transform="translate(3485.2982 2991.2524) rotate(126.5747) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Understanding</text>
+    <text id="_29_-_Commitment" data-name="29 - Commitment" transform="matrix(-0.5143, 0.8576, -1.0291, -0.6171, 3567.5944, 2855.3636)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Commitment</text>
+    <text id="_59_-_Intimacy" data-name="59 - Intimacy" transform="matrix(-0.4278, 0.9039, -1.0847, -0.5133, 3637.788, 2712.1155)" font-size="21.2336" font-family="Copperplate-Bold, Copperplate" font-weight="700">Intimacy</text>
+    <text id="_40_-_Resolve" data-name="40 - Resolve" transform="translate(3699.8807 2550.0281) rotate(109.7003) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Resolve</text>
+    <text id="_64_-_Imagination" data-name="64 - Imagination" transform="translate(3752.3174 2358.7055) rotate(104.0749) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Imagination</text>
+    <text id="_47_-_Transmutation" data-name="47 - Transmutation" transform="matrix(-0.1469, 0.9891, -1.187, -0.1763, 3778.4983, 2216.8878)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Trans<tspan x="-17.6978" y="15.0749">mutation</tspan></text>
+    <text id="_6_-_Diplomacy" data-name="6 - Diplomacy" transform="matrix(-0.0493, 0.9988, -1.1985, -0.0591, 3790.7017, 2015.572)" font-size="21.233" font-family="Copperplate-Bold, Copperplate" font-weight="700">Diplomacy</text>
+    <text id="_46_-_Delight" data-name="46 - Delight" transform="translate(3786.2904 1852.9947) rotate(87.2) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Delight</text>
+    <text id="_18_-_Integrity" data-name="18 - Integrity" transform="translate(3763.202 1667.7485) rotate(81.5753) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Integrity</text>
+    <text id="_48_-_Resourcefulness" data-name="48 - Resourcefulness" transform="translate(3727.0289 1493.259) rotate(75.9499) scale(1 1.2)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Resource<tspan x="8.8223" y="15.0749">fulness</tspan></text>
+    <text id="_57_-_Intuition" data-name="57 - Intuition" transform="translate(3667.9465 1328.8006) rotate(70.3253) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Intuition</text>
+    <text id="_32_-_Preservation" data-name="32 - Preservation" transform="translate(3585.2047 1145.117) rotate(64.6998) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Preservation</text>
+    <text id="_50_-_Equilibrium" data-name="50 - Equilibrium" transform="translate(3500.6058 1001.1378) rotate(59.0748) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Equilibrium</text>
+    <text id="_28_-_Totality" data-name="28 - Totality" transform="translate(3407.026 871.1318) rotate(53.4503) scale(1 1.2)" font-size="21.2334" font-family="Copperplate-Bold, Copperplate" font-weight="700">Totality</text>
+    <text id="_44_-_Teamwork" data-name="44 - Teamwork" transform="translate(3285.7881 731.2311) rotate(47.825) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Teamwork</text>
+    <text id="_1_-_Freshness" data-name="1 - Freshness" transform="matrix(0.7408, 0.6717, -0.8061, 0.889, 3154.5794, 608.0255)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Freshness</text>
+    <text id="_43_-_Insight" data-name="43 - Insight" transform="translate(3028.9614 511.0767) rotate(36.5747) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Insight</text>
+    <text id="_14_-_Competence" data-name="14 - Competence" transform="matrix(0.8576, 0.5143, -0.6171, 1.0291, 2857.0073, 402.4662)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Competence</text>
+    <text id="_34_-_Strength" data-name="34 - Strength" transform="matrix(0.9039, 0.4278, -0.5133, 1.0847, 2710.5399, 330.7481)" font-size="21.2336" font-family="Copperplate-Bold, Copperplate" font-weight="700">Strength</text>
+    <text id="_9_-_Determination" data-name="9 - Determination" transform="translate(2517.7107 257.9594) rotate(19.7003) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Determination</text>
+    <text id="_5_-_Patience" data-name="5 - Patience" transform="translate(2376.3099 221.7479) rotate(14.0749) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Patience</text>
+    <text id="_26_-_Artfulness" data-name="26 - Artfulness" transform="matrix(0.9891, 0.1469, -0.1763, 1.187, 2187.4331, 189.7582)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Artfulness</text>
+    <text id="_11_-_Idealism" data-name="11 - Idealism" transform="matrix(0.9988, 0.0493, -0.0591, 1.1985, 2027.6864, 179.4648)" font-size="21.233" font-family="Copperplate-Bold, Copperplate" font-weight="700">Idealism</text>
+    <text id="_10_-_Naturalness" data-name="10 - Naturalness" transform="translate(1825.0597 185.6052) rotate(-2.8) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Naturalness</text>
+    <text id="_58_-_Vitality" data-name="58 - Vitality" transform="translate(1676.8483 205.9124) rotate(-8.4247) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Vitality</text>
+    <text id="_38_-_Perseverance" data-name="38 - Perseverance" transform="translate(1471.8374 252.6183) rotate(-14.0501) scale(1 1.2)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Perseverance</text>
+    <text id="_54_-_Aspiration" data-name="54 - Aspiration" transform="translate(1322.5739 305.1829) rotate(-19.6747) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Aspiration</text>
+    <text id="_61_-_Inspiration" data-name="61 - Inspiration" transform="translate(1157.9413 379.7194) rotate(-25.3002) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Inspiration</text>
+    <text id="_60_-_Realism" data-name="60 - Realism" transform="translate(1021.015 459.0125) rotate(-30.9252) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Realism</text>
+    <text id="_41_-_Anticipation" data-name="41 - Anticipation" transform="translate(855.2313 576.3683) rotate(-36.5497) scale(1 1.2)" font-size="21.2334" font-family="Copperplate-Bold, Copperplate" font-weight="700">Anticipation</text>
+    <text id="_19_-_Sensitivity" data-name="19 - Sensitivity" transform="translate(729.4199 688.1826) rotate(-42.175) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Sensitivity</text>
+    <text id="_13_-_Discernment" data-name="13 - Discernment" transform="matrix(0.6717, -0.7408, 0.889, 0.8061, 601.8363, 824.3288)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Discernment</text>
+    <text id="_49_-_Revolution" data-name="49 - Revolution" transform="translate(499.9022 959.0534) rotate(-53.4253) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Revolution</text>
+    <text id="_30_-_Lightness" data-name="30 - Lightness" transform="matrix(0.5143, -0.8576, 1.0291, 0.6171, 410.3731, 1103.7632)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Lightness</text>
+    <text id="_55_-_Freedom" data-name="55 - Freedom" transform="matrix(0.4278, -0.9039, 1.0847, 0.5133, 335.1948, 1254.9466)" font-size="21.2336" font-family="Copperplate-Bold, Copperplate" font-weight="700">Freedom</text>
+    <text id="_37_-_Equality" data-name="37 - Equality" transform="translate(270.7976 1422.4796) rotate(-70.2997) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Equality</text>
+    <text id="_63_-_Inquiry" data-name="63 - Inquiry" transform="translate(226.0598 1585.2921) rotate(-75.9251) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Inquiry</text>
+    <text id="_22_-_Graciousness" data-name="22 - Graciousness" transform="matrix(0.1469, -0.9891, 1.187, 0.1763, 190.1293, 1793.9602)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Graciousness</text>
+    <text id="_36_-_Humanity" data-name="36 - Humanity" transform="matrix(0.0493, -0.9988, 1.1985, 0.0591, 181.2778, 1947.8837)" font-size="21.233" font-family="Copperplate-Bold, Copperplate" font-weight="700">Humanity</text>
+    <text id="_25_-_Acceptance" data-name="25 - Acceptance" transform="translate(187.4002 2138.2707) rotate(-92.8) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Acceptance</text>
+    <text id="_17_-_Far_Sightedness" data-name="17 - Far Sightedness" transform="translate(199.2501 2269.2499) rotate(-98.4247) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Far<tspan x="-47.7852" y="15.0753">Sightedness</tspan></text>
+    <text id="_21_-_Authority" data-name="21 - Authority" transform="translate(249.4819 2476.7336) rotate(-104.0501) scale(1 1.2)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Authority</text>
+    <text id="_51_-_Initiative" data-name="51 - Initiative" transform="translate(305.0986 2641.466) rotate(-109.6747) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Initiative</text>
+    <text id="_42_-_Detachment" data-name="42 - Detachment" transform="translate(383.8982 2816.2863) rotate(-115.3002) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Detachment</text>
+    <text id="_3_-_Innovation" data-name="3 - Innovation" transform="translate(469.6794 2963.3936) rotate(-120.9252) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Innovation</text>
+    <text id="_27_-_Altruism" data-name="27 - Altruism" transform="translate(566.5296 3098.7057) rotate(-126.5497) scale(1 1.2)" font-size="21.2334" font-family="Copperplate-Bold, Copperplate" font-weight="700">Altruism</text>
+    <text id="_24_-_Invention" data-name="24 - Invention" transform="translate(685.184 3235.2917) rotate(-132.175) scale(1 1.2)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Invention</text>
+    <text id="_2_-_Orientation" data-name="2 - Orientation" transform="matrix(-0.7408, -0.6717, 0.8061, -0.889, 823.8287, 3365.5366)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Orientation</text>
+    <text id="_23_-_Simplicity" data-name="23 - Simplicity" transform="translate(956.0176 3466.2445) rotate(-143.4253) scale(1 1.2)" font-size="21.2333" font-family="Copperplate-Bold, Copperplate" font-weight="700">Simplicity</text>
+    <text id="_8_-_Style" data-name="8 - Style" transform="matrix(-0.8576, -0.5143, 0.6171, -1.0291, 1085.678, 3547.853)" font-size="21.2337" font-family="Copperplate-Bold, Copperplate" font-weight="700">Style</text>
+    <text id="_20_-_Self_assurance" data-name="20 - Self assurance" transform="matrix(-0.9039, -0.4278, 0.5133, -1.0847, 1233.2, 3635.1288)" font-size="21.2336" font-family="Copperplate-Bold, Copperplate" font-weight="700">Self<tspan x="-34.2178" y="15.0753">assurance</tspan></text>
+    <text id="_16_-_Versatility" data-name="16 - Versatility" transform="translate(1438.4707 3704.339) rotate(-160.2997) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Versatility</text>
+    <text id="_35_-_Adventure" data-name="35 - Adventure" transform="translate(1605.1934 3748.5803) rotate(-165.9251) scale(1 1.2)" font-size="21.2335" font-family="Copperplate-Bold, Copperplate" font-weight="700">Adventure</text>
+    <text id="_45_-_Synergy" data-name="45 - Synergy" transform="matrix(-0.9891, -0.1469, 0.1763, -1.187, 1766.8813, 3775.2705)" font-size="21.2331" font-family="Copperplate-Bold, Copperplate" font-weight="700">Synergy</text>
+    <text id="_12_-_Discrimination" data-name="12 - Discrimination" transform="matrix(-0.9988, -0.0493, 0.0591, -1.1985, 1978.84, 3789.8229)" font-size="21.233" font-family="Copperplate-Bold, Copperplate" font-weight="700">Discrimination</text>
+  </g>
+  <g id="GROUP_-_64_SIDDHIS" data-name="GROUP - 64 SIDDHIS">
+    <text id="_15_-_Fluorescence" data-name="15 - Fluorescence" transform="translate(2147.5607 3829.9194) rotate(177.4002) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Fluorescence</text>
+    <text id="_52_-_Stillness" data-name="52 - Stillness" transform="translate(2303.567 3808.5419) rotate(171.775) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Stillness</text>
+    <text id="_39_-_Liberation" data-name="39 - Liberation" transform="translate(2487.2027 3766.8256) rotate(166.1501) scale(1 1.2)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Liberation</text>
+    <text id="_53_-_Super_Abundance" data-name="53 - Super Abundance" transform="translate(2638.1411 3728.2274) rotate(160.5254) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Super<tspan x="-28.9199" y="15.0863">Abundance</tspan></text>
+    <text id="_62_-_Impeccability" data-name="62 - Impeccability" transform="translate(2840.5903 3627.856) rotate(154.9) scale(1 1.2)" font-size="21.2492" font-family="Copperplate-Bold, Copperplate" font-weight="700">Impeccability</text>
+    <text id="_56_-_Intoxication" data-name="56 - Intoxication" transform="translate(2992.9221 3539.1426) rotate(149.2749) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Intoxication</text>
+    <text id="_31_-_Humility" data-name="31 - Humility" transform="translate(3123.031 3445.6045) rotate(143.6502) scale(1 1.2)" font-size="21.2492" font-family="Copperplate-Bold, Copperplate" font-weight="700">Humility</text>
+    <text id="_33_-_Revelation" data-name="33 - Revelation" transform="translate(3272.0242 3317.8146) rotate(138.025) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Revelation</text>
+    <text id="_7_-_Virtue" data-name="7 - Virtue" transform="translate(3378.8917 3203.9901) rotate(132.4001) scale(1 1.2)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Virtue</text>
+    <text id="_4_-_Forgiveness" data-name="4 - Forgiveness" transform="translate(3511.1926 3036.6086) rotate(126.7746) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Forgiveness</text>
+    <text id="_29_-_Devotion" data-name="29 - Devotion" transform="translate(3597.9404 2897.7587) rotate(121.1499) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Devotion</text>
+    <text id="_59_-_Transparency" data-name="59 - Transparency" transform="matrix(-0.4309, 0.9024, -1.0829, -0.5171, 3692.6946, 2708.4988)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Transparency</text>
+    <text id="_40_-_Divine_Will" data-name="40 - Divine Will" transform="translate(3750.2712 2552.9102) rotate(109.9) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Divine Will</text>
+    <text id="_64_-_Illumination" data-name="64 - Illumination" transform="translate(3800.0861 2368.8332) rotate(104.2746) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Illumination</text>
+    <text id="_47_-_Transfiguration" data-name="47 - Transfiguration" transform="matrix(-0.1504, 0.9886, -1.1864, -0.1805, 3835.6256, 2224.6324)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Trans-<tspan x="-23.0229" y="15.0863">figuration</tspan></text>
+    <text id="_6_-_Peace" data-name="6 - Peace" transform="matrix(-0.0528, 0.9986, -1.1983, -0.0633, 3838.4369, 2044.9277)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Peace</text>
+    <text id="_46_-_Ecstasy" data-name="46 - Ecstasy" transform="translate(3835.5947 1851.8976) rotate(87.4002) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Ecstasy</text>
+    <text id="_18_-_Perfection" data-name="18 - Perfection" transform="translate(3811.6526 1654.1268) rotate(81.775) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Perfection</text>
+    <text id="_48_-_Wisdom" data-name="48 - Wisdom" transform="translate(3775.7924 1497.7696) rotate(76.1501) scale(1 1.2)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Wisdom</text>
+    <text id="_57_-_Clarity" data-name="57 - Clarity" transform="translate(3719.0404 1321.9176) rotate(70.5254) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Clarity</text>
+    <text id="_32_-_Veneration" data-name="32 - Veneration" transform="translate(3637.2886 1136.3412) rotate(64.9) scale(1 1.2)" font-size="21.2492" font-family="Copperplate-Bold, Copperplate" font-weight="700">Veneration</text>
+    <text id="_50_-_Harmony" data-name="50 - Harmony" transform="translate(3553.8932 990.6831) rotate(59.2749) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Harmony</text>
+    <text id="_28_-_Immortality" data-name="28 - Immortality" transform="translate(3438.6142 827.2677) rotate(53.6502) scale(1 1.2)" font-size="21.2492" font-family="Copperplate-Bold, Copperplate" font-weight="700">Immortality</text>
+    <text id="_44_-_Synarchy" data-name="44 - Synarchy" transform="translate(3327.5825 700.2067) rotate(48.025) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Synarchy</text>
+    <text id="_1_-_Beauty" data-name="1 - Beauty" transform="translate(3205.1637 583.6236) rotate(42.4001) scale(1 1.2)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Beauty</text>
+    <text id="_43_-_Epiphany" data-name="43 - Epiphany" transform="translate(3055.1222 465.2278) rotate(36.7746) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Epiphany</text>
+    <text id="_14_-_Bounteousness" data-name="14 - Bounteousness" transform="translate(2871.1829 349.436) rotate(31.1499) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Bounteousness</text>
+    <text id="_34_-_Majesty" data-name="34 - Majesty" transform="matrix(0.9024, 0.4309, -0.5171, 1.0829, 2743.1778, 287.6555)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Majesty</text>
+    <text id="_9_-_Invincibility" data-name="9 - Invincibility" transform="translate(2550.8389 213.2664) rotate(19.9) scale(1 1.2)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Invincibility</text>
+    <text id="_5_-_Timelessness" data-name="5 - Timelessness" transform="translate(2370.9319 165.3157) rotate(14.2746) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Timelessness</text>
+    <text id="_26_-_Invisibility" data-name="26 - Invisibility" transform="matrix(0.9886, 0.1504, -0.1805, 1.1864, 2202.5132, 137.889)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Invisibility</text>
+    <text id="_11_-_Light" data-name="11 - Light" transform="matrix(0.9986, 0.0528, -0.0633, 1.1983, 2052.573, 127.1585)" font-size="21.2489" font-family="Copperplate-Bold, Copperplate" font-weight="700">Light</text>
+    <text id="_10_-_Being" data-name="10 - Being" transform="translate(1856.785 130.4339) rotate(-3.0002) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Being</text>
+    <text id="_58_-_Bliss" data-name="58 - Bliss" transform="translate(1678.1752 151.5593) rotate(-8.6246) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Bliss</text>
+    <text id="_38_-_Honour" data-name="38 - Honour" transform="translate(1487.6575 193.5779) rotate(-14.2498) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Honour</text>
+    <text id="_54_-_Ascension" data-name="54 - Ascension" transform="translate(1301.1226 256.0503) rotate(-19.8744) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Ascension</text>
+    <text id="_61_-_Sanctity" data-name="61 - Sanctity" transform="translate(1141.6514 328.1291) rotate(-25.5001) scale(1 1.2)" font-size="21.2491" font-family="Copperplate-Bold, Copperplate" font-weight="700">Sanctity</text>
+    <text id="_50_-_Justice" data-name="50 - Justice" transform="matrix(0.856, -0.5169, 0.6203, 1.0272, 990.9796, 414.5849)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Justice</text>
+    <text id="_41_-_Emanation" data-name="41 - Emanation" transform="translate(828.0317 530.2149) rotate(-36.7496) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Emanation</text>
+    <text id="_19_-_Sacrifice" data-name="19 - Sacrifice" transform="translate(695.8489 646.6013) rotate(-42.375) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Sacrifice</text>
+    <text id="_13_-_Empathy" data-name="13 - Empathy" transform="translate(574.9996 774.7902) rotate(-47.9998) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Empathy</text>
+    <text id="_49_-_Rebirth" data-name="49 - Rebirth" transform="matrix(0.5931, -0.8052, 0.9662, 0.7117, 465.9545, 915.9989)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rebirth</text>
+    <text id="_30_-_Rapture" data-name="30 - Rapture" transform="translate(367.4332 1072.6902) rotate(-59.2503) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Rapture</text>
+    <text id="_55_-_Freedom-2" data-name="55 - Freedom" transform="translate(286.0077 1236.1625) rotate(-64.8754) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Freedom</text>
+    <text id="_37_-_Tenderness" data-name="37 - Tenderness" transform="translate(215.1359 1422.9211) rotate(-70.4998) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Tenderness</text>
+    <text id="_63_-_Truth" data-name="63 - Truth" transform="translate(176.6212 1568.078) rotate(-76.1252) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Truth</text>
+    <text id="_22_-_Grace" data-name="22 - Grace" transform="translate(144.5771 1748.4675) rotate(-81.7496) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Grace</text>
+    <text id="_36_-_Compassion" data-name="36 - Compassion" transform="matrix(0.0458, -0.999, 1.1987, 0.055, 129.3821, 1959.3493)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Compassion</text>
+    <text id="_25_-_Universal_Love" data-name="25 - Universal Love" transform="translate(137.5863 2163.6468) rotate(-93.0002) scale(1 1.2)" font-size="21.2496" font-family="Copperplate-Bold, Copperplate" font-weight="700">Universal Love</text>
+    <text id="_17_-_Omniscience" data-name="17 - Omniscience" transform="translate(161.6083 2326.5683) rotate(-98.6246) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Omniscience</text>
+    <text id="_21_-_Valour" data-name="21 - Valour" transform="translate(197.2203 2476.09) rotate(-104.2498) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Valour</text>
+    <text id="_51_-_Awakening" data-name="51 - Awakening" transform="translate(261.4857 2668.491) rotate(-109.8744) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Awakening</text>
+    <text id="_42_-_Celebration" data-name="42 - Celebration" transform="translate(340.9429 2841.8578) rotate(-115.5001) scale(1 1.2)" font-size="21.2491" font-family="Copperplate-Bold, Copperplate" font-weight="700">Celebration</text>
+    <text id="_3_-_Innocence" data-name="3 - Innocence" transform="matrix(-0.5169, -0.856, 1.0272, -0.6203, 427.3392, 2988.9178)" font-size="21.2494" font-family="Copperplate-Bold, Copperplate" font-weight="700">Innocence</text>
+    <text id="_27_-_Selflessness" data-name="27 - Selflessness" transform="translate(543.854 3150.5323) rotate(-126.7496) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Selflessness</text>
+    <text id="_24_-_Silence" data-name="24 - Silence" transform="translate(644.0251 3262.5999) rotate(-132.375) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Silence</text>
+    <text id="_2_-_Unity" data-name="2 - Unity" transform="translate(767.1097 3379.6631) rotate(-137.9998) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Unity</text>
+    <text id="_23_-_Quintessence" data-name="23 - Quintessence" transform="matrix(-0.8052, -0.5931, 0.7117, -0.9662, 946.5203, 3519.0237)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Quintessence</text>
+    <text id="_8_-_Exquisiteness" data-name="8 - Exquisiteness" transform="translate(1103.8647 3614.4688) rotate(-149.2503) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Exquisiteness</text>
+    <text id="_20_-_Presence" data-name="20 - Presence" transform="translate(1245.2837 3682.2232) rotate(-154.8754) scale(1 1.2)" font-size="21.2495" font-family="Copperplate-Bold, Copperplate" font-weight="700">Presence</text>
+    <text id="_16_-_Mastery" data-name="16 - Mastery" transform="translate(1410.4209 3744.6789) rotate(-160.4998) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Mastery</text>
+    <text id="_35_-_Boundlessness" data-name="35 - Boundlessness" transform="translate(1622.2095 3801.3487) rotate(-166.1252) scale(1 1.2)" font-size="21.2493" font-family="Copperplate-Bold, Copperplate" font-weight="700">Boundlessness</text>
+    <text id="_45_-_Communion" data-name="45 - Communion" transform="translate(1778.8254 3824.7374) rotate(-171.7496) scale(1 1.2)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Communion</text>
+    <text id="_12_-_Purity" data-name="12 - Purity" transform="matrix(-0.999, -0.0458, 0.055, -1.1987, 1936.473, 3834.8286)" font-size="21.249" font-family="Copperplate-Bold, Copperplate" font-weight="700">Purity</text>
+  </g>
+</svg>

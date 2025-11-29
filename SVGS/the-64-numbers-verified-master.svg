@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3315.6709" height="3315.3071" viewBox="0 0 3315.6709 3315.3071">
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="RING_-_INNER" data-name="RING - INNER" cx="1657.7978" cy="1657.4867" r="1538.587" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" data-name="RING - OUTER" cx="1657.7978" cy="1657.4867" r="1648.5514" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="DIVIDERS">
+      <line id="LINE_-_58_10" data-name="LINE - 58|10" x1="1496.4235" y1="19.0249" x2="1506.8002" y2="124.3808" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_58" data-name="LINE - 38|58" x1="1336.6033" y1="42.7319" x2="1357.2567" y2="146.5634" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_38" data-name="LINE - 54|38" x1="1179.8764" y1="81.9899" x2="1210.6076" y2="183.297" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_54" data-name="LINE - 61|54" x1="1027.7521" y1="136.4207" x2="1068.2652" y2="234.2278" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_61" data-name="LINE - 60|61" x1="881.6955" y1="205.5002" x2="931.6002" y2="298.8654" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_41_60" data-name="LINE - 41|60" x1="743.1132" y1="288.5632" x2="801.929" y2="376.5873" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_41" data-name="LINE - 19|41" x1="613.3398" y1="384.8096" x2="680.5002" y2="466.6449" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_19" data-name="LINE - 13|19" x1="493.625" y1="493.3126" x2="568.4834" y2="568.1709" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_13" data-name="LINE - 49|13" x1="385.1219" y1="613.0272" x2="466.9572" y2="680.1877" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_49" data-name="LINE - 30|49" x1="288.8754" y1="742.8005" x2="376.8994" y2="801.6163" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_30" data-name="LINE - 55|30" x1="205.8123" y1="881.3828" x2="299.1774" y2="931.2875" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_55" data-name="LINE - 37|55" x1="136.7326" y1="1027.4393" x2="234.5397" y2="1067.9523" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_37" data-name="LINE - 63|37" x1="82.3015" y1="1179.5635" x2="183.6087" y2="1210.2947" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_63" data-name="LINE - 22|63" x1="43.0434" y1="1336.2904" x2="146.8749" y2="1356.9438" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_22" data-name="LINE - 36|22" x1="19.3362" y1="1496.1106" x2="124.6921" y2="1506.4872" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_36" data-name="LINE - 25|36" x1="11.4083" y1="1657.4849" x2="117.274" y2="1657.4849" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_25" data-name="LINE - 17|25" x1="19.3361" y1="1818.8592" x2="124.6919" y2="1808.4825" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_17" data-name="LINE - 21|17" x1="43.0431" y1="1978.6794" x2="146.8745" y2="1958.026" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_21" data-name="LINE - 51|21" x1="82.301" y1="2135.4063" x2="183.6081" y2="2104.6751" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_51" data-name="LINE - 42|51" x1="136.7319" y1="2287.5306" x2="234.539" y2="2247.0175" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_42" data-name="LINE - 3|42" x1="205.8114" y1="2433.5872" x2="299.1766" y2="2383.6825" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_3" data-name="LINE - 27|3" x1="288.8743" y1="2572.1695" x2="376.8984" y2="2513.3537" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_27" data-name="LINE - 24|27" x1="385.1208" y1="2701.9429" x2="466.956" y2="2634.7825" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_24" data-name="LINE - 2|24" x1="493.6238" y1="2821.6577" x2="568.4821" y2="2746.7994" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_2" data-name="LINE - 23|2" x1="613.3384" y1="2930.1608" x2="680.4988" y2="2848.3255" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_23" data-name="LINE - 8|23" x1="743.1117" y1="3026.4074" x2="801.9275" y2="2938.3833" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_8" data-name="LINE - 20|8" x1="881.6939" y1="3109.4705" x2="931.5987" y2="3016.1053" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_20" data-name="LINE - 16|20" x1="1027.7505" y1="3178.5502" x2="1068.2635" y2="3080.743" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_16" data-name="LINE - 35|16" x1="1179.8747" y1="3232.9812" x2="1210.6059" y2="3131.6741" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_35" data-name="LINE - 45|35" x1="1336.6016" y1="3272.2393" x2="1357.2549" y2="3168.4078" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_45" data-name="LINE - 12|45" x1="1496.4217" y1="3295.9465" x2="1506.7984" y2="3190.5906" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_12" data-name="LINE - 15|12" x1="1657.796" y1="3303.8744" x2="1657.796" y2="3198.0087" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_15" data-name="LINE - 52|15" x1="1819.1703" y1="3295.9467" x2="1808.7937" y2="3190.5908" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_52" data-name="LINE - 39|52" x1="1978.9905" y1="3272.2397" x2="1958.3372" y2="3168.4082" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_39" data-name="LINE - 53|39" x1="2135.7175" y1="3232.9817" x2="2104.9863" y2="3131.6746" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_53" data-name="LINE - 62|53" x1="2287.8417" y1="3178.5508" x2="2247.3287" y2="3080.7437" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_62" data-name="LINE - 56|62" x1="2433.8984" y1="3109.4713" x2="2383.9936" y2="3016.1061" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_56" data-name="LINE - 31|56" x1="2572.4807" y1="3026.4084" x2="2513.6649" y2="2938.3843" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_31" data-name="LINE - 33|31" x1="2702.2541" y1="2930.1619" x2="2635.0936" y2="2848.3267" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_33" data-name="LINE - 7|33" x1="2821.9688" y1="2821.659" x2="2747.1105" y2="2746.8006" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_7" data-name="LINE - 4|7" x1="2930.472" y1="2701.9443" x2="2848.6367" y2="2634.7839" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_4" data-name="LINE - 29|4" x1="3026.7185" y1="2572.171" x2="2938.6944" y2="2513.3552" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_29" data-name="LINE - 59|29" x1="3109.7816" y1="2433.5888" x2="3016.4164" y2="2383.6841" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_59" data-name="LINE - 40|59" x1="3178.8613" y1="2287.5323" x2="3081.0542" y2="2247.0192" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_40" data-name="LINE - 64|40" x1="3233.2923" y1="2135.408" x2="3131.9852" y2="2104.6768" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_64" data-name="LINE - 47|64" x1="3272.5505" y1="1978.6811" x2="3168.719" y2="1958.0278" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_47" data-name="LINE - 6|47" x1="3296.2576" y1="1818.861" x2="3190.9017" y2="1808.4843" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_6" data-name="LINE - 46|6" x1="3304.1855" y1="1657.4867" x2="3198.3199" y2="1657.4867" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_46" data-name="LINE - 18|46" x1="3296.2578" y1="1496.1124" x2="3190.9019" y2="1506.489" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_18" data-name="LINE - 48|18" x1="3272.5508" y1="1336.2922" x2="3168.7193" y2="1356.9456" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_48" data-name="LINE - 57|48" x1="3233.2929" y1="1179.5653" x2="3131.9857" y2="1210.2964" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_57" data-name="LINE - 32|57" x1="3178.862" y1="1027.441" x2="3081.0549" y2="1067.954" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_32" data-name="LINE - 50|32" x1="3109.7825" y1="881.3844" x2="3016.4173" y2="931.2891" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_50" data-name="LINE - 28|50" x1="3026.7195" y1="742.802" x2="2938.6955" y2="801.6178" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_28" data-name="LINE - 44|28" x1="2930.4731" y1="613.0286" x2="2848.6378" y2="680.1891" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_44" data-name="LINE - 1|44" x1="2821.9701" y1="493.3139" x2="2747.1118" y2="568.1722" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_1" data-name="LINE - 43|1" x1="2702.2555" y1="384.8108" x2="2635.095" y2="466.646" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_43" data-name="LINE - 14|43" x1="2572.4822" y1="288.5642" x2="2513.6664" y2="376.5883" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_14" data-name="LINE - 34|14" x1="2433.8999" y1="205.5011" x2="2383.9952" y2="298.8663" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_34" data-name="LINE - 9|34" x1="2287.8434" y1="136.4214" x2="2247.3304" y2="234.2285" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_9" data-name="LINE - 5|9" x1="2135.7192" y1="81.9904" x2="2104.988" y2="183.2975" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_5" data-name="LINE - 26|5" x1="1978.9923" y1="42.7323" x2="1958.3389" y2="146.5637" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_26" data-name="LINE - 11|26" x1="1819.1721" y1="19.0251" x2="1808.7955" y2="124.381" fill="none" stroke="#000" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_11" data-name="LINE - 10|11" x1="1657.7978" y1="11.0972" x2="1657.7978" y2="116.9628" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="_64_GATE_NUMBERS" data-name="64 GATE NUMBERS">
+    <g id="WIND">
+      <text transform="translate(3213.8258 1512.1123) rotate(87.1747)" font-size="117.1932" font-family="Herculanum">46</text>
+      <text transform="matrix(0.1469, 0.9891, -0.9891, 0.1469, 3194.5348, 1376.4402)" font-size="117.1932" font-family="Herculanum">18</text>
+      <text transform="translate(3156.1987 1212.8182) rotate(75.9251)" font-size="117.1932" font-family="Herculanum">48</text>
+      <text transform="translate(3109.4894 1079.2793) rotate(70.2997)" font-size="117.1932" font-family="Herculanum">57</text>
+      <text transform="translate(3044.8453 938.0191) rotate(64.6752)" font-size="117.1932" font-family="Herculanum">32</text>
+      <text transform="translate(2964.9046 800.9202) rotate(59.0501)" font-size="117.1932" font-family="Herculanum">50</text>
+      <text transform="translate(2874.2168 676.7237) rotate(53.4253)" font-size="117.1932" font-family="Herculanum">28</text>
+      <text transform="matrix(0.6717, 0.7408, -0.7408, 0.6717, 2767.7063, 557.0842)" font-size="117.1932" font-family="Herculanum">44</text>
+    </g>
+    <g id="WATER">
+      <text transform="translate(2833.581 2686.3575) rotate(132.175)" font-size="117.1932" font-family="Herculanum">7</text>
+      <text transform="matrix(-0.5955, 0.8033, -0.8033, -0.5955, 2933.0273, 2559.6843)" font-size="117.1932" font-family="Herculanum">4</text>
+      <text transform="matrix(-0.5139, 0.8578, -0.8578, -0.5139, 3029.8351, 2406.4276)" font-size="117.1932" font-family="Herculanum">29</text>
+      <text transform="matrix(-0.4274, 0.9041, -0.9041, -0.4274, 3095.4071, 2270.1135)" font-size="117.1932" font-family="Herculanum">59</text>
+      <text transform="translate(3151.7682 2118.0528) rotate(109.6747)" font-size="117.1932" font-family="Herculanum">40</text>
+      <text transform="translate(3188.9392 1970.295) rotate(104.0501)" font-size="117.1932" font-family="Herculanum">64</text>
+      <text transform="translate(3211.7423 1825.3162) rotate(98.4247)" font-size="117.1932" font-family="Herculanum">47</text>
+      <text transform="translate(3219.4722 1700.7141) rotate(92.8)" font-size="117.1932" font-family="Herculanum">6</text>
+    </g>
+    <g id="MOUNTAIN">
+      <text transform="translate(1782.2055 3214.6241) rotate(177.1747)" font-size="117.1932" font-family="Herculanum">15</text>
+      <text transform="matrix(-0.9891, 0.1469, -0.1469, -0.9891, 1945.0617, 3193.3781)" font-size="117.1932" font-family="Herculanum">52</text>
+      <text transform="translate(2095.5583 3158.0509) rotate(165.9251)" font-size="117.1932" font-family="Herculanum">39</text>
+      <text transform="translate(2236.4529 3109.2781) rotate(160.2997)" font-size="117.1932" font-family="Herculanum">53</text>
+      <text transform="translate(2383.8035 3042.1064) rotate(154.6752)" font-size="117.1932" font-family="Herculanum">62</text>
+      <text transform="translate(2514.1453 2965.4589) rotate(149.0501)" font-size="117.1932" font-family="Herculanum">56</text>
+      <text transform="translate(2625.6362 2884.0436) rotate(143.4253)" font-size="117.1932" font-family="Herculanum">31</text>
+      <text transform="matrix(-0.7408, 0.6717, -0.6717, -0.7408, 2746.7109, 2777.7842)" font-size="117.1932" font-family="Herculanum">33</text>
+    </g>
+    <g id="EARTH">
+      <text transform="translate(1631.6858 3220.2014) rotate(-177.2)" font-size="117.1932" font-family="Herculanum">12</text>
+      <text transform="translate(1491.4349 3211.6723) rotate(-171.5753)" font-size="117.1932" font-family="Herculanum">45</text>
+      <text transform="translate(1332.1136 3185.765) rotate(-165.9499)" font-size="117.1932" font-family="Herculanum">35</text>
+      <text transform="translate(1182.2635 3146.0338) rotate(-160.3253)" font-size="117.1932" font-family="Herculanum">16</text>
+      <text transform="matrix(-0.9041, -0.4274, 0.4274, -0.9041, 1049.2551, 3097.3161)" font-size="117.1932" font-family="Herculanum">20</text>
+      <text transform="matrix(-0.8578, -0.5139, 0.5139, -0.8578, 883.3058, 3014.2627)" font-size="117.1932" font-family="Herculanum">8</text>
+      <text transform="matrix(-0.8033, -0.5955, 0.5955, -0.8033, 774.1713, 2946.3892)" font-size="117.1932" font-family="Herculanum">23</text>
+      <text transform="translate(632.1539 2835.7273) rotate(-137.825)" font-size="117.1932" font-family="Herculanum">2</text>
+    </g>
+    <g id="THUNDER">
+      <text transform="translate(100.8794 1792.8674) rotate(-92.8253)" font-size="117.1932" font-family="Herculanum">25</text>
+      <text transform="matrix(-0.1469, -0.9891, 0.9891, -0.1469, 119.934, 1933.0271)" font-size="117.1932" font-family="Herculanum">17</text>
+      <text transform="translate(155.3344 2086.0646) rotate(-104.0749)" font-size="117.1932" font-family="Herculanum">21</text>
+      <text transform="translate(203.8791 2229.0687) rotate(-109.7003)" font-size="117.1932" font-family="Herculanum">51</text>
+      <text transform="translate(274.3038 2384.8607) rotate(-115.3248)" font-size="117.1932" font-family="Herculanum">42</text>
+      <text transform="translate(332.7194 2484.3808) rotate(-120.9499)" font-size="117.1932" font-family="Herculanum">3</text>
+      <text transform="translate(437.9451 2634.484) rotate(-126.5747)" font-size="117.1932" font-family="Herculanum">27</text>
+      <text transform="matrix(-0.6717, -0.7408, 0.7408, -0.6717, 544.6124, 2754.6342)" font-size="117.1932" font-family="Herculanum">24</text>
+    </g>
+    <g id="FIRE">
+      <text transform="translate(469.4538 644.1201) rotate(-47.825)" font-size="117.1932" font-family="Herculanum">13</text>
+      <text transform="matrix(0.5955, -0.8033, 0.8033, 0.5955, 363.3238, 781.8102)" font-size="117.1932" font-family="Herculanum">49</text>
+      <text transform="matrix(0.5139, -0.8578, 0.8578, 0.5139, 286.5019, 908.4909)" font-size="117.1932" font-family="Herculanum">30</text>
+      <text transform="matrix(0.4274, -0.9041, 0.9041, 0.4274, 221.8321, 1041.3285)" font-size="117.1932" font-family="Herculanum">55</text>
+      <text transform="translate(169.2912 1183.0855) rotate(-70.3253)" font-size="117.1932" font-family="Herculanum">37</text>
+      <text transform="translate(127.9921 1337.396) rotate(-75.9499)" font-size="117.1932" font-family="Herculanum">63</text>
+      <text transform="translate(104.3327 1489.1239) rotate(-81.5753)" font-size="117.1932" font-family="Herculanum">22</text>
+      <text transform="translate(95.38 1642.4306) rotate(-87.2)" font-size="117.1932" font-family="Herculanum">36</text>
+    </g>
+    <g id="LAKE">
+      <text transform="translate(1526.4403 100.4517) rotate(-2.8253)" font-size="117.1932" font-family="Herculanum">10</text>
+      <text transform="matrix(0.9891, -0.1469, 0.1469, 0.9891, 1368.0732, 121.8003)" font-size="117.1932" font-family="Herculanum">58</text>
+      <text transform="translate(1220.2102 157.7009) rotate(-14.0749)" font-size="117.1932" font-family="Herculanum">38</text>
+      <text transform="translate(1072.3199 208.7979) rotate(-19.7003)" font-size="117.1932" font-family="Herculanum">54</text>
+      <text transform="translate(941.9418 269.2044) rotate(-25.3248)" font-size="117.1932" font-family="Herculanum">61</text>
+      <text transform="translate(796.262 353.9141) rotate(-30.9499)" font-size="117.1932" font-family="Herculanum">60</text>
+      <text transform="translate(683.6479 436.07) rotate(-36.5747)" font-size="117.1932" font-family="Herculanum">41</text>
+      <text transform="matrix(0.7408, -0.6717, 0.6717, 0.7408, 570.1232, 535.6796)" font-size="117.1932" font-family="Herculanum">19</text>
+    </g>
+    <g id="HEAVEN">
+      <text transform="translate(2692.0642 487.6134) rotate(42.175)" font-size="117.1932" font-family="Herculanum">1</text>
+      <text transform="matrix(0.8033, 0.5955, -0.5955, 0.8033, 2538.1081, 366.3589)" font-size="117.1932" font-family="Herculanum">43</text>
+      <text transform="matrix(0.8578, 0.5139, -0.5139, 0.8578, 2413.8628, 290.4744)" font-size="117.1932" font-family="Herculanum">14</text>
+      <text transform="matrix(0.9041, 0.4274, -0.4274, 0.9041, 2269.088, 219.5098)" font-size="117.1932" font-family="Herculanum">34</text>
+      <text transform="translate(2153.0376 176.3684) rotate(19.6747)" font-size="117.1932" font-family="Herculanum">9</text>
+      <text transform="translate(2009.2907 135.9058) rotate(14.0501)" font-size="117.1932" font-family="Herculanum">5</text>
+      <text transform="translate(1823.3975 103.6421) rotate(8.4247)" font-size="117.1932" font-family="Herculanum">26</text>
+      <text transform="translate(1695.4038 96.3741) rotate(2.8)" font-size="117.1932" font-family="Herculanum">11</text>
+    </g>
+  </g>
+</svg>
