@@ -28,11 +28,11 @@ V3 Knowledge Engine (unified-query-engine.js)
         │   • generateStructure()     │
         └─────────────────────────────┘
                     │
-        ┌───────────┼───────────┬───────────┬───────────┬───────────┐
-        ▼           ▼           ▼           ▼           ▼           ▼
-   Hexagram    Numbers    I Ching     Gate       Gene Keys  (Future
-     Ring       Ring      Names      Names        Ring       Rings)
-                          Ring       Ring
+        ┌───────────┼───────────┬───────────┬───────────┬───────────┬───────────┐
+        ▼           ▼           ▼           ▼           ▼           ▼           ▼
+   Hexagram    Numbers    I Ching     Gate       Gene Keys  Incarnation (Future
+     Ring       Ring      Names      Names        Ring       Crosses     Rings)
+                          Ring       Ring                     Ring
 ```
 
 ## Working Ring Generators
@@ -43,7 +43,8 @@ V3 Knowledge Engine (unified-query-engine.js)
 | **Gate Numbers** | `numbers-ring.js` | Gate sequence | ✓ | 1-64 gate numbers |
 | **I Ching Names** | `iching-names-ring.js` | `ichingName` | 44 | Traditional I Ching hexagram names |
 | **Gate Names** | `gate-names-ring.js` | `mandalaGateName` | 28 | HD mandala gate names |
-| **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 35 | 3-ring Gene Keys spectrum |
+| **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 37 | 3-ring Gene Keys spectrum |
+| **Incarnation Crosses** | `incarnation-crosses-ring.js` | `crosses-display-mappings.json` | 30 | 192 crosses (JX/RAX/LAX) |
 
 ## Key Principles
 
@@ -95,7 +96,8 @@ visualization/
 │   ├── numbers-ring.js          # Gate numbers
 │   ├── iching-names-ring.js     # I Ching names
 │   ├── gate-names-ring.js       # HD gate names
-│   └── gene-keys-ring.js        # Gene Keys (shadow/gift/siddhi)
+│   ├── gene-keys-ring.js        # Gene Keys (shadow/gift/siddhi)
+│   └── incarnation-crosses-ring.js  # 192 incarnation crosses
 ├── output/
 │   └── generated-*.svg          # Generated SVG files
 ├── core/                        # Core utilities (legacy)
@@ -119,6 +121,9 @@ node visualization/generators/gate-names-ring.js output.svg
 
 # Generate Gene Keys ring (3 concentric bands)
 node visualization/generators/gene-keys-ring.js output.svg
+
+# Generate Incarnation Crosses ring (192 crosses in 3 bands)
+node visualization/generators/incarnation-crosses-ring.js output.svg
 ```
 
 ### Programmatic Usage
@@ -145,8 +150,11 @@ node tests/iching-names-ring-generator.test.js
 # Gate names ring tests (28 tests)
 node tests/gate-names-ring-generator.test.js
 
-# Gene Keys ring tests (35 tests)
+# Gene Keys ring tests (37 tests)
 node tests/gene-keys-ring-generator.test.js
+
+# Incarnation Crosses ring tests (30 tests)
+node tests/incarnation-crosses-ring-generator.test.js
 ```
 
 ## Ring Geometry Reference
@@ -191,6 +199,18 @@ const RINGS = {
   gifts:   { innerRadius: 1784.2557, outerRadius: 1835.9456 },
   siddhis: { innerRadius: 1837.7815, outerRadius: 1889.9038 }
 };
+```
+
+### Incarnation Crosses Ring (3 text bands, 192 crosses)
+```javascript
+const CENTER = { x: 2269.7216, y: 2269.9519 };
+const RING_RADII = {
+  bottom: 2000.1011,      // Inner boundary
+  lowerInner: 2086.5709,  // Between RAX and JX
+  upperInner: 2177.8085,  // Between JX and LAX
+  top: 2266.954           // Outer boundary
+};
+// Bands: RAX (inner), JX (middle), LAX (outer)
 ```
 
 ## Text Fitting System
@@ -240,4 +260,4 @@ See `docs/reference/SVG-GENERATION-METHODOLOGY.md` for detailed methodology.
 ---
 
 *Last updated: 29 November 2025*
-*Status: 5 rings working (107+ tests), docked to V3 engine*
+*Status: 6 rings working (139+ tests), docked to V3 engine*

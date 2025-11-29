@@ -1,0 +1,1550 @@
+{
+  "systemName": "Incarnation Crosses Display",
+  "version": "1.0.0",
+  "description": "The 192 incarnation crosses as displayed on the HD mandala wheel",
+  "completeness": "full",
+  "statistics": {
+    "totalCrosses": 192,
+    "juxtaposition": 64,
+    "rightAngle": 64,
+    "leftAngle": 64
+  },
+  "crosses": [
+    {
+      "type": "JX",
+      "name": "Self-Expression",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 4,
+      "designEarth": 49
+    },
+    {
+      "type": "JX",
+      "name": "The Driver",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 49,
+      "designEarth": 4
+    },
+    {
+      "type": "JX",
+      "name": "Mutation",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 41,
+      "designEarth": 31
+    },
+    {
+      "type": "JX",
+      "name": "Formalization",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 8,
+      "designEarth": 14
+    },
+    {
+      "type": "JX",
+      "name": "Habits",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 47,
+      "designEarth": 22
+    },
+    {
+      "type": "JX",
+      "name": "Conflict",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 15,
+      "designEarth": 10
+    },
+    {
+      "type": "JX",
+      "name": "Interaction",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 23,
+      "designEarth": 43
+    },
+    {
+      "type": "JX",
+      "name": "Contribution",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 55,
+      "designEarth": 59
+    },
+    {
+      "type": "JX",
+      "name": "Experimentation",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 64,
+      "designEarth": 63
+    },
+    {
+      "type": "JX",
+      "name": "Behaviour",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 18,
+      "designEarth": 17
+    },
+    {
+      "type": "JX",
+      "name": "Ideas",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 46,
+      "designEarth": 25
+    },
+    {
+      "type": "JX",
+      "name": "Articulation",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 25,
+      "designEarth": 46
+    },
+    {
+      "type": "JX",
+      "name": "Listening",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 43,
+      "designEarth": 23
+    },
+    {
+      "type": "JX",
+      "name": "Empowering",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 59,
+      "designEarth": 55
+    },
+    {
+      "type": "JX",
+      "name": "Extremes",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 17,
+      "designEarth": 18
+    },
+    {
+      "type": "JX",
+      "name": "Experimentation",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 63,
+      "designEarth": 64
+    },
+    {
+      "type": "JX",
+      "name": "Opinions",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 38,
+      "designEarth": 39
+    },
+    {
+      "type": "JX",
+      "name": "Correction",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 39,
+      "designEarth": 38
+    },
+    {
+      "type": "JX",
+      "name": "Need",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 1,
+      "designEarth": 2
+    },
+    {
+      "type": "JX",
+      "name": "The Now",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 37,
+      "designEarth": 40
+    },
+    {
+      "type": "JX",
+      "name": "Control",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 54,
+      "designEarth": 53
+    },
+    {
+      "type": "JX",
+      "name": "Grace",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 11,
+      "designEarth": 12
+    },
+    {
+      "type": "JX",
+      "name": "Assimilation",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 30,
+      "designEarth": 29
+    },
+    {
+      "type": "JX",
+      "name": "Rationalisation",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 13,
+      "designEarth": 7
+    },
+    {
+      "type": "JX",
+      "name": "Innocence",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 58,
+      "designEarth": 52
+    },
+    {
+      "type": "JX",
+      "name": "Trickster",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 6,
+      "designEarth": 36
+    },
+    {
+      "type": "JX",
+      "name": "Caring",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 19,
+      "designEarth": 33
+    },
+    {
+      "type": "JX",
+      "name": "Risks",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 33,
+      "designEarth": 19
+    },
+    {
+      "type": "JX",
+      "name": "Commitment",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 20,
+      "designEarth": 34
+    },
+    {
+      "type": "JX",
+      "name": "Fates",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 34,
+      "designEarth": 20
+    },
+    {
+      "type": "JX",
+      "name": "Influence",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 24,
+      "designEarth": 44
+    },
+    {
+      "type": "JX",
+      "name": "Conservation",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 56,
+      "designEarth": 60
+    },
+    {
+      "type": "JX",
+      "name": "Retreat",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 2,
+      "designEarth": 1
+    },
+    {
+      "type": "JX",
+      "name": "Power",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 40,
+      "designEarth": 37
+    },
+    {
+      "type": "JX",
+      "name": "Experience",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 22,
+      "designEarth": 47
+    },
+    {
+      "type": "JX",
+      "name": "Crisis",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 10,
+      "designEarth": 15
+    },
+    {
+      "type": "JX",
+      "name": "Bargains",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 5,
+      "designEarth": 35
+    },
+    {
+      "type": "JX",
+      "name": "Opposition",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 57,
+      "designEarth": 51
+    },
+    {
+      "type": "JX",
+      "name": "Provocation",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 51,
+      "designEarth": 57
+    },
+    {
+      "type": "JX",
+      "name": "Denial",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 35,
+      "designEarth": 5
+    },
+    {
+      "type": "JX",
+      "name": "Fantasy",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 44,
+      "designEarth": 24
+    },
+    {
+      "type": "JX",
+      "name": "Completion",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 60,
+      "designEarth": 56
+    },
+    {
+      "type": "JX",
+      "name": "Insights",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 29,
+      "designEarth": 30
+    },
+    {
+      "type": "JX",
+      "name": "Alertness",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 7,
+      "designEarth": 13
+    },
+    {
+      "type": "JX",
+      "name": "Possession",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 36,
+      "designEarth": 6
+    },
+    {
+      "type": "JX",
+      "name": "Serendipity",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 52,
+      "designEarth": 58
+    },
+    {
+      "type": "JX",
+      "name": "Oppression",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 12,
+      "designEarth": 11
+    },
+    {
+      "type": "JX",
+      "name": "Depth",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 53,
+      "designEarth": 54
+    },
+    {
+      "type": "JX",
+      "name": "Principles",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 14,
+      "designEarth": 8
+    },
+    {
+      "type": "JX",
+      "name": "Values",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 31,
+      "designEarth": 41
+    },
+    {
+      "type": "JX",
+      "name": "Shock",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 61,
+      "designEarth": 62
+    },
+    {
+      "type": "JX",
+      "name": "Stillness",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 21,
+      "designEarth": 48
+    },
+    {
+      "type": "JX",
+      "name": "Beginnings",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 42,
+      "designEarth": 32
+    },
+    {
+      "type": "JX",
+      "name": "Ambition",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 32,
+      "designEarth": 42
+    },
+    {
+      "type": "JX",
+      "name": "Moods",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 9,
+      "designEarth": 16
+    },
+    {
+      "type": "JX",
+      "name": "Stimulation",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 27,
+      "designEarth": 28
+    },
+    {
+      "type": "JX",
+      "name": "Intuition",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 62,
+      "designEarth": 61
+    },
+    {
+      "type": "JX",
+      "name": "Vitality",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 48,
+      "designEarth": 21
+    },
+    {
+      "type": "JX",
+      "name": "Strategy",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 16,
+      "designEarth": 9
+    },
+    {
+      "type": "JX",
+      "name": "Limitation",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 28,
+      "designEarth": 27
+    },
+    {
+      "type": "JX",
+      "name": "Thinking",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 50,
+      "designEarth": 3
+    },
+    {
+      "type": "JX",
+      "name": "Detail",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 3,
+      "designEarth": 50
+    },
+    {
+      "type": "JX",
+      "name": "Doubts",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 26,
+      "designEarth": 45
+    },
+    {
+      "type": "JX",
+      "name": "Confusion",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 45,
+      "designEarth": 26
+    },
+    {
+      "type": "RAX",
+      "name": "The Sphinx 4",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 7,
+      "designEarth": 13
+    },
+    {
+      "type": "RAX",
+      "name": "The Sphinx 2",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 13,
+      "designEarth": 7
+    },
+    {
+      "type": "RAX",
+      "name": "Laws",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 60,
+      "designEarth": 56
+    },
+    {
+      "type": "RAX",
+      "name": "Explanation 3",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 23,
+      "designEarth": 43
+    },
+    {
+      "type": "RAX",
+      "name": "Consciousness 4",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 64,
+      "designEarth": 63
+    },
+    {
+      "type": "RAX",
+      "name": "Eden 3",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 12,
+      "designEarth": 11
+    },
+    {
+      "type": "RAX",
+      "name": "The Sphinx 3",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 2,
+      "designEarth": 1
+    },
+    {
+      "type": "RAX",
+      "name": "Contagion 2",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 30,
+      "designEarth": 29
+    },
+    {
+      "type": "RAX",
+      "name": "Planning 4",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 40,
+      "designEarth": 37
+    },
+    {
+      "type": "RAX",
+      "name": "Vessel of Love 4",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 46,
+      "designEarth": 25
+    },
+    {
+      "type": "RAX",
+      "name": "Eden 4",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 6,
+      "designEarth": 36
+    },
+    {
+      "type": "RAX",
+      "name": "Eden 2",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 36,
+      "designEarth": 6
+    },
+    {
+      "type": "RAX",
+      "name": "The Sphinx",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 1,
+      "designEarth": 2
+    },
+    {
+      "type": "RAX",
+      "name": "Contagion 4",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 29,
+      "designEarth": 30
+    },
+    {
+      "type": "RAX",
+      "name": "Vessel of Love 2",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 25,
+      "designEarth": 46
+    },
+    {
+      "type": "RAX",
+      "name": "Planning 2",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 37,
+      "designEarth": 40
+    },
+    {
+      "type": "RAX",
+      "name": "Service",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 58,
+      "designEarth": 52
+    },
+    {
+      "type": "RAX",
+      "name": "Service 3",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 52,
+      "designEarth": 58
+    },
+    {
+      "type": "RAX",
+      "name": "The Four Ways 4",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 44,
+      "designEarth": 24
+    },
+    {
+      "type": "RAX",
+      "name": "Sleeping Phoenix 2",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 55,
+      "designEarth": 59
+    },
+    {
+      "type": "RAX",
+      "name": "Tension",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 38,
+      "designEarth": 39
+    },
+    {
+      "type": "RAX",
+      "name": "Rulership",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 26,
+      "designEarth": 45
+    },
+    {
+      "type": "RAX",
+      "name": "Explanation 2",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 49,
+      "designEarth": 4
+    },
+    {
+      "type": "RAX",
+      "name": "The Four Ways",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 19,
+      "designEarth": 33
+    },
+    {
+      "type": "RAX",
+      "name": "Vessel of Love",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 10,
+      "designEarth": 15
+    },
+    {
+      "type": "RAX",
+      "name": "Rulership 4",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 47,
+      "designEarth": 22
+    },
+    {
+      "type": "RAX",
+      "name": "Unexpected",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 41,
+      "designEarth": 31
+    },
+    {
+      "type": "RAX",
+      "name": "Unexpected 3",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 31,
+      "designEarth": 41
+    },
+    {
+      "type": "RAX",
+      "name": "Contagion 3",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 8,
+      "designEarth": 14
+    },
+    {
+      "type": "RAX",
+      "name": "Contagion",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 14,
+      "designEarth": 8
+    },
+    {
+      "type": "RAX",
+      "name": "Unexpected 2",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 27,
+      "designEarth": 28
+    },
+    {
+      "type": "RAX",
+      "name": "Maia 3",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 62,
+      "designEarth": 61
+    },
+    {
+      "type": "RAX",
+      "name": "The Four Ways 2",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 24,
+      "designEarth": 44
+    },
+    {
+      "type": "RAX",
+      "name": "Sleeping Phoenix 4",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 59,
+      "designEarth": 55
+    },
+    {
+      "type": "RAX",
+      "name": "Consciousness 2",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 63,
+      "designEarth": 64
+    },
+    {
+      "type": "RAX",
+      "name": "Eden",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 11,
+      "designEarth": 12
+    },
+    {
+      "type": "RAX",
+      "name": "Planning",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 9,
+      "designEarth": 16
+    },
+    {
+      "type": "RAX",
+      "name": "Tension 4",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 48,
+      "designEarth": 21
+    },
+    {
+      "type": "RAX",
+      "name": "Tension 2",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 21,
+      "designEarth": 48
+    },
+    {
+      "type": "RAX",
+      "name": "Planning 3",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 16,
+      "designEarth": 9
+    },
+    {
+      "type": "RAX",
+      "name": "Unexpected 4",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 28,
+      "designEarth": 27
+    },
+    {
+      "type": "RAX",
+      "name": "Maia",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 61,
+      "designEarth": 62
+    },
+    {
+      "type": "RAX",
+      "name": "Explanation 4",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 4,
+      "designEarth": 49
+    },
+    {
+      "type": "RAX",
+      "name": "The Four Ways 3",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 33,
+      "designEarth": 19
+    },
+    {
+      "type": "RAX",
+      "name": "Rulership 2",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 22,
+      "designEarth": 47
+    },
+    {
+      "type": "RAX",
+      "name": "Vessel of Love 3",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 15,
+      "designEarth": 10
+    },
+    {
+      "type": "RAX",
+      "name": "Rulership 3",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 45,
+      "designEarth": 26
+    },
+    {
+      "type": "RAX",
+      "name": "Tension 3",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 39,
+      "designEarth": 38
+    },
+    {
+      "type": "RAX",
+      "name": "Explanation",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 43,
+      "designEarth": 23
+    },
+    {
+      "type": "RAX",
+      "name": "Laws 3",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 56,
+      "designEarth": 60
+    },
+    {
+      "type": "RAX",
+      "name": "Penetration",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 54,
+      "designEarth": 53
+    },
+    {
+      "type": "RAX",
+      "name": "Service 2",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 17,
+      "designEarth": 18
+    },
+    {
+      "type": "RAX",
+      "name": "Penetration 2",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 51,
+      "designEarth": 57
+    },
+    {
+      "type": "RAX",
+      "name": "Penetration 4",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 57,
+      "designEarth": 51
+    },
+    {
+      "type": "RAX",
+      "name": "Sleeping Phoenix",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 34,
+      "designEarth": 20
+    },
+    {
+      "type": "RAX",
+      "name": "Laws 2",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 3,
+      "designEarth": 50
+    },
+    {
+      "type": "RAX",
+      "name": "Penetration 3",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 53,
+      "designEarth": 54
+    },
+    {
+      "type": "RAX",
+      "name": "Service 4",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 18,
+      "designEarth": 17
+    },
+    {
+      "type": "RAX",
+      "name": "Sleeping Phoenix 3",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 20,
+      "designEarth": 34
+    },
+    {
+      "type": "RAX",
+      "name": "Laws 4",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 50,
+      "designEarth": 3
+    },
+    {
+      "type": "RAX",
+      "name": "Maia 4",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 32,
+      "designEarth": 42
+    },
+    {
+      "type": "RAX",
+      "name": "Maia 2",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 42,
+      "designEarth": 32
+    },
+    {
+      "type": "RAX",
+      "name": "Consciousness",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 5,
+      "designEarth": 35
+    },
+    {
+      "type": "RAX",
+      "name": "Consciousness 3",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 35,
+      "designEarth": 5
+    },
+    {
+      "type": "LAX",
+      "name": "Defiance 2",
+      "personalitySun": 1,
+      "personalityEarth": 2,
+      "designSun": 4,
+      "designEarth": 49
+    },
+    {
+      "type": "LAX",
+      "name": "Defiance",
+      "personalitySun": 2,
+      "personalityEarth": 1,
+      "designSun": 49,
+      "designEarth": 4
+    },
+    {
+      "type": "LAX",
+      "name": "Wishes",
+      "personalitySun": 3,
+      "personalityEarth": 50,
+      "designSun": 41,
+      "designEarth": 31
+    },
+    {
+      "type": "LAX",
+      "name": "Revolution 2",
+      "personalitySun": 4,
+      "personalityEarth": 49,
+      "designSun": 8,
+      "designEarth": 14
+    },
+    {
+      "type": "LAX",
+      "name": "Separation 2",
+      "personalitySun": 5,
+      "personalityEarth": 35,
+      "designSun": 47,
+      "designEarth": 22
+    },
+    {
+      "type": "LAX",
+      "name": "Plane 2",
+      "personalitySun": 6,
+      "personalityEarth": 36,
+      "designSun": 15,
+      "designEarth": 10
+    },
+    {
+      "type": "LAX",
+      "name": "Masks 2",
+      "personalitySun": 7,
+      "personalityEarth": 13,
+      "designSun": 23,
+      "designEarth": 43
+    },
+    {
+      "type": "LAX",
+      "name": "Uncertainty",
+      "personalitySun": 8,
+      "personalityEarth": 14,
+      "designSun": 55,
+      "designEarth": 59
+    },
+    {
+      "type": "LAX",
+      "name": "Identification 2",
+      "personalitySun": 9,
+      "personalityEarth": 16,
+      "designSun": 64,
+      "designEarth": 63
+    },
+    {
+      "type": "LAX",
+      "name": "Prevention 2",
+      "personalitySun": 10,
+      "personalityEarth": 15,
+      "designSun": 18,
+      "designEarth": 17
+    },
+    {
+      "type": "LAX",
+      "name": "Education 2",
+      "personalitySun": 11,
+      "personalityEarth": 12,
+      "designSun": 46,
+      "designEarth": 25
+    },
+    {
+      "type": "LAX",
+      "name": "Education",
+      "personalitySun": 12,
+      "personalityEarth": 11,
+      "designSun": 25,
+      "designEarth": 46
+    },
+    {
+      "type": "LAX",
+      "name": "Masks",
+      "personalitySun": 13,
+      "personalityEarth": 7,
+      "designSun": 43,
+      "designEarth": 23
+    },
+    {
+      "type": "LAX",
+      "name": "Uncertainty 2",
+      "personalitySun": 14,
+      "personalityEarth": 8,
+      "designSun": 59,
+      "designEarth": 55
+    },
+    {
+      "type": "LAX",
+      "name": "Prevention",
+      "personalitySun": 15,
+      "personalityEarth": 10,
+      "designSun": 17,
+      "designEarth": 18
+    },
+    {
+      "type": "LAX",
+      "name": "Identification",
+      "personalitySun": 16,
+      "personalityEarth": 9,
+      "designSun": 63,
+      "designEarth": 64
+    },
+    {
+      "type": "LAX",
+      "name": "Upheaval",
+      "personalitySun": 17,
+      "personalityEarth": 18,
+      "designSun": 38,
+      "designEarth": 39
+    },
+    {
+      "type": "LAX",
+      "name": "Upheaval 2",
+      "personalitySun": 18,
+      "personalityEarth": 17,
+      "designSun": 39,
+      "designEarth": 38
+    },
+    {
+      "type": "LAX",
+      "name": "Refinement 2",
+      "personalitySun": 19,
+      "personalityEarth": 33,
+      "designSun": 1,
+      "designEarth": 2
+    },
+    {
+      "type": "LAX",
+      "name": "Duality",
+      "personalitySun": 20,
+      "personalityEarth": 34,
+      "designSun": 37,
+      "designEarth": 40
+    },
+    {
+      "type": "LAX",
+      "name": "Endeavour",
+      "personalitySun": 21,
+      "personalityEarth": 48,
+      "designSun": 54,
+      "designEarth": 53
+    },
+    {
+      "type": "LAX",
+      "name": "Informing",
+      "personalitySun": 22,
+      "personalityEarth": 47,
+      "designSun": 11,
+      "designEarth": 12
+    },
+    {
+      "type": "LAX",
+      "name": "Dedication",
+      "personalitySun": 23,
+      "personalityEarth": 43,
+      "designSun": 30,
+      "designEarth": 29
+    },
+    {
+      "type": "LAX",
+      "name": "Incarnation",
+      "personalitySun": 24,
+      "personalityEarth": 44,
+      "designSun": 13,
+      "designEarth": 7
+    },
+    {
+      "type": "LAX",
+      "name": "Healing",
+      "personalitySun": 25,
+      "personalityEarth": 46,
+      "designSun": 58,
+      "designEarth": 52
+    },
+    {
+      "type": "LAX",
+      "name": "Confrontation 2",
+      "personalitySun": 26,
+      "personalityEarth": 45,
+      "designSun": 6,
+      "designEarth": 36
+    },
+    {
+      "type": "LAX",
+      "name": "Alignment",
+      "personalitySun": 27,
+      "personalityEarth": 28,
+      "designSun": 19,
+      "designEarth": 33
+    },
+    {
+      "type": "LAX",
+      "name": "Alignment 2",
+      "personalitySun": 28,
+      "personalityEarth": 27,
+      "designSun": 33,
+      "designEarth": 19
+    },
+    {
+      "type": "LAX",
+      "name": "Industry 2",
+      "personalitySun": 29,
+      "personalityEarth": 30,
+      "designSun": 20,
+      "designEarth": 34
+    },
+    {
+      "type": "LAX",
+      "name": "Industry",
+      "personalitySun": 30,
+      "personalityEarth": 29,
+      "designSun": 34,
+      "designEarth": 20
+    },
+    {
+      "type": "LAX",
+      "name": "Alpha",
+      "personalitySun": 31,
+      "personalityEarth": 41,
+      "designSun": 24,
+      "designEarth": 44
+    },
+    {
+      "type": "LAX",
+      "name": "Limitation 2",
+      "personalitySun": 32,
+      "personalityEarth": 42,
+      "designSun": 56,
+      "designEarth": 60
+    },
+    {
+      "type": "LAX",
+      "name": "Refinement",
+      "personalitySun": 33,
+      "personalityEarth": 19,
+      "designSun": 2,
+      "designEarth": 1
+    },
+    {
+      "type": "LAX",
+      "name": "Duality 2",
+      "personalitySun": 34,
+      "personalityEarth": 20,
+      "designSun": 40,
+      "designEarth": 37
+    },
+    {
+      "type": "LAX",
+      "name": "Separation",
+      "personalitySun": 35,
+      "personalityEarth": 5,
+      "designSun": 22,
+      "designEarth": 47
+    },
+    {
+      "type": "LAX",
+      "name": "Plane",
+      "personalitySun": 36,
+      "personalityEarth": 6,
+      "designSun": 10,
+      "designEarth": 15
+    },
+    {
+      "type": "LAX",
+      "name": "Migration",
+      "personalitySun": 37,
+      "personalityEarth": 40,
+      "designSun": 5,
+      "designEarth": 35
+    },
+    {
+      "type": "LAX",
+      "name": "Individualism 2",
+      "personalitySun": 38,
+      "personalityEarth": 39,
+      "designSun": 57,
+      "designEarth": 51
+    },
+    {
+      "type": "LAX",
+      "name": "Individualism",
+      "personalitySun": 39,
+      "personalityEarth": 38,
+      "designSun": 51,
+      "designEarth": 57
+    },
+    {
+      "type": "LAX",
+      "name": "Migration 2",
+      "personalitySun": 40,
+      "personalityEarth": 37,
+      "designSun": 35,
+      "designEarth": 5
+    },
+    {
+      "type": "LAX",
+      "name": "Alpha 2",
+      "personalitySun": 41,
+      "personalityEarth": 31,
+      "designSun": 44,
+      "designEarth": 24
+    },
+    {
+      "type": "LAX",
+      "name": "Limitation",
+      "personalitySun": 42,
+      "personalityEarth": 32,
+      "designSun": 60,
+      "designEarth": 56
+    },
+    {
+      "type": "LAX",
+      "name": "Dedication 2",
+      "personalitySun": 43,
+      "personalityEarth": 23,
+      "designSun": 29,
+      "designEarth": 30
+    },
+    {
+      "type": "LAX",
+      "name": "Incarnation 2",
+      "personalitySun": 44,
+      "personalityEarth": 24,
+      "designSun": 7,
+      "designEarth": 13
+    },
+    {
+      "type": "LAX",
+      "name": "Confrontation",
+      "personalitySun": 45,
+      "personalityEarth": 26,
+      "designSun": 36,
+      "designEarth": 6
+    },
+    {
+      "type": "LAX",
+      "name": "Healing 2",
+      "personalitySun": 46,
+      "personalityEarth": 25,
+      "designSun": 52,
+      "designEarth": 58
+    },
+    {
+      "type": "LAX",
+      "name": "Informing 2",
+      "personalitySun": 47,
+      "personalityEarth": 22,
+      "designSun": 12,
+      "designEarth": 11
+    },
+    {
+      "type": "LAX",
+      "name": "Endeavour 2",
+      "personalitySun": 48,
+      "personalityEarth": 21,
+      "designSun": 53,
+      "designEarth": 54
+    },
+    {
+      "type": "LAX",
+      "name": "Revolution",
+      "personalitySun": 49,
+      "personalityEarth": 4,
+      "designSun": 14,
+      "designEarth": 8
+    },
+    {
+      "type": "LAX",
+      "name": "Wishes 2",
+      "personalitySun": 50,
+      "personalityEarth": 3,
+      "designSun": 31,
+      "designEarth": 41
+    },
+    {
+      "type": "LAX",
+      "name": "Clarion",
+      "personalitySun": 51,
+      "personalityEarth": 57,
+      "designSun": 61,
+      "designEarth": 62
+    },
+    {
+      "type": "LAX",
+      "name": "Demands",
+      "personalitySun": 52,
+      "personalityEarth": 58,
+      "designSun": 21,
+      "designEarth": 48
+    },
+    {
+      "type": "LAX",
+      "name": "Cycles",
+      "personalitySun": 53,
+      "personalityEarth": 54,
+      "designSun": 42,
+      "designEarth": 32
+    },
+    {
+      "type": "LAX",
+      "name": "Cycles 2",
+      "personalitySun": 54,
+      "personalityEarth": 53,
+      "designSun": 32,
+      "designEarth": 42
+    },
+    {
+      "type": "LAX",
+      "name": "Spirit",
+      "personalitySun": 55,
+      "personalityEarth": 59,
+      "designSun": 9,
+      "designEarth": 16
+    },
+    {
+      "type": "LAX",
+      "name": "Distraction",
+      "personalitySun": 56,
+      "personalityEarth": 60,
+      "designSun": 27,
+      "designEarth": 28
+    },
+    {
+      "type": "LAX",
+      "name": "Clarion 2",
+      "personalitySun": 57,
+      "personalityEarth": 51,
+      "designSun": 62,
+      "designEarth": 61
+    },
+    {
+      "type": "LAX",
+      "name": "Demands 2",
+      "personalitySun": 58,
+      "personalityEarth": 52,
+      "designSun": 48,
+      "designEarth": 21
+    },
+    {
+      "type": "LAX",
+      "name": "Spirit 2",
+      "personalitySun": 59,
+      "personalityEarth": 55,
+      "designSun": 16,
+      "designEarth": 9
+    },
+    {
+      "type": "LAX",
+      "name": "Distraction 2",
+      "personalitySun": 60,
+      "personalityEarth": 56,
+      "designSun": 28,
+      "designEarth": 27
+    },
+    {
+      "type": "LAX",
+      "name": "Obscuration 2",
+      "personalitySun": 61,
+      "personalityEarth": 62,
+      "designSun": 50,
+      "designEarth": 3
+    },
+    {
+      "type": "LAX",
+      "name": "Obscuration",
+      "personalitySun": 62,
+      "personalityEarth": 61,
+      "designSun": 3,
+      "designEarth": 50
+    },
+    {
+      "type": "LAX",
+      "name": "Dominion",
+      "personalitySun": 63,
+      "personalityEarth": 64,
+      "designSun": 26,
+      "designEarth": 45
+    },
+    {
+      "type": "LAX",
+      "name": "Dominion 2",
+      "personalitySun": 64,
+      "personalityEarth": 63,
+      "designSun": 45,
+      "designEarth": 26
+    }
+  ]
+}
