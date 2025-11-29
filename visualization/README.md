@@ -28,10 +28,10 @@ V3 Knowledge Engine (unified-query-engine.js)
         │   • generateStructure()     │
         └─────────────────────────────┘
                     │
-        ┌───────────┼───────────┬───────────┬───────────┐
-        ▼           ▼           ▼           ▼           ▼
-   Hexagram    Numbers    I Ching     Gate       (Future
-     Ring       Ring      Names      Names       Rings)
+        ┌───────────┼───────────┬───────────┬───────────┬───────────┐
+        ▼           ▼           ▼           ▼           ▼           ▼
+   Hexagram    Numbers    I Ching     Gate       Gene Keys  (Future
+     Ring       Ring      Names      Names        Ring       Rings)
                           Ring       Ring
 ```
 
@@ -43,6 +43,7 @@ V3 Knowledge Engine (unified-query-engine.js)
 | **Gate Numbers** | `numbers-ring.js` | Gate sequence | ✓ | 1-64 gate numbers |
 | **I Ching Names** | `iching-names-ring.js` | `ichingName` | 44 | Traditional I Ching hexagram names |
 | **Gate Names** | `gate-names-ring.js` | `mandalaGateName` | 28 | HD mandala gate names |
+| **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 35 | 3-ring Gene Keys spectrum |
 
 ## Key Principles
 
@@ -93,7 +94,8 @@ visualization/
 │   ├── hexagram-ring.js         # Hexagram symbols
 │   ├── numbers-ring.js          # Gate numbers
 │   ├── iching-names-ring.js     # I Ching names
-│   └── gate-names-ring.js       # HD gate names
+│   ├── gate-names-ring.js       # HD gate names
+│   └── gene-keys-ring.js        # Gene Keys (shadow/gift/siddhi)
 ├── output/
 │   └── generated-*.svg          # Generated SVG files
 ├── core/                        # Core utilities (legacy)
@@ -114,6 +116,9 @@ node visualization/generators/iching-names-ring.js output.svg
 
 # Generate gate names ring
 node visualization/generators/gate-names-ring.js output.svg
+
+# Generate Gene Keys ring (3 concentric bands)
+node visualization/generators/gene-keys-ring.js output.svg
 ```
 
 ### Programmatic Usage
@@ -139,6 +144,9 @@ node tests/iching-names-ring-generator.test.js
 
 # Gate names ring tests (28 tests)
 node tests/gate-names-ring-generator.test.js
+
+# Gene Keys ring tests (35 tests)
+node tests/gene-keys-ring-generator.test.js
 ```
 
 ## Ring Geometry Reference
@@ -172,6 +180,16 @@ const RING = {
   innerRadius: 1334.4257,
   outerRadius: 1451.094,
   bandWidth: 116.67  // px
+};
+```
+
+### Gene Keys Ring (3 concentric bands)
+```javascript
+const CENTER = { x: 1985.3602, y: 1985.3602 };
+const RINGS = {
+  shadows: { innerRadius: 1730.5472, outerRadius: 1782.4786 },
+  gifts:   { innerRadius: 1784.2557, outerRadius: 1835.9456 },
+  siddhis: { innerRadius: 1837.7815, outerRadius: 1889.9038 }
 };
 ```
 
@@ -222,4 +240,4 @@ See `docs/reference/SVG-GENERATION-METHODOLOGY.md` for detailed methodology.
 ---
 
 *Last updated: 29 November 2025*
-*Status: 4 rings working, docked to V3 engine*
+*Status: 5 rings working (107+ tests), docked to V3 engine*
