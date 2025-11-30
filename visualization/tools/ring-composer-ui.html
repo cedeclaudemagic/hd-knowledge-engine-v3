@@ -4,7 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HD Wheel Ring Composer</title>
+  <!-- Characterful typography: Cinzel for headings (classical/mystical), Inter for UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
+    :root {
+      /* Sacred geometry color palette */
+      --gold-primary: #D4AF37;
+      --gold-light: #F4D35E;
+      --gold-dark: #996515;
+      --void-deep: #0A0E14;
+      --void-mid: #12171F;
+      --void-surface: #1A2029;
+      --void-elevated: #232A36;
+      --cosmic-blue: #2D4A6F;
+      --cosmic-teal: #1E4D4D;
+      --text-primary: #E8E4DC;
+      --text-secondary: #9A9590;
+      --text-muted: #5C5852;
+      --border-subtle: rgba(212, 175, 55, 0.15);
+      --border-accent: rgba(212, 175, 55, 0.4);
+      --glow-gold: rgba(212, 175, 55, 0.3);
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -12,85 +35,195 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #1a1a2e;
-      color: #eee;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--void-deep);
+      color: var(--text-primary);
       display: flex;
       height: 100vh;
       overflow: hidden;
     }
 
+    /* Orchestrated entrance animations */
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes glowPulse {
+      0%, 100% { box-shadow: 0 0 20px var(--glow-gold); }
+      50% { box-shadow: 0 0 40px var(--glow-gold), 0 0 60px rgba(212, 175, 55, 0.15); }
+    }
+
+    @keyframes subtleFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-2px); }
+    }
+
     /* Left Panel - Controls */
     .controls-panel {
-      width: 320px;
-      background: #16213e;
-      padding: 20px;
+      width: 340px;
+      background: linear-gradient(180deg, var(--void-mid) 0%, var(--void-deep) 100%);
+      padding: 24px;
       overflow-y: auto;
-      border-right: 1px solid #333;
+      border-right: 1px solid var(--border-subtle);
+      position: relative;
+    }
+
+    .controls-panel::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 100%;
+      background: linear-gradient(180deg,
+        transparent 0%,
+        var(--gold-primary) 20%,
+        var(--gold-primary) 80%,
+        transparent 100%);
+      opacity: 0.3;
+    }
+
+    /* Custom scrollbar */
+    .controls-panel::-webkit-scrollbar {
+      width: 6px;
+    }
+    .controls-panel::-webkit-scrollbar-track {
+      background: var(--void-deep);
+    }
+    .controls-panel::-webkit-scrollbar-thumb {
+      background: var(--border-accent);
+      border-radius: 3px;
+    }
+    .controls-panel::-webkit-scrollbar-thumb:hover {
+      background: var(--gold-dark);
     }
 
     h1 {
-      font-size: 1.2em;
-      margin-bottom: 20px;
-      color: #fab414;
+      font-family: 'Cinzel', serif;
+      font-size: 1.4em;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--gold-primary);
+      letter-spacing: 0.05em;
+      animation: fadeSlideIn 0.6s ease-out;
+    }
+
+    .subtitle {
+      font-size: 0.75em;
+      color: var(--text-muted);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      animation: fadeSlideIn 0.6s ease-out 0.1s both;
     }
 
     h2 {
-      font-size: 0.9em;
-      color: #888;
-      margin: 20px 0 10px;
+      font-family: 'Cinzel', serif;
+      font-size: 0.8em;
+      font-weight: 400;
+      color: var(--text-secondary);
+      margin: 28px 0 14px;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 0.2em;
+      position: relative;
+      padding-left: 12px;
+    }
+
+    h2::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 4px;
+      background: var(--gold-primary);
+      border-radius: 50%;
     }
 
     /* Ring Cards */
     .ring-card {
-      background: #1a1a2e;
-      border: 2px solid #333;
-      border-radius: 8px;
-      padding: 12px;
-      margin-bottom: 10px;
+      background: var(--void-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ring-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
     }
 
     .ring-card:hover {
-      border-color: #555;
+      border-color: var(--border-accent);
+      transform: translateX(4px);
+      background: var(--void-elevated);
+    }
+
+    .ring-card:hover::before {
+      opacity: 0.5;
     }
 
     .ring-card.selected {
-      border-color: #fab414;
-      background: #1f2a4a;
+      border-color: var(--gold-primary);
+      background: linear-gradient(135deg, var(--void-elevated) 0%, var(--cosmic-blue) 100%);
+      box-shadow: 0 4px 24px rgba(212, 175, 55, 0.15),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    }
+
+    .ring-card.selected::before {
+      opacity: 1;
     }
 
     .ring-card.dragging {
-      opacity: 0.5;
+      opacity: 0.6;
       border-style: dashed;
+      transform: scale(0.98);
     }
 
     .ring-card.drag-over {
-      border-color: #4CAF50;
-      background: #1a3a2e;
+      border-color: var(--gold-light);
+      background: var(--cosmic-teal);
+      transform: translateX(8px);
     }
 
     .ring-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .ring-name {
+      font-family: 'Cinzel', serif;
       font-weight: 600;
       font-size: 0.95em;
+      letter-spacing: 0.02em;
     }
 
     .ring-position {
-      font-size: 0.75em;
-      color: #888;
-      background: #333;
-      padding: 2px 8px;
-      border-radius: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65em;
+      color: var(--text-muted);
+      background: var(--void-deep);
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      border: 1px solid var(--border-subtle);
     }
 
     .ring-controls {
@@ -99,31 +232,35 @@
 
     .ring-card.selected .ring-controls {
       display: block;
-      margin-top: 12px;
-      padding-top: 12px;
-      border-top: 1px solid #333;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-subtle);
+      animation: fadeSlideIn 0.3s ease-out;
     }
 
     .control-row {
-      margin-bottom: 12px;
+      margin-bottom: 16px;
     }
 
     .control-label {
       display: flex;
       justify-content: space-between;
-      font-size: 0.8em;
-      color: #aaa;
-      margin-bottom: 4px;
+      font-size: 0.75em;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .control-value {
-      color: #fab414;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--gold-primary);
       font-weight: 500;
     }
 
     input[type="range"] {
       width: 100%;
-      height: 20px;
+      height: 24px;
       -webkit-appearance: none;
       appearance: none;
       background: transparent;
@@ -134,49 +271,59 @@
 
     input[type="range"]::-webkit-slider-runnable-track {
       width: 100%;
-      height: 6px;
-      background: #333;
-      border-radius: 3px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--void-deep), var(--void-elevated));
+      border-radius: 2px;
+      border: 1px solid var(--border-subtle);
     }
 
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
-      width: 18px;
-      height: 18px;
-      background: #fab414;
+      width: 16px;
+      height: 16px;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 100%);
       border-radius: 50%;
       cursor: grab;
-      margin-top: -6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      margin-top: -7px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4),
+                  0 0 12px var(--glow-gold);
+      border: 2px solid var(--gold-dark);
+      transition: all 0.2s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.5),
+                  0 0 20px var(--glow-gold);
     }
 
     input[type="range"]::-webkit-slider-thumb:active {
       cursor: grabbing;
-      background: #ffc940;
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
 
     input[type="range"]::-moz-range-track {
       width: 100%;
-      height: 6px;
-      background: #333;
-      border-radius: 3px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--void-deep), var(--void-elevated));
+      border-radius: 2px;
+      border: 1px solid var(--border-subtle);
     }
 
     input[type="range"]::-moz-range-thumb {
-      width: 18px;
-      height: 18px;
-      background: #fab414;
+      width: 16px;
+      height: 16px;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 100%);
       border-radius: 50%;
       cursor: grab;
-      border: none;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      border: 2px solid var(--gold-dark);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4),
+                  0 0 12px var(--glow-gold);
     }
 
     input[type="range"]::-moz-range-thumb:active {
       cursor: grabbing;
-      background: #ffc940;
     }
 
     input[type="range"]:focus {
@@ -184,80 +331,124 @@
     }
 
     input[type="range"]:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 3px rgba(250, 180, 20, 0.3);
+      box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.25),
+                  0 2px 8px rgba(0,0,0,0.4),
+                  0 0 16px var(--glow-gold);
     }
 
     /* Order Buttons */
     .order-buttons {
       display: flex;
       gap: 8px;
-      margin-top: 10px;
+      margin-top: 14px;
     }
 
     .order-btn {
       flex: 1;
-      padding: 6px;
-      border: 1px solid #444;
-      background: #2a2a4a;
-      color: #ccc;
-      border-radius: 4px;
+      padding: 8px 6px;
+      border: 1px solid var(--border-subtle);
+      background: var(--void-deep);
+      color: var(--text-secondary);
+      border-radius: 8px;
       cursor: pointer;
-      font-size: 0.8em;
-      transition: all 0.2s;
+      font-size: 0.75em;
+      font-weight: 500;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .order-btn:hover:not(:disabled) {
-      background: #3a3a5a;
-      border-color: #666;
+      background: var(--void-elevated);
+      border-color: var(--border-accent);
+      color: var(--gold-primary);
+      transform: translateY(-1px);
+    }
+
+    .order-btn:active:not(:disabled) {
+      transform: translateY(0);
     }
 
     .order-btn:disabled {
-      opacity: 0.3;
+      opacity: 0.25;
       cursor: not-allowed;
     }
 
     /* Global Controls */
     .global-controls {
-      background: #1a1a2e;
-      border-radius: 8px;
-      padding: 12px;
+      background: var(--void-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px;
       margin-bottom: 20px;
+      animation: fadeSlideIn 0.6s ease-out 0.2s both;
     }
 
     /* Action Buttons */
     .actions {
-      margin-top: 20px;
+      margin-top: 28px;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 10px;
+      animation: fadeSlideIn 0.6s ease-out 0.4s both;
     }
 
     .action-btn {
-      padding: 10px 16px;
+      padding: 14px 20px;
       border: none;
-      border-radius: 6px;
+      border-radius: 10px;
       cursor: pointer;
-      font-size: 0.9em;
-      font-weight: 500;
-      transition: all 0.2s;
+      font-family: 'Cinzel', serif;
+      font-size: 0.85em;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .action-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+
+    .action-btn:hover::before {
+      left: 100%;
     }
 
     .action-btn.primary {
-      background: #fab414;
-      color: #1a1a2e;
+      background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+      color: var(--void-deep);
+      box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
     }
 
     .action-btn.primary:hover {
-      background: #ffc940;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold-primary) 100%);
+      box-shadow: 0 6px 24px rgba(212, 175, 55, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .action-btn.primary:active {
+      transform: translateY(0);
     }
 
     .action-btn.secondary {
-      background: #333;
-      color: #ccc;
+      background: var(--void-surface);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
     }
 
     .action-btn.secondary:hover {
-      background: #444;
+      background: var(--void-elevated);
+      border-color: var(--border-accent);
+      color: var(--gold-primary);
     }
 
     /* Right Panel - Preview */
@@ -266,31 +457,78 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #151E25;
+      background: var(--void-deep);
       position: relative;
       overflow: hidden;
+    }
+
+    /* Atmospheric background pattern */
+    .preview-panel::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background:
+        radial-gradient(ellipse at center, rgba(45, 74, 111, 0.15) 0%, transparent 70%),
+        radial-gradient(circle at 20% 80%, rgba(30, 77, 77, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    /* Subtle grid pattern */
+    .preview-panel::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image:
+        linear-gradient(rgba(212, 175, 55, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(212, 175, 55, 0.02) 1px, transparent 1px);
+      background-size: 50px 50px;
+      pointer-events: none;
     }
 
     #preview-svg {
       max-width: 95%;
       max-height: 95%;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0 0 40px rgba(212, 175, 55, 0.1));
     }
 
     .preview-info {
       position: absolute;
-      bottom: 20px;
-      left: 20px;
-      font-size: 0.75em;
-      color: #666;
+      bottom: 24px;
+      left: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7em;
+      color: var(--text-muted);
+      background: rgba(10, 14, 20, 0.8);
+      padding: 8px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border-subtle);
+      backdrop-filter: blur(10px);
+      z-index: 10;
     }
 
     .loading-indicator {
       position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 0.8em;
-      color: #fab414;
+      top: 24px;
+      right: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75em;
+      color: var(--gold-primary);
+      background: rgba(10, 14, 20, 0.9);
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border-accent);
       display: none;
+      z-index: 10;
+      animation: glowPulse 2s infinite;
     }
 
     .loading-indicator.visible {
@@ -299,16 +537,29 @@
 
     /* Ring stats */
     .ring-stats {
-      font-size: 0.75em;
-      color: #666;
-      margin-top: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7em;
+      color: var(--text-muted);
+      margin-top: 6px;
+      padding: 6px 8px;
+      background: var(--void-deep);
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
     }
 
     /* Drag handle */
     .drag-handle {
       cursor: grab;
-      color: #555;
-      margin-right: 8px;
+      color: var(--text-muted);
+      margin-right: 10px;
+      font-size: 1.1em;
+      opacity: 0.6;
+      transition: all 0.2s;
+    }
+
+    .ring-card:hover .drag-handle {
+      opacity: 1;
+      color: var(--gold-primary);
     }
 
     .drag-handle:active {
@@ -318,37 +569,84 @@
     /* View mode toggle */
     .view-toggle {
       display: flex;
-      gap: 4px;
-      margin-bottom: 15px;
+      gap: 6px;
+      margin-bottom: 20px;
+      animation: fadeSlideIn 0.6s ease-out 0.15s both;
     }
 
     .view-btn {
       flex: 1;
-      padding: 8px;
-      border: 1px solid #444;
-      background: transparent;
-      color: #888;
-      border-radius: 4px;
+      padding: 10px 12px;
+      border: 1px solid var(--border-subtle);
+      background: var(--void-surface);
+      color: var(--text-muted);
+      border-radius: 8px;
       cursor: pointer;
-      font-size: 0.8em;
-      transition: all 0.2s;
+      font-size: 0.75em;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .view-btn.active {
-      background: #fab414;
-      color: #1a1a2e;
-      border-color: #fab414;
+      background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
+      color: var(--void-deep);
+      border-color: var(--gold-primary);
+      box-shadow: 0 2px 12px rgba(212, 175, 55, 0.3);
     }
 
     .view-btn:hover:not(.active) {
-      border-color: #666;
-      color: #ccc;
+      border-color: var(--border-accent);
+      color: var(--gold-primary);
+      background: var(--void-elevated);
+    }
+
+    /* Add ring section */
+    .add-ring-section h2 {
+      margin-top: 24px;
+    }
+
+    .ring-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .ring-option {
+      padding: 8px 14px;
+      background: var(--void-surface);
+      border: 1px solid;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.75em;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .ring-option:hover {
+      background: var(--void-elevated);
+      transform: scale(1.05);
+    }
+
+    /* Delete button special styling */
+    .order-btn[style*="color: #ff6b6b"],
+    .order-btn[style*="color: rgb(255, 107, 107)"] {
+      color: #E57373 !important;
+    }
+
+    .order-btn[style*="color: #ff6b6b"]:hover:not(:disabled),
+    .order-btn[style*="color: rgb(255, 107, 107)"]:hover:not(:disabled) {
+      background: rgba(229, 115, 115, 0.15) !important;
+      border-color: rgba(229, 115, 115, 0.4) !important;
     }
   </style>
 </head>
 <body>
   <div class="controls-panel">
     <h1>Ring Composer</h1>
+    <div class="subtitle">Human Design Wheel Builder</div>
 
     <div class="view-toggle">
       <button class="view-btn active" id="view-actual" onclick="setViewMode('actual')">Actual SVG</button>
@@ -681,11 +979,13 @@
         }
       }
 
-      // Center marker
+      // Center marker - using sacred gold color
+      const goldColor = '#D4AF37';
       content += `
-        <circle cx="${cx}" cy="${cy}" r="5" fill="#fab414"/>
-        <line x1="${cx-10}" y1="${cy}" x2="${cx+10}" y2="${cy}" stroke="#fab414" stroke-width="1"/>
-        <line x1="${cx}" y1="${cy-10}" x2="${cx}" y2="${cy+10}" stroke="#fab414" stroke-width="1"/>
+        <circle cx="${cx}" cy="${cy}" r="6" fill="${goldColor}" opacity="0.9"/>
+        <circle cx="${cx}" cy="${cy}" r="3" fill="#F4D35E"/>
+        <line x1="${cx-12}" y1="${cy}" x2="${cx+12}" y2="${cy}" stroke="${goldColor}" stroke-width="1" opacity="0.6"/>
+        <line x1="${cx}" y1="${cy-12}" x2="${cx}" y2="${cy+12}" stroke="${goldColor}" stroke-width="1" opacity="0.6"/>
       `;
 
       svg.innerHTML = content;
