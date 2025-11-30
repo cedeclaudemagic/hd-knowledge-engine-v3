@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HD Wheel Ring Composer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Left Panel - Controls */
+    .controls-panel {
+      width: 320px;
+      background: #16213e;
+      padding: 20px;
+      overflow-y: auto;
+      border-right: 1px solid #333;
+    }
+
+    h1 {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #fab414;
+    }
+
+    h2 {
+      font-size: 0.9em;
+      color: #888;
+      margin: 20px 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Ring Cards */
+    .ring-card {
+      background: #1a1a2e;
+      border: 2px solid #333;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .ring-card:hover {
+      border-color: #555;
+    }
+
+    .ring-card.selected {
+      border-color: #fab414;
+      background: #1f2a4a;
+    }
+
+    .ring-card.dragging {
+      opacity: 0.5;
+      border-style: dashed;
+    }
+
+    .ring-card.drag-over {
+      border-color: #4CAF50;
+      background: #1a3a2e;
+    }
+
+    .ring-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .ring-name {
+      font-weight: 600;
+      font-size: 0.95em;
+    }
+
+    .ring-position {
+      font-size: 0.75em;
+      color: #888;
+      background: #333;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .ring-controls {
+      display: none;
+    }
+
+    .ring-card.selected .ring-controls {
+      display: block;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #333;
+    }
+
+    .control-row {
+      margin-bottom: 12px;
+    }
+
+    .control-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8em;
+      color: #aaa;
+      margin-bottom: 4px;
+    }
+
+    .control-value {
+      color: #fab414;
+      font-weight: 500;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 20px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      width: 100%;
+      height: 6px;
+      background: #333;
+      border-radius: 3px;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: #fab414;
+      border-radius: 50%;
+      cursor: grab;
+      margin-top: -6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    input[type="range"]::-webkit-slider-thumb:active {
+      cursor: grabbing;
+      background: #ffc940;
+      transform: scale(1.1);
+    }
+
+    input[type="range"]::-moz-range-track {
+      width: 100%;
+      height: 6px;
+      background: #333;
+      border-radius: 3px;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      background: #fab414;
+      border-radius: 50%;
+      cursor: grab;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    input[type="range"]::-moz-range-thumb:active {
+      cursor: grabbing;
+      background: #ffc940;
+    }
+
+    input[type="range"]:focus {
+      outline: none;
+    }
+
+    input[type="range"]:focus::-webkit-slider-thumb {
+      box-shadow: 0 0 0 3px rgba(250, 180, 20, 0.3);
+    }
+
+    /* Order Buttons */
+    .order-buttons {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .order-btn {
+      flex: 1;
+      padding: 6px;
+      border: 1px solid #444;
+      background: #2a2a4a;
+      color: #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8em;
+      transition: all 0.2s;
+    }
+
+    .order-btn:hover:not(:disabled) {
+      background: #3a3a5a;
+      border-color: #666;
+    }
+
+    .order-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* Global Controls */
+    .global-controls {
+      background: #1a1a2e;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+
+    /* Action Buttons */
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .action-btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9em;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .action-btn.primary {
+      background: #fab414;
+      color: #1a1a2e;
+    }
+
+    .action-btn.primary:hover {
+      background: #ffc940;
+    }
+
+    .action-btn.secondary {
+      background: #333;
+      color: #ccc;
+    }
+
+    .action-btn.secondary:hover {
+      background: #444;
+    }
+
+    /* Right Panel - Preview */
+    .preview-panel {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #151E25;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #preview-svg {
+      max-width: 95%;
+      max-height: 95%;
+    }
+
+    .preview-info {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      font-size: 0.75em;
+      color: #666;
+    }
+
+    .loading-indicator {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.8em;
+      color: #fab414;
+      display: none;
+    }
+
+    .loading-indicator.visible {
+      display: block;
+    }
+
+    /* Ring stats */
+    .ring-stats {
+      font-size: 0.75em;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    /* Drag handle */
+    .drag-handle {
+      cursor: grab;
+      color: #555;
+      margin-right: 8px;
+    }
+
+    .drag-handle:active {
+      cursor: grabbing;
+    }
+
+    /* View mode toggle */
+    .view-toggle {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 15px;
+    }
+
+    .view-btn {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #888;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8em;
+      transition: all 0.2s;
+    }
+
+    .view-btn.active {
+      background: #fab414;
+      color: #1a1a2e;
+      border-color: #fab414;
+    }
+
+    .view-btn:hover:not(.active) {
+      border-color: #666;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls-panel">
+    <h1>Ring Composer</h1>
+
+    <div class="view-toggle">
+      <button class="view-btn active" id="view-actual" onclick="setViewMode('actual')">Actual SVG</button>
+      <button class="view-btn" id="view-schematic" onclick="setViewMode('schematic')">Schematic</button>
+    </div>
+
+    <div class="global-controls">
+      <div class="control-row">
+        <div class="control-label">
+          <span>Start Radius</span>
+          <span class="control-value" id="start-radius-value">400</span>
+        </div>
+        <input type="range" id="start-radius" min="100" max="800" value="400">
+      </div>
+      <div class="control-row">
+        <div class="control-label">
+          <span>Default Gap</span>
+          <span class="control-value" id="default-gap-value">0px</span>
+        </div>
+        <input type="range" id="default-gap" min="0" max="30" value="0">
+      </div>
+    </div>
+
+    <h2>Rings (drag to reorder)</h2>
+    <div id="rings-container">
+      <!-- Ring cards will be inserted here -->
+    </div>
+
+    <div class="actions">
+      <button class="action-btn primary" onclick="exportSVG()">Export SVG</button>
+      <button class="action-btn secondary" onclick="resetAll()">Reset All</button>
+      <button class="action-btn secondary" onclick="copyConfig()">Copy Config</button>
+    </div>
+  </div>
+
+  <div class="preview-panel">
+    <div class="loading-indicator" id="loading">Loading rings...</div>
+    <svg id="preview-svg" viewBox="0 0 2000 2000">
+      <!-- Preview will be rendered here -->
+    </svg>
+    <div class="preview-info" id="preview-info">
+      Total radius: --
+    </div>
+  </div>
+
+  <script>
+    // Ring definitions with visual bounds and SVG file paths
+    // These values MUST match the actual generator outputs
+    const RING_DEFINITIONS = {
+      numbers: {
+        name: 'Numbers',
+        color: '#4ECDC4',
+        svgFile: '../output/generated-numbers-ring.svg',
+        center: { x: 1657.7978, y: 1657.4867 },
+        innerRadius: 1538.587,
+        outerRadius: 1648.5514,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      hexagrams: {
+        name: 'Hexagrams',
+        color: '#45B7D1',
+        svgFile: '../output/generated-hexagram-ring.svg',
+        center: { x: 1451.344, y: 1451.344 },
+        innerRadius: 1334.4257,
+        outerRadius: 1451.094,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      codons: {
+        name: 'Codon Rings',
+        color: '#96CEB4',
+        svgFile: '../output/generated-codon-rings-ring.svg',
+        center: { x: 1122.0567, y: 1130.6034 },
+        innerRadius: 858.2697,
+        outerRadius: 1084.3718,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() {
+          return this.innerRadius - (this.bandWidth * 0.0885);
+        },
+        get visualOuter() {
+          return this.outerRadius + (this.bandWidth * 0.1062);
+        }
+      },
+      genekeys: {
+        name: 'Gene Keys',
+        color: '#FFEAA7',
+        svgFile: '../output/generated-gene-keys-ring.svg',
+        // Gene Keys has 3 bands: shadows (inner), gifts (middle), siddhis (outer)
+        center: { x: 1985.3602, y: 1985.3602 },
+        innerRadius: 1730.5472,   // shadows inner
+        outerRadius: 1889.9038,   // siddhis outer
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      iching: {
+        name: 'I Ching Names',
+        color: '#DDA0DD',
+        svgFile: '../output/generated-iching-names-ring.svg',
+        center: { x: 1335.2162, y: 1335.2162 },
+        innerRadius: 1259.3041,
+        outerRadius: 1334.9662,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      gatenames: {
+        name: 'Gate Names',
+        color: '#87CEEB',
+        svgFile: '../output/generated-gate-names-ring.svg',
+        center: { x: 1538.3667, y: 1538.3667 },
+        innerRadius: 1457.367,
+        outerRadius: 1538.0506,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      }
+    };
+
+    // Cache for loaded SVG content
+    const svgCache = {};
+
+    // State
+    let state = {
+      rings: [
+        { type: 'numbers', scale: 1.0, gapAfter: 0 },
+        { type: 'hexagrams', scale: 1.0, gapAfter: 0 },
+        { type: 'codons', scale: 1.0, gapAfter: 0 }
+      ],
+      selectedIndex: null,
+      startRadius: 400,
+      defaultGap: 0,
+      center: { x: 1000, y: 1000 },
+      viewMode: 'actual' // 'actual' or 'schematic'
+    };
+
+    // Load SVG file and extract content
+    async function loadSVGContent(ringType) {
+      if (svgCache[ringType]) {
+        return svgCache[ringType];
+      }
+
+      const def = RING_DEFINITIONS[ringType];
+      console.log(`Loading ${ringType} from ${def.svgFile}...`);
+
+      try {
+        const response = await fetch(def.svgFile);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+
+        const svgText = await response.text();
+        console.log(`Loaded ${ringType}: ${svgText.length} bytes`);
+
+        // Extract content between <svg> and </svg>
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(svgText, 'image/svg+xml');
+        const svgElement = doc.querySelector('svg');
+
+        // Check for parse errors
+        const parseError = doc.querySelector('parsererror');
+        if (parseError) {
+          throw new Error(`SVG parse error: ${parseError.textContent}`);
+        }
+
+        if (!svgElement) throw new Error('No SVG element found');
+
+        // Get inner content (skip background rect if present)
+        let content = '';
+        for (const child of svgElement.children) {
+          if (child.id !== 'background') {
+            content += child.outerHTML;
+          }
+        }
+
+        console.log(`Extracted ${ringType} content: ${content.length} chars`);
+        svgCache[ringType] = content;
+        return content;
+      } catch (error) {
+        console.error(`Error loading ${ringType}:`, error);
+        // Show error in UI
+        const info = document.getElementById('preview-info');
+        info.textContent = `Error: ${error.message}. Run: node visualization/tools/serve.js`;
+        info.style.color = '#ff6b6b';
+        return null;
+      }
+    }
+
+    // Preload all ring SVGs
+    async function preloadRings() {
+      const loading = document.getElementById('loading');
+      loading.classList.add('visible');
+
+      const types = Object.keys(RING_DEFINITIONS);
+      await Promise.all(types.map(type => loadSVGContent(type)));
+
+      loading.classList.remove('visible');
+      renderPreview();
+    }
+
+    // Calculate snap placements
+    function calculatePlacements() {
+      const placements = [];
+      let currentVisualOuter = state.startRadius;
+
+      for (let i = 0; i < state.rings.length; i++) {
+        const ring = state.rings[i];
+        const def = RING_DEFINITIONS[ring.type];
+        const gap = i === 0 ? 0 : (state.rings[i-1].gapAfter ?? state.defaultGap);
+
+        // Scale to fit at current position
+        const targetVisualInner = currentVisualOuter + gap;
+        const baseScale = targetVisualInner / def.visualInner;
+        const scale = baseScale * ring.scale;
+
+        const visualInner = def.visualInner * scale;
+        const visualOuter = def.visualOuter * scale;
+        const innerRadius = def.innerRadius * scale;
+        const outerRadius = def.outerRadius * scale;
+
+        // Calculate transform for positioning
+        const translateX = state.center.x - (def.center.x * scale);
+        const translateY = state.center.y - (def.center.y * scale);
+
+        placements.push({
+          type: ring.type,
+          name: def.name,
+          color: def.color,
+          scale,
+          innerRadius,
+          outerRadius,
+          bandWidth: outerRadius - innerRadius,
+          visualInner,
+          visualOuter,
+          visualWidth: visualOuter - visualInner,
+          gapAfter: ring.gapAfter ?? state.defaultGap,
+          transform: `translate(${translateX.toFixed(4)}, ${translateY.toFixed(4)}) scale(${scale.toFixed(6)})`
+        });
+
+        currentVisualOuter = visualOuter;
+      }
+
+      return placements;
+    }
+
+    // Render preview with actual SVG content
+    async function renderPreview() {
+      const placements = calculatePlacements();
+      const svg = document.getElementById('preview-svg');
+      const maxRadius = placements.length > 0
+        ? placements[placements.length - 1].visualOuter + 50
+        : 500;
+
+      const cx = state.center.x;
+      const cy = state.center.y;
+      const viewSize = maxRadius * 2 + 100;
+      const viewMin = cx - maxRadius - 50;
+
+      svg.setAttribute('viewBox', `${viewMin} ${viewMin} ${viewSize} ${viewSize}`);
+
+      let content = '';
+
+      // Background
+      content += `<rect x="${viewMin}" y="${viewMin}" width="${viewSize}" height="${viewSize}" fill="#151E25"/>`;
+
+      if (state.viewMode === 'actual') {
+        // Render actual SVG content
+        for (let i = 0; i < placements.length; i++) {
+          const p = placements[i];
+          const svgContent = svgCache[p.type];
+
+          if (svgContent) {
+            const isSelected = i === state.selectedIndex;
+            const opacity = isSelected ? 1 : 0.9;
+
+            content += `<g id="${p.type}-ring" transform="${p.transform}" opacity="${opacity}">`;
+            content += svgContent;
+            content += `</g>`;
+
+            // Add selection highlight
+            if (isSelected) {
+              content += `
+                <circle cx="${cx}" cy="${cy}" r="${p.visualOuter}"
+                        fill="none" stroke="${p.color}" stroke-width="3" stroke-opacity="0.8"/>
+              `;
+            }
+          }
+        }
+      } else {
+        // Schematic view
+        for (let i = 0; i < placements.length; i++) {
+          const p = placements[i];
+          const isSelected = i === state.selectedIndex;
+          const strokeWidth = isSelected ? 3 : 1;
+          const opacity = isSelected ? 1 : 0.7;
+
+          // Main band
+          const midRadius = (p.innerRadius + p.outerRadius) / 2;
+          content += `
+            <circle cx="${cx}" cy="${cy}" r="${midRadius}"
+                    fill="none" stroke="${p.color}" stroke-width="${p.bandWidth}"
+                    stroke-opacity="${opacity * 0.3}"/>
+            <circle cx="${cx}" cy="${cy}" r="${p.innerRadius}"
+                    fill="none" stroke="${p.color}" stroke-width="${strokeWidth}" stroke-opacity="${opacity}"/>
+            <circle cx="${cx}" cy="${cy}" r="${p.outerRadius}"
+                    fill="none" stroke="${p.color}" stroke-width="${strokeWidth}" stroke-opacity="${opacity}"/>
+          `;
+
+          // Visual bounds (dashed) when selected
+          if (isSelected) {
+            content += `
+              <circle cx="${cx}" cy="${cy}" r="${p.visualInner}"
+                      fill="none" stroke="${p.color}" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="0.4"/>
+              <circle cx="${cx}" cy="${cy}" r="${p.visualOuter}"
+                      fill="none" stroke="${p.color}" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="0.4"/>
+            `;
+          }
+
+          // Label
+          const labelAngle = -45 * Math.PI / 180;
+          const labelX = cx + midRadius * Math.cos(labelAngle);
+          const labelY = cy + midRadius * Math.sin(labelAngle);
+          content += `
+            <text x="${labelX}" y="${labelY}" fill="${p.color}" font-size="14"
+                  font-family="sans-serif" text-anchor="middle" opacity="${opacity}">${p.name}</text>
+          `;
+        }
+      }
+
+      // Center marker
+      content += `
+        <circle cx="${cx}" cy="${cy}" r="5" fill="#fab414"/>
+        <line x1="${cx-10}" y1="${cy}" x2="${cx+10}" y2="${cy}" stroke="#fab414" stroke-width="1"/>
+        <line x1="${cx}" y1="${cy-10}" x2="${cx}" y2="${cy+10}" stroke="#fab414" stroke-width="1"/>
+      `;
+
+      svg.innerHTML = content;
+
+      // Update info
+      const totalRadius = placements.length > 0
+        ? placements[placements.length - 1].visualOuter.toFixed(1)
+        : 0;
+      document.getElementById('preview-info').textContent = `Total radius: ${totalRadius}px | ${state.viewMode === 'actual' ? 'Actual SVG' : 'Schematic'} view`;
+    }
+
+    // Set view mode
+    function setViewMode(mode) {
+      state.viewMode = mode;
+      document.getElementById('view-actual').classList.toggle('active', mode === 'actual');
+      document.getElementById('view-schematic').classList.toggle('active', mode === 'schematic');
+      renderPreview();
+    }
+
+    // Render ring cards
+    function renderRingCards() {
+      const container = document.getElementById('rings-container');
+      const placements = calculatePlacements();
+
+      container.innerHTML = state.rings.map((ring, i) => {
+        const def = RING_DEFINITIONS[ring.type];
+        const p = placements[i];
+        const isSelected = i === state.selectedIndex;
+        const isFirst = i === 0;
+        const isLast = i === state.rings.length - 1;
+
+        return `
+          <div class="ring-card ${isSelected ? 'selected' : ''}"
+               data-index="${i}"
+               draggable="true"
+               onclick="selectRing(${i})">
+            <div class="ring-header">
+              <span class="ring-name" style="color: ${def.color}">
+                <span class="drag-handle">⋮⋮</span>
+                ${def.name}
+              </span>
+              <span class="ring-position">${isFirst ? 'innermost' : isLast ? 'outermost' : 'middle'}</span>
+            </div>
+            <div class="ring-stats">
+              Scale: ${(ring.scale * 100).toFixed(0)}% |
+              Band: ${p.bandWidth.toFixed(1)}px |
+              Gap: ${ring.gapAfter}px
+            </div>
+            <div class="ring-controls">
+              <div class="control-row">
+                <div class="control-label">
+                  <span>Scale</span>
+                  <span class="control-value">${(ring.scale * 100).toFixed(0)}%</span>
+                </div>
+                <input type="range" min="20" max="200" value="${ring.scale * 100}"
+                       onchange="updateRingScale(${i}, this.value / 100)"
+                       oninput="updateRingScale(${i}, this.value / 100)">
+              </div>
+              <div class="control-row">
+                <div class="control-label">
+                  <span>Gap After</span>
+                  <span class="control-value">${ring.gapAfter}px</span>
+                </div>
+                <input type="range" min="0" max="50" value="${ring.gapAfter}"
+                       onchange="updateRingGap(${i}, parseInt(this.value))"
+                       oninput="updateRingGap(${i}, parseInt(this.value))">
+              </div>
+              <div class="order-buttons">
+                <button class="order-btn" onclick="moveRing(${i}, -1); event.stopPropagation();" ${isFirst ? 'disabled' : ''}>
+                  ↑ Move In
+                </button>
+                <button class="order-btn" onclick="moveRing(${i}, 1); event.stopPropagation();" ${isLast ? 'disabled' : ''}>
+                  ↓ Move Out
+                </button>
+                <button class="order-btn" onclick="removeRing(${i}); event.stopPropagation();" style="color: #ff6b6b;">
+                  ✕
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Setup drag and drop
+      setupDragAndDrop();
+
+      // Update add ring section
+      renderAddRingOptions();
+    }
+
+    // Render add ring options
+    function renderAddRingOptions() {
+      const usedTypes = state.rings.map(r => r.type);
+      const availableTypes = Object.entries(RING_DEFINITIONS).filter(([type]) => !usedTypes.includes(type));
+
+      // Find or create add ring section
+      let addSection = document.querySelector('.add-ring-section');
+      if (!addSection) {
+        addSection = document.createElement('div');
+        addSection.className = 'add-ring-section';
+        document.getElementById('rings-container').after(addSection);
+      }
+
+      if (availableTypes.length > 0) {
+        addSection.innerHTML = `
+          <h2>Add Ring</h2>
+          <div class="ring-options">
+            ${availableTypes.map(([type, def]) => `
+              <button class="ring-option" onclick="addRing('${type}')"
+                      style="border-color: ${def.color}; color: ${def.color}">
+                ${def.name}
+              </button>
+            `).join('')}
+          </div>
+        `;
+      } else {
+        addSection.innerHTML = '<p style="color: #666; font-size: 0.8em;">All rings added</p>';
+      }
+    }
+
+    // Setup drag and drop
+    function setupDragAndDrop() {
+      const cards = document.querySelectorAll('.ring-card');
+
+      cards.forEach(card => {
+        card.addEventListener('dragstart', (e) => {
+          card.classList.add('dragging');
+          e.dataTransfer.setData('text/plain', card.dataset.index);
+        });
+
+        card.addEventListener('dragend', () => {
+          card.classList.remove('dragging');
+          document.querySelectorAll('.ring-card').forEach(c => c.classList.remove('drag-over'));
+        });
+
+        card.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          const dragging = document.querySelector('.dragging');
+          if (dragging !== card) {
+            card.classList.add('drag-over');
+          }
+        });
+
+        card.addEventListener('dragleave', () => {
+          card.classList.remove('drag-over');
+        });
+
+        card.addEventListener('drop', (e) => {
+          e.preventDefault();
+          const fromIndex = parseInt(e.dataTransfer.getData('text/plain'));
+          const toIndex = parseInt(card.dataset.index);
+
+          if (fromIndex !== toIndex) {
+            const [removed] = state.rings.splice(fromIndex, 1);
+            state.rings.splice(toIndex, 0, removed);
+
+            if (state.selectedIndex === fromIndex) {
+              state.selectedIndex = toIndex;
+            } else if (state.selectedIndex !== null) {
+              if (fromIndex < state.selectedIndex && toIndex >= state.selectedIndex) {
+                state.selectedIndex--;
+              } else if (fromIndex > state.selectedIndex && toIndex <= state.selectedIndex) {
+                state.selectedIndex++;
+              }
+            }
+
+            render();
+          }
+        });
+      });
+    }
+
+    // Select a ring
+    function selectRing(index) {
+      state.selectedIndex = state.selectedIndex === index ? null : index;
+      render();
+    }
+
+    // Update ring scale
+    function updateRingScale(index, scale) {
+      state.rings[index].scale = scale;
+      render();
+    }
+
+    // Update ring gap
+    function updateRingGap(index, gap) {
+      state.rings[index].gapAfter = gap;
+      render();
+    }
+
+    // Move ring
+    function moveRing(index, direction) {
+      const newIndex = index + direction;
+      if (newIndex < 0 || newIndex >= state.rings.length) return;
+
+      const [removed] = state.rings.splice(index, 1);
+      state.rings.splice(newIndex, 0, removed);
+      state.selectedIndex = newIndex;
+      render();
+    }
+
+    // Remove ring
+    function removeRing(index) {
+      state.rings.splice(index, 1);
+      if (state.selectedIndex === index) {
+        state.selectedIndex = null;
+      } else if (state.selectedIndex > index) {
+        state.selectedIndex--;
+      }
+      render();
+    }
+
+    // Add ring
+    async function addRing(type) {
+      // Load the SVG if not cached
+      if (!svgCache[type]) {
+        const loading = document.getElementById('loading');
+        loading.classList.add('visible');
+        await loadSVGContent(type);
+        loading.classList.remove('visible');
+      }
+
+      state.rings.push({ type, scale: 1.0, gapAfter: state.defaultGap });
+      state.selectedIndex = state.rings.length - 1;
+      render();
+    }
+
+    // Reset all
+    function resetAll() {
+      state = {
+        rings: [
+          { type: 'numbers', scale: 1.0, gapAfter: 0 },
+          { type: 'hexagrams', scale: 1.0, gapAfter: 0 },
+          { type: 'codons', scale: 1.0, gapAfter: 0 }
+        ],
+        selectedIndex: null,
+        startRadius: 400,
+        defaultGap: 0,
+        center: { x: 1000, y: 1000 },
+        viewMode: state.viewMode
+      };
+      document.getElementById('start-radius').value = 400;
+      document.getElementById('default-gap').value = 0;
+      document.getElementById('start-radius-value').textContent = '400';
+      document.getElementById('default-gap-value').textContent = '0px';
+      render();
+    }
+
+    // Export SVG - generates actual composited SVG
+    function exportSVG() {
+      const placements = calculatePlacements();
+      const maxRadius = placements[placements.length - 1].visualOuter + 50;
+      const cx = state.center.x;
+      const cy = state.center.y;
+      const viewSize = maxRadius * 2 + 100;
+      const viewMin = cx - maxRadius - 50;
+
+      let svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="${viewSize.toFixed(0)}"
+     height="${viewSize.toFixed(0)}"
+     viewBox="${viewMin.toFixed(0)} ${viewMin.toFixed(0)} ${viewSize.toFixed(0)} ${viewSize.toFixed(0)}">
+  <style>
+    text { fill: #FFFFFF; }
+    circle, line { stroke: #FFFFFF; }
+    #hexagrams rect { fill: #FFFFFF; stroke: none; }
+  </style>
+  <rect id="background" x="${viewMin.toFixed(0)}" y="${viewMin.toFixed(0)}" width="${viewSize.toFixed(0)}" height="${viewSize.toFixed(0)}" fill="#151E25" stroke="none"/>
+`;
+
+      for (const p of placements) {
+        const svgContent = svgCache[p.type];
+        if (svgContent) {
+          svg += `  <g id="${p.type}-ring" transform="${p.transform}">\n`;
+          svg += `    ${svgContent}\n`;
+          svg += `  </g>\n`;
+        }
+      }
+
+      svg += `</svg>`;
+
+      // Download
+      const blob = new Blob([svg], { type: 'image/svg+xml' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'composed-wheel.svg';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // Copy config
+    function copyConfig() {
+      const config = {
+        center: state.center,
+        startRadius: state.startRadius,
+        defaultGap: state.defaultGap,
+        rings: state.rings.map(r => ({
+          type: r.type,
+          scale: r.scale,
+          gapAfter: r.gapAfter
+        }))
+      };
+
+      const code = `// Ring Composer Configuration
+const config = ${JSON.stringify(config, null, 2)};
+
+// Use with ring-assembler.js:
+// const svg = assembler.assembleRings(config);`;
+
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Config copied to clipboard!');
+      });
+    }
+
+    // Main render
+    function render() {
+      renderRingCards();
+      renderPreview();
+    }
+
+    // Setup global controls
+    document.getElementById('start-radius').addEventListener('input', (e) => {
+      state.startRadius = parseInt(e.target.value);
+      document.getElementById('start-radius-value').textContent = e.target.value;
+      render();
+    });
+
+    document.getElementById('default-gap').addEventListener('input', (e) => {
+      state.defaultGap = parseInt(e.target.value);
+      document.getElementById('default-gap-value').textContent = e.target.value + 'px';
+      render();
+    });
+
+    // Initial load
+    preloadRings().then(() => {
+      render();
+    });
+  </script>
+</body>
+</html>
