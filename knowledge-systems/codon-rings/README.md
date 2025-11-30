@@ -80,7 +80,7 @@ Each ring represents a biochemical pathway and groups gates by their amino acid 
 | Ring of Union | Valine | 4, 7, 29, 59 | GUU, GUG, GUC, GUA |
 | Ring of Alchemy | Glysine | 6, 40, 47, 64 | GGU, GGG, GGC, GGA |
 | Ring of Matter | Alanine | 18, 46, 48, 57 | GCA, GCU, GCG, GCC |
-| Ring of Illusion | Asparaginic_Acid | 28, 32 | GAU, GAC |
+| Ring of Illusion | Aspartic_Acid | 28, 32 | GAU, GAC |
 | Ring of Illuminati | Glutamic_Acid | 44, 50 | GAG, GAA |
 | Ring of Trials | Terminators | **12**, 33, 56 | UAG, UAA |
 | Ring of Secrets | Terminator | **12** | UGA |

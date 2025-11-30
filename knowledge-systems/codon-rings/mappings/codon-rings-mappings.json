@@ -616,7 +616,7 @@
       "lineNumber": null,
       "knowledge": {
         "ring": "Ring of Illusion",
-        "aminoAcid": "Asparaginic_Acid",
+        "aminoAcid": "Aspartic_Acid",
         "codons": [
           "GAU",
           "GAC"
@@ -625,7 +625,7 @@
           28,
           32
         ],
-        "biochemicalFunction": "Part of Ring of Illusion - Asparaginic_Acid biochemical pathway"
+        "biochemicalFunction": "Part of Ring of Illusion - Aspartic_Acid biochemical pathway"
       }
     },
     {
@@ -688,7 +688,7 @@
       "lineNumber": null,
       "knowledge": {
         "ring": "Ring of Illusion",
-        "aminoAcid": "Asparaginic_Acid",
+        "aminoAcid": "Aspartic_Acid",
         "codons": [
           "GAU",
           "GAC"
@@ -697,7 +697,7 @@
           28,
           32
         ],
-        "biochemicalFunction": "Part of Ring of Illusion - Asparaginic_Acid biochemical pathway"
+        "biochemicalFunction": "Part of Ring of Illusion - Aspartic_Acid biochemical pathway"
       }
     },
     {

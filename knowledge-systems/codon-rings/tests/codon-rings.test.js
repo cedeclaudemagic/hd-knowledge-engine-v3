@@ -200,7 +200,7 @@ test('All amino acids are valid strings', () => {
   const validAminoAcids = new Set([
     'Lysine', 'Arginine', 'Proline', 'Histidine', 'Leucine',
     'Serine', 'Threonine', 'Asparagine', 'Glutamine', 'Glutamic_Acid',
-    'Asparaginic_Acid', 'Alanine', 'Glysine', 'Valine', 'Terminators',
+    'Aspartic_Acid', 'Alanine', 'Glysine', 'Valine', 'Terminators',
     'Tyrosine', 'Terminator', 'Cysteine', 'Tryptophan', 'Phenylalanine',
     'Methionine', 'Isoleucine'
   ]);
