@@ -126,12 +126,12 @@ const FONT = {
     energyType: { size: 48, weight: 400 },
     circuit: { size: 48, weight: 400 }
   },
-  // Middle channel in multi-channel gates (23% larger than outer channels)
+  // Middle channel in multi-channel gates (23% larger text, 10% larger outer gate number)
   multiMiddle: {
     channelName: { size: 86.4 * 1.23, weight: 400 },  // ~106.3
     keynote: { size: 38.4 * 1.23, weight: 400 },      // ~47.2
     innerGate: { family: 'Herculanum', size: 200, weight: 400 },
-    outerGate: { family: 'Herculanum', size: 100 * 1.23, weight: 400 },  // ~123
+    outerGate: { family: 'Herculanum', size: 100 * 1.35, weight: 400 },  // 35% larger = 135
     innerCentre: { size: 102.4, weight: 400 },
     outerCentre: { size: 51.2, weight: 400 },  // Same size as other channels
     energyType: { size: 48 * 1.23, weight: 400 },     // ~59.0
@@ -154,11 +154,20 @@ const HEXAGRAM_SYMBOL = {
     get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
   },
   // Multi-channel dimensions (scaled down to ~55% to fit in sub-segments)
+  // Used for middle channel hexagram
   multi: {
     lineWidth: 85,            // Reduced width to fit in 1/3 segment
     lineHeight: 10,           // Reduced height
     lineSpacing: 18,          // Reduced spacing
     gapWidth: 8,              // Reduced gap
+    get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+  },
+  // Side channel dimensions (15% smaller than multi, for CW/CCW positions)
+  multiSide: {
+    lineWidth: 85 * 0.85,     // 15% smaller = 72.25
+    lineHeight: 10 * 0.85,    // 8.5
+    lineSpacing: 18 * 0.85,   // 15.3
+    gapWidth: 8 * 0.85,       // 6.8
     get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
   }
 };
@@ -378,10 +387,21 @@ function generateHexagramSymbol(gateNumber, dims) {
  * @param {Object} position - {x, y} position
  * @param {number} rotation - Rotation angle in degrees
  * @param {boolean} isMultiChannel - Whether this is a multi-channel gate (uses smaller hexagram)
+ * @param {number} channelIndex - Index within multi-channel gate (0=CW, 1=middle, 2=CCW)
  */
-function generateOuterHexagram(gateNumber, position, rotation, isMultiChannel = false) {
-  // Select dimensions based on channel count
-  const dims = isMultiChannel ? HEXAGRAM_SYMBOL.multi : HEXAGRAM_SYMBOL.single;
+function generateOuterHexagram(gateNumber, position, rotation, isMultiChannel = false, channelIndex = 0) {
+  // Select dimensions based on channel count and position
+  // Single channel: full size
+  // Multi-channel middle (index 1): standard multi size
+  // Multi-channel sides (index 0, 2): 15% smaller
+  let dims;
+  if (!isMultiChannel) {
+    dims = HEXAGRAM_SYMBOL.single;
+  } else if (channelIndex === 1) {
+    dims = HEXAGRAM_SYMBOL.multi;  // Middle channel
+  } else {
+    dims = HEXAGRAM_SYMBOL.multiSide;  // Side channels (15% smaller)
+  }
 
   // Center the symbol on the position
   const offsetX = -dims.lineWidth / 2;
@@ -603,7 +623,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${outerGate}</text>
-      ${generateOuterHexagram(outerGate, outerHexagramPos, outerHexagramRot, channelCount > 1)}
+      ${generateOuterHexagram(outerGate, outerHexagramPos, outerHexagramRot, channelCount > 1, channelIndex)}
     </g>`;
 }
 
