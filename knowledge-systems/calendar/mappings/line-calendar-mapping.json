@@ -1,0 +1,8081 @@
+{
+  "systemName": "Line Calendar Mapping",
+  "version": "1.0.0",
+  "description": "Calendar dates for all 384 Human Design lines based on tropical zodiac",
+  "source": "Calculated from gate-zodiac-mapping using average sun motion",
+  "notes": {
+    "zodiacSystem": "Tropical (0° Aries = March equinox)",
+    "startingPoint": "Gate 41.1 at 302° (2° Aquarius) ≈ January 22",
+    "sunMotion": "Average ~0.9856°/day (360° ÷ 365.25 days)",
+    "lineSpan": "Each line spans 0.9375° ≈ 0.95 days",
+    "accuracy": "Dates approximate within ±1-2 days due to Earth's elliptical orbit",
+    "leapYears": "Dates may shift by 1 day in leap years"
+  },
+  "totalLines": 384,
+  "lines": [
+    {
+      "gate": 41,
+      "line": 1,
+      "gateLineKey": "41.1",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 0,
+      "degree": 302,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 2,
+        "formatted": "2.00° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 20,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 20",
+        "dayOfYear": 20
+      }
+    },
+    {
+      "gate": 41,
+      "line": 2,
+      "gateLineKey": "41.2",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 1,
+      "degree": 302.9375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 21,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 21",
+        "dayOfYear": 21
+      }
+    },
+    {
+      "gate": 41,
+      "line": 3,
+      "gateLineKey": "41.3",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 2,
+      "degree": 303.875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 22,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 22",
+        "dayOfYear": 22
+      }
+    },
+    {
+      "gate": 41,
+      "line": 4,
+      "gateLineKey": "41.4",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 3,
+      "degree": 304.8125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 23,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 23",
+        "dayOfYear": 23
+      }
+    },
+    {
+      "gate": 41,
+      "line": 5,
+      "gateLineKey": "41.5",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 4,
+      "degree": 305.75,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 24,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 24",
+        "dayOfYear": 24
+      }
+    },
+    {
+      "gate": 41,
+      "line": 6,
+      "gateLineKey": "41.6",
+      "wheelPosition": 0,
+      "absoluteLinePosition": 5,
+      "degree": 306.6875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 25,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 25",
+        "dayOfYear": 25
+      }
+    },
+    {
+      "gate": 19,
+      "line": 1,
+      "gateLineKey": "19.1",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 6,
+      "degree": 307.625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 26,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 26",
+        "dayOfYear": 26
+      }
+    },
+    {
+      "gate": 19,
+      "line": 2,
+      "gateLineKey": "19.2",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 7,
+      "degree": 308.5625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 27,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 27",
+        "dayOfYear": 27
+      }
+    },
+    {
+      "gate": 19,
+      "line": 3,
+      "gateLineKey": "19.3",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 8,
+      "degree": 309.5,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 28,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 28",
+        "dayOfYear": 28
+      }
+    },
+    {
+      "gate": 19,
+      "line": 4,
+      "gateLineKey": "19.4",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 9,
+      "degree": 310.4375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 29,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 29",
+        "dayOfYear": 29
+      }
+    },
+    {
+      "gate": 19,
+      "line": 5,
+      "gateLineKey": "19.5",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 10,
+      "degree": 311.375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 30,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 30",
+        "dayOfYear": 30
+      }
+    },
+    {
+      "gate": 19,
+      "line": 6,
+      "gateLineKey": "19.6",
+      "wheelPosition": 1,
+      "absoluteLinePosition": 11,
+      "degree": 312.3125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 31,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 31",
+        "dayOfYear": 31
+      }
+    },
+    {
+      "gate": 13,
+      "line": 1,
+      "gateLineKey": "13.1",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 12,
+      "degree": 313.25,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 1,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 1",
+        "dayOfYear": 32
+      }
+    },
+    {
+      "gate": 13,
+      "line": 2,
+      "gateLineKey": "13.2",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 13,
+      "degree": 314.1875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 2,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 2",
+        "dayOfYear": 33
+      }
+    },
+    {
+      "gate": 13,
+      "line": 3,
+      "gateLineKey": "13.3",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 14,
+      "degree": 315.125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 3,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 3",
+        "dayOfYear": 34
+      }
+    },
+    {
+      "gate": 13,
+      "line": 4,
+      "gateLineKey": "13.4",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 15,
+      "degree": 316.0625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 4,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 4",
+        "dayOfYear": 35
+      }
+    },
+    {
+      "gate": 13,
+      "line": 5,
+      "gateLineKey": "13.5",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 16,
+      "degree": 317,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 17,
+        "formatted": "17.00° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 5,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 5",
+        "dayOfYear": 36
+      }
+    },
+    {
+      "gate": 13,
+      "line": 6,
+      "gateLineKey": "13.6",
+      "wheelPosition": 2,
+      "absoluteLinePosition": 17,
+      "degree": 317.9375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 6,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 6",
+        "dayOfYear": 37
+      }
+    },
+    {
+      "gate": 49,
+      "line": 1,
+      "gateLineKey": "49.1",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 18,
+      "degree": 318.875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 7,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 7",
+        "dayOfYear": 38
+      }
+    },
+    {
+      "gate": 49,
+      "line": 2,
+      "gateLineKey": "49.2",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 19,
+      "degree": 319.8125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 7,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 7",
+        "dayOfYear": 38
+      }
+    },
+    {
+      "gate": 49,
+      "line": 3,
+      "gateLineKey": "49.3",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 20,
+      "degree": 320.75,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 8,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 8",
+        "dayOfYear": 39
+      }
+    },
+    {
+      "gate": 49,
+      "line": 4,
+      "gateLineKey": "49.4",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 21,
+      "degree": 321.6875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 9,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 9",
+        "dayOfYear": 40
+      }
+    },
+    {
+      "gate": 49,
+      "line": 5,
+      "gateLineKey": "49.5",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 22,
+      "degree": 322.625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 10,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 10",
+        "dayOfYear": 41
+      }
+    },
+    {
+      "gate": 49,
+      "line": 6,
+      "gateLineKey": "49.6",
+      "wheelPosition": 3,
+      "absoluteLinePosition": 23,
+      "degree": 323.5625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 11,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 11",
+        "dayOfYear": 42
+      }
+    },
+    {
+      "gate": 30,
+      "line": 1,
+      "gateLineKey": "30.1",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 24,
+      "degree": 324.5,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 12,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 12",
+        "dayOfYear": 43
+      }
+    },
+    {
+      "gate": 30,
+      "line": 2,
+      "gateLineKey": "30.2",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 25,
+      "degree": 325.4375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 13,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 13",
+        "dayOfYear": 44
+      }
+    },
+    {
+      "gate": 30,
+      "line": 3,
+      "gateLineKey": "30.3",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 26,
+      "degree": 326.375,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 14,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 14",
+        "dayOfYear": 45
+      }
+    },
+    {
+      "gate": 30,
+      "line": 4,
+      "gateLineKey": "30.4",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 27,
+      "degree": 327.3125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 15,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 15",
+        "dayOfYear": 46
+      }
+    },
+    {
+      "gate": 30,
+      "line": 5,
+      "gateLineKey": "30.5",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 28,
+      "degree": 328.25,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 16,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 16",
+        "dayOfYear": 47
+      }
+    },
+    {
+      "gate": 30,
+      "line": 6,
+      "gateLineKey": "30.6",
+      "wheelPosition": 4,
+      "absoluteLinePosition": 29,
+      "degree": 329.1875,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Aquarius"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 17,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 17",
+        "dayOfYear": 48
+      }
+    },
+    {
+      "gate": 55,
+      "line": 1,
+      "gateLineKey": "55.1",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 30,
+      "degree": 330.125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 18,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 18",
+        "dayOfYear": 49
+      }
+    },
+    {
+      "gate": 55,
+      "line": 2,
+      "gateLineKey": "55.2",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 31,
+      "degree": 331.0625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 19,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 19",
+        "dayOfYear": 50
+      }
+    },
+    {
+      "gate": 55,
+      "line": 3,
+      "gateLineKey": "55.3",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 32,
+      "degree": 332,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 2,
+        "formatted": "2.00° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 20,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 20",
+        "dayOfYear": 51
+      }
+    },
+    {
+      "gate": 55,
+      "line": 4,
+      "gateLineKey": "55.4",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 33,
+      "degree": 332.9375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 21,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 21",
+        "dayOfYear": 52
+      }
+    },
+    {
+      "gate": 55,
+      "line": 5,
+      "gateLineKey": "55.5",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 34,
+      "degree": 333.875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 22,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 22",
+        "dayOfYear": 53
+      }
+    },
+    {
+      "gate": 55,
+      "line": 6,
+      "gateLineKey": "55.6",
+      "wheelPosition": 5,
+      "absoluteLinePosition": 35,
+      "degree": 334.8125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 23,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 23",
+        "dayOfYear": 54
+      }
+    },
+    {
+      "gate": 37,
+      "line": 1,
+      "gateLineKey": "37.1",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 36,
+      "degree": 335.75,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 24,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 24",
+        "dayOfYear": 55
+      }
+    },
+    {
+      "gate": 37,
+      "line": 2,
+      "gateLineKey": "37.2",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 37,
+      "degree": 336.6875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 25,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 25",
+        "dayOfYear": 56
+      }
+    },
+    {
+      "gate": 37,
+      "line": 3,
+      "gateLineKey": "37.3",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 38,
+      "degree": 337.625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 26,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 26",
+        "dayOfYear": 57
+      }
+    },
+    {
+      "gate": 37,
+      "line": 4,
+      "gateLineKey": "37.4",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 39,
+      "degree": 338.5625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 26,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 26",
+        "dayOfYear": 57
+      }
+    },
+    {
+      "gate": 37,
+      "line": 5,
+      "gateLineKey": "37.5",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 40,
+      "degree": 339.5,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 27,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 27",
+        "dayOfYear": 58
+      }
+    },
+    {
+      "gate": 37,
+      "line": 6,
+      "gateLineKey": "37.6",
+      "wheelPosition": 6,
+      "absoluteLinePosition": 41,
+      "degree": 340.4375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Pisces"
+      },
+      "calendar": {
+        "month": 2,
+        "day": 28,
+        "monthName": "February",
+        "monthAbbrev": "Feb",
+        "formatted": "Feb 28",
+        "dayOfYear": 59
+      }
+    },
+    {
+      "gate": 63,
+      "line": 1,
+      "gateLineKey": "63.1",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 42,
+      "degree": 341.375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 1,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 1",
+        "dayOfYear": 60
+      }
+    },
+    {
+      "gate": 63,
+      "line": 2,
+      "gateLineKey": "63.2",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 43,
+      "degree": 342.3125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 2,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 2",
+        "dayOfYear": 61
+      }
+    },
+    {
+      "gate": 63,
+      "line": 3,
+      "gateLineKey": "63.3",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 44,
+      "degree": 343.25,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 3,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 3",
+        "dayOfYear": 62
+      }
+    },
+    {
+      "gate": 63,
+      "line": 4,
+      "gateLineKey": "63.4",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 45,
+      "degree": 344.1875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 4,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 4",
+        "dayOfYear": 63
+      }
+    },
+    {
+      "gate": 63,
+      "line": 5,
+      "gateLineKey": "63.5",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 46,
+      "degree": 345.125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 5,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 5",
+        "dayOfYear": 64
+      }
+    },
+    {
+      "gate": 63,
+      "line": 6,
+      "gateLineKey": "63.6",
+      "wheelPosition": 7,
+      "absoluteLinePosition": 47,
+      "degree": 346.0625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 6,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 6",
+        "dayOfYear": 65
+      }
+    },
+    {
+      "gate": 22,
+      "line": 1,
+      "gateLineKey": "22.1",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 48,
+      "degree": 347,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 17,
+        "formatted": "17.00° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 7,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 7",
+        "dayOfYear": 66
+      }
+    },
+    {
+      "gate": 22,
+      "line": 2,
+      "gateLineKey": "22.2",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 49,
+      "degree": 347.9375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 8,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 8",
+        "dayOfYear": 67
+      }
+    },
+    {
+      "gate": 22,
+      "line": 3,
+      "gateLineKey": "22.3",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 50,
+      "degree": 348.875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 9,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 9",
+        "dayOfYear": 68
+      }
+    },
+    {
+      "gate": 22,
+      "line": 4,
+      "gateLineKey": "22.4",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 51,
+      "degree": 349.8125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 10,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 10",
+        "dayOfYear": 69
+      }
+    },
+    {
+      "gate": 22,
+      "line": 5,
+      "gateLineKey": "22.5",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 52,
+      "degree": 350.75,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 11,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 11",
+        "dayOfYear": 70
+      }
+    },
+    {
+      "gate": 22,
+      "line": 6,
+      "gateLineKey": "22.6",
+      "wheelPosition": 8,
+      "absoluteLinePosition": 53,
+      "degree": 351.6875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 12,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 12",
+        "dayOfYear": 71
+      }
+    },
+    {
+      "gate": 36,
+      "line": 1,
+      "gateLineKey": "36.1",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 54,
+      "degree": 352.625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 13,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 13",
+        "dayOfYear": 72
+      }
+    },
+    {
+      "gate": 36,
+      "line": 2,
+      "gateLineKey": "36.2",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 55,
+      "degree": 353.5625,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 14,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 14",
+        "dayOfYear": 73
+      }
+    },
+    {
+      "gate": 36,
+      "line": 3,
+      "gateLineKey": "36.3",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 56,
+      "degree": 354.5,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 15,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 15",
+        "dayOfYear": 74
+      }
+    },
+    {
+      "gate": 36,
+      "line": 4,
+      "gateLineKey": "36.4",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 57,
+      "degree": 355.4375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 16,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 16",
+        "dayOfYear": 75
+      }
+    },
+    {
+      "gate": 36,
+      "line": 5,
+      "gateLineKey": "36.5",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 58,
+      "degree": 356.375,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 17,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 17",
+        "dayOfYear": 76
+      }
+    },
+    {
+      "gate": 36,
+      "line": 6,
+      "gateLineKey": "36.6",
+      "wheelPosition": 9,
+      "absoluteLinePosition": 59,
+      "degree": 357.3125,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 18,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 18",
+        "dayOfYear": 77
+      }
+    },
+    {
+      "gate": 25,
+      "line": 1,
+      "gateLineKey": "25.1",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 60,
+      "degree": 358.25,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 18,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 18",
+        "dayOfYear": 77
+      }
+    },
+    {
+      "gate": 25,
+      "line": 2,
+      "gateLineKey": "25.2",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 61,
+      "degree": 359.1875,
+      "zodiac": {
+        "sign": "Pisces",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Pisces"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 19,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 19",
+        "dayOfYear": 78
+      }
+    },
+    {
+      "gate": 25,
+      "line": 3,
+      "gateLineKey": "25.3",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 62,
+      "degree": 0.125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 20,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 20",
+        "dayOfYear": 79
+      }
+    },
+    {
+      "gate": 25,
+      "line": 4,
+      "gateLineKey": "25.4",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 63,
+      "degree": 1.0625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 21,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 21",
+        "dayOfYear": 80
+      }
+    },
+    {
+      "gate": 25,
+      "line": 5,
+      "gateLineKey": "25.5",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 64,
+      "degree": 2,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 2,
+        "formatted": "2.00° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 22,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 22",
+        "dayOfYear": 81
+      }
+    },
+    {
+      "gate": 25,
+      "line": 6,
+      "gateLineKey": "25.6",
+      "wheelPosition": 10,
+      "absoluteLinePosition": 65,
+      "degree": 2.9375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 23,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 23",
+        "dayOfYear": 82
+      }
+    },
+    {
+      "gate": 17,
+      "line": 1,
+      "gateLineKey": "17.1",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 66,
+      "degree": 3.875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 24,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 24",
+        "dayOfYear": 83
+      }
+    },
+    {
+      "gate": 17,
+      "line": 2,
+      "gateLineKey": "17.2",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 67,
+      "degree": 4.8125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 25,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 25",
+        "dayOfYear": 84
+      }
+    },
+    {
+      "gate": 17,
+      "line": 3,
+      "gateLineKey": "17.3",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 68,
+      "degree": 5.75,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 26,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 26",
+        "dayOfYear": 85
+      }
+    },
+    {
+      "gate": 17,
+      "line": 4,
+      "gateLineKey": "17.4",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 69,
+      "degree": 6.6875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 27,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 27",
+        "dayOfYear": 86
+      }
+    },
+    {
+      "gate": 17,
+      "line": 5,
+      "gateLineKey": "17.5",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 70,
+      "degree": 7.625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 28,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 28",
+        "dayOfYear": 87
+      }
+    },
+    {
+      "gate": 17,
+      "line": 6,
+      "gateLineKey": "17.6",
+      "wheelPosition": 11,
+      "absoluteLinePosition": 71,
+      "degree": 8.5625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 29,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 29",
+        "dayOfYear": 88
+      }
+    },
+    {
+      "gate": 21,
+      "line": 1,
+      "gateLineKey": "21.1",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 72,
+      "degree": 9.5,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 30,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 30",
+        "dayOfYear": 89
+      }
+    },
+    {
+      "gate": 21,
+      "line": 2,
+      "gateLineKey": "21.2",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 73,
+      "degree": 10.4375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Aries"
+      },
+      "calendar": {
+        "month": 3,
+        "day": 31,
+        "monthName": "March",
+        "monthAbbrev": "Mar",
+        "formatted": "Mar 31",
+        "dayOfYear": 90
+      }
+    },
+    {
+      "gate": 21,
+      "line": 3,
+      "gateLineKey": "21.3",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 74,
+      "degree": 11.375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 1,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 1",
+        "dayOfYear": 91
+      }
+    },
+    {
+      "gate": 21,
+      "line": 4,
+      "gateLineKey": "21.4",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 75,
+      "degree": 12.3125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 1,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 1",
+        "dayOfYear": 91
+      }
+    },
+    {
+      "gate": 21,
+      "line": 5,
+      "gateLineKey": "21.5",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 76,
+      "degree": 13.25,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 2,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 2",
+        "dayOfYear": 92
+      }
+    },
+    {
+      "gate": 21,
+      "line": 6,
+      "gateLineKey": "21.6",
+      "wheelPosition": 12,
+      "absoluteLinePosition": 77,
+      "degree": 14.1875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 3,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 3",
+        "dayOfYear": 93
+      }
+    },
+    {
+      "gate": 51,
+      "line": 1,
+      "gateLineKey": "51.1",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 78,
+      "degree": 15.125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 4,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 4",
+        "dayOfYear": 94
+      }
+    },
+    {
+      "gate": 51,
+      "line": 2,
+      "gateLineKey": "51.2",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 79,
+      "degree": 16.0625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 5,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 5",
+        "dayOfYear": 95
+      }
+    },
+    {
+      "gate": 51,
+      "line": 3,
+      "gateLineKey": "51.3",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 80,
+      "degree": 17,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 17,
+        "formatted": "17.00° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 6,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 6",
+        "dayOfYear": 96
+      }
+    },
+    {
+      "gate": 51,
+      "line": 4,
+      "gateLineKey": "51.4",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 81,
+      "degree": 17.9375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 7,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 7",
+        "dayOfYear": 97
+      }
+    },
+    {
+      "gate": 51,
+      "line": 5,
+      "gateLineKey": "51.5",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 82,
+      "degree": 18.875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 8,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 8",
+        "dayOfYear": 98
+      }
+    },
+    {
+      "gate": 51,
+      "line": 6,
+      "gateLineKey": "51.6",
+      "wheelPosition": 13,
+      "absoluteLinePosition": 83,
+      "degree": 19.8125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 9,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 9",
+        "dayOfYear": 99
+      }
+    },
+    {
+      "gate": 42,
+      "line": 1,
+      "gateLineKey": "42.1",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 84,
+      "degree": 20.75,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 10,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 10",
+        "dayOfYear": 100
+      }
+    },
+    {
+      "gate": 42,
+      "line": 2,
+      "gateLineKey": "42.2",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 85,
+      "degree": 21.6875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 11,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 11",
+        "dayOfYear": 101
+      }
+    },
+    {
+      "gate": 42,
+      "line": 3,
+      "gateLineKey": "42.3",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 86,
+      "degree": 22.625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 12,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 12",
+        "dayOfYear": 102
+      }
+    },
+    {
+      "gate": 42,
+      "line": 4,
+      "gateLineKey": "42.4",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 87,
+      "degree": 23.5625,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 13,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 13",
+        "dayOfYear": 103
+      }
+    },
+    {
+      "gate": 42,
+      "line": 5,
+      "gateLineKey": "42.5",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 88,
+      "degree": 24.5,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 14,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 14",
+        "dayOfYear": 104
+      }
+    },
+    {
+      "gate": 42,
+      "line": 6,
+      "gateLineKey": "42.6",
+      "wheelPosition": 14,
+      "absoluteLinePosition": 89,
+      "degree": 25.4375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 15,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 15",
+        "dayOfYear": 105
+      }
+    },
+    {
+      "gate": 3,
+      "line": 1,
+      "gateLineKey": "3.1",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 90,
+      "degree": 26.375,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 16,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 16",
+        "dayOfYear": 106
+      }
+    },
+    {
+      "gate": 3,
+      "line": 2,
+      "gateLineKey": "3.2",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 91,
+      "degree": 27.3125,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 17,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 17",
+        "dayOfYear": 107
+      }
+    },
+    {
+      "gate": 3,
+      "line": 3,
+      "gateLineKey": "3.3",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 92,
+      "degree": 28.25,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 18,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 18",
+        "dayOfYear": 108
+      }
+    },
+    {
+      "gate": 3,
+      "line": 4,
+      "gateLineKey": "3.4",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 93,
+      "degree": 29.1875,
+      "zodiac": {
+        "sign": "Aries",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Aries"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 19,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 19",
+        "dayOfYear": 109
+      }
+    },
+    {
+      "gate": 3,
+      "line": 5,
+      "gateLineKey": "3.5",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 94,
+      "degree": 30.125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 20,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 20",
+        "dayOfYear": 110
+      }
+    },
+    {
+      "gate": 3,
+      "line": 6,
+      "gateLineKey": "3.6",
+      "wheelPosition": 15,
+      "absoluteLinePosition": 95,
+      "degree": 31.0625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 21,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 21",
+        "dayOfYear": 111
+      }
+    },
+    {
+      "gate": 27,
+      "line": 1,
+      "gateLineKey": "27.1",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 96,
+      "degree": 32,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 2,
+        "formatted": "2.00° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 21,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 21",
+        "dayOfYear": 111
+      }
+    },
+    {
+      "gate": 27,
+      "line": 2,
+      "gateLineKey": "27.2",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 97,
+      "degree": 32.9375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 22,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 22",
+        "dayOfYear": 112
+      }
+    },
+    {
+      "gate": 27,
+      "line": 3,
+      "gateLineKey": "27.3",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 98,
+      "degree": 33.875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 23,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 23",
+        "dayOfYear": 113
+      }
+    },
+    {
+      "gate": 27,
+      "line": 4,
+      "gateLineKey": "27.4",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 99,
+      "degree": 34.8125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 24,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 24",
+        "dayOfYear": 114
+      }
+    },
+    {
+      "gate": 27,
+      "line": 5,
+      "gateLineKey": "27.5",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 100,
+      "degree": 35.75,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 25,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 25",
+        "dayOfYear": 115
+      }
+    },
+    {
+      "gate": 27,
+      "line": 6,
+      "gateLineKey": "27.6",
+      "wheelPosition": 16,
+      "absoluteLinePosition": 101,
+      "degree": 36.6875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 26,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 26",
+        "dayOfYear": 116
+      }
+    },
+    {
+      "gate": 24,
+      "line": 1,
+      "gateLineKey": "24.1",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 102,
+      "degree": 37.625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 27,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 27",
+        "dayOfYear": 117
+      }
+    },
+    {
+      "gate": 24,
+      "line": 2,
+      "gateLineKey": "24.2",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 103,
+      "degree": 38.5625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 28,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 28",
+        "dayOfYear": 118
+      }
+    },
+    {
+      "gate": 24,
+      "line": 3,
+      "gateLineKey": "24.3",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 104,
+      "degree": 39.5,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 29,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 29",
+        "dayOfYear": 119
+      }
+    },
+    {
+      "gate": 24,
+      "line": 4,
+      "gateLineKey": "24.4",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 105,
+      "degree": 40.4375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Taurus"
+      },
+      "calendar": {
+        "month": 4,
+        "day": 30,
+        "monthName": "April",
+        "monthAbbrev": "Apr",
+        "formatted": "Apr 30",
+        "dayOfYear": 120
+      }
+    },
+    {
+      "gate": 24,
+      "line": 5,
+      "gateLineKey": "24.5",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 106,
+      "degree": 41.375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 1,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 1",
+        "dayOfYear": 121
+      }
+    },
+    {
+      "gate": 24,
+      "line": 6,
+      "gateLineKey": "24.6",
+      "wheelPosition": 17,
+      "absoluteLinePosition": 107,
+      "degree": 42.3125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 2,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 2",
+        "dayOfYear": 122
+      }
+    },
+    {
+      "gate": 2,
+      "line": 1,
+      "gateLineKey": "2.1",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 108,
+      "degree": 43.25,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 3,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 3",
+        "dayOfYear": 123
+      }
+    },
+    {
+      "gate": 2,
+      "line": 2,
+      "gateLineKey": "2.2",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 109,
+      "degree": 44.1875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 4,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 4",
+        "dayOfYear": 124
+      }
+    },
+    {
+      "gate": 2,
+      "line": 3,
+      "gateLineKey": "2.3",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 110,
+      "degree": 45.125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 5,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 5",
+        "dayOfYear": 125
+      }
+    },
+    {
+      "gate": 2,
+      "line": 4,
+      "gateLineKey": "2.4",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 111,
+      "degree": 46.0625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 6,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 6",
+        "dayOfYear": 126
+      }
+    },
+    {
+      "gate": 2,
+      "line": 5,
+      "gateLineKey": "2.5",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 112,
+      "degree": 47,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 17,
+        "formatted": "17.00° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 7,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 7",
+        "dayOfYear": 127
+      }
+    },
+    {
+      "gate": 2,
+      "line": 6,
+      "gateLineKey": "2.6",
+      "wheelPosition": 18,
+      "absoluteLinePosition": 113,
+      "degree": 47.9375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 8,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 8",
+        "dayOfYear": 128
+      }
+    },
+    {
+      "gate": 23,
+      "line": 1,
+      "gateLineKey": "23.1",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 114,
+      "degree": 48.875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 9,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 9",
+        "dayOfYear": 129
+      }
+    },
+    {
+      "gate": 23,
+      "line": 2,
+      "gateLineKey": "23.2",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 115,
+      "degree": 49.8125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 10,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 10",
+        "dayOfYear": 130
+      }
+    },
+    {
+      "gate": 23,
+      "line": 3,
+      "gateLineKey": "23.3",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 116,
+      "degree": 50.75,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 10,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 10",
+        "dayOfYear": 130
+      }
+    },
+    {
+      "gate": 23,
+      "line": 4,
+      "gateLineKey": "23.4",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 117,
+      "degree": 51.6875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 11,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 11",
+        "dayOfYear": 131
+      }
+    },
+    {
+      "gate": 23,
+      "line": 5,
+      "gateLineKey": "23.5",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 118,
+      "degree": 52.625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 12,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 12",
+        "dayOfYear": 132
+      }
+    },
+    {
+      "gate": 23,
+      "line": 6,
+      "gateLineKey": "23.6",
+      "wheelPosition": 19,
+      "absoluteLinePosition": 119,
+      "degree": 53.5625,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 13,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 13",
+        "dayOfYear": 133
+      }
+    },
+    {
+      "gate": 8,
+      "line": 1,
+      "gateLineKey": "8.1",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 120,
+      "degree": 54.5,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 14,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 14",
+        "dayOfYear": 134
+      }
+    },
+    {
+      "gate": 8,
+      "line": 2,
+      "gateLineKey": "8.2",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 121,
+      "degree": 55.4375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 15,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 15",
+        "dayOfYear": 135
+      }
+    },
+    {
+      "gate": 8,
+      "line": 3,
+      "gateLineKey": "8.3",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 122,
+      "degree": 56.375,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 16,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 16",
+        "dayOfYear": 136
+      }
+    },
+    {
+      "gate": 8,
+      "line": 4,
+      "gateLineKey": "8.4",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 123,
+      "degree": 57.3125,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 17,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 17",
+        "dayOfYear": 137
+      }
+    },
+    {
+      "gate": 8,
+      "line": 5,
+      "gateLineKey": "8.5",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 124,
+      "degree": 58.25,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 18,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 18",
+        "dayOfYear": 138
+      }
+    },
+    {
+      "gate": 8,
+      "line": 6,
+      "gateLineKey": "8.6",
+      "wheelPosition": 20,
+      "absoluteLinePosition": 125,
+      "degree": 59.1875,
+      "zodiac": {
+        "sign": "Taurus",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Taurus"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 19,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 19",
+        "dayOfYear": 139
+      }
+    },
+    {
+      "gate": 20,
+      "line": 1,
+      "gateLineKey": "20.1",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 126,
+      "degree": 60.125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 20,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 20",
+        "dayOfYear": 140
+      }
+    },
+    {
+      "gate": 20,
+      "line": 2,
+      "gateLineKey": "20.2",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 127,
+      "degree": 61.0625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 21,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 21",
+        "dayOfYear": 141
+      }
+    },
+    {
+      "gate": 20,
+      "line": 3,
+      "gateLineKey": "20.3",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 128,
+      "degree": 62,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 2,
+        "formatted": "2.00° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 22,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 22",
+        "dayOfYear": 142
+      }
+    },
+    {
+      "gate": 20,
+      "line": 4,
+      "gateLineKey": "20.4",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 129,
+      "degree": 62.9375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 23,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 23",
+        "dayOfYear": 143
+      }
+    },
+    {
+      "gate": 20,
+      "line": 5,
+      "gateLineKey": "20.5",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 130,
+      "degree": 63.875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 24,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 24",
+        "dayOfYear": 144
+      }
+    },
+    {
+      "gate": 20,
+      "line": 6,
+      "gateLineKey": "20.6",
+      "wheelPosition": 21,
+      "absoluteLinePosition": 131,
+      "degree": 64.8125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 25,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 25",
+        "dayOfYear": 145
+      }
+    },
+    {
+      "gate": 16,
+      "line": 1,
+      "gateLineKey": "16.1",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 132,
+      "degree": 65.75,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 26,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 26",
+        "dayOfYear": 146
+      }
+    },
+    {
+      "gate": 16,
+      "line": 2,
+      "gateLineKey": "16.2",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 133,
+      "degree": 66.6875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 27,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 27",
+        "dayOfYear": 147
+      }
+    },
+    {
+      "gate": 16,
+      "line": 3,
+      "gateLineKey": "16.3",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 134,
+      "degree": 67.625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 28,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 28",
+        "dayOfYear": 148
+      }
+    },
+    {
+      "gate": 16,
+      "line": 4,
+      "gateLineKey": "16.4",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 135,
+      "degree": 68.5625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 29,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 29",
+        "dayOfYear": 149
+      }
+    },
+    {
+      "gate": 16,
+      "line": 5,
+      "gateLineKey": "16.5",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 136,
+      "degree": 69.5,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 30,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 30",
+        "dayOfYear": 150
+      }
+    },
+    {
+      "gate": 16,
+      "line": 6,
+      "gateLineKey": "16.6",
+      "wheelPosition": 22,
+      "absoluteLinePosition": 137,
+      "degree": 70.4375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 30,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 30",
+        "dayOfYear": 150
+      }
+    },
+    {
+      "gate": 35,
+      "line": 1,
+      "gateLineKey": "35.1",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 138,
+      "degree": 71.375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Gemini"
+      },
+      "calendar": {
+        "month": 5,
+        "day": 31,
+        "monthName": "May",
+        "monthAbbrev": "May",
+        "formatted": "May 31",
+        "dayOfYear": 151
+      }
+    },
+    {
+      "gate": 35,
+      "line": 2,
+      "gateLineKey": "35.2",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 139,
+      "degree": 72.3125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 1,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 1",
+        "dayOfYear": 152
+      }
+    },
+    {
+      "gate": 35,
+      "line": 3,
+      "gateLineKey": "35.3",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 140,
+      "degree": 73.25,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 2,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 2",
+        "dayOfYear": 153
+      }
+    },
+    {
+      "gate": 35,
+      "line": 4,
+      "gateLineKey": "35.4",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 141,
+      "degree": 74.1875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 3,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 3",
+        "dayOfYear": 154
+      }
+    },
+    {
+      "gate": 35,
+      "line": 5,
+      "gateLineKey": "35.5",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 142,
+      "degree": 75.125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 4,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 4",
+        "dayOfYear": 155
+      }
+    },
+    {
+      "gate": 35,
+      "line": 6,
+      "gateLineKey": "35.6",
+      "wheelPosition": 23,
+      "absoluteLinePosition": 143,
+      "degree": 76.0625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 5,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 5",
+        "dayOfYear": 156
+      }
+    },
+    {
+      "gate": 45,
+      "line": 1,
+      "gateLineKey": "45.1",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 144,
+      "degree": 77,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 17,
+        "formatted": "17.00° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 6,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 6",
+        "dayOfYear": 157
+      }
+    },
+    {
+      "gate": 45,
+      "line": 2,
+      "gateLineKey": "45.2",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 145,
+      "degree": 77.9375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 7,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 7",
+        "dayOfYear": 158
+      }
+    },
+    {
+      "gate": 45,
+      "line": 3,
+      "gateLineKey": "45.3",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 146,
+      "degree": 78.875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 8,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 8",
+        "dayOfYear": 159
+      }
+    },
+    {
+      "gate": 45,
+      "line": 4,
+      "gateLineKey": "45.4",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 147,
+      "degree": 79.8125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 9,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 9",
+        "dayOfYear": 160
+      }
+    },
+    {
+      "gate": 45,
+      "line": 5,
+      "gateLineKey": "45.5",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 148,
+      "degree": 80.75,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 10,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 10",
+        "dayOfYear": 161
+      }
+    },
+    {
+      "gate": 45,
+      "line": 6,
+      "gateLineKey": "45.6",
+      "wheelPosition": 24,
+      "absoluteLinePosition": 149,
+      "degree": 81.6875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 11,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 11",
+        "dayOfYear": 162
+      }
+    },
+    {
+      "gate": 12,
+      "line": 1,
+      "gateLineKey": "12.1",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 150,
+      "degree": 82.625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 12,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 12",
+        "dayOfYear": 163
+      }
+    },
+    {
+      "gate": 12,
+      "line": 2,
+      "gateLineKey": "12.2",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 151,
+      "degree": 83.5625,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 13,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 13",
+        "dayOfYear": 164
+      }
+    },
+    {
+      "gate": 12,
+      "line": 3,
+      "gateLineKey": "12.3",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 152,
+      "degree": 84.5,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 14,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 14",
+        "dayOfYear": 165
+      }
+    },
+    {
+      "gate": 12,
+      "line": 4,
+      "gateLineKey": "12.4",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 153,
+      "degree": 85.4375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 15,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 15",
+        "dayOfYear": 166
+      }
+    },
+    {
+      "gate": 12,
+      "line": 5,
+      "gateLineKey": "12.5",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 154,
+      "degree": 86.375,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 16,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 16",
+        "dayOfYear": 167
+      }
+    },
+    {
+      "gate": 12,
+      "line": 6,
+      "gateLineKey": "12.6",
+      "wheelPosition": 25,
+      "absoluteLinePosition": 155,
+      "degree": 87.3125,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 17,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 17",
+        "dayOfYear": 168
+      }
+    },
+    {
+      "gate": 15,
+      "line": 1,
+      "gateLineKey": "15.1",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 156,
+      "degree": 88.25,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 18,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 18",
+        "dayOfYear": 169
+      }
+    },
+    {
+      "gate": 15,
+      "line": 2,
+      "gateLineKey": "15.2",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 157,
+      "degree": 89.1875,
+      "zodiac": {
+        "sign": "Gemini",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Gemini"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 18,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 18",
+        "dayOfYear": 169
+      }
+    },
+    {
+      "gate": 15,
+      "line": 3,
+      "gateLineKey": "15.3",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 158,
+      "degree": 90.125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 19,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 19",
+        "dayOfYear": 170
+      }
+    },
+    {
+      "gate": 15,
+      "line": 4,
+      "gateLineKey": "15.4",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 159,
+      "degree": 91.0625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 20,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 20",
+        "dayOfYear": 171
+      }
+    },
+    {
+      "gate": 15,
+      "line": 5,
+      "gateLineKey": "15.5",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 160,
+      "degree": 92,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 2,
+        "formatted": "2.00° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 21,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 21",
+        "dayOfYear": 172
+      }
+    },
+    {
+      "gate": 15,
+      "line": 6,
+      "gateLineKey": "15.6",
+      "wheelPosition": 26,
+      "absoluteLinePosition": 161,
+      "degree": 92.9375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 22,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 22",
+        "dayOfYear": 173
+      }
+    },
+    {
+      "gate": 52,
+      "line": 1,
+      "gateLineKey": "52.1",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 162,
+      "degree": 93.875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 23,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 23",
+        "dayOfYear": 174
+      }
+    },
+    {
+      "gate": 52,
+      "line": 2,
+      "gateLineKey": "52.2",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 163,
+      "degree": 94.8125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 24,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 24",
+        "dayOfYear": 175
+      }
+    },
+    {
+      "gate": 52,
+      "line": 3,
+      "gateLineKey": "52.3",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 164,
+      "degree": 95.75,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 25,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 25",
+        "dayOfYear": 176
+      }
+    },
+    {
+      "gate": 52,
+      "line": 4,
+      "gateLineKey": "52.4",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 165,
+      "degree": 96.6875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 26,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 26",
+        "dayOfYear": 177
+      }
+    },
+    {
+      "gate": 52,
+      "line": 5,
+      "gateLineKey": "52.5",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 166,
+      "degree": 97.625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 27,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 27",
+        "dayOfYear": 178
+      }
+    },
+    {
+      "gate": 52,
+      "line": 6,
+      "gateLineKey": "52.6",
+      "wheelPosition": 27,
+      "absoluteLinePosition": 167,
+      "degree": 98.5625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 28,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 28",
+        "dayOfYear": 179
+      }
+    },
+    {
+      "gate": 39,
+      "line": 1,
+      "gateLineKey": "39.1",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 168,
+      "degree": 99.5,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 29,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 29",
+        "dayOfYear": 180
+      }
+    },
+    {
+      "gate": 39,
+      "line": 2,
+      "gateLineKey": "39.2",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 169,
+      "degree": 100.4375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Cancer"
+      },
+      "calendar": {
+        "month": 6,
+        "day": 30,
+        "monthName": "June",
+        "monthAbbrev": "Jun",
+        "formatted": "Jun 30",
+        "dayOfYear": 181
+      }
+    },
+    {
+      "gate": 39,
+      "line": 3,
+      "gateLineKey": "39.3",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 170,
+      "degree": 101.375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 1,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 1",
+        "dayOfYear": 182
+      }
+    },
+    {
+      "gate": 39,
+      "line": 4,
+      "gateLineKey": "39.4",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 171,
+      "degree": 102.3125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 2,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 2",
+        "dayOfYear": 183
+      }
+    },
+    {
+      "gate": 39,
+      "line": 5,
+      "gateLineKey": "39.5",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 172,
+      "degree": 103.25,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 3,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 3",
+        "dayOfYear": 184
+      }
+    },
+    {
+      "gate": 39,
+      "line": 6,
+      "gateLineKey": "39.6",
+      "wheelPosition": 28,
+      "absoluteLinePosition": 173,
+      "degree": 104.1875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 4,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 4",
+        "dayOfYear": 185
+      }
+    },
+    {
+      "gate": 53,
+      "line": 1,
+      "gateLineKey": "53.1",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 174,
+      "degree": 105.125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 5,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 5",
+        "dayOfYear": 186
+      }
+    },
+    {
+      "gate": 53,
+      "line": 2,
+      "gateLineKey": "53.2",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 175,
+      "degree": 106.0625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 6,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 6",
+        "dayOfYear": 187
+      }
+    },
+    {
+      "gate": 53,
+      "line": 3,
+      "gateLineKey": "53.3",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 176,
+      "degree": 107,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 17,
+        "formatted": "17.00° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 7,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 7",
+        "dayOfYear": 188
+      }
+    },
+    {
+      "gate": 53,
+      "line": 4,
+      "gateLineKey": "53.4",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 177,
+      "degree": 107.9375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 8,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 8",
+        "dayOfYear": 189
+      }
+    },
+    {
+      "gate": 53,
+      "line": 5,
+      "gateLineKey": "53.5",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 178,
+      "degree": 108.875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 8,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 8",
+        "dayOfYear": 189
+      }
+    },
+    {
+      "gate": 53,
+      "line": 6,
+      "gateLineKey": "53.6",
+      "wheelPosition": 29,
+      "absoluteLinePosition": 179,
+      "degree": 109.8125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 9,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 9",
+        "dayOfYear": 190
+      }
+    },
+    {
+      "gate": 62,
+      "line": 1,
+      "gateLineKey": "62.1",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 180,
+      "degree": 110.75,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 10,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 10",
+        "dayOfYear": 191
+      }
+    },
+    {
+      "gate": 62,
+      "line": 2,
+      "gateLineKey": "62.2",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 181,
+      "degree": 111.6875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 11,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 11",
+        "dayOfYear": 192
+      }
+    },
+    {
+      "gate": 62,
+      "line": 3,
+      "gateLineKey": "62.3",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 182,
+      "degree": 112.625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 12,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 12",
+        "dayOfYear": 193
+      }
+    },
+    {
+      "gate": 62,
+      "line": 4,
+      "gateLineKey": "62.4",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 183,
+      "degree": 113.5625,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 13,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 13",
+        "dayOfYear": 194
+      }
+    },
+    {
+      "gate": 62,
+      "line": 5,
+      "gateLineKey": "62.5",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 184,
+      "degree": 114.5,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 14,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 14",
+        "dayOfYear": 195
+      }
+    },
+    {
+      "gate": 62,
+      "line": 6,
+      "gateLineKey": "62.6",
+      "wheelPosition": 30,
+      "absoluteLinePosition": 185,
+      "degree": 115.4375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 15,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 15",
+        "dayOfYear": 196
+      }
+    },
+    {
+      "gate": 56,
+      "line": 1,
+      "gateLineKey": "56.1",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 186,
+      "degree": 116.375,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 16,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 16",
+        "dayOfYear": 197
+      }
+    },
+    {
+      "gate": 56,
+      "line": 2,
+      "gateLineKey": "56.2",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 187,
+      "degree": 117.3125,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 17,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 17",
+        "dayOfYear": 198
+      }
+    },
+    {
+      "gate": 56,
+      "line": 3,
+      "gateLineKey": "56.3",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 188,
+      "degree": 118.25,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 18,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 18",
+        "dayOfYear": 199
+      }
+    },
+    {
+      "gate": 56,
+      "line": 4,
+      "gateLineKey": "56.4",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 189,
+      "degree": 119.1875,
+      "zodiac": {
+        "sign": "Cancer",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Cancer"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 19,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 19",
+        "dayOfYear": 200
+      }
+    },
+    {
+      "gate": 56,
+      "line": 5,
+      "gateLineKey": "56.5",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 190,
+      "degree": 120.125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 20,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 20",
+        "dayOfYear": 201
+      }
+    },
+    {
+      "gate": 56,
+      "line": 6,
+      "gateLineKey": "56.6",
+      "wheelPosition": 31,
+      "absoluteLinePosition": 191,
+      "degree": 121.0625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 21,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 21",
+        "dayOfYear": 202
+      }
+    },
+    {
+      "gate": 31,
+      "line": 1,
+      "gateLineKey": "31.1",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 192,
+      "degree": 122,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 2,
+        "formatted": "2.00° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 22,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 22",
+        "dayOfYear": 203
+      }
+    },
+    {
+      "gate": 31,
+      "line": 2,
+      "gateLineKey": "31.2",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 193,
+      "degree": 122.9375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 23,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 23",
+        "dayOfYear": 204
+      }
+    },
+    {
+      "gate": 31,
+      "line": 3,
+      "gateLineKey": "31.3",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 194,
+      "degree": 123.875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 24,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 24",
+        "dayOfYear": 205
+      }
+    },
+    {
+      "gate": 31,
+      "line": 4,
+      "gateLineKey": "31.4",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 195,
+      "degree": 124.8125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 25,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 25",
+        "dayOfYear": 206
+      }
+    },
+    {
+      "gate": 31,
+      "line": 5,
+      "gateLineKey": "31.5",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 196,
+      "degree": 125.75,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 26,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 26",
+        "dayOfYear": 207
+      }
+    },
+    {
+      "gate": 31,
+      "line": 6,
+      "gateLineKey": "31.6",
+      "wheelPosition": 32,
+      "absoluteLinePosition": 197,
+      "degree": 126.6875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 27,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 27",
+        "dayOfYear": 208
+      }
+    },
+    {
+      "gate": 33,
+      "line": 1,
+      "gateLineKey": "33.1",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 198,
+      "degree": 127.625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 27,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 27",
+        "dayOfYear": 208
+      }
+    },
+    {
+      "gate": 33,
+      "line": 2,
+      "gateLineKey": "33.2",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 199,
+      "degree": 128.5625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 28,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 28",
+        "dayOfYear": 209
+      }
+    },
+    {
+      "gate": 33,
+      "line": 3,
+      "gateLineKey": "33.3",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 200,
+      "degree": 129.5,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 29,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 29",
+        "dayOfYear": 210
+      }
+    },
+    {
+      "gate": 33,
+      "line": 4,
+      "gateLineKey": "33.4",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 201,
+      "degree": 130.4375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 30,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 30",
+        "dayOfYear": 211
+      }
+    },
+    {
+      "gate": 33,
+      "line": 5,
+      "gateLineKey": "33.5",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 202,
+      "degree": 131.375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Leo"
+      },
+      "calendar": {
+        "month": 7,
+        "day": 31,
+        "monthName": "July",
+        "monthAbbrev": "Jul",
+        "formatted": "Jul 31",
+        "dayOfYear": 212
+      }
+    },
+    {
+      "gate": 33,
+      "line": 6,
+      "gateLineKey": "33.6",
+      "wheelPosition": 33,
+      "absoluteLinePosition": 203,
+      "degree": 132.3125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 1,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 1",
+        "dayOfYear": 213
+      }
+    },
+    {
+      "gate": 7,
+      "line": 1,
+      "gateLineKey": "7.1",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 204,
+      "degree": 133.25,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 2,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 2",
+        "dayOfYear": 214
+      }
+    },
+    {
+      "gate": 7,
+      "line": 2,
+      "gateLineKey": "7.2",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 205,
+      "degree": 134.1875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 3,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 3",
+        "dayOfYear": 215
+      }
+    },
+    {
+      "gate": 7,
+      "line": 3,
+      "gateLineKey": "7.3",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 206,
+      "degree": 135.125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 4,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 4",
+        "dayOfYear": 216
+      }
+    },
+    {
+      "gate": 7,
+      "line": 4,
+      "gateLineKey": "7.4",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 207,
+      "degree": 136.0625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 5,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 5",
+        "dayOfYear": 217
+      }
+    },
+    {
+      "gate": 7,
+      "line": 5,
+      "gateLineKey": "7.5",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 208,
+      "degree": 137,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 17,
+        "formatted": "17.00° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 6,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 6",
+        "dayOfYear": 218
+      }
+    },
+    {
+      "gate": 7,
+      "line": 6,
+      "gateLineKey": "7.6",
+      "wheelPosition": 34,
+      "absoluteLinePosition": 209,
+      "degree": 137.9375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 7,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 7",
+        "dayOfYear": 219
+      }
+    },
+    {
+      "gate": 4,
+      "line": 1,
+      "gateLineKey": "4.1",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 210,
+      "degree": 138.875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 8,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 8",
+        "dayOfYear": 220
+      }
+    },
+    {
+      "gate": 4,
+      "line": 2,
+      "gateLineKey": "4.2",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 211,
+      "degree": 139.8125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 9,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 9",
+        "dayOfYear": 221
+      }
+    },
+    {
+      "gate": 4,
+      "line": 3,
+      "gateLineKey": "4.3",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 212,
+      "degree": 140.75,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 10,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 10",
+        "dayOfYear": 222
+      }
+    },
+    {
+      "gate": 4,
+      "line": 4,
+      "gateLineKey": "4.4",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 213,
+      "degree": 141.6875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 11,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 11",
+        "dayOfYear": 223
+      }
+    },
+    {
+      "gate": 4,
+      "line": 5,
+      "gateLineKey": "4.5",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 214,
+      "degree": 142.625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 12,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 12",
+        "dayOfYear": 224
+      }
+    },
+    {
+      "gate": 4,
+      "line": 6,
+      "gateLineKey": "4.6",
+      "wheelPosition": 35,
+      "absoluteLinePosition": 215,
+      "degree": 143.5625,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 13,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 13",
+        "dayOfYear": 225
+      }
+    },
+    {
+      "gate": 29,
+      "line": 1,
+      "gateLineKey": "29.1",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 216,
+      "degree": 144.5,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 14,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 14",
+        "dayOfYear": 226
+      }
+    },
+    {
+      "gate": 29,
+      "line": 2,
+      "gateLineKey": "29.2",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 217,
+      "degree": 145.4375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 15,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 15",
+        "dayOfYear": 227
+      }
+    },
+    {
+      "gate": 29,
+      "line": 3,
+      "gateLineKey": "29.3",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 218,
+      "degree": 146.375,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 16,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 16",
+        "dayOfYear": 228
+      }
+    },
+    {
+      "gate": 29,
+      "line": 4,
+      "gateLineKey": "29.4",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 219,
+      "degree": 147.3125,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 16,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 16",
+        "dayOfYear": 228
+      }
+    },
+    {
+      "gate": 29,
+      "line": 5,
+      "gateLineKey": "29.5",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 220,
+      "degree": 148.25,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 17,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 17",
+        "dayOfYear": 229
+      }
+    },
+    {
+      "gate": 29,
+      "line": 6,
+      "gateLineKey": "29.6",
+      "wheelPosition": 36,
+      "absoluteLinePosition": 221,
+      "degree": 149.1875,
+      "zodiac": {
+        "sign": "Leo",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Leo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 18,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 18",
+        "dayOfYear": 230
+      }
+    },
+    {
+      "gate": 59,
+      "line": 1,
+      "gateLineKey": "59.1",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 222,
+      "degree": 150.125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 19,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 19",
+        "dayOfYear": 231
+      }
+    },
+    {
+      "gate": 59,
+      "line": 2,
+      "gateLineKey": "59.2",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 223,
+      "degree": 151.0625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 20,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 20",
+        "dayOfYear": 232
+      }
+    },
+    {
+      "gate": 59,
+      "line": 3,
+      "gateLineKey": "59.3",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 224,
+      "degree": 152,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 2,
+        "formatted": "2.00° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 21,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 21",
+        "dayOfYear": 233
+      }
+    },
+    {
+      "gate": 59,
+      "line": 4,
+      "gateLineKey": "59.4",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 225,
+      "degree": 152.9375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 22,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 22",
+        "dayOfYear": 234
+      }
+    },
+    {
+      "gate": 59,
+      "line": 5,
+      "gateLineKey": "59.5",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 226,
+      "degree": 153.875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 23,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 23",
+        "dayOfYear": 235
+      }
+    },
+    {
+      "gate": 59,
+      "line": 6,
+      "gateLineKey": "59.6",
+      "wheelPosition": 37,
+      "absoluteLinePosition": 227,
+      "degree": 154.8125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 24,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 24",
+        "dayOfYear": 236
+      }
+    },
+    {
+      "gate": 40,
+      "line": 1,
+      "gateLineKey": "40.1",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 228,
+      "degree": 155.75,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 25,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 25",
+        "dayOfYear": 237
+      }
+    },
+    {
+      "gate": 40,
+      "line": 2,
+      "gateLineKey": "40.2",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 229,
+      "degree": 156.6875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 26,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 26",
+        "dayOfYear": 238
+      }
+    },
+    {
+      "gate": 40,
+      "line": 3,
+      "gateLineKey": "40.3",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 230,
+      "degree": 157.625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 27,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 27",
+        "dayOfYear": 239
+      }
+    },
+    {
+      "gate": 40,
+      "line": 4,
+      "gateLineKey": "40.4",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 231,
+      "degree": 158.5625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 28,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 28",
+        "dayOfYear": 240
+      }
+    },
+    {
+      "gate": 40,
+      "line": 5,
+      "gateLineKey": "40.5",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 232,
+      "degree": 159.5,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 29,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 29",
+        "dayOfYear": 241
+      }
+    },
+    {
+      "gate": 40,
+      "line": 6,
+      "gateLineKey": "40.6",
+      "wheelPosition": 38,
+      "absoluteLinePosition": 233,
+      "degree": 160.4375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 30,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 30",
+        "dayOfYear": 242
+      }
+    },
+    {
+      "gate": 64,
+      "line": 1,
+      "gateLineKey": "64.1",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 234,
+      "degree": 161.375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Virgo"
+      },
+      "calendar": {
+        "month": 8,
+        "day": 31,
+        "monthName": "August",
+        "monthAbbrev": "Aug",
+        "formatted": "Aug 31",
+        "dayOfYear": 243
+      }
+    },
+    {
+      "gate": 64,
+      "line": 2,
+      "gateLineKey": "64.2",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 235,
+      "degree": 162.3125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 1,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 1",
+        "dayOfYear": 244
+      }
+    },
+    {
+      "gate": 64,
+      "line": 3,
+      "gateLineKey": "64.3",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 236,
+      "degree": 163.25,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 2,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 2",
+        "dayOfYear": 245
+      }
+    },
+    {
+      "gate": 64,
+      "line": 4,
+      "gateLineKey": "64.4",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 237,
+      "degree": 164.1875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 3,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 3",
+        "dayOfYear": 246
+      }
+    },
+    {
+      "gate": 64,
+      "line": 5,
+      "gateLineKey": "64.5",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 238,
+      "degree": 165.125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 4,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 4",
+        "dayOfYear": 247
+      }
+    },
+    {
+      "gate": 64,
+      "line": 6,
+      "gateLineKey": "64.6",
+      "wheelPosition": 39,
+      "absoluteLinePosition": 239,
+      "degree": 166.0625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 4,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 4",
+        "dayOfYear": 247
+      }
+    },
+    {
+      "gate": 47,
+      "line": 1,
+      "gateLineKey": "47.1",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 240,
+      "degree": 167,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 17,
+        "formatted": "17.00° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 5,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 5",
+        "dayOfYear": 248
+      }
+    },
+    {
+      "gate": 47,
+      "line": 2,
+      "gateLineKey": "47.2",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 241,
+      "degree": 167.9375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 6,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 6",
+        "dayOfYear": 249
+      }
+    },
+    {
+      "gate": 47,
+      "line": 3,
+      "gateLineKey": "47.3",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 242,
+      "degree": 168.875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 7,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 7",
+        "dayOfYear": 250
+      }
+    },
+    {
+      "gate": 47,
+      "line": 4,
+      "gateLineKey": "47.4",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 243,
+      "degree": 169.8125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 8,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 8",
+        "dayOfYear": 251
+      }
+    },
+    {
+      "gate": 47,
+      "line": 5,
+      "gateLineKey": "47.5",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 244,
+      "degree": 170.75,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 9,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 9",
+        "dayOfYear": 252
+      }
+    },
+    {
+      "gate": 47,
+      "line": 6,
+      "gateLineKey": "47.6",
+      "wheelPosition": 40,
+      "absoluteLinePosition": 245,
+      "degree": 171.6875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 10,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 10",
+        "dayOfYear": 253
+      }
+    },
+    {
+      "gate": 6,
+      "line": 1,
+      "gateLineKey": "6.1",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 246,
+      "degree": 172.625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 11,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 11",
+        "dayOfYear": 254
+      }
+    },
+    {
+      "gate": 6,
+      "line": 2,
+      "gateLineKey": "6.2",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 247,
+      "degree": 173.5625,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 12,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 12",
+        "dayOfYear": 255
+      }
+    },
+    {
+      "gate": 6,
+      "line": 3,
+      "gateLineKey": "6.3",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 248,
+      "degree": 174.5,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 13,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 13",
+        "dayOfYear": 256
+      }
+    },
+    {
+      "gate": 6,
+      "line": 4,
+      "gateLineKey": "6.4",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 249,
+      "degree": 175.4375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 14,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 14",
+        "dayOfYear": 257
+      }
+    },
+    {
+      "gate": 6,
+      "line": 5,
+      "gateLineKey": "6.5",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 250,
+      "degree": 176.375,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 15,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 15",
+        "dayOfYear": 258
+      }
+    },
+    {
+      "gate": 6,
+      "line": 6,
+      "gateLineKey": "6.6",
+      "wheelPosition": 41,
+      "absoluteLinePosition": 251,
+      "degree": 177.3125,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 16,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 16",
+        "dayOfYear": 259
+      }
+    },
+    {
+      "gate": 46,
+      "line": 1,
+      "gateLineKey": "46.1",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 252,
+      "degree": 178.25,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 17,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 17",
+        "dayOfYear": 260
+      }
+    },
+    {
+      "gate": 46,
+      "line": 2,
+      "gateLineKey": "46.2",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 253,
+      "degree": 179.1875,
+      "zodiac": {
+        "sign": "Virgo",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Virgo"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 18,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 18",
+        "dayOfYear": 261
+      }
+    },
+    {
+      "gate": 46,
+      "line": 3,
+      "gateLineKey": "46.3",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 254,
+      "degree": 180.125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 19,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 19",
+        "dayOfYear": 262
+      }
+    },
+    {
+      "gate": 46,
+      "line": 4,
+      "gateLineKey": "46.4",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 255,
+      "degree": 181.0625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 20,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 20",
+        "dayOfYear": 263
+      }
+    },
+    {
+      "gate": 46,
+      "line": 5,
+      "gateLineKey": "46.5",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 256,
+      "degree": 182,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 2,
+        "formatted": "2.00° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 21,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 21",
+        "dayOfYear": 264
+      }
+    },
+    {
+      "gate": 46,
+      "line": 6,
+      "gateLineKey": "46.6",
+      "wheelPosition": 42,
+      "absoluteLinePosition": 257,
+      "degree": 182.9375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 22,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 22",
+        "dayOfYear": 265
+      }
+    },
+    {
+      "gate": 18,
+      "line": 1,
+      "gateLineKey": "18.1",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 258,
+      "degree": 183.875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 23,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 23",
+        "dayOfYear": 266
+      }
+    },
+    {
+      "gate": 18,
+      "line": 2,
+      "gateLineKey": "18.2",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 259,
+      "degree": 184.8125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 24,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 24",
+        "dayOfYear": 267
+      }
+    },
+    {
+      "gate": 18,
+      "line": 3,
+      "gateLineKey": "18.3",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 260,
+      "degree": 185.75,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 24,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 24",
+        "dayOfYear": 267
+      }
+    },
+    {
+      "gate": 18,
+      "line": 4,
+      "gateLineKey": "18.4",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 261,
+      "degree": 186.6875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 25,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 25",
+        "dayOfYear": 268
+      }
+    },
+    {
+      "gate": 18,
+      "line": 5,
+      "gateLineKey": "18.5",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 262,
+      "degree": 187.625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 26,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 26",
+        "dayOfYear": 269
+      }
+    },
+    {
+      "gate": 18,
+      "line": 6,
+      "gateLineKey": "18.6",
+      "wheelPosition": 43,
+      "absoluteLinePosition": 263,
+      "degree": 188.5625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 27,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 27",
+        "dayOfYear": 270
+      }
+    },
+    {
+      "gate": 48,
+      "line": 1,
+      "gateLineKey": "48.1",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 264,
+      "degree": 189.5,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 28,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 28",
+        "dayOfYear": 271
+      }
+    },
+    {
+      "gate": 48,
+      "line": 2,
+      "gateLineKey": "48.2",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 265,
+      "degree": 190.4375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 29,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 29",
+        "dayOfYear": 272
+      }
+    },
+    {
+      "gate": 48,
+      "line": 3,
+      "gateLineKey": "48.3",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 266,
+      "degree": 191.375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Libra"
+      },
+      "calendar": {
+        "month": 9,
+        "day": 30,
+        "monthName": "September",
+        "monthAbbrev": "Sep",
+        "formatted": "Sep 30",
+        "dayOfYear": 273
+      }
+    },
+    {
+      "gate": 48,
+      "line": 4,
+      "gateLineKey": "48.4",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 267,
+      "degree": 192.3125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 1,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 1",
+        "dayOfYear": 274
+      }
+    },
+    {
+      "gate": 48,
+      "line": 5,
+      "gateLineKey": "48.5",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 268,
+      "degree": 193.25,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 2,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 2",
+        "dayOfYear": 275
+      }
+    },
+    {
+      "gate": 48,
+      "line": 6,
+      "gateLineKey": "48.6",
+      "wheelPosition": 44,
+      "absoluteLinePosition": 269,
+      "degree": 194.1875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 3,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 3",
+        "dayOfYear": 276
+      }
+    },
+    {
+      "gate": 57,
+      "line": 1,
+      "gateLineKey": "57.1",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 270,
+      "degree": 195.125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 4,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 4",
+        "dayOfYear": 277
+      }
+    },
+    {
+      "gate": 57,
+      "line": 2,
+      "gateLineKey": "57.2",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 271,
+      "degree": 196.0625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 5,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 5",
+        "dayOfYear": 278
+      }
+    },
+    {
+      "gate": 57,
+      "line": 3,
+      "gateLineKey": "57.3",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 272,
+      "degree": 197,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 17,
+        "formatted": "17.00° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 6,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 6",
+        "dayOfYear": 279
+      }
+    },
+    {
+      "gate": 57,
+      "line": 4,
+      "gateLineKey": "57.4",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 273,
+      "degree": 197.9375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 7,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 7",
+        "dayOfYear": 280
+      }
+    },
+    {
+      "gate": 57,
+      "line": 5,
+      "gateLineKey": "57.5",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 274,
+      "degree": 198.875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 8,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 8",
+        "dayOfYear": 281
+      }
+    },
+    {
+      "gate": 57,
+      "line": 6,
+      "gateLineKey": "57.6",
+      "wheelPosition": 45,
+      "absoluteLinePosition": 275,
+      "degree": 199.8125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 9,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 9",
+        "dayOfYear": 282
+      }
+    },
+    {
+      "gate": 32,
+      "line": 1,
+      "gateLineKey": "32.1",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 276,
+      "degree": 200.75,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 10,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 10",
+        "dayOfYear": 283
+      }
+    },
+    {
+      "gate": 32,
+      "line": 2,
+      "gateLineKey": "32.2",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 277,
+      "degree": 201.6875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 11,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 11",
+        "dayOfYear": 284
+      }
+    },
+    {
+      "gate": 32,
+      "line": 3,
+      "gateLineKey": "32.3",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 278,
+      "degree": 202.625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 12,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 12",
+        "dayOfYear": 285
+      }
+    },
+    {
+      "gate": 32,
+      "line": 4,
+      "gateLineKey": "32.4",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 279,
+      "degree": 203.5625,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 13,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 13",
+        "dayOfYear": 286
+      }
+    },
+    {
+      "gate": 32,
+      "line": 5,
+      "gateLineKey": "32.5",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 280,
+      "degree": 204.5,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 13,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 13",
+        "dayOfYear": 286
+      }
+    },
+    {
+      "gate": 32,
+      "line": 6,
+      "gateLineKey": "32.6",
+      "wheelPosition": 46,
+      "absoluteLinePosition": 281,
+      "degree": 205.4375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 14,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 14",
+        "dayOfYear": 287
+      }
+    },
+    {
+      "gate": 50,
+      "line": 1,
+      "gateLineKey": "50.1",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 282,
+      "degree": 206.375,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 15,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 15",
+        "dayOfYear": 288
+      }
+    },
+    {
+      "gate": 50,
+      "line": 2,
+      "gateLineKey": "50.2",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 283,
+      "degree": 207.3125,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 16,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 16",
+        "dayOfYear": 289
+      }
+    },
+    {
+      "gate": 50,
+      "line": 3,
+      "gateLineKey": "50.3",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 284,
+      "degree": 208.25,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 17,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 17",
+        "dayOfYear": 290
+      }
+    },
+    {
+      "gate": 50,
+      "line": 4,
+      "gateLineKey": "50.4",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 285,
+      "degree": 209.1875,
+      "zodiac": {
+        "sign": "Libra",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Libra"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 18,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 18",
+        "dayOfYear": 291
+      }
+    },
+    {
+      "gate": 50,
+      "line": 5,
+      "gateLineKey": "50.5",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 286,
+      "degree": 210.125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 19,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 19",
+        "dayOfYear": 292
+      }
+    },
+    {
+      "gate": 50,
+      "line": 6,
+      "gateLineKey": "50.6",
+      "wheelPosition": 47,
+      "absoluteLinePosition": 287,
+      "degree": 211.0625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 20,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 20",
+        "dayOfYear": 293
+      }
+    },
+    {
+      "gate": 28,
+      "line": 1,
+      "gateLineKey": "28.1",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 288,
+      "degree": 212,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 2,
+        "formatted": "2.00° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 21,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 21",
+        "dayOfYear": 294
+      }
+    },
+    {
+      "gate": 28,
+      "line": 2,
+      "gateLineKey": "28.2",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 289,
+      "degree": 212.9375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 22,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 22",
+        "dayOfYear": 295
+      }
+    },
+    {
+      "gate": 28,
+      "line": 3,
+      "gateLineKey": "28.3",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 290,
+      "degree": 213.875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 23,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 23",
+        "dayOfYear": 296
+      }
+    },
+    {
+      "gate": 28,
+      "line": 4,
+      "gateLineKey": "28.4",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 291,
+      "degree": 214.8125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 24,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 24",
+        "dayOfYear": 297
+      }
+    },
+    {
+      "gate": 28,
+      "line": 5,
+      "gateLineKey": "28.5",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 292,
+      "degree": 215.75,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 25,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 25",
+        "dayOfYear": 298
+      }
+    },
+    {
+      "gate": 28,
+      "line": 6,
+      "gateLineKey": "28.6",
+      "wheelPosition": 48,
+      "absoluteLinePosition": 293,
+      "degree": 216.6875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 26,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 26",
+        "dayOfYear": 299
+      }
+    },
+    {
+      "gate": 44,
+      "line": 1,
+      "gateLineKey": "44.1",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 294,
+      "degree": 217.625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 27,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 27",
+        "dayOfYear": 300
+      }
+    },
+    {
+      "gate": 44,
+      "line": 2,
+      "gateLineKey": "44.2",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 295,
+      "degree": 218.5625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 28,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 28",
+        "dayOfYear": 301
+      }
+    },
+    {
+      "gate": 44,
+      "line": 3,
+      "gateLineKey": "44.3",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 296,
+      "degree": 219.5,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 29,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 29",
+        "dayOfYear": 302
+      }
+    },
+    {
+      "gate": 44,
+      "line": 4,
+      "gateLineKey": "44.4",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 297,
+      "degree": 220.4375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 30,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 30",
+        "dayOfYear": 303
+      }
+    },
+    {
+      "gate": 44,
+      "line": 5,
+      "gateLineKey": "44.5",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 298,
+      "degree": 221.375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Scorpio"
+      },
+      "calendar": {
+        "month": 10,
+        "day": 31,
+        "monthName": "October",
+        "monthAbbrev": "Oct",
+        "formatted": "Oct 31",
+        "dayOfYear": 304
+      }
+    },
+    {
+      "gate": 44,
+      "line": 6,
+      "gateLineKey": "44.6",
+      "wheelPosition": 49,
+      "absoluteLinePosition": 299,
+      "degree": 222.3125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 1,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 1",
+        "dayOfYear": 305
+      }
+    },
+    {
+      "gate": 1,
+      "line": 1,
+      "gateLineKey": "1.1",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 300,
+      "degree": 223.25,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 2,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 2",
+        "dayOfYear": 306
+      }
+    },
+    {
+      "gate": 1,
+      "line": 2,
+      "gateLineKey": "1.2",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 301,
+      "degree": 224.1875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 2,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 2",
+        "dayOfYear": 306
+      }
+    },
+    {
+      "gate": 1,
+      "line": 3,
+      "gateLineKey": "1.3",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 302,
+      "degree": 225.125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 3,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 3",
+        "dayOfYear": 307
+      }
+    },
+    {
+      "gate": 1,
+      "line": 4,
+      "gateLineKey": "1.4",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 303,
+      "degree": 226.0625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 4,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 4",
+        "dayOfYear": 308
+      }
+    },
+    {
+      "gate": 1,
+      "line": 5,
+      "gateLineKey": "1.5",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 304,
+      "degree": 227,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 17,
+        "formatted": "17.00° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 5,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 5",
+        "dayOfYear": 309
+      }
+    },
+    {
+      "gate": 1,
+      "line": 6,
+      "gateLineKey": "1.6",
+      "wheelPosition": 50,
+      "absoluteLinePosition": 305,
+      "degree": 227.9375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 6,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 6",
+        "dayOfYear": 310
+      }
+    },
+    {
+      "gate": 43,
+      "line": 1,
+      "gateLineKey": "43.1",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 306,
+      "degree": 228.875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 7,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 7",
+        "dayOfYear": 311
+      }
+    },
+    {
+      "gate": 43,
+      "line": 2,
+      "gateLineKey": "43.2",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 307,
+      "degree": 229.8125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 8,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 8",
+        "dayOfYear": 312
+      }
+    },
+    {
+      "gate": 43,
+      "line": 3,
+      "gateLineKey": "43.3",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 308,
+      "degree": 230.75,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 9,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 9",
+        "dayOfYear": 313
+      }
+    },
+    {
+      "gate": 43,
+      "line": 4,
+      "gateLineKey": "43.4",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 309,
+      "degree": 231.6875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 10,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 10",
+        "dayOfYear": 314
+      }
+    },
+    {
+      "gate": 43,
+      "line": 5,
+      "gateLineKey": "43.5",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 310,
+      "degree": 232.625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 11,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 11",
+        "dayOfYear": 315
+      }
+    },
+    {
+      "gate": 43,
+      "line": 6,
+      "gateLineKey": "43.6",
+      "wheelPosition": 51,
+      "absoluteLinePosition": 311,
+      "degree": 233.5625,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 12,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 12",
+        "dayOfYear": 316
+      }
+    },
+    {
+      "gate": 14,
+      "line": 1,
+      "gateLineKey": "14.1",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 312,
+      "degree": 234.5,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 13,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 13",
+        "dayOfYear": 317
+      }
+    },
+    {
+      "gate": 14,
+      "line": 2,
+      "gateLineKey": "14.2",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 313,
+      "degree": 235.4375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 14,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 14",
+        "dayOfYear": 318
+      }
+    },
+    {
+      "gate": 14,
+      "line": 3,
+      "gateLineKey": "14.3",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 314,
+      "degree": 236.375,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 15,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 15",
+        "dayOfYear": 319
+      }
+    },
+    {
+      "gate": 14,
+      "line": 4,
+      "gateLineKey": "14.4",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 315,
+      "degree": 237.3125,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 16,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 16",
+        "dayOfYear": 320
+      }
+    },
+    {
+      "gate": 14,
+      "line": 5,
+      "gateLineKey": "14.5",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 316,
+      "degree": 238.25,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 17,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 17",
+        "dayOfYear": 321
+      }
+    },
+    {
+      "gate": 14,
+      "line": 6,
+      "gateLineKey": "14.6",
+      "wheelPosition": 52,
+      "absoluteLinePosition": 317,
+      "degree": 239.1875,
+      "zodiac": {
+        "sign": "Scorpio",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Scorpio"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 18,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 18",
+        "dayOfYear": 322
+      }
+    },
+    {
+      "gate": 34,
+      "line": 1,
+      "gateLineKey": "34.1",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 318,
+      "degree": 240.125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 19,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 19",
+        "dayOfYear": 323
+      }
+    },
+    {
+      "gate": 34,
+      "line": 2,
+      "gateLineKey": "34.2",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 319,
+      "degree": 241.0625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 20,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 20",
+        "dayOfYear": 324
+      }
+    },
+    {
+      "gate": 34,
+      "line": 3,
+      "gateLineKey": "34.3",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 320,
+      "degree": 242,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 2,
+        "formatted": "2.00° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 21,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 21",
+        "dayOfYear": 325
+      }
+    },
+    {
+      "gate": 34,
+      "line": 4,
+      "gateLineKey": "34.4",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 321,
+      "degree": 242.9375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 21,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 21",
+        "dayOfYear": 325
+      }
+    },
+    {
+      "gate": 34,
+      "line": 5,
+      "gateLineKey": "34.5",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 322,
+      "degree": 243.875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 22,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 22",
+        "dayOfYear": 326
+      }
+    },
+    {
+      "gate": 34,
+      "line": 6,
+      "gateLineKey": "34.6",
+      "wheelPosition": 53,
+      "absoluteLinePosition": 323,
+      "degree": 244.8125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 23,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 23",
+        "dayOfYear": 327
+      }
+    },
+    {
+      "gate": 9,
+      "line": 1,
+      "gateLineKey": "9.1",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 324,
+      "degree": 245.75,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 24,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 24",
+        "dayOfYear": 328
+      }
+    },
+    {
+      "gate": 9,
+      "line": 2,
+      "gateLineKey": "9.2",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 325,
+      "degree": 246.6875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 25,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 25",
+        "dayOfYear": 329
+      }
+    },
+    {
+      "gate": 9,
+      "line": 3,
+      "gateLineKey": "9.3",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 326,
+      "degree": 247.625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 26,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 26",
+        "dayOfYear": 330
+      }
+    },
+    {
+      "gate": 9,
+      "line": 4,
+      "gateLineKey": "9.4",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 327,
+      "degree": 248.5625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 27,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 27",
+        "dayOfYear": 331
+      }
+    },
+    {
+      "gate": 9,
+      "line": 5,
+      "gateLineKey": "9.5",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 328,
+      "degree": 249.5,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 28,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 28",
+        "dayOfYear": 332
+      }
+    },
+    {
+      "gate": 9,
+      "line": 6,
+      "gateLineKey": "9.6",
+      "wheelPosition": 54,
+      "absoluteLinePosition": 329,
+      "degree": 250.4375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 29,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 29",
+        "dayOfYear": 333
+      }
+    },
+    {
+      "gate": 5,
+      "line": 1,
+      "gateLineKey": "5.1",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 330,
+      "degree": 251.375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Sagittarius"
+      },
+      "calendar": {
+        "month": 11,
+        "day": 30,
+        "monthName": "November",
+        "monthAbbrev": "Nov",
+        "formatted": "Nov 30",
+        "dayOfYear": 334
+      }
+    },
+    {
+      "gate": 5,
+      "line": 2,
+      "gateLineKey": "5.2",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 331,
+      "degree": 252.3125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 1,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 1",
+        "dayOfYear": 335
+      }
+    },
+    {
+      "gate": 5,
+      "line": 3,
+      "gateLineKey": "5.3",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 332,
+      "degree": 253.25,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 2,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 2",
+        "dayOfYear": 336
+      }
+    },
+    {
+      "gate": 5,
+      "line": 4,
+      "gateLineKey": "5.4",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 333,
+      "degree": 254.1875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 3,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 3",
+        "dayOfYear": 337
+      }
+    },
+    {
+      "gate": 5,
+      "line": 5,
+      "gateLineKey": "5.5",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 334,
+      "degree": 255.125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 4,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 4",
+        "dayOfYear": 338
+      }
+    },
+    {
+      "gate": 5,
+      "line": 6,
+      "gateLineKey": "5.6",
+      "wheelPosition": 55,
+      "absoluteLinePosition": 335,
+      "degree": 256.0625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 5,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 5",
+        "dayOfYear": 339
+      }
+    },
+    {
+      "gate": 26,
+      "line": 1,
+      "gateLineKey": "26.1",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 336,
+      "degree": 257,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 17,
+        "formatted": "17.00° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 6,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 6",
+        "dayOfYear": 340
+      }
+    },
+    {
+      "gate": 26,
+      "line": 2,
+      "gateLineKey": "26.2",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 337,
+      "degree": 257.9375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 7,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 7",
+        "dayOfYear": 341
+      }
+    },
+    {
+      "gate": 26,
+      "line": 3,
+      "gateLineKey": "26.3",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 338,
+      "degree": 258.875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 8,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 8",
+        "dayOfYear": 342
+      }
+    },
+    {
+      "gate": 26,
+      "line": 4,
+      "gateLineKey": "26.4",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 339,
+      "degree": 259.8125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 9,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 9",
+        "dayOfYear": 343
+      }
+    },
+    {
+      "gate": 26,
+      "line": 5,
+      "gateLineKey": "26.5",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 340,
+      "degree": 260.75,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 10,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 10",
+        "dayOfYear": 344
+      }
+    },
+    {
+      "gate": 26,
+      "line": 6,
+      "gateLineKey": "26.6",
+      "wheelPosition": 56,
+      "absoluteLinePosition": 341,
+      "degree": 261.6875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 11,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 11",
+        "dayOfYear": 345
+      }
+    },
+    {
+      "gate": 11,
+      "line": 1,
+      "gateLineKey": "11.1",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 342,
+      "degree": 262.625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 11,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 11",
+        "dayOfYear": 345
+      }
+    },
+    {
+      "gate": 11,
+      "line": 2,
+      "gateLineKey": "11.2",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 343,
+      "degree": 263.5625,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 12,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 12",
+        "dayOfYear": 346
+      }
+    },
+    {
+      "gate": 11,
+      "line": 3,
+      "gateLineKey": "11.3",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 344,
+      "degree": 264.5,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 13,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 13",
+        "dayOfYear": 347
+      }
+    },
+    {
+      "gate": 11,
+      "line": 4,
+      "gateLineKey": "11.4",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 345,
+      "degree": 265.4375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 14,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 14",
+        "dayOfYear": 348
+      }
+    },
+    {
+      "gate": 11,
+      "line": 5,
+      "gateLineKey": "11.5",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 346,
+      "degree": 266.375,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 15,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 15",
+        "dayOfYear": 349
+      }
+    },
+    {
+      "gate": 11,
+      "line": 6,
+      "gateLineKey": "11.6",
+      "wheelPosition": 57,
+      "absoluteLinePosition": 347,
+      "degree": 267.3125,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 16,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 16",
+        "dayOfYear": 350
+      }
+    },
+    {
+      "gate": 10,
+      "line": 1,
+      "gateLineKey": "10.1",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 348,
+      "degree": 268.25,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 17,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 17",
+        "dayOfYear": 351
+      }
+    },
+    {
+      "gate": 10,
+      "line": 2,
+      "gateLineKey": "10.2",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 349,
+      "degree": 269.1875,
+      "zodiac": {
+        "sign": "Sagittarius",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Sagittarius"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 18,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 18",
+        "dayOfYear": 352
+      }
+    },
+    {
+      "gate": 10,
+      "line": 3,
+      "gateLineKey": "10.3",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 350,
+      "degree": 270.125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 19,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 19",
+        "dayOfYear": 353
+      }
+    },
+    {
+      "gate": 10,
+      "line": 4,
+      "gateLineKey": "10.4",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 351,
+      "degree": 271.0625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 20,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 20",
+        "dayOfYear": 354
+      }
+    },
+    {
+      "gate": 10,
+      "line": 5,
+      "gateLineKey": "10.5",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 352,
+      "degree": 272,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 2,
+        "formatted": "2.00° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 21,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 21",
+        "dayOfYear": 355
+      }
+    },
+    {
+      "gate": 10,
+      "line": 6,
+      "gateLineKey": "10.6",
+      "wheelPosition": 58,
+      "absoluteLinePosition": 353,
+      "degree": 272.9375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 2.9375,
+        "formatted": "2.94° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 22,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 22",
+        "dayOfYear": 356
+      }
+    },
+    {
+      "gate": 58,
+      "line": 1,
+      "gateLineKey": "58.1",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 354,
+      "degree": 273.875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 3.875,
+        "formatted": "3.88° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 23,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 23",
+        "dayOfYear": 357
+      }
+    },
+    {
+      "gate": 58,
+      "line": 2,
+      "gateLineKey": "58.2",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 355,
+      "degree": 274.8125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 4.8125,
+        "formatted": "4.81° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 24,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 24",
+        "dayOfYear": 358
+      }
+    },
+    {
+      "gate": 58,
+      "line": 3,
+      "gateLineKey": "58.3",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 356,
+      "degree": 275.75,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 5.75,
+        "formatted": "5.75° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 25,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 25",
+        "dayOfYear": 359
+      }
+    },
+    {
+      "gate": 58,
+      "line": 4,
+      "gateLineKey": "58.4",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 357,
+      "degree": 276.6875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 6.6875,
+        "formatted": "6.69° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 26,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 26",
+        "dayOfYear": 360
+      }
+    },
+    {
+      "gate": 58,
+      "line": 5,
+      "gateLineKey": "58.5",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 358,
+      "degree": 277.625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 7.625,
+        "formatted": "7.63° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 27,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 27",
+        "dayOfYear": 361
+      }
+    },
+    {
+      "gate": 58,
+      "line": 6,
+      "gateLineKey": "58.6",
+      "wheelPosition": 59,
+      "absoluteLinePosition": 359,
+      "degree": 278.5625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 8.5625,
+        "formatted": "8.56° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 28,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 28",
+        "dayOfYear": 362
+      }
+    },
+    {
+      "gate": 38,
+      "line": 1,
+      "gateLineKey": "38.1",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 360,
+      "degree": 279.5,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 9.5,
+        "formatted": "9.50° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 29,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 29",
+        "dayOfYear": 363
+      }
+    },
+    {
+      "gate": 38,
+      "line": 2,
+      "gateLineKey": "38.2",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 361,
+      "degree": 280.4375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 10.4375,
+        "formatted": "10.44° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 30,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 30",
+        "dayOfYear": 364
+      }
+    },
+    {
+      "gate": 38,
+      "line": 3,
+      "gateLineKey": "38.3",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 362,
+      "degree": 281.375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 11.375,
+        "formatted": "11.38° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 30,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 30",
+        "dayOfYear": 364
+      }
+    },
+    {
+      "gate": 38,
+      "line": 4,
+      "gateLineKey": "38.4",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 363,
+      "degree": 282.3125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 12.3125,
+        "formatted": "12.31° Capricorn"
+      },
+      "calendar": {
+        "month": 12,
+        "day": 31,
+        "monthName": "December",
+        "monthAbbrev": "Dec",
+        "formatted": "Dec 31",
+        "dayOfYear": 0
+      }
+    },
+    {
+      "gate": 38,
+      "line": 5,
+      "gateLineKey": "38.5",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 364,
+      "degree": 283.25,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 13.25,
+        "formatted": "13.25° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 1,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 1",
+        "dayOfYear": 1
+      }
+    },
+    {
+      "gate": 38,
+      "line": 6,
+      "gateLineKey": "38.6",
+      "wheelPosition": 60,
+      "absoluteLinePosition": 365,
+      "degree": 284.1875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 14.1875,
+        "formatted": "14.19° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 2,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 2",
+        "dayOfYear": 2
+      }
+    },
+    {
+      "gate": 54,
+      "line": 1,
+      "gateLineKey": "54.1",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 366,
+      "degree": 285.125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 15.125,
+        "formatted": "15.13° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 3,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 3",
+        "dayOfYear": 3
+      }
+    },
+    {
+      "gate": 54,
+      "line": 2,
+      "gateLineKey": "54.2",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 367,
+      "degree": 286.0625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 16.0625,
+        "formatted": "16.06° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 4,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 4",
+        "dayOfYear": 4
+      }
+    },
+    {
+      "gate": 54,
+      "line": 3,
+      "gateLineKey": "54.3",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 368,
+      "degree": 287,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 17,
+        "formatted": "17.00° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 5,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 5",
+        "dayOfYear": 5
+      }
+    },
+    {
+      "gate": 54,
+      "line": 4,
+      "gateLineKey": "54.4",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 369,
+      "degree": 287.9375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 17.9375,
+        "formatted": "17.94° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 6,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 6",
+        "dayOfYear": 6
+      }
+    },
+    {
+      "gate": 54,
+      "line": 5,
+      "gateLineKey": "54.5",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 370,
+      "degree": 288.875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 18.875,
+        "formatted": "18.88° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 7,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 7",
+        "dayOfYear": 7
+      }
+    },
+    {
+      "gate": 54,
+      "line": 6,
+      "gateLineKey": "54.6",
+      "wheelPosition": 61,
+      "absoluteLinePosition": 371,
+      "degree": 289.8125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 19.8125,
+        "formatted": "19.81° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 8,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 8",
+        "dayOfYear": 8
+      }
+    },
+    {
+      "gate": 61,
+      "line": 1,
+      "gateLineKey": "61.1",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 372,
+      "degree": 290.75,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 20.75,
+        "formatted": "20.75° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 9,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 9",
+        "dayOfYear": 9
+      }
+    },
+    {
+      "gate": 61,
+      "line": 2,
+      "gateLineKey": "61.2",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 373,
+      "degree": 291.6875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 21.6875,
+        "formatted": "21.69° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 10,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 10",
+        "dayOfYear": 10
+      }
+    },
+    {
+      "gate": 61,
+      "line": 3,
+      "gateLineKey": "61.3",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 374,
+      "degree": 292.625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 22.625,
+        "formatted": "22.63° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 11,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 11",
+        "dayOfYear": 11
+      }
+    },
+    {
+      "gate": 61,
+      "line": 4,
+      "gateLineKey": "61.4",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 375,
+      "degree": 293.5625,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 23.5625,
+        "formatted": "23.56° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 12,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 12",
+        "dayOfYear": 12
+      }
+    },
+    {
+      "gate": 61,
+      "line": 5,
+      "gateLineKey": "61.5",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 376,
+      "degree": 294.5,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 24.5,
+        "formatted": "24.50° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 13,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 13",
+        "dayOfYear": 13
+      }
+    },
+    {
+      "gate": 61,
+      "line": 6,
+      "gateLineKey": "61.6",
+      "wheelPosition": 62,
+      "absoluteLinePosition": 377,
+      "degree": 295.4375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 25.4375,
+        "formatted": "25.44° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 14,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 14",
+        "dayOfYear": 14
+      }
+    },
+    {
+      "gate": 60,
+      "line": 1,
+      "gateLineKey": "60.1",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 378,
+      "degree": 296.375,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 26.375,
+        "formatted": "26.38° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 15,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 15",
+        "dayOfYear": 15
+      }
+    },
+    {
+      "gate": 60,
+      "line": 2,
+      "gateLineKey": "60.2",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 379,
+      "degree": 297.3125,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 27.3125,
+        "formatted": "27.31° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 16,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 16",
+        "dayOfYear": 16
+      }
+    },
+    {
+      "gate": 60,
+      "line": 3,
+      "gateLineKey": "60.3",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 380,
+      "degree": 298.25,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 28.25,
+        "formatted": "28.25° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 17,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 17",
+        "dayOfYear": 17
+      }
+    },
+    {
+      "gate": 60,
+      "line": 4,
+      "gateLineKey": "60.4",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 381,
+      "degree": 299.1875,
+      "zodiac": {
+        "sign": "Capricorn",
+        "degreeInSign": 29.1875,
+        "formatted": "29.19° Capricorn"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 18,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 18",
+        "dayOfYear": 18
+      }
+    },
+    {
+      "gate": 60,
+      "line": 5,
+      "gateLineKey": "60.5",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 382,
+      "degree": 300.125,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 0.125,
+        "formatted": "0.13° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 19,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 19",
+        "dayOfYear": 19
+      }
+    },
+    {
+      "gate": 60,
+      "line": 6,
+      "gateLineKey": "60.6",
+      "wheelPosition": 63,
+      "absoluteLinePosition": 383,
+      "degree": 301.0625,
+      "zodiac": {
+        "sign": "Aquarius",
+        "degreeInSign": 1.0625,
+        "formatted": "1.06° Aquarius"
+      },
+      "calendar": {
+        "month": 1,
+        "day": 19,
+        "monthName": "January",
+        "monthAbbrev": "Jan",
+        "formatted": "Jan 19",
+        "dayOfYear": 19
+      }
+    }
+  ]
+}
