@@ -72,15 +72,16 @@ const CENTER = { x: 6536, y: 6536 };
 
 // Ring boundaries from master SVG analysis
 const RING = {
-  innerRadius: 5135,     // Inner boundary (inside yin/yang markers)
+  innerRadius: 5160,     // Inner boundary (inside yin/yang markers) - moved out 25px
   outerRadius: 5658,     // Outer boundary (outside keynotes)
+  dividerOuter: 6360,    // Extended divider length (3/4 of doubled)
   bandWidth: 523         // Total band width
 };
 
 // Band radii extracted from master SVG (from outside to inside):
 // Positions calculated from gate 56 elements at top of wheel
 const BAND_RADII = {
-  keynote: 5556,         // Outermost - text aligned to this edge, extends outward
+  keynote: 5543,         // Outermost - text aligned to this edge, extends outward (moved in 13px)
   detriment: 5480,       // Detriment planets (right side) - closer to keynote
   lineNumber: 5400,      // Line numbers (1-6) - middle band
   exalted: 5320,         // Exalted planets (right side) - closer to yin/yang
@@ -94,12 +95,12 @@ const BAND_RADII = {
 const FONT = {
   lineNumber: {
     family: 'Herculanum',
-    size: 65,          // Scaled down for tighter line spacing
+    size: 71,          // 65 + 9%
     weight: 400
   },
   keynote: {
     family: 'Copperplate-Light, Copperplate',
-    size: 45,          // Scaled down to fit in arc
+    size: 53,          // 45 + 18%
     weight: 300
   }
 };
@@ -338,7 +339,13 @@ function generateLineElements(gateNumber, lineNumber, wheelPosition) {
   const v3Data = positioning.getDockingData(innerGate, 1);
 
   // Calculate angle offset for this line within the gate
-  const lineOffset = LINE_OFFSETS[lineNumber];
+  // We need to determine if this gate is on the left or right side first
+  const baseSvgAngle = shared.calculateSVGAngle(v3Data.angle);
+  const isLeftSide = isFlipped(baseSvgAngle);
+
+  // On the left side, reverse the line order so 6th lines meet at top, 1st lines at bottom
+  // Right side keeps original order (line 6 at CCW edge, line 1 at CW edge)
+  const lineOffset = isLeftSide ? -LINE_OFFSETS[lineNumber] : LINE_OFFSETS[lineNumber];
   const lineAngle = v3Data.angle + lineOffset;
 
   // Convert to SVG angle
@@ -346,7 +353,7 @@ function generateLineElements(gateNumber, lineNumber, wheelPosition) {
   const radians = svgAngle * Math.PI / 180;
 
   // Check if this line is on the left side (needs flip)
-  const flipped = isFlipped(svgAngle);
+  const flipped = isLeftSide;
   const rotation = calculateRadialRotation(svgAngle);
 
   // Get line data
@@ -494,8 +501,8 @@ function generateDividers() {
 
     const x1 = CENTER.x + RING.innerRadius * Math.cos(radians);
     const y1 = CENTER.y + RING.innerRadius * Math.sin(radians);
-    const x2 = CENTER.x + RING.outerRadius * Math.cos(radians);
-    const y2 = CENTER.y + RING.outerRadius * Math.sin(radians);
+    const x2 = CENTER.x + RING.dividerOuter * Math.cos(radians);
+    const y2 = CENTER.y + RING.dividerOuter * Math.sin(radians);
 
     lines.push(`    <line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${shared.COLORS.foreground}" stroke-width="0.5"/>`);
   }
@@ -515,8 +522,8 @@ function generateLinesRing(options = {}) {
     backgroundColor = shared.COLORS.background
   } = options;
 
-  // ViewBox must accommodate center + outerRadius + margin
-  const viewBoxSize = Math.max(CENTER.x, CENTER.y) + RING.outerRadius + 200;
+  // ViewBox must accommodate center + dividerOuter + margin
+  const viewBoxSize = Math.max(CENTER.x, CENTER.y) + RING.dividerOuter + 200;
   const svgParts = [];
 
   // SVG header
@@ -532,7 +539,7 @@ function generateLinesRing(options = {}) {
     svgParts.push('  <g id="STRUCTURE">');
     svgParts.push('    <g id="RINGS">');
     svgParts.push(`      <circle cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.innerRadius}" fill="none" stroke="${stroke}" stroke-width="0.5"/>`);
-    svgParts.push(`      <circle cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.outerRadius}" fill="none" stroke="${stroke}" stroke-width="0.5"/>`);
+    // Outer ring removed - keynotes extend beyond fixed boundary
     svgParts.push('    </g>');
     svgParts.push('    <g id="DIVIDERS">');
     svgParts.push(generateDividers());
