@@ -65,14 +65,14 @@ const BAND_RADII_SINGLE = {
 
 // Multi-channel radii (measured from Recognition 41-30, Perfected Form 10-57)
 const BAND_RADII_MULTI = {
-  innerCentre: 4908,      // Root at radius 4908px
-  channelName: 5775,      // Recognition at radius 5775px
-  keynote: 5775,          // Keynote same radius (combined in multi)
-  energyType: 5990,       // Projected at radius 5990px
-  circuit: 5309,          // Sensing at radius 5309px
-  outerCentre: 6056,      // SP at radius 6056px
-  outerGateNumber: 6320,  // Gate number - moved outward to align with hexagram
-  outerHexagram: 6320     // Hexagram - same radius as gate number
+  innerCentre: 4768,      // Match single-channel inner centre radius
+  channelName: 4840,      // Moved inward 60px more to align with sub-divider inner edge
+  keynote: 4840,          // Same as channelName - aligned with sub-divider inner edge
+  energyType: 5990,       // Moved outward 1150px total from channel name position
+  circuit: 5990,          // Same as energyType
+  outerCentre: 6096,      // SP at radius - moved 40px outward
+  outerHexagram: 6240,    // Hexagram - closer to centre (inner part of outer band) - moved 40px outward
+  outerGateNumber: 6380   // Gate number - further from centre (outer edge) - moved 20px inward total
 };
 
 // Default BAND_RADII for backwards compatibility (uses multi-channel values)
@@ -120,11 +120,22 @@ const FONT = {
     channelName: { size: 86.4, weight: 400 },
     keynote: { size: 38.4, weight: 400 },
     innerGate: { family: 'Herculanum', size: 200, weight: 400 },
-    outerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    outerGate: { family: 'Herculanum', size: 100, weight: 400 },  // Smaller to fit in sub-segment
     innerCentre: { size: 102.4, weight: 400 },
     outerCentre: { size: 51.2, weight: 400 },
     energyType: { size: 48, weight: 400 },
     circuit: { size: 48, weight: 400 }
+  },
+  // Middle channel in multi-channel gates (23% larger than outer channels)
+  multiMiddle: {
+    channelName: { size: 86.4 * 1.23, weight: 400 },  // ~106.3
+    keynote: { size: 38.4 * 1.23, weight: 400 },      // ~47.2
+    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
+    outerGate: { family: 'Herculanum', size: 100 * 1.23, weight: 400 },  // ~123
+    innerCentre: { size: 102.4, weight: 400 },
+    outerCentre: { size: 51.2, weight: 400 },  // Same size as other channels
+    energyType: { size: 48 * 1.23, weight: 400 },     // ~59.0
+    circuit: { size: 48 * 1.23, weight: 400 }         // ~59.0
   }
 };
 
@@ -134,11 +145,22 @@ const COLORS = shared.COLORS;
 // Hexagram symbol dimensions for outer band (scaled from hexagram-ring.js)
 // Master SVG shows hexagrams ~154px wide, so we scale up from 80.76px
 const HEXAGRAM_SYMBOL = {
-  lineWidth: 154,           // Width of a YANG line (scaled from 80.76)
-  lineHeight: 19,           // Height/thickness of a line (scaled from 9.95)
-  lineSpacing: 32.3,        // Vertical spacing between lines (scaled from 16.91)
-  gapWidth: 14,             // Gap in YIN line (scaled from 7.34)
-  get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+  // Single-channel dimensions (full size)
+  single: {
+    lineWidth: 154,           // Width of a YANG line (scaled from 80.76)
+    lineHeight: 19,           // Height/thickness of a line (scaled from 9.95)
+    lineSpacing: 32.3,        // Vertical spacing between lines (scaled from 16.91)
+    gapWidth: 14,             // Gap in YIN line (scaled from 7.34)
+    get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+  },
+  // Multi-channel dimensions (scaled down to ~55% to fit in sub-segments)
+  multi: {
+    lineWidth: 85,            // Reduced width to fit in 1/3 segment
+    lineHeight: 10,           // Reduced height
+    lineSpacing: 18,          // Reduced spacing
+    gapWidth: 8,              // Reduced gap
+    get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+  }
 };
 
 /**
@@ -299,23 +321,27 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
  * Generate SVG for a single YANG line (solid rectangle)
  * I Ching convention: Line 1 at bottom, Line 6 at top
  * So Line 1 gets largest y-offset, Line 6 gets smallest
+ * @param {number} lineNumber - Line number (1-6)
+ * @param {Object} dims - Symbol dimensions (lineWidth, lineHeight, lineSpacing, gapWidth)
  */
-function generateYangLine(lineNumber) {
-  const yOffset = (6 - lineNumber) * HEXAGRAM_SYMBOL.lineSpacing;
-  return `<rect data-line="${lineNumber}" data-type="yang" x="0" y="${yOffset.toFixed(2)}" width="${HEXAGRAM_SYMBOL.lineWidth}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>`;
+function generateYangLine(lineNumber, dims) {
+  const yOffset = (6 - lineNumber) * dims.lineSpacing;
+  return `<rect data-line="${lineNumber}" data-type="yang" x="0" y="${yOffset.toFixed(2)}" width="${dims.lineWidth}" height="${dims.lineHeight}"/>`;
 }
 
 /**
  * Generate SVG for a single YIN line (two rectangles with gap)
  * I Ching convention: Line 1 at bottom, Line 6 at top
  * So Line 1 gets largest y-offset, Line 6 gets smallest
+ * @param {number} lineNumber - Line number (1-6)
+ * @param {Object} dims - Symbol dimensions (lineWidth, lineHeight, lineSpacing, gapWidth)
  */
-function generateYinLine(lineNumber) {
-  const yOffset = (6 - lineNumber) * HEXAGRAM_SYMBOL.lineSpacing;
-  const segmentWidth = (HEXAGRAM_SYMBOL.lineWidth - HEXAGRAM_SYMBOL.gapWidth) / 2;
+function generateYinLine(lineNumber, dims) {
+  const yOffset = (6 - lineNumber) * dims.lineSpacing;
+  const segmentWidth = (dims.lineWidth - dims.gapWidth) / 2;
   return `<g data-line="${lineNumber}" data-type="yin">
-        <rect x="0" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>
-        <rect x="${(segmentWidth + HEXAGRAM_SYMBOL.gapWidth).toFixed(2)}" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>
+        <rect x="0" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${dims.lineHeight}"/>
+        <rect x="${(segmentWidth + dims.gapWidth).toFixed(2)}" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${dims.lineHeight}"/>
       </g>`;
 }
 
@@ -323,8 +349,10 @@ function generateYinLine(lineNumber) {
  * Generate the hexagram symbol SVG for a gate
  * Uses binary data from the unified query engine
  * Binary string is stored BOTTOM to TOP: index 0 = Line 1 (bottom)
+ * @param {number} gateNumber - Gate number
+ * @param {Object} dims - Symbol dimensions (lineWidth, lineHeight, lineSpacing, gapWidth)
  */
-function generateHexagramSymbol(gateNumber) {
+function generateHexagramSymbol(gateNumber, dims) {
   const knowledge = engine.getGateKnowledge(gateNumber);
   const binary = knowledge.binary;
 
@@ -332,7 +360,7 @@ function generateHexagramSymbol(gateNumber) {
   for (let i = 0; i < 6; i++) {
     const lineNumber = i + 1;
     const isYang = binary[i] === '1';
-    lines.push(isYang ? generateYangLine(lineNumber) : generateYinLine(lineNumber));
+    lines.push(isYang ? generateYangLine(lineNumber, dims) : generateYinLine(lineNumber, dims));
   }
 
   return lines.join('\n      ');
@@ -342,13 +370,20 @@ function generateHexagramSymbol(gateNumber) {
  * Generate a positioned hexagram for the outer band
  * Hexagram is positioned next to the outer gate number
  * Uses tangential rotation (same as gate number)
+ * @param {number} gateNumber - Gate number
+ * @param {Object} position - {x, y} position
+ * @param {number} rotation - Rotation angle in degrees
+ * @param {boolean} isMultiChannel - Whether this is a multi-channel gate (uses smaller hexagram)
  */
-function generateOuterHexagram(gateNumber, position, rotation) {
-  // Center the symbol on the position
-  const offsetX = -HEXAGRAM_SYMBOL.lineWidth / 2;
-  const offsetY = -HEXAGRAM_SYMBOL.totalHeight / 2;
+function generateOuterHexagram(gateNumber, position, rotation, isMultiChannel = false) {
+  // Select dimensions based on channel count
+  const dims = isMultiChannel ? HEXAGRAM_SYMBOL.multi : HEXAGRAM_SYMBOL.single;
 
-  const symbol = generateHexagramSymbol(gateNumber);
+  // Center the symbol on the position
+  const offsetX = -dims.lineWidth / 2;
+  const offsetY = -dims.totalHeight / 2;
+
+  const symbol = generateHexagramSymbol(gateNumber, dims);
 
   return `<!-- Outer Hexagram for gate ${gateNumber} -->
       <g id="OUTER-HEXAGRAM_-_${gateNumber}"
@@ -386,8 +421,13 @@ function parseCentreConnection(centerConnection, innerGate, gate1) {
  *
  * Note: Inner gate number uses path elements in the master (ornate fonts),
  * so we skip that for now and just place the text elements.
+ *
+ * @param {Object} channel - Channel data
+ * @param {number} gatePosition - The inner gate number (determines wheel position)
+ * @param {number} channelCount - Total number of channels at this gate (1 or 3)
+ * @param {number} channelIndex - Index of this channel within the gate (0, 1, or 2 for multi)
  */
-function generateChannelElement(channel, gatePosition, channelCount = 1) {
+function generateChannelElement(channel, gatePosition, channelCount = 1, channelIndex = 0) {
   const v3Data = positioning.getDockingData(gatePosition, 1);
   const baseAngle = v3Data.angle;
 
@@ -405,71 +445,96 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
     channel.gate1
   );
 
-  // Select font sizes and radii based on channel count
+  // Select font sizes and radii based on channel count and position
   // Single-channel gates get full-size fonts and tighter radii (closer to center)
   // Multi-channel gates get compressed fonts and spread-out radii
-  const fonts = channelCount === 1 ? FONT.single : FONT.multi;
+  // Middle channel (index 1) in multi-channel gates gets 15% larger fonts
+  let fonts;
+  if (channelCount === 1) {
+    fonts = FONT.single;
+  } else if (channelIndex === 1) {
+    fonts = FONT.multiMiddle;  // Middle channel is 15% larger
+  } else {
+    fonts = FONT.multi;
+  }
   const radii = channelCount === 1 ? BAND_RADII_SINGLE : BAND_RADII_MULTI;
+
+  // Calculate the channel's sub-angle within the gate segment
+  // For single-channel gates: no sub-offset needed
+  // For multi-channel gates: each channel gets 1/3 of the 5.625° segment
+  // channelIndex 0 = most clockwise (positive offset)
+  // channelIndex 1 = center
+  // channelIndex 2 = most counter-clockwise (negative offset)
+  let channelSubAngle = 0;
+  if (channelCount > 1) {
+    const subSegmentAngle = 5.625 / 3;  // 1.875° per channel
+    // Map index to angular offset: 0 -> +1.875°, 1 -> 0°, 2 -> -1.875°
+    channelSubAngle = (1 - channelIndex) * subSegmentAngle;
+  }
+  const channelAngle = baseAngle + channelSubAngle;
 
   // Calculate scaled angular offsets based on how many channels share this gate
   // Single-channel gates get full offsets, multi-channel gates compress them
   // Note: Inner centre is generated separately (once per gate, at gate center)
+  // For multi-channel: outer gate number and hexagram are centered (0 offset)
   const offsets = {
     channelName: getScaledOffset(BASE_ANGLE_OFFSETS.channelName, channelCount),
     keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount),
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount),
     circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount),
     outerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.outerCentre, channelCount),
-    outerGateNumber: getScaledOffset(BASE_ANGLE_OFFSETS.outerGateNumber, channelCount),
-    outerHexagram: getScaledOffset(BASE_ANGLE_OFFSETS.outerHexagram, channelCount)
+    // For multi-channel gates, center the number and hexagram in each sub-segment
+    outerGateNumber: channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerGateNumber,
+    outerHexagram: channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerHexagram
   };
 
   // Calculate positions for each text element
-  // Each element has its own radius AND scaled angular offset within the gate segment
+  // Each element uses the channel's sub-angle plus its own offset
   // Note: Inner centre is generated separately (once per gate) in generateInnerCentres()
-  const channelNamePos = calculatePosition(baseAngle + offsets.channelName, radii.channelName);
-  const keynotePos = calculatePosition(baseAngle + offsets.keynote, radii.keynote);
-  const energyTypePos = calculatePosition(baseAngle + offsets.energyType, radii.energyType);
-  const circuitPos = calculatePosition(baseAngle + offsets.circuit, radii.circuit);
-  const outerCentrePos = calculatePosition(baseAngle + offsets.outerCentre, radii.outerCentre);
-  const outerGatePos = calculatePosition(baseAngle + offsets.outerGateNumber, radii.outerGateNumber);
-  const outerHexagramPos = calculatePosition(baseAngle + offsets.outerHexagram, radii.outerHexagram);
+  const channelNamePos = calculatePosition(channelAngle + offsets.channelName, radii.channelName);
+  const keynotePos = calculatePosition(channelAngle + offsets.keynote, radii.keynote);
+  const energyTypePos = calculatePosition(channelAngle + offsets.energyType, radii.energyType);
+  const circuitPos = calculatePosition(channelAngle + offsets.circuit, radii.circuit);
+  const outerCentrePos = calculatePosition(channelAngle + offsets.outerCentre, radii.outerCentre);
+  const outerGatePos = calculatePosition(channelAngle + offsets.outerGateNumber, radii.outerGateNumber);
+  const outerHexagramPos = calculatePosition(channelAngle + offsets.outerHexagram, radii.outerHexagram);
 
-  // Calculate rotations for each element (based on their offset angle)
-  const channelNameRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.channelName));
-  const keynoteRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.keynote));
-  const energyTypeRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.energyType));
-  const circuitRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.circuit));
-  const outerCentreRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerCentre));
-  const outerGateRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerGateNumber));
-  const outerHexagramRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerHexagram));
+  // Calculate rotations for each element (based on their angle)
+  const channelNameRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.channelName));
+  const keynoteRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.keynote));
+  const energyTypeRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.energyType));
+  const circuitRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.circuit));
+  const outerCentreRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerCentre));
+  const outerGateRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerGateNumber));
+  const outerHexagramRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerHexagram));
 
-  // Build the complete channel group with all text elements
-  // Each element uses its own calculated position and rotation
-  // Note: Inner centre is generated separately (once per gate) in generateInnerCentres()
-  return `    <g id="CHANNEL_-_${name.replace(/\s+/g, '_').toUpperCase()}_-_${innerGate}_${outerGate}"
-       data-channel="${channel.channelNumber}"
-       data-inner-gate="${innerGate}"
-       data-outer-gate="${outerGate}"
-       data-channel-type="${energyType}"
-       data-channel-count="${channelCount}">
-      <!-- Channel Name (radial) -->
-      <text id="CHANNEL-NAME_-_${name.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
-         transform="translate(${channelNamePos.x.toFixed(4)} ${channelNamePos.y.toFixed(4)}) rotate(${channelNameRot.toFixed(4)})"
-         font-size="${fonts.channelName.size}"
-         font-family="${FONT.family}"
-         text-anchor="middle"
-         dominant-baseline="central"
-         fill="${COLORS.foreground}">${name}</text>
-      <!-- Keynote (radial, separate element, may wrap to multiple lines) -->
-      <text id="KEYNOTE_-_${keynote.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
-         transform="translate(${keynotePos.x.toFixed(4)} ${keynotePos.y.toFixed(4)}) rotate(${keynoteRot.toFixed(4)})"
-         font-size="${fonts.keynote.size}"
-         font-family="${FONT.family}"
-         text-anchor="middle"
-         dominant-baseline="central"
-         fill="${COLORS.foreground}">${formatKeynote(keynote, fonts.keynote.size)}</text>
-      <!-- Energy Type (radial) -->
+  // For multi-channel gates, generate stacked energy type + circuit (left-aligned)
+  let energyCircuitSVG;
+  if (channelCount > 1) {
+    // Stacked vertically like in the master SVG, left-aligned
+    const stackPos = calculatePosition(channelAngle, radii.energyType);
+    const stackRot = calculateRadialRotation(calculateSVGAngle(channelAngle));
+    const lineSpacing = fonts.energyType.size * 1.2;  // Line spacing
+
+    energyCircuitSVG = `<!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
+      <g id="ENERGY-CIRCUIT_-_${innerGate}_${outerGate}"
+         transform="translate(${stackPos.x.toFixed(4)} ${stackPos.y.toFixed(4)}) rotate(${stackRot.toFixed(4)})">
+        <text font-size="${fonts.energyType.size}"
+           font-family="${FONT.family}"
+           text-anchor="start"
+           dominant-baseline="central"
+           fill="${COLORS.foreground}"
+           y="${(-lineSpacing / 2).toFixed(1)}">${energyType}</text>
+        <text font-size="${fonts.circuit.size}"
+           font-family="${FONT.family}"
+           text-anchor="start"
+           dominant-baseline="central"
+           fill="${COLORS.foreground}"
+           y="${(lineSpacing / 2).toFixed(1)}">${formatCircuit(circuit)}</text>
+      </g>`;
+  } else {
+    // Single channel: separate energy type and circuit
+    energyCircuitSVG = `<!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_${energyType}_-_${innerGate}_${outerGate}"
          transform="translate(${energyTypePos.x.toFixed(4)} ${energyTypePos.y.toFixed(4)}) rotate(${energyTypeRot.toFixed(4)})"
          font-size="${fonts.energyType.size}"
@@ -484,7 +549,40 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
          font-family="${FONT.family}"
          text-anchor="end"
          dominant-baseline="central"
-         fill="${COLORS.foreground}">${formatCircuit(circuit)}</text>
+         fill="${COLORS.foreground}">${formatCircuit(circuit)}</text>`;
+  }
+
+  // For multi-channel gates, use right-aligned text (text-anchor="end")
+  const channelNameAnchor = channelCount > 1 ? 'end' : 'middle';
+  const keynoteAnchor = channelCount > 1 ? 'end' : 'middle';
+
+  // Build the complete channel group with all text elements
+  // Each element uses its own calculated position and rotation
+  // Note: Inner centre is generated separately (once per gate) in generateInnerCentres()
+  return `    <g id="CHANNEL_-_${name.replace(/\s+/g, '_').toUpperCase()}_-_${innerGate}_${outerGate}"
+       data-channel="${channel.channelNumber}"
+       data-inner-gate="${innerGate}"
+       data-outer-gate="${outerGate}"
+       data-channel-type="${energyType}"
+       data-channel-count="${channelCount}"
+       data-channel-index="${channelIndex}">
+      <!-- Channel Name (radial) -->
+      <text id="CHANNEL-NAME_-_${name.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
+         transform="translate(${channelNamePos.x.toFixed(4)} ${channelNamePos.y.toFixed(4)}) rotate(${channelNameRot.toFixed(4)})"
+         font-size="${fonts.channelName.size}"
+         font-family="${FONT.family}"
+         text-anchor="${channelNameAnchor}"
+         dominant-baseline="central"
+         fill="${COLORS.foreground}">${name}</text>
+      <!-- Keynote (radial, separate element, may wrap to multiple lines) -->
+      <text id="KEYNOTE_-_${keynote.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
+         transform="translate(${keynotePos.x.toFixed(4)} ${keynotePos.y.toFixed(4)}) rotate(${keynoteRot.toFixed(4)})"
+         font-size="${fonts.keynote.size}"
+         font-family="${FONT.family}"
+         text-anchor="${keynoteAnchor}"
+         dominant-baseline="central"
+         fill="${COLORS.foreground}">${formatKeynote(keynote, fonts.keynote.size)}</text>
+      ${energyCircuitSVG}
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_${centres.outer.toUpperCase()}_-_${outerGate}"
          transform="translate(${outerCentrePos.x.toFixed(4)} ${outerCentrePos.y.toFixed(4)}) rotate(${outerCentreRot.toFixed(4)})"
@@ -501,7 +599,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${outerGate}</text>
-      ${generateOuterHexagram(outerGate, outerHexagramPos, outerHexagramRot)}
+      ${generateOuterHexagram(outerGate, outerHexagramPos, outerHexagramRot, channelCount > 1)}
     </g>`;
 }
 
@@ -518,6 +616,82 @@ function generateRingCircles(stroke, strokeWidth) {
     <circle id="RING_-_OUTER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING_RADII.outer}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>
     <circle id="RING_-_OUTER_1" cx="${CENTER.x}" cy="${CENTER.y}" r="${STRUCTURE_RADII.outerRing1}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>
     <circle id="RING_-_OUTER_2" cx="${CENTER.x}" cy="${CENTER.y}" r="${STRUCTURE_RADII.outerRing2}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>`;
+}
+
+/**
+ * Gates with multiple channels (Integration Circuit)
+ * These gates display 3 channels each and need sub-dividers
+ */
+const MULTI_CHANNEL_GATES = [10, 20, 34, 57];
+
+/**
+ * Get the ordered list of channels for a multi-channel gate
+ * Order determines visual position: first channel is most clockwise
+ * Based on master SVG analysis:
+ * - Gate 10: 10-57, 10-34, 10-20 (CW to CCW)
+ * - Gate 20: 20-34, 20-57, 20-10 (CW to CCW)
+ * - Gate 34: 34-57, 34-10, 34-20 (CW to CCW)
+ * - Gate 57: 57-34, 57-20, 57-10 (CW to CCW)
+ */
+const MULTI_CHANNEL_ORDER = {
+  10: [57, 34, 20],  // Channels: 10-57, 10-34, 10-20
+  20: [34, 57, 10],  // Channels: 20-34, 20-57, 20-10
+  34: [57, 10, 20],  // Channels: 34-57, 34-10, 34-20
+  57: [34, 20, 10]   // Channels: 57-34, 57-20, 57-10
+};
+
+/**
+ * Generate sub-divider lines within multi-channel gates
+ * Each multi-channel gate (10, 20, 34, 57) is divided into 3 sub-segments
+ * These lines extend from ring 2 (outer) to ring 3 (bottomOuter)
+ * Named by the channel pair they separate (e.g., "_20-34" separates 20-34 from 20-57)
+ */
+function generateChannelSubDividers(stroke, strokeWidth) {
+  let dividers = '';
+
+  for (const gate of MULTI_CHANNEL_GATES) {
+    const v3Data = positioning.getDockingData(gate, 1);
+    const baseAngle = v3Data.angle;
+
+    // Gate segment is 5.625°, divided into 3 sub-segments of 1.875° each
+    // Sub-dividers are at +/- 1.875° from gate center (1/3 and 2/3 of the way)
+    const subSegmentAngle = 5.625 / 3;  // 1.875°
+
+    // Get the channel order for this gate
+    const channelOrder = MULTI_CHANNEL_ORDER[gate];
+
+    // Generate 2 sub-dividers per gate (between channels 1-2 and 2-3)
+    // First divider: between channel 1 (most CW) and channel 2 (middle)
+    const divider1Angle = baseAngle + subSegmentAngle / 2;  // +0.9375° from center
+    // Second divider: between channel 2 (middle) and channel 3 (most CCW)
+    const divider2Angle = baseAngle - subSegmentAngle / 2;  // -0.9375° from center
+
+    for (let i = 0; i < 2; i++) {
+      const dividerAngle = i === 0 ? divider1Angle : divider2Angle;
+      const svgAngle = calculateSVGAngle(dividerAngle);
+      const radians = svgAngle * Math.PI / 180;
+
+      // Sub-dividers extend from after inner centre (with 60px padding) to outer boundary
+      // Inner centre is at 4768, so start at 4768 + 60 = 4828
+      const subDividerInnerRadius = BAND_RADII_MULTI.innerCentre + 60;
+      const x1 = CENTER.x + subDividerInnerRadius * Math.cos(radians);
+      const y1 = CENTER.y + subDividerInnerRadius * Math.sin(radians);
+      const x2 = CENTER.x + STRUCTURE_RADII.dividerOuter * Math.cos(radians);
+      const y2 = CENTER.y + STRUCTURE_RADII.dividerOuter * Math.sin(radians);
+
+      // Name based on channel pair: outer gates of channels being separated
+      const ch1OuterGate = channelOrder[i];
+      const ch2OuterGate = channelOrder[i + 1];
+
+      dividers += `    <line id="LINE_-_${gate}-${ch1OuterGate}_${gate}-${ch2OuterGate}"
+           data-gate="${gate}"
+           data-separates="${gate}-${ch1OuterGate} and ${gate}-${ch2OuterGate}"
+           x1="${x1.toFixed(4)}" y1="${y1.toFixed(4)}" x2="${x2.toFixed(4)}" y2="${y2.toFixed(4)}"
+           stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
+    }
+  }
+
+  return dividers;
 }
 
 /**
@@ -680,6 +854,9 @@ function generateChannelsRing(options = {}) {
     svg += `    <g id="GROUP_-_DIVIDERS">\n`;
     svg += generateDividers(stroke, 1);
     svg += `    </g>\n`;
+    svg += `    <g id="GROUP_-_CHANNEL-SUB-DIVIDERS">\n`;
+    svg += generateChannelSubDividers(stroke, 1);
+    svg += `    </g>\n`;
     svg += `    <g id="GROUP_-_INNER-GATE-NUMBERS">\n`;
     svg += generateInnerGateNumbers(fill);
     svg += `    </g>\n`;
@@ -698,8 +875,23 @@ function generateChannelsRing(options = {}) {
     const channels = getChannelsForGate(gate);
     const channelCount = channels.length;
 
-    for (const channel of channels) {
-      svg += generateChannelElement(channel, gate, channelCount) + '\n';
+    // For multi-channel gates, order channels according to MULTI_CHANNEL_ORDER
+    // For single-channel gates, just use the channel as-is
+    if (channelCount > 1 && MULTI_CHANNEL_ORDER[gate]) {
+      const order = MULTI_CHANNEL_ORDER[gate];
+      // Sort channels by their position in the order array
+      const orderedChannels = [...channels].sort((a, b) => {
+        const aIndex = order.indexOf(a.outerGate);
+        const bIndex = order.indexOf(b.outerGate);
+        return aIndex - bIndex;
+      });
+      for (let i = 0; i < orderedChannels.length; i++) {
+        svg += generateChannelElement(orderedChannels[i], gate, channelCount, i) + '\n';
+      }
+    } else {
+      for (const channel of channels) {
+        svg += generateChannelElement(channel, gate, channelCount, 0) + '\n';
+      }
     }
   }
 
@@ -738,7 +930,11 @@ module.exports = {
   RING_RADII,
   STRUCTURE_RADII,
   BAND_RADII,
+  BAND_RADII_SINGLE,
+  BAND_RADII_MULTI,
   BASE_ANGLE_OFFSETS,
+  MULTI_CHANNEL_GATES,
+  MULTI_CHANNEL_ORDER,
   FONT,
   COLORS,
   channelsData,
@@ -750,6 +946,7 @@ module.exports = {
   parseCentreConnection,
   getChannelsForGate,
   generateChannelElement,
+  generateChannelSubDividers,
   generateChannelsRing,
   getStatistics
 };
