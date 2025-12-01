@@ -46,6 +46,7 @@ V3 Knowledge Engine (unified-query-engine.js)
 | **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 37 | 3-ring Gene Keys spectrum |
 | **Incarnation Crosses** | `incarnation-crosses-ring.js` | `crosses-display-mappings.json` | 35 | 192 crosses (JX/RAX/LAX) with 256 tick mark dividers |
 | **Channels** | `channels-ring.js` | `channels-mappings.json` | 38 | 36 channels × 2 = 72 entries with radial/tangential text |
+| **384 Lines** | `lines-ring.js` | `hd-traditional-gates` | - | 64 gates × 6 lines with keynotes, planets, yin/yang markers |
 
 ## Key Principles
 
@@ -99,7 +100,8 @@ visualization/
 │   ├── gate-names-ring.js       # HD gate names
 │   ├── gene-keys-ring.js        # Gene Keys (shadow/gift/siddhi)
 │   ├── incarnation-crosses-ring.js  # 192 incarnation crosses
-│   └── channels-ring.js         # 36 channels (72 entries)
+│   ├── channels-ring.js         # 36 channels (72 entries)
+│   └── lines-ring.js            # 384 lines (64 gates × 6 lines)
 ├── output/
 │   └── generated-*.svg          # Generated SVG files
 ├── core/                        # Core utilities (legacy)
@@ -129,6 +131,9 @@ node visualization/generators/incarnation-crosses-ring.js output.svg
 
 # Generate Channels ring (36 channels × 2 = 72 entries)
 node visualization/generators/channels-ring.js output.svg
+
+# Generate 384 Lines ring (64 gates × 6 lines)
+node visualization/generators/lines-ring.js output.svg
 ```
 
 ### Programmatic Usage
@@ -240,6 +245,26 @@ const BANDS = {
 // Text rotation: radial (outward) for names, tangential for centres/numbers
 ```
 
+### 384 Lines Ring (5 bands, 384 entries)
+```javascript
+const CENTER = { x: 6536, y: 6534.53 };
+const RING = {
+  innerRadius: 5135.73,
+  outerRadius: 6537,
+  bandWidth: 1401.27
+};
+const BAND_RADII = {
+  yinYang: 5379,        // Yin/Yang line markers (solid/broken)
+  detriment: 5478,      // Detriment planet symbols
+  lineNumber: 5502,     // Line numbers (1-6)
+  exalted: 5618,        // Exalted planet symbols
+  keynote: 5658         // Line keynotes
+};
+// Line order: 6 (CCW edge) to 1 (CW edge) within each gate
+// Displays OUTER gates (harmonics) at inner gate positions
+// Integration gates show middle channel's outer gate
+```
+
 ## Text Fitting System
 
 The `TEXT_RATIOS` in `shared-constants.js` define proportional relationships:
@@ -267,6 +292,7 @@ const TEXT_RATIOS = {
 | `hd-gates` | `keyword` | "Self-Expression" |
 | `gene-keys` | `shadow`, `gift`, `siddhi` | "Entropy", "Freshness", "Beauty" |
 | `channels` | `name`, `keynote`, `channelType`, `circuit` | "Perfected Form", "For Survival", "Projected" |
+| `hd-traditional-gates` | `lineKeynote`, `polarity`, `exaltation`, `detriment` | "Quality", "YANG", "Sun", "Pluto" |
 
 ## Adding New Rings
 
@@ -287,5 +313,5 @@ See `docs/reference/SVG-GENERATION-METHODOLOGY.md` for detailed methodology.
 
 ---
 
-*Last updated: 30 November 2025*
-*Status: 7 rings working (182+ tests), docked to V3 engine*
+*Last updated: 1 December 2025*
+*Status: 8 rings working (182+ tests), docked to V3 engine*
