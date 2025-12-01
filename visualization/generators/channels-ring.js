@@ -56,8 +56,8 @@ const BAND_RADII_SINGLE = {
   circuit: 4917,          // Circuit - right-aligned, 90px inside ring 2 (4827)
   keynote: 5465,          // Keynote - same radius as channelName for radial centering
   channelName: 5465,      // Channel name - centered between circuit and energyType
-  energyType: 5847,       // Energy type like "Projected"
-  outerCentre: 5915,      // Outer centre like "Ajna"
+  energyType: 5831,       // Energy type like "Projected" - moved 16px inward
+  outerCentre: 6095,      // Outer centre like "Ajna" - moved 180px outward total
   outerGateNumber: 6320   // In outer numbers band (6159-6481)
 };
 
@@ -86,7 +86,7 @@ const BASE_ANGLE_OFFSETS = {
   keynote: -1.08,         // SVG -125.48° = more counter-clockwise
   energyType: 2.16,       // SVG -128.73° = clockwise
   circuit: 2.24,          // SVG -128.81° = most clockwise
-  outerCentre: 0.69,      // SVG -127.26° = slightly clockwise
+  outerCentre: 0,         // Centered on gate (no offset)
   outerGateNumber: 2.06   // SVG -128.62° = clockwise
 };
 
@@ -104,9 +104,9 @@ const FONT = {
   single: {
     channelName: { size: 116.4, weight: 400 },
     keynote: { size: 62, weight: 400 },
-    innerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
     outerGate: { family: 'Herculanum', size: 179, weight: 400 },
-    innerCentre: { size: 117, weight: 400 },
+    innerCentre: { size: 102, weight: 400 },
     outerCentre: { size: 114, weight: 400 },
     energyType: { size: 85, weight: 400 },   // +18% (was 72)
     circuit: { size: 85, weight: 400 }       // +18% (was 72)
@@ -115,7 +115,7 @@ const FONT = {
   multi: {
     channelName: { size: 86.4, weight: 400 },
     keynote: { size: 38.4, weight: 400 },
-    innerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
     outerGate: { family: 'Herculanum', size: 144, weight: 400 },
     innerCentre: { size: 102.4, weight: 400 },
     outerCentre: { size: 51.2, weight: 400 },
@@ -205,6 +205,68 @@ function abbreviateCentre(centreName) {
 function formatCircuit(circuitName) {
   // Remove "Circuit" suffix if present
   return circuitName.replace(/\s+Circuit$/i, '');
+}
+
+/**
+ * Format keynote for display, wrapping long text onto multiple lines
+ * Returns SVG tspan elements for multi-line text, or plain text for short keynotes
+ * @param {string} keynote - The keynote text
+ * @param {number} fontSize - Font size for calculating line height
+ * @param {number} maxChars - Maximum characters per line (default 28)
+ */
+function formatKeynote(keynote, fontSize, maxChars = 28) {
+  // Special case overrides for specific keynotes that need custom wrapping
+  // Note: Use &amp; for ampersand in SVG/XML
+  // Format: { lines: [...], extraOffset: number } or just array of lines
+  const specialCases = {
+    'Energy which Fluctuates and Initiates Pulses': {
+      lines: ['Energy Which Fluctuates', '&amp; Initiates Pulses'],
+      extraOffset: 40  // Extra padding from channelName
+    }
+  };
+
+  let lines;
+  let extraOffset = 0;
+
+  if (specialCases[keynote]) {
+    const special = specialCases[keynote];
+    if (Array.isArray(special)) {
+      lines = special;
+    } else {
+      lines = special.lines;
+      extraOffset = special.extraOffset || 0;
+    }
+  } else if (keynote.length <= maxChars) {
+    return keynote;
+  } else {
+    // Split into words and build lines
+    const words = keynote.split(' ');
+    lines = [];
+    let currentLine = '';
+
+    for (const word of words) {
+      const testLine = currentLine ? currentLine + ' ' + word : word;
+      if (testLine.length <= maxChars) {
+        currentLine = testLine;
+      } else {
+        if (currentLine) lines.push(currentLine);
+        currentLine = word;
+      }
+    }
+    if (currentLine) lines.push(currentLine);
+  }
+
+  // Generate tspan elements with dy offset for each line after the first
+  const lineHeight = fontSize * 0.85;  // Tighter line height
+  // Center the text block vertically by offsetting the first line upward
+  // Add extraOffset to push multi-line keynotes further from channelName
+  const totalHeight = (lines.length - 1) * lineHeight;
+  const startOffset = -totalHeight / 2 - extraOffset;
+
+  return lines.map((line, i) => {
+    const dy = i === 0 ? startOffset : lineHeight;
+    return `<tspan x="0" dy="${dy.toFixed(1)}">${line}</tspan>`;
+  }).join('');
 }
 
 /**
@@ -307,14 +369,14 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${name}</text>
-      <!-- Keynote (radial, separate element) -->
+      <!-- Keynote (radial, separate element, may wrap to multiple lines) -->
       <text id="KEYNOTE_-_${keynote.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${keynotePos.x.toFixed(4)} ${keynotePos.y.toFixed(4)}) rotate(${keynoteRot.toFixed(4)})"
          font-size="${fonts.keynote.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="${COLORS.foreground}">${keynote}</text>
+         fill="${COLORS.foreground}">${formatKeynote(keynote, fonts.keynote.size)}</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_${energyType}_-_${innerGate}_${outerGate}"
          transform="translate(${energyTypePos.x.toFixed(4)} ${energyTypePos.y.toFixed(4)}) rotate(${energyTypeRot.toFixed(4)})"
@@ -405,13 +467,18 @@ function generateDividers(stroke, strokeWidth) {
 /**
  * Generate inner gate numbers (64 numbers around the inner ring)
  * These appear inside the ring, using Herculanum font
+ * Font size varies based on channel count (single vs multi-channel gates)
  */
-function generateInnerGateNumbers(fill, fontSize = 140) {
+function generateInnerGateNumbers(fill) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
-  const INNER_GATE_RADIUS = 4660; // Between inner ring (4505) and innerCentre (4908)
+  const INNER_GATE_RADIUS = 4612; // Between inner ring (4505) and ring 2 (4827)
   let numbers = '';
 
   for (const gate of gateSequence) {
+    const channels = getChannelsForGate(gate);
+    const channelCount = channels.length;
+    const fonts = channelCount === 1 ? FONT.single : FONT.multi;
+
     const v3Data = positioning.getDockingData(gate, 1);
     const svgAngle = calculateSVGAngle(v3Data.angle);
     const radians = svgAngle * Math.PI / 180;
@@ -425,8 +492,8 @@ function generateInnerGateNumbers(fill, fontSize = 140) {
 
     numbers += `    <text id="INNER-GATE-NUMBER_-_${gate}"
          transform="translate(${x.toFixed(4)} ${y.toFixed(4)}) rotate(${textRotation.toFixed(4)})"
-         font-size="${fontSize}"
-         font-family="Herculanum"
+         font-size="${fonts.innerGate.size}"
+         font-family="${fonts.innerGate.family}"
          text-anchor="middle"
          dominant-baseline="central"
          fill="${fill}">${gate}</text>\n`;
