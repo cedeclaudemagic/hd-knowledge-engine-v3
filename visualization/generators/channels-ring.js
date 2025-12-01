@@ -126,16 +126,16 @@ const FONT = {
     energyType: { size: 48, weight: 400 },
     circuit: { size: 48, weight: 400 }
   },
-  // Middle channel in multi-channel gates (23% larger text, 10% larger outer gate number)
+  // Middle channel in multi-channel gates (23% larger text, 35% larger outer gate number)
   multiMiddle: {
     channelName: { size: 86.4 * 1.23, weight: 400 },  // ~106.3
-    keynote: { size: 38.4 * 1.23, weight: 400 },      // ~47.2
+    keynote: { size: 38.4 * 1.23 * 0.8, weight: 400 },    // 20% smaller = ~37.8
     innerGate: { family: 'Herculanum', size: 200, weight: 400 },
     outerGate: { family: 'Herculanum', size: 100 * 1.35, weight: 400 },  // 35% larger = 135
     innerCentre: { size: 102.4, weight: 400 },
     outerCentre: { size: 51.2, weight: 400 },  // Same size as other channels
-    energyType: { size: 48 * 1.23, weight: 400 },     // ~59.0
-    circuit: { size: 48 * 1.23, weight: 400 }         // ~59.0
+    energyType: { size: 48 * 1.23 * 0.8, weight: 400 },   // 20% smaller = ~47.2
+    circuit: { size: 48 * 1.23 * 0.8, weight: 400 }       // 20% smaller = ~47.2
   }
 };
 
@@ -180,14 +180,33 @@ function calculateSVGAngle(v3Angle) {
 }
 
 /**
+ * Determine if text at this SVG angle needs to be flipped 180° for readability.
+ * Text on the left side of the wheel (90° < normalized < 270°) would appear
+ * upside-down without flipping.
+ *
+ * @param {number} svgAngle - The SVG angle
+ * @returns {boolean} - True if text should be flipped
+ */
+function isFlipped(svgAngle) {
+  // For radial text, check the rotation angle (svgAngle + 180)
+  const rotation = svgAngle + 180;
+  const normalized = ((rotation % 360) + 360) % 360;
+  return normalized > 90 && normalized < 270;
+}
+
+/**
  * Calculate radial text rotation (reading outward from center)
  * Used for: channel name, keynote, energy type, circuit
- * Formula: svgAngle + 180 (verified against master)
  *
- * At gate 10: svgAngle = -92.8125, radial = 87.1875 (matches master 87.7551)
+ * Text on right side of wheel reads outward normally.
+ * Text on left side is flipped 180° to remain right-side up.
  */
 function calculateRadialRotation(svgAngle) {
   let rotation = svgAngle + 180;
+  // Flip on left side of wheel for readability
+  if (isFlipped(svgAngle)) {
+    rotation += 180;
+  }
   // Normalize to -180 to 180
   while (rotation > 180) rotation -= 360;
   while (rotation < -180) rotation += 360;
@@ -196,13 +215,14 @@ function calculateRadialRotation(svgAngle) {
 
 /**
  * Calculate tangential text rotation (reading along the arc)
- * Used for: centre names, gate numbers
- * Formula: svgAngle + 90 (verified against master)
+ * Used for: inner centres, outer centres, gate numbers, hexagrams
  *
- * At gate 10: svgAngle = -92.8125, tangential = -2.8125 (matches master -2.8)
+ * These elements read fine in either direction, so NO flip is applied.
+ * Text follows the arc direction consistently around the wheel.
  */
 function calculateTangentialRotation(svgAngle) {
   let rotation = svgAngle + 90;
+  // NO flip - tangential text reads fine in either direction
   // Normalize to -180 to 180
   while (rotation > 180) rotation -= 360;
   while (rotation < -180) rotation += 360;
@@ -283,11 +303,17 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
     'Commitment To Higher Principles': {
       lines: ['Commitment To Higher Principles'],
       extraOffset: 0
+    },
+    'Thoughts that must become Deeds': {
+      lines: ['Thoughts that must', 'become Deeds'],
+      extraOffset: 20,
+      lineHeightMultiplier: 0.8  // Tighter line spacing
     }
   };
 
   let lines;
   let extraOffset = 0;
+  let lineHeightMultiplier = 1.0;
 
   if (specialCases[keynote]) {
     const special = specialCases[keynote];
@@ -296,6 +322,7 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
     } else {
       lines = special.lines;
       extraOffset = special.extraOffset || 0;
+      lineHeightMultiplier = special.lineHeightMultiplier || 1.0;
     }
   } else if (keynote.length <= maxChars) {
     return keynote;
@@ -318,7 +345,7 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
   }
 
   // Generate tspan elements with dy offset for each line after the first
-  const lineHeight = fontSize * 0.85;  // Tighter line height
+  const lineHeight = fontSize * 0.85 * lineHeightMultiplier;  // Tighter line height, with optional multiplier
   // Center the text block vertically by offsetting the first line upward
   // Add extraOffset to push multi-line keynotes further from channelName
   const totalHeight = (lines.length - 1) * lineHeight;
@@ -455,6 +482,10 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   const v3Data = positioning.getDockingData(gatePosition, 1);
   const baseAngle = v3Data.angle;
 
+  // Check if this gate is on the left side (needs text flip)
+  const baseSvgAngle = calculateSVGAngle(baseAngle);
+  const gateIsFlipped = isFlipped(baseSvgAngle);
+
   const name = channel.knowledge.name;
   const keynote = channel.knowledge.keynote;
   const energyType = channel.channelType;
@@ -501,15 +532,19 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   // Single-channel gates get full offsets, multi-channel gates compress them
   // Note: Inner centre is generated separately (once per gate, at gate center)
   // For multi-channel: outer gate number and hexagram are centered (0 offset)
+  //
+  // IMPORTANT: When text is flipped (left side of wheel), angular offsets
+  // must be NEGATED to maintain the same visual positioning
+  const flipMultiplier = gateIsFlipped ? -1 : 1;
   const offsets = {
-    channelName: channelCount > 1 ? 0.28 : BASE_ANGLE_OFFSETS.channelName,
-    keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount),
-    energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount),
-    circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount),
-    outerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.outerCentre, channelCount),
+    channelName: (channelCount > 1 ? 0.28 : BASE_ANGLE_OFFSETS.channelName) * flipMultiplier,
+    keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount) * flipMultiplier,
+    energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount) * flipMultiplier,
+    circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount) * flipMultiplier,
+    outerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.outerCentre, channelCount) * flipMultiplier,
     // For multi-channel gates, center the number and hexagram in each sub-segment
-    outerGateNumber: channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerGateNumber,
-    outerHexagram: channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerHexagram
+    outerGateNumber: (channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerGateNumber) * flipMultiplier,
+    outerHexagram: (channelCount > 1 ? 0 : BASE_ANGLE_OFFSETS.outerHexagram) * flipMultiplier
   };
 
   // Calculate positions for each text element
@@ -524,40 +559,55 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   const outerHexagramPos = calculatePosition(channelAngle + offsets.outerHexagram, radii.outerHexagram);
 
   // Calculate rotations for each element (based on their angle)
+  // Radial elements (channel name, keynote, energy type, circuit) - FLIP on left side
   const channelNameRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.channelName));
   const keynoteRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.keynote));
   const energyTypeRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.energyType));
   const circuitRot = calculateRadialRotation(calculateSVGAngle(channelAngle + offsets.circuit));
+  // Tangential elements (centres, gate numbers, hexagrams) - NO flip needed, they read fine either way
   const outerCentreRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerCentre));
   const outerGateRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerGateNumber));
   const outerHexagramRot = calculateTangentialRotation(calculateSVGAngle(channelAngle + offsets.outerHexagram));
 
-  // For multi-channel gates, generate stacked energy type + circuit (left-aligned)
+  // Helper to flip text anchors when on left side of wheel
+  // When text is rotated 180°, "end" visually becomes "start" and vice versa
+  const flipAnchor = (anchor) => {
+    if (!gateIsFlipped) return anchor;
+    if (anchor === 'start') return 'end';
+    if (anchor === 'end') return 'start';
+    return anchor;  // 'middle' stays 'middle'
+  };
+
+  // For multi-channel gates, generate stacked energy type + circuit
   let energyCircuitSVG;
   if (channelCount > 1) {
-    // Stacked vertically like in the master SVG, left-aligned
+    // Stacked vertically like in the master SVG
     const stackPos = calculatePosition(channelAngle, radii.energyType);
     const stackRot = calculateRadialRotation(calculateSVGAngle(channelAngle));
     const lineSpacing = fonts.energyType.size * 1.2;  // Line spacing
+    // Anchor flips when text is flipped
+    const stackAnchor = flipAnchor('start');
 
-    energyCircuitSVG = `<!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
+    energyCircuitSVG = `<!-- Energy Type + Circuit (stacked, radial) -->
       <g id="ENERGY-CIRCUIT_-_${innerGate}_${outerGate}"
          transform="translate(${stackPos.x.toFixed(4)} ${stackPos.y.toFixed(4)}) rotate(${stackRot.toFixed(4)})">
         <text font-size="${fonts.energyType.size}"
            font-family="${FONT.family}"
-           text-anchor="start"
+           text-anchor="${stackAnchor}"
            dominant-baseline="central"
            fill="${COLORS.foreground}"
            y="${(-lineSpacing / 2).toFixed(1)}">${energyType}</text>
         <text font-size="${fonts.circuit.size}"
            font-family="${FONT.family}"
-           text-anchor="start"
+           text-anchor="${stackAnchor}"
            dominant-baseline="central"
            fill="${COLORS.foreground}"
            y="${(lineSpacing / 2).toFixed(1)}">${formatCircuit(circuit)}</text>
       </g>`;
   } else {
     // Single channel: separate energy type and circuit
+    // Circuit uses "end" anchor which flips to "start" on left side
+    const circuitAnchor = flipAnchor('end');
     energyCircuitSVG = `<!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_${energyType}_-_${innerGate}_${outerGate}"
          transform="translate(${energyTypePos.x.toFixed(4)} ${energyTypePos.y.toFixed(4)}) rotate(${energyTypeRot.toFixed(4)})"
@@ -566,19 +616,20 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${energyType}</text>
-      <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
+      <!-- Circuit (radial) -->
       <text id="CIRCUIT_-_${formatCircuit(circuit).replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${circuitPos.x.toFixed(4)} ${circuitPos.y.toFixed(4)}) rotate(${circuitRot.toFixed(4)})"
          font-size="${fonts.circuit.size}"
          font-family="${FONT.family}"
-         text-anchor="end"
+         text-anchor="${circuitAnchor}"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${formatCircuit(circuit)}</text>`;
   }
 
   // For multi-channel gates, use right-aligned text (text-anchor="end")
-  const channelNameAnchor = channelCount > 1 ? 'end' : 'middle';
-  const keynoteAnchor = channelCount > 1 ? 'end' : 'middle';
+  // These flip to "start" on the left side of the wheel
+  const channelNameAnchor = flipAnchor(channelCount > 1 ? 'end' : 'middle');
+  const keynoteAnchor = flipAnchor(channelCount > 1 ? 'end' : 'middle');
 
   // Build the complete channel group with all text elements
   // Each element uses its own calculated position and rotation
@@ -654,25 +705,38 @@ const MULTI_CHANNEL_GATES = [10, 20, 34, 57];
  * Each configuration defines how outer gates are arranged at each inner gate position.
  * Order is [CW, Middle, CCW] - clockwise to counter-clockwise within the gate segment.
  *
+ * IMPORTANT: Gates 34 and 57 are on the LEFT side of the wheel, so their text is
+ * flipped 180°. This causes their visual CW/CCW positions to swap! The data order
+ * below accounts for this, so the VISUAL result maintains the Latin square property.
+ *
  * Available presets:
  * - 'optimal': Latin square arrangement where each outer gate appears exactly once
- *              in each position (CW/Middle/CCW) across all 4 inner gates. Maximum diversity.
+ *              in each VISUAL position across all 4 inner gates. Maximum diversity.
  * - 'master': Original arrangement from master SVG analysis.
  */
 const MULTI_CHANNEL_PRESETS = {
-  // Optimal Latin square: each gate appears exactly once per position
-  // Position analysis:
+  // Optimal Latin square accounting for text flipping on gates 34 & 57
+  // Gates 10, 20 = NOT flipped (data order = visual order)
+  // Gates 34, 57 = FLIPPED (data order is reversed visually)
+  //
+  // DATA order below:
+  //   10: [20, 34, 57]  → visual [20, 34, 57] (no flip)
+  //   20: [10, 57, 34]  → visual [10, 57, 34] (no flip)
+  //   34: [10, 20, 57]  → visual [57, 20, 10] (flipped!)
+  //   57: [20, 10, 34]  → visual [34, 10, 20] (flipped!)
+  //
+  // VISUAL position analysis (what user sees):
   //   CW:     20, 10, 57, 34 (all unique)
-  //   Middle: 34, 57, 10, 20 (all unique)
-  //   CCW:    57, 34, 20, 10 (all unique)
+  //   Middle: 34, 57, 20, 10 (all unique)
+  //   CCW:    57, 34, 10, 20 (all unique)
   optimal: {
-    10: [20, 34, 57],  // Channels: 10-20, 10-34, 10-57
-    20: [10, 57, 34],  // Channels: 20-10, 20-57, 20-34
-    34: [57, 10, 20],  // Channels: 34-57, 34-10, 34-20
-    57: [34, 20, 10]   // Channels: 57-34, 57-20, 57-10
+    10: [20, 34, 57],  // No flip - Channels: 10-20, 10-34, 10-57
+    20: [10, 57, 34],  // No flip - Channels: 20-10, 20-57, 20-34
+    34: [10, 20, 57],  // FLIPPED - Channels: 34-10, 34-20, 34-57 → visual [57, 20, 10]
+    57: [20, 10, 34]   // FLIPPED - Channels: 57-20, 57-10, 57-34 → visual [34, 10, 20]
   },
 
-  // Original master SVG arrangement
+  // Original master SVG arrangement (before text flipping was implemented)
   master: {
     10: [57, 34, 20],  // Channels: 10-57, 10-34, 10-20
     20: [34, 57, 10],  // Channels: 20-34, 20-57, 20-10
