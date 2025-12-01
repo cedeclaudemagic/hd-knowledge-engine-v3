@@ -36,17 +36,44 @@ const RING_RADII = {
   bottom: 6481.1808       // Outermost boundary
 };
 
-// Text band radii (measured from master SVG GROUP_-_THE_CHANNEL_OF_RECOGNITION_-_41_30)
-// These are the distances from CENTER to each text element
-const BAND_RADII = {
+// Extended structure radii (from STRUCTURE_CHANNELS_ORIGINAL in master)
+// These define the full extent of radial divider lines
+const STRUCTURE_RADII = {
+  dividerInner: 4505,     // Inner end of radial dividers (inner ring)
+  dividerOuter: 6483,     // Outer end of radial dividers (outermost boundary)
+  outerRing1: 6159,       // First outer ring (bottomOuter) - inner edge of outer band
+  outerRing2: 6481        // Second outer ring (bottom) - outermost boundary
+};
+
+// Text band radii - different for single vs multi-channel gates
+// Single-channel gates have text elements closer to center
+// Multi-channel gates spread elements out more to fit 2-3 channels
+
+// Single-channel radii - centered within rings 2-3 (4827-6159)
+// Shifted -152px inward to center content within the zone
+const BAND_RADII_SINGLE = {
+  innerCentre: 4768,      // Inner centre like "Throat"
+  circuit: 4917,          // Circuit - right-aligned, 90px inside ring 2 (4827)
+  keynote: 5465,          // Keynote - same radius as channelName for radial centering
+  channelName: 5465,      // Channel name - centered between circuit and energyType
+  energyType: 5847,       // Energy type like "Projected"
+  outerCentre: 5915,      // Outer centre like "Ajna"
+  outerGateNumber: 6320   // In outer numbers band (6159-6481)
+};
+
+// Multi-channel radii (measured from Recognition 41-30, Perfected Form 10-57)
+const BAND_RADII_MULTI = {
   innerCentre: 4908,      // Root at radius 4908px
-  channelName: 5881,      // Recognition at radius 5881px
-  keynote: 5775,          // Focused Energy at radius 5775px
+  channelName: 5775,      // Recognition at radius 5775px
+  keynote: 5775,          // Keynote same radius (combined in multi)
   energyType: 5990,       // Projected at radius 5990px
   circuit: 5309,          // Sensing at radius 5309px
   outerCentre: 6056,      // SP at radius 6056px
   outerGateNumber: 6330   // 30 at radius 6330px
 };
+
+// Default BAND_RADII for backwards compatibility (uses multi-channel values)
+const BAND_RADII = BAND_RADII_MULTI;
 
 // Angular offsets from gate center (measured from master SVG gate 41)
 // Gate 41 center is at SVG angle -126.5625°
@@ -70,33 +97,30 @@ function getScaledOffset(baseOffset, channelCount) {
 }
 
 // Font specifications (from master analysis)
+// Different sizes for single-channel gates vs multi-channel (integration) gates
 const FONT = {
   family: 'Copperplate',
-  channelName: {
-    size: 86.4,
-    weight: 400
+  // Single channel gates (1 channel) - larger fonts
+  single: {
+    channelName: { size: 116.4, weight: 400 },
+    keynote: { size: 62, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    outerGate: { family: 'Herculanum', size: 179, weight: 400 },
+    innerCentre: { size: 117, weight: 400 },
+    outerCentre: { size: 114, weight: 400 },
+    energyType: { size: 85, weight: 400 },   // +18% (was 72)
+    circuit: { size: 85, weight: 400 }       // +18% (was 72)
   },
-  keynote: {
-    size: 38.4,
-    weight: 400
-  },
-  innerGate: {
-    family: 'Herculanum',
-    size: 144,
-    weight: 400
-  },
-  outerGate: {
-    family: 'Herculanum',
-    size: 144,
-    weight: 400
-  },
-  center: {
-    size: 51.2,
-    weight: 400
-  },
-  energyType: {
-    size: 48,
-    weight: 400
+  // Multi-channel gates (2-3 channels, e.g., Integration Circuit) - compressed fonts
+  multi: {
+    channelName: { size: 86.4, weight: 400 },
+    keynote: { size: 38.4, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    outerGate: { family: 'Herculanum', size: 144, weight: 400 },
+    innerCentre: { size: 102.4, weight: 400 },
+    outerCentre: { size: 51.2, weight: 400 },
+    energyType: { size: 48, weight: 400 },
+    circuit: { size: 48, weight: 400 }
   }
 };
 
@@ -230,10 +254,16 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
     channel.gate1
   );
 
+  // Select font sizes and radii based on channel count
+  // Single-channel gates get full-size fonts and tighter radii (closer to center)
+  // Multi-channel gates get compressed fonts and spread-out radii
+  const fonts = channelCount === 1 ? FONT.single : FONT.multi;
+  const radii = channelCount === 1 ? BAND_RADII_SINGLE : BAND_RADII_MULTI;
+
   // Calculate scaled angular offsets based on how many channels share this gate
   // Single-channel gates get full offsets, multi-channel gates compress them
+  // Note: Inner centre is generated separately (once per gate, at gate center)
   const offsets = {
-    innerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.innerCentre, channelCount),
     channelName: getScaledOffset(BASE_ANGLE_OFFSETS.channelName, channelCount),
     keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount),
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount),
@@ -244,16 +274,15 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
 
   // Calculate positions for each text element
   // Each element has its own radius AND scaled angular offset within the gate segment
-  const innerCentrePos = calculatePosition(baseAngle + offsets.innerCentre, BAND_RADII.innerCentre);
-  const channelNamePos = calculatePosition(baseAngle + offsets.channelName, BAND_RADII.channelName);
-  const keynotePos = calculatePosition(baseAngle + offsets.keynote, BAND_RADII.keynote);
-  const energyTypePos = calculatePosition(baseAngle + offsets.energyType, BAND_RADII.energyType);
-  const circuitPos = calculatePosition(baseAngle + offsets.circuit, BAND_RADII.circuit);
-  const outerCentrePos = calculatePosition(baseAngle + offsets.outerCentre, BAND_RADII.outerCentre);
-  const outerGatePos = calculatePosition(baseAngle + offsets.outerGateNumber, BAND_RADII.outerGateNumber);
+  // Note: Inner centre is generated separately (once per gate) in generateInnerCentres()
+  const channelNamePos = calculatePosition(baseAngle + offsets.channelName, radii.channelName);
+  const keynotePos = calculatePosition(baseAngle + offsets.keynote, radii.keynote);
+  const energyTypePos = calculatePosition(baseAngle + offsets.energyType, radii.energyType);
+  const circuitPos = calculatePosition(baseAngle + offsets.circuit, radii.circuit);
+  const outerCentrePos = calculatePosition(baseAngle + offsets.outerCentre, radii.outerCentre);
+  const outerGatePos = calculatePosition(baseAngle + offsets.outerGateNumber, radii.outerGateNumber);
 
   // Calculate rotations for each element (based on their offset angle)
-  const innerCentreRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.innerCentre));
   const channelNameRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.channelName));
   const keynoteRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.keynote));
   const energyTypeRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.energyType));
@@ -263,23 +292,17 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
 
   // Build the complete channel group with all text elements
   // Each element uses its own calculated position and rotation
+  // Note: Inner centre is generated separately (once per gate) in generateInnerCentres()
   return `    <g id="CHANNEL_-_${name.replace(/\s+/g, '_').toUpperCase()}_-_${innerGate}_${outerGate}"
        data-channel="${channel.channelNumber}"
        data-inner-gate="${innerGate}"
        data-outer-gate="${outerGate}"
-       data-channel-type="${energyType}">
-      <!-- Inner Centre (tangential) -->
-      <text id="INNER-CENTRE_-_${centres.inner.toUpperCase()}_-_${innerGate}"
-         transform="translate(${innerCentrePos.x.toFixed(4)} ${innerCentrePos.y.toFixed(4)}) rotate(${innerCentreRot.toFixed(4)})"
-         font-size="${FONT.center.size * 2}"
-         font-family="${FONT.family}"
-         text-anchor="middle"
-         dominant-baseline="central"
-         fill="${COLORS.foreground}">${centres.inner}</text>
+       data-channel-type="${energyType}"
+       data-channel-count="${channelCount}">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_${name.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${channelNamePos.x.toFixed(4)} ${channelNamePos.y.toFixed(4)}) rotate(${channelNameRot.toFixed(4)})"
-         font-size="${FONT.channelName.size}"
+         font-size="${fonts.channelName.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
@@ -287,7 +310,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
       <!-- Keynote (radial, separate element) -->
       <text id="KEYNOTE_-_${keynote.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${keynotePos.x.toFixed(4)} ${keynotePos.y.toFixed(4)}) rotate(${keynoteRot.toFixed(4)})"
-         font-size="${FONT.keynote.size}"
+         font-size="${fonts.keynote.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
@@ -295,23 +318,23 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_${energyType}_-_${innerGate}_${outerGate}"
          transform="translate(${energyTypePos.x.toFixed(4)} ${energyTypePos.y.toFixed(4)}) rotate(${energyTypeRot.toFixed(4)})"
-         font-size="${FONT.energyType.size}"
+         font-size="${fonts.energyType.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${energyType}</text>
-      <!-- Circuit (radial, separate element) -->
+      <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_${formatCircuit(circuit).replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${circuitPos.x.toFixed(4)} ${circuitPos.y.toFixed(4)}) rotate(${circuitRot.toFixed(4)})"
-         font-size="${FONT.energyType.size}"
+         font-size="${fonts.circuit.size}"
          font-family="${FONT.family}"
-         text-anchor="middle"
+         text-anchor="end"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${formatCircuit(circuit)}</text>
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_${centres.outer.toUpperCase()}_-_${outerGate}"
          transform="translate(${outerCentrePos.x.toFixed(4)} ${outerCentrePos.y.toFixed(4)}) rotate(${outerCentreRot.toFixed(4)})"
-         font-size="${FONT.center.size}"
+         font-size="${fonts.outerCentre.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
@@ -319,8 +342,8 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_${outerGate}"
          transform="translate(${outerGatePos.x.toFixed(4)} ${outerGatePos.y.toFixed(4)}) rotate(${outerGateRot.toFixed(4)})"
-         font-size="${FONT.outerGate.size}"
-         font-family="${FONT.outerGate.family}"
+         font-size="${fonts.outerGate.size}"
+         font-family="${fonts.outerGate.family}"
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${outerGate}</text>
@@ -329,16 +352,26 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
 
 /**
  * Generate ring circles
+ * Creates 4 concentric rings:
+ * - Inner ring (4505) - inner boundary for gate numbers
+ * - Outer ring (4827) - outer boundary for gate numbers
+ * - Outer ring 1 (6159) - inner edge of outer number band
+ * - Outer ring 2 (6481) - outermost boundary
  */
 function generateRingCircles(stroke, strokeWidth) {
   return `    <circle id="RING_-_INNER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING_RADII.inner}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>
-    <circle id="RING_-_OUTER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING_RADII.outer}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>`;
+    <circle id="RING_-_OUTER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING_RADII.outer}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>
+    <circle id="RING_-_OUTER_1" cx="${CENTER.x}" cy="${CENTER.y}" r="${STRUCTURE_RADII.outerRing1}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>
+    <circle id="RING_-_OUTER_2" cx="${CENTER.x}" cy="${CENTER.y}" r="${STRUCTURE_RADII.outerRing2}" fill="none" stroke="${stroke}" stroke-width="${strokeWidth}"/>`;
 }
 
 /**
  * Generate divider lines between adjacent gates (64 lines)
  * Named LINE_-_GATE1_GATE2 following master SVG convention
  * Each line is at the boundary between two adjacent gates
+ *
+ * Lines extend from STRUCTURE_RADII.dividerInner (~4897px) to
+ * STRUCTURE_RADII.dividerOuter (~6483px), spanning all text content bands.
  */
 function generateDividers(stroke, strokeWidth) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
@@ -356,11 +389,12 @@ function generateDividers(stroke, strokeWidth) {
     const svgAngle = calculateSVGAngle(boundaryAngle);
     const radians = svgAngle * Math.PI / 180;
 
-    // Line extends from inner to outer ring
-    const x1 = CENTER.x + RING_RADII.outer * Math.cos(radians);
-    const y1 = CENTER.y + RING_RADII.outer * Math.sin(radians);
-    const x2 = CENTER.x + RING_RADII.inner * Math.cos(radians);
-    const y2 = CENTER.y + RING_RADII.inner * Math.sin(radians);
+    // Line extends from inner text area to outer boundary
+    // Using STRUCTURE_RADII for full-span dividers (matching master)
+    const x1 = CENTER.x + STRUCTURE_RADII.dividerOuter * Math.cos(radians);
+    const y1 = CENTER.y + STRUCTURE_RADII.dividerOuter * Math.sin(radians);
+    const x2 = CENTER.x + STRUCTURE_RADII.dividerInner * Math.cos(radians);
+    const y2 = CENTER.y + STRUCTURE_RADII.dividerInner * Math.sin(radians);
 
     dividers += `    <line id="LINE_-_${currentGate}_${nextGate}" x1="${x1.toFixed(4)}" y1="${y1.toFixed(4)}" x2="${x2.toFixed(4)}" y2="${y2.toFixed(4)}" stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
   }
@@ -402,6 +436,56 @@ function generateInnerGateNumbers(fill, fontSize = 140) {
 }
 
 /**
+ * Generate inner centre names (one per gate, at gate center)
+ * This ensures multi-channel gates only have one inner centre text
+ * positioned at the gate center, not multiple overlapping ones.
+ */
+function generateInnerCentres(fill) {
+  const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
+  let centres = '';
+
+  for (const gate of gateSequence) {
+    const channels = getChannelsForGate(gate);
+    if (channels.length === 0) continue;
+
+    // Get the first channel to determine the centre name
+    const channel = channels[0];
+    const innerGate = gate;
+
+    // Parse centre connection to get inner centre name
+    const centreConnection = channel.knowledge.centerConnection;
+    const parts = centreConnection.split(' to ');
+    if (parts.length !== 2) continue;
+
+    // If innerGate is gate1, first centre is inner; otherwise second centre
+    const innerCentre = (innerGate === channel.gate1)
+      ? abbreviateCentre(parts[0])
+      : abbreviateCentre(parts[1]);
+
+    // Select font size and radius based on channel count
+    const channelCount = channels.length;
+    const fonts = channelCount === 1 ? FONT.single : FONT.multi;
+    const radii = channelCount === 1 ? BAND_RADII_SINGLE : BAND_RADII_MULTI;
+
+    // Position at gate center (no angular offset for inner centres)
+    const v3Data = positioning.getDockingData(gate, 1);
+    const baseAngle = v3Data.angle;
+    const pos = calculatePosition(baseAngle, radii.innerCentre);
+    const rotation = calculateTangentialRotation(calculateSVGAngle(baseAngle));
+
+    centres += `    <text id="INNER-CENTRE_-_${innerCentre.toUpperCase()}_-_${gate}"
+         transform="translate(${pos.x.toFixed(4)} ${pos.y.toFixed(4)}) rotate(${rotation.toFixed(4)})"
+         font-size="${fonts.innerCentre.size}"
+         font-family="${FONT.family}"
+         text-anchor="middle"
+         dominant-baseline="central"
+         fill="${fill}">${innerCentre}</text>\n`;
+  }
+
+  return centres;
+}
+
+/**
  * Generate the complete channels ring SVG
  */
 function generateChannelsRing(options = {}) {
@@ -438,6 +522,9 @@ function generateChannelsRing(options = {}) {
     svg += `    </g>\n`;
     svg += `    <g id="GROUP_-_INNER-GATE-NUMBERS">\n`;
     svg += generateInnerGateNumbers(fill);
+    svg += `    </g>\n`;
+    svg += `    <g id="GROUP_-_INNER-CENTRES">\n`;
+    svg += generateInnerCentres(fill);
     svg += `    </g>\n`;
     svg += `  </g>\n`;
   }
@@ -489,6 +576,7 @@ function getStatistics() {
 module.exports = {
   CENTER,
   RING_RADII,
+  STRUCTURE_RADII,
   BAND_RADII,
   BASE_ANGLE_OFFSETS,
   FONT,
