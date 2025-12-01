@@ -21,6 +21,7 @@
 
 const positioning = require('../../core/root-system/positioning-algorithm');
 const shared = require('./shared-constants');
+const engine = require('../../unified-query-engine');
 
 // Load channel mappings
 const channelsData = require('../../knowledge-systems/channels/mappings/channels-mappings.json');
@@ -31,7 +32,7 @@ const CENTER = { x: 6482.5278, y: 6486.1582 };
 // Ring radii from master (verified from the-36-channels-verified-master-mini-sizes.svg)
 const RING_RADII = {
   inner: 4504.9828,       // Inner ring (structure)
-  outer: 4826.9585,       // Outer ring (structure)
+  outer: 4708,            // Ring 2 - moved inward to separate inner numbers from inner centre
   bottomOuter: 6159.3379, // Outer band inner edge
   bottom: 6481.1808       // Outermost boundary
 };
@@ -53,12 +54,13 @@ const STRUCTURE_RADII = {
 // Shifted -152px inward to center content within the zone
 const BAND_RADII_SINGLE = {
   innerCentre: 4768,      // Inner centre like "Throat"
-  circuit: 4917,          // Circuit - right-aligned, 90px inside ring 2 (4827)
+  circuit: 4889,          // Circuit - moved 28px inward
   keynote: 5465,          // Keynote - same radius as channelName for radial centering
   channelName: 5465,      // Channel name - centered between circuit and energyType
-  energyType: 5831,       // Energy type like "Projected" - moved 16px inward
+  energyType: 5803,       // Energy type - moved 28px inward
   outerCentre: 6095,      // Outer centre like "Ajna" - moved 180px outward total
-  outerGateNumber: 6320   // In outer numbers band (6159-6481)
+  outerGateNumber: 6320,  // Gate number - moved outward to align with hexagram
+  outerHexagram: 6320     // Hexagram - same radius as gate number
 };
 
 // Multi-channel radii (measured from Recognition 41-30, Perfected Form 10-57)
@@ -69,7 +71,8 @@ const BAND_RADII_MULTI = {
   energyType: 5990,       // Projected at radius 5990px
   circuit: 5309,          // Sensing at radius 5309px
   outerCentre: 6056,      // SP at radius 6056px
-  outerGateNumber: 6330   // 30 at radius 6330px
+  outerGateNumber: 6320,  // Gate number - moved outward to align with hexagram
+  outerHexagram: 6320     // Hexagram - same radius as gate number
 };
 
 // Default BAND_RADII for backwards compatibility (uses multi-channel values)
@@ -87,7 +90,8 @@ const BASE_ANGLE_OFFSETS = {
   energyType: 2.16,       // SVG -128.73° = clockwise
   circuit: 2.24,          // SVG -128.81° = most clockwise
   outerCentre: 0,         // Centered on gate (no offset)
-  outerGateNumber: 2.06   // SVG -128.62° = clockwise
+  outerGateNumber: 1.0,   // Gate number offset (adjusted for hexagram)
+  outerHexagram: -1.5     // Hexagram offset - counter-clockwise, opposite side from number
 };
 
 // Helper to get scaled offset based on channel count at this gate
@@ -107,7 +111,7 @@ const FONT = {
     innerGate: { family: 'Herculanum', size: 200, weight: 400 },
     outerGate: { family: 'Herculanum', size: 179, weight: 400 },
     innerCentre: { size: 102, weight: 400 },
-    outerCentre: { size: 114, weight: 400 },
+    outerCentre: { size: 102, weight: 400 },
     energyType: { size: 85, weight: 400 },   // +18% (was 72)
     circuit: { size: 85, weight: 400 }       // +18% (was 72)
   },
@@ -126,6 +130,16 @@ const FONT = {
 
 // Use shared color scheme
 const COLORS = shared.COLORS;
+
+// Hexagram symbol dimensions for outer band (scaled from hexagram-ring.js)
+// Master SVG shows hexagrams ~154px wide, so we scale up from 80.76px
+const HEXAGRAM_SYMBOL = {
+  lineWidth: 154,           // Width of a YANG line (scaled from 80.76)
+  lineHeight: 19,           // Height/thickness of a line (scaled from 9.95)
+  lineSpacing: 32.3,        // Vertical spacing between lines (scaled from 16.91)
+  gapWidth: 14,             // Gap in YIN line (scaled from 7.34)
+  get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+};
 
 /**
  * Calculate SVG position angle from V3 angle
@@ -222,6 +236,18 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
     'Energy which Fluctuates and Initiates Pulses': {
       lines: ['Energy Which Fluctuates', '&amp; Initiates Pulses'],
       extraOffset: 40  // Extra padding from channelName
+    },
+    "Leadership For 'Good' or 'Bad'": {
+      lines: ['Leadership', "For 'Good' or 'Bad'"],
+      extraOffset: 40
+    },
+    'Mental Activity Mixed With Clarity': {
+      lines: ['Mental Activity', 'Mixed With Clarity'],
+      extraOffset: 40
+    },
+    'Balanced Development – Cyclic': {
+      lines: ['Balanced Development', '&amp; Cyclic'],
+      extraOffset: 40
     }
   };
 
@@ -267,6 +293,69 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
     const dy = i === 0 ? startOffset : lineHeight;
     return `<tspan x="0" dy="${dy.toFixed(1)}">${line}</tspan>`;
   }).join('');
+}
+
+/**
+ * Generate SVG for a single YANG line (solid rectangle)
+ * I Ching convention: Line 1 at bottom, Line 6 at top
+ * So Line 1 gets largest y-offset, Line 6 gets smallest
+ */
+function generateYangLine(lineNumber) {
+  const yOffset = (6 - lineNumber) * HEXAGRAM_SYMBOL.lineSpacing;
+  return `<rect data-line="${lineNumber}" data-type="yang" x="0" y="${yOffset.toFixed(2)}" width="${HEXAGRAM_SYMBOL.lineWidth}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>`;
+}
+
+/**
+ * Generate SVG for a single YIN line (two rectangles with gap)
+ * I Ching convention: Line 1 at bottom, Line 6 at top
+ * So Line 1 gets largest y-offset, Line 6 gets smallest
+ */
+function generateYinLine(lineNumber) {
+  const yOffset = (6 - lineNumber) * HEXAGRAM_SYMBOL.lineSpacing;
+  const segmentWidth = (HEXAGRAM_SYMBOL.lineWidth - HEXAGRAM_SYMBOL.gapWidth) / 2;
+  return `<g data-line="${lineNumber}" data-type="yin">
+        <rect x="0" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>
+        <rect x="${(segmentWidth + HEXAGRAM_SYMBOL.gapWidth).toFixed(2)}" y="${yOffset.toFixed(2)}" width="${segmentWidth.toFixed(2)}" height="${HEXAGRAM_SYMBOL.lineHeight}"/>
+      </g>`;
+}
+
+/**
+ * Generate the hexagram symbol SVG for a gate
+ * Uses binary data from the unified query engine
+ * Binary string is stored BOTTOM to TOP: index 0 = Line 1 (bottom)
+ */
+function generateHexagramSymbol(gateNumber) {
+  const knowledge = engine.getGateKnowledge(gateNumber);
+  const binary = knowledge.binary;
+
+  const lines = [];
+  for (let i = 0; i < 6; i++) {
+    const lineNumber = i + 1;
+    const isYang = binary[i] === '1';
+    lines.push(isYang ? generateYangLine(lineNumber) : generateYinLine(lineNumber));
+  }
+
+  return lines.join('\n      ');
+}
+
+/**
+ * Generate a positioned hexagram for the outer band
+ * Hexagram is positioned next to the outer gate number
+ * Uses tangential rotation (same as gate number)
+ */
+function generateOuterHexagram(gateNumber, position, rotation) {
+  // Center the symbol on the position
+  const offsetX = -HEXAGRAM_SYMBOL.lineWidth / 2;
+  const offsetY = -HEXAGRAM_SYMBOL.totalHeight / 2;
+
+  const symbol = generateHexagramSymbol(gateNumber);
+
+  return `<!-- Outer Hexagram for gate ${gateNumber} -->
+      <g id="OUTER-HEXAGRAM_-_${gateNumber}"
+         transform="translate(${position.x.toFixed(4)} ${position.y.toFixed(4)}) rotate(${rotation.toFixed(4)}) translate(${offsetX.toFixed(2)} ${offsetY.toFixed(2)})"
+         fill="${COLORS.foreground}">
+      ${symbol}
+      </g>`;
 }
 
 /**
@@ -331,7 +420,8 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount),
     circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount),
     outerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.outerCentre, channelCount),
-    outerGateNumber: getScaledOffset(BASE_ANGLE_OFFSETS.outerGateNumber, channelCount)
+    outerGateNumber: getScaledOffset(BASE_ANGLE_OFFSETS.outerGateNumber, channelCount),
+    outerHexagram: getScaledOffset(BASE_ANGLE_OFFSETS.outerHexagram, channelCount)
   };
 
   // Calculate positions for each text element
@@ -343,6 +433,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
   const circuitPos = calculatePosition(baseAngle + offsets.circuit, radii.circuit);
   const outerCentrePos = calculatePosition(baseAngle + offsets.outerCentre, radii.outerCentre);
   const outerGatePos = calculatePosition(baseAngle + offsets.outerGateNumber, radii.outerGateNumber);
+  const outerHexagramPos = calculatePosition(baseAngle + offsets.outerHexagram, radii.outerHexagram);
 
   // Calculate rotations for each element (based on their offset angle)
   const channelNameRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.channelName));
@@ -351,6 +442,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
   const circuitRot = calculateRadialRotation(calculateSVGAngle(baseAngle + offsets.circuit));
   const outerCentreRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerCentre));
   const outerGateRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerGateNumber));
+  const outerHexagramRot = calculateTangentialRotation(calculateSVGAngle(baseAngle + offsets.outerHexagram));
 
   // Build the complete channel group with all text elements
   // Each element uses its own calculated position and rotation
@@ -409,6 +501,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
          text-anchor="middle"
          dominant-baseline="central"
          fill="${COLORS.foreground}">${outerGate}</text>
+      ${generateOuterHexagram(outerGate, outerHexagramPos, outerHexagramRot)}
     </g>`;
 }
 

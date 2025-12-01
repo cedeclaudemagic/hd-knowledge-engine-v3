@@ -6,7 +6,7 @@
   <g id="GROUP_-_STRUCTURE">
     <g id="GROUP_-_RINGS">
     <circle id="RING_-_INNER" cx="6482.5278" cy="6486.1582" r="4504.9828" fill="none" stroke="#FFFFFF" stroke-width="3"/>
-    <circle id="RING_-_OUTER" cx="6482.5278" cy="6486.1582" r="4826.9585" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <circle id="RING_-_OUTER" cx="6482.5278" cy="6486.1582" r="4708" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     <circle id="RING_-_OUTER_1" cx="6482.5278" cy="6486.1582" r="6159" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     <circle id="RING_-_OUTER_2" cx="6482.5278" cy="6486.1582" r="6481" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
@@ -1002,7 +1002,7 @@
          fill="#FFFFFF">Focused Energy</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_41_30"
-         transform="translate(2834.9511 1936.9005) rotate(51.2775)"
+         transform="translate(2852.4665 1958.7457) rotate(51.2775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1010,7 +1010,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_41_30"
-         transform="translate(3401.3497 2654.2879) rotate(51.1975)"
+         transform="translate(3418.8955 2676.1086) rotate(51.1975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1019,19 +1019,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_30"
          transform="translate(2851.7405 1590.6083) rotate(-36.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_30"
-         transform="translate(2537.6694 1548.4976) rotate(-38.6225)"
+         transform="translate(2629.6884 1476.3649) rotate(-37.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">30</text>
+      <!-- Outer Hexagram for gate 30 -->
+      <g id="OUTER-HEXAGRAM_-_30"
+         transform="translate(2851.8796 1313.0746) rotate(-35.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_SYNTHESIS_-_19_49"
        data-channel="19-49"
@@ -1057,7 +1074,7 @@
          fill="#FFFFFF">Sensitivity</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_19_49"
-         transform="translate(2406.6100 2316.3315) rotate(45.6525)"
+         transform="translate(2426.1822 2336.3547) rotate(45.6525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1065,7 +1082,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_19_49"
-         transform="translate(3040.5974 2974.7476) rotate(45.5725)"
+         transform="translate(3060.1976 2994.7435) rotate(45.5725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1074,19 +1091,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_49"
          transform="translate(2389.3760 1970.0611) rotate(-42.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_49"
-         transform="translate(2072.6896 1958.9375) rotate(-44.2475)"
+         transform="translate(2157.1953 1878.1327) rotate(-43.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">49</text>
+      <!-- Outer Hexagram for gate 49 -->
+      <g id="OUTER-HEXAGRAM_-_49"
+         transform="translate(2362.3113 1693.8502) rotate(-40.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_PRODIGAL_-_13_33"
        data-channel="13-33"
@@ -1112,7 +1146,7 @@
          fill="#FFFFFF">Witness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_13_33"
-         transform="translate(2017.5221 2735.9202) rotate(40.0275)"
+         transform="translate(2038.9627 2753.9285) rotate(40.0275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1120,7 +1154,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_13_33"
-         transform="translate(2712.9928 3329.0242) rotate(39.9475)"
+         transform="translate(2734.4585 3347.0026) rotate(39.9475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1129,19 +1163,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_33"
          transform="translate(1966.4307 2393.0064) rotate(-47.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_33"
-         transform="translate(1650.1790 2412.9770) rotate(-49.8725)"
+         transform="translate(1726.3575 2324.2783) rotate(-48.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">33</text>
+      <!-- Outer Hexagram for gate 33 -->
+      <g id="OUTER-HEXAGRAM_-_33"
+         transform="translate(1912.4230 2120.7783) rotate(-46.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_SYNTHESIS_-_49_19"
        data-channel="19-49"
@@ -1167,7 +1218,7 @@
          fill="#FFFFFF">Sensitivity</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_49_19"
-         transform="translate(1671.4347 3191.6257) rotate(34.4025)"
+         transform="translate(1694.5372 3207.4458) rotate(34.4025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1175,7 +1226,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_49_19"
-         transform="translate(2421.6909 3713.7057) rotate(34.3225)"
+         transform="translate(2444.8155 3729.4935) rotate(34.3225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1184,19 +1235,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_19"
          transform="translate(1586.9779 2855.3709) rotate(-53.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_19"
-         transform="translate(1274.2065 2906.2435) rotate(-55.4975)"
+         transform="translate(1341.3242 2810.5052) rotate(-54.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">19</text>
+      <!-- Outer Hexagram for gate 19 -->
+      <g id="OUTER-HEXAGRAM_-_19"
+         transform="translate(1506.5472 2589.7474) rotate(-51.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_RECOGNITION_-_30_41"
        data-channel="30-41"
@@ -1222,7 +1296,7 @@
          fill="#FFFFFF">Focused Energy</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_30_41"
-         transform="translate(1371.6808 3679.0593) rotate(28.7775)"
+         transform="translate(1396.2227 3692.5388) rotate(28.7775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1230,7 +1304,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_30_41"
-         transform="translate(2169.4971 4125.0875) rotate(28.6975)"
+         transform="translate(2194.0578 4138.5326) rotate(28.6975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1239,19 +1313,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_41"
          transform="translate(1254.6719 3352.7020) rotate(-59.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_41"
-         transform="translate(948.3930 3433.9866) rotate(-61.1225)"
+         transform="translate(1005.8035 3332.1305) rotate(-60.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">41</text>
+      <!-- Outer Hexagram for gate 41 -->
+      <g id="OUTER-HEXAGRAM_-_41"
+         transform="translate(1148.5929 3096.2411) rotate(-57.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_EMOTING_-_55_39"
        data-channel="39-55"
@@ -1277,7 +1371,7 @@
          fill="#FFFFFF">Moodiness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_55_39"
-         transform="translate(1121.1471 4193.5269) rotate(23.1525)"
+         transform="translate(1146.8921 4204.5359) rotate(23.1525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1285,7 +1379,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_55_39"
-         transform="translate(1958.8401 4559.2076) rotate(23.0725)"
+         transform="translate(1984.6004 4570.1807) rotate(23.0725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1294,19 +1388,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_39"
          transform="translate(972.7131 3880.2099) rotate(-64.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_39"
-         transform="translate(675.8762 3991.1237) rotate(-66.7475)"
+         transform="translate(723.0266 3884.1309) rotate(-65.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">39</text>
+      <!-- Outer Hexagram for gate 39 -->
+      <g id="OUTER-HEXAGRAM_-_39"
+         transform="translate(842.0072 3635.3815) rotate(-63.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_COMMUNITY_-_37_40"
        data-channel="37-40"
@@ -1332,7 +1449,7 @@
          fill="#FFFFFF">Part Seeking A Whole</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_37_40"
-         transform="translate(922.2465 4730.0737) rotate(17.5275)"
+         transform="translate(948.9465 4738.5063) rotate(17.5275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1340,7 +1457,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_37_40"
-         transform="translate(1791.7487 5011.8853) rotate(17.4475)"
+         transform="translate(1818.4605 5020.2806) rotate(17.4475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1349,19 +1466,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEART_-_40"
          transform="translate(743.8167 4432.8145) rotate(-70.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Heart</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_40"
-         transform="translate(459.2807 4572.2893) rotate(-72.3725)"
+         transform="translate(495.7169 4461.1902) rotate(-71.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">40</text>
+      <!-- Outer Hexagram for gate 40 -->
+      <g id="OUTER-HEXAGRAM_-_40"
+         transform="translate(589.7429 4201.9765) rotate(-68.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_LOGIC_-_63_4"
        data-channel="4-63"
@@ -1387,7 +1527,7 @@
          fill="#FFFFFF">Mental Ease Mixed with Doubt</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_63_4"
-         transform="translate(776.8944 5283.5326) rotate(11.9025)"
+         transform="translate(804.2924 5289.3076) rotate(11.9025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1395,7 +1535,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_63_4"
-         transform="translate(1669.8321 5478.7611) rotate(11.8225)"
+         transform="translate(1697.2381 5484.4977) rotate(11.8225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1404,19 +1544,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_4"
          transform="translate(570.1873 5005.1940) rotate(-75.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_4"
-         transform="translate(300.6923 5171.8866) rotate(-77.9975)"
+         transform="translate(326.0635 5057.7510) rotate(-76.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">4</text>
+      <!-- Outer Hexagram for gate 4 -->
+      <g id="OUTER-HEXAGRAM_-_4"
+         transform="translate(394.2293 4790.5694) rotate(-74.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_OPENNESS_-_22_12"
        data-channel="12-22"
@@ -1442,7 +1605,7 @@
          fill="#FFFFFF">Social Being</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_22_12"
-         transform="translate(686.4906 5848.5735) rotate(6.2775)"
+         transform="translate(714.3228 5851.6351) rotate(6.2775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1450,7 +1613,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_22_12"
-         transform="translate(1594.2643 5955.3387) rotate(6.1975)"
+         transform="translate(1622.1007 5958.3614) rotate(6.1975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1459,19 +1622,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_12"
          transform="translate(453.4970 5591.8360) rotate(-81.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_12"
-         transform="translate(201.6384 5784.1410) rotate(-83.6225)"
+         transform="translate(215.7002 5668.0682) rotate(-82.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">12</text>
+      <!-- Outer Hexagram for gate 12 -->
+      <g id="OUTER-HEXAGRAM_-_12"
+         transform="translate(257.3494 5395.4917) rotate(-80.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_TRANSITORINESS_-_36_35"
        data-channel="35-36"
@@ -1497,7 +1680,7 @@
          fill="#FFFFFF">'Jack of All Trades'</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_36_35"
-         transform="translate(651.9059 6419.7546) rotate(0.6525)"
+         transform="translate(679.9041 6420.0735) rotate(0.6525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1505,7 +1688,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_36_35"
-         transform="translate(1565.7733 6437.0283) rotate(0.5725)"
+         transform="translate(1593.7719 6437.3081) rotate(0.5725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1514,19 +1697,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_35"
          transform="translate(394.8695 6187.0907) rotate(-87.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_35"
-         transform="translate(163.0729 6403.1562) rotate(-89.2475)"
+         transform="translate(165.6898 6286.2641) rotate(-88.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">35</text>
+      <!-- Outer Hexagram for gate 35 -->
+      <g id="OUTER-HEXAGRAM_-_35"
+         transform="translate(180.4213 6010.9177) rotate(-85.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_INITIATION_-_25_51"
        data-channel="25-51"
@@ -1552,7 +1758,7 @@
          fill="#FFFFFF">Needing To Be First</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_25_51"
-         transform="translate(673.4733 6991.5752) rotate(-4.9725)"
+         transform="translate(701.3679 6989.1483) rotate(-4.9725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1560,7 +1766,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Centering_-_25_51"
-         transform="translate(1584.6332 6919.1911) rotate(-5.0525)"
+         transform="translate(1612.5244 6916.7252) rotate(-5.0525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1569,19 +1775,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEART_-_51"
          transform="translate(394.8695 6785.2257) rotate(-92.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Heart</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_51"
-         transform="translate(185.3672 7022.9708) rotate(-94.8725)"
+         transform="translate(176.5140 6906.3850) rotate(-93.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">51</text>
+      <!-- Outer Hexagram for gate 51 -->
+      <g id="OUTER-HEXAGRAM_-_51"
+         transform="translate(164.1859 6630.9206) rotate(-91.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_ACCEPTANCE_-_17_62"
        data-channel="17-62"
@@ -1607,7 +1836,7 @@
          fill="#FFFFFF">Organisational Being</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_17_62"
-         transform="translate(750.9850 7558.5284) rotate(-10.5975)"
+         transform="translate(778.5074 7553.3790) rotate(-10.5975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1615,7 +1844,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_17_62"
-         transform="translate(1650.6625 7397.1835) rotate(-10.6775)"
+         transform="translate(1678.1777 7391.9957) rotate(-10.6775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1624,19 +1853,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_62"
          transform="translate(453.4970 7380.4804) rotate(-98.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_62"
-         transform="translate(268.3065 7637.6156) rotate(-100.4975)"
+         transform="translate(248.0687 7522.4589) rotate(-99.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">62</text>
+      <!-- Outer Hexagram for gate 62 -->
+      <g id="OUTER-HEXAGRAM_-_62"
+         transform="translate(208.7997 7249.5293) rotate(-96.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_MONEY_LINE_-_21_45"
        data-channel="21-45"
@@ -1662,7 +1914,7 @@
          fill="#FFFFFF">Materialist</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_21_45"
-         transform="translate(883.6946 8115.1541) rotate(-16.2225)"
+         transform="translate(910.5797 8107.3318) rotate(-16.2225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1670,7 +1922,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_21_45"
-         transform="translate(1763.2254 7866.4023) rotate(-16.3025)"
+         transform="translate(1790.0996 7858.5425) rotate(-16.3025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1679,19 +1931,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_45"
          transform="translate(570.1873 7967.1224) rotate(-104.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_45"
-         transform="translate(411.0923 8241.1712) rotate(-106.1225)"
+         transform="translate(379.6645 8128.5527) rotate(-105.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">45</text>
+      <!-- Outer Hexagram for gate 45 -->
+      <g id="OUTER-HEXAGRAM_-_45"
+         transform="translate(313.8329 7860.7864) rotate(-102.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_INITIATION_-_51_25"
        data-channel="25-51"
@@ -1717,7 +1992,7 @@
          fill="#FFFFFF">Needing To Be First</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_51_25"
-         transform="translate(1070.3240 8656.0917) rotate(-21.8475)"
+         transform="translate(1096.3130 8645.6718) rotate(-21.8475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1725,7 +2000,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Centering_-_51_25"
-         transform="translate(1921.2377 8322.3286) rotate(-21.9275)"
+         transform="translate(1947.2121 8311.8725) rotate(-21.9275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1734,19 +2009,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_25"
          transform="translate(743.8167 8539.5019) rotate(-109.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_25"
-         transform="translate(612.3492 8827.8251) rotate(-111.7475)"
+         transform="translate(570.0343 8718.8294) rotate(-110.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">25</text>
+      <!-- Outer Hexagram for gate 25 -->
+      <g id="OUTER-HEXAGRAM_-_25"
+         transform="translate(478.2739 8458.8050) rotate(-108.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_MATURATION_-_42_53"
        data-channel="42-53"
@@ -1763,16 +2055,16 @@
          dominant-baseline="central"
          fill="#FFFFFF">Maturation</text>
       <!-- Keynote (radial, separate element, may wrap to multiple lines) -->
-      <text id="KEYNOTE_-_Balanced_Development,_Cyclic_-_42_53"
+      <text id="KEYNOTE_-_Balanced_Development_–_Cyclic_-_42_53"
          transform="translate(1499.0629 8729.2147) rotate(-24.2325)"
          font-size="62"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF">Balanced Development, Cyclic</text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Balanced Development</tspan><tspan x="0" dy="52.7">&amp; Cyclic</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_42_53"
-         transform="translate(1309.0759 9176.1316) rotate(-27.4725)"
+         transform="translate(1333.9184 9163.2146) rotate(-27.4725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1780,7 +2072,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_42_53"
-         transform="translate(2123.1777 8760.5715) rotate(-27.5525)"
+         transform="translate(2148.0022 8747.6198) rotate(-27.5525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1789,19 +2081,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_53"
          transform="translate(972.7131 9092.1065) rotate(-115.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_53"
-         transform="translate(870.1393 9391.9274) rotate(-117.3725)"
+         transform="translate(817.3446 9287.6041) rotate(-116.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">53</text>
+      <!-- Outer Hexagram for gate 53 -->
+      <g id="OUTER-HEXAGRAM_-_53"
+         transform="translate(700.5392 9037.8260) rotate(-113.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_MUTATION_-_3_60"
        data-channel="3-60"
@@ -1827,7 +2139,7 @@
          fill="#FFFFFF"><tspan x="0" dy="-66.3">Energy Which Fluctuates</tspan><tspan x="0" dy="52.7">&amp; Initiates Pulses</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_3_60"
-         transform="translate(1597.6510 9670.2656) rotate(-33.0975)"
+         transform="translate(1621.1078 9654.9758) rotate(-33.0975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1835,7 +2147,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_3_60"
-         transform="translate(2367.1007 9176.9107) rotate(-33.1775)"
+         transform="translate(2390.5361 9161.5881) rotate(-33.1775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1844,19 +2156,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_60"
          transform="translate(1254.6719 9619.6144) rotate(-120.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_60"
-         transform="translate(1181.9796 9928.0456) rotate(-122.9975)"
+         transform="translate(1119.2137 9829.3995) rotate(-121.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">60</text>
+      <!-- Outer Hexagram for gate 60 -->
+      <g id="OUTER-HEXAGRAM_-_60"
+         transform="translate(978.4883 9592.2730) rotate(-119.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_PRESERVATION_-_27_50"
        data-channel="27-50"
@@ -1882,7 +2214,7 @@
          fill="#FFFFFF">Custodianship</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_27_50"
-         transform="translate(1933.2701 10133.7349) rotate(-38.7225)"
+         transform="translate(1955.1153 10116.2195) rotate(-38.7225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1890,7 +2222,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Defense_-_27_50"
-         transform="translate(2650.6575 9567.3363) rotate(-38.8025)"
+         transform="translate(2672.4782 9549.7905) rotate(-38.8025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1899,19 +2231,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_50"
          transform="translate(1586.9779 10116.9455) rotate(-126.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_50"
-         transform="translate(1544.8672 10431.0166) rotate(-128.6225)"
+         transform="translate(1472.7345 10338.9976) rotate(-127.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">50</text>
+      <!-- Outer Hexagram for gate 50 -->
+      <g id="OUTER-HEXAGRAM_-_50"
+         transform="translate(1309.4442 10116.8064) rotate(-125.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_AWARENESS_-_24_61"
        data-channel="24-61"
@@ -1937,7 +2286,7 @@
          fill="#FFFFFF">Thinker</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_24_61"
-         transform="translate(2312.7011 10562.0760) rotate(-44.3475)"
+         transform="translate(2332.7243 10542.5038) rotate(-44.3475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -1945,7 +2294,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_24_61"
-         transform="translate(2971.1172 9928.0886) rotate(-44.4275)"
+         transform="translate(2991.1131 9908.4884) rotate(-44.4275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -1954,19 +2303,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEAD_-_61"
          transform="translate(1966.4307 10579.3100) rotate(-132.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Head</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_61"
-         transform="translate(1955.3071 10895.9964) rotate(-134.2475)"
+         transform="translate(1874.5023 10811.4907) rotate(-133.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">61</text>
+      <!-- Outer Hexagram for gate 61 -->
+      <g id="OUTER-HEXAGRAM_-_61"
+         transform="translate(1690.2198 10606.3747) rotate(-130.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_BEAT_-_2_14"
        data-channel="2-14"
@@ -1992,7 +2358,7 @@
          fill="#FFFFFF">Being A Keeper of Keys</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_2_14"
-         transform="translate(2732.2898 10951.1639) rotate(-49.9725)"
+         transform="translate(2750.2981 10929.7233) rotate(-49.9725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2000,7 +2366,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_2_14"
-         transform="translate(3325.3938 10255.6932) rotate(-50.0525)"
+         transform="translate(3343.3722 10234.2275) rotate(-50.0525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2009,19 +2375,33 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_14"
          transform="translate(2389.3760 11002.2553) rotate(-137.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_14"
-         transform="translate(2409.3466 11318.5070) rotate(-139.8725)"
+         transform="translate(2320.6479 11242.3285) rotate(-138.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">14</text>
+      <!-- Outer Hexagram for gate 14 -->
+      <g id="OUTER-HEXAGRAM_-_14"
+         transform="translate(2117.1479 11056.2630) rotate(-136.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_STRUCTURING_-_23_43"
        data-channel="23-43"
@@ -2047,7 +2427,7 @@
          fill="#FFFFFF">Individuality</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_23_43"
-         transform="translate(3187.9953 11297.2513) rotate(-55.5975)"
+         transform="translate(3203.8154 11274.1488) rotate(-55.5975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2055,7 +2435,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_23_43"
-         transform="translate(3710.0753 10546.9951) rotate(-55.6775)"
+         transform="translate(3725.8631 10523.8705) rotate(-55.6775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2064,19 +2444,33 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_43"
          transform="translate(2851.7405 11381.7081) rotate(-143.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_43"
-         transform="translate(2902.6131 11694.4795) rotate(-145.4975)"
+         transform="translate(2806.8748 11627.3618) rotate(-144.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">43</text>
+      <!-- Outer Hexagram for gate 43 -->
+      <g id="OUTER-HEXAGRAM_-_43"
+         transform="translate(2586.1170 11462.1388) rotate(-141.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_INSPIRATION_-_8_1"
        data-channel="1-8"
@@ -2102,7 +2496,7 @@
          fill="#FFFFFF">Creative Role Model</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_8_1"
-         transform="translate(3675.4289 11597.0052) rotate(-61.2225)"
+         transform="translate(3688.9084 11572.4633) rotate(-61.2225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2110,7 +2504,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_8_1"
-         transform="translate(4121.4571 10799.1889) rotate(-61.3025)"
+         transform="translate(4134.9022 10774.6282) rotate(-61.3025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2119,19 +2513,30 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_1"
          transform="translate(3349.0716 11714.0141) rotate(-149.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_1"
-         transform="translate(3430.3562 12020.2930) rotate(-151.1225)"
+         transform="translate(3328.5001 11962.8825) rotate(-150.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">1</text>
+      <!-- Outer Hexagram for gate 1 -->
+      <g id="OUTER-HEXAGRAM_-_1"
+         transform="translate(3092.6107 11820.0931) rotate(-147.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_AWAKENING_-_20_10"
        data-channel="10-20"
@@ -2181,12 +2586,26 @@
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_10"
-         transform="translate(3844.8756 12240.4341) rotate(-155.3742)"
+         transform="translate(3813.6633 12214.9942) rotate(-155.0208)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">10</text>
+      <!-- Outer Hexagram for gate 10 -->
+      <g id="OUTER-HEXAGRAM_-_10"
+         transform="translate(3730.6259 12175.5726) rotate(-154.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_CHARISMA_-_20_34"
        data-channel="20-34"
@@ -2236,12 +2655,29 @@
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_34"
-         transform="translate(3844.8756 12240.4341) rotate(-155.3742)"
+         transform="translate(3813.6633 12214.9942) rotate(-155.0208)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">34</text>
+      <!-- Outer Hexagram for gate 34 -->
+      <g id="OUTER-HEXAGRAM_-_34"
+         transform="translate(3730.6259 12175.5726) rotate(-154.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_BRAINWAVE_-_20_57"
        data-channel="20-57"
@@ -2291,12 +2727,29 @@
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_57"
-         transform="translate(3844.8756 12240.4341) rotate(-155.3742)"
+         transform="translate(3813.6633 12214.9942) rotate(-155.0208)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">57</text>
+      <!-- Outer Hexagram for gate 57 -->
+      <g id="OUTER-HEXAGRAM_-_57"
+         transform="translate(3730.6259 12175.5726) rotate(-154.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_WAVELENGTH_-_16_48"
        data-channel="16-48"
@@ -2322,7 +2775,7 @@
          fill="#FFFFFF">Talent</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_16_48"
-         transform="translate(4726.4433 12046.4395) rotate(-72.4725)"
+         transform="translate(4734.8759 12019.7395) rotate(-72.4725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2330,7 +2783,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_16_48"
-         transform="translate(5008.2549 11176.9373) rotate(-72.5525)"
+         transform="translate(5016.6502 11150.2255) rotate(-72.5525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2339,19 +2792,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_48"
          transform="translate(4429.1841 12224.8693) rotate(-160.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_48"
-         transform="translate(4568.6589 12509.4053) rotate(-162.3725)"
+         transform="translate(4457.5598 12472.9691) rotate(-161.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">48</text>
+      <!-- Outer Hexagram for gate 48 -->
+      <g id="OUTER-HEXAGRAM_-_48"
+         transform="translate(4198.3461 12378.9431) rotate(-158.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_TRANSITORINESS_-_35_36"
        data-channel="35-36"
@@ -2377,7 +2850,7 @@
          fill="#FFFFFF">'Jack of All Trades'</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_35_36"
-         transform="translate(5279.9022 12191.7916) rotate(-78.0975)"
+         transform="translate(5285.6772 12164.3936) rotate(-78.0975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2385,7 +2858,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_35_36"
-         transform="translate(5475.1307 11298.8539) rotate(-78.1775)"
+         transform="translate(5480.8673 11271.4479) rotate(-78.1775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2394,19 +2867,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_36"
          transform="translate(5001.5636 12398.4987) rotate(-165.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_36"
-         transform="translate(5168.2562 12667.9937) rotate(-167.9975)"
+         transform="translate(5054.1206 12642.6225) rotate(-166.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">36</text>
+      <!-- Outer Hexagram for gate 36 -->
+      <g id="OUTER-HEXAGRAM_-_36"
+         transform="translate(4786.9390 12574.4567) rotate(-164.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_MONEY_LINE_-_45_21"
        data-channel="21-45"
@@ -2432,7 +2928,7 @@
          fill="#FFFFFF">Materialist</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_45_21"
-         transform="translate(5844.9431 12282.1954) rotate(-83.7225)"
+         transform="translate(5848.0047 12254.3632) rotate(-83.7225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2440,7 +2936,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_45_21"
-         transform="translate(5951.7083 11374.4217) rotate(-83.8025)"
+         transform="translate(5954.7310 11346.5853) rotate(-83.8025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2449,19 +2945,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEART_-_21"
          transform="translate(5588.2056 12515.1890) rotate(-171.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Heart</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_21"
-         transform="translate(5780.5106 12767.0476) rotate(-173.6225)"
+         transform="translate(5664.4378 12752.9858) rotate(-172.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">21</text>
+      <!-- Outer Hexagram for gate 21 -->
+      <g id="OUTER-HEXAGRAM_-_21"
+         transform="translate(5391.8613 12711.3366) rotate(-170.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_OPENNESS_-_12_22"
        data-channel="12-22"
@@ -2487,7 +3003,7 @@
          fill="#FFFFFF">Social Being</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Manifested_-_12_22"
-         transform="translate(6416.1242 12316.7801) rotate(-89.3475)"
+         transform="translate(6416.4431 12288.7819) rotate(-89.3475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2495,7 +3011,7 @@
          fill="#FFFFFF">Manifested</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_12_22"
-         transform="translate(6433.3979 11402.9127) rotate(-89.4275)"
+         transform="translate(6433.6777 11374.9141) rotate(-89.4275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2504,19 +3020,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_22"
          transform="translate(6183.4603 12573.8165) rotate(-177.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_22"
-         transform="translate(6399.5258 12805.6131) rotate(-179.2475)"
+         transform="translate(6282.6337 12802.9962) rotate(-178.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">22</text>
+      <!-- Outer Hexagram for gate 22 -->
+      <g id="OUTER-HEXAGRAM_-_22"
+         transform="translate(6007.2873 12788.2647) rotate(-175.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_RHYTHM_-_15_5"
        data-channel="5-15"
@@ -2542,7 +3078,7 @@
          fill="#FFFFFF">Being In The Flow</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_15_5"
-         transform="translate(6987.9448 12295.2127) rotate(-94.9725)"
+         transform="translate(6985.5179 12267.3181) rotate(-94.9725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2550,7 +3086,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_15_5"
-         transform="translate(6915.5607 11384.0528) rotate(-95.0525)"
+         transform="translate(6913.0948 11356.1616) rotate(-95.0525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2559,19 +3095,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_5"
          transform="translate(6781.5953 12573.8165) rotate(177.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_5"
-         transform="translate(7019.3404 12783.3188) rotate(175.1275)"
+         transform="translate(6902.7546 12792.1720) rotate(176.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">5</text>
+      <!-- Outer Hexagram for gate 5 -->
+      <g id="OUTER-HEXAGRAM_-_5"
+         transform="translate(6627.2902 12804.5001) rotate(178.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_CONCENTRATION_-_52_9"
        data-channel="9-52"
@@ -2597,7 +3150,7 @@
          fill="#FFFFFF">Determination</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_52_9"
-         transform="translate(7554.8980 12217.7010) rotate(-100.5975)"
+         transform="translate(7549.7486 12190.1786) rotate(-100.5975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2605,7 +3158,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_52_9"
-         transform="translate(7393.5531 11318.0235) rotate(-100.6775)"
+         transform="translate(7388.3653 11290.5083) rotate(-100.6775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2614,19 +3167,33 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_9"
          transform="translate(7376.8500 12515.1890) rotate(171.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_9"
-         transform="translate(7633.9852 12700.3795) rotate(169.5025)"
+         transform="translate(7518.8285 12720.6173) rotate(170.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">9</text>
+      <!-- Outer Hexagram for gate 9 -->
+      <g id="OUTER-HEXAGRAM_-_9"
+         transform="translate(7245.8989 12759.8863) rotate(173.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_EMOTING_-_39_55"
        data-channel="39-55"
@@ -2652,7 +3219,7 @@
          fill="#FFFFFF">Moodiness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_39_55"
-         transform="translate(8111.5237 12084.9914) rotate(-106.2225)"
+         transform="translate(8103.7014 12058.1063) rotate(-106.2225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2660,7 +3227,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_39_55"
-         transform="translate(7862.7719 11205.4606) rotate(-106.3025)"
+         transform="translate(7854.9121 11178.5864) rotate(-106.3025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2669,19 +3236,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_55"
          transform="translate(7963.4920 12398.4987) rotate(165.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_55"
-         transform="translate(8237.5408 12557.5937) rotate(163.8775)"
+         transform="translate(8124.9223 12589.0215) rotate(164.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">55</text>
+      <!-- Outer Hexagram for gate 55 -->
+      <g id="OUTER-HEXAGRAM_-_55"
+         transform="translate(7857.1560 12654.8531) rotate(167.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_MATURATION_-_53_42"
        data-channel="42-53"
@@ -2698,16 +3285,16 @@
          dominant-baseline="central"
          fill="#FFFFFF">Maturation</text>
       <!-- Keynote (radial, separate element, may wrap to multiple lines) -->
-      <text id="KEYNOTE_-_Balanced_Development,_Cyclic_-_53_42"
+      <text id="KEYNOTE_-_Balanced_Development_–_Cyclic_-_53_42"
          transform="translate(8226.3184 11665.4843) rotate(-108.6075)"
          font-size="62"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF">Balanced Development, Cyclic</text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Balanced Development</tspan><tspan x="0" dy="52.7">&amp; Cyclic</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_53_42"
-         transform="translate(8652.4613 11898.3620) rotate(-111.8475)"
+         transform="translate(8642.0414 11872.3730) rotate(-111.8475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2715,7 +3302,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_53_42"
-         transform="translate(8318.6982 11047.4483) rotate(-111.9275)"
+         transform="translate(8308.2421 11021.4739) rotate(-111.9275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2724,19 +3311,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_42"
          transform="translate(8535.8715 12224.8693) rotate(160.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_42"
-         transform="translate(8824.1947 12356.3368) rotate(158.2525)"
+         transform="translate(8715.1990 12398.6517) rotate(159.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">42</text>
+      <!-- Outer Hexagram for gate 42 -->
+      <g id="OUTER-HEXAGRAM_-_42"
+         transform="translate(8455.1746 12490.4121) rotate(161.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_ACCEPTANCE_-_62_17"
        data-channel="17-62"
@@ -2762,7 +3369,7 @@
          fill="#FFFFFF">Organisational Being</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_62_17"
-         transform="translate(9172.5012 11659.6101) rotate(-117.4725)"
+         transform="translate(9159.5842 11634.7676) rotate(-117.4725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2770,7 +3377,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_62_17"
-         transform="translate(8756.9411 10845.5083) rotate(-117.5525)"
+         transform="translate(8743.9894 10820.6838) rotate(-117.5525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2779,19 +3386,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_17"
          transform="translate(9088.4761 11995.9729) rotate(154.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_17"
-         transform="translate(9388.2970 12098.5467) rotate(152.6275)"
+         transform="translate(9283.9737 12151.3414) rotate(153.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">17</text>
+      <!-- Outer Hexagram for gate 17 -->
+      <g id="OUTER-HEXAGRAM_-_17"
+         transform="translate(9034.1956 12268.1468) rotate(156.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_CURIOSITY_-_56_11"
        data-channel="11-56"
@@ -2817,7 +3444,7 @@
          fill="#FFFFFF">Seeker/Searcher</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_56_11"
-         transform="translate(9666.6352 11371.0350) rotate(-123.0975)"
+         transform="translate(9651.3454 11347.5782) rotate(-123.0975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2825,7 +3452,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_56_11"
-         transform="translate(9173.2803 10601.5853) rotate(-123.1775)"
+         transform="translate(9157.9577 10578.1499) rotate(-123.1775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2834,19 +3461,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_11"
          transform="translate(9615.9840 11714.0141) rotate(149.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_11"
-         transform="translate(9924.4152 11786.7064) rotate(147.0025)"
+         transform="translate(9825.7691 11849.4723) rotate(148.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">11</text>
+      <!-- Outer Hexagram for gate 11 -->
+      <g id="OUTER-HEXAGRAM_-_11"
+         transform="translate(9588.6426 11990.1977) rotate(150.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_ALPHA_-_31_7"
        data-channel="7-31"
@@ -2869,10 +3516,10 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-26.3">Leadership For 'Good' or</tspan><tspan x="0" dy="52.7">'Bad'</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Leadership</tspan><tspan x="0" dy="52.7">For 'Good' or 'Bad'</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_31_7"
-         transform="translate(10130.1045 11035.4159) rotate(-128.7225)"
+         transform="translate(10112.5891 11013.5707) rotate(-128.7225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2880,7 +3527,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_31_7"
-         transform="translate(9563.7059 10318.0285) rotate(-128.8025)"
+         transform="translate(9546.1601 10296.2078) rotate(-128.8025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2889,19 +3536,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_7"
          transform="translate(10113.3151 11381.7081) rotate(143.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_7"
-         transform="translate(10427.3862 11423.8188) rotate(141.3775)"
+         transform="translate(10335.3672 11495.9515) rotate(142.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">7</text>
+      <!-- Outer Hexagram for gate 7 -->
+      <g id="OUTER-HEXAGRAM_-_7"
+         transform="translate(10113.1760 11659.2418) rotate(144.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_PRODIGAL_-_33_13"
        data-channel="13-33"
@@ -2927,7 +3600,7 @@
          fill="#FFFFFF">Witness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_33_13"
-         transform="translate(10558.4456 10655.9849) rotate(-134.3475)"
+         transform="translate(10538.8734 10635.9617) rotate(-134.3475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2935,7 +3608,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_33_13"
-         transform="translate(9924.4582 9997.5688) rotate(-134.4275)"
+         transform="translate(9904.8580 9977.5729) rotate(-134.4275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2944,19 +3617,33 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_13"
          transform="translate(10575.6796 11002.2553) rotate(137.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_13"
-         transform="translate(10892.3660 11013.3789) rotate(135.7525)"
+         transform="translate(10807.8603 11094.1837) rotate(136.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">13</text>
+      <!-- Outer Hexagram for gate 13 -->
+      <g id="OUTER-HEXAGRAM_-_13"
+         transform="translate(10602.7443 11278.4662) rotate(139.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_ALPHA_-_7_31"
        data-channel="7-31"
@@ -2979,10 +3666,10 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-26.3">Leadership For 'Good' or</tspan><tspan x="0" dy="52.7">'Bad'</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Leadership</tspan><tspan x="0" dy="52.7">For 'Good' or 'Bad'</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_7_31"
-         transform="translate(10947.5335 10236.3962) rotate(-139.9725)"
+         transform="translate(10926.0929 10218.3879) rotate(-139.9725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -2990,7 +3677,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_7_31"
-         transform="translate(10252.0628 9643.2922) rotate(-140.0525)"
+         transform="translate(10230.5971 9625.3138) rotate(-140.0525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -2999,19 +3686,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_31"
          transform="translate(10998.6249 10579.3100) rotate(132.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_31"
-         transform="translate(11314.8766 10559.3394) rotate(130.1275)"
+         transform="translate(11238.6981 10648.0381) rotate(131.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">31</text>
+      <!-- Outer Hexagram for gate 31 -->
+      <g id="OUTER-HEXAGRAM_-_31"
+         transform="translate(11052.6326 10851.5381) rotate(133.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_LOGIC_-_4_63"
        data-channel="4-63"
@@ -3037,7 +3744,7 @@
          fill="#FFFFFF">Mental Ease Mixed with Doubt</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_4_63"
-         transform="translate(11293.6209 9780.6907) rotate(-145.5975)"
+         transform="translate(11270.5184 9764.8706) rotate(-145.5975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3045,7 +3752,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_4_63"
-         transform="translate(10543.3647 9258.6107) rotate(-145.6775)"
+         transform="translate(10520.2401 9242.8229) rotate(-145.6775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3054,19 +3761,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEAD_-_63"
          transform="translate(11378.0777 10116.9455) rotate(126.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Head</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_63"
-         transform="translate(11690.8491 10066.0729) rotate(124.5025)"
+         transform="translate(11623.7314 10161.8112) rotate(125.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">63</text>
+      <!-- Outer Hexagram for gate 63 -->
+      <g id="OUTER-HEXAGRAM_-_63"
+         transform="translate(11458.5084 10382.5690) rotate(128.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_DISCOVERY_-_29_46"
        data-channel="29-46"
@@ -3092,7 +3819,7 @@
          fill="#FFFFFF">Succeeding Where Others Fail</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_29_46"
-         transform="translate(11593.3748 9293.2571) rotate(-151.2225)"
+         transform="translate(11568.8329 9279.7776) rotate(-151.2225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3100,7 +3827,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_29_46"
-         transform="translate(10795.5585 8847.2289) rotate(-151.3025)"
+         transform="translate(10770.9978 8833.7838) rotate(-151.3025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3109,19 +3836,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_46"
          transform="translate(11710.3837 9619.6144) rotate(120.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_46"
-         transform="translate(12016.6626 9538.3298) rotate(118.8775)"
+         transform="translate(11959.2521 9640.1859) rotate(119.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">46</text>
+      <!-- Outer Hexagram for gate 46 -->
+      <g id="OUTER-HEXAGRAM_-_46"
+         transform="translate(11816.4627 9876.0753) rotate(122.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_MATING_-_59_6"
        data-channel="6-59"
@@ -3147,7 +3897,7 @@
          fill="#FFFFFF">Focused On Reproduction</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_59_6"
-         transform="translate(11843.9085 8778.7895) rotate(-156.8475)"
+         transform="translate(11818.1635 8767.7805) rotate(-156.8475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3155,7 +3905,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Defense_-_59_6"
-         transform="translate(11006.2155 8413.1088) rotate(-156.9275)"
+         transform="translate(10980.4552 8402.1357) rotate(-156.9275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3164,19 +3914,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_6"
          transform="translate(11992.3425 9092.1065) rotate(115.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_6"
-         transform="translate(12289.1794 8981.1927) rotate(113.2525)"
+         transform="translate(12242.0290 9088.1855) rotate(114.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">6</text>
+      <!-- Outer Hexagram for gate 6 -->
+      <g id="OUTER-HEXAGRAM_-_6"
+         transform="translate(12123.0484 9336.9349) rotate(116.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_COMMUNITY_-_40_37"
        data-channel="37-40"
@@ -3202,7 +3969,7 @@
          fill="#FFFFFF">Part Seeking A Whole</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_40_37"
-         transform="translate(12042.8091 8242.2427) rotate(-162.4725)"
+         transform="translate(12016.1091 8233.8101) rotate(-162.4725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3210,7 +3977,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_40_37"
-         transform="translate(11173.3069 7960.4311) rotate(-162.5525)"
+         transform="translate(11146.5951 7952.0358) rotate(-162.5525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3219,19 +3986,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SP_-_37"
          transform="translate(12221.2389 8539.5019) rotate(109.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">SP</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_37"
-         transform="translate(12505.7749 8400.0271) rotate(107.6275)"
+         transform="translate(12469.3387 8511.1262) rotate(108.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">37</text>
+      <!-- Outer Hexagram for gate 37 -->
+      <g id="OUTER-HEXAGRAM_-_37"
+         transform="translate(12375.3127 8770.3399) rotate(111.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_ABSTRACTION_-_64_47"
        data-channel="47-64"
@@ -3254,10 +4038,10 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-26.3">Mental Activity Mixed With</tspan><tspan x="0" dy="52.7">Clarity</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Mental Activity</tspan><tspan x="0" dy="52.7">Mixed With Clarity</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_64_47"
-         transform="translate(12188.1612 7688.7838) rotate(-168.0975)"
+         transform="translate(12160.7632 7683.0088) rotate(-168.0975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3265,7 +4049,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_64_47"
-         transform="translate(11295.2235 7493.5553) rotate(-168.1775)"
+         transform="translate(11267.8175 7487.8187) rotate(-168.1775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3274,19 +4058,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_47"
          transform="translate(12394.8683 7967.1224) rotate(104.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_47"
-         transform="translate(12664.3633 7800.4298) rotate(102.0025)"
+         transform="translate(12638.9921 7914.5654) rotate(103.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">47</text>
+      <!-- Outer Hexagram for gate 47 -->
+      <g id="OUTER-HEXAGRAM_-_47"
+         transform="translate(12570.8263 8181.7470) rotate(105.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_ABSTRACTION_-_47_64"
        data-channel="47-64"
@@ -3309,10 +4113,10 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-26.3">Mental Activity Mixed With</tspan><tspan x="0" dy="52.7">Clarity</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-66.3">Mental Activity</tspan><tspan x="0" dy="52.7">Mixed With Clarity</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_47_64"
-         transform="translate(12278.5650 7123.7429) rotate(-173.7225)"
+         transform="translate(12250.7328 7120.6813) rotate(-173.7225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3320,7 +4124,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_47_64"
-         transform="translate(11370.7913 7016.9777) rotate(-173.8025)"
+         transform="translate(11342.9549 7013.9550) rotate(-173.8025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3329,19 +4133,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEAD_-_64"
          transform="translate(12511.5586 7380.4804) rotate(98.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Head</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_64"
-         transform="translate(12763.4172 7188.1754) rotate(96.3775)"
+         transform="translate(12749.3554 7304.2482) rotate(97.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">64</text>
+      <!-- Outer Hexagram for gate 64 -->
+      <g id="OUTER-HEXAGRAM_-_64"
+         transform="translate(12707.7062 7576.8247) rotate(99.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_MATING_-_6_59"
        data-channel="6-59"
@@ -3367,7 +4191,7 @@
          fill="#FFFFFF">Focused On Reproduction</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_6_59"
-         transform="translate(12313.1497 6552.5618) rotate(-179.3475)"
+         transform="translate(12285.1515 6552.2429) rotate(-179.3475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3375,7 +4199,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Defense_-_6_59"
-         transform="translate(11399.2823 6535.2881) rotate(-179.4275)"
+         transform="translate(11371.2837 6535.0083) rotate(-179.4275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3384,19 +4208,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_59"
          transform="translate(12570.1861 6785.2257) rotate(92.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_59"
-         transform="translate(12801.9827 6569.1602) rotate(90.7525)"
+         transform="translate(12799.3658 6686.0523) rotate(91.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">59</text>
+      <!-- Outer Hexagram for gate 59 -->
+      <g id="OUTER-HEXAGRAM_-_59"
+         transform="translate(12784.6343 6961.3987) rotate(94.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_DISCOVERY_-_46_29"
        data-channel="29-46"
@@ -3422,7 +4266,7 @@
          fill="#FFFFFF">Succeeding Where Others Fail</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_46_29"
-         transform="translate(12291.5823 5980.7412) rotate(175.0275)"
+         transform="translate(12263.6877 5983.1681) rotate(175.0275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3430,7 +4274,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_46_29"
-         transform="translate(11380.4224 6053.1253) rotate(174.9475)"
+         transform="translate(11352.5312 6055.5912) rotate(174.9475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3439,19 +4283,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_29"
          transform="translate(12570.1861 6187.0907) rotate(87.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_29"
-         transform="translate(12779.6884 5949.3456) rotate(85.1275)"
+         transform="translate(12788.5416 6065.9314) rotate(86.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">29</text>
+      <!-- Outer Hexagram for gate 29 -->
+      <g id="OUTER-HEXAGRAM_-_29"
+         transform="translate(12800.8697 6341.3958) rotate(88.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_JUDGEMENT_-_18_58"
        data-channel="18-58"
@@ -3477,7 +4344,7 @@
          fill="#FFFFFF">Insatiability</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_18_58"
-         transform="translate(12214.0706 5413.7880) rotate(169.4025)"
+         transform="translate(12186.5482 5418.9374) rotate(169.4025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3485,7 +4352,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_18_58"
-         transform="translate(11314.3931 5575.1329) rotate(169.3225)"
+         transform="translate(11286.8779 5580.3207) rotate(169.3225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3494,19 +4361,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_58"
          transform="translate(12511.5586 5591.8360) rotate(81.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_58"
-         transform="translate(12696.7491 5334.7008) rotate(79.5025)"
+         transform="translate(12716.9869 5449.8575) rotate(80.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">58</text>
+      <!-- Outer Hexagram for gate 58 -->
+      <g id="OUTER-HEXAGRAM_-_58"
+         transform="translate(12756.2559 5722.7871) rotate(83.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_WAVELENGTH_-_48_16"
        data-channel="16-48"
@@ -3532,7 +4416,7 @@
          fill="#FFFFFF">Talent</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_48_16"
-         transform="translate(12081.3610 4857.1623) rotate(163.7775)"
+         transform="translate(12054.4759 4864.9846) rotate(163.7775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3540,7 +4424,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_48_16"
-         transform="translate(11201.8302 5105.9141) rotate(163.6975)"
+         transform="translate(11174.9560 5113.7739) rotate(163.6975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3549,19 +4433,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_16"
          transform="translate(12394.8683 5005.1940) rotate(75.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_16"
-         transform="translate(12553.9633 4731.1452) rotate(73.8775)"
+         transform="translate(12585.3911 4843.7637) rotate(74.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">16</text>
+      <!-- Outer Hexagram for gate 16 -->
+      <g id="OUTER-HEXAGRAM_-_16"
+         transform="translate(12651.2227 5111.5300) rotate(77.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_PERFECTED_FORM_-_57_10"
        data-channel="10-57"
@@ -3611,12 +4521,26 @@
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_10"
-         transform="translate(12416.5170 4282.3724) rotate(69.6258)"
+         transform="translate(12420.5988 4322.4316) rotate(69.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">10</text>
+      <!-- Outer Hexagram for gate 10 -->
+      <g id="OUTER-HEXAGRAM_-_10"
+         transform="translate(12451.4398 4409.0232) rotate(70.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_BRAINWAVE_-_57_20"
        data-channel="20-57"
@@ -3666,12 +4590,35 @@
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_20"
-         transform="translate(12416.5170 4282.3724) rotate(69.6258)"
+         transform="translate(12420.5988 4322.4316) rotate(69.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">20</text>
+      <!-- Outer Hexagram for gate 20 -->
+      <g id="OUTER-HEXAGRAM_-_20"
+         transform="translate(12451.4398 4409.0232) rotate(70.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_POWER_-_57_34"
        data-channel="34-57"
@@ -3721,12 +4668,29 @@
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_34"
-         transform="translate(12416.5170 4282.3724) rotate(69.6258)"
+         transform="translate(12420.5988 4322.4316) rotate(69.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">34</text>
+      <!-- Outer Hexagram for gate 34 -->
+      <g id="OUTER-HEXAGRAM_-_34"
+         transform="translate(12451.4398 4409.0232) rotate(70.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_TRANSFORMATION_-_32_54"
        data-channel="32-54"
@@ -3752,7 +4716,7 @@
          fill="#FFFFFF">Being Driven</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_32_54"
-         transform="translate(11655.9797 3796.1848) rotate(152.5275)"
+         transform="translate(11631.1372 3809.1018) rotate(152.5275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3760,7 +4724,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_32_54"
-         transform="translate(10841.8779 4211.7449) rotate(152.4475)"
+         transform="translate(10817.0534 4224.6966) rotate(152.4475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3769,19 +4733,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_54"
          transform="translate(11992.3425 3880.2099) rotate(64.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_54"
-         transform="translate(12094.9163 3580.3890) rotate(62.6275)"
+         transform="translate(12147.7110 3684.7123) rotate(63.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">54</text>
+      <!-- Outer Hexagram for gate 54 -->
+      <g id="OUTER-HEXAGRAM_-_54"
+         transform="translate(12264.5164 3934.4904) rotate(66.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_PRESERVATION_-_50_27"
        data-channel="27-50"
@@ -3807,7 +4791,7 @@
          fill="#FFFFFF">Custodianship</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_50_27"
-         transform="translate(11367.4046 3302.0508) rotate(146.9025)"
+         transform="translate(11343.9478 3317.3406) rotate(146.9025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3815,7 +4799,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Defense_-_50_27"
-         transform="translate(10597.9549 3795.4057) rotate(146.8225)"
+         transform="translate(10574.5195 3810.7283) rotate(146.8225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3824,19 +4808,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_27"
          transform="translate(11710.3837 3352.7020) rotate(59.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_27"
-         transform="translate(11783.0760 3044.2708) rotate(57.0025)"
+         transform="translate(11845.8419 3142.9169) rotate(58.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">27</text>
+      <!-- Outer Hexagram for gate 27 -->
+      <g id="OUTER-HEXAGRAM_-_27"
+         transform="translate(11986.5673 3380.0434) rotate(60.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_STRUGGLE_-_28_38"
        data-channel="28-38"
@@ -3862,7 +4869,7 @@
          fill="#FFFFFF">Stubbornness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_28_38"
-         transform="translate(11031.7855 2838.5815) rotate(141.2775)"
+         transform="translate(11009.9403 2856.0969) rotate(141.2775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3870,7 +4877,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_28_38"
-         transform="translate(10314.3981 3404.9801) rotate(141.1975)"
+         transform="translate(10292.5774 3422.5259) rotate(141.1975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3879,19 +4886,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_38"
          transform="translate(11378.0777 2855.3709) rotate(53.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_38"
-         transform="translate(11420.1884 2541.2998) rotate(51.3775)"
+         transform="translate(11492.3211 2633.3188) rotate(52.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">38</text>
+      <!-- Outer Hexagram for gate 38 -->
+      <g id="OUTER-HEXAGRAM_-_38"
+         transform="translate(11655.6114 2855.5100) rotate(54.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_SURRENDER_-_44_26"
        data-channel="26-44"
@@ -3917,7 +4941,7 @@
          fill="#FFFFFF">Transmitter</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_44_26"
-         transform="translate(10652.3545 2410.2404) rotate(135.6525)"
+         transform="translate(10632.3313 2429.8126) rotate(135.6525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3925,7 +4949,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_44_26"
-         transform="translate(9993.9384 3044.2278) rotate(135.5725)"
+         transform="translate(9973.9425 3063.8280) rotate(135.5725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3934,19 +4958,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_HEART_-_26"
          transform="translate(10998.6249 2393.0064) rotate(47.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Heart</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_26"
-         transform="translate(11009.7485 2076.3200) rotate(45.7525)"
+         transform="translate(11090.5533 2160.8257) rotate(46.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">26</text>
+      <!-- Outer Hexagram for gate 26 -->
+      <g id="OUTER-HEXAGRAM_-_26"
+         transform="translate(11274.8358 2365.9417) rotate(49.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_INSPIRATION_-_1_8"
        data-channel="1-8"
@@ -3972,7 +5013,7 @@
          fill="#FFFFFF">Creative Role Model</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_1_8"
-         transform="translate(10232.7658 2021.1525) rotate(130.0275)"
+         transform="translate(10214.7575 2042.5931) rotate(130.0275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -3980,7 +5021,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_1_8"
-         transform="translate(9639.6618 2716.6232) rotate(129.9475)"
+         transform="translate(9621.6834 2738.0889) rotate(129.9475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -3989,19 +5030,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_8"
          transform="translate(10575.6796 1970.0611) rotate(42.1875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_8"
-         transform="translate(10555.7090 1653.8094) rotate(40.1275)"
+         transform="translate(10644.4077 1729.9879) rotate(41.1875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">8</text>
+      <!-- Outer Hexagram for gate 8 -->
+      <g id="OUTER-HEXAGRAM_-_8"
+         transform="translate(10847.9077 1916.0534) rotate(43.6875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_STRUCTURING_-_43_23"
        data-channel="23-43"
@@ -4027,7 +5094,7 @@
          fill="#FFFFFF">Individuality</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_43_23"
-         transform="translate(9777.0603 1675.0651) rotate(124.4025)"
+         transform="translate(9761.2402 1698.1676) rotate(124.4025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4035,7 +5102,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_43_23"
-         transform="translate(9254.9803 2425.3213) rotate(124.3225)"
+         transform="translate(9239.1925 2448.4459) rotate(124.3225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4044,19 +5111,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_23"
          transform="translate(10113.3151 1590.6083) rotate(36.5625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_23"
-         transform="translate(10062.4425 1277.8369) rotate(34.5025)"
+         transform="translate(10158.1808 1344.9546) rotate(35.5625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">23</text>
+      <!-- Outer Hexagram for gate 23 -->
+      <g id="OUTER-HEXAGRAM_-_23"
+         transform="translate(10378.9386 1510.1776) rotate(38.0625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_THE_BEAT_-_14_2"
        data-channel="2-14"
@@ -4082,7 +5175,7 @@
          fill="#FFFFFF">Being A Keeper of Keys</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_14_2"
-         transform="translate(9289.6267 1375.3112) rotate(118.7775)"
+         transform="translate(9276.1472 1399.8531) rotate(118.7775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4090,7 +5183,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_14_2"
-         transform="translate(8843.5985 2173.1275) rotate(118.6975)"
+         transform="translate(8830.1534 2197.6882) rotate(118.6975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4099,19 +5192,48 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_2"
          transform="translate(9615.9840 1258.3023) rotate(30.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_2"
-         transform="translate(9534.6994 952.0234) rotate(28.8775)"
+         transform="translate(9636.5555 1009.4339) rotate(29.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">2</text>
+      <!-- Outer Hexagram for gate 2 -->
+      <g id="OUTER-HEXAGRAM_-_2"
+         transform="translate(9872.4449 1152.2233) rotate(32.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_EXPLORATION_-_34_10"
        data-channel="10-34"
@@ -4161,12 +5283,26 @@
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_10"
-         transform="translate(9120.1800 731.8823) rotate(24.6258)"
+         transform="translate(9151.3923 757.3222) rotate(24.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">10</text>
+      <!-- Outer Hexagram for gate 10 -->
+      <g id="OUTER-HEXAGRAM_-_10"
+         transform="translate(9234.4297 796.7438) rotate(25.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_CHARISMA_-_34_20"
        data-channel="20-34"
@@ -4216,12 +5352,35 @@
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_20"
-         transform="translate(9120.1800 731.8823) rotate(24.6258)"
+         transform="translate(9151.3923 757.3222) rotate(24.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">20</text>
+      <!-- Outer Hexagram for gate 20 -->
+      <g id="OUTER-HEXAGRAM_-_20"
+         transform="translate(9234.4297 796.7438) rotate(25.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_POWER_-_34_57"
        data-channel="34-57"
@@ -4271,12 +5430,29 @@
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_57"
-         transform="translate(9120.1800 731.8823) rotate(24.6258)"
+         transform="translate(9151.3923 757.3222) rotate(24.9792)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">57</text>
+      <!-- Outer Hexagram for gate 57 -->
+      <g id="OUTER-HEXAGRAM_-_57"
+         transform="translate(9234.4297 796.7438) rotate(25.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_CONCENTRATION_-_9_52"
        data-channel="9-52"
@@ -4302,7 +5478,7 @@
          fill="#FFFFFF">Determination</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_9_52"
-         transform="translate(8238.6123 925.8769) rotate(107.5275)"
+         transform="translate(8230.1797 952.5769) rotate(107.5275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4310,7 +5486,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_9_52"
-         transform="translate(7956.8007 1795.3791) rotate(107.4475)"
+         transform="translate(7948.4054 1822.0909) rotate(107.4475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4319,19 +5495,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_ROOT_-_52"
          transform="translate(8535.8715 747.4471) rotate(19.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Root</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_52"
-         transform="translate(8396.3967 462.9111) rotate(17.6275)"
+         transform="translate(8507.4958 499.3473) rotate(18.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">52</text>
+      <!-- Outer Hexagram for gate 52 -->
+      <g id="OUTER-HEXAGRAM_-_52"
+         transform="translate(8766.7095 593.3733) rotate(21.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_RHYTHM_-_5_15"
        data-channel="5-15"
@@ -4357,7 +5556,7 @@
          fill="#FFFFFF">Being In The Flow</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_5_15"
-         transform="translate(7685.1534 780.5248) rotate(101.9025)"
+         transform="translate(7679.3784 807.9228) rotate(101.9025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4365,7 +5564,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_5_15"
-         transform="translate(7489.9249 1673.4625) rotate(101.8225)"
+         transform="translate(7484.1883 1700.8685) rotate(101.8225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4374,19 +5573,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_G_-_15"
          transform="translate(7963.4920 573.8177) rotate(14.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">G</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_15"
-         transform="translate(7796.7994 304.3227) rotate(12.0025)"
+         transform="translate(7910.9350 329.6939) rotate(13.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">15</text>
+      <!-- Outer Hexagram for gate 15 -->
+      <g id="OUTER-HEXAGRAM_-_15"
+         transform="translate(8178.1166 397.8597) rotate(15.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_SURRENDER_-_26_44"
        data-channel="26-44"
@@ -4412,7 +5637,7 @@
          fill="#FFFFFF">Transmitter</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_26_44"
-         transform="translate(7120.1125 690.1210) rotate(96.2775)"
+         transform="translate(7117.0509 717.9532) rotate(96.2775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4420,7 +5645,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_26_44"
-         transform="translate(7013.3473 1597.8947) rotate(96.1975)"
+         transform="translate(7010.3246 1625.7311) rotate(96.1975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4429,19 +5654,33 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_44"
          transform="translate(7376.8500 457.1274) rotate(8.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_44"
-         transform="translate(7184.5450 205.2688) rotate(6.3775)"
+         transform="translate(7300.6178 219.3306) rotate(7.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">44</text>
+      <!-- Outer Hexagram for gate 44 -->
+      <g id="OUTER-HEXAGRAM_-_44"
+         transform="translate(7573.1943 260.9798) rotate(9.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_CURIOSITY_-_11_56"
        data-channel="11-56"
@@ -4467,7 +5706,7 @@
          fill="#FFFFFF">Seeker/Searcher</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_11_56"
-         transform="translate(6548.9314 655.5363) rotate(90.6525)"
+         transform="translate(6548.6125 683.5345) rotate(90.6525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4475,7 +5714,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Sensing_-_11_56"
-         transform="translate(6531.6577 1569.4037) rotate(90.5725)"
+         transform="translate(6531.3779 1597.4023) rotate(90.5725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4484,19 +5723,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_THROAT_-_56"
          transform="translate(6781.5953 398.4999) rotate(2.8125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_56"
-         transform="translate(6565.5298 166.7033) rotate(0.7525)"
+         transform="translate(6682.4219 169.3202) rotate(1.8125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">56</text>
+      <!-- Outer Hexagram for gate 56 -->
+      <g id="OUTER-HEXAGRAM_-_56"
+         transform="translate(6957.7683 184.0517) rotate(4.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_AWAKENING_-_10_20"
        data-channel="10-20"
@@ -4546,12 +5805,35 @@
          fill="#FFFFFF">Throat</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_20"
-         transform="translate(6096.1824 167.9593) rotate(-3.4992)"
+         transform="translate(6135.7016 175.6819) rotate(-3.1458)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">20</text>
+      <!-- Outer Hexagram for gate 20 -->
+      <g id="OUTER-HEXAGRAM_-_20"
+         transform="translate(6227.5172 171.3051) rotate(-2.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_EXPLORATION_-_10_34"
        data-channel="10-34"
@@ -4601,12 +5883,29 @@
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_34"
-         transform="translate(6096.1824 167.9593) rotate(-3.4992)"
+         transform="translate(6135.7016 175.6819) rotate(-3.1458)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">34</text>
+      <!-- Outer Hexagram for gate 34 -->
+      <g id="OUTER-HEXAGRAM_-_34"
+         transform="translate(6227.5172 171.3051) rotate(-2.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_PERFECTED_FORM_-_10_57"
        data-channel="10-57"
@@ -4656,12 +5955,29 @@
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_57"
-         transform="translate(6096.1824 167.9593) rotate(-3.4992)"
+         transform="translate(6135.7016 175.6819) rotate(-3.1458)"
          font-size="144"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">57</text>
+      <!-- Outer Hexagram for gate 57 -->
+      <g id="OUTER-HEXAGRAM_-_57"
+         transform="translate(6227.5172 171.3051) rotate(-2.3125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_JUDGEMENT_-_58_18"
        data-channel="18-58"
@@ -4687,7 +6003,7 @@
          fill="#FFFFFF">Insatiability</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_58_18"
-         transform="translate(5410.1576 754.6154) rotate(79.4025)"
+         transform="translate(5415.3070 782.1378) rotate(79.4025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4695,7 +6011,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Understanding_-_58_18"
-         transform="translate(5571.5025 1654.2929) rotate(79.3225)"
+         transform="translate(5576.6903 1681.8081) rotate(79.3225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4704,19 +6020,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_18"
          transform="translate(5588.2056 457.1274) rotate(-8.4375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_18"
-         transform="translate(5331.0704 271.9369) rotate(-10.4975)"
+         transform="translate(5446.2271 251.6991) rotate(-9.4375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">18</text>
+      <!-- Outer Hexagram for gate 18 -->
+      <g id="OUTER-HEXAGRAM_-_18"
+         transform="translate(5719.1567 212.4301) rotate(-6.9375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="154" height="19"/>
+      </g>
     </g>
     <g id="CHANNEL_-_STRUGGLE_-_38_28"
        data-channel="28-38"
@@ -4742,7 +6078,7 @@
          fill="#FFFFFF">Stubbornness</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_38_28"
-         transform="translate(4853.5319 887.3250) rotate(73.7775)"
+         transform="translate(4861.3542 914.2101) rotate(73.7775)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4750,7 +6086,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_38_28"
-         transform="translate(5102.2837 1766.8558) rotate(73.6975)"
+         transform="translate(5110.1435 1793.7300) rotate(73.6975)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4759,19 +6095,36 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_28"
          transform="translate(5001.5636 573.8177) rotate(-14.0625)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_28"
-         transform="translate(4727.5148 414.7227) rotate(-16.1225)"
+         transform="translate(4840.1333 383.2949) rotate(-15.0625)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">28</text>
+      <!-- Outer Hexagram for gate 28 -->
+      <g id="OUTER-HEXAGRAM_-_28"
+         transform="translate(5107.8996 317.4633) rotate(-12.5625) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_TRANSFORMATION_-_54_32"
        data-channel="32-54"
@@ -4797,7 +6150,7 @@
          fill="#FFFFFF">Being Driven</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_54_32"
-         transform="translate(4312.5943 1073.9544) rotate(68.1525)"
+         transform="translate(4323.0142 1099.9434) rotate(68.1525)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4805,7 +6158,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Ego_-_54_32"
-         transform="translate(4646.3574 1924.8681) rotate(68.0725)"
+         transform="translate(4656.8135 1950.8425) rotate(68.0725)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4814,19 +6167,39 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SPLEEN_-_32"
          transform="translate(4429.1841 747.4471) rotate(-19.6875)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Spleen</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_32"
-         transform="translate(4140.8609 615.9796) rotate(-21.7475)"
+         transform="translate(4249.8566 573.6647) rotate(-20.6875)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">32</text>
+      <!-- Outer Hexagram for gate 32 -->
+      <g id="OUTER-HEXAGRAM_-_32"
+         transform="translate(4509.8810 481.9043) rotate(-18.1875) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="161.50" width="70.00" height="19"/>
+        <rect x="84.00" y="161.50" width="70.00" height="19"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="129.20" width="154" height="19"/>
+      <rect data-line="3" data-type="yang" x="0" y="96.90" width="154" height="19"/>
+      <rect data-line="4" data-type="yang" x="0" y="64.60" width="154" height="19"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_AWARENESS_-_61_24"
        data-channel="24-61"
@@ -4852,7 +6225,7 @@
          fill="#FFFFFF">Thinker</text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_61_24"
-         transform="translate(3792.5544 1312.7063) rotate(62.5275)"
+         transform="translate(3805.4714 1337.5488) rotate(62.5275)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4860,7 +6233,7 @@
          fill="#FFFFFF">Projected</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_61_24"
-         transform="translate(4208.1145 2126.8081) rotate(62.4475)"
+         transform="translate(4221.0662 2151.6326) rotate(62.4475)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4869,19 +6242,45 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_AJNA_-_24"
          transform="translate(3876.5795 976.3435) rotate(-25.3125)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Ajna</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_24"
-         transform="translate(3576.7586 873.7697) rotate(-27.3725)"
+         transform="translate(3681.0819 820.9750) rotate(-26.3125)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">24</text>
+      <!-- Outer Hexagram for gate 24 -->
+      <g id="OUTER-HEXAGRAM_-_24"
+         transform="translate(3930.8600 704.1696) rotate(-23.8125) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="32.30" width="70.00" height="19"/>
+        <rect x="84.00" y="32.30" width="70.00" height="19"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
     <g id="CHANNEL_-_MUTATION_-_60_3"
        data-channel="3-60"
@@ -4907,7 +6306,7 @@
          fill="#FFFFFF"><tspan x="0" dy="-66.3">Energy Which Fluctuates</tspan><tspan x="0" dy="52.7">&amp; Initiates Pulses</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_60_3"
-         transform="translate(3298.4204 1601.2814) rotate(56.9025)"
+         transform="translate(3313.7102 1624.7382) rotate(56.9025)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="middle"
@@ -4915,7 +6314,7 @@
          fill="#FFFFFF">Generated</text>
       <!-- Circuit (radial, right-aligned to sit in corner near ring 2) -->
       <text id="CIRCUIT_-_Knowing_-_60_3"
-         transform="translate(3791.7753 2370.7311) rotate(56.8225)"
+         transform="translate(3807.0979 2394.1665) rotate(56.8225)"
          font-size="85"
          font-family="Copperplate"
          text-anchor="end"
@@ -4924,19 +6323,42 @@
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_SACRAL_-_3"
          transform="translate(3349.0716 1258.3023) rotate(-30.9375)"
-         font-size="114"
+         font-size="102"
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">Sacral</text>
       <!-- Outer Gate Number (tangential) -->
       <text id="OUTER-GATE-NUMBER_-_3"
-         transform="translate(3040.6404 1185.6100) rotate(-32.9975)"
+         transform="translate(3139.2865 1122.8441) rotate(-31.9375)"
          font-size="179"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">3</text>
+      <!-- Outer Hexagram for gate 3 -->
+      <g id="OUTER-HEXAGRAM_-_3"
+         transform="translate(3376.4130 982.1187) rotate(-29.4375) translate(-77.00 -90.25)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="161.50" width="154" height="19"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="129.20" width="70.00" height="19"/>
+        <rect x="84.00" y="129.20" width="70.00" height="19"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="96.90" width="70.00" height="19"/>
+        <rect x="84.00" y="96.90" width="70.00" height="19"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="64.60" width="70.00" height="19"/>
+        <rect x="84.00" y="64.60" width="70.00" height="19"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="32.30" width="154" height="19"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="70.00" height="19"/>
+        <rect x="84.00" y="0.00" width="70.00" height="19"/>
+      </g>
+      </g>
     </g>
   </g>
 </svg>
