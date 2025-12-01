@@ -64,24 +64,27 @@ const OUTER_GATE_SEQUENCE = gateSequence.map(innerGate => gateToHarmonic[innerGa
 // ============================================================================
 // RING GEOMETRY
 // ============================================================================
-// Extracted from OUTER-384-LINES-REVERSED.svg master
+// This ring sits OUTSIDE the channels ring, using the same center.
+// Channels ring outer gate numbers are at radius ~6380.
 
-const CENTER = { x: 6536, y: 6534.53 };
+// Center extracted from master SVG (OUTER-384-LINES-REVERSED.svg)
+const CENTER = { x: 6536, y: 6536 };
 
-// Ring boundaries
+// Ring boundaries from master SVG analysis
 const RING = {
-  innerRadius: 5135.73,
-  outerRadius: 6537,
-  bandWidth: 1401.27
+  innerRadius: 5135,     // Inner boundary (inside yin/yang markers)
+  outerRadius: 5658,     // Outer boundary (outside keynotes)
+  bandWidth: 523         // Total band width
 };
 
-// Band radii (from center outward)
+// Band radii extracted from master SVG (from outside to inside):
+// Positions calculated from gate 56 elements at top of wheel
 const BAND_RADII = {
-  yinYang: 5379,        // Yin/Yang line markers
-  detriment: 5478,      // Detriment planet symbols
-  lineNumber: 5502,     // Line numbers (1-6)
-  exalted: 5618,        // Exalted planet symbols
-  keynote: 5658         // Line keynotes
+  keynote: 5556,         // Outermost - text aligned to this edge, extends outward
+  detriment: 5480,       // Detriment planets (right side) - closer to keynote
+  lineNumber: 5400,      // Line numbers (1-6) - middle band
+  exalted: 5320,         // Exalted planets (right side) - closer to yin/yang
+  yinYang: 5223          // Innermost - yin/yang markers
 };
 
 // ============================================================================
@@ -91,12 +94,12 @@ const BAND_RADII = {
 const FONT = {
   lineNumber: {
     family: 'Herculanum',
-    size: 88,
+    size: 65,          // Scaled down for tighter line spacing
     weight: 400
   },
   keynote: {
     family: 'Copperplate-Light, Copperplate',
-    size: 60,
+    size: 45,          // Scaled down to fit in arc
     weight: 300
   }
 };
@@ -122,35 +125,59 @@ const LINE_OFFSETS = {
 // ============================================================================
 // PLANET SYMBOL PATHS
 // ============================================================================
-// These paths are extracted from the master SVG and normalized.
-// Each path is drawn relative to origin and will be transformed for each position.
+// Clean, normalized planet symbols from /COMPARISONS/planets.svg
+// ViewBox: 0 0 128.5999 135.0432 - symbols are centered in this space
+// Each path includes its own transform to position within the viewBox
 
-const PLANET_PATHS = {
-  Sun: `M-28,-28a28,28,0,1,1,0,56a28,28,0,1,1,0,-56Zm0,6.5a21.5,21.5,0,1,0,0,43a21.5,21.5,0,1,0,0,-43Zm0,15.2a6.3,6.3,0,1,0,0,12.6a6.3,6.3,0,1,0,0,-12.6Z`,
-
-  Moon: `M-5,-28c-15,0,-27,12,-27,27s12,27,27,27c4,0,8,-1,11,-3c-10,-5,-17,-16,-17,-28s7,-23,17,-28c-3,-2,-7,-3,-11,-3Zm8,5c-8,8,-8,22,0,30c8,8,22,8,30,0c-8,-8,-8,-22,0,-30c-8,-8,-22,-8,-30,0Z`,
-
-  Mercury: `M0,-35l0,10l-6,0l0,-10l6,0Zm-13,-2c-8,0,-14,6,-14,14s6,14,14,14c5,0,9,-2,12,-6l0,12l-6,3l0,6l6,-3l6,3l0,-6l-6,-3l0,-12c3,4,7,6,12,6c8,0,14,-6,14,-14s-6,-14,-14,-14c-5,0,-9,2,-12,6c-3,-4,-7,-6,-12,-6Zm0,6c4,0,8,4,8,8s-4,8,-8,8s-8,-4,-8,-8s4,-8,8,-8Z`,
-
-  Venus: `M0,-30c-10,0,-18,8,-18,18s8,18,18,18s18,-8,18,-18s-8,-18,-18,-18Zm0,6c7,0,12,5,12,12s-5,12,-12,12s-12,-5,-12,-12s5,-12,12,-12Zm-3,30l0,12l-6,0l0,6l6,0l0,6l6,0l0,-6l6,0l0,-6l-6,0l0,-12l-6,0Z`,
-
-  Mars: `M8,-30l0,12l8,0l-12,12c-8,-6,-20,-4,-26,4s-4,20,4,26s20,4,26,-4l12,-12l0,8l12,0l0,-22l-10,0l0,-12l-14,0Zm-8,24c6,0,10,4,10,10s-4,10,-10,10s-10,-4,-10,-10s4,-10,10,-10Z`,
-
-  Jupiter: `M-20,-20l8,0l0,8l-8,0l0,-8Zm12,0l20,0l0,8l-12,0l0,24l12,0l0,8l-32,0l0,-8l12,0l0,-24l-8,0l0,24l-8,0l0,-32l16,0Z`,
-
-  Saturn: `M-8,-35l0,10l-10,0l0,6l10,0l0,8c-6,2,-10,8,-10,14c0,8,6,15,14,15c6,0,11,-4,13,-9l5,0l0,-6l-5,0c-2,-5,-7,-9,-13,-9l0,-8l10,0l0,-6l-10,0l0,-10l-4,0Zm2,30c4,0,8,4,8,8s-4,8,-8,8s-8,-4,-8,-8s4,-8,8,-8Z`,
-
-  Uranus: `M0,-35c-5,0,-9,4,-9,9l0,14l-12,0l0,6l12,0l0,6l-8,0l0,6l8,0l0,6l6,0l0,-6l8,0l0,-6l-8,0l0,-6l12,0l0,-6l-12,0l0,-14c0,-5,4,-9,9,-9Zm0,6c2,0,3,1,3,3l0,14l-6,0l0,-14c0,-2,1,-3,3,-3Z`,
-
-  Neptune: `M0,-35l-3,0l0,10l-15,0l0,6l15,0l0,6c-8,2,-14,10,-14,18c0,10,8,18,18,18s18,-8,18,-18c0,-8,-6,-16,-14,-18l0,-6l15,0l0,-6l-15,0l0,-10l-5,0Zm3,28c6,0,12,6,12,12s-6,12,-12,12s-12,-6,-12,-12s6,-12,12,-12Z`,
-
-  Pluto: `M0,-30c-12,0,-22,10,-22,22c0,8,4,15,10,19l0,10l-8,0l0,6l8,0l0,6l6,0l0,-6l8,0l0,-6l-8,0l0,-10c6,-4,10,-11,10,-19c0,-12,-10,-22,-22,-22Zm0,8c8,0,14,6,14,14s-6,14,-14,14s-14,-6,-14,-14s6,-14,14,-14Zm0,6c-4,0,-8,4,-8,8s4,8,8,8s8,-4,8,-8s-4,-8,-8,-8Z`,
-
-  Earth: `M0,-28a28,28,0,1,1,0,56a28,28,0,1,1,0,-56Zm0,6a22,22,0,0,0,-16,38l16,-16l16,16a22,22,0,0,0,-16,-38Zm-16,42a22,22,0,0,0,32,0l-16,-16l-16,16Z`
+const PLANET_SYMBOLS = {
+  Sun: {
+    path: 'M113.6705,120.63l-4.4489,3.1928a62.757,62.757,0,0,1-34.0744,11.99,63.9716,63.9716,0,1,1,50.763-29.077q-1.1208,1.745-2.3511,3.4153a19.1111,19.1111,0,0,0-4.0805,5.1926ZM107.5686,37.075a49.5114,49.5114,0,1,0-1.1036,70.0107c.0266-.0267.054-.0531.0814-.0795A49.51,49.51,0,0,0,107.5686,37.075ZM82.6665,82.1424a14.6521,14.6521,0,1,0-.0939.092C82.6042,82.2039,82.6355,82.1735,82.6665,82.1424Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Moon: {
+    path: 'M43.6372,129.7224l-6.093-3.5274a62.495,62.495,0,0,1-15.7471-14.0266,56.7146,56.7146,0,0,0,40.8263-7.7341A53.8866,53.8866,0,0,0,87.155,71.3388,56.458,56.458,0,0,0,63.3359,8.2508l1.0689-.2849a61.9718,61.9718,0,0,1,23.66,1.75A63.2693,63.2693,0,0,1,127.91,40.77a62.3758,62.3758,0,0,1,6.4349,45.0111,64.3037,64.3037,0,0,1-54.829,49.7337,59.9232,59.9232,0,0,1-26.6092-2.3093l-1.0833-.4072Zm51.8164-101.29a64.304,64.304,0,0,1-36.0945,91.263,49.5141,49.5141,0,0,0,36.0945-91.263Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Mercury: {
+    path: 'M108.6278,74.472a57.9017,57.9017,0,0,1-3.0657,6.2221A32.4065,32.4065,0,0,1,76.4015,96.7412l-1.1155-.31-4.1021,14.7434,13.8768,3.861-3.93,14.124-13.8768-3.861L63.2556,139.67l-14.1249-3.93,3.9643-14.2481L39.0942,117.596l3.93-14.1241,14.0008,3.8956,4.1021-14.7434a33.1776,33.1776,0,0,1,3.2256-59.5715,32.7949,32.7949,0,0,1-4.38-27.9158L73.8489,8.9979a10.607,10.607,0,0,0-.4908,5.6032,18.2625,18.2625,0,0,0,14.5186,17.388,18.5194,18.5194,0,0,0,20.1952-9.732l.3446-1.2386c.1378-.4953.5172-1.8587,2.4993-1.3073l12.39,3.4474-.4481,1.6107a3.0989,3.0989,0,0,1-.2759.9913,31.2528,31.2528,0,0,1-12.2941,15.4c-1.8108,1.2315-3.89,1.9874-5.7906,3.06l-.2069.7434a31.3789,31.3789,0,0,1,5.21,20.1377,13.0151,13.0151,0,0,0-.6839,5.8167Zm-48.94-16.0194a18.3908,18.3908,0,1,0,22.91-12.31c-.08-.0248-.161-.0481-.2417-.0713a18.2619,18.2619,0,0,0-22.406,11.92Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Venus: {
+    path: 'M67.2243,93.409,63.03,108.4841,77.4618,112.5l-4.087,14.689-14.5609-4.0514-4.0511,14.56L40.073,133.61l4.0152-14.431-14.5608-4.0514L33.65,100.31l14.5609,4.0514,4.1944-15.0752A43.4681,43.4681,0,0,1,29.5,60.8393a42.7972,42.7972,0,0,1,2.3892-29.0438A44.0043,44.0043,0,1,1,67.1535,93.6663ZM99.6427,57.7279A28.7564,28.7564,0,1,0,63.7781,76.8993l.1165.035A28.7558,28.7558,0,0,0,99.6429,57.7272Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Mars: {
+    path: 'M84.0189,48.4505,104.52,22.91,90.8241,24.817,88.9,11l37.7854-5.2611,4.5288,37.886-13.6955,1.9069-1.89-13.5725-20.31,26.0122a47.5315,47.5315,0,0,1,12.03,39.833,45.9238,45.9238,0,0,1-15.9714,28.5243A47.5324,47.5324,0,1,1,36.5082,49.2076a46.4243,46.4243,0,0,1,24.0307-6.4621A48.28,48.28,0,0,1,84.0189,48.4505Zm10.1,37.6087a32.5607,32.5607,0,1,0,.0852.6112Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Jupiter: {
+    path: 'M34.3078,25.9975,23.7256,16.0457A33.0842,33.0842,0,0,1,36.5534,7.4313,33.83,33.83,0,0,1,82.4361,39.0147a32.962,32.962,0,0,1-9.012,23.3687L51.9689,84.997l-1.02,1.3051,27.5893,5.5846L84.048,64.66l14.5206,2.9392-5.51,27.2267,28.073,5.6825-2.963,14.6422-27.952-5.658-5.8525,28.921-14.5206-2.9393,5.828-28.8L22.868,94.9781l1.1655-1.4017c12.622-13.82,25.3644-27.6162,37.8654-41.4617a18.6419,18.6419,0,0,0,4.1629-20.5714,19.1358,19.1358,0,0,0-30.8559-6.2459Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Saturn: {
+    path: 'M93.4932,26.9686,89.0871,40.49,75.0919,35.929,69.72,52.4158l.949.3093a29.1912,29.1912,0,0,1,33.5563,33.11,28.6912,28.6912,0,0,1-9.2733,17.1835L79.0732,117.5244a3.9916,3.9916,0,0,0,.4784,6.5848,4.4906,4.4906,0,0,0,4.4938-.5034L93.6642,134.35a17.3381,17.3381,0,0,1-10.8967,4.452A18.089,18.089,0,0,1,64.96,112.9244a18.5794,18.5794,0,0,1,4.81-6.3048L85.4146,92.4312a14.97,14.97,0,0,0,2.3167-19.188,14.2208,14.2208,0,0,0-13.6142-6.5363,13.97,13.97,0,0,0-12.5227,9.0392,19.412,19.412,0,0,0-.85,2.6094L53.362,101.01l-.5025,1.542-13.4022-4.368,22.5182-65.48L47.98,28.1429a3.8536,3.8536,0,0,1,.3479-1.0674l3.8649-11.8609c.3092-.9487.3865-1.1862,1.5723-.8l11.86,3.8654,1.4232.4638L71.61,4.7484,85.0118,9.1163,80.4512,23.1121Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Uranus: {
+    path: 'M120.297,24.0418a3.97,3.97,0,0,1-.3446,1.2386c-4.8261,17.3454-9.6519,34.69-15.38,51.9181l-.3446,1.2387-14.1249-3.93,5.6189-20.1947L82.4644,50.6237,76.57,71.81A35.75,35.75,0,0,1,94.0741,94.3a35.2344,35.2344,0,0,1-2.0608,23.721A35.7526,35.7526,0,1,1,62.39,67.5982l5.86-21.0621L54.9932,42.8474,49.3743,63.0421,35.25,59.1121a3.5834,3.5834,0,0,1,.31-1.1154c4.86-17.4686,9.7555-35.0621,15.6073-52.2549a3.578,3.578,0,0,1,.31-1.1154L65.4782,8.522,59.8249,28.8407l13.3814,3.7232,5.6189-20.1947L92.826,16.2647,87.2071,36.4594l13.3815,3.7232,5.6188-20.1947Zm-66.28,99.5593a20.9953,20.9953,0,1,0-.0068-.0019Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Neptune: {
+    path: 'M69.3937,80.9484a26.821,26.821,0,0,0,22.592-14.7708,26.2073,26.2073,0,0,0,2.2864-6.6587c2.5565-12.21,5.2664-25.1527,8.6322-37.5761l.2556-1.2208,13.7967,2.8886a2.121,2.121,0,0,1-.179.8548c-2.8632,13.6753-5.7521,27.4728-9.4957,41.0913a38.3006,38.3006,0,0,1-15.98,22.1451,40.0416,40.0416,0,0,1-24.2893,7.66s-1.1044.4059-1.1556.65l-2.8632,13.6753,13.5523,2.8374-2.9145,13.92L60.08,123.6071l-2.9655,14.1634-14.0408-2.94,2.94-14.0419L32.2166,117.9l2.9145-13.92,13.7967,2.8886.23-1.0993,2.5565-12.21c.179-.8548.2556-1.2207-.67-1.67A40.6664,40.6664,0,0,1,27.134,52.09a45.4255,45.4255,0,0,1,1.4572-6.96L37.3257,7.0654l.2556-1.2207L51.5,8.7588l-.23,1.0993L42.4334,48.4105A26.8211,26.8211,0,0,0,54.78,76.4862l1.3429.2811L70.8733,11.7951l13.919,2.9141Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Pluto: {
+    path: 'M117.9612,54.08a31.57,31.57,0,0,1-3.328,6.8425A47.9024,47.9024,0,0,1,67.6264,85.1336l-1.3219-.3678-5.818,20.9107,13.34,3.7117-3.8119,13.7-13.46-3.7452-3.8454,13.8206-13.701-3.8121,3.8453-13.8206-13.5808-3.7787,3.8119-13.7,13.4605,3.7452,5.818-20.9107a47.9029,47.9029,0,0,1-26.01-31.7088,46.7723,46.7723,0,0,1,.558-25.7408l13.5808,3.7787A33.68,33.68,0,0,0,47.0832,58.442,32.8081,32.8081,0,0,0,65.2753,69.8481a34.18,34.18,0,0,0,40.3289-23.48l13.5808,3.7786ZM47.1693,29.7328a26.6955,26.6955,0,0,0,17.955,33.21l.1086.0327A26.82,26.82,0,1,0,47.2088,29.6023C47.1958,29.6461,47.1823,29.689,47.1693,29.7328Zm38.1374,10.47a12.4749,12.4749,0,1,1-8.6746-15.3616A12.474,12.474,0,0,1,85.3067,40.2025Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  },
+  Earth: {
+    path: 'M25.9038,116.6393a64.3018,64.3018,0,1,1,90.9247,1.2663c-.0559.055-.1124.11-.1689.1641A64.2974,64.2974,0,0,1,25.9038,116.6393Zm16.0833-5.4017a48.9947,48.9947,0,0,0,58.5637.9586L71.7486,82.434Zm-9.341-69.1832a48.8726,48.8726,0,0,0-.9592,58.5669L61.4478,71.8171Zm78.43,59.9321a48.8727,48.8727,0,0,0,.868-58.6577L82.73,72.6773ZM101.6446,32.894a49.508,49.508,0,0,0-32.6677-10.02,48.8683,48.8683,0,0,0-26.1684,9.1534L71.7928,61.7894Z',
+    transform: 'translate(-7.7001 -4.6264)'
+  }
 };
 
-// Planet symbol size (approximate bounding box)
-const PLANET_SIZE = 56;
+// Symbol viewBox dimensions (all symbols fit in this space)
+const SYMBOL_VIEWBOX = { width: 128.5999, height: 135.0432 };
 
 // ============================================================================
 // HELPER FUNCTIONS
@@ -217,10 +244,10 @@ function getLineDataFast(gateNumber, lineNumber) {
 /**
  * Generate a yin/yang line marker (solid or broken rectangle)
  */
-function generateYinYangMarker(x, y, rotation, isYang, scale = 1) {
-  const width = 28 * scale;
-  const height = 8 * scale;
-  const gap = 4 * scale;
+function generateYinYangMarker(x, y, rotation, isYang, scale = 1.875) {
+  const width = 32 * scale;
+  const height = 10 * scale;
+  const gap = 6 * scale;
 
   if (isYang) {
     // Solid line (yang)
@@ -237,14 +264,26 @@ function generateYinYangMarker(x, y, rotation, isYang, scale = 1) {
 
 /**
  * Generate a planet symbol at the given position
+ * Uses clean normalized paths from /COMPARISONS/planets.svg
+ *
+ * The paths are normalized to a ~56×59 viewBox with built-in transform.
+ * To place centered at (x, y): translate to position, rotate, scale, then
+ * offset by half the viewBox to center the symbol.
  */
-function generatePlanetSymbol(planet, x, y, rotation, scale = 0.5) {
-  if (!planet || !PLANET_PATHS[planet]) {
+function generatePlanetSymbol(planet, x, y, rotation, scale = 0.44) {
+  if (!planet || !PLANET_SYMBOLS[planet]) {
     return '';
   }
 
-  return `<g transform="translate(${x.toFixed(2)}, ${y.toFixed(2)}) rotate(${rotation.toFixed(2)}) scale(${scale})">
-    <path d="${PLANET_PATHS[planet]}" fill="${shared.COLORS.foreground}"/>
+  const symbol = PLANET_SYMBOLS[planet];
+
+  // Center offset: move symbol so its center (not corner) is at origin
+  const halfWidth = SYMBOL_VIEWBOX.width / 2;
+  const halfHeight = SYMBOL_VIEWBOX.height / 2;
+
+  // Transform order: translate to target -> rotate -> scale -> center the symbol
+  return `<g transform="translate(${x.toFixed(2)}, ${y.toFixed(2)}) rotate(${rotation.toFixed(2)}) scale(${scale}) translate(${-halfWidth.toFixed(2)}, ${-halfHeight.toFixed(2)})">
+    <path d="${symbol.path}" transform="${symbol.transform}" fill="${shared.COLORS.foreground}"/>
   </g>`;
 }
 
@@ -271,7 +310,10 @@ function generateLineNumber(lineNum, x, y, rotation, flipped) {
 function generateKeynote(keynote, x, y, rotation, flipped) {
   if (!keynote) return '';
 
-  const anchor = flipped ? 'end' : 'start';
+  // Text aligned to inner ring (even edge inside, ragged edge outside):
+  // Right side (not flipped): text-anchor="end" - text ends at inner edge, ragged extends outward
+  // Left side (flipped 180°): text-anchor="start" - after flip, even edge aligns to inner
+  const anchor = flipped ? 'start' : 'end';
 
   return `<text
     x="${x.toFixed(2)}" y="${y.toFixed(2)}"
@@ -311,39 +353,93 @@ function generateLineElements(gateNumber, lineNumber, wheelPosition) {
   const lineData = getLineDataFast(gateNumber, lineNumber);
   if (!lineData) return elements;
 
-  // 1. Yin/Yang marker
-  const yinYangX = CENTER.x + BAND_RADII.yinYang * Math.cos(radians);
-  const yinYangY = CENTER.y + BAND_RADII.yinYang * Math.sin(radians);
-  const isYang = lineData.polarity === 'YANG';
-  elements.push(generateYinYangMarker(yinYangX, yinYangY, rotation, isYang));
-
-  // 2. Detriment planet
-  const detrimentX = CENTER.x + BAND_RADII.detriment * Math.cos(radians);
-  const detrimentY = CENTER.y + BAND_RADII.detriment * Math.sin(radians);
+  // Get planet data
+  const exaltedPlanets = lineData.blackBook?.exaltation?.planets || [];
   const detrimentPlanets = lineData.blackBook?.detriment?.planets || [];
-  if (detrimentPlanets.length > 0) {
-    elements.push(generatePlanetSymbol(detrimentPlanets[0].planet, detrimentX, detrimentY, rotation, 0.4));
+
+  // 1. Keynote (outermost) - text aligned to inner edge
+  const keynoteX = CENTER.x + BAND_RADII.keynote * Math.cos(radians);
+  const keynoteY = CENTER.y + BAND_RADII.keynote * Math.sin(radians);
+  elements.push(generateKeynote(lineData.lineKeynote, keynoteX, keynoteY, rotation, flipped));
+
+  // 2. Exalted planet (right side) / Detriment planet (left side)
+  // These swap positions based on wheel side
+  // Some lines have 2 exalted or 2 detriment planets - show both side by side
+  const exaltedX = CENTER.x + BAND_RADII.exalted * Math.cos(radians);
+  const exaltedY = CENTER.y + BAND_RADII.exalted * Math.sin(radians);
+  const dualPlanetOffset = 20; // Offset for dual planets (along radial direction)
+  const dualPlanetScale = 0.29; // Dual planets (a third bigger than half size)
+
+  if (flipped) {
+    // Left side: detriment in exalted band position
+    if (detrimentPlanets.length === 1) {
+      elements.push(generatePlanetSymbol(detrimentPlanets[0].planet, exaltedX, exaltedY, rotation));
+    } else if (detrimentPlanets.length >= 2) {
+      // Two planets - side by side along radial direction (half size)
+      const offset1X = exaltedX - dualPlanetOffset * Math.cos(radians);
+      const offset1Y = exaltedY - dualPlanetOffset * Math.sin(radians);
+      const offset2X = exaltedX + dualPlanetOffset * Math.cos(radians);
+      const offset2Y = exaltedY + dualPlanetOffset * Math.sin(radians);
+      elements.push(generatePlanetSymbol(detrimentPlanets[0].planet, offset1X, offset1Y, rotation, dualPlanetScale));
+      elements.push(generatePlanetSymbol(detrimentPlanets[1].planet, offset2X, offset2Y, rotation, dualPlanetScale));
+    }
+  } else {
+    // Right side: exalted in exalted band position
+    if (exaltedPlanets.length === 1) {
+      elements.push(generatePlanetSymbol(exaltedPlanets[0].planet, exaltedX, exaltedY, rotation));
+    } else if (exaltedPlanets.length >= 2) {
+      // Two planets - side by side along radial direction (half size)
+      const offset1X = exaltedX - dualPlanetOffset * Math.cos(radians);
+      const offset1Y = exaltedY - dualPlanetOffset * Math.sin(radians);
+      const offset2X = exaltedX + dualPlanetOffset * Math.cos(radians);
+      const offset2Y = exaltedY + dualPlanetOffset * Math.sin(radians);
+      elements.push(generatePlanetSymbol(exaltedPlanets[0].planet, offset1X, offset1Y, rotation, dualPlanetScale));
+      elements.push(generatePlanetSymbol(exaltedPlanets[1].planet, offset2X, offset2Y, rotation, dualPlanetScale));
+    }
   }
 
-  // 3. Line number
+  // 3. Line number (middle band)
   const lineNumX = CENTER.x + BAND_RADII.lineNumber * Math.cos(radians);
   const lineNumY = CENTER.y + BAND_RADII.lineNumber * Math.sin(radians);
   elements.push(generateLineNumber(lineNumber, lineNumX, lineNumY, rotation, flipped));
 
-  // 4. Exalted planet
-  const exaltedX = CENTER.x + BAND_RADII.exalted * Math.cos(radians);
-  const exaltedY = CENTER.y + BAND_RADII.exalted * Math.sin(radians);
-  const exaltedPlanets = lineData.blackBook?.exaltation?.planets || [];
-  if (exaltedPlanets.length > 0) {
-    // For lines with multiple exalted planets, show the first one
-    // (11.4 has Moon, Venus; 25.4 has Venus, Jupiter)
-    elements.push(generatePlanetSymbol(exaltedPlanets[0].planet, exaltedX, exaltedY, rotation, 0.4));
+  // 4. Detriment planet (right side) / Exalted planet (left side)
+  // These swap positions based on wheel side
+  const detrimentX = CENTER.x + BAND_RADII.detriment * Math.cos(radians);
+  const detrimentY = CENTER.y + BAND_RADII.detriment * Math.sin(radians);
+  if (flipped) {
+    // Left side: exalted in detriment band position
+    if (exaltedPlanets.length === 1) {
+      elements.push(generatePlanetSymbol(exaltedPlanets[0].planet, detrimentX, detrimentY, rotation));
+    } else if (exaltedPlanets.length >= 2) {
+      // Two planets - side by side along radial direction (half size)
+      const offset1X = detrimentX - dualPlanetOffset * Math.cos(radians);
+      const offset1Y = detrimentY - dualPlanetOffset * Math.sin(radians);
+      const offset2X = detrimentX + dualPlanetOffset * Math.cos(radians);
+      const offset2Y = detrimentY + dualPlanetOffset * Math.sin(radians);
+      elements.push(generatePlanetSymbol(exaltedPlanets[0].planet, offset1X, offset1Y, rotation, dualPlanetScale));
+      elements.push(generatePlanetSymbol(exaltedPlanets[1].planet, offset2X, offset2Y, rotation, dualPlanetScale));
+    }
+  } else {
+    // Right side: detriment in detriment band position
+    if (detrimentPlanets.length === 1) {
+      elements.push(generatePlanetSymbol(detrimentPlanets[0].planet, detrimentX, detrimentY, rotation));
+    } else if (detrimentPlanets.length >= 2) {
+      // Two planets - side by side along radial direction (half size)
+      const offset1X = detrimentX - dualPlanetOffset * Math.cos(radians);
+      const offset1Y = detrimentY - dualPlanetOffset * Math.sin(radians);
+      const offset2X = detrimentX + dualPlanetOffset * Math.cos(radians);
+      const offset2Y = detrimentY + dualPlanetOffset * Math.sin(radians);
+      elements.push(generatePlanetSymbol(detrimentPlanets[0].planet, offset1X, offset1Y, rotation, dualPlanetScale));
+      elements.push(generatePlanetSymbol(detrimentPlanets[1].planet, offset2X, offset2Y, rotation, dualPlanetScale));
+    }
   }
 
-  // 5. Keynote
-  const keynoteX = CENTER.x + BAND_RADII.keynote * Math.cos(radians);
-  const keynoteY = CENTER.y + BAND_RADII.keynote * Math.sin(radians);
-  elements.push(generateKeynote(lineData.lineKeynote, keynoteX, keynoteY, rotation, flipped));
+  // 5. Yin/Yang marker (innermost)
+  const yinYangX = CENTER.x + BAND_RADII.yinYang * Math.cos(radians);
+  const yinYangY = CENTER.y + BAND_RADII.yinYang * Math.sin(radians);
+  const isYang = lineData.polarity === 'YANG';
+  elements.push(generateYinYangMarker(yinYangX, yinYangY, rotation, isYang));
 
   return elements;
 }
@@ -419,7 +515,8 @@ function generateLinesRing(options = {}) {
     backgroundColor = shared.COLORS.background
   } = options;
 
-  const viewBoxSize = CENTER.x * 2 + 100;
+  // ViewBox must accommodate center + outerRadius + margin
+  const viewBoxSize = Math.max(CENTER.x, CENTER.y) + RING.outerRadius + 200;
   const svgParts = [];
 
   // SVG header
@@ -468,7 +565,7 @@ module.exports = {
   CENTER,
   RING,
   BAND_RADII,
-  PLANET_PATHS
+  PLANET_SYMBOLS
 };
 
 // CLI execution
