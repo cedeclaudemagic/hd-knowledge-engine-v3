@@ -45,6 +45,7 @@ V3 Knowledge Engine (unified-query-engine.js)
 | **Gate Names** | `gate-names-ring.js` | `mandalaGateName` | 28 | HD mandala gate names |
 | **Gene Keys** | `gene-keys-ring.js` | `geneKeys` (shadow/gift/siddhi) | 37 | 3-ring Gene Keys spectrum |
 | **Incarnation Crosses** | `incarnation-crosses-ring.js` | `crosses-display-mappings.json` | 35 | 192 crosses (JX/RAX/LAX) with 256 tick mark dividers |
+| **Channels** | `channels-ring.js` | `channels-mappings.json` | 38 | 36 channels × 2 = 72 entries with radial/tangential text |
 
 ## Key Principles
 
@@ -97,7 +98,8 @@ visualization/
 │   ├── iching-names-ring.js     # I Ching names
 │   ├── gate-names-ring.js       # HD gate names
 │   ├── gene-keys-ring.js        # Gene Keys (shadow/gift/siddhi)
-│   └── incarnation-crosses-ring.js  # 192 incarnation crosses
+│   ├── incarnation-crosses-ring.js  # 192 incarnation crosses
+│   └── channels-ring.js         # 36 channels (72 entries)
 ├── output/
 │   └── generated-*.svg          # Generated SVG files
 ├── core/                        # Core utilities (legacy)
@@ -124,6 +126,9 @@ node visualization/generators/gene-keys-ring.js output.svg
 
 # Generate Incarnation Crosses ring (192 crosses in 3 bands)
 node visualization/generators/incarnation-crosses-ring.js output.svg
+
+# Generate Channels ring (36 channels × 2 = 72 entries)
+node visualization/generators/channels-ring.js output.svg
 ```
 
 ### Programmatic Usage
@@ -155,6 +160,9 @@ node tests/gene-keys-ring-generator.test.js
 
 # Incarnation Crosses ring tests (30 tests)
 node tests/incarnation-crosses-ring-generator.test.js
+
+# Channels ring tests (38 tests)
+node tests/channels-ring-generator.test.js
 ```
 
 ## Ring Geometry Reference
@@ -213,6 +221,25 @@ const RING_RADII = {
 // Bands: RAX (inner), JX (middle), LAX (outer)
 ```
 
+### Channels Ring (5 text bands, 72 entries)
+```javascript
+const CENTER = { x: 6482.5278, y: 6486.1582 };
+const RING_RADII = {
+  inner: 4504.9828,       // Inner ring (structure)
+  outer: 4826.9585,       // Outer ring (structure)
+  bottomOuter: 6159.3379, // Outer band inner edge
+  bottom: 6481.1808       // Outermost boundary
+};
+const BANDS = {
+  innerCentre: { radius: 4892 },     // e.g., "G", "Sacral"
+  channelName: { radius: 5700 },     // e.g., "Perfected Form"
+  energyType: { radius: 6068 },      // e.g., "Projected"
+  outerCentre: { radius: 6105 },     // e.g., "Spleen"
+  outerGateNumber: { radius: 6197 }  // e.g., "57"
+};
+// Text rotation: radial (outward) for names, tangential for centres/numbers
+```
+
 ## Text Fitting System
 
 The `TEXT_RATIOS` in `shared-constants.js` define proportional relationships:
@@ -239,6 +266,7 @@ const TEXT_RATIOS = {
 | `hd-mandala-gate-names` | `mandalaGateName` | "The Gate of Self Expression" |
 | `hd-gates` | `keyword` | "Self-Expression" |
 | `gene-keys` | `shadow`, `gift`, `siddhi` | "Entropy", "Freshness", "Beauty" |
+| `channels` | `name`, `keynote`, `channelType`, `circuit` | "Perfected Form", "For Survival", "Projected" |
 
 ## Adding New Rings
 
@@ -259,5 +287,5 @@ See `docs/reference/SVG-GENERATION-METHODOLOGY.md` for detailed methodology.
 
 ---
 
-*Last updated: 29 November 2025*
-*Status: 6 rings working (144+ tests), docked to V3 engine*
+*Last updated: 30 November 2025*
+*Status: 7 rings working (182+ tests), docked to V3 engine*
