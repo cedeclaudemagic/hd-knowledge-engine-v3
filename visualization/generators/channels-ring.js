@@ -629,20 +629,43 @@ function generateRingCircles(stroke, strokeWidth) {
 const MULTI_CHANNEL_GATES = [10, 20, 34, 57];
 
 /**
- * Get the ordered list of channels for a multi-channel gate
- * Order determines visual position: first channel is most clockwise
- * Based on master SVG analysis:
- * - Gate 10: 10-57, 10-34, 10-20 (CW to CCW)
- * - Gate 20: 20-34, 20-57, 20-10 (CW to CCW)
- * - Gate 34: 34-57, 34-10, 34-20 (CW to CCW)
- * - Gate 57: 57-34, 57-20, 57-10 (CW to CCW)
+ * Multi-channel order configurations
+ *
+ * Each configuration defines how outer gates are arranged at each inner gate position.
+ * Order is [CW, Middle, CCW] - clockwise to counter-clockwise within the gate segment.
+ *
+ * Available presets:
+ * - 'optimal': Latin square arrangement where each outer gate appears exactly once
+ *              in each position (CW/Middle/CCW) across all 4 inner gates. Maximum diversity.
+ * - 'master': Original arrangement from master SVG analysis.
  */
-const MULTI_CHANNEL_ORDER = {
-  10: [57, 34, 20],  // Channels: 10-57, 10-34, 10-20
-  20: [34, 57, 10],  // Channels: 20-34, 20-57, 20-10
-  34: [57, 10, 20],  // Channels: 34-57, 34-10, 34-20
-  57: [34, 20, 10]   // Channels: 57-34, 57-20, 57-10
+const MULTI_CHANNEL_PRESETS = {
+  // Optimal Latin square: each gate appears exactly once per position
+  // Position analysis:
+  //   CW:     20, 10, 57, 34 (all unique)
+  //   Middle: 34, 57, 10, 20 (all unique)
+  //   CCW:    57, 34, 20, 10 (all unique)
+  optimal: {
+    10: [20, 34, 57],  // Channels: 10-20, 10-34, 10-57
+    20: [10, 57, 34],  // Channels: 20-10, 20-57, 20-34
+    34: [57, 10, 20],  // Channels: 34-57, 34-10, 34-20
+    57: [34, 20, 10]   // Channels: 57-34, 57-20, 57-10
+  },
+
+  // Original master SVG arrangement
+  master: {
+    10: [57, 34, 20],  // Channels: 10-57, 10-34, 10-20
+    20: [34, 57, 10],  // Channels: 20-34, 20-57, 20-10
+    34: [57, 10, 20],  // Channels: 34-57, 34-10, 34-20
+    57: [34, 20, 10]   // Channels: 57-34, 57-20, 57-10
+  }
 };
+
+/**
+ * Current multi-channel order configuration
+ * Change this to switch between presets, or define a custom arrangement
+ */
+const MULTI_CHANNEL_ORDER = MULTI_CHANNEL_PRESETS.optimal;
 
 /**
  * Generate sub-divider lines within multi-channel gates
@@ -938,6 +961,7 @@ module.exports = {
   BAND_RADII_MULTI,
   BASE_ANGLE_OFFSETS,
   MULTI_CHANNEL_GATES,
+  MULTI_CHANNEL_PRESETS,
   MULTI_CHANNEL_ORDER,
   FONT,
   COLORS,
