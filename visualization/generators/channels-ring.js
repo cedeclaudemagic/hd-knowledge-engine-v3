@@ -162,6 +162,28 @@ function getChannelsForGate(gate) {
 }
 
 /**
+ * Abbreviate centre name to match master SVG conventions
+ * Master uses: SP (Solar Plexus), G (G Centre), and full names for others
+ */
+function abbreviateCentre(centreName) {
+  const abbreviations = {
+    'Solar Plexus': 'SP',
+    'G Centre': 'G',
+    'G': 'G'
+  };
+  return abbreviations[centreName] || centreName;
+}
+
+/**
+ * Format circuit name to match master SVG conventions
+ * Master uses just the circuit name without "Circuit" suffix
+ */
+function formatCircuit(circuitName) {
+  // Remove "Circuit" suffix if present
+  return circuitName.replace(/\s+Circuit$/i, '');
+}
+
+/**
  * Parse centre connection to get inner and outer centre names
  * Format: "G to Throat" → { inner: "G", outer: "Throat" }
  */
@@ -171,9 +193,9 @@ function parseCentreConnection(centerConnection, innerGate, gate1) {
 
   // If innerGate is gate1, first centre is inner; otherwise swap
   if (innerGate === gate1) {
-    return { inner: parts[0], outer: parts[1] };
+    return { inner: abbreviateCentre(parts[0]), outer: abbreviateCentre(parts[1]) };
   } else {
-    return { inner: parts[1], outer: parts[0] };
+    return { inner: abbreviateCentre(parts[1]), outer: abbreviateCentre(parts[0]) };
   }
 }
 
@@ -279,13 +301,13 @@ function generateChannelElement(channel, gatePosition, channelCount = 1) {
          dominant-baseline="central"
          fill="${COLORS.foreground}">${energyType}</text>
       <!-- Circuit (radial, separate element) -->
-      <text id="CIRCUIT_-_${circuit.replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
+      <text id="CIRCUIT_-_${formatCircuit(circuit).replace(/\s+/g, '_')}_-_${innerGate}_${outerGate}"
          transform="translate(${circuitPos.x.toFixed(4)} ${circuitPos.y.toFixed(4)}) rotate(${circuitRot.toFixed(4)})"
          font-size="${FONT.energyType.size}"
          font-family="${FONT.family}"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="${COLORS.foreground}">${circuit}</text>
+         fill="${COLORS.foreground}">${formatCircuit(circuit)}</text>
       <!-- Outer Centre (tangential) -->
       <text id="OUTER-CENTRE_-_${centres.outer.toUpperCase()}_-_${outerGate}"
          transform="translate(${outerCentrePos.x.toFixed(4)} ${outerCentrePos.y.toFixed(4)}) rotate(${outerCentreRot.toFixed(4)})"
@@ -314,32 +336,69 @@ function generateRingCircles(stroke, strokeWidth) {
 }
 
 /**
- * Generate divider lines for 64 gate segments
+ * Generate divider lines between adjacent gates (64 lines)
+ * Named LINE_-_GATE1_GATE2 following master SVG convention
+ * Each line is at the boundary between two adjacent gates
  */
 function generateDividers(stroke, strokeWidth) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
   let dividers = '';
 
   for (let i = 0; i < gateSequence.length; i++) {
-    const gate = gateSequence[i];
-    const v3Data = positioning.getDockingData(gate, 1);
-    const angle = v3Data.angle;
+    const currentGate = gateSequence[i];
+    const nextGate = gateSequence[(i + 1) % 64];
 
-    // Divider at start of gate segment (offset by half segment width)
-    const dividerAngle = angle - 2.8125; // Half of 5.625 degree segment
-    const svgAngle = calculateSVGAngle(dividerAngle);
+    const currentV3 = positioning.getDockingData(currentGate, 1);
+
+    // Boundary angle is midway between current gate center and next gate center
+    // Since gates are 5.625° apart, boundary is at current + 2.8125°
+    const boundaryAngle = currentV3.angle + 2.8125;
+    const svgAngle = calculateSVGAngle(boundaryAngle);
     const radians = svgAngle * Math.PI / 180;
 
-    // Divider extends from inner to outer ring
-    const x1 = CENTER.x + RING_RADII.inner * Math.cos(radians);
-    const y1 = CENTER.y + RING_RADII.inner * Math.sin(radians);
-    const x2 = CENTER.x + RING_RADII.outer * Math.cos(radians);
-    const y2 = CENTER.y + RING_RADII.outer * Math.sin(radians);
+    // Line extends from inner to outer ring
+    const x1 = CENTER.x + RING_RADII.outer * Math.cos(radians);
+    const y1 = CENTER.y + RING_RADII.outer * Math.sin(radians);
+    const x2 = CENTER.x + RING_RADII.inner * Math.cos(radians);
+    const y2 = CENTER.y + RING_RADII.inner * Math.sin(radians);
 
-    dividers += `    <line id="DIVIDER_-_${gate}" x1="${x1.toFixed(4)}" y1="${y1.toFixed(4)}" x2="${x2.toFixed(4)}" y2="${y2.toFixed(4)}" stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
+    dividers += `    <line id="LINE_-_${currentGate}_${nextGate}" x1="${x1.toFixed(4)}" y1="${y1.toFixed(4)}" x2="${x2.toFixed(4)}" y2="${y2.toFixed(4)}" stroke="${stroke}" stroke-width="${strokeWidth}"/>\n`;
   }
 
   return dividers;
+}
+
+/**
+ * Generate inner gate numbers (64 numbers around the inner ring)
+ * These appear inside the ring, using Herculanum font
+ */
+function generateInnerGateNumbers(fill, fontSize = 140) {
+  const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
+  const INNER_GATE_RADIUS = 4660; // Between inner ring (4505) and innerCentre (4908)
+  let numbers = '';
+
+  for (const gate of gateSequence) {
+    const v3Data = positioning.getDockingData(gate, 1);
+    const svgAngle = calculateSVGAngle(v3Data.angle);
+    const radians = svgAngle * Math.PI / 180;
+
+    // Position at gate center
+    const x = CENTER.x + INNER_GATE_RADIUS * Math.cos(radians);
+    const y = CENTER.y + INNER_GATE_RADIUS * Math.sin(radians);
+
+    // Text rotation - radial orientation (pointing outward)
+    const textRotation = svgAngle + 90;
+
+    numbers += `    <text id="INNER-GATE-NUMBER_-_${gate}"
+         transform="translate(${x.toFixed(4)} ${y.toFixed(4)}) rotate(${textRotation.toFixed(4)})"
+         font-size="${fontSize}"
+         font-family="Herculanum"
+         text-anchor="middle"
+         dominant-baseline="central"
+         fill="${fill}">${gate}</text>\n`;
+  }
+
+  return numbers;
 }
 
 /**
@@ -368,7 +427,7 @@ function generateChannelsRing(options = {}) {
     svg += `  <rect id="background" width="100%" height="100%" fill="${backgroundColor}"/>\n`;
   }
 
-  // Structure (ring circles and dividers)
+  // Structure (ring circles, dividers, and inner gate numbers)
   if (includeStructure) {
     svg += `  <g id="GROUP_-_STRUCTURE">\n`;
     svg += `    <g id="GROUP_-_RINGS">\n`;
@@ -376,6 +435,9 @@ function generateChannelsRing(options = {}) {
     svg += `    </g>\n`;
     svg += `    <g id="GROUP_-_DIVIDERS">\n`;
     svg += generateDividers(stroke, 1);
+    svg += `    </g>\n`;
+    svg += `    <g id="GROUP_-_INNER-GATE-NUMBERS">\n`;
+    svg += generateInnerGateNumbers(fill);
     svg += `    </g>\n`;
     svg += `  </g>\n`;
   }
