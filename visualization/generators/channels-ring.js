@@ -68,8 +68,8 @@ const BAND_RADII_MULTI = {
   innerCentre: 4768,      // Match single-channel inner centre radius
   channelName: 4840,      // Moved inward 60px more to align with sub-divider inner edge
   keynote: 4840,          // Same as channelName - aligned with sub-divider inner edge
-  energyType: 5990,       // Moved outward 1150px total from channel name position
-  circuit: 5990,          // Same as energyType
+  energyType: 6030,       // Moved outward 40px (was 5990)
+  circuit: 6030,          // Same as energyType
   outerCentre: 6096,      // SP at radius - moved 40px outward
   outerHexagram: 6240,    // Hexagram - closer to centre (inner part of outer band) - moved 40px outward
   outerGateNumber: 6380   // Gate number - further from centre (outer edge) - moved 20px inward total
@@ -270,6 +270,10 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
     'Balanced Development – Cyclic': {
       lines: ['Balanced Development', '&amp; Cyclic'],
       extraOffset: 40
+    },
+    'Commitment To Higher Principles': {
+      lines: ['Commitment To Higher Principles'],
+      extraOffset: 0
     }
   };
 
@@ -478,7 +482,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   // Note: Inner centre is generated separately (once per gate, at gate center)
   // For multi-channel: outer gate number and hexagram are centered (0 offset)
   const offsets = {
-    channelName: getScaledOffset(BASE_ANGLE_OFFSETS.channelName, channelCount),
+    channelName: channelCount > 1 ? 0.28 : BASE_ANGLE_OFFSETS.channelName,
     keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount),
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount),
     circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount),

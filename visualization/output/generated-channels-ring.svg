@@ -2610,7 +2610,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Charisma_-_20_34"
-         transform="translate(4548.1289 10922.7899) rotate(-66.4425)"
+         transform="translate(4579.1493 10936.1863) rotate(-66.8425)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -2626,7 +2626,7 @@
          fill="#FFFFFF"><tspan x="0" dy="-16.3">Thoughts that must become</tspan><tspan x="0" dy="32.6">Deeds</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_20_34"
-         transform="translate(4100.0144 11981.9502) rotate(-66.5625)">
+         transform="translate(4084.1045 12018.6500) rotate(-66.5625)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -2683,7 +2683,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_The_Brainwave_-_20_57"
-         transform="translate(4404.0021 10857.1227) rotate(-64.5675)"
+         transform="translate(4434.5676 10871.5269) rotate(-64.9675)"
          font-size="106.272"
          font-family="Copperplate"
          text-anchor="end"
@@ -2699,7 +2699,7 @@
          fill="#FFFFFF">Penetrating Awareness</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_20_57"
-         transform="translate(3921.4728 11901.0541) rotate(-64.6875)">
+         transform="translate(3904.3706 11937.2136) rotate(-64.6875)">
         <text font-size="59.04"
            font-family="Copperplate"
            text-anchor="start"
@@ -2756,7 +2756,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Awakening_-_20_10"
-         transform="translate(4262.1010 10786.7750) rotate(-62.6925)"
+         transform="translate(4292.1788 10802.1716) rotate(-63.0925)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -2769,10 +2769,10 @@
          font-family="Copperplate"
          text-anchor="end"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-16.3">Commitment To Higher</tspan><tspan x="0" dy="32.6">Principles</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="0.0">Commitment To Higher Principles</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_20_10"
-         transform="translate(3745.6736 11814.3595) rotate(-62.8125)">
+         transform="translate(3727.3974 11849.9401) rotate(-62.8125)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -4571,7 +4571,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Power_-_57_34"
-         transform="translate(10987.5267 4716.8124) rotate(158.5575)"
+         transform="translate(10975.0647 4685.4050) rotate(158.1575)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -4587,7 +4587,7 @@
          fill="#FFFFFF">Archetype</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_57_34"
-         transform="translate(12053.3310 4284.7377) rotate(158.4375)">
+         transform="translate(12090.5317 4270.0371) rotate(158.4375)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -4644,7 +4644,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_The_Brainwave_-_57_20"
-         transform="translate(11043.0061 4865.1592) rotate(160.4325)"
+         transform="translate(11031.5783 4833.3608) rotate(160.0325)"
          font-size="106.272"
          font-family="Copperplate"
          text-anchor="end"
@@ -4660,7 +4660,7 @@
          fill="#FFFFFF">Penetrating Awareness</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_57_20"
-         transform="translate(12122.3768 4468.1880) rotate(160.3125)">
+         transform="translate(12160.0385 4454.7124) rotate(160.3125)">
         <text font-size="59.04"
            font-family="Copperplate"
            text-anchor="start"
@@ -4723,7 +4723,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Perfected_Form_-_57_10"
-         transform="translate(11093.6020 5015.2418) rotate(162.3075)"
+         transform="translate(11083.2207 4983.0865) rotate(161.9075)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -4739,7 +4739,7 @@
          fill="#FFFFFF">Survival</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_57_10"
-         transform="translate(12185.3832 4653.7991) rotate(162.1875)">
+         transform="translate(12223.4657 4641.5630) rotate(162.1875)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -5343,7 +5343,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Power_-_34_57"
-         transform="translate(8416.9267 2049.5265) rotate(113.5575)"
+         transform="translate(8385.9063 2036.1301) rotate(113.1575)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -5359,7 +5359,7 @@
          fill="#FFFFFF">Archetype</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_34_57"
-         transform="translate(8865.0412 990.3662) rotate(113.4375)">
+         transform="translate(8880.9511 953.6664) rotate(113.4375)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -5416,7 +5416,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Exploration_-_34_10"
-         transform="translate(8561.0535 2115.1937) rotate(115.4325)"
+         transform="translate(8530.4880 2100.7895) rotate(115.0325)"
          font-size="106.272"
          font-family="Copperplate"
          text-anchor="end"
@@ -5432,7 +5432,7 @@
          fill="#FFFFFF">Following One's Convictions</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_34_10"
-         transform="translate(9043.5828 1071.2623) rotate(115.3125)">
+         transform="translate(9060.6850 1035.1028) rotate(115.3125)">
         <text font-size="59.04"
            font-family="Copperplate"
            text-anchor="start"
@@ -5486,7 +5486,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Charisma_-_34_20"
-         transform="translate(8702.9546 2185.5414) rotate(117.3075)"
+         transform="translate(8672.8768 2170.1448) rotate(116.9075)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -5502,7 +5502,7 @@
          fill="#FFFFFF"><tspan x="0" dy="-16.3">Thoughts that must become</tspan><tspan x="0" dy="32.6">Deeds</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_34_20"
-         transform="translate(9219.3820 1157.9569) rotate(117.1875)">
+         transform="translate(9237.6582 1122.3763) rotate(117.1875)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -5872,7 +5872,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Perfected_Form_-_10_57"
-         transform="translate(6097.1016 1661.5290) rotate(85.4325)"
+         transform="translate(6063.4290 1664.3374) rotate(85.0325)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -5888,7 +5888,7 @@
          fill="#FFFFFF">Survival</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_10_57"
-         transform="translate(5993.0186 516.1933) rotate(85.3125)">
+         transform="translate(5989.7497 476.3271) rotate(85.3125)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
@@ -5945,7 +5945,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Exploration_-_10_34"
-         transform="translate(6255.1654 1651.5014) rotate(87.3075)"
+         transform="translate(6221.4190 1653.2065) rotate(86.9075)"
          font-size="106.272"
          font-family="Copperplate"
          text-anchor="end"
@@ -5961,7 +5961,7 @@
          fill="#FFFFFF">Following One's Convictions</text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_10_34"
-         transform="translate(6188.6124 503.3734) rotate(87.1875)">
+         transform="translate(6186.6497 463.4216) rotate(87.1875)">
         <text font-size="59.04"
            font-family="Copperplate"
            text-anchor="start"
@@ -6018,7 +6018,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Awakening_-_10_20"
-         transform="translate(6413.4727 1646.6508) rotate(89.1825)"
+         transform="translate(6379.6885 1647.2509) rotate(88.7825)"
          font-size="86.4"
          font-family="Copperplate"
          text-anchor="end"
@@ -6031,10 +6031,10 @@
          font-family="Copperplate"
          text-anchor="end"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-16.3">Commitment To Higher</tspan><tspan x="0" dy="32.6">Principles</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="0.0">Commitment To Higher Principles</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial, left-aligned) -->
       <g id="ENERGY-CIRCUIT_-_10_20"
-         transform="translate(6384.5210 496.9600) rotate(89.0625)">
+         transform="translate(6383.8666 456.9654) rotate(89.0625)">
         <text font-size="48"
            font-family="Copperplate"
            text-anchor="start"
