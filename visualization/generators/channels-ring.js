@@ -35,16 +35,16 @@ const RING_RADII = {
   inner: 4504.9828,       // Inner ring (structure)
   outer: 4635,            // Ring 2 - reduced 36% to shrink inner number band (was 4708)
   bottomOuter: 5809.3379, // Outer band inner edge - moved 350px inward (was 6159.3379)
-  bottom: 6131.1808       // Outermost boundary - moved 350px inward (was 6481.1808)
+  bottom: 6099.1808       // Outermost boundary - moved 32px inward (was 6131.1808)
 };
 
 // Extended structure radii (from STRUCTURE_CHANNELS_ORIGINAL in master)
 // These define the full extent of radial divider lines
 const STRUCTURE_RADII = {
   dividerInner: 4505,     // Inner end of radial dividers (inner ring)
-  dividerOuter: 6133,     // Outer end of radial dividers - moved 350px inward (was 6483)
+  dividerOuter: 6101,     // Outer end of radial dividers - moved 32px inward (was 6133)
   outerRing1: 5809,       // First outer ring (bottomOuter) - moved 350px inward (was 6159)
-  outerRing2: 6131        // Second outer ring (bottom) - moved 350px inward (was 6481)
+  outerRing2: 6099        // Second outer ring (bottom) - moved 32px inward (was 6131)
 };
 
 // Text band radii - different for single vs multi-channel gates
@@ -60,8 +60,8 @@ const BAND_RADII_SINGLE = {
   channelName: 5215,      // Channel name - moved 24px inward (was 5239)
   energyType: 5541,       // Energy type - moved 74px outward (was 5467)
   outerCentre: 5755,      // Outer centre like "Ajna" - moved 74px outward (was 5681)
-  outerGateNumber: 5970,  // Gate number - moved 350px inward (was 6320)
-  outerHexagram: 5970     // Hexagram - moved 350px inward (was 6320)
+  outerGateNumber: 5955,  // Gate number - moved 17px outward (was 5938)
+  outerHexagram: 5955     // Hexagram - moved 17px outward (was 5938)
 };
 
 // Multi-channel radii (measured from Recognition 41-30, Perfected Form 10-57)
@@ -73,7 +73,7 @@ const BAND_RADII_MULTI = {
   circuit: 5730,          // Moved 300px inward (was 6030)
   outerCentre: 5780,      // Moved 316px inward (was 6096)
   outerHexagram: 5890,    // Hexagram - moved 350px inward (was 6240)
-  outerGateNumber: 6030   // Gate number - moved 350px inward (was 6380)
+  outerGateNumber: 6014   // Gate number - moved 16px inward (was 6030)
 };
 
 // Default BAND_RADII for backwards compatibility (uses multi-channel values)
