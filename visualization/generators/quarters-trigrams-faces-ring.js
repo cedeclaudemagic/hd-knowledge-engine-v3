@@ -132,12 +132,12 @@ function getQuarterData() {
       planet: 'Sirius',
       keyword: 'Transformation',
       svgAngle: 0,
-      // Exact positions from master SVG
+      // Exact positions from master SVG (codon moved 50px outward)
       positions: {
-        codon: { x: 441.2279, y: 100.534, matrix: '1, 0, 0, 1' },
-        keyword: { x: 392.1512, y: 128.3561, matrix: '1, -0.0067, -0.0074, 1' },
+        codon: { x: 441.2279, y: 80.534, matrix: '1, 0, 0, 1' },
+        keyword: { x: 392.1512, y: 136.3561, matrix: '1, -0.0067, -0.0074, 1' },
         name: { x: 403.9728, y: 149.7366, matrix: '1, -0.0067, -0.0074, 1' },
-        planet: { x: 428.4497, y: 139.486, matrix: '1, -0.0067, -0.0074, 1' }
+        planet: { x: 428.4497, y: 107.486, matrix: '1, -0.0067, -0.0074, 1' }
       }
     },
     {
@@ -148,10 +148,10 @@ function getQuarterData() {
       keyword: 'Bonding',
       svgAngle: 90,
       positions: {
-        codon: { x: 794.8148, y: 442.0525, matrix: '-0.0004, 1, -1, -0.0004' },
-        keyword: { x: 767.914, y: 419.8765, matrix: '0.0067, 1, -1, -0.0074' },
+        codon: { x: 814.8148, y: 442.0525, matrix: '-0.0004, 1, -1, -0.0004' },
+        keyword: { x: 759.914, y: 419.8765, matrix: '0.0067, 1, -1, -0.0074' },
         name: { x: 746.2725, y: 412.2439, matrix: '0.0067, 1, -1, -0.0074' },
-        planet: { x: 756.6959, y: 425.9328, matrix: '0.0067, 1, -1, -0.0074' }
+        planet: { x: 788.6959, y: 425.9328, matrix: '0.0067, 1, -1, -0.0074' }
       }
     },
     {
@@ -162,10 +162,10 @@ function getQuarterData() {
       keyword: 'Form',
       svgAngle: 180,
       positions: {
-        codon: { x: 454.2226, y: 796.339, matrix: '-1, 0, 0, -1' },
-        keyword: { x: 465.4014, y: 768.7719, matrix: '-1, 0.0067, 0.0074, -1' },
+        codon: { x: 454.2226, y: 816.339, matrix: '-1, 0, 0, -1' },
+        keyword: { x: 465.4014, y: 760.7719, matrix: '-1, 0.0067, 0.0074, -1' },
         name: { x: 504.276, y: 746.5507, matrix: '-1, 0.0067, 0.0074, -1' },
-        planet: { x: 467.6162, y: 756.9552, matrix: '-1, 0.0067, 0.0074, -1' }
+        planet: { x: 467.6162, y: 788.9552, matrix: '-1, 0.0067, 0.0074, -1' }
       }
     },
     {
@@ -176,10 +176,10 @@ function getQuarterData() {
       keyword: 'Mind',
       svgAngle: 270,
       positions: {
-        codon: { x: 99.654, y: 455.2793, matrix: '0.0004, -1, 1, 0.0004' },
-        keyword: { x: 127.2674, y: 465.9189, matrix: '-0.0067, -1, 1, 0.0074' },
+        codon: { x: 79.654, y: 455.2793, matrix: '0.0004, -1, 1, 0.0004' },
+        keyword: { x: 135.2674, y: 465.9189, matrix: '-0.0067, -1, 1, 0.0074' },
         name: { x: 149.4245, y: 494.1287, matrix: '-0.0067, -1, 1, 0.0074' },
-        planet: { x: 139.1325, y: 473.9305, matrix: '-0.0067, -1, 1, 0.0074' }
+        planet: { x: 107.1325, y: 473.9305, matrix: '-0.0067, -1, 1, 0.0074' }
       }
     }
   ];
@@ -208,15 +208,19 @@ function getQuarterData() {
 function getTrigramData() {
   // Order and exact angles from master SVG analysis
   // Angles are SVG angles (0° = right, 90° = down, measured counter-clockwise for rotation)
+  // Positions calculated geometrically at exact 45° interval angles
+  const textRadius = 350;    // Text distance from center
+  const symbolRadius = 370;  // Symbol distance from center (matches original ~365-372px)
+
   const trigramPositions = [
-    { name: 'Heaven', angle: 22.5, textPos: { x: 550.3776, y: 113.3947 }, symbolPos: { x: 856, y: 378 } },
-    { name: 'Lake', angle: -22.5, textPos: { x: 291.8863, y: 134.7727 }, symbolPos: { x: 567, y: 380 } },
-    { name: 'Fire', angle: -67.5, textPos: { x: 116.73, y: 331.1638 }, symbolPos: { x: 377, y: 581 } },
-    { name: 'Thunder', angle: -112.5, textPos: { x: 139.7408, y: 621.4145 }, symbolPos: { x: 372, y: 872 } },
-    { name: 'Earth', angle: -157.5, textPos: { x: 337.1827, y: 781.763 }, symbolPos: { x: 564, y: 1048 } },
-    { name: 'Mountain', angle: 157.5, textPos: { x: 623.0301, y: 753.98 }, symbolPos: { x: 871, y: 1053 } },
-    { name: 'Water', angle: 112.5, textPos: { x: 780.2083, y: 556.5676 }, symbolPos: { x: 1055, y: 864 } },
-    { name: 'Wind', angle: 67.5, textPos: { x: 760.725, y: 293.6725 }, symbolPos: { x: 1060, y: 571 } }
+    { name: 'Heaven', angle: 22.5, binary: '111' },
+    { name: 'Lake', angle: -22.5, binary: '110' },
+    { name: 'Fire', angle: -67.5, binary: '101' },
+    { name: 'Thunder', angle: -112.5, binary: '100' },
+    { name: 'Earth', angle: -157.5, binary: '000' },
+    { name: 'Mountain', angle: 157.5, binary: '001' },
+    { name: 'Water', angle: 112.5, binary: '010' },
+    { name: 'Wind', angle: 67.5, binary: '011' }
   ];
 
   return trigramPositions.map(pos => {
@@ -227,16 +231,29 @@ function getTrigramData() {
     const cos = Math.cos(angleRad);
     const sin = Math.sin(angleRad);
 
+    // Calculate text position geometrically
+    const textRadians = (pos.angle - 90) * Math.PI / 180;
+    const textPos = {
+      x: GEOMETRY.center.x + textRadius * Math.cos(textRadians),
+      y: GEOMETRY.center.y + textRadius * Math.sin(textRadians)
+    };
+
+    // Calculate symbol position geometrically (on same centerline, closer to center)
+    const symbolPos = {
+      x: GEOMETRY.center.x + symbolRadius * Math.cos(textRadians),
+      y: GEOMETRY.center.y + symbolRadius * Math.sin(textRadians)
+    };
+
     return {
       name: mapping.groupName,
       chineseName: mapping.chineseName,
       pinyin: mapping.pinyin,
-      binaryPattern: mapping.binaryPattern,
+      binaryPattern: pos.binary,
       element: mapping.knowledge.element,
       quality: mapping.knowledge.quality,
       svgAngle: pos.angle,
-      textPos: pos.textPos,
-      symbolPos: pos.symbolPos,
+      textPos: textPos,
+      symbolPos: symbolPos,
       rotMatrix: { cos: cos.toFixed(4), sin: sin.toFixed(4) }
     };
   });
@@ -249,14 +266,16 @@ function getTrigramData() {
 /**
  * Get face information with positioning
  * 16 faces at 22.5° intervals
+ * Order derived from actual wheel positions (calculated from text coordinates)
  */
 function getFaceData() {
-  // Face order on the wheel (derived from binary sequence)
+  // Face order on the wheel (sorted by actual position, 0° = top, clockwise)
+  // This order is derived from the FACE_POSITIONS text coordinates
   const faceOrder = [
-    'Hades', 'Prometheus', 'Vishnu', 'Keepers of the Wheel',
-    'Kali', 'Mitra', 'Michael', 'Janus',
-    'Minerva', 'Christ', 'Harmonia', 'Thoth',
-    'Maat', 'Parvati', 'Lakshmi', 'Maia'
+    'Prometheus', 'Hades', 'Minerva', 'Christ',
+    'Harmonia', 'Thoth', 'Maat', 'Parvati',
+    'Lakshmi', 'Maia', 'Janus', 'Michael',
+    'Mitra', 'Kali', 'Keepers of the Wheel', 'Vishnu'
   ];
 
   return faceOrder.map((name, index) => {
@@ -283,6 +302,7 @@ function getFaceData() {
  * Get fifths information with positioning
  * 32 fifths at 11.25° intervals (2 per face)
  * Each fifth shows a 5-line pattern (first 5 bits of binary)
+ * Order follows the wheel position (matching face order)
  */
 function getFifthsData() {
   const fifths = [];
@@ -300,20 +320,42 @@ function getFifthsData() {
     fifthGroups[first5Bits].push(gate);
   }
 
-  // There should be 32 unique 5-bit patterns
-  // Each pattern has 2 gates (differing only in the 6th bit)
-  const patterns = Object.keys(fifthGroups).sort();
+  // Face order on the wheel (same as getFaceData)
+  // Each face has 2 fifths (5th bit = 0, then 5th bit = 1)
+  const faceOrderBinary4 = [
+    '1110', // Prometheus (AC)
+    '1111', // Hades (AA)
+    '0111', // Minerva (GA)
+    '0110', // Christ (GC)
+    '0101', // Harmonia (GG)
+    '0100', // Thoth (GU)
+    '0011', // Maat (UA)
+    '0010', // Parvati (UC)
+    '0001', // Lakshmi (UG)
+    '0000', // Maia (UU)
+    '1000', // Janus (CU)
+    '1001', // Michael (CG)
+    '1010', // Mitra (CC)
+    '1011', // Kali (CA)
+    '1100', // Keepers (AU)
+    '1101'  // Vishnu (AG)
+  ];
 
-  patterns.forEach((pattern, index) => {
-    const svgAngle = index * 11.25 + 5.625;  // Centered in each fifth
+  let fifthIndex = 0;
+  faceOrderBinary4.forEach(binary4 => {
+    // Two fifths per face (5th bit = 0, then 5th bit = 1)
+    [binary4 + '0', binary4 + '1'].forEach(pattern => {
+      const svgAngle = fifthIndex * 11.25 + 5.625;
 
-    fifths.push({
-      binaryPattern: pattern,
-      gates: fifthGroups[pattern],
-      svgAngle: svgAngle,
-      // Determine face this fifth belongs to
-      face: getFaceFromBinary(pattern.substring(0, 4)),
-      trigram: getTrigramFromBinary(pattern.substring(0, 3))
+      fifths.push({
+        binaryPattern: pattern,
+        gates: fifthGroups[pattern] || [],
+        svgAngle: svgAngle,
+        face: getFaceFromBinary(pattern.substring(0, 4)),
+        trigram: getTrigramFromBinary(pattern.substring(0, 3))
+      });
+
+      fifthIndex++;
     });
   });
 
@@ -517,11 +559,13 @@ function generateQuarterStructure() {
   const transform = GEOMETRY.artboardTransform;
   const stroke = activeColorScheme.stroke;
 
+  // Quarter lines - single continuous arcs following the wheel curvature
+  // Using the MUTATION_Line proportions as the template for all four
   return `    <g id="Structure">
-      <path id="CIVILISATION_Line" data-name="CIVILISATION Line" d="M732.8857,1009.0908c-8.4287-.0664-17.3408-.0664-25.7714,0l-.002-.25c8.4316-.0664,17.3438-.0664,25.7754,0Zm72.6309,2.1426c-23.168-1.24-47.6045-1.9609-72.6309-2.1426l.002-.25c25.03.1817,49.4707.9024,72.6426,2.1426Zm-98.4023-2.1426-.002-.25c-25.03.1817-49.4707.9024-72.6426,2.1426l.0137.25C657.6514,1009.9932,682.0879,1009.2725,707.1143,1009.0908Z" transform="${transform}" fill="${stroke}"/>
-      <path id="DUALITY_Line" data-name="DUALITY Line" d="M1010.9863,805.584c-1.2422-23.1865-1.9638-47.6455-2.1455-72.6963-.0664-8.4316-.0664-17.3438,0-25.7754.167-23.0283.791-45.57,1.8565-67.0864q.1245-2.5137.2568-5.0093l.25.0137c-1.2227,23.0127-1.9336,47.2651-2.1133,72.084h0c-.0664,8.43-.0664,17.3421,0,25.7714.1817,25.0469.9033,49.502,2.1455,72.6846Z" transform="${transform}" fill="${stroke}"/>
       <path id="MUTATION_Line" data-name="MUTATION Line" d="M720,431.3335c-4.3364,0-8.6724-.0161-12.8877-.0493-23.3979-.17-46.2832-.8111-68.0933-1.9068q-2.0361-.1025-4.0595-.21l.0263-.499c23.0152,1.2236,47.2832,1.935,72.13,2.1157h0c7.6377.06,15.6729.0654,23.3848.0166q1.1967-.0073,2.3828-.0166c24.8467-.1807,49.1152-.8921,72.13-2.1157l.0273.499c-23.0234,1.2241-47.2988,1.936-72.1533,2.1167C728.6719,431.3174,724.3359,431.3335,720,431.3335Z" transform="${transform}" fill="${stroke}"/>
-      <path id="INITIATION_Line" data-name="INITIATION Line" d="M431.2842,732.8877l-.5-.0039c.0659-8.4287.0659-17.3394,0-25.7676l.5-.0039C431.35,715.5435,431.35,724.4561,431.2842,732.8877Zm0,0-.5-.0039c-.1817,25.0459-.9033,49.499-2.145,72.68l.499.0273C430.38,782.4023,431.1021,757.9414,431.2842,732.8877Zm0-25.7754c-.1807-24.8462-.8916-49.1045-2.1138-72.102l-.499.0263c1.2212,22.99,1.9321,47.2407,2.1128,72.08Z" transform="${transform}" fill="${stroke}"/>
+      <path id="CIVILISATION_Line" data-name="CIVILISATION Line" d="M720,1008.6665c4.3364,0,8.6724.0161,12.8877.0493,23.3979.17,46.2832.8111,68.0933,1.9068q2.0361.1025,4.0595.21l-.0263.499c-23.0152-1.2236-47.2832-1.935-72.13-2.1157h0c-7.6377-.06-15.6729-.0654-23.3848-.0166q-1.1967.0073-2.3828.0166c-24.8467.1807-49.1152.8921-72.13,2.1157l-.0273-.499c23.0234-1.2241,47.2988-1.936,72.1533-2.1167C711.3281,1008.6826,715.6641,1008.6665,720,1008.6665Z" transform="${transform}" fill="${stroke}"/>
+      <path id="INITIATION_Line" data-name="INITIATION Line" d="M720,431.3335c-4.3364,0-8.6724-.0161-12.8877-.0493-23.3979-.17-46.2832-.8111-68.0933-1.9068q-2.0361-.1025-4.0595-.21l.0263-.499c23.0152,1.2236,47.2832,1.935,72.13,2.1157h0c7.6377.06,15.6729.0654,23.3848.0166q1.1967-.0073,2.3828-.0166c24.8467-.1807,49.1152-.8921,72.13-2.1157l.0273.499c-23.0234,1.2241-47.2988,1.936-72.1533,2.1167C728.6719,431.3174,724.3359,431.3335,720,431.3335Z" transform="${transform} rotate(-90 720 720)" fill="${stroke}"/>
+      <path id="DUALITY_Line" data-name="DUALITY Line" d="M720,431.3335c-4.3364,0-8.6724-.0161-12.8877-.0493-23.3979-.17-46.2832-.8111-68.0933-1.9068q-2.0361-.1025-4.0595-.21l.0263-.499c23.0152,1.2236,47.2832,1.935,72.13,2.1157h0c7.6377.06,15.6729.0654,23.3848.0166q1.1967-.0073,2.3828-.0166c24.8467-.1807,49.1152-.8921,72.13-2.1157l.0273.499c-23.0234,1.2241-47.2988,1.936-72.1533,2.1167C728.6719,431.3174,724.3359,431.3335,720,431.3335Z" transform="${transform} rotate(90 720 720)" fill="${stroke}"/>
       <path id="Initiation-pyramid" d="M447.0151,606.926c-21.0094,17.8617-40.8339,33.4231-59.4735,46.9389M272.5013,720c31.3239-12.4318,69.6787-33.2426,115.04-66.135m59.4742,179.21c-21.01-17.862-40.8344-33.4237-59.4741-46.94m0,0C342.18,753.2426,303.8253,732.4318,272.5013,720" transform="${transform}" fill="none" stroke="${stroke}" stroke-miterlimit="10" stroke-width="0.75"/>
       <path id="Initiation-line" d="M447.0158,833.0746c-2.226,27.4894-5.2418,52.5112-8.8653,75.2508m8.8646-301.3994c-2.226-27.4886-5.2407-52.5127-8.8642-75.2516m12.25,241.9533c1.2046-33.7306,1.2044-73.5239,0-107.2546m-3.3843,166.7015c1.5716-19.2847,2.7075-39.5211,3.3847-59.4469m-46.83,262.8016c13.3582-30.9386,25.7628-72.7736,34.58-128.1039m0-376.651c-8.817-55.3308-21.2221-97.165-34.58-128.1038M450.4,666.3731c-.6749-19.9021-1.8152-40.1966-3.385-59.4471" transform="${transform}" fill="none" stroke="${stroke}" stroke-miterlimit="10"/>
       <path id="Duality-line" d="M1001.8492,531.674c8.8171-55.3306,21.222-97.1647,34.58-128.1034m-34.58,504.7553c8.8171,55.33,21.2217,97.1649,34.58,128.1034m-34.58-504.7553c-3.6236,22.7393-6.6384,47.7637-8.8643,75.2528m-.0008,226.147c2.226,27.49,5.2418,52.5121,8.8654,75.2521m-12.25-134.6991c.677,19.9217,1.8133,40.1665,3.3847,59.447m.0008-226.147c-1.57,19.2547-2.71,39.5413-3.385,59.4473m0,0c-1.2048,33.73-1.2051,73.5226-.0005,107.2527" transform="${transform}" fill="none" stroke="${stroke}" stroke-miterlimit="10"/>
@@ -558,11 +602,19 @@ function generateQuartersLayer() {
 /**
  * Generate a single quarter group with all its elements
  *
- * Uses exact positions extracted from master SVG for precision
+ * Uses exact positions extracted from master SVG for text, programmatic symbols
  */
 function generateQuarterGroup(quarter) {
   const parts = [];
   const pos = quarter.positions;
+
+  // Calculate bigram symbol position geometrically (at 358px radius on centerline)
+  const bigramRadius = 358;
+  const bigramRadians = (quarter.svgAngle - 90) * Math.PI / 180;
+  const bigramPos = {
+    x: GEOMETRY.center.x + bigramRadius * Math.cos(bigramRadians),
+    y: GEOMETRY.center.y + bigramRadius * Math.sin(bigramRadians)
+  };
 
   parts.push(`    <g id="GROUP_-_${quarter.codonLetter}_-_${quarter.name.toUpperCase()}_-_${quarter.planet.toUpperCase()}_-_${quarter.keyword.toUpperCase()}" data-name="GROUP - ${quarter.codonLetter} - ${quarter.name.toUpperCase()} - ${quarter.planet.toUpperCase()} - ${quarter.keyword.toUpperCase()}">`);
 
@@ -586,10 +638,10 @@ function generateQuarterGroup(quarter) {
   parts.push(`        <text transform="matrix(${pos.planet.matrix}, ${pos.planet.x.toFixed(4)}, ${pos.planet.y.toFixed(4)})" font-size="${FONTS.quarterPlanet.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterPlanet.family}" font-weight="${FONTS.quarterPlanet.weight}">${quarter.planet}</text>`);
   parts.push('      </g>');
 
-  // Bigram symbol - use exact path data from master SVG
-  // These use Illustrator artboard coordinates with transform applied
-  const bigramPath = getBigramPath(quarter.codonLetter);
-  parts.push(`      <path id="SYMBOL_-_BIGRAM_-_${quarter.codonLetter}_-_${getBigramDescription(quarter.binaryPattern)}" data-name="SYMBOL - BIGRAM - ${quarter.codonLetter} - ${getBigramDescription(quarter.binaryPattern)}" d="${bigramPath}" transform="${GEOMETRY.artboardTransform}" fill="${activeColorScheme.foreground}"/>`);
+  // Bigram symbol - generated programmatically, centered on quarter centerline
+  parts.push(`      <g id="SYMBOL_-_BIGRAM_-_${quarter.codonLetter}_-_${getBigramDescription(quarter.binaryPattern)}" data-name="SYMBOL - BIGRAM - ${quarter.codonLetter} - ${getBigramDescription(quarter.binaryPattern)}">`);
+  parts.push(`        ${generateBigramSymbol(quarter.binaryPattern, bigramPos.x, bigramPos.y, quarter.svgAngle)}`);
+  parts.push('      </g>');
 
   parts.push('    </g>');
 
@@ -603,24 +655,6 @@ function getBigramDescription(binary) {
   const line1 = binary[0] === '1' ? 'YANG' : 'YIN';
   const line2 = binary[1] === '1' ? 'YANG' : 'YIN';
   return `${line1} (BOTTOM) - ${line2} (TOP)`;
-}
-
-/**
- * Get the exact path data for a bigram symbol (in Illustrator artboard coordinates)
- * These paths are extracted from the master SVG and use the artboard transform
- */
-function getBigramPath(codonLetter) {
-  const paths = {
-    // A (Mutation) - YANG BOTTOM, YANG TOP - two solid horizontal lines
-    'A': 'M730.3983,388.3812h-20.82v-4.9571h20.82Zm0-12.8884h-20.82V380.45h20.82Z',
-    // G (Duality) - YIN BOTTOM, YANG TOP - broken line bottom, solid top
-    'G': 'M1050.6283,723.08h4.9571v7.9313h-4.9571Zm0-4.9571h4.9571V710.192h-4.9571Zm7.9314-7.9313v20.82h4.957v-20.82Z',
-    // U (Civilisation) - YIN BOTTOM, YIN TOP - two broken horizontal lines
-    'U': 'M717.51,1058.8916v4.957h-7.9313v-4.957Zm4.9571,0v4.957h7.9313v-4.957Zm-12.8884-7.9314v4.9571H717.51V1050.96Zm12.8884,0v4.9571h7.9313V1050.96Z',
-    // C (Initiation) - YANG BOTTOM, YIN TOP - solid bottom, broken top
-    'C': 'M389.2875,710.192v20.82H384.33v-20.82Zm-12.8884,20.82h4.9571V723.08h-4.9571Zm0-12.8884h4.9571V710.192h-4.9571Z'
-  };
-  return paths[codonLetter] || '';
 }
 
 /**
@@ -674,32 +708,6 @@ function generateTrigramStructure() {
 }
 
 /**
- * Get the exact path data for a trigram symbol (in Illustrator artboard coordinates)
- * These paths are extracted from the master SVG and use the artboard transform
- */
-function getTrigramSymbolPath(trigramName) {
-  const paths = {
-    // Heaven - 3 solid lines (111)
-    'Heaven': 'M850.11,378.3114l20.1444,8.3441-1.9867,4.7963-20.1444-8.3441Zm1.192-2.8773,20.1444,8.344,1.9867-4.7963-20.1447-8.3445Zm5.1654-12.47-1.9867,4.7963,20.1443,8.3441,1.9868-4.7963Z',
-    // Lake - 2 solid, 1 broken top (110)
-    'Lake': 'M566.736,387.9456l20.1444-8.3441,1.9867,4.7962-20.1444,8.3434Zm-1.1921-2.8778,20.1445-8.3441-1.9867-4.7963-20.1446,8.3437Zm7.305-17.6357,1.9867,4.7962,7.674-3.1787-1.9866-4.7962Zm-4.7963,1.9867-7.674,3.1787,1.9867,4.7962,7.6741-3.1787Z',
-    // Fire - solid, broken, solid (101)
-    'Fire': 'M377.2988,587.878l8.344-20.1443,4.7964,1.9866-8.3438,20.1444Zm2.2876-13.6624,3.1787-7.674-4.7963-1.9866-3.1787,7.674Zm-6.783,2.81-3.1786,7.674,4.7962,1.9868,3.1787-7.674Zm-10.8527,4.4953,4.7963,1.9866,8.3441-20.1444-4.7964-1.9867Z',
-    // Thunder - solid bottom, 2 broken (100)
-    'Thunder': 'M385.9985,872.4969l-8.3441-20.1443,4.7962-1.9868,8.3441,20.1444Zm-10.8527-4.4953,3.1787,7.674,4.7962-1.9866-3.1787-7.674Zm2.81-6.783-3.1788-7.674-4.7962,1.9866,3.1787,7.674ZM367.472,871.18l3.1787,7.674,4.7962-1.9866-3.1787-7.674Zm-1.9867-4.7963,4.7962-1.9867-3.1787-7.674-4.7962,1.9867Z',
-    // Wind - broken bottom, 2 solid (011)
-    'Wind': 'M1059.5224,584.422l3.1787,7.674-4.7963,1.9866-3.1787-7.674Zm-9.9617-10.4834,3.1787,7.674,4.7963-1.9867-3.1787-7.674Zm7.6741-3.1787,8.3441,20.1443,4.7963-1.9866-8.3441-20.1444Zm12.47-5.1654-4.7963,1.9867,8.344,20.1444,4.7964-1.9868Z',
-    // Water - broken, solid, broken (010)
-    'Water': 'M1055.5106,863.3813l-3.1787,7.674-4.7962-1.9867,3.1787-7.674Zm-2.81-6.7831,4.7963,1.9868,3.1788-7.674-4.7964-1.9868Zm7.3051,17.6358,8.344-20.1444-4.7963-1.9867-8.344,20.1445Zm7.674,3.1787,3.1788-7.674-4.7964-1.9868-3.1787,7.6741Zm5.1654-12.47,3.1787-7.674-4.7963-1.9867-3.1786,7.6741Z',
-    // Mountain - 2 broken, solid top (001)
-    'Mountain': 'M871.2447,1052.7331l-7.674,3.1787-1.9866-4.7962,7.674-3.1787Zm-14.4569.3691-7.674,3.1787,1.9866,4.7962,7.6741-3.1787Zm15.649,2.5087-7.674,3.1787,1.9866,4.7963,7.6741-3.1788Zm-12.47,5.1654-7.674,3.1787,1.9866,4.7962,7.6741-3.1787Zm17.6357,7.3049-1.9867-4.7962-20.1444,8.3441,1.9867,4.7962Z',
-    // Earth - 3 broken lines (000)
-    'Earth': 'M569.7121,1048.5479l7.674,3.1787-1.9867,4.7962-7.674-3.1787Zm12.47,5.1654-1.9867,4.7963,7.674,3.1786,1.9867-4.7962Zm-17.6357,7.3049,7.674,3.1787,1.9867-4.7962-7.6741-3.1787Zm12.47,5.1655,7.674,3.1786,1.9868-4.7962-7.6741-3.1788Zm-15.649,2.5087,7.674,3.1786,1.9867-4.7962-7.6741-3.1787Zm12.47,5.1653,7.674,3.1786,1.9867-4.7962-7.6741-3.1787Z'
-  };
-  return paths[trigramName] || '';
-}
-
-/**
  * Get trigram symbol description for ID naming
  */
 function getTrigramSymbolDescription(trigramName) {
@@ -719,27 +727,29 @@ function getTrigramSymbolDescription(trigramName) {
 /**
  * Generate a single trigram group
  *
- * Uses exact positions and paths from master SVG for precise alignment
+ * Generates text and symbol programmatically, positioned geometrically on centerline
  */
 function generateTrigramGroup(trigram) {
   const parts = [];
 
-  // Use extracted positions from master SVG
+  // Use geometrically calculated positions
   const textPos = trigram.textPos;
+  const symbolPos = trigram.symbolPos;
   const cos = trigram.rotMatrix.cos;
   const sin = trigram.rotMatrix.sin;
 
   parts.push(`    <g id="GROUP_-_${trigram.name.toUpperCase()}" data-name="GROUP - ${trigram.name.toUpperCase()}">`);
 
-  // Trigram name text - using exact position from master
+  // Trigram name text - geometrically centered on centerline
   parts.push(`      <g id="TEXT_-_${trigram.name}" data-name="TEXT - ${trigram.name}">`);
-  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${textPos.x.toFixed(4)}, ${textPos.y.toFixed(4)})" font-size="${FONTS.trigramName.size}" font-family="${FONTS.trigramName.family}" style="isolation: isolate" fill="${activeColorScheme.foreground}">${trigram.name}</text>`);
+  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${textPos.x.toFixed(4)}, ${textPos.y.toFixed(4)})" font-size="${FONTS.trigramName.size}" font-family="${FONTS.trigramName.family}" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate" fill="${activeColorScheme.foreground}">${trigram.name}</text>`);
   parts.push('      </g>');
 
-  // Trigram symbol - using exact path from master
-  const symbolPath = getTrigramSymbolPath(trigram.name);
+  // Trigram symbol - generated programmatically, centered on centerline
   const symbolDesc = getTrigramSymbolDescription(trigram.name);
-  parts.push(`      <path id="SYMBOL_-_TRIGRAM_-_${trigram.name.toUpperCase()}_-_${symbolDesc.replace(/ /g, '_')}" data-name="SYMBOL - TRIGRAM - ${trigram.name.toUpperCase()} - ${symbolDesc}" d="${symbolPath}" transform="${GEOMETRY.artboardTransform}" fill="${activeColorScheme.foreground}"/>`);
+  parts.push(`      <g id="SYMBOL_-_TRIGRAM_-_${trigram.name.toUpperCase()}_-_${symbolDesc.replace(/ /g, '_')}" data-name="SYMBOL - TRIGRAM - ${trigram.name.toUpperCase()} - ${symbolDesc}">`);
+  parts.push(`        ${generateTrigramSymbol(trigram.binaryPattern, symbolPos.x, symbolPos.y, trigram.svgAngle)}`);
+  parts.push('      </g>');
 
   parts.push('    </g>');
 
@@ -747,89 +757,74 @@ function generateTrigramGroup(trigram) {
 }
 
 /**
- * Exact Face positions extracted from master SVG
- * Each face has: codon text position, name text position, rotation angle, and symbol path
+ * Exact Face text positions extracted from master SVG
+ * Each face has: codon text position, name text position, rotation angle
+ * Symbols are now generated programmatically at 400px radius
  */
 const FACE_POSITIONS = {
   'aa': { // Hades
     codon: { x: 639.5731, y: 134.2832, rot: 33.75 },
-    name: { x: 662.6361, y: 74.3831, rot: 33.75 },
-    symbolPath: 'M932.5577,387.9318l14.4326,9.6436-2.2961,3.4362-14.4325-9.6434Zm1.3777-2.0617,14.4325,9.6434,2.2961-3.4363-14.4325-9.6434Zm3.6737-5.4978,14.4325,9.6434,2.2961-3.4363-14.4325-9.6434Zm5.97-8.9345-2.296,3.4363,14.4325,9.6435,2.296-3.4363Z'
+    name: { x: 662.6361, y: 74.3831, rot: 33.75 }
   },
   'ac': { // Prometheus
     codon: { x: 504.1029, y: 84.8831, rot: 11.2504 },
-    name: { x: 473.1375, y: 14.882, rot: 11.2504 },
-    symbolPath: 'M787.7284,335.9943l.8063-4.0534,17.0242,3.3864-.8062,4.0534Zm19.1206-7.1525-17.0243-3.3864-.8063,4.0534,17.0243,3.3864Zm1.29-6.4855L791.1148,318.97l-.8063,4.0534,17.0242,3.3863Zm1.29-6.4854-6.4854-1.29-.8063,4.0534,6.4855,1.29Zm-11.3454,1.9571-6.4854-1.29.8063-4.0534,6.4854,1.29Z'
+    name: { x: 473.1375, y: 14.882, rot: 11.2504 }
   },
   'ag': { // Vishnu
     codon: { x: 359.4615, y: 91.1636, rot: -11.2504 },
-    name: { x: 329.066, y: 33.3529, rot: -11.2504 },
-    symbolPath: 'M634.0479,335.3273l17.0243-3.3864.8063,4.0534-17.0243,3.3864Zm-.4837-2.4321,17.0243-3.3864-.8063-4.0534-17.0243,3.3864Zm4.389-11.8289-6.4854,1.29.8062,4.0534,6.4855-1.29Zm4.86,3.2472,6.4854-1.29-.8062-4.0534-6.4855,1.29Zm-12.6352-8.4425.8063,4.0534,17.0243-3.3863-.8063-4.0534Z'
+    name: { x: 329.066, y: 33.3529, rot: -11.2504 }
   },
   'au': { // Keepers of the Wheel
     codon: { x: 228.2305, y: 152.3831, rot: -33.75 },
-    name: { x: 174.3974, y: 112.1901, rot: -33.75, hasSubtext: true, subtext: 'of the Wheel', subtextX: 186.1518, subtextY: 113.5361 },
-    symbolPath: 'M494.9128,401.0116l-2.2961-3.4362,14.4325-9.6436,2.296,3.4364Zm8.4627-18.5778-14.4322,9.6434,2.2961,3.4363,14.4325-9.6434Zm-3.6737-5.4978L494.204,380.61l2.2961,3.4362,5.4978-3.6736Zm-8.9344,5.97-5.4978,3.6737,2.2961,3.4363,5.4978-3.6737Zm5.2606-11.4679-5.4978,3.6737,2.2961,3.4364,5.4978-3.6738Zm-8.9343,5.97-5.4982,3.6737,2.2961,3.4364,5.4978-3.6737Z'
+    name: { x: 174.3974, y: 112.1901, rot: -33.75, hasSubtext: true, subtext: 'of the Wheel', subtextX: 186.1518, subtextY: 113.5361 }
   },
   'ca': { // Kali
     codon: { x: 131.4293, y: 258.1711, rot: -56.25 },
-    name: { x: 76.6625, y: 227.4169, rot: -56.25 },
-    symbolPath: 'M389.2089,511.5046l-3.4364-2.2961,9.6435-14.4325,3.4363,2.2961Zm.4716-12.6082,3.6738-5.4978-3.4364-2.296L386.2442,496.6Zm-5.7324,1.14-3.6736,5.4977,3.4362,2.2961,3.6738-5.4981Zm.4717-12.6081-9.6433,14.4325,3.4363,2.296,9.6435-14.4325Zm-5.4978-3.6738-9.6435,14.4325,3.4364,2.2961,9.6434-14.4325Z'
+    name: { x: 76.6625, y: 227.4169, rot: -56.25 }
   },
   'cc': { // Mitra
     codon: { x: 82.0389, y: 393.8067, rot: -78.7496 },
-    name: { x: 18.2865, y: 393.2213, rot: -78.7496 },
-    symbolPath: 'M333.835,654.0378l-4.0534-.8062,3.3863-17.0243,4.0534.8063Zm-4.389-11.8289,1.29-6.4854-4.0534-.8063-1.29,6.4855Zm-4.86,3.2472-1.29,6.4855,4.0534.8063,1.29-6.4855Zm-4.389-11.8288-3.3863,17.0243,4.0534.8062,3.3863-17.0243Zm-6.4854-1.29-1.29,6.4855,4.0534.8063,1.29-6.4855Zm-2.0963,10.5389-1.29,6.4854,4.0534.8063,1.29-6.4854Z'
+    name: { x: 18.2865, y: 393.2213, rot: -78.7496 }
   },
   'cg': { // Michael
     codon: { x: 88.2852, y: 538.4474, rot: -101.2504 },
-    name: { x: 31.4492, y: 573.5852, rot: -101.2504 },
-    symbolPath: 'M337.2213,806.912l-4.0534.8063-3.3863-17.0242,4.0534-.8063Zm-11.8288-4.389,1.29,6.4855,4.0534-.8063-1.29-6.4854Zm3.2472-4.86-1.29-6.4855-4.0535.8063,1.29,6.4854Zm-6.4855,1.29-1.29-6.4855-4.0534.8063,1.29,6.4855Zm-3.2472,4.86,1.29,6.4854,4.0534-.8063-1.29-6.4854Zm-8.5817-9.2489,3.3863,17.0242,4.0534-.8062-3.3863-17.0243Z'
+    name: { x: 31.4492, y: 573.5852, rot: -101.2504 }
   },
   'cu': { // Janus
     codon: { x: 149.5176, y: 669.5128, rot: -123.75 },
-    name: { x: 104.1961, y: 714.3888, rot: -123.75 },
-    symbolPath: 'M395.416,949.15l-9.6435-14.4325,3.4364-2.2961,9.6434,14.4324Zm-8.0315-7.557-3.6738-5.4978-3.4363,2.296,3.6737,5.4981Zm-1.14,5.7324,3.6737,5.4978,3.4363-2.296-3.6737-5.4981Zm-5.4978,3.6737,3.6737,5.498,3.4363-2.296-3.6737-5.4978Zm1.14-5.7324-3.6737-5.4978-3.4363,2.2961,3.6737,5.4977Zm-6.6383,9.406,3.6737,5.4981,3.4363-2.296-3.6737-5.4978Zm-2.296-3.4363,3.4362-2.2961-3.6736-5.4977-3.4364,2.296Z'
+    name: { x: 104.1961, y: 714.3888, rot: -123.75 }
   },
   'ga': { // Minerva
     codon: { x: 745.6203, y: 231.4857, rot: 56.25 },
-    name: { x: 784.3683, y: 176.7611, rot: 56.25 },
-    symbolPath: 'M1044.191,494.776l3.6736,5.4978-3.4363,2.2961-3.6737-5.4978Zm2.5334,11.23,3.6737,5.4978,3.4363-2.296-3.6736-5.4978Zm-.4717-12.608,9.6435,14.4325,3.4363-2.2961-9.6434-14.4325Zm5.4978-3.6738,9.6438,14.4325,3.4363-2.296-9.6435-14.4325Zm8.9344-5.97-3.4363,2.296,9.6435,14.4325,3.4363-2.296Z'
+    name: { x: 784.3683, y: 176.7611, rot: 56.25 }
   },
   'gc': { // Christ
     codon: { x: 806.7472, y: 362.337, rot: 78.7496 },
-    name: { x: 864.8149, y: 333.5388, rot: 78.7496 },
-    symbolPath: 'M1106.4393,636.2073l1.29,6.4854-4.0534.8063-1.29-6.4855Zm-1.9571,11.3454,1.29,6.4854,4.0534-.8063-1.29-6.4855Zm4.389-11.829,3.3864,17.0243,4.0533-.8062-3.3863-17.0243Zm6.4854-1.29,3.3864,17.0243,4.0534-.8063-3.3864-17.0243Zm11.8289,4.389-1.29-6.4854-4.0534.8063,1.29,6.4854Zm.8062,4.0534-4.0534.8063,1.29,6.4854,4.0533-.8062Z'
+    name: { x: 864.8149, y: 333.5388, rot: 78.7496 }
   },
   'gg': { // Harmonia
     codon: { x: 813.2047, y: 506.0432, rot: 101.2504 },
-    name: { x: 880.525, y: 488.2771, rot: 101.2504 },
-    symbolPath: 'M1109.8251,790.6941l-1.29,6.4854-4.0534-.8063,1.29-6.4854Zm-6.15,9.7325-1.29,6.4854,4.0539.8063,1.29-6.4854Zm8.5818-9.2489-3.3864,17.0243,4.0534.8063,3.3863-17.0242Zm9.2488,8.5818,1.29-6.4854-4.0534-.8063-1.29,6.4854Zm-4.86,3.2472-1.29,6.4854,4.0534.8063,1.29-6.4854Zm12.635-8.4425-4.0533-.8063-3.3864,17.0243,4.0534.8062Z'
+    name: { x: 880.525, y: 488.2771, rot: 101.2504 }
   },
   'gu': { // Thoth
     codon: { x: 764.2326, y: 641.2736, rot: 123.75 },
-    name: { x: 823.359, y: 665.5068, rot: 123.75 },
-    symbolPath: 'M1050.3981,932.421l3.4363,2.2961-3.6736,5.4981-3.4363-2.2961Zm-5.97,8.9344-3.6738,5.4978,3.4364,2.2961,3.6736-5.4978Zm5.2607,11.4678,9.6434-14.4325-3.4363-2.2959-9.6435,14.4325Zm5.4977,3.6738,3.6738-5.4981-3.4363-2.2961-3.6737,5.4978Zm5.97-8.9344,3.6737-5.4978-3.4363-2.2961-3.6737,5.4978Zm5.4978,3.6736,3.6737-5.4977-3.4363-2.2961-3.6737,5.4978Zm-5.97,8.9345,3.6736-5.4981-3.4363-2.296-3.6736,5.4978Z'
+    name: { x: 823.359, y: 665.5068, rot: 123.75 }
   },
   'ua': { // Maat
     codon: { x: 666.6466, y: 748.2259, rot: 146.25 },
-    name: { x: 707.4171, y: 796.3, rot: 146.25 },
-    symbolPath: 'M946.99,1046.35l-5.4978,3.6737-2.2961-3.4364,5.4978-3.6736Zm-11.23,2.5334-5.4981,3.6737,2.296,3.4364,5.4978-3.6737Zm12.608-.4716-5.4981,3.6736,2.2961,3.4363,5.4978-3.6736Zm-8.9344,5.97-5.4977,3.6737,2.296,3.4363,5.4978-3.6737Zm12.6081-.4717-14.4325,9.6434,2.2961,3.4364,14.4325-9.6436Zm5.97,8.9344-2.296-3.4363-14.4325,9.6435,2.296,3.4363Z'
+    name: { x: 707.4171, y: 796.3, rot: 146.25 }
   },
   'uc': { // Parvati
     codon: { x: 536.0303, y: 809.5324, rot: 168.7496 },
-    name: { x: 568.0561, y: 866.9342, rot: 168.7496 },
-    symbolPath: 'M795.02,1110.6946l-6.4854,1.29-.8063-4.0534,6.4855-1.29Zm9.7326-6.15-6.4855,1.29.8063,4.0533,6.4854-1.29Zm1.29,6.4855-6.4854,1.29.8062,4.0534,6.4855-1.29Zm-10.5388,2.0963-6.4855,1.29.8063,4.0534,6.4855-1.29Zm11.8288,4.389-17.0242,3.3864.8063,4.0534,17.0242-3.3864Zm-8.4425,12.6351-.8062-4.0534-6.4855,1.29.8063,4.0534Zm4.0534-.8062,6.4854-1.29-.8062-4.0533-6.4855,1.29Z'
+    name: { x: 568.0561, y: 866.9342, rot: 168.7496 }
   },
   'ug': { // Lakshmi
     codon: { x: 392.3241, y: 816.1405, rot: -168.7496 },
-    name: { x: 401.5744, y: 881.7967, rot: -168.7496 },
-    symbolPath: 'M640.5334,1109.8883l-6.4855-1.29.8063-4.0534,6.4855,1.29Zm4.86-3.2472-.8063,4.0534,6.4855,1.29.8062-4.0534ZM640.05,1112.32l-6.4854-1.29-.8063,4.0534,6.4854,1.29Zm3.2472,4.86,6.4855,1.29.8063-4.0533-6.4855-1.29Zm-1.29,6.4854,6.4855,1.29.8063-4.0534-6.4855-1.29Zm-3.2471-4.86-6.4855-1.29-.8063,4.0534,6.4855,1.29Zm-8.5818,9.2488,17.0243,3.3864.8062-4.0534-17.0242-3.3863Z'
+    name: { x: 401.5744, y: 881.7967, rot: -168.7496 }
   },
   'uu': { // Maia
     codon: { x: 256.8612, y: 767.3487, rot: -146.25 },
-    name: { x: 225.9082, y: 821.9873, rot: -146.25 },
-    symbolPath: 'M494.9128,1042.9139l5.4977,3.6737-2.296,3.4363-5.4978-3.6737Zm8.9344,5.97-2.2961,3.4363,5.4978,3.6737,2.2961-3.4363Zm-14.9039,2.9648,5.4978,3.6736,2.2961-3.4363-5.4978-3.6736Zm8.9344,5.97,5.4981,3.6737,2.2961-3.4363-5.4978-3.6737Zm-12.6081-.4717,5.4978,3.6737,2.2961-3.4364-5.4978-3.6736Zm8.9344,5.97,5.4978,3.6738,2.296-3.4364L496.5,1059.88Zm-12.6081-.4716,5.4981,3.6737,2.2961-3.4364-5.4978-3.6737Zm8.9344,5.97,5.4978,3.6737,2.296-3.4363-5.4978-3.6737Z'
+    name: { x: 225.9082, y: 821.9873, rot: -146.25 }
   }
 };
 
@@ -883,7 +878,7 @@ function generateFacesLayer() {
 }
 
 /**
- * Generate a single face group using exact positions from master
+ * Generate a single face group using exact positions from master for text, programmatic symbols
  */
 function generateFaceGroup(face) {
   const parts = [];
@@ -893,6 +888,14 @@ function generateFaceGroup(face) {
     console.warn(`No position data for face: ${face.codonPattern}`);
     return '';
   }
+
+  // Calculate tetragram symbol position geometrically (at 404px radius on centerline)
+  const tetragramRadius = 404;
+  const tetragramRadians = (face.svgAngle - 90) * Math.PI / 180;
+  const tetragramPos = {
+    x: GEOMETRY.center.x + tetragramRadius * Math.cos(tetragramRadians),
+    y: GEOMETRY.center.y + tetragramRadius * Math.sin(tetragramRadians)
+  };
 
   // Handle face names with spaces
   const faceId = face.name.replace(/\s+/g, '_').toUpperCase();
@@ -912,8 +915,10 @@ function generateFaceGroup(face) {
     parts.push(`      <text id="TEXT_-_${face.name.replace(/\s+/g, '_')}" data-name="TEXT - ${face.name}" transform="translate(${facePos.name.x} ${facePos.name.y}) rotate(${facePos.name.rot})" font-size="${FONTS.faceName.size}" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" style="isolation: isolate">${face.name}</text>`);
   }
 
-  // Tetragram symbol - using exact path from master
-  parts.push(`      <path id="SYMBOL_-_FACE_-_${faceId}_-_${face.codonPattern.toUpperCase()}" data-name="SYMBOL - FACE - ${face.name.toUpperCase()} - ${face.codonPattern.toUpperCase()}" d="${facePos.symbolPath}" transform="${GEOMETRY.artboardTransform}" fill="${activeColorScheme.foreground}"/>`);
+  // Tetragram symbol - generated programmatically, centered on face centerline
+  parts.push(`      <g id="SYMBOL_-_FACE_-_${faceId}_-_${face.codonPattern.toUpperCase()}" data-name="SYMBOL - FACE - ${face.name.toUpperCase()} - ${face.codonPattern.toUpperCase()}">`);
+  parts.push(`        ${generateTetragramSymbol(face.binaryPattern, tetragramPos.x, tetragramPos.y, face.svgAngle)}`);
+  parts.push('      </g>');
 
   parts.push('    </g>');
 
@@ -1124,23 +1129,10 @@ if (require.main === module) {
   console.log(`  - ${stats.fifths.count} Fifths (5-bit patterns)`);
   console.log('');
 
-  console.log('Color Schemes:');
-  console.log('  - Light: Dark elements (#1d1d1b) on transparent background');
-  console.log('  - Dark:  Light elements (#FFFFFF) on dark background (#151E25) with gold highlights (#fab414)');
-  console.log('');
-
-  // Generate both light and dark versions
-  const versions = [
-    { colorScheme: 'light', filename: 'generated-quarters-trigrams-faces-fifths-light.svg', label: 'Light theme' },
-    { colorScheme: 'dark', filename: 'generated-quarters-trigrams-faces-fifths-dark.svg', label: 'Dark theme' }
-  ];
-
-  versions.forEach(({ colorScheme, filename, label }) => {
-    const svg = generateQuartersTrigramsFacesRing({ colorScheme });
-    const outputPath = path.join(outputDir, filename);
-    fs.writeFileSync(outputPath, svg);
-    console.log(`${label}: ${outputPath} (${(svg.length / 1024).toFixed(1)} KB)`);
-  });
-
+  // Generate dark version only
+  const svg = generateQuartersTrigramsFacesRing({ colorScheme: 'dark' });
+  const outputPath = path.join(outputDir, 'generated-quarters-trigrams-faces-fifths.svg');
+  fs.writeFileSync(outputPath, svg);
+  console.log(`Output: ${outputPath} (${(svg.length / 1024).toFixed(1)} KB)`);
   console.log('\nDone!');
 }
