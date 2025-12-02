@@ -81,11 +81,11 @@ const RING = {
 // Band radii extracted from master SVG (from outside to inside):
 // Positions calculated from gate 56 elements at top of wheel
 const BAND_RADII = {
-  keynote: 5543,         // Outermost - text aligned to this edge, extends outward (moved in 13px)
-  detriment: 5480,       // Detriment planets (right side) - closer to keynote
-  lineNumber: 5400,      // Line numbers (1-6) - middle band
-  exalted: 5320,         // Exalted planets (right side) - closer to yin/yang
-  yinYang: 5223          // Innermost - yin/yang markers
+  keynote: 5487,         // Outermost - moved 56px inward (was 5543)
+  detriment: 5432,       // Detriment planets - moved 48px inward (was 5480)
+  lineNumber: 5357,      // Line numbers (1-6) - moved 43px inward (was 5400)
+  exalted: 5287,         // Exalted planets - moved 33px inward (was 5320)
+  yinYang: 5204          // Innermost - yin/yang markers - moved 19px inward (was 5223)
 };
 
 // ============================================================================
@@ -100,7 +100,7 @@ const FONT = {
   },
   keynote: {
     family: 'Copperplate-Light, Copperplate',
-    size: 53,          // 45 + 18%
+    size: 60.2,        // 57.3 + 5%
     weight: 300
   }
 };
