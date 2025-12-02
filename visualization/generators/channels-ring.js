@@ -30,20 +30,21 @@ const channelsData = require('../../knowledge-systems/channels/mappings/channels
 const CENTER = { x: 6482.5278, y: 6486.1582 };
 
 // Ring radii from master (verified from the-36-channels-verified-master-mini-sizes.svg)
+// Inner number band reduced by 36% (band width: 203px → 130px)
 const RING_RADII = {
   inner: 4504.9828,       // Inner ring (structure)
-  outer: 4708,            // Ring 2 - moved inward to separate inner numbers from inner centre
-  bottomOuter: 6159.3379, // Outer band inner edge
-  bottom: 6481.1808       // Outermost boundary
+  outer: 4635,            // Ring 2 - reduced 36% to shrink inner number band (was 4708)
+  bottomOuter: 5809.3379, // Outer band inner edge - moved 350px inward (was 6159.3379)
+  bottom: 6131.1808       // Outermost boundary - moved 350px inward (was 6481.1808)
 };
 
 // Extended structure radii (from STRUCTURE_CHANNELS_ORIGINAL in master)
 // These define the full extent of radial divider lines
 const STRUCTURE_RADII = {
   dividerInner: 4505,     // Inner end of radial dividers (inner ring)
-  dividerOuter: 6483,     // Outer end of radial dividers (outermost boundary)
-  outerRing1: 6159,       // First outer ring (bottomOuter) - inner edge of outer band
-  outerRing2: 6481        // Second outer ring (bottom) - outermost boundary
+  dividerOuter: 6133,     // Outer end of radial dividers - moved 350px inward (was 6483)
+  outerRing1: 5809,       // First outer ring (bottomOuter) - moved 350px inward (was 6159)
+  outerRing2: 6131        // Second outer ring (bottom) - moved 350px inward (was 6481)
 };
 
 // Text band radii - different for single vs multi-channel gates
@@ -53,26 +54,26 @@ const STRUCTURE_RADII = {
 // Single-channel radii - centered within rings 2-3 (4827-6159)
 // Shifted -152px inward to center content within the zone
 const BAND_RADII_SINGLE = {
-  innerCentre: 4768,      // Inner centre like "Throat"
-  circuit: 4889,          // Circuit - moved 28px inward
-  keynote: 5465,          // Keynote - same radius as channelName for radial centering
-  channelName: 5465,      // Channel name - centered between circuit and energyType
-  energyType: 5803,       // Energy type - moved 28px inward
-  outerCentre: 6095,      // Outer centre like "Ajna" - moved 180px outward total
-  outerGateNumber: 6320,  // Gate number - moved outward to align with hexagram
-  outerHexagram: 6320     // Hexagram - same radius as gate number
+  innerCentre: 4671,      // Inner centre like "Throat" - 36px gap from inner number band
+  circuit: 4724,          // Circuit - moved 24px inward (was 4748)
+  keynote: 5215,          // Keynote - moved 24px inward (was 5239)
+  channelName: 5215,      // Channel name - moved 24px inward (was 5239)
+  energyType: 5541,       // Energy type - moved 74px outward (was 5467)
+  outerCentre: 5755,      // Outer centre like "Ajna" - moved 74px outward (was 5681)
+  outerGateNumber: 5970,  // Gate number - moved 350px inward (was 6320)
+  outerHexagram: 5970     // Hexagram - moved 350px inward (was 6320)
 };
 
 // Multi-channel radii (measured from Recognition 41-30, Perfected Form 10-57)
 const BAND_RADII_MULTI = {
-  innerCentre: 4768,      // Match single-channel inner centre radius
-  channelName: 4840,      // Moved inward 60px more to align with sub-divider inner edge
-  keynote: 4840,          // Same as channelName - aligned with sub-divider inner edge
-  energyType: 6030,       // Moved outward 40px (was 5990)
-  circuit: 6030,          // Same as energyType
-  outerCentre: 6096,      // SP at radius - moved 40px outward
-  outerHexagram: 6240,    // Hexagram - closer to centre (inner part of outer band) - moved 40px outward
-  outerGateNumber: 6380   // Gate number - further from centre (outer edge) - moved 20px inward total
+  innerCentre: 4671,      // Match single-channel inner centre radius - 36px gap from inner number band (was 4768)
+  channelName: 4724,      // Moved 116px inward (was 4840)
+  keynote: 4724,          // Moved 116px inward (was 4840)
+  energyType: 5730,       // Moved 300px inward (was 6030)
+  circuit: 5730,          // Moved 300px inward (was 6030)
+  outerCentre: 5780,      // Moved 316px inward (was 6096)
+  outerHexagram: 5890,    // Hexagram - moved 350px inward (was 6240)
+  outerGateNumber: 6030   // Gate number - moved 350px inward (was 6380)
 };
 
 // Default BAND_RADII for backwards compatibility (uses multi-channel values)
@@ -106,33 +107,33 @@ const FONT = {
   family: 'Copperplate',
   // Single channel gates (1 channel) - larger fonts
   single: {
-    channelName: { size: 116.4, weight: 400 },
-    keynote: { size: 62, weight: 400 },
-    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
+    channelName: { size: 100.8, weight: 400 },  // Increased 16px (was 84.8)
+    keynote: { size: 53.9, weight: 400 },  // Reduced 13% (was 62)
+    innerGate: { family: 'Herculanum', size: 128, weight: 400 },  // Reduced 36% (was 200)
     outerGate: { family: 'Herculanum', size: 179, weight: 400 },
-    innerCentre: { size: 102, weight: 400 },
-    outerCentre: { size: 102, weight: 400 },
-    energyType: { size: 85, weight: 400 },   // +18% (was 72)
-    circuit: { size: 85, weight: 400 }       // +18% (was 72)
+    innerCentre: { size: 65, weight: 400 },  // Reduced 36% (was 102)
+    outerCentre: { size: 71.3, weight: 400 },  // Reduced 32% total (was 102)
+    energyType: { size: 69.7, weight: 400 },   // Reduced 18% (was 85)
+    circuit: { size: 69.7, weight: 400 }       // Reduced 18% (was 85)
   },
   // Multi-channel gates (2-3 channels, e.g., Integration Circuit) - compressed fonts
   multi: {
-    channelName: { size: 86.4, weight: 400 },
+    channelName: { size: 56.2, weight: 400 },  // Reduced 35% (was 86.4)
     keynote: { size: 38.4, weight: 400 },
-    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 128, weight: 400 },  // Reduced 36% (was 200)
     outerGate: { family: 'Herculanum', size: 100, weight: 400 },  // Smaller to fit in sub-segment
-    innerCentre: { size: 102.4, weight: 400 },
+    innerCentre: { size: 65.5, weight: 400 },  // Reduced 36% (was 102.4)
     outerCentre: { size: 51.2, weight: 400 },
     energyType: { size: 48, weight: 400 },
     circuit: { size: 48, weight: 400 }
   },
   // Middle channel in multi-channel gates (23% larger text, 35% larger outer gate number)
   multiMiddle: {
-    channelName: { size: 86.4 * 1.23, weight: 400 },  // ~106.3
+    channelName: { size: 56.2 * 1.23, weight: 400 },  // Reduced 35% base, then +23% = ~69.1
     keynote: { size: 38.4 * 1.23 * 0.8, weight: 400 },    // 20% smaller = ~37.8
-    innerGate: { family: 'Herculanum', size: 200, weight: 400 },
+    innerGate: { family: 'Herculanum', size: 128, weight: 400 },  // Reduced 36% (was 200)
     outerGate: { family: 'Herculanum', size: 100 * 1.35, weight: 400 },  // 35% larger = 135
-    innerCentre: { size: 102.4, weight: 400 },
+    innerCentre: { size: 65.5, weight: 400 },  // Reduced 36% (was 102.4)
     outerCentre: { size: 51.2, weight: 400 },  // Same size as other channels
     energyType: { size: 48 * 1.23 * 0.8, weight: 400 },   // 20% smaller = ~47.2
     circuit: { size: 48 * 1.23 * 0.8, weight: 400 }       // 20% smaller = ~47.2
@@ -849,7 +850,7 @@ function generateDividers(stroke, strokeWidth) {
  */
 function generateInnerGateNumbers(fill) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
-  const INNER_GATE_RADIUS = 4612; // Between inner ring (4505) and ring 2 (4827)
+  const INNER_GATE_RADIUS = 4570; // Between inner ring (4505) and ring 2 (4635) - centered in reduced band
   let numbers = '';
 
   for (const gate of gateSequence) {
