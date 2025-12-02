@@ -66,6 +66,84 @@ const STROKES = {
 };
 
 // ============================================================================
+// DYNAMIC GEOMETRY CONSTANTS
+// ============================================================================
+
+// Center of the viewBox (bodygraph is centered)
+const CENTER_X = GEOMETRY.viewBox.width / 2;   // ~601.24
+const CENTER_Y = GEOMETRY.viewBox.height / 2;  // ~601.24
+
+// Base radius for outer gate dots (extracted from original geometry)
+const BASE_DOT_RADIUS = 596.45;
+
+// Gate sequence around the wheel (position 0-63 maps to gate number)
+// This defines the angular position of each gate on the outer wheel
+const GATE_WHEEL_SEQUENCE = [
+  41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
+  27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
+  31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
+  28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
+];
+
+// Build reverse lookup: gate number -> wheel position (0-63)
+const GATE_TO_POSITION = {};
+GATE_WHEEL_SEQUENCE.forEach((gate, pos) => {
+  GATE_TO_POSITION[gate] = pos;
+});
+
+/**
+ * Calculate the angle (in radians) for a gate's position on the wheel
+ * Gate 41 (position 0) is at -126.7°, going counter-clockwise
+ */
+function getGateAngle(gateNum) {
+  const position = GATE_TO_POSITION[gateNum];
+  // Start from Gate 41's position (-126.7°), go counter-clockwise (negative direction)
+  // Each position is 360/64 = 5.625 degrees apart
+  const startAngle = -126.7;
+  const degrees = startAngle - (position * 360 / 64);
+  return degrees * Math.PI / 180;
+}
+
+/**
+ * Calculate outer dot position for a gate at a given radius multiplier
+ */
+function calculateDotPosition(gateNum, radiusMultiplier = 1.0) {
+  const angle = getGateAngle(gateNum);
+  const radius = BASE_DOT_RADIUS * radiusMultiplier;
+  return {
+    cx: CENTER_X + radius * Math.cos(angle),
+    cy: CENTER_Y + radius * Math.sin(angle)
+  };
+}
+
+/**
+ * Generate a curved bezier path from gate to dot
+ * The curve bends perpendicular to the direct line, with bend amount
+ * proportional to the distance
+ */
+function generateCurvedPath(gateX, gateY, dotX, dotY, bendFactor = 0.3) {
+  // Vector from gate to dot
+  const dx = dotX - gateX;
+  const dy = dotY - gateY;
+  const dist = Math.sqrt(dx * dx + dy * dy);
+
+  // Perpendicular vector (normalized)
+  const perpX = -dy / dist;
+  const perpY = dx / dist;
+
+  // Bend amount proportional to distance
+  const bendAmount = dist * bendFactor;
+
+  // Control points at 1/3 and 2/3 along the line, offset perpendicular
+  const cp1x = gateX + dx * 0.33 + perpX * bendAmount;
+  const cp1y = gateY + dy * 0.33 + perpY * bendAmount;
+  const cp2x = gateX + dx * 0.66 + perpX * bendAmount * 0.5;
+  const cp2y = gateY + dy * 0.66 + perpY * bendAmount * 0.5;
+
+  return `M${dotX.toFixed(4)},${dotY.toFixed(4)}C${cp2x.toFixed(4)},${cp2y.toFixed(4)},${cp1x.toFixed(4)},${cp1y.toFixed(4)},${gateX.toFixed(4)},${gateY.toFixed(4)}`;
+}
+
+// ============================================================================
 // CIRCUIT DEFINITIONS
 // ============================================================================
 
@@ -216,32 +294,58 @@ function getCenterKnowledge(centerName) {
 // ============================================================================
 
 /**
- * Generate the SVG header
+ * Generate the SVG header with dynamic canvas size
+ * @param {number} radiusMultiplier - Multiplier for outer dot radius (affects canvas size)
  */
-function generateHeader() {
-  const { viewBox } = GEOMETRY;
+function generateHeader(radiusMultiplier = 1.0) {
+  const baseSize = GEOMETRY.viewBox.width; // 1202.4747
+
+  // Calculate required canvas size based on radius multiplier
+  // The dots need to fit within the canvas with some padding
+  const dotRadius = BASE_DOT_RADIUS * radiusMultiplier;
+  const requiredSize = (dotRadius + 20) * 2; // +20 for padding around dots
+  const canvasSize = Math.max(baseSize, requiredSize);
+
+  // Offset to keep bodygraph centered when canvas expands
+  const offset = (canvasSize - baseSize) / 2;
+
   return `<svg id="BODYGRAPH_-_GENERATED"
      data-name="BODYGRAPH - GENERATED"
      xmlns="http://www.w3.org/2000/svg"
-     width="${viewBox.width}"
-     height="${viewBox.height}"
-     viewBox="0 0 ${viewBox.width} ${viewBox.height}">
-  <rect id="background" width="${viewBox.width}" height="${viewBox.height}" fill="${COLORS.background}"/>`;
+     width="${canvasSize.toFixed(4)}"
+     height="${canvasSize.toFixed(4)}"
+     viewBox="0 0 ${canvasSize.toFixed(4)} ${canvasSize.toFixed(4)}">
+  <rect id="background" width="${canvasSize.toFixed(4)}" height="${canvasSize.toFixed(4)}" fill="${COLORS.background}"/>
+  <g id="BODYGRAPH_CONTENT" transform="translate(${offset.toFixed(4)}, ${offset.toFixed(4)})">`;
+}
+
+/**
+ * Generate the SVG footer (closes the content group and svg)
+ */
+function generateFooter() {
+  return `  </g>
+</svg>`;
 }
 
 /**
  * Generate direct connector lines (outer layer)
+ * Lines are calculated dynamically from gate positions to outer dot positions
+ * @param {number} radiusMultiplier - Multiplier for outer dot radius (1.0 = original)
  */
-function generateDirectConnectors() {
+function generateDirectConnectors(radiusMultiplier = 1.0) {
   const lines = [];
 
-  for (const [gateNum, coords] of Object.entries(GEOMETRY.connectors.direct)) {
-    const { x1, y1, x2, y2 } = coords;
+  for (let gateNum = 1; gateNum <= 64; gateNum++) {
+    const gatePos = GEOMETRY.gates[gateNum];
+    if (!gatePos) continue;
+
+    const dotPos = calculateDotPosition(gateNum, radiusMultiplier);
+
     lines.push(`    <line
        id="LINE_-_DIRECT-CONNECTION_-_GATE_${gateNum}"
        data-name="LINE - DIRECT-CONNECTION - GATE ${gateNum}"
        data-gate="${gateNum}"
-       x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"
+       x1="${dotPos.cx.toFixed(4)}" y1="${dotPos.cy.toFixed(4)}" x2="${gatePos.cx}" y2="${gatePos.cy}"
        fill="none"
        stroke="${COLORS.connectorStroke}"
        stroke-miterlimit="10"
@@ -254,35 +358,30 @@ ${lines.join('\n')}
 }
 
 /**
- * Generate curved connector lines/paths
+ * Generate curved connector paths
+ * Bezier curves are calculated dynamically with proportional bend
+ * @param {number} radiusMultiplier - Multiplier for outer dot radius (1.0 = original)
+ * @param {number} bendFactor - How much the curve bends (0.3 = 30% of distance)
  */
-function generateCurvedConnectors() {
+function generateCurvedConnectors(radiusMultiplier = 1.0, bendFactor = 0.3) {
   const elements = [];
-  const transform = `translate(${GEOMETRY.transform.x} ${GEOMETRY.transform.y})`;
 
-  for (const [gateNum, data] of Object.entries(GEOMETRY.connectors.curved)) {
-    if (data.type === 'line') {
-      elements.push(`    <line
+  for (let gateNum = 1; gateNum <= 64; gateNum++) {
+    const gatePos = GEOMETRY.gates[gateNum];
+    if (!gatePos) continue;
+
+    const dotPos = calculateDotPosition(gateNum, radiusMultiplier);
+    const pathD = generateCurvedPath(gatePos.cx, gatePos.cy, dotPos.cx, dotPos.cy, bendFactor);
+
+    elements.push(`    <path
        id="LINE_-_CURVED-CONNECTION_-_GATE_${gateNum}"
        data-name="LINE - CURVED-CONNECTION - GATE ${gateNum}"
        data-gate="${gateNum}"
-       x1="${data.x1}" y1="${data.y1}" x2="${data.x2}" y2="${data.y2}"
+       d="${pathD}"
        fill="none"
        stroke="${COLORS.connectorStroke}"
        stroke-miterlimit="10"
        stroke-width="${STROKES.connector}"/>`);
-    } else {
-      elements.push(`    <path
-       id="LINE_-_CURVED-CONNECTION_-_GATE_${gateNum}"
-       data-name="LINE - CURVED-CONNECTION - GATE ${gateNum}"
-       data-gate="${gateNum}"
-       d="${data.d}"
-       transform="${data.transform || transform}"
-       fill="none"
-       stroke="${COLORS.connectorStroke}"
-       stroke-miterlimit="10"
-       stroke-width="${STROKES.connector}"/>`);
-    }
   }
 
   return `  <g id="GROUP_-_CONNECTORS_-_CURVED" data-name="GROUP - CONNECTORS - CURVED">
@@ -292,17 +391,21 @@ ${elements.join('\n')}
 
 /**
  * Generate gate dots (outer wheel markers) - solid white filled circles
+ * Positions are calculated dynamically based on radius multiplier
+ * @param {number} radiusMultiplier - Multiplier for outer dot radius (1.0 = original)
  */
-function generateGateDots() {
+function generateGateDots(radiusMultiplier = 1.0) {
   const dots = [];
+  const dotR = Object.values(GEOMETRY.gateDots)[0]?.r || 5.4175; // Use original dot radius
 
-  for (const [gateNum, coords] of Object.entries(GEOMETRY.gateDots)) {
-    const { cx, cy, r } = coords;
+  for (let gateNum = 1; gateNum <= 64; gateNum++) {
+    const dotPos = calculateDotPosition(gateNum, radiusMultiplier);
+
     dots.push(`    <circle
        id="SYMBOL_-_GATE-DOT_-_${gateNum}"
        data-name="SYMBOL - GATE-DOT - ${gateNum}"
        data-gate="${gateNum}"
-       cx="${cx}" cy="${cy}" r="${r}"
+       cx="${dotPos.cx.toFixed(4)}" cy="${dotPos.cy.toFixed(4)}" r="${dotR}"
        fill="${COLORS.foreground}"
        stroke="none"/>`);
   }
@@ -571,13 +674,6 @@ ${centerGroups.join('\n')}
   </g>`;
 }
 
-/**
- * Generate the SVG footer
- */
-function generateFooter() {
-  return `</svg>`;
-}
-
 // ============================================================================
 // MAIN GENERATION FUNCTION
 // ============================================================================
@@ -588,23 +684,27 @@ function generateFooter() {
  * @param {Object} options - Generation options
  * @param {boolean} options.includeConnectors - Include outer connector lines (default: true)
  * @param {boolean} options.includeGateDots - Include gate dots (default: true)
+ * @param {number} options.dotRadiusMultiplier - Multiplier for outer dot distance (default: 1.0)
+ * @param {number} options.curveBendFactor - How much curved connectors bend (default: 0.3)
  * @returns {string} Complete SVG markup
  */
 function generateBodygraph(options = {}) {
   const {
     includeConnectors = true,
-    includeGateDots = true
+    includeGateDots = true,
+    dotRadiusMultiplier = 1.0,
+    curveBendFactor = 0.3
   } = options;
 
-  const sections = [generateHeader()];
+  const sections = [generateHeader(dotRadiusMultiplier)];
 
   // Outer connectors layer (behind everything)
   if (includeConnectors) {
     sections.push(`  <g id="THE_BODYGRAPH_-_CONNECTORS" data-name="THE BODYGRAPH - CONNECTORS">`);
-    sections.push(generateDirectConnectors());
-    sections.push(generateCurvedConnectors());
+    sections.push(generateDirectConnectors(dotRadiusMultiplier));
+    sections.push(generateCurvedConnectors(dotRadiusMultiplier, curveBendFactor));
     if (includeGateDots) {
-      sections.push(generateGateDots());
+      sections.push(generateGateDots(dotRadiusMultiplier));
     }
     sections.push(`  </g>`);
   }
