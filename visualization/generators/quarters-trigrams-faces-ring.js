@@ -123,68 +123,59 @@ const FONTS = {
  * - Civilisation (U): Bottom, matrix(-1, 0.0067, 0.0074, -1, x, y) - inverted horizontal
  * - Initiation (C): Left, matrix(-0.0067, -1, 1, 0.0074, x, y) - inverted vertical
  */
+/**
+ * Get quarter information with positioning calculated from first principles
+ * Quarters are at 0°, 90°, 180°, 270° on the wheel
+ * All text positions calculated geometrically from center
+ */
 function getQuarterData() {
-  const quarters = [
-    {
-      name: 'Mutation',
-      codonLetter: 'A',
-      binaryPattern: '11',
-      planet: 'Sirius',
-      keyword: 'Transformation',
-      svgAngle: 0,
-      // Exact positions from master SVG (codon moved 50px outward)
-      positions: {
-        codon: { x: 441.2279, y: 80.534, matrix: '1, 0, 0, 1' },
-        keyword: { x: 392.1512, y: 136.3561, matrix: '1, -0.0067, -0.0074, 1' },
-        name: { x: 403.9728, y: 149.7366, matrix: '1, -0.0067, -0.0074, 1' },
-        planet: { x: 428.4497, y: 107.486, matrix: '1, -0.0067, -0.0074, 1' }
-      }
-    },
-    {
-      name: 'Duality',
-      codonLetter: 'G',
-      binaryPattern: '01',
-      planet: 'Jupiter',
-      keyword: 'Bonding',
-      svgAngle: 90,
-      positions: {
-        codon: { x: 814.8148, y: 442.0525, matrix: '-0.0004, 1, -1, -0.0004' },
-        keyword: { x: 759.914, y: 419.8765, matrix: '0.0067, 1, -1, -0.0074' },
-        name: { x: 746.2725, y: 412.2439, matrix: '0.0067, 1, -1, -0.0074' },
-        planet: { x: 788.6959, y: 425.9328, matrix: '0.0067, 1, -1, -0.0074' }
-      }
-    },
-    {
-      name: 'Civilisation',
-      codonLetter: 'U',
-      binaryPattern: '00',
-      planet: 'Dubhe',
-      keyword: 'Form',
-      svgAngle: 180,
-      positions: {
-        codon: { x: 454.2226, y: 816.339, matrix: '-1, 0, 0, -1' },
-        keyword: { x: 465.4014, y: 760.7719, matrix: '-1, 0.0067, 0.0074, -1' },
-        name: { x: 504.276, y: 746.5507, matrix: '-1, 0.0067, 0.0074, -1' },
-        planet: { x: 467.6162, y: 788.9552, matrix: '-1, 0.0067, 0.0074, -1' }
-      }
-    },
-    {
-      name: 'Initiation',
-      codonLetter: 'C',
-      binaryPattern: '10',
-      planet: 'Alcyone',
-      keyword: 'Mind',
-      svgAngle: 270,
-      positions: {
-        codon: { x: 79.654, y: 455.2793, matrix: '0.0004, -1, 1, 0.0004' },
-        keyword: { x: 135.2674, y: 465.9189, matrix: '-0.0067, -1, 1, 0.0074' },
-        name: { x: 149.4245, y: 494.1287, matrix: '-0.0067, -1, 1, 0.0074' },
-        planet: { x: 107.1325, y: 473.9305, matrix: '-0.0067, -1, 1, 0.0074' }
-      }
-    }
+  // Text radii (distance from center)
+  const radii = {
+    codon: 368,     // Codon letter "(A)" etc - outermost
+    planet: 341,    // Planet name
+    keyword: 314,   // Keyword
+    name: 302       // Quarter name - innermost
+  };
+
+  // Quarter definitions with wheel order
+  // Data connected to V3 knowledge engine via quartersData
+  const quarterDefs = [
+    { name: 'Mutation', codonLetter: 'A', binaryPattern: '11', planet: 'Sirius', keyword: 'Transformation', svgAngle: 0 },
+    { name: 'Duality', codonLetter: 'G', binaryPattern: '01', planet: 'Jupiter', keyword: 'Bonding', svgAngle: 90 },
+    { name: 'Civilisation', codonLetter: 'U', binaryPattern: '00', planet: 'Dubhe', keyword: 'Form', svgAngle: 180 },
+    { name: 'Initiation', codonLetter: 'C', binaryPattern: '10', planet: 'Alcyone', keyword: 'Mind', svgAngle: 270 }
   ];
 
-  return quarters;
+  return quarterDefs.map(q => {
+    const angleRad = (q.svgAngle - 90) * Math.PI / 180; // -90 to start from top
+    const cos = Math.cos(angleRad);
+    const sin = Math.sin(angleRad);
+
+    // Calculate positions geometrically
+    const positions = {
+      codon: {
+        x: GEOMETRY.center.x + radii.codon * cos,
+        y: GEOMETRY.center.y + radii.codon * sin
+      },
+      planet: {
+        x: GEOMETRY.center.x + radii.planet * cos,
+        y: GEOMETRY.center.y + radii.planet * sin
+      },
+      keyword: {
+        x: GEOMETRY.center.x + radii.keyword * cos,
+        y: GEOMETRY.center.y + radii.keyword * sin
+      },
+      name: {
+        x: GEOMETRY.center.x + radii.name * cos,
+        y: GEOMETRY.center.y + radii.name * sin
+      }
+    };
+
+    return {
+      ...q,
+      positions
+    };
+  });
 }
 
 // ============================================================================
@@ -264,11 +255,18 @@ function getTrigramData() {
 // ============================================================================
 
 /**
- * Get face information with positioning
+ * Get face information with positioning calculated from first principles
  * 16 faces at 22.5° intervals
  * Order derived from actual wheel positions (calculated from text coordinates)
+ * All text positions calculated geometrically from center
  */
 function getFaceData() {
+  // Text radii (distance from center) - averaged from master SVG positions
+  const radii = {
+    codon: 370,    // Codon text "(aa)" etc
+    name: 433      // Face name text
+  };
+
   // Face order on the wheel (sorted by actual position, 0° = top, clockwise)
   // This order is derived from the FACE_POSITIONS text coordinates
   const faceOrder = [
@@ -282,6 +280,33 @@ function getFaceData() {
     const mapping = facesData.mappings.find(m => m.groupName === name);
     const svgAngle = index * 22.5 + 11.25;  // Offset by half to center between dividers
 
+    // Calculate positions geometrically
+    const angleRad = (svgAngle - 90) * Math.PI / 180; // -90 to start from top
+    const cos = Math.cos(angleRad);
+    const sin = Math.sin(angleRad);
+
+    const positions = {
+      codon: {
+        x: GEOMETRY.center.x + radii.codon * cos,
+        y: GEOMETRY.center.y + radii.codon * sin
+      },
+      name: {
+        x: GEOMETRY.center.x + radii.name * cos,
+        y: GEOMETRY.center.y + radii.name * sin
+      }
+    };
+
+    // Calculate text rotation so text reads from outside
+    const textRotation = calculateTextRotation(svgAngle);
+
+    // Calculate rotation matrix for text orientation
+    const rotAngle = svgAngle; // Rotation follows the radial angle
+    const rotRad = rotAngle * Math.PI / 180;
+    const rotMatrix = {
+      cos: Math.cos(rotRad).toFixed(4),
+      sin: Math.sin(rotRad).toFixed(4)
+    };
+
     return {
       name: mapping.groupName,
       codonPattern: mapping.codonPattern.toLowerCase(),
@@ -289,7 +314,9 @@ function getFaceData() {
       mythology: mapping.knowledge.mythology,
       archetype: mapping.knowledge.archetype,
       svgAngle: svgAngle,
-      textRotation: calculateTextRotation(svgAngle)
+      positions: positions,
+      textRotation: textRotation,
+      rotMatrix: rotMatrix
     };
   });
 }
@@ -430,7 +457,7 @@ function generateBigramSymbol(binary, x, y, rotation = 0) {
   const lineWidth = 20.82;
   const lineHeight = 4.957;
   const lineSpacing = 7.93;
-  const yinGapWidth = 7.93;
+  const yinGapWidth = 3.93;  // Reduced from 7.93 for tighter yin symbol
 
   const lines = [];
 
@@ -461,7 +488,7 @@ function generateTrigramSymbol(binary, x, y, rotation = 0) {
   const lineWidth = 20.1444;
   const lineHeight = 4.7962;
   const lineSpacing = 7.674;
-  const yinGapWidth = 7.674;
+  const yinGapWidth = 3.674;  // Reduced from 7.674 for tighter yin symbol
 
   const lines = [];
 
@@ -492,7 +519,7 @@ function generateTetragramSymbol(binary, x, y, rotation = 0) {
   const lineWidth = 17.0243;
   const lineHeight = 4.0534;
   const lineSpacing = 6.4854;
-  const yinGapWidth = 6.4854;
+  const yinGapWidth = 4.4854;  // Reduced from 6.4854 for tighter yin symbol
 
   const lines = [];
 
@@ -602,14 +629,21 @@ function generateQuartersLayer() {
 /**
  * Generate a single quarter group with all its elements
  *
- * Uses exact positions extracted from master SVG for text, programmatic symbols
+ * All positions calculated from first principles using geometric positioning
  */
 function generateQuarterGroup(quarter) {
   const parts = [];
   const pos = quarter.positions;
 
-  // Calculate bigram symbol position geometrically (at 358px radius on centerline)
-  const bigramRadius = 358;
+  // Calculate rotation matrix for text orientation
+  // Quarters at 0° and 180° have horizontal text
+  // Quarters at 90° and 270° have vertical text
+  const angleRad = quarter.svgAngle * Math.PI / 180;
+  const cos = Math.cos(angleRad).toFixed(4);
+  const sin = Math.sin(angleRad).toFixed(4);
+
+  // Calculate bigram symbol position geometrically (at 355px radius on centerline)
+  const bigramRadius = 355;
   const bigramRadians = (quarter.svgAngle - 90) * Math.PI / 180;
   const bigramPos = {
     x: GEOMETRY.center.x + bigramRadius * Math.cos(bigramRadians),
@@ -618,24 +652,24 @@ function generateQuarterGroup(quarter) {
 
   parts.push(`    <g id="GROUP_-_${quarter.codonLetter}_-_${quarter.name.toUpperCase()}_-_${quarter.planet.toUpperCase()}_-_${quarter.keyword.toUpperCase()}" data-name="GROUP - ${quarter.codonLetter} - ${quarter.name.toUpperCase()} - ${quarter.planet.toUpperCase()} - ${quarter.keyword.toUpperCase()}">`);
 
-  // Codon letter text - using exact position from master
+  // Codon letter text - geometrically positioned
   parts.push(`      <g id="TEXT_-_CODON-LETTER_-_${quarter.codonLetter}_" data-name="TEXT - CODON-LETTER - (${quarter.codonLetter})">`);
-  parts.push(`        <text transform="matrix(${pos.codon.matrix}, ${pos.codon.x.toFixed(4)}, ${pos.codon.y.toFixed(4)})" font-size="${FONTS.quarterCodon.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterCodon.family}">(${quarter.codonLetter})</text>`);
+  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.codon.x.toFixed(4)}, ${pos.codon.y.toFixed(4)})" font-size="${FONTS.quarterCodon.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterCodon.family}" text-anchor="middle" dominant-baseline="middle">(${quarter.codonLetter})</text>`);
   parts.push('      </g>');
 
-  // Keyword text - using exact position from master
-  parts.push(`      <g id="TEXT_-_KEYWORD_-_${quarter.keyword}" data-name="TEXT - KEYWORD - ${quarter.keyword}">`);
-  parts.push(`        <text transform="matrix(${pos.keyword.matrix}, ${pos.keyword.x.toFixed(4)}, ${pos.keyword.y.toFixed(4)})" font-size="${FONTS.quarterKeyword.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterKeyword.family}" font-weight="${FONTS.quarterKeyword.weight}">${quarter.keyword}</text>`);
-  parts.push('      </g>');
-
-  // Quarter name text - using exact position from master
-  parts.push(`      <g id="TEXT_-_NAME_-_${quarter.name}" data-name="TEXT - NAME - ${quarter.name}">`);
-  parts.push(`        <text transform="matrix(${pos.name.matrix}, ${pos.name.x.toFixed(4)}, ${pos.name.y.toFixed(4)})" font-size="${FONTS.quarterName.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterName.family}">${quarter.name}</text>`);
-  parts.push('      </g>');
-
-  // Planet text - using exact position from master
+  // Planet text - geometrically positioned
   parts.push(`      <g id="TEXT_-_PLANET_-_${quarter.planet}" data-name="TEXT - PLANET - ${quarter.planet}">`);
-  parts.push(`        <text transform="matrix(${pos.planet.matrix}, ${pos.planet.x.toFixed(4)}, ${pos.planet.y.toFixed(4)})" font-size="${FONTS.quarterPlanet.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterPlanet.family}" font-weight="${FONTS.quarterPlanet.weight}">${quarter.planet}</text>`);
+  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.planet.x.toFixed(4)}, ${pos.planet.y.toFixed(4)})" font-size="${FONTS.quarterPlanet.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterPlanet.family}" font-weight="${FONTS.quarterPlanet.weight}" text-anchor="middle" dominant-baseline="middle">${quarter.planet}</text>`);
+  parts.push('      </g>');
+
+  // Keyword text - geometrically positioned
+  parts.push(`      <g id="TEXT_-_KEYWORD_-_${quarter.keyword}" data-name="TEXT - KEYWORD - ${quarter.keyword}">`);
+  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.keyword.x.toFixed(4)}, ${pos.keyword.y.toFixed(4)})" font-size="${FONTS.quarterKeyword.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterKeyword.family}" font-weight="${FONTS.quarterKeyword.weight}" text-anchor="middle" dominant-baseline="middle">${quarter.keyword}</text>`);
+  parts.push('      </g>');
+
+  // Quarter name text - geometrically positioned
+  parts.push(`      <g id="TEXT_-_NAME_-_${quarter.name}" data-name="TEXT - NAME - ${quarter.name}">`);
+  parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.name.x.toFixed(4)}, ${pos.name.y.toFixed(4)})" font-size="${FONTS.quarterName.size}" fill="${activeColorScheme.foreground}" font-family="${FONTS.quarterName.family}" text-anchor="middle" dominant-baseline="middle">${quarter.name}</text>`);
   parts.push('      </g>');
 
   // Bigram symbol - generated programmatically, centered on quarter centerline
@@ -756,77 +790,8 @@ function generateTrigramGroup(trigram) {
   return parts.join('\n');
 }
 
-/**
- * Exact Face text positions extracted from master SVG
- * Each face has: codon text position, name text position, rotation angle
- * Symbols are now generated programmatically at 400px radius
- */
-const FACE_POSITIONS = {
-  'aa': { // Hades
-    codon: { x: 639.5731, y: 134.2832, rot: 33.75 },
-    name: { x: 662.6361, y: 74.3831, rot: 33.75 }
-  },
-  'ac': { // Prometheus
-    codon: { x: 504.1029, y: 84.8831, rot: 11.2504 },
-    name: { x: 473.1375, y: 14.882, rot: 11.2504 }
-  },
-  'ag': { // Vishnu
-    codon: { x: 359.4615, y: 91.1636, rot: -11.2504 },
-    name: { x: 329.066, y: 33.3529, rot: -11.2504 }
-  },
-  'au': { // Keepers of the Wheel
-    codon: { x: 228.2305, y: 152.3831, rot: -33.75 },
-    name: { x: 174.3974, y: 112.1901, rot: -33.75, hasSubtext: true, subtext: 'of the Wheel', subtextX: 186.1518, subtextY: 113.5361 }
-  },
-  'ca': { // Kali
-    codon: { x: 131.4293, y: 258.1711, rot: -56.25 },
-    name: { x: 76.6625, y: 227.4169, rot: -56.25 }
-  },
-  'cc': { // Mitra
-    codon: { x: 82.0389, y: 393.8067, rot: -78.7496 },
-    name: { x: 18.2865, y: 393.2213, rot: -78.7496 }
-  },
-  'cg': { // Michael
-    codon: { x: 88.2852, y: 538.4474, rot: -101.2504 },
-    name: { x: 31.4492, y: 573.5852, rot: -101.2504 }
-  },
-  'cu': { // Janus
-    codon: { x: 149.5176, y: 669.5128, rot: -123.75 },
-    name: { x: 104.1961, y: 714.3888, rot: -123.75 }
-  },
-  'ga': { // Minerva
-    codon: { x: 745.6203, y: 231.4857, rot: 56.25 },
-    name: { x: 784.3683, y: 176.7611, rot: 56.25 }
-  },
-  'gc': { // Christ
-    codon: { x: 806.7472, y: 362.337, rot: 78.7496 },
-    name: { x: 864.8149, y: 333.5388, rot: 78.7496 }
-  },
-  'gg': { // Harmonia
-    codon: { x: 813.2047, y: 506.0432, rot: 101.2504 },
-    name: { x: 880.525, y: 488.2771, rot: 101.2504 }
-  },
-  'gu': { // Thoth
-    codon: { x: 764.2326, y: 641.2736, rot: 123.75 },
-    name: { x: 823.359, y: 665.5068, rot: 123.75 }
-  },
-  'ua': { // Maat
-    codon: { x: 666.6466, y: 748.2259, rot: 146.25 },
-    name: { x: 707.4171, y: 796.3, rot: 146.25 }
-  },
-  'uc': { // Parvati
-    codon: { x: 536.0303, y: 809.5324, rot: 168.7496 },
-    name: { x: 568.0561, y: 866.9342, rot: 168.7496 }
-  },
-  'ug': { // Lakshmi
-    codon: { x: 392.3241, y: 816.1405, rot: -168.7496 },
-    name: { x: 401.5744, y: 881.7967, rot: -168.7496 }
-  },
-  'uu': { // Maia
-    codon: { x: 256.8612, y: 767.3487, rot: -146.25 },
-    name: { x: 225.9082, y: 821.9873, rot: -146.25 }
-  }
-};
+// NOTE: FACE_POSITIONS removed - all face text now uses first-principles geometric positioning
+// calculated in getFaceData() using radii and angles from center
 
 /**
  * Face Structure: divider lines extracted from master
@@ -878,16 +843,14 @@ function generateFacesLayer() {
 }
 
 /**
- * Generate a single face group using exact positions from master for text, programmatic symbols
+ * Generate a single face group using first-principles geometric positioning
+ * All positions calculated from center using radii and angles
  */
 function generateFaceGroup(face) {
   const parts = [];
-  const facePos = FACE_POSITIONS[face.codonPattern];
-
-  if (!facePos) {
-    console.warn(`No position data for face: ${face.codonPattern}`);
-    return '';
-  }
+  const pos = face.positions;
+  const cos = face.rotMatrix.cos;
+  const sin = face.rotMatrix.sin;
 
   // Calculate tetragram symbol position geometrically (at 404px radius on centerline)
   const tetragramRadius = 404;
@@ -902,17 +865,24 @@ function generateFaceGroup(face) {
 
   parts.push(`    <g id="GROUP_-_${face.codonPattern.toUpperCase()}_-_${faceId}" data-name="GROUP - ${face.codonPattern.toUpperCase()} - ${face.name.toUpperCase()}">`);
 
-  // Codon pattern text (e.g., "(aa)") - using exact position and rotation from master
-  parts.push(`      <text id="TEXT_-_${face.codonPattern}_" data-name="TEXT - ${face.codonPattern} " transform="translate(${facePos.codon.x} ${facePos.codon.y}) rotate(${facePos.codon.rot})" font-size="${FONTS.faceCodon.size}" font-family="${FONTS.faceCodon.family}" fill="${activeColorScheme.foreground}" style="isolation: isolate">(${face.codonPattern})</text>`);
+  // Codon pattern text (e.g., "(aa)") - geometrically positioned with rotation matrix
+  parts.push(`      <text id="TEXT_-_${face.codonPattern}_" data-name="TEXT - ${face.codonPattern} " transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.codon.x.toFixed(4)}, ${pos.codon.y.toFixed(4)})" font-size="${FONTS.faceCodon.size}" font-family="${FONTS.faceCodon.family}" fill="${activeColorScheme.foreground}" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(${face.codonPattern})</text>`);
 
-  // Face name text - handle special case for "Keepers of the Wheel" with subtext
-  if (facePos.name.hasSubtext) {
-    parts.push(`      <g id="TEXT_-_${face.name.replace(/\s+/g, '_')}" data-name="TEXT - ${face.name}" style="isolation: isolate">`);
-    parts.push(`        <text transform="translate(${facePos.name.x} ${facePos.name.y}) rotate(${facePos.name.rot})" font-size="${FONTS.faceName.size}" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" style="isolation: isolate">Keepers</text>`);
-    parts.push(`        <text transform="translate(${facePos.name.subtextX} ${facePos.name.subtextY}) rotate(${facePos.name.rot})" font-size="9.0727" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" style="isolation: isolate">${facePos.name.subtext}</text>`);
+  // Face name text - handle special case for "Keepers of the Wheel"
+  if (face.name === 'Keepers of the Wheel') {
+    // For "Keepers of the Wheel", show as two lines
+    const lineOffset = 10; // Vertical offset between lines
+    parts.push(`      <g id="TEXT_-_KEEPERS_OF_THE_WHEEL" data-name="TEXT - Keepers of the Wheel" style="isolation: isolate">`);
+    parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.name.x.toFixed(4)}, ${pos.name.y.toFixed(4)})" font-size="${FONTS.faceName.size}" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Keepers</text>`);
+    // Calculate offset position for subtext (perpendicular to radial direction)
+    const subtextRadius = 433 + lineOffset;
+    const subtextRadians = (face.svgAngle - 90) * Math.PI / 180;
+    const subtextX = GEOMETRY.center.x + subtextRadius * Math.cos(subtextRadians);
+    const subtextY = GEOMETRY.center.y + subtextRadius * Math.sin(subtextRadians);
+    parts.push(`        <text transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${subtextX.toFixed(4)}, ${subtextY.toFixed(4)})" font-size="9.0727" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">of the Wheel</text>`);
     parts.push('      </g>');
   } else {
-    parts.push(`      <text id="TEXT_-_${face.name.replace(/\s+/g, '_')}" data-name="TEXT - ${face.name}" transform="translate(${facePos.name.x} ${facePos.name.y}) rotate(${facePos.name.rot})" font-size="${FONTS.faceName.size}" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" style="isolation: isolate">${face.name}</text>`);
+    parts.push(`      <text id="TEXT_-_${face.name.replace(/\s+/g, '_')}" data-name="TEXT - ${face.name}" transform="matrix(${cos}, ${sin}, ${-sin}, ${cos}, ${pos.name.x.toFixed(4)}, ${pos.name.y.toFixed(4)})" font-size="${FONTS.faceName.size}" font-family="${FONTS.faceName.family}" fill="${activeColorScheme.foreground}" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">${face.name}</text>`);
   }
 
   // Tetragram symbol - generated programmatically, centered on face centerline

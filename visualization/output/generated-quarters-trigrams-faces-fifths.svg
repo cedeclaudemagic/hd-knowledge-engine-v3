@@ -17,19 +17,19 @@
     </g>
     <g id="GROUP_-_A_-_MUTATION_-_SIRIUS_-_TRANSFORMATION" data-name="GROUP - A - MUTATION - SIRIUS - TRANSFORMATION">
       <g id="TEXT_-_CODON-LETTER_-_A_" data-name="TEXT - CODON-LETTER - (A)">
-        <text transform="matrix(1, 0, 0, 1, 441.2279, 80.5340)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate">(A)</text>
-      </g>
-      <g id="TEXT_-_KEYWORD_-_Transformation" data-name="TEXT - KEYWORD - Transformation">
-        <text transform="matrix(1, -0.0067, -0.0074, 1, 392.1512, 136.3561)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Transformation</text>
-      </g>
-      <g id="TEXT_-_NAME_-_Mutation" data-name="TEXT - NAME - Mutation">
-        <text transform="matrix(1, -0.0067, -0.0074, 1, 403.9728, 149.7366)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate">Mutation</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 80.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(A)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Sirius" data-name="TEXT - PLANET - Sirius">
-        <text transform="matrix(1, -0.0067, -0.0074, 1, 428.4497, 107.4860)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Sirius</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 107.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Sirius</text>
+      </g>
+      <g id="TEXT_-_KEYWORD_-_Transformation" data-name="TEXT - KEYWORD - Transformation">
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 134.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Transformation</text>
+      </g>
+      <g id="TEXT_-_NAME_-_Mutation" data-name="TEXT - NAME - Mutation">
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 146.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Mutation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_A_-_YANG (BOTTOM) - YANG (TOP)" data-name="SYMBOL - BIGRAM - A - YANG (BOTTOM) - YANG (TOP)">
-        <g transform="translate(447.6371, 90.3389) rotate(0)" fill="#FFFFFF">
+        <g transform="translate(447.6371, 93.3389) rotate(0)" fill="#FFFFFF">
     <rect x="-10.41" y="1.4865" width="20.82" height="4.957"/>
     <rect x="-10.41" y="-6.4435" width="20.82" height="4.957"/>
   </g>
@@ -37,65 +37,65 @@
     </g>
     <g id="GROUP_-_G_-_DUALITY_-_JUPITER_-_BONDING" data-name="GROUP - G - DUALITY - JUPITER - BONDING">
       <g id="TEXT_-_CODON-LETTER_-_G_" data-name="TEXT - CODON-LETTER - (G)">
-        <text transform="matrix(-0.0004, 1, -1, -0.0004, 814.8148, 442.0525)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate">(G)</text>
-      </g>
-      <g id="TEXT_-_KEYWORD_-_Bonding" data-name="TEXT - KEYWORD - Bonding">
-        <text transform="matrix(0.0067, 1, -1, -0.0074, 759.9140, 419.8765)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Bonding</text>
-      </g>
-      <g id="TEXT_-_NAME_-_Duality" data-name="TEXT - NAME - Duality">
-        <text transform="matrix(0.0067, 1, -1, -0.0074, 746.2725, 412.2439)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate">Duality</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 815.6371, 448.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(G)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Jupiter" data-name="TEXT - PLANET - Jupiter">
-        <text transform="matrix(0.0067, 1, -1, -0.0074, 788.6959, 425.9328)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Jupiter</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 788.6371, 448.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Jupiter</text>
+      </g>
+      <g id="TEXT_-_KEYWORD_-_Bonding" data-name="TEXT - KEYWORD - Bonding">
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 761.6371, 448.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Bonding</text>
+      </g>
+      <g id="TEXT_-_NAME_-_Duality" data-name="TEXT - NAME - Duality">
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 749.6371, 448.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Duality</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_G_-_YIN (BOTTOM) - YANG (TOP)" data-name="SYMBOL - BIGRAM - G - YIN (BOTTOM) - YANG (TOP)">
-        <g transform="translate(805.6371, 448.3389) rotate(90)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="6.445" height="4.957"/>
-    <rect x="3.965" y="1.4865" width="6.445" height="4.957"/>
+        <g transform="translate(802.6371, 448.3389) rotate(90)" fill="#FFFFFF">
+    <rect x="-10.41" y="1.4865" width="8.445" height="4.957"/>
+    <rect x="1.965" y="1.4865" width="8.445" height="4.957"/>
     <rect x="-10.41" y="-6.4435" width="20.82" height="4.957"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_U_-_CIVILISATION_-_DUBHE_-_FORM" data-name="GROUP - U - CIVILISATION - DUBHE - FORM">
       <g id="TEXT_-_CODON-LETTER_-_U_" data-name="TEXT - CODON-LETTER - (U)">
-        <text transform="matrix(-1, 0, 0, -1, 454.2226, 816.3390)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate">(U)</text>
-      </g>
-      <g id="TEXT_-_KEYWORD_-_Form" data-name="TEXT - KEYWORD - Form">
-        <text transform="matrix(-1, 0.0067, 0.0074, -1, 465.4014, 760.7719)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Form</text>
-      </g>
-      <g id="TEXT_-_NAME_-_Civilisation" data-name="TEXT - NAME - Civilisation">
-        <text transform="matrix(-1, 0.0067, 0.0074, -1, 504.2760, 746.5507)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate">Civilisation</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 816.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(U)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Dubhe" data-name="TEXT - PLANET - Dubhe">
-        <text transform="matrix(-1, 0.0067, 0.0074, -1, 467.6162, 788.9552)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Dubhe</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 789.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Dubhe</text>
+      </g>
+      <g id="TEXT_-_KEYWORD_-_Form" data-name="TEXT - KEYWORD - Form">
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 762.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Form</text>
+      </g>
+      <g id="TEXT_-_NAME_-_Civilisation" data-name="TEXT - NAME - Civilisation">
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 750.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Civilisation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_U_-_YIN (BOTTOM) - YIN (TOP)" data-name="SYMBOL - BIGRAM - U - YIN (BOTTOM) - YIN (TOP)">
-        <g transform="translate(447.6371, 806.3389) rotate(180)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="6.445" height="4.957"/>
-    <rect x="3.965" y="1.4865" width="6.445" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="6.445" height="4.957"/>
-    <rect x="3.965" y="-6.4435" width="6.445" height="4.957"/>
+        <g transform="translate(447.6371, 803.3389) rotate(180)" fill="#FFFFFF">
+    <rect x="-10.41" y="1.4865" width="8.445" height="4.957"/>
+    <rect x="1.965" y="1.4865" width="8.445" height="4.957"/>
+    <rect x="-10.41" y="-6.4435" width="8.445" height="4.957"/>
+    <rect x="1.965" y="-6.4435" width="8.445" height="4.957"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_C_-_INITIATION_-_ALCYONE_-_MIND" data-name="GROUP - C - INITIATION - ALCYONE - MIND">
       <g id="TEXT_-_CODON-LETTER_-_C_" data-name="TEXT - CODON-LETTER - (C)">
-        <text transform="matrix(0.0004, -1, 1, 0.0004, 79.6540, 455.2793)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate">(C)</text>
-      </g>
-      <g id="TEXT_-_KEYWORD_-_Mind" data-name="TEXT - KEYWORD - Mind">
-        <text transform="matrix(-0.0067, -1, 1, 0.0074, 135.2674, 465.9189)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Mind</text>
-      </g>
-      <g id="TEXT_-_NAME_-_Initiation" data-name="TEXT - NAME - Initiation">
-        <text transform="matrix(-0.0067, -1, 1, 0.0074, 149.4245, 494.1287)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate">Initiation</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 79.6371, 448.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(C)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Alcyone" data-name="TEXT - PLANET - Alcyone">
-        <text transform="matrix(-0.0067, -1, 1, 0.0074, 107.1325, 473.9305)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300">Alcyone</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 106.6371, 448.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Alcyone</text>
+      </g>
+      <g id="TEXT_-_KEYWORD_-_Mind" data-name="TEXT - KEYWORD - Mind">
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 133.6371, 448.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Mind</text>
+      </g>
+      <g id="TEXT_-_NAME_-_Initiation" data-name="TEXT - NAME - Initiation">
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 145.6371, 448.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Initiation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_C_-_YANG (BOTTOM) - YIN (TOP)" data-name="SYMBOL - BIGRAM - C - YANG (BOTTOM) - YIN (TOP)">
-        <g transform="translate(89.6371, 448.3389) rotate(270)" fill="#FFFFFF">
+        <g transform="translate(92.6371, 448.3389) rotate(270)" fill="#FFFFFF">
     <rect x="-10.41" y="1.4865" width="20.82" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="6.445" height="4.957"/>
-    <rect x="3.965" y="-6.4435" width="6.445" height="4.957"/>
+    <rect x="-10.41" y="-6.4435" width="8.445" height="4.957"/>
+    <rect x="1.965" y="-6.4435" width="8.445" height="4.957"/>
   </g>
       </g>
     </g>
@@ -139,8 +139,8 @@
         <g transform="translate(306.0442, 106.5035) rotate(-22.5)" fill="#FFFFFF">
     <rect x="-10.0722" y="5.2759" width="20.1444" height="4.7962"/>
     <rect x="-10.0722" y="-2.3981" width="20.1444" height="4.7962"/>
-    <rect x="-10.0722" y="-10.0721" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-10.0721" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="-10.0721" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-10.0721" width="8.2352" height="4.7962"/>
   </g>
       </g>
     </g>
@@ -151,8 +151,8 @@
       <g id="SYMBOL_-_TRIGRAM_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP" data-name="SYMBOL - TRIGRAM - FIRE - YANG BOTTOM - YIN - YANG TOP">
         <g transform="translate(105.8017, 306.7460) rotate(-67.5)" fill="#FFFFFF">
     <rect x="-10.0722" y="5.2759" width="20.1444" height="4.7962"/>
-    <rect x="-10.0722" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-2.3981" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-2.3981" width="8.2352" height="4.7962"/>
     <rect x="-10.0722" y="-10.0721" width="20.1444" height="4.7962"/>
   </g>
       </g>
@@ -164,10 +164,10 @@
       <g id="SYMBOL_-_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP" data-name="SYMBOL - TRIGRAM - THUNDER - YANG BOTTOM - YIN - YIN TOP">
         <g transform="translate(105.8017, 589.9318) rotate(-112.5)" fill="#FFFFFF">
     <rect x="-10.0722" y="5.2759" width="20.1444" height="4.7962"/>
-    <rect x="-10.0722" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="-10.0722" y="-10.0721" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-10.0721" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="-10.0722" y="-10.0721" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-10.0721" width="8.2352" height="4.7962"/>
   </g>
       </g>
     </g>
@@ -177,12 +177,12 @@
       </g>
       <g id="SYMBOL_-_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP" data-name="SYMBOL - TRIGRAM - EARTH - YIN BOTTOM - YIN - YIN TOP">
         <g transform="translate(306.0442, 790.1743) rotate(-157.5)" fill="#FFFFFF">
-    <rect x="-10.0722" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="-10.0722" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="-10.0722" y="-10.0721" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-10.0721" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="-10.0722" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="-10.0722" y="-10.0721" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-10.0721" width="8.2352" height="4.7962"/>
   </g>
       </g>
     </g>
@@ -192,10 +192,10 @@
       </g>
       <g id="SYMBOL_-_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP" data-name="SYMBOL - TRIGRAM - MOUNTAIN - YIN BOTTOM - YIN - YANG TOP">
         <g transform="translate(589.2300, 790.1743) rotate(157.5)" fill="#FFFFFF">
-    <rect x="-10.0722" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="-10.0722" y="-2.3981" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-2.3981" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="-10.0722" y="-2.3981" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-2.3981" width="8.2352" height="4.7962"/>
     <rect x="-10.0722" y="-10.0721" width="20.1444" height="4.7962"/>
   </g>
       </g>
@@ -206,11 +206,11 @@
       </g>
       <g id="SYMBOL_-_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP" data-name="SYMBOL - TRIGRAM - WATER - YIN BOTTOM - YANG - YIN TOP">
         <g transform="translate(789.4725, 589.9318) rotate(112.5)" fill="#FFFFFF">
-    <rect x="-10.0722" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="5.2759" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="5.2759" width="8.2352" height="4.7962"/>
     <rect x="-10.0722" y="-2.3981" width="20.1444" height="4.7962"/>
-    <rect x="-10.0722" y="-10.0721" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="-10.0721" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="-10.0721" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="-10.0721" width="8.2352" height="4.7962"/>
   </g>
       </g>
     </g>
@@ -220,8 +220,8 @@
       </g>
       <g id="SYMBOL_-_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP" data-name="SYMBOL - TRIGRAM - WIND - YIN BOTTOM - YANG - YANG TOP">
         <g transform="translate(789.4725, 306.7460) rotate(67.5)" fill="#FFFFFF">
-    <rect x="-10.0722" y="5.2759" width="6.235200000000001" height="4.7962"/>
-    <rect x="3.837" y="5.2759" width="6.235200000000001" height="4.7962"/>
+    <rect x="-10.0722" y="5.2759" width="8.2352" height="4.7962"/>
+    <rect x="1.837" y="5.2759" width="8.2352" height="4.7962"/>
     <rect x="-10.0722" y="-2.3981" width="20.1444" height="4.7962"/>
     <rect x="-10.0722" y="-10.0721" width="20.1444" height="4.7962"/>
   </g>
@@ -230,21 +230,21 @@
   </g>
   <g id="_16-Faces" data-name="16-Faces">
     <g id="GROUP_-_AC_-_PROMETHEUS" data-name="GROUP - AC - PROMETHEUS">
-      <text id="TEXT_-_ac_" data-name="TEXT - ac " transform="translate(504.1029 84.8831) rotate(11.2504)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ac)</text>
-      <text id="TEXT_-_Prometheus" data-name="TEXT - Prometheus" transform="translate(473.1375 14.882) rotate(11.2504)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Prometheus</text>
+      <text id="TEXT_-_ac_" data-name="TEXT - ac " transform="matrix(0.9808, 0.1951, -0.1951, 0.9808, 519.8205, 85.4483)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ac)</text>
+      <text id="TEXT_-_Prometheus" data-name="TEXT - Prometheus" transform="matrix(0.9808, 0.1951, -0.1951, 0.9808, 532.1112, 23.6589)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Prometheus</text>
       <g id="SYMBOL_-_FACE_-_PROMETHEUS_-_AC" data-name="SYMBOL - FACE - PROMETHEUS - AC">
         <g transform="translate(526.4536, 52.1016) rotate(11.25)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_AA_-_HADES" data-name="GROUP - AA - HADES">
-      <text id="TEXT_-_aa_" data-name="TEXT - aa " transform="translate(639.5731 134.2832) rotate(33.75)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(aa)</text>
-      <text id="TEXT_-_Hades" data-name="TEXT - Hades" transform="translate(662.6361 74.3831) rotate(33.75)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Hades</text>
+      <text id="TEXT_-_aa_" data-name="TEXT - aa " transform="matrix(0.8315, 0.5556, -0.5556, 0.8315, 653.1981, 140.6951)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(aa)</text>
+      <text id="TEXT_-_Hades" data-name="TEXT - Hades" transform="matrix(0.8315, 0.5556, -0.5556, 0.8315, 688.1990, 88.3126)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Hades</text>
       <g id="SYMBOL_-_FACE_-_HADES_-_AA" data-name="SYMBOL - FACE - HADES - AA">
         <g transform="translate(672.0875, 112.4252) rotate(33.75)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
@@ -255,12 +255,12 @@
       </g>
     </g>
     <g id="GROUP_-_GA_-_MINERVA" data-name="GROUP - GA - MINERVA">
-      <text id="TEXT_-_ga_" data-name="TEXT - ga " transform="translate(745.6203 231.4857) rotate(56.25)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ga)</text>
-      <text id="TEXT_-_Minerva" data-name="TEXT - Minerva" transform="translate(784.3683 176.7611) rotate(56.25)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Minerva</text>
+      <text id="TEXT_-_ga_" data-name="TEXT - ga " transform="matrix(0.5556, 0.8315, -0.8315, 0.5556, 755.2809, 242.7779)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ga)</text>
+      <text id="TEXT_-_Minerva" data-name="TEXT - Minerva" transform="matrix(0.5556, 0.8315, -0.8315, 0.5556, 807.6634, 207.7770)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Minerva</text>
       <g id="SYMBOL_-_FACE_-_MINERVA_-_GA" data-name="SYMBOL - FACE - MINERVA - GA">
         <g transform="translate(783.5508, 223.8885) rotate(56.25)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
@@ -268,190 +268,190 @@
       </g>
     </g>
     <g id="GROUP_-_GC_-_CHRIST" data-name="GROUP - GC - CHRIST">
-      <text id="TEXT_-_gc_" data-name="TEXT - gc " transform="translate(806.7472 362.337) rotate(78.7496)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(gc)</text>
-      <text id="TEXT_-_Christ" data-name="TEXT - Christ" transform="translate(864.8149 333.5388) rotate(78.7496)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Christ</text>
+      <text id="TEXT_-_gc_" data-name="TEXT - gc " transform="matrix(0.1951, 0.9808, -0.9808, 0.1951, 810.5277, 376.1555)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(gc)</text>
+      <text id="TEXT_-_Christ" data-name="TEXT - Christ" transform="matrix(0.1951, 0.9808, -0.9808, 0.1951, 872.3171, 363.8648)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Christ</text>
       <g id="SYMBOL_-_FACE_-_CHRIST_-_GC" data-name="SYMBOL - FACE - CHRIST - GC">
         <g transform="translate(843.8744, 369.5224) rotate(78.75)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_GG_-_HARMONIA" data-name="GROUP - GG - HARMONIA">
-      <text id="TEXT_-_gg_" data-name="TEXT - gg " transform="translate(813.2047 506.0432) rotate(101.2504)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(gg)</text>
-      <text id="TEXT_-_Harmonia" data-name="TEXT - Harmonia" transform="translate(880.525 488.2771) rotate(101.2504)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Harmonia</text>
+      <text id="TEXT_-_gg_" data-name="TEXT - gg " transform="matrix(-0.1951, 0.9808, -0.9808, -0.1951, 810.5277, 520.5223)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(gg)</text>
+      <text id="TEXT_-_Harmonia" data-name="TEXT - Harmonia" transform="matrix(-0.1951, 0.9808, -0.9808, -0.1951, 872.3171, 532.8130)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Harmonia</text>
       <g id="SYMBOL_-_FACE_-_HARMONIA_-_GG" data-name="SYMBOL - FACE - HARMONIA - GG">
         <g transform="translate(843.8744, 527.1554) rotate(101.25)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_GU_-_THOTH" data-name="GROUP - GU - THOTH">
-      <text id="TEXT_-_gu_" data-name="TEXT - gu " transform="translate(764.2326 641.2736) rotate(123.75)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(gu)</text>
-      <text id="TEXT_-_Thoth" data-name="TEXT - Thoth" transform="translate(823.359 665.5068) rotate(123.75)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Thoth</text>
+      <text id="TEXT_-_gu_" data-name="TEXT - gu " transform="matrix(-0.5556, 0.8315, -0.8315, -0.5556, 755.2809, 653.8999)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(gu)</text>
+      <text id="TEXT_-_Thoth" data-name="TEXT - Thoth" transform="matrix(-0.5556, 0.8315, -0.8315, -0.5556, 807.6634, 688.9008)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Thoth</text>
       <g id="SYMBOL_-_FACE_-_THOTH_-_GU" data-name="SYMBOL - FACE - THOTH - GU">
         <g transform="translate(783.5508, 672.7893) rotate(123.75)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_UA_-_MAAT" data-name="GROUP - UA - MAAT">
-      <text id="TEXT_-_ua_" data-name="TEXT - ua " transform="translate(666.6466 748.2259) rotate(146.25)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ua)</text>
-      <text id="TEXT_-_Maat" data-name="TEXT - Maat" transform="translate(707.4171 796.3) rotate(146.25)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Maat</text>
+      <text id="TEXT_-_ua_" data-name="TEXT - ua " transform="matrix(-0.8315, 0.5556, -0.5556, -0.8315, 653.1981, 755.9827)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ua)</text>
+      <text id="TEXT_-_Maat" data-name="TEXT - Maat" transform="matrix(-0.8315, 0.5556, -0.5556, -0.8315, 688.1990, 808.3652)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Maat</text>
       <g id="SYMBOL_-_FACE_-_MAAT_-_UA" data-name="SYMBOL - FACE - MAAT - UA">
         <g transform="translate(672.0875, 784.2526) rotate(146.25)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_UC_-_PARVATI" data-name="GROUP - UC - PARVATI">
-      <text id="TEXT_-_uc_" data-name="TEXT - uc " transform="translate(536.0303 809.5324) rotate(168.7496)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(uc)</text>
-      <text id="TEXT_-_Parvati" data-name="TEXT - Parvati" transform="translate(568.0561 866.9342) rotate(168.7496)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Parvati</text>
+      <text id="TEXT_-_uc_" data-name="TEXT - uc " transform="matrix(-0.9808, 0.1951, -0.1951, -0.9808, 519.8205, 811.2295)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(uc)</text>
+      <text id="TEXT_-_Parvati" data-name="TEXT - Parvati" transform="matrix(-0.9808, 0.1951, -0.1951, -0.9808, 532.1112, 873.0189)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Parvati</text>
       <g id="SYMBOL_-_FACE_-_PARVATI_-_UC" data-name="SYMBOL - FACE - PARVATI - UC">
         <g transform="translate(526.4536, 844.5762) rotate(168.75)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_UG_-_LAKSHMI" data-name="GROUP - UG - LAKSHMI">
-      <text id="TEXT_-_ug_" data-name="TEXT - ug " transform="translate(392.3241 816.1405) rotate(-168.7496)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ug)</text>
-      <text id="TEXT_-_Lakshmi" data-name="TEXT - Lakshmi" transform="translate(401.5744 881.7967) rotate(-168.7496)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Lakshmi</text>
+      <text id="TEXT_-_ug_" data-name="TEXT - ug " transform="matrix(-0.9808, -0.1951, 0.1951, -0.9808, 375.4537, 811.2295)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ug)</text>
+      <text id="TEXT_-_Lakshmi" data-name="TEXT - Lakshmi" transform="matrix(-0.9808, -0.1951, 0.1951, -0.9808, 363.1630, 873.0189)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Lakshmi</text>
       <g id="SYMBOL_-_FACE_-_LAKSHMI_-_UG" data-name="SYMBOL - FACE - LAKSHMI - UG">
         <g transform="translate(368.8206, 844.5762) rotate(191.25)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_UU_-_MAIA" data-name="GROUP - UU - MAIA">
-      <text id="TEXT_-_uu_" data-name="TEXT - uu " transform="translate(256.8612 767.3487) rotate(-146.25)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(uu)</text>
-      <text id="TEXT_-_Maia" data-name="TEXT - Maia" transform="translate(225.9082 821.9873) rotate(-146.25)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Maia</text>
+      <text id="TEXT_-_uu_" data-name="TEXT - uu " transform="matrix(-0.8315, -0.5556, 0.5556, -0.8315, 242.0761, 755.9827)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(uu)</text>
+      <text id="TEXT_-_Maia" data-name="TEXT - Maia" transform="matrix(-0.8315, -0.5556, 0.5556, -0.8315, 207.0752, 808.3652)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Maia</text>
       <g id="SYMBOL_-_FACE_-_MAIA_-_UU" data-name="SYMBOL - FACE - MAIA - UU">
         <g transform="translate(223.1867, 784.2526) rotate(213.75)" fill="#FFFFFF">
-    <rect x="-8.51215" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="7.701400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="7.701400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_CU_-_JANUS" data-name="GROUP - CU - JANUS">
-      <text id="TEXT_-_cu_" data-name="TEXT - cu " transform="translate(149.5176 669.5128) rotate(-123.75)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(cu)</text>
-      <text id="TEXT_-_Janus" data-name="TEXT - Janus" transform="translate(104.1961 714.3888) rotate(-123.75)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Janus</text>
+      <text id="TEXT_-_cu_" data-name="TEXT - cu " transform="matrix(-0.5556, -0.8315, 0.8315, -0.5556, 139.9933, 653.8999)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(cu)</text>
+      <text id="TEXT_-_Janus" data-name="TEXT - Janus" transform="matrix(-0.5556, -0.8315, 0.8315, -0.5556, 87.6108, 688.9008)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Janus</text>
       <g id="SYMBOL_-_FACE_-_JANUS_-_CU" data-name="SYMBOL - FACE - JANUS - CU">
         <g transform="translate(111.7234, 672.7893) rotate(236.25)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_CG_-_MICHAEL" data-name="GROUP - CG - MICHAEL">
-      <text id="TEXT_-_cg_" data-name="TEXT - cg " transform="translate(88.2852 538.4474) rotate(-101.2504)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(cg)</text>
-      <text id="TEXT_-_Michael" data-name="TEXT - Michael" transform="translate(31.4492 573.5852) rotate(-101.2504)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Michael</text>
+      <text id="TEXT_-_cg_" data-name="TEXT - cg " transform="matrix(-0.1951, -0.9808, 0.9808, -0.1951, 84.7465, 520.5223)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(cg)</text>
+      <text id="TEXT_-_Michael" data-name="TEXT - Michael" transform="matrix(-0.1951, -0.9808, 0.9808, -0.1951, 22.9571, 532.8130)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Michael</text>
       <g id="SYMBOL_-_FACE_-_MICHAEL_-_CG" data-name="SYMBOL - FACE - MICHAEL - CG">
         <g transform="translate(51.3998, 527.1554) rotate(258.75)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_CC_-_MITRA" data-name="GROUP - CC - MITRA">
-      <text id="TEXT_-_cc_" data-name="TEXT - cc " transform="translate(82.0389 393.8067) rotate(-78.7496)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(cc)</text>
-      <text id="TEXT_-_Mitra" data-name="TEXT - Mitra" transform="translate(18.2865 393.2213) rotate(-78.7496)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Mitra</text>
+      <text id="TEXT_-_cc_" data-name="TEXT - cc " transform="matrix(0.1951, -0.9808, 0.9808, 0.1951, 84.7465, 376.1555)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(cc)</text>
+      <text id="TEXT_-_Mitra" data-name="TEXT - Mitra" transform="matrix(0.1951, -0.9808, 0.9808, 0.1951, 22.9571, 363.8648)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Mitra</text>
       <g id="SYMBOL_-_FACE_-_MITRA_-_CC" data-name="SYMBOL - FACE - MITRA - CC">
         <g transform="translate(51.3998, 369.5224) rotate(281.25)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_CA_-_KALI" data-name="GROUP - CA - KALI">
-      <text id="TEXT_-_ca_" data-name="TEXT - ca " transform="translate(131.4293 258.1711) rotate(-56.25)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ca)</text>
-      <text id="TEXT_-_Kali" data-name="TEXT - Kali" transform="translate(76.6625 227.4169) rotate(-56.25)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Kali</text>
+      <text id="TEXT_-_ca_" data-name="TEXT - ca " transform="matrix(0.5556, -0.8315, 0.8315, 0.5556, 139.9933, 242.7779)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ca)</text>
+      <text id="TEXT_-_Kali" data-name="TEXT - Kali" transform="matrix(0.5556, -0.8315, 0.8315, 0.5556, 87.6108, 207.7770)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Kali</text>
       <g id="SYMBOL_-_FACE_-_KALI_-_CA" data-name="SYMBOL - FACE - KALI - CA">
         <g transform="translate(111.7234, 223.8885) rotate(303.75)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="1.2159999999999993" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="1.2159999999999993" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="1.2159999999999993" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="1.2159999999999993" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-5.269400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_AU_-_KEEPERS_OF_THE_WHEEL" data-name="GROUP - AU - KEEPERS OF THE WHEEL">
-      <text id="TEXT_-_au_" data-name="TEXT - au " transform="translate(228.2305 152.3831) rotate(-33.75)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(au)</text>
-      <g id="TEXT_-_Keepers_of_the_Wheel" data-name="TEXT - Keepers of the Wheel" style="isolation: isolate">
-        <text transform="translate(174.3974 112.1901) rotate(-33.75)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Keepers</text>
-        <text transform="translate(186.1518 113.5361) rotate(-33.75)" font-size="9.0727" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">of the Wheel</text>
+      <text id="TEXT_-_au_" data-name="TEXT - au " transform="matrix(0.8315, -0.5556, 0.5556, 0.8315, 242.0761, 140.6951)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(au)</text>
+      <g id="TEXT_-_KEEPERS_OF_THE_WHEEL" data-name="TEXT - Keepers of the Wheel" style="isolation: isolate">
+        <text transform="matrix(0.8315, -0.5556, 0.5556, 0.8315, 207.0752, 88.3126)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Keepers</text>
+        <text transform="matrix(0.8315, -0.5556, 0.5556, 0.8315, 201.5195, 79.9979)" font-size="9.0727" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">of the Wheel</text>
       </g>
       <g id="SYMBOL_-_FACE_-_KEEPERS_OF_THE_WHEEL_-_AU" data-name="SYMBOL - FACE - KEEPERS OF THE WHEEL - AU">
         <g transform="translate(223.1867, 112.4252) rotate(326.25)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="-8.51215" y="-11.754800000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-11.754800000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-11.754800000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-11.754800000000001" width="6.26945" height="4.0534"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_AG_-_VISHNU" data-name="GROUP - AG - VISHNU">
-      <text id="TEXT_-_ag_" data-name="TEXT - ag " transform="translate(359.4615 91.1636) rotate(-11.2504)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">(ag)</text>
-      <text id="TEXT_-_Vishnu" data-name="TEXT - Vishnu" transform="translate(329.066 33.3529) rotate(-11.2504)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" style="isolation: isolate">Vishnu</text>
+      <text id="TEXT_-_ag_" data-name="TEXT - ag " transform="matrix(0.9808, -0.1951, 0.1951, 0.9808, 375.4537, 85.4483)" font-size="16.7414" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">(ag)</text>
+      <text id="TEXT_-_Vishnu" data-name="TEXT - Vishnu" transform="matrix(0.9808, -0.1951, 0.1951, 0.9808, 363.1630, 23.6589)" font-size="19.5787" font-family="Copperplate" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" style="isolation: isolate">Vishnu</text>
       <g id="SYMBOL_-_FACE_-_VISHNU_-_AG" data-name="SYMBOL - FACE - VISHNU - AG">
         <g transform="translate(368.8206, 52.1016) rotate(348.75)" fill="#FFFFFF">
     <rect x="-8.51215" y="7.701400000000001" width="17.0243" height="4.0534"/>
     <rect x="-8.51215" y="1.2159999999999993" width="17.0243" height="4.0534"/>
-    <rect x="-8.51215" y="-5.269400000000001" width="5.26945" height="4.0534"/>
-    <rect x="3.2427" y="-5.269400000000001" width="5.26945" height="4.0534"/>
+    <rect x="-8.51215" y="-5.269400000000001" width="6.26945" height="4.0534"/>
+    <rect x="2.2427" y="-5.269400000000001" width="6.26945" height="4.0534"/>
     <rect x="-8.51215" y="-11.754800000000001" width="17.0243" height="4.0534"/>
   </g>
       </g>
