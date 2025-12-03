@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13096 13096" width="13096" height="13096">
   <rect id="background" width="100%" height="100%" fill="#151E25"/>
   <g id="STRUCTURE">
-    <g id="RINGS">
-      <circle cx="6536" cy="6536" r="5160" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
-    </g>
     <g id="DIVIDERS">
     <line x1="3262.53" y1="2547.27" x2="2501.26" y2="1619.65" stroke="#FFFFFF" stroke-width="0.5"/>
     <line x1="2887.33" y1="2887.33" x2="2038.80" y2="2038.80" stroke="#FFFFFF" stroke-width="0.5"/>

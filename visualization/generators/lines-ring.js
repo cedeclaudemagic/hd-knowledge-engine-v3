@@ -545,13 +545,9 @@ function generateLinesRing(options = {}) {
     svgParts.push(`  <rect id="background" width="100%" height="100%" fill="${backgroundColor}"/>`);
   }
 
-  // Structure (rings and dividers)
+  // Structure (dividers only - inner/outer rings removed for cleaner composition)
   if (includeStructure) {
     svgParts.push('  <g id="STRUCTURE">');
-    svgParts.push('    <g id="RINGS">');
-    svgParts.push(`      <circle cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.innerRadius}" fill="none" stroke="${stroke}" stroke-width="0.5"/>`);
-    // Outer ring removed - keynotes extend beyond fixed boundary
-    svgParts.push('    </g>');
     svgParts.push('    <g id="DIVIDERS">');
     svgParts.push(generateDividers());
     svgParts.push('    </g>');
