@@ -53,10 +53,10 @@ const CHOP = {
   angularWidth: 0.25       // Half-width in degrees (reduced from 0.31 for more breathing room)
 };
 
-// Divider lines extend from inner ring to outer ring
+// Divider lines extend between the two centre rings
 const DIVIDER = {
-  innerRadius: RING.inner - 2,
-  outerRadius: RING.outer + 2
+  innerRadius: RING.innerCentre,
+  outerRadius: RING.outerCentre
 };
 
 // ViewBox size
@@ -69,9 +69,11 @@ const VIEWBOX_SIZE = 3972.0757;
 const GATE_ARC = 5.625;  // Degrees per gate
 const LINE_ARC = GATE_ARC / 6;  // 0.9375° per line
 
-// NOTE: We use getDockingData(gate, line) directly for correct V3 positioning
-// Line 1 is at the start of the gate arc, Line 6 at the end
-// This matches the true wheel order from the V3 knowledge engine
+// POSITION_ADJUST: Offset to align chops/dividers with the reference yin-chops SVG.
+// The V3 positioning gives line START positions, but visual elements need to be
+// offset to align correctly on the wheel with other rings.
+// Derived from reference: -GATE_ARC / 2 - LINE_ARC = -3.75° (4 line arcs)
+const POSITION_ADJUST = -GATE_ARC / 2 - LINE_ARC;  // -3.75°
 
 // ============================================================================
 // DATA LOOKUP
@@ -281,8 +283,8 @@ function generateDividers() {
     for (let line = 1; line <= 6; line++) {
       // Get V3 position for this line
       const v3Data = positioning.getDockingData(gate, line);
-      // Divider is at the END of this line (half a line arc after the line center)
-      const dividerAngle = v3Data.angle + LINE_ARC / 2;
+      // Apply POSITION_ADJUST to align dividers with other rings
+      const dividerAngle = v3Data.angle + POSITION_ADJUST;
 
       const svgAngle = shared.calculateSVGAngle(dividerAngle);
       dividers.push(generateDividerLine(svgAngle));
@@ -293,13 +295,13 @@ function generateDividers() {
 }
 
 /**
- * Generate the 4 ring circles
+ * Generate the ring circles
+ * Only generates the two centre rings (INNER-CENTRE and OUTER-CENTRE)
+ * The innermost and outermost rings have been removed for cleaner composition
  */
 function generateRingCircles() {
-  return `    <circle id="INNER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.inner}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="2.7488"/>
-    <circle id="INNER-CENTRE" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.innerCentre}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="1.3744"/>
-    <circle id="OUTER-CENTRE" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.outerCentre}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="1.3744"/>
-    <circle id="OUTER" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.outer}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="2.7488"/>`;
+  return `    <circle id="INNER-CENTRE" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.innerCentre}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="1.3744"/>
+    <circle id="OUTER-CENTRE" cx="${CENTER.x}" cy="${CENTER.y}" r="${RING.outerCentre}" fill="none" stroke="${shared.COLORS.foreground}" stroke-miterlimit="10" stroke-width="1.3744"/>`;
 }
 
 /**
@@ -316,7 +318,8 @@ function generateChops() {
     for (let line = 1; line <= 6; line++) {
       // Get V3 positioning directly for this gate.line
       const v3Data = positioning.getDockingData(gate, line);
-      const svgAngle = shared.calculateSVGAngle(v3Data.angle);
+      // Apply POSITION_ADJUST to align with other rings, plus half line arc to center chop
+      const svgAngle = shared.calculateSVGAngle(v3Data.angle + POSITION_ADJUST + LINE_ARC / 2);
 
       // Get line metadata
       const polarity = getPolarity(gate, line);
@@ -364,7 +367,7 @@ function generateFullChopsRing(options = {}) {
 
   // Background
   if (includeBackground) {
-    svgParts.push(`  <rect width="100%" height="100%" fill="${backgroundColor}"/>`);
+    svgParts.push(`  <rect id="background" width="100%" height="100%" fill="${backgroundColor}"/>`);
   }
 
   // Structure (rings and dividers)
