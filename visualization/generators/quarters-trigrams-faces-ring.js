@@ -998,8 +998,9 @@ function generateQuartersTrigramsFacesRing(options = {}) {
   parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${GEOMETRY.viewBox.width}" height="${GEOMETRY.viewBox.height}" viewBox="0 0 ${GEOMETRY.viewBox.width} ${GEOMETRY.viewBox.height}">`);
 
   // Optional background (uses active color scheme)
+  // Note: id="background" allows ring-composer-ui to filter this out when compositing
   if (includeBackground && activeColorScheme.background !== 'none') {
-    parts.push(`  <rect width="100%" height="100%" fill="${activeColorScheme.background}"/>`);
+    parts.push(`  <rect id="background" width="100%" height="100%" fill="${activeColorScheme.background}"/>`);
   }
 
   // Generate layers from outside in
@@ -1102,7 +1103,8 @@ if (require.main === module) {
   console.log(`  - ${stats.fifths.count} Fifths (5-bit patterns)`);
   console.log('');
 
-  // Generate dark version only
+  // Generate dark version (white elements on dark background)
+  // Note: ring-composer-ui will filter out the background rect by id when compositing
   const svg = generateQuartersTrigramsFacesRing({ colorScheme: 'dark' });
   const outputPath = path.join(outputDir, 'generated-quarters-trigrams-faces-fifths.svg');
   fs.writeFileSync(outputPath, svg);

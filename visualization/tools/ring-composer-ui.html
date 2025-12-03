@@ -918,9 +918,10 @@
         color: '#FFEAA7',
         svgFile: '../output/generated-gene-keys-ring.svg',
         // Gene Keys has 3 bands: shadows (inner), gifts (middle), siddhis (outer)
+        // Expanded for more breathing room around text
         center: { x: 1985.3602, y: 1985.3602 },
-        innerRadius: 1730.5472,   // shadows inner
-        outerRadius: 1889.9038,   // siddhis outer
+        innerRadius: 1727,        // shadows inner (was 1730.5472)
+        outerRadius: 1908,        // siddhis outer (was 1889.9038)
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() { return this.innerRadius - 2; },
         get visualOuter() { return this.outerRadius + 2; }

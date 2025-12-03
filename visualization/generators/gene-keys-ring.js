@@ -23,22 +23,23 @@ const shared = require('./shared-constants');
 const CENTER = { x: 1985.3602, y: 1985.3602 };
 
 // Three concentric rings for Shadow, Gift, Siddhi
+// Expanded by ~3.5px each side for more breathing room around text
 const RINGS = {
   shadows: {
-    innerRadius: 1730.5472,
-    outerRadius: 1782.4786,
+    innerRadius: 1727,      // was 1730.5472, -3.5px
+    outerRadius: 1786,      // was 1782.4786, +3.5px
     get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
     get bandWidth() { return this.outerRadius - this.innerRadius; }
   },
   gifts: {
-    innerRadius: 1784.2557,
-    outerRadius: 1835.9456,
+    innerRadius: 1788,      // was 1784.2557, +3.5px (keeps 2px gap from shadows)
+    outerRadius: 1847,      // was 1835.9456, +11px
     get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
     get bandWidth() { return this.outerRadius - this.innerRadius; }
   },
   siddhis: {
-    innerRadius: 1837.7815,
-    outerRadius: 1889.9038,
+    innerRadius: 1849,      // was 1837.7815, +11px (keeps 2px gap from gifts)
+    outerRadius: 1908,      // was 1889.9038, +18px
     get midRadius() { return (this.innerRadius + this.outerRadius) / 2; },
     get bandWidth() { return this.outerRadius - this.innerRadius; }
   }
@@ -48,22 +49,21 @@ const RINGS = {
 const OUTER_RADIUS = RINGS.siddhis.outerRadius;
 
 // Font specifications (from master analysis)
-// Font sizes are roughly consistent across all three rings (~21.2-21.3px)
+// Font sizes scaled up by 8% for better visibility
 const FONT = {
-  family: 'Copperplate-Bold, Copperplate',
-  weight: 700,
+  family: 'Copperplate, Copperplate-Light',
+  weight: 400,
   shadows: {
-    standard: 21.276,
-    // Some multi-line names use same size
+    standard: 22.98,  // 21.276 * 1.08
   },
   gifts: {
-    standard: 21.2335,
+    standard: 22.93,  // 21.2335 * 1.08
   },
   siddhis: {
-    standard: 21.2493,
+    standard: 22.95,  // 21.2493 * 1.08
   },
   verticalScale: 1.2,
-  lineHeight: 15.1  // Approximate tspan dy from master
+  lineHeight: 16.31  // 15.1 * 1.08
 };
 
 // Use shared color scheme
@@ -103,24 +103,31 @@ function splitForDisplay(text) {
   const splits = {
     // Shadow splits
     'Self-Obsession': ['Self', 'Obsession'],
-    'Dissatisfaction': ['Dis-', 'satisfaction'],
-    'Co-Dependence': ['Co-', 'Dependence'],
+    'Dissatisfaction': ['Dis', 'satisfaction'],
+    'Co-Dependence': ['Co', 'Dependence'],
     'Half-Heartedness': ['Half', 'Heartedness'],
-    'Purposelessness': ['Purposeless-', 'ness'],
-    'Superficiality': ['Super-', 'ficiality'],
+    'Purposelessness': ['Purposeless', 'ness'],
+    'Superficiality': ['Super', 'ficiality'],
 
     // Gift splits
     'Far-Sightedness': ['Far', 'Sightedness'],
     'Transmutation': ['Trans', 'mutation'],
     'Resourcefulness': ['Resource', 'fulness'],
     'Self Assurance': ['Self', 'assurance'],
+    'Graciousness': ['Gracious', 'ness'],
+    'Mindfulness': ['Mindful', 'ness'],
 
     // Siddhi splits
-    'Transfiguration': ['Trans-', 'figuration'],
-    'Super-Abundance': ['Super', 'Abundance'],
+    'Transfiguration': ['Trans', 'figuration'],
+    'Superabundance': ['Super', 'abundance'],
+    'Universal Love': ['Universal', 'Love'],
+    'Forgiveness': ['Forgive', 'ness'],
+    'Exquisiteness': ['Exquisite', 'ness'],
+    'Bounteousness': ['Bounteous', 'ness'],
+    'Boundlessness': ['Boundless', 'ness'],
+    'Selflessness': ['Selfless', 'ness'],
 
     // Two-word phrases that stay on one line
-    'Universal Love': ['Universal Love'],
     'Divine Will': ['Divine Will']
   };
 
