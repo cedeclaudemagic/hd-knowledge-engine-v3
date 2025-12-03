@@ -338,15 +338,21 @@ function generateLineElements(gateNumber, lineNumber, wheelPosition) {
   const innerGate = gateSequence[wheelPosition];
   const v3Data = positioning.getDockingData(innerGate, 1);
 
+  // OUTER RING ADJUSTMENT: The lines ring is an outer ring with its own positioning
+  // philosophy, decoupled from the inner wheel structure. Subtract one LINE_ARC to
+  // maintain alignment after the core positioning algorithm fix.
+  const OUTER_RING_ADJUST = -0.9375;  // One LINE_ARC
+  const baseAngle = v3Data.angle + OUTER_RING_ADJUST;
+
   // Calculate angle offset for this line within the gate
   // We need to determine if this gate is on the left or right side first
-  const baseSvgAngle = shared.calculateSVGAngle(v3Data.angle);
+  const baseSvgAngle = shared.calculateSVGAngle(baseAngle);
   const isLeftSide = isFlipped(baseSvgAngle);
 
   // On the left side, reverse the line order so 6th lines meet at top, 1st lines at bottom
   // Right side keeps original order (line 6 at CCW edge, line 1 at CW edge)
   const lineOffset = isLeftSide ? -LINE_OFFSETS[lineNumber] : LINE_OFFSETS[lineNumber];
-  const lineAngle = v3Data.angle + lineOffset;
+  const lineAngle = baseAngle + lineOffset;
 
   // Convert to SVG angle
   const svgAngle = shared.calculateSVGAngle(lineAngle);
@@ -488,12 +494,17 @@ function generateDividers() {
     const v3DataA = positioning.getDockingData(gateA, 1);
     const v3DataB = positioning.getDockingData(gateB, 1);
 
+    // OUTER RING ADJUSTMENT (same as line elements)
+    const OUTER_RING_ADJUST = -0.9375;
+    const angleA = v3DataA.angle + OUTER_RING_ADJUST;
+    const angleB = v3DataB.angle + OUTER_RING_ADJUST;
+
     // Calculate midpoint angle
     let midAngle;
-    if (Math.abs(v3DataB.angle - v3DataA.angle) > 180) {
-      midAngle = ((v3DataA.angle + v3DataB.angle + 360) / 2) % 360;
+    if (Math.abs(angleB - angleA) > 180) {
+      midAngle = ((angleA + angleB + 360) / 2) % 360;
     } else {
-      midAngle = (v3DataA.angle + v3DataB.angle) / 2;
+      midAngle = (angleA + angleB) / 2;
     }
 
     const svgAngle = shared.calculateSVGAngle(midAngle);
