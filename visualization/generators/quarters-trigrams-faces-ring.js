@@ -948,13 +948,17 @@ function generateFifthGroup(fifth) {
   const symbolRadius = (GEOMETRY.fifthsRing.inner + GEOMETRY.fifthsRing.outer) / 2;
 
   const symbolPos = calculatePosition(fifth.svgAngle, symbolRadius);
-  const textRot = calculateTextRotation(fifth.svgAngle);
+
+  // Use svgAngle directly for symbol rotation (not calculateTextRotation)
+  // This keeps line 1 at the outer edge, consistent with trigrams and tetragrams
+  // Text rotation would flip the symbol upside-down on the bottom half of the wheel
+  const symbolRot = fifth.svgAngle;
 
   // Use face name for ID
   const faceId = fifth.face.replace(/\s+/g, '-').toUpperCase();
 
   parts.push(`      <g id="${faceId}-${fifth.binaryPattern}" data-name="${fifth.face} - ${fifth.binaryPattern}">`);
-  parts.push(`        ${generatePentagramSymbol(fifth.binaryPattern, symbolPos.x, symbolPos.y, textRot)}`);
+  parts.push(`        ${generatePentagramSymbol(fifth.binaryPattern, symbolPos.x, symbolPos.y, symbolRot)}`);
   parts.push('      </g>');
 
   return parts.join('\n');
