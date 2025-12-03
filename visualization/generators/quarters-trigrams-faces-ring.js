@@ -99,11 +99,12 @@ const COLOR_SCHEMES = {
 let activeColorScheme = COLOR_SCHEMES.light;
 
 // Font configurations from master SVG
+// Quarter elements scaled up by 12% for better visibility
 const FONTS = {
-  quarterName: { family: 'Copperplate', size: 18.4909 },
-  quarterKeyword: { family: 'Copperplate-Light, Copperplate', size: 13.448, weight: 300 },
-  quarterPlanet: { family: 'Copperplate-Light, Copperplate', size: 11.767, weight: 300 },
-  quarterCodon: { family: 'Copperplate', size: 8.4049 },
+  quarterName: { family: 'Copperplate', size: 24.16 },      // 18.4909 * 1.12 * 1.08 * 1.08
+  quarterKeyword: { family: 'Copperplate-Light, Copperplate', size: 15.66, weight: 300 },  // 13.448 * 1.12 * 1.04
+  quarterPlanet: { family: 'Copperplate-Light, Copperplate', size: 14.76, weight: 300 },   // 11.767 * 1.12 * 1.12
+  quarterCodon: { family: 'Copperplate', size: 10.82 },     // 8.4049 * 1.12 * 1.15
   trigramName: { family: 'Copperplate', size: 18.3718 },
   faceName: { family: 'Copperplate', size: 19.5787 },
   faceCodon: { family: 'Copperplate', size: 16.7414 }
@@ -130,11 +131,12 @@ const FONTS = {
  */
 function getQuarterData() {
   // Text radii (distance from center)
+  // Codon letter and planet moved outward by 10px from original
   const radii = {
-    codon: 368,     // Codon letter "(A)" etc - outermost
-    planet: 341,    // Planet name
-    keyword: 314,   // Keyword
-    name: 302       // Quarter name - innermost
+    codon: 372,     // Codon letter "(A)" etc - outermost (was 368, +4)
+    planet: 343,    // Planet name (was 341, +2)
+    keyword: 316,   // Keyword (was 314, +2)
+    name: 300.5     // Quarter name - innermost (was 302, -1.5)
   };
 
   // Quarter definitions with wheel order
@@ -454,10 +456,11 @@ function calculatePosition(svgAngle, radius) {
  * Used for quarter symbols
  */
 function generateBigramSymbol(binary, x, y, rotation = 0) {
-  const lineWidth = 20.82;
-  const lineHeight = 4.957;
-  const lineSpacing = 7.93;
-  const yinGapWidth = 3.93;  // Reduced from 7.93 for tighter yin symbol
+  // Scaled up by 12% for better visibility
+  const lineWidth = 23.32;     // 20.82 * 1.12
+  const lineHeight = 5.55;     // 4.957 * 1.12
+  const lineSpacing = 8.88;    // 7.93 * 1.12
+  const yinGapWidth = 4.40;    // 3.93 * 1.12
 
   const lines = [];
 
@@ -642,8 +645,8 @@ function generateQuarterGroup(quarter) {
   const cos = Math.cos(angleRad).toFixed(4);
   const sin = Math.sin(angleRad).toFixed(4);
 
-  // Calculate bigram symbol position geometrically (at 355px radius on centerline)
-  const bigramRadius = 355;
+  // Calculate bigram symbol position geometrically (moved outward by 3.5px from original)
+  const bigramRadius = 358.5;  // was 355, +3.5
   const bigramRadians = (quarter.svgAngle - 90) * Math.PI / 180;
   const bigramPos = {
     x: GEOMETRY.center.x + bigramRadius * Math.cos(bigramRadians),

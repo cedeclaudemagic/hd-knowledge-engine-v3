@@ -17,85 +17,85 @@
     </g>
     <g id="GROUP_-_A_-_MUTATION_-_SIRIUS_-_TRANSFORMATION" data-name="GROUP - A - MUTATION - SIRIUS - TRANSFORMATION">
       <g id="TEXT_-_CODON-LETTER_-_A_" data-name="TEXT - CODON-LETTER - (A)">
-        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 80.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(A)</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 76.3389)" font-size="10.82" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(A)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Sirius" data-name="TEXT - PLANET - Sirius">
-        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 107.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Sirius</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 105.3389)" font-size="14.76" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Sirius</text>
       </g>
       <g id="TEXT_-_KEYWORD_-_Transformation" data-name="TEXT - KEYWORD - Transformation">
-        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 134.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Transformation</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 132.3389)" font-size="15.66" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Transformation</text>
       </g>
       <g id="TEXT_-_NAME_-_Mutation" data-name="TEXT - NAME - Mutation">
-        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 146.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Mutation</text>
+        <text transform="matrix(1.0000, 0.0000, 0, 1.0000, 447.6371, 147.8389)" font-size="24.16" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Mutation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_A_-_YANG (BOTTOM) - YANG (TOP)" data-name="SYMBOL - BIGRAM - A - YANG (BOTTOM) - YANG (TOP)">
-        <g transform="translate(447.6371, 93.3389) rotate(0)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="20.82" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="20.82" height="4.957"/>
+        <g transform="translate(447.6371, 89.8389) rotate(0)" fill="#FFFFFF">
+    <rect x="-11.66" y="1.6650000000000005" width="23.32" height="5.55"/>
+    <rect x="-11.66" y="-7.215" width="23.32" height="5.55"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_G_-_DUALITY_-_JUPITER_-_BONDING" data-name="GROUP - G - DUALITY - JUPITER - BONDING">
       <g id="TEXT_-_CODON-LETTER_-_G_" data-name="TEXT - CODON-LETTER - (G)">
-        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 815.6371, 448.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(G)</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 819.6371, 448.3389)" font-size="10.82" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(G)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Jupiter" data-name="TEXT - PLANET - Jupiter">
-        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 788.6371, 448.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Jupiter</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 790.6371, 448.3389)" font-size="14.76" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Jupiter</text>
       </g>
       <g id="TEXT_-_KEYWORD_-_Bonding" data-name="TEXT - KEYWORD - Bonding">
-        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 761.6371, 448.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Bonding</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 763.6371, 448.3389)" font-size="15.66" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Bonding</text>
       </g>
       <g id="TEXT_-_NAME_-_Duality" data-name="TEXT - NAME - Duality">
-        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 749.6371, 448.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Duality</text>
+        <text transform="matrix(0.0000, 1.0000, -1, 0.0000, 748.1371, 448.3389)" font-size="24.16" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Duality</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_G_-_YIN (BOTTOM) - YANG (TOP)" data-name="SYMBOL - BIGRAM - G - YIN (BOTTOM) - YANG (TOP)">
-        <g transform="translate(802.6371, 448.3389) rotate(90)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="8.445" height="4.957"/>
-    <rect x="1.965" y="1.4865" width="8.445" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="20.82" height="4.957"/>
+        <g transform="translate(806.1371, 448.3389) rotate(90)" fill="#FFFFFF">
+    <rect x="-11.66" y="1.6650000000000005" width="9.46" height="5.55"/>
+    <rect x="2.2" y="1.6650000000000005" width="9.46" height="5.55"/>
+    <rect x="-11.66" y="-7.215" width="23.32" height="5.55"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_U_-_CIVILISATION_-_DUBHE_-_FORM" data-name="GROUP - U - CIVILISATION - DUBHE - FORM">
       <g id="TEXT_-_CODON-LETTER_-_U_" data-name="TEXT - CODON-LETTER - (U)">
-        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 816.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(U)</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 820.3389)" font-size="10.82" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(U)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Dubhe" data-name="TEXT - PLANET - Dubhe">
-        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 789.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Dubhe</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 791.3389)" font-size="14.76" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Dubhe</text>
       </g>
       <g id="TEXT_-_KEYWORD_-_Form" data-name="TEXT - KEYWORD - Form">
-        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 762.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Form</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 764.3389)" font-size="15.66" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Form</text>
       </g>
       <g id="TEXT_-_NAME_-_Civilisation" data-name="TEXT - NAME - Civilisation">
-        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 750.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Civilisation</text>
+        <text transform="matrix(-1.0000, 0.0000, 0, -1.0000, 447.6371, 748.8389)" font-size="24.16" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Civilisation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_U_-_YIN (BOTTOM) - YIN (TOP)" data-name="SYMBOL - BIGRAM - U - YIN (BOTTOM) - YIN (TOP)">
-        <g transform="translate(447.6371, 803.3389) rotate(180)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="8.445" height="4.957"/>
-    <rect x="1.965" y="1.4865" width="8.445" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="8.445" height="4.957"/>
-    <rect x="1.965" y="-6.4435" width="8.445" height="4.957"/>
+        <g transform="translate(447.6371, 806.8389) rotate(180)" fill="#FFFFFF">
+    <rect x="-11.66" y="1.6650000000000005" width="9.46" height="5.55"/>
+    <rect x="2.2" y="1.6650000000000005" width="9.46" height="5.55"/>
+    <rect x="-11.66" y="-7.215" width="9.46" height="5.55"/>
+    <rect x="2.2" y="-7.215" width="9.46" height="5.55"/>
   </g>
       </g>
     </g>
     <g id="GROUP_-_C_-_INITIATION_-_ALCYONE_-_MIND" data-name="GROUP - C - INITIATION - ALCYONE - MIND">
       <g id="TEXT_-_CODON-LETTER_-_C_" data-name="TEXT - CODON-LETTER - (C)">
-        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 79.6371, 448.3389)" font-size="8.4049" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(C)</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 75.6371, 448.3389)" font-size="10.82" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">(C)</text>
       </g>
       <g id="TEXT_-_PLANET_-_Alcyone" data-name="TEXT - PLANET - Alcyone">
-        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 106.6371, 448.3389)" font-size="11.767" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Alcyone</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 104.6371, 448.3389)" font-size="14.76" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Alcyone</text>
       </g>
       <g id="TEXT_-_KEYWORD_-_Mind" data-name="TEXT - KEYWORD - Mind">
-        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 133.6371, 448.3389)" font-size="13.448" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Mind</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 131.6371, 448.3389)" font-size="15.66" fill="#FFFFFF" font-family="Copperplate-Light, Copperplate" font-weight="300" text-anchor="middle" dominant-baseline="middle">Mind</text>
       </g>
       <g id="TEXT_-_NAME_-_Initiation" data-name="TEXT - NAME - Initiation">
-        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 145.6371, 448.3389)" font-size="18.4909" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Initiation</text>
+        <text transform="matrix(-0.0000, -1.0000, 1, -0.0000, 147.1371, 448.3389)" font-size="24.16" fill="#FFFFFF" font-family="Copperplate" text-anchor="middle" dominant-baseline="middle">Initiation</text>
       </g>
       <g id="SYMBOL_-_BIGRAM_-_C_-_YANG (BOTTOM) - YIN (TOP)" data-name="SYMBOL - BIGRAM - C - YANG (BOTTOM) - YIN (TOP)">
-        <g transform="translate(92.6371, 448.3389) rotate(270)" fill="#FFFFFF">
-    <rect x="-10.41" y="1.4865" width="20.82" height="4.957"/>
-    <rect x="-10.41" y="-6.4435" width="8.445" height="4.957"/>
-    <rect x="1.965" y="-6.4435" width="8.445" height="4.957"/>
+        <g transform="translate(89.1371, 448.3389) rotate(270)" fill="#FFFFFF">
+    <rect x="-11.66" y="1.6650000000000005" width="23.32" height="5.55"/>
+    <rect x="-11.66" y="-7.215" width="9.46" height="5.55"/>
+    <rect x="2.2" y="-7.215" width="9.46" height="5.55"/>
   </g>
       </g>
     </g>

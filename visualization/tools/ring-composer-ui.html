@@ -205,6 +205,18 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 10px;
+      cursor: grab;
+      padding: 4px;
+      margin: -4px -4px 10px -4px;
+      border-radius: 6px;
+    }
+
+    .ring-header:hover {
+      background: rgba(212, 175, 55, 0.05);
+    }
+
+    .ring-header:active {
+      cursor: grabbing;
     }
 
     .ring-name {
@@ -336,6 +348,41 @@
                   0 0 16px var(--glow-gold);
     }
 
+    /* Number input fields */
+    input[type="number"] {
+      width: 60px;
+      padding: 4px 8px;
+      background: var(--void-deep);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      color: var(--gold-primary);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8em;
+      text-align: center;
+    }
+
+    input[type="number"]:focus {
+      outline: none;
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      opacity: 1;
+    }
+
+    /* Slider row with number input */
+    .slider-with-input {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .slider-with-input input[type="range"] {
+      flex: 1;
+    }
+
     /* Order Buttons */
     .order-buttons {
       display: flex;
@@ -462,7 +509,7 @@
       overflow: hidden;
     }
 
-    /* Atmospheric background pattern */
+    /* Atmospheric background pattern - behind SVG */
     .preview-panel::before {
       content: '';
       position: absolute;
@@ -475,9 +522,10 @@
         radial-gradient(circle at 20% 80%, rgba(30, 77, 77, 0.1) 0%, transparent 40%),
         radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
       pointer-events: none;
+      z-index: 0;
     }
 
-    /* Subtle grid pattern */
+    /* Subtle grid pattern - behind SVG */
     .preview-panel::after {
       content: '';
       position: absolute;
@@ -490,14 +538,63 @@
         linear-gradient(90deg, rgba(212, 175, 55, 0.02) 1px, transparent 1px);
       background-size: 50px 50px;
       pointer-events: none;
+      z-index: 0;
     }
 
     #preview-svg {
-      max-width: 95%;
-      max-height: 95%;
-      position: relative;
-      z-index: 1;
+      position: absolute;
+      z-index: 10;
       filter: drop-shadow(0 0 40px rgba(212, 175, 55, 0.1));
+      cursor: grab;
+      transition: transform 0.1s ease-out;
+    }
+
+    #preview-svg:active {
+      cursor: grabbing;
+    }
+
+    .zoom-controls {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 20;
+    }
+
+    .zoom-btn {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border-subtle);
+      background: rgba(10, 14, 20, 0.9);
+      color: var(--text-secondary);
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.2em;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(10px);
+      transition: all 0.2s;
+    }
+
+    .zoom-btn:hover {
+      background: var(--void-elevated);
+      border-color: var(--gold-primary);
+      color: var(--gold-primary);
+    }
+
+    .zoom-level {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7em;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 4px;
+      background: rgba(10, 14, 20, 0.8);
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
     }
 
     .preview-info {
@@ -641,6 +738,55 @@
       background: rgba(229, 115, 115, 0.15) !important;
       border-color: rgba(229, 115, 115, 0.4) !important;
     }
+
+    /* Center piece selector */
+    .center-piece-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .center-piece-option {
+      padding: 10px 16px;
+      background: var(--void-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: all 0.2s;
+    }
+
+    .center-piece-option:hover {
+      background: var(--void-elevated);
+      border-color: var(--border-accent);
+      color: var(--gold-primary);
+    }
+
+    .center-piece-option.selected {
+      background: linear-gradient(135deg, var(--void-elevated) 0%, var(--cosmic-blue) 100%);
+      border-color: var(--gold-primary);
+      color: var(--gold-primary);
+      box-shadow: 0 2px 12px rgba(212, 175, 55, 0.2);
+    }
+
+    /* Usage badge for duplicate rings */
+    .usage-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 18px;
+      height: 18px;
+      padding: 0 5px;
+      margin-left: 6px;
+      background: var(--gold-primary);
+      color: var(--void-bg);
+      border-radius: 9px;
+      font-size: 0.7em;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -657,17 +803,22 @@
       <div class="control-row">
         <div class="control-label">
           <span>Start Radius</span>
-          <span class="control-value" id="start-radius-value">400</span>
+          <span class="control-value" id="start-radius-value">500</span>
         </div>
-        <input type="range" id="start-radius" min="100" max="800" value="400">
+        <input type="range" id="start-radius" min="100" max="800" value="500">
       </div>
       <div class="control-row">
         <div class="control-label">
           <span>Default Gap</span>
-          <span class="control-value" id="default-gap-value">0px</span>
+          <span class="control-value" id="default-gap-value">2px</span>
         </div>
-        <input type="range" id="default-gap" min="0" max="30" value="0">
+        <input type="range" id="default-gap" min="0" max="30" value="2">
       </div>
+    </div>
+
+    <h2>Center Piece</h2>
+    <div id="center-piece-selector" class="center-piece-selector">
+      <!-- Center piece options will be inserted here -->
     </div>
 
     <h2>Rings (drag to reorder)</h2>
@@ -682,17 +833,45 @@
     </div>
   </div>
 
-  <div class="preview-panel">
+  <div class="preview-panel" id="preview-panel">
     <div class="loading-indicator" id="loading">Loading rings...</div>
+    <div class="zoom-controls">
+      <button class="zoom-btn" onclick="zoomIn()" title="Zoom In">+</button>
+      <button class="zoom-btn" onclick="zoomOut()" title="Zoom Out">−</button>
+      <button class="zoom-btn" onclick="resetZoom()" title="Reset View">⟲</button>
+      <div class="zoom-level" id="zoom-level">100%</div>
+    </div>
     <svg id="preview-svg" viewBox="0 0 2000 2000">
       <!-- Preview will be rendered here -->
     </svg>
     <div class="preview-info" id="preview-info">
-      Total radius: --
+      Total radius: -- | Scroll to zoom, drag to pan
     </div>
   </div>
 
   <script>
+    // Center piece definitions - these go in the middle of the wheel
+    // Only ONE center piece can be selected at a time
+    const CENTER_PIECES = {
+      none: {
+        name: 'None (Empty)',
+        color: '#666666',
+        svgFile: null,
+        radius: 0  // No center piece
+      },
+      bodygraph: {
+        name: 'Bodygraph',
+        color: '#FF6B6B',
+        svgFile: '../output/generated-bodygraph.svg',
+        // Canvas is 1232.9 x 1232.9 with content group having translate(15.2127, 15.2127)
+        // The internal center is at viewBox/2 = 601.2374, but after the offset (15.2127)
+        // the center IN CANVAS COORDINATES is: 601.2374 + 15.2127 = 616.45
+        // Note: The translate is INSIDE the content, so we add it to the internal center
+        center: { x: 616.45, y: 616.45 },
+        radius: 596.45  // Gate dots are at this radius from center
+      }
+    };
+
     // Ring definitions with visual bounds and SVG file paths
     // These values MUST match the actual generator outputs
     const RING_DEFINITIONS = {
@@ -723,7 +902,8 @@
         color: '#96CEB4',
         svgFile: '../output/generated-codon-rings-ring.svg',
         center: { x: 1122.0567, y: 1130.6034 },
-        innerRadius: 858.2697,
+        // SVG circles: INNERMOST r=838.26, MIDDLE r=1084.37, OUTER r=1108.38
+        innerRadius: 838.2597,
         outerRadius: 1084.3718,
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() {
@@ -766,34 +946,153 @@
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() { return this.innerRadius - 2; },
         get visualOuter() { return this.outerRadius + 2; }
+      },
+      // === NEW RINGS ADDED ===
+      quarters: {
+        name: 'Quarters/Trigrams/Faces',
+        color: '#9B59B6',
+        svgFile: '../output/generated-quarters-trigrams-faces-fifths.svg',
+        center: { x: 448.0762, y: 448.3394 },
+        innerRadius: 272,
+        outerRadius: 448,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      calendar: {
+        name: 'Calendar',
+        color: '#E67E22',
+        svgFile: '../output/generated-calendar-ring.svg',
+        // Center matches SVG: cx="826.326" cy="826.326"
+        center: { x: 826.326, y: 826.326 },
+        innerRadius: 752.81,
+        outerRadius: 826.01,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      fullchops: {
+        name: 'Full Chops (Yin/Yang)',
+        color: '#1ABC9C',
+        svgFile: '../output/generated-full-chops-ring.svg',
+        center: { x: 1986.0379, y: 1986.0379 },
+        // SVG circles: INNER-CENTRE r=1905.2769, OUTER-CENTRE r=1975.0843
+        innerRadius: 1905.2769,
+        outerRadius: 1975.0843,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      yinchops: {
+        name: 'Yin Chops',
+        color: '#3498DB',
+        svgFile: '../output/generated-yin-chops-ring.svg',
+        center: { x: 1986.0379, y: 1986.0379 },
+        // SVG circles: INNER-CENTRE r=1905.2769, OUTER-CENTRE r=1975.0843
+        innerRadius: 1905.2769,
+        outerRadius: 1975.0843,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      yangchops: {
+        name: 'Yang Chops',
+        color: '#E74C3C',
+        svgFile: '../output/generated-yang-chops-ring.svg',
+        center: { x: 1986.0379, y: 1986.0379 },
+        // SVG circles: INNER-CENTRE r=1905.2769, OUTER-CENTRE r=1975.0843
+        innerRadius: 1905.2769,
+        outerRadius: 1975.0843,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      crosses: {
+        name: 'Incarnation Crosses',
+        color: '#F39C12',
+        svgFile: '../output/generated-incarnation-crosses-ring.svg',
+        center: { x: 2269.7216, y: 2269.9519 },
+        innerRadius: 2000.1011,
+        outerRadius: 2266.954,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 2; }
+      },
+      lines: {
+        name: '384 Lines',
+        color: '#8E44AD',
+        svgFile: '../output/generated-lines-ring.svg',
+        center: { x: 6536, y: 6536 },
+        innerRadius: 5160,
+        outerRadius: 6360,  // Dividers extend to 6360, keynotes at 5487
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 100; }  // Extra for text overflow beyond dividers
+      },
+      channels: {
+        name: 'Channels',
+        color: '#27AE60',
+        svgFile: '../output/generated-channels-ring.svg',
+        center: { x: 6482.5278, y: 6486.1582 },
+        innerRadius: 4504.9828,
+        outerRadius: 6099,  // Actual outer ring boundary (was incorrectly 6481)
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 20; }  // Small buffer for text
       }
     };
 
     // Cache for loaded SVG content
     const svgCache = {};
 
+    // Zoom/Pan state
+    let viewState = {
+      zoom: 1,
+      panX: 0,
+      panY: 0,
+      isPanning: false,
+      startPanX: 0,
+      startPanY: 0,
+      lastMouseX: 0,
+      lastMouseY: 0
+    };
+
     // State
     let state = {
+      centerPiece: 'bodygraph',  // Selected center piece type ('none', 'bodygraph', etc.)
       rings: [
-        { type: 'numbers', scale: 1.0, gapAfter: 0 },
-        { type: 'hexagrams', scale: 1.0, gapAfter: 0 },
-        { type: 'codons', scale: 1.0, gapAfter: 0 }
+        { type: 'numbers', scale: 1.0, gapAfter: 2 },      // Hexagram Numbers
+        { type: 'quarters', scale: 1.0, gapAfter: 2 },     // Quarters/Trigrams/Faces
+        { type: 'calendar', scale: 1.0, gapAfter: 2 },     // Calendar
+        { type: 'hexagrams', scale: 1.0, gapAfter: 2 },    // Hexagrams
+        { type: 'codons', scale: 1.0, gapAfter: 2 },       // Codons
+        { type: 'numbers', scale: 1.0, gapAfter: 2 },      // Hexagram Numbers (duplicate)
+        { type: 'iching', scale: 1.0, gapAfter: 2 },       // I Ching Names
+        { type: 'gatenames', scale: 1.0, gapAfter: 2 },    // HD Gate Names
+        { type: 'yinchops', scale: 1.0, gapAfter: 2 },     // Yin Chops
+        { type: 'genekeys', scale: 1.0, gapAfter: 2 },     // Gene Keys
+        { type: 'yangchops', scale: 1.0, gapAfter: 2 },    // Yang Chops
+        { type: 'crosses', scale: 1.0, gapAfter: 2 },      // Incarnation Crosses
+        { type: 'channels', scale: 1.0, gapAfter: 2 },     // Channels
+        { type: 'lines', scale: 1.0, gapAfter: 2 }         // 384 Lines
       ],
       selectedIndex: null,
-      startRadius: 400,
-      defaultGap: 0,
+      startRadius: 500,
+      defaultGap: 2,
       center: { x: 1000, y: 1000 },
       viewMode: 'actual' // 'actual' or 'schematic'
     };
 
-    // Load SVG file and extract content
-    async function loadSVGContent(ringType) {
-      if (svgCache[ringType]) {
-        return svgCache[ringType];
+    // Load SVG file and extract content (works for both rings and center pieces)
+    async function loadSVGContent(type, isCenter = false) {
+      if (svgCache[type]) {
+        return svgCache[type];
       }
 
-      const def = RING_DEFINITIONS[ringType];
-      console.log(`Loading ${ringType} from ${def.svgFile}...`);
+      const def = isCenter ? CENTER_PIECES[type] : RING_DEFINITIONS[type];
+      if (!def || !def.svgFile) return null;
+
+      console.log(`Loading ${type} from ${def.svgFile}...`);
 
       try {
         const response = await fetch(def.svgFile);
@@ -802,7 +1101,7 @@
         }
 
         const svgText = await response.text();
-        console.log(`Loaded ${ringType}: ${svgText.length} bytes`);
+        console.log(`Loaded ${type}: ${svgText.length} bytes`);
 
         // Extract content between <svg> and </svg>
         const parser = new DOMParser();
@@ -825,11 +1124,11 @@
           }
         }
 
-        console.log(`Extracted ${ringType} content: ${content.length} chars`);
-        svgCache[ringType] = content;
+        console.log(`Extracted ${type} content: ${content.length} chars`);
+        svgCache[type] = content;
         return content;
       } catch (error) {
-        console.error(`Error loading ${ringType}:`, error);
+        console.error(`Error loading ${type}:`, error);
         // Show error in UI
         const info = document.getElementById('preview-info');
         info.textContent = `Error: ${error.message}. Run: node visualization/tools/serve.js`;
@@ -838,16 +1137,72 @@
       }
     }
 
-    // Preload all ring SVGs
+    // Preload all ring SVGs and center pieces
     async function preloadRings() {
       const loading = document.getElementById('loading');
       loading.classList.add('visible');
 
-      const types = Object.keys(RING_DEFINITIONS);
-      await Promise.all(types.map(type => loadSVGContent(type)));
+      // Load all rings
+      const ringTypes = Object.keys(RING_DEFINITIONS);
+      await Promise.all(ringTypes.map(type => loadSVGContent(type, false)));
+
+      // Load all center pieces (except 'none')
+      const centerTypes = Object.keys(CENTER_PIECES).filter(t => t !== 'none');
+      await Promise.all(centerTypes.map(type => loadSVGContent(type, true)));
 
       loading.classList.remove('visible');
       renderPreview();
+    }
+
+    // Render center piece selector
+    function renderCenterPieceSelector() {
+      const container = document.getElementById('center-piece-selector');
+      container.innerHTML = Object.entries(CENTER_PIECES).map(([type, def]) => `
+        <button class="center-piece-option ${state.centerPiece === type ? 'selected' : ''}"
+                onclick="selectCenterPiece('${type}')"
+                style="${type !== 'none' ? `border-color: ${def.color}` : ''}">
+          ${def.name}
+        </button>
+      `).join('');
+    }
+
+    // Select center piece
+    async function selectCenterPiece(type) {
+      state.centerPiece = type;
+
+      // Load SVG if needed
+      if (type !== 'none' && !svgCache[type]) {
+        const loading = document.getElementById('loading');
+        loading.classList.add('visible');
+        await loadSVGContent(type, true);
+        loading.classList.remove('visible');
+      }
+
+      render();
+    }
+
+    // Calculate center piece placement
+    function calculateCenterPiecePlacement() {
+      if (state.centerPiece === 'none') return null;
+
+      const def = CENTER_PIECES[state.centerPiece];
+      if (!def || !def.svgFile) return null;
+
+      // Scale the center piece to fit within startRadius
+      const scale = state.startRadius / def.radius;
+
+      // Calculate transform to position center piece at wheel center
+      const translateX = state.center.x - (def.center.x * scale);
+      const translateY = state.center.y - (def.center.y * scale);
+
+      return {
+        type: state.centerPiece,
+        name: def.name,
+        color: def.color,
+        scale,
+        radius: def.radius * scale,
+        transform: `translate(${translateX.toFixed(4)}, ${translateY.toFixed(4)}) scale(${scale.toFixed(6)})`
+      };
     }
 
     // Calculate snap placements
@@ -862,7 +1217,13 @@
 
         // Scale to fit at current position
         const targetVisualInner = currentVisualOuter + gap;
-        const baseScale = targetVisualInner / def.visualInner;
+        let baseScale = targetVisualInner / def.visualInner;
+
+        // Validate scale to prevent NaN/Infinity
+        if (!isFinite(baseScale) || baseScale <= 0) {
+          console.warn(`Invalid baseScale for ${def.name}: ${baseScale}, using 1.0`);
+          baseScale = 1.0;
+        }
         const scale = baseScale * ring.scale;
 
         const visualInner = def.visualInner * scale;
@@ -914,6 +1275,31 @@
 
       // Background
       content += `<rect x="${viewMin}" y="${viewMin}" width="${viewSize}" height="${viewSize}" fill="#151E25"/>`;
+
+      // Render center piece first (underneath rings)
+      const centerPlacement = calculateCenterPiecePlacement();
+      if (centerPlacement && state.viewMode === 'actual') {
+        const centerContent = svgCache[centerPlacement.type];
+        if (centerContent) {
+          console.log(`Rendering center piece: ${centerPlacement.type}, scale: ${centerPlacement.scale.toFixed(4)}, transform: ${centerPlacement.transform}`);
+          content += `<g id="center-piece" transform="${centerPlacement.transform}">`;
+          content += centerContent;
+          content += `</g>`;
+        } else {
+          console.warn(`Center piece '${centerPlacement.type}' not loaded in cache`);
+        }
+      } else if (centerPlacement && state.viewMode === 'schematic') {
+        // Schematic view for center piece - just show a filled circle
+        content += `
+          <circle cx="${cx}" cy="${cy}" r="${centerPlacement.radius}"
+                  fill="${centerPlacement.color}" fill-opacity="0.2"
+                  stroke="${centerPlacement.color}" stroke-width="2"/>
+          <text x="${cx}" y="${cy}" fill="${centerPlacement.color}" font-size="14"
+                font-family="sans-serif" text-anchor="middle" dominant-baseline="middle">
+            ${centerPlacement.name}
+          </text>
+        `;
+      }
 
       if (state.viewMode === 'actual') {
         // Render actual SVG content
@@ -1020,9 +1406,8 @@
         return `
           <div class="ring-card ${isSelected ? 'selected' : ''}"
                data-index="${i}"
-               draggable="true"
                onclick="selectRing(${i})">
-            <div class="ring-header">
+            <div class="ring-header" data-index="${i}" draggable="true">
               <span class="ring-name" style="color: ${def.color}">
                 <span class="drag-handle">⋮⋮</span>
                 ${def.name}
@@ -1038,20 +1423,28 @@
               <div class="control-row">
                 <div class="control-label">
                   <span>Scale</span>
-                  <span class="control-value">${(ring.scale * 100).toFixed(0)}%</span>
                 </div>
-                <input type="range" min="20" max="200" value="${ring.scale * 100}"
-                       onchange="updateRingScale(${i}, this.value / 100)"
-                       oninput="updateRingScale(${i}, this.value / 100)">
+                <div class="slider-with-input">
+                  <input type="range" min="20" max="200" value="${ring.scale * 100}"
+                         oninput="updateRingScale(${i}, this.value / 100)"
+                         onclick="event.stopPropagation()">
+                  <input type="number" min="20" max="500" value="${(ring.scale * 100).toFixed(0)}"
+                         onchange="updateRingScale(${i}, this.value / 100)"
+                         onclick="event.stopPropagation()">%
+                </div>
               </div>
               <div class="control-row">
                 <div class="control-label">
                   <span>Gap After</span>
-                  <span class="control-value">${ring.gapAfter}px</span>
                 </div>
-                <input type="range" min="0" max="50" value="${ring.gapAfter}"
-                       onchange="updateRingGap(${i}, parseInt(this.value))"
-                       oninput="updateRingGap(${i}, parseInt(this.value))">
+                <div class="slider-with-input">
+                  <input type="range" min="0" max="50" value="${ring.gapAfter}"
+                         oninput="updateRingGap(${i}, parseInt(this.value))"
+                         onclick="event.stopPropagation()">
+                  <input type="number" min="0" max="200" value="${ring.gapAfter}"
+                         onchange="updateRingGap(${i}, parseInt(this.value))"
+                         onclick="event.stopPropagation()">px
+                </div>
               </div>
               <div class="order-buttons">
                 <button class="order-btn" onclick="moveRing(${i}, -1); event.stopPropagation();" ${isFirst ? 'disabled' : ''}>
@@ -1078,8 +1471,14 @@
 
     // Render add ring options
     function renderAddRingOptions() {
-      const usedTypes = state.rings.map(r => r.type);
-      const availableTypes = Object.entries(RING_DEFINITIONS).filter(([type]) => !usedTypes.includes(type));
+      // Count how many times each ring type is used
+      const usageCounts = {};
+      state.rings.forEach(r => {
+        usageCounts[r.type] = (usageCounts[r.type] || 0) + 1;
+      });
+
+      // All ring types are always available (duplicates allowed)
+      const allTypes = Object.entries(RING_DEFINITIONS);
 
       // Find or create add ring section
       let addSection = document.querySelector('.add-ring-section');
@@ -1089,40 +1488,47 @@
         document.getElementById('rings-container').after(addSection);
       }
 
-      if (availableTypes.length > 0) {
-        addSection.innerHTML = `
-          <h2>Add Ring</h2>
-          <div class="ring-options">
-            ${availableTypes.map(([type, def]) => `
+      addSection.innerHTML = `
+        <h2>Add Ring</h2>
+        <div class="ring-options">
+          ${allTypes.map(([type, def]) => {
+            const count = usageCounts[type] || 0;
+            const badge = count > 0 ? `<span class="usage-badge">${count}</span>` : '';
+            return `
               <button class="ring-option" onclick="addRing('${type}')"
                       style="border-color: ${def.color}; color: ${def.color}">
-                ${def.name}
+                ${def.name}${badge}
               </button>
-            `).join('')}
-          </div>
-        `;
-      } else {
-        addSection.innerHTML = '<p style="color: #666; font-size: 0.8em;">All rings added</p>';
-      }
+            `;
+          }).join('')}
+        </div>
+      `;
     }
 
-    // Setup drag and drop
+    // Setup drag and drop - headers are draggable, cards are drop targets
     function setupDragAndDrop() {
+      const headers = document.querySelectorAll('.ring-header[draggable="true"]');
       const cards = document.querySelectorAll('.ring-card');
 
-      cards.forEach(card => {
-        card.addEventListener('dragstart', (e) => {
+      headers.forEach(header => {
+        header.addEventListener('dragstart', (e) => {
+          const card = header.closest('.ring-card');
           card.classList.add('dragging');
-          e.dataTransfer.setData('text/plain', card.dataset.index);
+          e.dataTransfer.setData('text/plain', header.dataset.index);
+          e.dataTransfer.effectAllowed = 'move';
         });
 
-        card.addEventListener('dragend', () => {
+        header.addEventListener('dragend', () => {
+          const card = header.closest('.ring-card');
           card.classList.remove('dragging');
           document.querySelectorAll('.ring-card').forEach(c => c.classList.remove('drag-over'));
         });
+      });
 
+      cards.forEach(card => {
         card.addEventListener('dragover', (e) => {
           e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
           const dragging = document.querySelector('.dragging');
           if (dragging !== card) {
             card.classList.add('drag-over');
@@ -1216,6 +1622,7 @@
     // Reset all
     function resetAll() {
       state = {
+        centerPiece: 'none',
         rings: [
           { type: 'numbers', scale: 1.0, gapAfter: 0 },
           { type: 'hexagrams', scale: 1.0, gapAfter: 0 },
@@ -1237,7 +1644,10 @@
     // Export SVG - generates actual composited SVG
     function exportSVG() {
       const placements = calculatePlacements();
-      const maxRadius = placements[placements.length - 1].visualOuter + 50;
+      const centerPlacement = calculateCenterPiecePlacement();
+      const maxRadius = placements.length > 0
+        ? placements[placements.length - 1].visualOuter + 50
+        : (centerPlacement ? centerPlacement.radius + 50 : 500);
       const cx = state.center.x;
       const cy = state.center.y;
       const viewSize = maxRadius * 2 + 100;
@@ -1256,6 +1666,17 @@
   <rect id="background" x="${viewMin.toFixed(0)}" y="${viewMin.toFixed(0)}" width="${viewSize.toFixed(0)}" height="${viewSize.toFixed(0)}" fill="#151E25" stroke="none"/>
 `;
 
+      // Add center piece first (underneath rings)
+      if (centerPlacement) {
+        const centerContent = svgCache[centerPlacement.type];
+        if (centerContent) {
+          svg += `  <g id="center-piece" transform="${centerPlacement.transform}">\n`;
+          svg += `    ${centerContent}\n`;
+          svg += `  </g>\n`;
+        }
+      }
+
+      // Add rings
       for (const p of placements) {
         const svgContent = svgCache[p.type];
         if (svgContent) {
@@ -1283,6 +1704,7 @@
         center: state.center,
         startRadius: state.startRadius,
         defaultGap: state.defaultGap,
+        centerPiece: state.centerPiece,
         rings: state.rings.map(r => ({
           type: r.type,
           scale: r.scale,
@@ -1303,6 +1725,7 @@ const config = ${JSON.stringify(config, null, 2)};
 
     // Main render
     function render() {
+      renderCenterPieceSelector();
       renderRingCards();
       renderPreview();
     }
@@ -1320,9 +1743,106 @@ const config = ${JSON.stringify(config, null, 2)};
       render();
     });
 
+    // ============================================================================
+    // ZOOM AND PAN FUNCTIONS
+    // ============================================================================
+
+    function updateSvgTransform() {
+      const svg = document.getElementById('preview-svg');
+      svg.style.transform = `translate(${viewState.panX}px, ${viewState.panY}px) scale(${viewState.zoom})`;
+      document.getElementById('zoom-level').textContent = `${Math.round(viewState.zoom * 100)}%`;
+    }
+
+    function zoomIn() {
+      viewState.zoom = Math.min(viewState.zoom * 1.25, 10);
+      updateSvgTransform();
+    }
+
+    function zoomOut() {
+      viewState.zoom = Math.max(viewState.zoom / 1.25, 0.1);
+      updateSvgTransform();
+    }
+
+    function resetZoom() {
+      viewState.zoom = 1;
+      viewState.panX = 0;
+      viewState.panY = 0;
+      updateSvgTransform();
+    }
+
+    function setupZoomPan() {
+      const panel = document.getElementById('preview-panel');
+      const svg = document.getElementById('preview-svg');
+
+      // Mouse wheel zoom
+      panel.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const rect = panel.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left - rect.width / 2;
+        const mouseY = e.clientY - rect.top - rect.height / 2;
+
+        const oldZoom = viewState.zoom;
+        if (e.deltaY < 0) {
+          viewState.zoom = Math.min(viewState.zoom * 1.1, 10);
+        } else {
+          viewState.zoom = Math.max(viewState.zoom / 1.1, 0.1);
+        }
+
+        // Zoom towards mouse position
+        const zoomRatio = viewState.zoom / oldZoom;
+        viewState.panX = mouseX - (mouseX - viewState.panX) * zoomRatio;
+        viewState.panY = mouseY - (mouseY - viewState.panY) * zoomRatio;
+
+        updateSvgTransform();
+      }, { passive: false });
+
+      // Pan with mouse drag
+      svg.addEventListener('mousedown', (e) => {
+        if (e.button === 0) {  // Left click
+          viewState.isPanning = true;
+          viewState.lastMouseX = e.clientX;
+          viewState.lastMouseY = e.clientY;
+          svg.style.cursor = 'grabbing';
+          svg.style.transition = 'none';
+        }
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (viewState.isPanning) {
+          const dx = e.clientX - viewState.lastMouseX;
+          const dy = e.clientY - viewState.lastMouseY;
+          viewState.panX += dx;
+          viewState.panY += dy;
+          viewState.lastMouseX = e.clientX;
+          viewState.lastMouseY = e.clientY;
+          updateSvgTransform();
+        }
+      });
+
+      document.addEventListener('mouseup', () => {
+        if (viewState.isPanning) {
+          viewState.isPanning = false;
+          svg.style.cursor = 'grab';
+          svg.style.transition = 'transform 0.1s ease-out';
+        }
+      });
+
+      // Double-click to reset
+      svg.addEventListener('dblclick', () => {
+        resetZoom();
+      });
+    }
+
+    // Simple slider event listener
+    function setupSliderListeners() {
+      // Nothing needed here - using inline oninput handlers
+    }
+
     // Initial load
     preloadRings().then(() => {
       render();
+      setupZoomPan();
+      setupSliderListeners();
     });
   </script>
 </body>
