@@ -48,15 +48,18 @@ const RING = {
 /**
  * Convert zodiac degree (0-360, 0°=Aries) to SVG angle
  *
- * Based on analysis of the original calendar-elements.svg:
- * - AR-PI (0° Aries) boundary is at ~178° SVG (left side of wheel)
- * - Zodiac degrees increase counter-clockwise (as viewed from outside)
- * - SVG angles increase clockwise
+ * Uses the V3 positioning system for consistency with all other rings:
+ * - Gate 41.1 starts at 0° V3 angle = 302° zodiac (2° Aquarius)
+ * - So V3 angle = (zodiacDegree - 302 + 360) % 360
+ * - Then apply shared.calculateSVGAngle() for final SVG position
  *
- * Formula derived: svgAngle = (180 - zodiacDegree + 360) % 360
+ * This ensures calendar chops align perfectly with full-chops, lines, etc.
  */
 function zodiacToSvgAngle(zodiacDegree) {
-  return ((180 - zodiacDegree) + 360) % 360;
+  // Convert zodiac degree to V3 angle (gate 41.1 at V3 0° = zodiac 302°)
+  const v3Angle = (zodiacDegree - 302 + 360) % 360;
+  // Use shared formula for consistency with all other ring generators
+  return shared.calculateSVGAngle(v3Angle);
 }
 
 // ============================================================================
