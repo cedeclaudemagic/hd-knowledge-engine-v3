@@ -531,7 +531,7 @@ function generateLinesRing(options = {}) {
 
   // Background
   if (includeBackground) {
-    svgParts.push(`  <rect width="100%" height="100%" fill="${backgroundColor}"/>`);
+    svgParts.push(`  <rect id="background" width="100%" height="100%" fill="${backgroundColor}"/>`);
   }
 
   // Structure (rings and dividers)
