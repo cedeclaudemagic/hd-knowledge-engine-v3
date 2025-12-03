@@ -55,11 +55,25 @@ const RING = {
  *
  * This ensures calendar chops align perfectly with full-chops, lines, etc.
  */
-function zodiacToSvgAngle(zodiacDegree) {
+// Angular constants for positioning
+const GATE_ARC = 5.625;           // Degrees per gate
+const LINE_ARC = GATE_ARC / 6;    // 0.9375° per line
+const HALF_LINE_ARC = LINE_ARC / 2;  // 0.46875° - for centering chops
+
+// POSITION_ADJUST: Offset to align with reference SVG and other rings.
+// The V3 positioning gives line START positions, but visual elements need
+// to be offset to align correctly on the wheel with other rings.
+// Same offset as full-chops-ring.js: -GATE_ARC / 2 - LINE_ARC = -3.75°
+const POSITION_ADJUST = -GATE_ARC / 2 - LINE_ARC;  // -3.75°
+
+function zodiacToSvgAngle(zodiacDegree, forChop = false) {
   // Convert zodiac degree to V3 angle (gate 41.1 at V3 0° = zodiac 302°)
   const v3Angle = (zodiacDegree - 302 + 360) % 360;
+  // Apply POSITION_ADJUST to align with other rings
+  // For chops, also add half line arc to center within line boundary
+  const adjustedAngle = v3Angle + POSITION_ADJUST + (forChop ? HALF_LINE_ARC : 0);
   // Use shared formula for consistency with all other ring generators
-  return shared.calculateSVGAngle(v3Angle);
+  return shared.calculateSVGAngle(adjustedAngle);
 }
 
 // ============================================================================
@@ -132,7 +146,7 @@ function getLinePolarity(gateNumber, lineNumber) {
  * Generate a chop marker (yin or yang rectangle)
  */
 function generateChop(degree, isYang, gateLineKey) {
-  const svgAngle = zodiacToSvgAngle(degree);
+  const svgAngle = zodiacToSvgAngle(degree, true);  // forChop = true for centering
   const radians = svgAngle * Math.PI / 180;
 
   // Chop dimensions
@@ -314,9 +328,9 @@ function generateCalendarRing(options = {}) {
   // SVG header
   svgParts.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${viewBoxSize} ${viewBoxSize}" width="${viewBoxSize}" height="${viewBoxSize}">`);
 
-  // Background
+  // Background (id="background" allows ring-composer to filter it out)
   if (backgroundColor) {
-    svgParts.push(`  <rect width="100%" height="100%" fill="${backgroundColor}"/>`);
+    svgParts.push(`  <rect id="background" width="100%" height="100%" fill="${backgroundColor}"/>`);
   }
 
   // Structure (rings)
