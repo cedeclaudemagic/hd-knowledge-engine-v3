@@ -1642,6 +1642,55 @@
       render();
     }
 
+    /**
+     * Font-specific baseline correction for Illustrator compatibility.
+     *
+     * Illustrator ignores dominant-baseline="central", causing text to render
+     * at the baseline instead of vertically centered. This function adds a dy
+     * attribute to compensate, shifting text by half the cap height.
+     *
+     * Correction values derived from analysis of Illustrator exports:
+     * - Herculanum: -0.35em (cap height ratio ~0.70)
+     * - Copperplate family: -0.34em (cap height ratio ~0.68)
+     * - Default: -0.35em (safe fallback for unknown fonts)
+     */
+    const BASELINE_CORRECTIONS = {
+      'Herculanum': '0.35em',
+      'Copperplate': '0.34em',
+      'Copperplate-Bold': '0.34em',
+      'Copperplate-Light': '0.34em',
+      'Copperplate-Bold, Copperplate': '0.34em',
+      'Copperplate-Light, Copperplate': '0.34em',
+      'Copperplate, Copperplate-Light': '0.34em',
+      'default': '0.35em'
+    };
+
+    /**
+     * Apply baseline correction to SVG content for Illustrator export.
+     * Adds dy attribute to ALL <text> elements based on their font-family.
+     *
+     * This corrects for Illustrator ignoring dominant-baseline="central".
+     * Both single-line and multiline text elements need this correction.
+     */
+    function applyBaselineCorrection(svgContent) {
+      // Match text elements and add dy attribute based on font-family
+      return svgContent.replace(
+        /<text([^>]*?)font-family="([^"]+)"([^>]*?)>/g,
+        (match, before, fontFamily, after) => {
+          // Skip if text element already has dy attribute
+          if (before.includes('dy=') || after.includes('dy=')) {
+            return match; // Don't override existing dy
+          }
+
+          // Get correction for this font (or default)
+          const correction = BASELINE_CORRECTIONS[fontFamily] || BASELINE_CORRECTIONS['default'];
+
+          // Add dy attribute after font-family
+          return `<text${before}font-family="${fontFamily}" dy="${correction}"${after}>`;
+        }
+      );
+    }
+
     // Export SVG - generates actual composited SVG
     function exportSVG() {
       const placements = calculatePlacements();
@@ -1671,8 +1720,10 @@
       if (centerPlacement) {
         const centerContent = svgCache[centerPlacement.type];
         if (centerContent) {
+          // Apply baseline correction for Illustrator compatibility
+          const correctedContent = applyBaselineCorrection(centerContent);
           svg += `  <g id="center-piece" transform="${centerPlacement.transform}">\n`;
-          svg += `    ${centerContent}\n`;
+          svg += `    ${correctedContent}\n`;
           svg += `  </g>\n`;
         }
       }
@@ -1681,8 +1732,10 @@
       for (const p of placements) {
         const svgContent = svgCache[p.type];
         if (svgContent) {
+          // Apply baseline correction for Illustrator compatibility
+          const correctedContent = applyBaselineCorrection(svgContent);
           svg += `  <g id="${p.type}-ring" transform="${p.transform}">\n`;
-          svg += `    ${svgContent}\n`;
+          svg += `    ${correctedContent}\n`;
           svg += `  </g>\n`;
         }
       }
