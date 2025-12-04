@@ -93,13 +93,14 @@ GATE_WHEEL_SEQUENCE.forEach((gate, pos) => {
 
 /**
  * Calculate the angle (in radians) for a gate's position on the wheel
- * Gate 41 (position 0) is at -126.7°, going counter-clockwise
+ * Gate 41 (position 0) is at -127.5°, going counter-clockwise
  */
 function getGateAngle(gateNum) {
   const position = GATE_TO_POSITION[gateNum];
-  // Start from Gate 41's position (-126.7°), go counter-clockwise (negative direction)
+  // Start from Gate 41's position (-127.5°), go counter-clockwise (negative direction)
   // Each position is 360/64 = 5.625 degrees apart
-  const startAngle = -126.7;
+  // Note: -127.5° aligns with V3 positioning algorithm (Gate 41 at 0.9375° -> SVG 232.5° -> -127.5°)
+  const startAngle = -127.5;
   const degrees = startAngle - (position * 360 / 64);
   return degrees * Math.PI / 180;
 }
