@@ -27,11 +27,13 @@
   "scripts": {
     "test": "node tests/comprehensive-unified-query-tests.js",
     "test:adapted": "node tests/adapted-old-tests.js",
-    "test:config": "node tests/configuration/test-wheel-config.js",
+    "test:config": "node tests/configuration/test-fundamental-config.js",
     "test:types": "tsc --noEmit",
     "test:integration": "node tests/integration/test-full-system.js",
     "test:performance": "node tests/performance/benchmark.js",
-    "test:all": "npm run test && npm run test:adapted && npm run test:config && npm run test:integration",
+    "test:all": "npm run test && npm run test:adapted && npm run test:config && npm run test:integration && npm run test:assembler && npm run test:data-attrs",
+    "test:assembler": "node tests/ring-assembler.test.js",
+    "test:data-attrs": "node tests/data-attributes.test.js",
     "lint": "echo 'Linting not yet configured'",
     "docs": "echo 'Documentation generation not yet configured'"
   },

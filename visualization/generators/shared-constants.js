@@ -213,6 +213,131 @@ function calculateTextConfig(ring) {
   };
 }
 
+// ============================================================================
+// DATA ATTRIBUTES SYSTEM
+// ============================================================================
+//
+// Standardized data-* attributes for SVG elements.
+// These enable querying/highlighting elements by gate, quarter, trigram, etc.
+// All generators should use these functions for consistency.
+
+// Lazy-loaded positioning module (avoids circular dependencies)
+let _positioning = null;
+function getPositioning() {
+  if (!_positioning) {
+    _positioning = require('../../core/root-system/positioning-algorithm.js');
+  }
+  return _positioning;
+}
+
+/**
+ * Get standardized data attributes for a gate
+ * Use this in all generators for consistent queryable SVG output.
+ *
+ * @param {number} gateNumber - Gate number (1-64)
+ * @param {Object} options - Optional configuration
+ * @param {boolean} options.includeWheelIndex - Include data-wheel-index (default: true)
+ * @param {boolean} options.includeAngle - Include data-angle (default: false)
+ * @param {boolean} options.includeOpposite - Include data-opposite-gate (default: false)
+ * @returns {Object} Object with data-* attribute keys and values
+ *
+ * @example
+ * const attrs = getGateDataAttributes(13);
+ * // Returns:
+ * // {
+ * //   'data-gate': 13,
+ * //   'data-binary': '101111',
+ * //   'data-codon': 'CAA',
+ * //   'data-quarter': 'Initiation',
+ * //   'data-face': 'Christ',
+ * //   'data-trigram-upper': 'Heaven',
+ * //   'data-trigram-lower': 'Fire',
+ * //   'data-wheel-index': 2
+ * // }
+ */
+function getGateDataAttributes(gateNumber, options = {}) {
+  const {
+    includeWheelIndex = true,
+    includeAngle = false,
+    includeOpposite = false
+  } = options;
+
+  const positioning = getPositioning();
+  const docking = positioning.getDockingData(gateNumber, 1);
+
+  const attrs = {
+    'data-gate': gateNumber,
+    'data-binary': docking.binary,
+    'data-codon': docking.codon,
+    'data-quarter': docking.quarter,
+    'data-face': docking.face,
+    'data-trigram-upper': docking.trigrams.upper,
+    'data-trigram-lower': docking.trigrams.lower
+  };
+
+  if (includeWheelIndex) {
+    attrs['data-wheel-index'] = docking.wheelIndex;
+  }
+
+  if (includeAngle) {
+    attrs['data-angle'] = docking.angle;
+  }
+
+  if (includeOpposite) {
+    attrs['data-opposite-gate'] = docking.oppositeGate;
+  }
+
+  return attrs;
+}
+
+/**
+ * Get standardized data attributes for a specific line
+ * Includes all gate attributes plus line-specific data.
+ *
+ * @param {number} gateNumber - Gate number (1-64)
+ * @param {number} lineNumber - Line number (1-6)
+ * @param {Object} options - Optional configuration (same as getGateDataAttributes)
+ * @returns {Object} Object with data-* attribute keys and values
+ */
+function getLineDataAttributes(gateNumber, lineNumber, options = {}) {
+  const positioning = getPositioning();
+  const docking = positioning.getDockingData(gateNumber, lineNumber);
+
+  // Get gate attributes
+  const attrs = getGateDataAttributes(gateNumber, options);
+
+  // Add line-specific attributes
+  attrs['data-line'] = lineNumber;
+
+  // Calculate polarity from binary (Line N uses binary[N-1])
+  const bitIndex = lineNumber - 1;
+  const isYang = docking.binary[bitIndex] === '1';
+  attrs['data-polarity'] = isYang ? 'YANG' : 'YIN';
+
+  return attrs;
+}
+
+/**
+ * Convert data attributes object to SVG attribute string
+ * Useful for template string SVG generation.
+ *
+ * @param {Object} attrs - Attributes object from getGateDataAttributes or getLineDataAttributes
+ * @returns {string} Space-separated attribute string for SVG elements
+ *
+ * @example
+ * const attrs = getGateDataAttributes(13);
+ * const attrString = dataAttributesToString(attrs);
+ * // Returns: 'data-gate="13" data-binary="101111" data-codon="CAA" ...'
+ *
+ * // Usage in SVG generation:
+ * `<g id="gate-13" ${attrString}>...</g>`
+ */
+function dataAttributesToString(attrs) {
+  return Object.entries(attrs)
+    .map(([key, value]) => `${key}="${value}"`)
+    .join(' ');
+}
+
 module.exports = {
   COLORS,
   POSITION_OFFSET,
@@ -223,5 +348,9 @@ module.exports = {
   generateDividers,
   generateStructure,
   TEXT_RATIOS,
-  calculateTextConfig
+  calculateTextConfig,
+  // Data attributes
+  getGateDataAttributes,
+  getLineDataAttributes,
+  dataAttributesToString
 };
