@@ -787,6 +787,117 @@
       font-size: 0.7em;
       font-weight: 600;
     }
+
+    /* Branding controls */
+    .branding-section {
+      background: var(--void-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .branding-toggle {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .branding-toggle input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--gold-primary);
+    }
+
+    .branding-toggle label {
+      color: var(--gold-primary);
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .branding-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .branding-field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .branding-field.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .branding-field label {
+      font-size: 0.75em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .branding-field select {
+      padding: 8px 10px;
+      background: var(--void-deep);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 0.9em;
+      cursor: pointer;
+    }
+
+    .branding-field select:hover {
+      border-color: var(--gold-primary);
+    }
+
+    .branding-field select:focus {
+      outline: none;
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+    }
+
+    .branding-preview {
+      margin-top: 12px;
+      padding: 10px;
+      background: var(--void-deep);
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.8em;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    .branding-preview .hexagram-display {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .branding-preview .hex-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .branding-preview .hex-label {
+      font-size: 0.65em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .branding-preview .hex-number {
+      color: var(--gold-primary);
+      font-weight: bold;
+    }
+
+    .branding-preview .hex-number.edition {
+      color: #fab300;
+    }
   </style>
 </head>
 <body>
@@ -831,6 +942,39 @@
     <h2>Rings (drag to reorder)</h2>
     <div id="rings-container">
       <!-- Ring cards will be inserted here -->
+    </div>
+
+    <h2>Branding</h2>
+    <div class="branding-section">
+      <div class="branding-toggle">
+        <input type="checkbox" id="branding-enabled" checked onchange="toggleBranding(this.checked)">
+        <label for="branding-enabled">Show Logo & Serial Number</label>
+      </div>
+      <div class="branding-grid" id="branding-controls">
+        <div class="branding-field">
+          <label for="branding-century">Century</label>
+          <select id="branding-century" onchange="updateBranding()"></select>
+        </div>
+        <div class="branding-field">
+          <label for="branding-year">Year</label>
+          <select id="branding-year" onchange="updateBranding()"></select>
+        </div>
+        <div class="branding-field">
+          <label for="branding-collection">Collection</label>
+          <select id="branding-collection" onchange="updateBranding()"></select>
+        </div>
+        <div class="branding-field">
+          <label for="branding-style">Style</label>
+          <select id="branding-style" onchange="updateBranding()"></select>
+        </div>
+        <div class="branding-field full-width">
+          <label for="branding-edition">Edition (Gold)</label>
+          <select id="branding-edition" onchange="updateBranding()"></select>
+        </div>
+      </div>
+      <div class="branding-preview" id="branding-preview">
+        Serial: <span id="branding-serial-display">20.25.61.2.1</span>
+      </div>
     </div>
 
     <div class="actions">
@@ -1058,6 +1202,26 @@
       }
     };
 
+    // Branding/Logo overlay definition
+    // This is positioned absolutely in the corner, not scaled like rings
+    const BRANDING_DEFINITION = {
+      name: 'Branding (Logo + Serial)',
+      color: '#fab300',
+      svgFile: '../output/generated-branding-ring.svg',
+      // Original viewBox is 14698x14698
+      // Branding is positioned in bottom-right corner at absolute coordinates
+      originalViewBox: 14698,
+      enabled: true,  // Toggle to show/hide branding
+      // Serial number config (1-64 for each hexagram)
+      config: {
+        century: 20,
+        year: 25,
+        collection: 61,
+        style: 2,
+        edition: 1
+      }
+    };
+
     // Cache for loaded SVG content
     const svgCache = {};
 
@@ -1155,6 +1319,56 @@
     }
 
     // Preload all ring SVGs and center pieces
+    // Load branding SVG - tries to load from file first, falls back to dynamic generation
+    async function loadBrandingSVG() {
+      if (svgCache['branding']) return svgCache['branding'];
+
+      // First try to load from file
+      if (BRANDING_DEFINITION.svgFile) {
+        console.log(`Loading branding from ${BRANDING_DEFINITION.svgFile}...`);
+
+        try {
+          const response = await fetch(BRANDING_DEFINITION.svgFile);
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+          }
+
+          const text = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(text, 'image/svg+xml');
+          const svgEl = doc.querySelector('svg');
+
+          if (!svgEl) {
+            throw new Error('No SVG element found');
+          }
+
+          // Extract just the inner content (skip the svg wrapper and background)
+          // We want the LOGO_and_Serial_Number group
+          const brandingGroup = svgEl.querySelector('#LOGO_and_Serial_Number');
+          if (brandingGroup) {
+            svgCache['branding'] = brandingGroup.outerHTML;
+          } else {
+            // Fallback to all children except background
+            const children = Array.from(svgEl.children)
+              .filter(el => el.id !== 'background')
+              .map(el => el.outerHTML)
+              .join('\n');
+            svgCache['branding'] = children;
+          }
+
+          console.log(`Loaded branding SVG from file`);
+          return svgCache['branding'];
+        } catch (err) {
+          console.warn(`Failed to load branding from file: ${err.message}, using dynamic generation`);
+        }
+      }
+
+      // Fallback: generate dynamically using current config
+      console.log('Generating branding dynamically...');
+      svgCache['branding'] = generateBrandingContent(BRANDING_DEFINITION.config);
+      return svgCache['branding'];
+    }
+
     async function preloadRings() {
       const loading = document.getElementById('loading');
       loading.classList.add('visible');
@@ -1166,6 +1380,9 @@
       // Load all center pieces (except 'none')
       const centerTypes = Object.keys(CENTER_PIECES).filter(t => t !== 'none');
       await Promise.all(centerTypes.map(type => loadSVGContent(type, true)));
+
+      // Load branding overlay
+      await loadBrandingSVG();
 
       loading.classList.remove('visible');
       renderPreview();
@@ -1398,6 +1615,18 @@
         <line x1="${cx-12}" y1="${cy}" x2="${cx+12}" y2="${cy}" stroke="${goldColor}" stroke-width="1" opacity="0.6"/>
         <line x1="${cx}" y1="${cy-12}" x2="${cx}" y2="${cy+12}" stroke="${goldColor}" stroke-width="1" opacity="0.6"/>
       `;
+
+      // Add branding overlay (logo + serial number) if enabled and in actual view mode
+      if (BRANDING_DEFINITION.enabled && svgCache['branding'] && state.viewMode === 'actual') {
+        // The branding SVG is designed for 14698x14698 viewBox
+        // Scale it to match our composed wheel's viewBox
+        const brandingScale = viewSize / BRANDING_DEFINITION.originalViewBox;
+        // Translate to align with our viewBox origin
+        const brandingTranslate = viewMin;
+        content += `<g id="branding" transform="translate(${brandingTranslate.toFixed(4)}, ${brandingTranslate.toFixed(4)}) scale(${brandingScale.toFixed(6)})">`;
+        content += svgCache['branding'];
+        content += `</g>`;
+      }
 
       svg.innerHTML = content;
 
@@ -1669,6 +1898,273 @@
       render();
     }
 
+    // ========================================================================
+    // BRANDING CONTROLS
+    // ========================================================================
+
+    // Initialize branding dropdown options (1-64 for each hexagram)
+    function initBrandingControls() {
+      const fields = ['century', 'year', 'collection', 'style', 'edition'];
+
+      fields.forEach(field => {
+        const select = document.getElementById(`branding-${field}`);
+        if (!select) return;
+
+        // Clear existing options
+        select.innerHTML = '';
+
+        // Add options 1-64
+        for (let i = 1; i <= 64; i++) {
+          const option = document.createElement('option');
+          option.value = i;
+          option.textContent = i;
+          select.appendChild(option);
+        }
+
+        // Set initial value from config
+        select.value = BRANDING_DEFINITION.config[field];
+      });
+
+      // Update the display
+      updateBrandingDisplay();
+    }
+
+    // Toggle branding visibility
+    function toggleBranding(enabled) {
+      BRANDING_DEFINITION.enabled = enabled;
+      const controls = document.getElementById('branding-controls');
+      const preview = document.getElementById('branding-preview');
+      if (controls) controls.style.opacity = enabled ? '1' : '0.4';
+      if (preview) preview.style.opacity = enabled ? '1' : '0.4';
+      renderPreview();
+    }
+
+    // Update branding config from dropdowns
+    function updateBranding() {
+      const fields = ['century', 'year', 'collection', 'style', 'edition'];
+
+      fields.forEach(field => {
+        const select = document.getElementById(`branding-${field}`);
+        if (select) {
+          BRANDING_DEFINITION.config[field] = parseInt(select.value, 10);
+        }
+      });
+
+      updateBrandingDisplay();
+      regenerateBrandingSVG();
+    }
+
+    // Update the serial number display
+    function updateBrandingDisplay() {
+      const display = document.getElementById('branding-serial-display');
+      if (display) {
+        const c = BRANDING_DEFINITION.config;
+        display.textContent = `${c.century}.${c.year}.${c.collection}.${c.style}.${c.edition}`;
+      }
+    }
+
+    // Hexagram binary patterns (gate number -> binary string, line 1 to line 6)
+    // Generated from HD positioning algorithm - VERIFIED CORRECT
+    const HEXAGRAM_BINARIES = {
+      1: '111111', 2: '000000', 3: '100010', 4: '010001', 5: '111010', 6: '010111',
+      7: '010000', 8: '000010', 9: '111011', 10: '110111', 11: '111000', 12: '000111',
+      13: '101111', 14: '111101', 15: '001000', 16: '000100', 17: '100110', 18: '011001',
+      19: '110000', 20: '000011', 21: '100101', 22: '101001', 23: '000001', 24: '100000',
+      25: '100111', 26: '111001', 27: '100001', 28: '011110', 29: '010010', 30: '101101',
+      31: '001110', 32: '011100', 33: '001111', 34: '111100', 35: '000101', 36: '101000',
+      37: '101011', 38: '110101', 39: '001010', 40: '010100', 41: '110001', 42: '100011',
+      43: '111110', 44: '011111', 45: '000110', 46: '011000', 47: '010110', 48: '011010',
+      49: '101110', 50: '011101', 51: '100100', 52: '001001', 53: '001011', 54: '110100',
+      55: '101100', 56: '001101', 57: '011011', 58: '110110', 59: '010011', 60: '110010',
+      61: '110011', 62: '001100', 63: '101010', 64: '010101'
+    };
+
+    // Branding geometry constants - UNIFORM SPACING version
+    // All hexagrams have identical height and spacing for consistent appearance
+    // All Y coordinates represent the TOP of lines (rect semantics)
+    const BRAND_GEOM = {
+      lineWidth: 38.75,           // Full width of solid (yang) line
+      lineHeight: 3.3214,         // Height of each line
+      segmentWidth: 14.7619,      // Width of each broken line segment
+      lineSpacing: 14.7619,       // Distance between line TOPs (uniform)
+      dotRadius: 3.2292,          // Radius of separator dots
+      dotGap: 12,                 // Gap between hexagram edge and dot center
+      serial: {
+        centerX: 13614.0056,      // Center X for dots
+        rightX: 13633.06,         // Right edge of lines
+        leftSegmentX: 13594.3105, // Left segment X
+        rightSegmentX: 13618.2985,// Right segment X
+        // TOP of line 1 (bottommost line) of century hexagram
+        line1TopY: 13628.9861
+      },
+      text: {
+        x: 12598.4759,
+        y: 13633.2907,
+        fontSize: 160.5067,
+        scaleX: 0.8
+      }
+    };
+
+    // Calculate uniform Y positions for the serial number
+    // Layout (bottom to top): Century -> dot -> Year -> dot -> Collection -> dot -> Style -> dot -> Edition
+    function calculateSerialPositions() {
+      const g = BRAND_GEOM;
+
+      // Hexagram dimensions:
+      // - 6 lines, each lineHeight tall
+      // - 5 gaps between lines, each lineSpacing - lineHeight
+      // - Total from line 1 TOP to line 6 BOTTOM: 5 * lineSpacing + lineHeight
+      const hexTotalHeight = 5 * g.lineSpacing + g.lineHeight;  // ~77.13px
+
+      // Distance from one hexagram's line 6 TOP to the next hexagram's line 1 TOP
+      // = gap above hex + dot diameter + gap below dot
+      const sectionGap = g.dotGap + (g.dotRadius * 2) + g.dotGap;
+
+      // Start from bottom (century line 1 TOP)
+      const centuryLine1TopY = g.serial.line1TopY;
+
+      // Century line 6 TOP (going up = decreasing Y)
+      const centuryLine6TopY = centuryLine1TopY - (5 * g.lineSpacing);
+
+      // Dot between Century and Year (centered in gap)
+      const dotBelowYearY = centuryLine6TopY - g.dotGap - g.dotRadius;
+
+      // Year line 1 TOP
+      const yearLine1TopY = dotBelowYearY - g.dotRadius - g.dotGap;
+      const yearLine6TopY = yearLine1TopY - (5 * g.lineSpacing);
+
+      // Dot between Year and Collection
+      const dotBelowCollectionY = yearLine6TopY - g.dotGap - g.dotRadius;
+
+      // Collection line 1 TOP
+      const collectionLine1TopY = dotBelowCollectionY - g.dotRadius - g.dotGap;
+      const collectionLine6TopY = collectionLine1TopY - (5 * g.lineSpacing);
+
+      // Dot between Collection and Style
+      const dotBelowStyleY = collectionLine6TopY - g.dotGap - g.dotRadius;
+
+      // Style line 1 TOP
+      const styleLine1TopY = dotBelowStyleY - g.dotRadius - g.dotGap;
+      const styleLine6TopY = styleLine1TopY - (5 * g.lineSpacing);
+
+      // Dot between Style and Edition
+      const dotBelowEditionY = styleLine6TopY - g.dotGap - g.dotRadius;
+
+      // Edition line 1 TOP
+      const editionLine1TopY = dotBelowEditionY - g.dotRadius - g.dotGap;
+
+      return {
+        centuryLine1TopY,
+        dotBelowYearY,
+        yearLine1TopY,
+        dotBelowCollectionY,
+        collectionLine1TopY,
+        dotBelowStyleY,
+        styleLine1TopY,
+        dotBelowEditionY,
+        editionLine1TopY
+      };
+    }
+
+    // Generate a single hexagram line SVG
+    // IMPORTANT: Y is always the TOP of the line for consistent spacing
+    // Both yang (solid) and yin (broken) use rect elements with identical positioning
+    function generateHexLine(topY, isYang, fill) {
+      const g = BRAND_GEOM;
+      const leftX = g.serial.leftSegmentX;
+      const rightSegX = g.serial.rightSegmentX;
+      const segW = g.segmentWidth;
+      const h = g.lineHeight;
+
+      if (isYang) {
+        // Solid line: single rectangle spanning full width
+        // Left edge at leftSegmentX, width = segmentWidth + gap + segmentWidth
+        const fullWidth = g.lineWidth;
+        const fullLeftX = g.serial.rightX - fullWidth;
+        return `<rect x="${fullLeftX}" y="${topY}" width="${fullWidth}" height="${h}" fill="${fill}"/>`;
+      } else {
+        // Broken line: two rectangles with gap in middle
+        return `<rect x="${leftX}" y="${topY}" width="${segW}" height="${h}" fill="${fill}"/>
+        <rect x="${rightSegX}" y="${topY}" width="${segW}" height="${h}" fill="${fill}"/>`;
+      }
+    }
+
+    // Generate a complete hexagram (6 lines from bottom to top)
+    // line1Y is the TOP of line 1 (bottom line), lines go upward from there
+    function generateHexagram(gateNumber, line1TopY, fill) {
+      const binary = HEXAGRAM_BINARIES[gateNumber] || '000000';
+      const g = BRAND_GEOM;
+      let lines = '';
+
+      // Lines 1-6: line 1 at bottom, line 6 at top
+      // Each line's TOP is spaced by lineSpacing going upward
+      for (let i = 0; i < 6; i++) {
+        const lineTopY = line1TopY - (i * g.lineSpacing);
+        const isYang = binary[i] === '1';
+        lines += generateHexLine(lineTopY, isYang, fill) + '\n';
+      }
+      return lines;
+    }
+
+    // Generate the complete branding SVG content dynamically
+    function generateBrandingContent(config) {
+      const white = '#fff';
+      const silver = '#D4D8DC';  // Tinted Silver - for text only
+      const gold = '#fab300';
+      const pos = calculateSerialPositions();
+      const cx = BRAND_GEOM.serial.centerX;
+      const r = BRAND_GEOM.dotRadius;
+
+      let svg = `<g id="SERIAL_NUMBER">
+        <g id="CENTURY_-_${config.century}">${generateHexagram(config.century, pos.centuryLine1TopY, white)}</g>
+        <circle cx="${cx}" cy="${pos.dotBelowYearY}" r="${r}" fill="${white}"/>
+        <g id="YEAR_-_${config.year}">${generateHexagram(config.year, pos.yearLine1TopY, white)}</g>
+        <circle cx="${cx}" cy="${pos.dotBelowCollectionY}" r="${r}" fill="${white}"/>
+        <g id="COLLECTION_-_${config.collection}">${generateHexagram(config.collection, pos.collectionLine1TopY, white)}</g>
+        <circle cx="${cx}" cy="${pos.dotBelowStyleY}" r="${r}" fill="${white}"/>
+        <g id="STYLE_-_${config.style}">${generateHexagram(config.style, pos.styleLine1TopY, white)}</g>
+        <circle cx="${cx}" cy="${pos.dotBelowEditionY}" r="${r}" fill="${white}"/>
+        <g id="EDITION_-_${config.edition}">${generateHexagram(config.edition, pos.editionLine1TopY, gold)}</g>
+      </g>
+      <g id="LOGO">
+        <g id="FLOWER">
+          <g id="Dandelion">
+            <path id="Stem" d="M13295.6257,13591.2822c-155.8768-22.551-156.8047-197.4485-15.1752-227.0327" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13158.7039,13314.5929c.3756-.2346,78.4656,39.0238,121.6523,46.4656" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13201.1308,13295.7236a113.2114,113.2114,0,0,0,17,20.6918c7.3055,6.9978,13.4223,10.9537,35.8012,24.9,13.9074,7.4241,25.2375,14.5533,27.288,16.9456" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13286.8756,13188.1775c0-1.6495-6.84-1.3122-10.5155.8247-18.5239,10.7711-25.7947,49.7854-27.6289,60.2064-9.8959,56.2234,22.6022,98.41,34.2269,106.679" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13299.914,13224.8676c-24.4643,23.4508-27.9188,68.2284-15.2842,129.338" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13352.7314,13207.0117c-.9026,6.5645-.5186,17.7993-7.5427,27.6872-14.8565,20.9138-27.1816,32.627-35.5136,48.0879-7.8206,14.512-20.1482,35.7108-22.5382,71.0587" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13364.3763,13272.6168c-35.8063,30.3435-66.2719,56.01-74.6746,81.1135" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13420.8851,13282.7529c-4.0563-2.1414-14.4656-1.55-24.2172,2.8631-10.7022,4.844-31.3313,25.7215-48.9379,36.9245-21.1074,11.3783-36.5416,16.4857-56.0221,31.4985" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13404.9516,13349.4323c-15.75,3.4569-44.7825-5.2719-79.1755-3.7114-12.2959.558-23.0795,7.53-32.3712,10.5155" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13420.5745,13383.2855c-18.5772-3.3119-48.1689-22.3978-89.2786-25.9795-13.9986-1.22-26.7051,2.1659-37.5259.8248" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13377.0872,13403.3048c-21.9218-17.7-50.0141-31.6134-83.2406-42.3754" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13369.9192,13435.4274c-3.6209-10.98-30.2612-35.491-77.0319-71.8353" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13325.6207,13448.3742c-8.0126-37.8565-18.8462-67.4484-34.6463-82.49" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13300.5789,13472.4335c-2.5861-14.0909-6.2883-29.7124-4.52-46.3863,2.2417-21.1359-2.8405-40.5955-7.55-59.192" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13272.3081,13437.38c2.7849-17.3236,12.5145-43.9356,13.0955-70.1221" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+            <path d="M13227.2838,13447.8948c8.9719-14.7014,19.0267-41.5624,42.1085-67.6881,6.1366-6.9458,11.64-9.6926,13.2432-13.8432" fill="none" stroke="${gold}" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+      <g id="LOGO_TEXT">
+        <text transform="translate(${BRAND_GEOM.text.x} ${BRAND_GEOM.text.y}) scale(${BRAND_GEOM.text.scaleX} 1)" font-size="${BRAND_GEOM.text.fontSize}" fill="${silver}" font-family="Kanit-Thin, Kanit" font-weight="200" letter-spacing="-0.006em">uni<tspan x="215.5566" y="0" letter-spacing="-0.071em">q</tspan><tspan x="299.6619" y="0">uenes</tspan><tspan x="707.1814" y="0" letter-spacing="0.11em">s.</tspan><tspan x="837.1911" y="0" letter-spacing="-0.051em">l</tspan><tspan x="865.7605" y="0" letter-spacing="-0.006em">and</tspan></text>
+      </g>`;
+
+      return svg;
+    }
+
+    // Regenerate the branding SVG with new config
+    function regenerateBrandingSVG() {
+      const c = BRANDING_DEFINITION.config;
+      console.log('Regenerating branding with config:', c);
+
+      // Generate branding content dynamically
+      svgCache['branding'] = generateBrandingContent(c);
+      renderPreview();
+    }
+
     /**
      * Font-specific baseline corrections for Illustrator compatibility.
      * Values are in em units (half cap height).
@@ -1786,6 +2282,18 @@
           svg += `    ${svgContent}\n`;
           svg += `  </g>\n`;
         }
+      }
+
+      // Add branding overlay (logo + serial number) if enabled
+      if (BRANDING_DEFINITION.enabled && svgCache['branding']) {
+        // The branding SVG is designed for 14698x14698 viewBox
+        // Scale it to match our composed wheel's viewBox
+        const brandingScale = viewSize / BRANDING_DEFINITION.originalViewBox;
+        // Translate to align with our viewBox origin
+        const brandingTranslate = viewMin;
+        svg += `  <g id="branding" transform="translate(${brandingTranslate.toFixed(4)}, ${brandingTranslate.toFixed(4)}) scale(${brandingScale.toFixed(6)})">\n`;
+        svg += `    ${svgCache['branding']}\n`;
+        svg += `  </g>\n`;
       }
 
       svg += `</svg>`;
@@ -1955,6 +2463,7 @@ const config = ${JSON.stringify(config, null, 2)};
       render();
       setupZoomPan();
       setupSliderListeners();
+      initBrandingControls();
     });
   </script>
 </body>
