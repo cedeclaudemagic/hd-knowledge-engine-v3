@@ -1,0 +1,920 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1563.2172" height="1563.2172" viewBox="0 0 1563.2172 1563.2172">
+  <g id="Layer_67" data-name="Layer 67">
+    <rect id="background" width="1563.2172" height="1563.2172" fill="#151e25"/>
+  </g>
+  <g id="BODYGRAPH_-_ROOT" data-name="BODYGRAPH - ROOT">
+    <g id="THE_BODYGRAPH_-_CONNECTORS" data-name="THE BODYGRAPH - CONNECTORS">
+      <g id="GROUP_-_LINES_-_GATE_CONNECTIONS" data-name="GROUP - LINES - GATE CONNECTIONS">
+        <g id="GROUP_-_LINES_-_DIRECT" data-name="GROUP - LINES - DIRECT">
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_11" data-name="LINE - DIRECT-CONNECTION - GATE 11" x1="758.1704" y1="486.1978" x2="758.824" y2="137.3786" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_26" data-name="LINE - DIRECT-CONNECTION - GATE 26" x1="817.0931" y1="142.9252" x2="814.9185" y2="836.8351" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_5" data-name="LINE - DIRECT-CONNECTION - GATE 5" x1="874.5378" y1="154.1563" x2="702.1764" y2="897.402" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_9" data-name="LINE - DIRECT-CONNECTION - GATE 9" x1="930.6051" y1="170.964" x2="758.1704" y2="1005.3761" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_34" data-name="LINE - DIRECT-CONNECTION - GATE 34" x1="984.755" y1="193.1863" x2="675.2124" y2="916.101" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_14" data-name="LINE - DIRECT-CONNECTION - GATE 14" x1="1036.466" y1="220.6092" x2="730.1734" y2="897.402" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_43" data-name="LINE - DIRECT-CONNECTION - GATE 43" x1="1085.2401" y1="252.9686" x2="730.1734" y2="495.6244" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_1" data-name="LINE - DIRECT-CONNECTION - GATE 1" x1="1130.6075" y1="289.9529" x2="730.1734" y2="726.0039" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_44" data-name="LINE - DIRECT-CONNECTION - GATE 44" x1="1172.1314" y1="331.2059" x2="544.7324" y2="898.4732" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_28" data-name="LINE - DIRECT-CONNECTION - GATE 28" x1="1209.4118" y1="376.3303" x2="505.024" y2="976.0306" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_50" data-name="LINE - DIRECT-CONNECTION - GATE 50" x1="1242.0898" y1="424.8915" x2="569.9056" y2="927.3275" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_32" data-name="LINE - DIRECT-CONNECTION - GATE 32" x1="1269.8505" y1="476.4219" x2="528.3856" y2="961.3444" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_57" data-name="LINE - DIRECT-CONNECTION - GATE 57" x1="1292.4267" y1="530.4252" x2="513.1531" y2="878.2451" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_48" data-name="LINE - DIRECT-CONNECTION - GATE 48" x1="1309.601" y1="586.3813" x2="480.9718" y2="860.1231" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_18" data-name="LINE - DIRECT-CONNECTION - GATE 18" x1="1321.2079" y1="643.7514" x2="480.8308" y2="990.1203" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_46" data-name="LINE - DIRECT-CONNECTION - GATE 46" x1="1327.1357" y1="701.9828" x2="758.21" y2="812.3583" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_6" data-name="LINE - DIRECT-CONNECTION - GATE 6" x1="1327.3272" y1="760.5149" x2="781.3624" y2="954.2242" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_47" data-name="LINE - DIRECT-CONNECTION - GATE 47" x1="1320.3373" y1="816.3909" x2="702.1764" y2="433.5276" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_64" data-name="LINE - DIRECT-CONNECTION - GATE 64" x1="1310.5495" y1="876.2287" x2="702.1764" y2="388.9565" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_40" data-name="LINE - DIRECT-CONNECTION - GATE 40" x1="1293.7419" y1="932.296" x2="889.2303" y2="854.2295" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_59" data-name="LINE - DIRECT-CONNECTION - GATE 59" x1="1271.5196" y1="986.4459" x2="910.2551" y2="927.3275" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_29" data-name="LINE - DIRECT-CONNECTION - GATE 29" x1="1244.0967" y1="1038.1569" x2="758.1704" y2="897.402" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_4" data-name="LINE - DIRECT-CONNECTION - GATE 4" x1="1211.7373" y1="1086.9309" x2="758.1868" y2="433.4718" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_7" data-name="LINE - DIRECT-CONNECTION - GATE 7" x1="1174.753" y1="1132.2984" x2="702.1764" y2="732.1333" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_33" data-name="LINE - DIRECT-CONNECTION - GATE 33" x1="758.1704" y1="642.8136" x2="1133.5" y2="1173.8222" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_31" data-name="LINE - DIRECT-CONNECTION - GATE 31" x1="1088.3756" y1="1211.1027" x2="701.1419" y2="640.4206" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_56" data-name="LINE - DIRECT-CONNECTION - GATE 56" x1="1039.8143" y1="1243.7806" x2="758.1704" y2="546.3924" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_62" data-name="LINE - DIRECT-CONNECTION - GATE 62" x1="988.284" y1="1271.5414" x2="702.1764" y2="546.3924" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_53" data-name="LINE - DIRECT-CONNECTION - GATE 53" x1="934.2807" y1="1294.1176" x2="702.1764" y2="1058.0463" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_39" data-name="LINE - DIRECT-CONNECTION - GATE 39" x1="878.3246" y1="1311.2919" x2="783.5962" y2="1112.9992" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_52" data-name="LINE - DIRECT-CONNECTION - GATE 52" x1="820.9545" y1="1322.8988" x2="758.1704" y2="1058.0463" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_15" data-name="LINE - DIRECT-CONNECTION - GATE 15" x1="762.7231" y1="1328.8265" x2="701.1419" y2="810.8919" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_12" data-name="LINE - DIRECT-CONNECTION - GATE 12" x1="704.191" y1="1329.0181" x2="785.1263" y2="601.3453" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_45" data-name="LINE - DIRECT-CONNECTION - GATE 45" x1="645.922" y1="1323.4716" x2="785.1263" y2="633.5695" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_35" data-name="LINE - DIRECT-CONNECTION - GATE 35" x1="588.4772" y1="1312.2404" x2="784.203" y2="560.3952" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_16" data-name="LINE - DIRECT-CONNECTION - GATE 16" x1="532.4099" y1="1295.4327" x2="668.2766" y2="593.0924" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_20" data-name="LINE - DIRECT-CONNECTION - GATE 20" x1="478.26" y1="1273.2104" x2="671.2491" y2="628.7621" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_8" data-name="LINE - DIRECT-CONNECTION - GATE 8" x1="426.549" y1="1245.7875" x2="730.1734" y2="642.8136" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_23" data-name="LINE - DIRECT-CONNECTION - GATE 23" x1="377.7749" y1="1213.4281" x2="730.1734" y2="546.3924" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_2" data-name="LINE - DIRECT-CONNECTION - GATE 2" x1="332.4075" y1="1176.4438" x2="730.1734" y2="818.2402" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_24" data-name="LINE - DIRECT-CONNECTION - GATE 24" x1="290.8836" y1="1135.1908" x2="730.1734" y2="433.5276" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_27" data-name="LINE - DIRECT-CONNECTION - GATE 27" x1="253.6032" y1="1090.0664" x2="670.2582" y2="951.7706" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_3" data-name="LINE - DIRECT-CONNECTION - GATE 3" x1="220.9253" y1="1041.5052" x2="730.1734" y2="1005.3761" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_42" data-name="LINE - DIRECT-CONNECTION - GATE 42" x1="193.1645" y1="989.9748" x2="702.1764" y2="1005.3761" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_51" data-name="LINE - DIRECT-CONNECTION - GATE 51" x1="170.5883" y1="935.9715" x2="837.2671" y2="808.8718" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_21" data-name="LINE - DIRECT-CONNECTION - GATE 21" x1="153.414" y1="880.0154" x2="860.9412" y2="784.5957" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_17" data-name="LINE - DIRECT-CONNECTION - GATE 17" x1="141.8071" y1="822.6454" x2="702.1764" y2="486.1978" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_25" data-name="LINE - DIRECT-CONNECTION - GATE 25" x1="135.8793" y1="764.4139" x2="792.8339" y2="773.1405" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_36" data-name="LINE - DIRECT-CONNECTION - GATE 36" x1="135.6878" y1="705.8818" x2="999.1888" y2="860.1231" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_22" data-name="LINE - DIRECT-CONNECTION - GATE 22" x1="141.2343" y1="647.6128" x2="967.0076" y2="878.2451" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_63" data-name="LINE - DIRECT-CONNECTION - GATE 63" x1="152.4655" y1="590.1681" x2="757.9076" y2="388.7959" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_37" data-name="LINE - DIRECT-CONNECTION - GATE 37" x1="169.2732" y1="534.1007" x2="935.0751" y2="898.9379" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_55" data-name="LINE - DIRECT-CONNECTION - GATE 55" x1="191.4955" y1="479.9508" x2="975.1366" y2="976.0306" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_30" data-name="LINE - DIRECT-CONNECTION - GATE 30" x1="218.9184" y1="428.2399" x2="999.3299" y2="990.1203" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_49" data-name="LINE - DIRECT-CONNECTION - GATE 49" x1="251.2778" y1="379.4658" x2="950.9909" y2="962.1821" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_13" data-name="LINE - DIRECT-CONNECTION - GATE 13" x1="288.2621" y1="334.0984" x2="757.2324" y2="731.7052" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_19" data-name="LINE - DIRECT-CONNECTION - GATE 19" x1="329.5151" y1="292.5745" x2="783.5962" y2="1085.0022" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_41" data-name="LINE - DIRECT-CONNECTION - GATE 41" x1="374.6394" y1="255.2941" x2="782.4793" y2="1140.7458" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_60" data-name="LINE - DIRECT-CONNECTION - GATE 60" x1="423.2007" y1="222.6161" x2="730.1734" y2="1058.0463" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_61" data-name="LINE - DIRECT-CONNECTION - GATE 61" x1="474.7311" y1="194.8554" x2="730.1734" y2="388.516" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_54" data-name="LINE - DIRECT-CONNECTION - GATE 54" x1="528.7344" y1="172.2791" x2="670.9933" y2="1085.0022" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_38" data-name="LINE - DIRECT-CONNECTION - GATE 38" x1="584.6905" y1="155.1049" x2="670.9933" y2="1112.9992" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_58" data-name="LINE - DIRECT-CONNECTION - GATE 58" x1="642.0605" y1="143.498" x2="670.9933" y2="1140.9962" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_10" data-name="LINE - DIRECT-CONNECTION - GATE 10" x1="700.292" y1="137.5702" x2="662.4816" y2="772.0524" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="GROUP_-_LINES_-_CURVED" data-name="GROUP - LINES - CURVED">
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_11" data-name="LINE - CURVED-CONNECTION - GATE 11" d="M726.6627,453c92.815-108.8637,97.9068-224.747.6538-348.8193" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_26" data-name="LINE - CURVED-CONNECTION - GATE 26" d="M785.5856,109.7266c52.3207,327.3053,15.3177,423.3715-2.2847,693.25" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_5" data-name="LINE - CURVED-CONNECTION - GATE 5" d="M843.03,120.958c120.315,325.8526,57.062,571.0532-172.3613,743.2456" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_9" data-name="LINE - CURVED-CONNECTION - GATE 9" d="M899.0978,137.7656C1152.5465,798.35,1210.5236,1218.5,726.6627,972.1777" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_34" data-name="LINE - CURVED-CONNECTION - GATE 34" d="M953.2477,159.9878C523.6808,198.2022,416.05,422.239,642.714,882.9026" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_14" data-name="LINE - CURVED-CONNECTION - GATE 14" d="M1004.9586,187.4107c-20.9023,250.4111-132.2558,473.18-306.2929,676.7929" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_43" data-name="LINE - CURVED-CONNECTION - GATE 43" d="M1053.7326,219.77C991.8874,442.9824,874.7267,526.8784,698.6657,462.4258" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_1" data-name="LINE - CURVED-CONNECTION - GATE 1" d="M1099.1,256.7544C985.12,448.3682,854.7238,601.0308,698.6657,692.8057" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_44" data-name="LINE - CURVED-CONNECTION - GATE 44" d="M1140.6237,298.0073C676.45,74.3862,463.4318,257.188,513.2248,865.2749" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_28" data-name="LINE - CURVED-CONNECTION - GATE 28" d="M1177.9044,343.1318c-152.0859,950.1924-385.5712,1161.982-704.3877,599.7" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_50" data-name="LINE - CURVED-CONNECTION - GATE 50" d="M1210.5822,391.6934c-560.99-350.419-802.563-209.8594-672.1841,502.4355" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_32" data-name="LINE - CURVED-CONNECTION - GATE 32" d="M1238.3429,443.2236C1022.6793,1278.77,780.5641,1548.2647,496.8781,928.146" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_57" data-name="LINE - CURVED-CONNECTION - GATE 57" d="M1260.9191,497.2271C670.8029-14.2246,416.88,112.7969,481.6457,845.0469" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_48" data-name="LINE - CURVED-CONNECTION - GATE 48" d="M1278.0934,553.1831C630.5182-61.4746,400.9318,118.396,449.4645,826.9248" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_18" data-name="LINE - CURVED-CONNECTION - GATE 18" d="M1289.7,610.5532c-269.85,762.8614-550.9907,814.3448-840.3769,346.3687" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_46" data-name="LINE - CURVED-CONNECTION - GATE 46" d="M1295.6281,668.7847c-64.0345-411.4221-515.85,138.1547-568.9258,110.375" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_6" data-name="LINE - CURVED-CONNECTION - GATE 6" d="M1295.82,727.3164C1287.27,637.6841,1089,716.7305,749.8546,921.0259" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_47" data-name="LINE - CURVED-CONNECTION - GATE 47" d="M1288.83,783.1924C766.567,7.675,170.7517,130.5371,670.6691,400.3291" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_64" data-name="LINE - CURVED-CONNECTION - GATE 64" d="M1279.0421,843.03C878.2785,228.3657,648.5988,4.5181,670.6691,355.7583" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_40" data-name="LINE - CURVED-CONNECTION - GATE 40" d="M1262.2345,899.0977C1169.025,723.8018,1024.06,679.7052,857.7228,819.49" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_59" data-name="LINE - CURVED-CONNECTION - GATE 59" d="M1240.0119,953.2476c-181.4434,162.7168-300.4537,138.7934-361.2642-59.1187" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_29" data-name="LINE - CURVED-CONNECTION - GATE 29" d="M726.6627,864.2036c157.7256,132.0425,318.7222,198.5581,485.9263,140.7549" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_CURVED-CONNECTION_-_GATE_4" data-name="LINE - CURVED-CONNECTION - GATE 4" x1="1211.7373" y1="1086.9309" x2="758.1868" y2="433.4718" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_7" data-name="LINE - CURVED-CONNECTION - GATE 7" d="M1143.2453,1099.1C202.458,1339.342-30.0553,756.7377,670.6691,698.9351" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_33" data-name="LINE - CURVED-CONNECTION - GATE 33" d="M726.6627,609.6152c218.06,56.9571,432.1514,119.0391,375.33,531.0088" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_31" data-name="LINE - CURVED-CONNECTION - GATE 31" d="M1056.8683,1177.9043C246.5749,1164.27-9.3119,1006.915,669.6344,607.2222" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_56" data-name="LINE - CURVED-CONNECTION - GATE 56" d="M1008.3068,1210.582C1202.1881,636.4082,973.5636,563.95,726.6627,513.1939" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_62" data-name="LINE - CURVED-CONNECTION - GATE 62" d="M956.7765,1238.3428C185.421,1124.0562,37.6037,892.2271,670.6691,513.1939" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_53" data-name="LINE - CURVED-CONNECTION - GATE 53" d="M902.7731,1260.9194c-510.7383-140.5073-596.5064-220.396-232.104-236.0712" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_39" data-name="LINE - CURVED-CONNECTION - GATE 39" d="M846.817,1278.0933c15.7476-92.2271-18.144-157.0459-94.7285-198.2925" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_52" data-name="LINE - CURVED-CONNECTION - GATE 52" d="M789.4469,1289.7c126.6284-182.6665,73.07-250.0786-62.7842-264.852" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_15" data-name="LINE - CURVED-CONNECTION - GATE 15" d="M731.2155,1295.6279C445.7536,1126.6006,547.0832,952.292,669.6344,777.6934" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_12" data-name="LINE - CURVED-CONNECTION - GATE 12" d="M672.6832,1295.82c288.9512-197.8608,683.7217-377.667,80.9356-727.6728" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_45" data-name="LINE - CURVED-CONNECTION - GATE 45" d="M614.4147,1290.273c552.3682-231.4483,714.5679-461.7544,139.2041-689.9019" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_35" data-name="LINE - CURVED-CONNECTION - GATE 35" d="M556.97,1279.042c762.4248-235.0757,711.9526-493.5937,195.7256-751.8451" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_16" data-name="LINE - CURVED-CONNECTION - GATE 16" d="M500.9025,1262.2344C196.4962,938.57,182.4976,692.4771,636.7691,559.8941" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_20" data-name="LINE - CURVED-CONNECTION - GATE 20" d="M446.7526,1240.0122C243.5084,925.7744,198.3307,669.7661,636.7692,591.917" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_8" data-name="LINE - CURVED-CONNECTION - GATE 8" d="M395.0416,1212.5894C182.964,927.7671,398.55,757.3818,698.6657,609.6152" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_23" data-name="LINE - CURVED-CONNECTION - GATE 23" d="M346.2672,1180.23C178.63,544.4209,246.7907,250.5718,698.6657,513.1939" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_2" data-name="LINE - CURVED-CONNECTION - GATE 2" d="M300.9,1143.2456c27.087,20.1284,209.71-165.4448,397.7657-358.2036" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_24" data-name="LINE - CURVED-CONNECTION - GATE 24" d="M259.3761,1101.9927q49.2416-441.5551,439.29-701.6636" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_27" data-name="LINE - CURVED-CONNECTION - GATE 27" d="M222.0958,1056.8682c135.9571,14.8969,274.9977-54.856,416.6549-138.296" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_3" data-name="LINE - CURVED-CONNECTION - GATE 3" d="M189.4176,1008.3067c178.7349,100.5141,346.3931,62.2836,509.2481-36.129" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_42" data-name="LINE - CURVED-CONNECTION - GATE 42" d="M161.6569,956.7764C312.6691,1067.44,483.5607,1065.667,670.6691,972.1777" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_51" data-name="LINE - CURVED-CONNECTION - GATE 51" d="M139.0807,902.773c370.751-252.4346,632.8169-360.3347,666.1284-128.861" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_21" data-name="LINE - CURVED-CONNECTION - GATE 21" d="M121.9064,846.8169c449.39-235.33,695.227-276.6611,707.5273-95.4194" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_17" data-name="LINE - CURVED-CONNECTION - GATE 17" d="M110.3,789.4468C265.7594,617.1109,453.9762,507.7036,670.6691,453" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_25" data-name="LINE - CURVED-CONNECTION - GATE 25" d="M104.3717,731.2153c586.7964-122.7607,780.2241-111.12,656.9546,8.7266" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_36" data-name="LINE - CURVED-CONNECTION - GATE 36" d="M104.18,672.6836c851.9951-70.4736,1028.0606,5.0879,863.501,154.2412" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_22" data-name="LINE - CURVED-CONNECTION - GATE 22" d="M109.7267,614.4146c710.4.3515,931.1289,86.8183,825.7734,230.6323" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_CURVED-CONNECTION_-_GATE_63" data-name="LINE - CURVED-CONNECTION - GATE 63" x1="152.4655" y1="590.1681" x2="757.9076" y2="388.7959" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_37" data-name="LINE - CURVED-CONNECTION - GATE 37" d="M137.7658,500.9024C807.0465,59.8369,1053.0553,194.0332,903.5675,865.74" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_55" data-name="LINE - CURVED-CONNECTION - GATE 55" d="M159.9879,446.7525c391.7461,1035.8237,602.03,861.5581,783.6411,496.08" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_30" data-name="LINE - CURVED-CONNECTION - GATE 30" d="M187.4108,395.0415c195.9038,832.4732,451.125,1069.145,780.4116,561.88" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_49" data-name="LINE - CURVED-CONNECTION - GATE 49" d="M219.77,346.2676c239.1723,1237.3017,469.7226,959.188,699.7133,582.7163" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_13" data-name="LINE - CURVED-CONNECTION - GATE 13" d="M256.7545,300.9c505.8037-131.1968,801.7564-104.03,468.97,397.6069" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_19" data-name="LINE - CURVED-CONNECTION - GATE 19" d="M298.0075,259.376c1178.8715,13.5137,1111.9343,928.04,454.081,792.4277" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_41" data-name="LINE - CURVED-CONNECTION - GATE 41" d="M343.132,222.0957c-11.7764,1058.64,164.6611,1144.5156,407.84,885.4517" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_60" data-name="LINE - CURVED-CONNECTION - GATE 60" d="M391.693,189.418c-276.4275,1046.8784,312.7824,1317.7035,306.9727,835.43" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_61" data-name="LINE - CURVED-CONNECTION - GATE 61" d="M443.2238,161.6572c161.82-20.1743,267.9043,21.2412,255.4419,193.6607" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_54" data-name="LINE - CURVED-CONNECTION - GATE 54" d="M497.2267,139.0806c65.8912,551.6022,97.4941,878.854,142.2593,912.7231" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_38" data-name="LINE - CURVED-CONNECTION - GATE 38" d="M553.1828,121.9063c-337.292,721.6879-330.6714,1065.331,86.3032,957.8945" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_58" data-name="LINE - CURVED-CONNECTION - GATE 58" d="M610.5529,110.3c-535.1782,789.585-377.5615,997.94,28.9331,997.4981" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_10" data-name="LINE - CURVED-CONNECTION - GATE 10" d="M668.7843,104.3716c-122.001,207.4443-162.6274,417.9009-37.81,634.4824" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="GROUP_-_GATE-DOTS" data-name="GROUP - GATE-DOTS">
+          <g id="INNER_DOTS" data-name="INNER DOTS">
+            <circle id="SYMBOL_-_GATE-DOT_-_12" data-name="SYMBOL - GATE-DOT - 12" cx="704.191" cy="1329.0181" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_11" data-name="SYMBOL - GATE-DOT - 11" cx="758.824" cy="137.3786" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_15" data-name="SYMBOL - GATE-DOT - 15" cx="762.7231" cy="1328.8265" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_10" data-name="SYMBOL - GATE-DOT - 10" cx="700.292" cy="137.5702" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_52" data-name="SYMBOL - GATE-DOT - 52" cx="820.9545" cy="1322.8988" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_58" data-name="SYMBOL - GATE-DOT - 58" cx="642.0605" cy="143.498" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_39" data-name="SYMBOL - GATE-DOT - 39" cx="878.3246" cy="1311.2919" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_38" data-name="SYMBOL - GATE-DOT - 38" cx="584.6905" cy="155.1049" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_53" data-name="SYMBOL - GATE-DOT - 53" cx="934.2807" cy="1294.1176" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_54" data-name="SYMBOL - GATE-DOT - 54" cx="528.7344" cy="172.2791" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_62" data-name="SYMBOL - GATE-DOT - 62" cx="988.284" cy="1271.5414" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_61" data-name="SYMBOL - GATE-DOT - 61" cx="474.7311" cy="194.8554" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_56" data-name="SYMBOL - GATE-DOT - 56" cx="1039.8143" cy="1243.7806" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_60" data-name="SYMBOL - GATE-DOT - 60" cx="423.2007" cy="222.6161" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_31" data-name="SYMBOL - GATE-DOT - 31" cx="1088.3756" cy="1211.1027" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_41" data-name="SYMBOL - GATE-DOT - 41" cx="374.6394" cy="255.2941" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_33" data-name="SYMBOL - GATE-DOT - 33" cx="1133.5" cy="1173.8222" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_19" data-name="SYMBOL - GATE-DOT - 19" cx="329.5151" cy="292.5745" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_7" data-name="SYMBOL - GATE-DOT - 7" cx="1174.753" cy="1132.2984" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_13" data-name="SYMBOL - GATE-DOT - 13" cx="288.2621" cy="334.0984" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_4" data-name="SYMBOL - GATE-DOT - 4" cx="1211.7373" cy="1086.9309" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_49" data-name="SYMBOL - GATE-DOT - 49" cx="251.2778" cy="379.4658" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_29" data-name="SYMBOL - GATE-DOT - 29" cx="1244.0967" cy="1038.1569" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_30" data-name="SYMBOL - GATE-DOT - 30" cx="218.9184" cy="428.2399" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_6" data-name="SYMBOL - GATE-DOT - 6" cx="1271.5196" cy="986.4459" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_55" data-name="SYMBOL - GATE-DOT - 55" cx="191.4955" cy="479.9508" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_40" data-name="SYMBOL - GATE-DOT - 40" cx="1293.7419" cy="932.296" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_37" data-name="SYMBOL - GATE-DOT - 37" cx="169.2732" cy="534.1007" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_64" data-name="SYMBOL - GATE-DOT - 64" cx="1310.5495" cy="876.2287" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_63" data-name="SYMBOL - GATE-DOT - 63" cx="152.4655" cy="590.1681" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_47" data-name="SYMBOL - GATE-DOT - 47" cx="1321.7807" cy="818.7839" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_22" data-name="SYMBOL - GATE-DOT - 22" cx="141.2343" cy="647.6128" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_59" data-name="SYMBOL - GATE-DOT - 59" cx="1327.3272" cy="760.5149" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_36" data-name="SYMBOL - GATE-DOT - 36" cx="135.6878" cy="705.8818" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_46" data-name="SYMBOL - GATE-DOT - 46" cx="1327.1357" cy="701.9828" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_25" data-name="SYMBOL - GATE-DOT - 25" cx="135.8793" cy="764.4139" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_18" data-name="SYMBOL - GATE-DOT - 18" cx="1321.2079" cy="643.7514" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_17" data-name="SYMBOL - GATE-DOT - 17" cx="141.8071" cy="822.6454" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_48" data-name="SYMBOL - GATE-DOT - 48" cx="1309.601" cy="586.3813" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_21" data-name="SYMBOL - GATE-DOT - 21" cx="153.414" cy="880.0154" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_57" data-name="SYMBOL - GATE-DOT - 57" cx="1292.4267" cy="530.4252" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_51" data-name="SYMBOL - GATE-DOT - 51" cx="170.5883" cy="935.9715" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_32" data-name="SYMBOL - GATE-DOT - 32" cx="1269.8505" cy="476.4219" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_42" data-name="SYMBOL - GATE-DOT - 42" cx="193.1645" cy="989.9748" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_50" data-name="SYMBOL - GATE-DOT - 50" cx="1242.0898" cy="424.8915" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_3" data-name="SYMBOL - GATE-DOT - 3" cx="220.9253" cy="1041.5052" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_28" data-name="SYMBOL - GATE-DOT - 28" cx="1209.4118" cy="376.3303" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_27" data-name="SYMBOL - GATE-DOT - 27" cx="253.6032" cy="1090.0664" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_44" data-name="SYMBOL - GATE-DOT - 44" cx="1172.1314" cy="331.2059" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_24" data-name="SYMBOL - GATE-DOT - 24" cx="290.8836" cy="1135.1908" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_1" data-name="SYMBOL - GATE-DOT - 1" cx="1130.6075" cy="289.9529" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_2" data-name="SYMBOL - GATE-DOT - 2" cx="332.4075" cy="1176.4438" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_43" data-name="SYMBOL - GATE-DOT - 43" cx="1085.2401" cy="252.9686" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_23" data-name="SYMBOL - GATE-DOT - 23" cx="377.7749" cy="1213.4281" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_14" data-name="SYMBOL - GATE-DOT - 14" cx="1036.466" cy="220.6092" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_8" data-name="SYMBOL - GATE-DOT - 8" cx="426.549" cy="1245.7875" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_34" data-name="SYMBOL - GATE-DOT - 34" cx="984.755" cy="193.1863" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_20" data-name="SYMBOL - GATE-DOT - 20" cx="478.26" cy="1273.2104" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_9" data-name="SYMBOL - GATE-DOT - 9" cx="930.6051" cy="170.964" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_16" data-name="SYMBOL - GATE-DOT - 16" cx="532.4099" cy="1295.4327" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_5" data-name="SYMBOL - GATE-DOT - 5" cx="874.5378" cy="154.1563" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_35" data-name="SYMBOL - GATE-DOT - 35" cx="588.4772" cy="1312.2404" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_26" data-name="SYMBOL - GATE-DOT - 26" cx="817.0931" cy="142.9252" r="5.4175"/>
+            <circle id="SYMBOL_-_GATE-DOT_-_45" data-name="SYMBOL - GATE-DOT - 45" cx="645.922" cy="1323.4716" r="5.4175"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="THE_BODYGRAPH" data-name="THE BODYGRAPH">
+      <g id="GROUP_-_CHANNELS" data-name="GROUP - CHANNELS">
+        <g id="GROUP_-_CIRCUIT_-_Individual_-_Knowing" data-name="GROUP - CIRCUIT - Individual - Knowing">
+          <g id="GROUP_-_THE_CHANNEL_OF_AWARENESS_-_24_61" data-name="GROUP - THE CHANNEL OF AWARENESS - 24|61">
+            <polyline id="PATH_-_24" data-name="PATH - 24" points="730.258 410.781 730.171 433.527 730.258 457.9" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_61" data-name="PATH - 61" points="729.264 349.004 729.173 388.516 730.258 410.781" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_STRUCTURING_-_23_43" data-name="GROUP - THE CHANNEL OF STRUCTURING - 23|43">
+            <polyline id="PATH_-_23" data-name="PATH - 23" points="730.203 525.386 730.203 545.698 730.368 593.918" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_43" data-name="PATH - 43" points="730.258 457.9 729.818 495.331 730.203 525.386" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_INSPIRATION_-_1_8" data-name="GROUP - THE CHANNEL OF INSPIRATION - 1|8">
+            <polyline id="PATH_-_1" data-name="PATH - 1" points="730.038 676.652 729.818 725.643 729.873 772.762" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_8" data-name="PATH - 8" points="730.368 593.918 730.038 643.129 730.038 676.652" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_THE_BEAT_-_2_14" data-name="GROUP - THE CHANNEL OF THE BEAT - 2|14">
+            <polyline id="PATH_-_14" data-name="PATH - 14" points="729.818 864.358 729.873 897.44 729.708 951.771" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_2" data-name="PATH - 2" points="729.873 772.762 729.818 818.56 729.818 864.358" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_MUTATION_-_3_60" data-name="GROUP - THE CHANNEL OF MUTATION - 3|60">
+            <path id="PATH_-_60" data-name="PATH - 60" d="M725.6129,1052.6637l-26.7522-28.2385-.11-25.0458m-29.2843,53.1742,29.3944-28.1284" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_3" data-name="PATH - 3" points="729.708 951.771 730.038 1005.605 730.258 1032.578" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_STRUGGLE_-_28_38" data-name="GROUP - THE CHANNEL OF STRUGGLE - 28|38">
+            <polyline id="PATH_-_38" data-name="PATH - 38" points="585.818 1043.147 670.368 1113.165 700.919 1085.862" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_28" data-name="PATH - 28" points="507.763 928.651 504.791 976.211 585.818 1043.147" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_EMOTING_-_39_55" data-name="GROUP - THE CHANNEL OF EMOTING - 39|55">
+            <polyline id="PATH_-_55" data-name="PATH - 55" points="881.744 1042.706 974.937 976.211 970.973 928.156" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_39" data-name="PATH - 39" points="755.139 1083.88 784.038 1113.275 881.744 1042.706" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_THE_BRAINWAVE_-_20_57" data-name="GROUP - THE CHANNEL OF THE BRAINWAVE - 20|57">
+            <polyline id="PATH_-_57" data-name="PATH - 57" points="579.763 772.762 512.552 878.285 507.763 928.651" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_20" data-name="PATH - 20" points="730.368 594.083 671.249 627.936 579.873 772.542" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_OPENNESS_-_12_22" data-name="GROUP - THE CHANNEL OF OPENNESS - 12|22">
+            <polyline id="PATH_-_12" data-name="PATH - 12" points="873.817 733.129 784.864 594.083 730.698 593.918" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_22" data-name="PATH - 22" points="970.973 928.156 966.845 877.954 873.817 733.129" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CIRCUIT_-_Collective_Logic_-_Understanding" data-name="GROUP - CIRCUIT - Collective Logic - Understanding">
+          <g id="GROUP_-_THE_CHANNEL_OF_WAVELENGTH_-_16_48" data-name="GROUP - THE CHANNEL OF WAVELENGTH - 16|48">
+            <polyline id="PATH_-_16" data-name="PATH - 16" points="573.158 728.505 668.607 593.423 730.038 593.588" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_48" data-name="PATH - 48" points="480.02 929.642 479.862 860.371 573.158 728.505" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_JUDGEMENT_-_18_58" data-name="GROUP - THE CHANNEL OF JUDGEMENT - 18|58">
+            <polyline id="PATH_-_18" data-name="PATH - 18" points="575.139 1065.715 479.683 990.567 480.02 929.642" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_58" data-name="PATH - 58" points="729.024 1085.463 670.865 1140.027 575.139 1065.715" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_CONCENTRATION_-_9_52" data-name="GROUP - THE CHANNEL OF CONCENTRATION - 9|52">
+            <polyline id="PATH_-_52" data-name="PATH - 52" points="757.781 1032.358 758.111 1057.128 729.024 1085.463" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_9" data-name="PATH - 9" points="729.48 951.901 757.781 1004.284 757.781 1032.358" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_RHYTHM_-_5_15" data-name="GROUP - THE CHANNEL OF RHYTHM - 5|15">
+            <polyline id="PATH_-_5" data-name="PATH - 5" points="701.965 853.019 702.295 897.275 729.48 951.901" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_15" data-name="PATH - 15" points="701.965 772.101 701.634 812.395 701.965 853.019" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_THE_ALPHA_-_7_31" data-name="GROUP - THE CHANNEL OF THE ALPHA - 7|31">
+            <polyline id="PATH_-_7" data-name="PATH - 7" points="701.965 688.872 701.965 732.138 701.965 772.101" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_31" data-name="PATH - 31" points="702.295 593.918 701.965 642.634 701.965 688.872" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_ACCEPTANCE_-_17_62" data-name="GROUP - THE CHANNEL OF ACCEPTANCE - 17|62">
+            <polyline id="PATH_-_62" data-name="PATH - 62" points="701.965 518.781 701.634 546.193 702.295 593.918" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_17" data-name="PATH - 17" points="730.698 458.671 702.176 486.198 701.965 518.781" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_LOGIC_-_4_63" data-name="GROUP - THE CHANNEL OF LOGIC - 4|63">
+            <polyline id="PATH_-_4" data-name="PATH - 4" points="757.781 410.781 758.171 433.527 730.698 458.671" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_63" data-name="PATH - 63" points="731.084 348.434 758.17 388.957 757.781 410.781" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CIRCUIT_-_Collective_Abstract_-_Sensing" data-name="GROUP - CIRCUIT - Collective Abstract - Sensing">
+          <g id="GROUP_-_THE_CHANNEL_OF_TRANSITORINESS_-_35_36" data-name="GROUP - THE CHANNEL OF TRANSITORINESS - 35|36">
+            <polyline id="PATH_-_35" data-name="PATH - 35" points="896.716 716.835 783.983 559.184 730.368 593.423" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_36" data-name="PATH - 36" points="998.881 927.771 998.441 859.074 896.716 716.835" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_RECOGNITION_-_30_41" data-name="GROUP - THE CHANNEL OF RECOGNITION - 30|41">
+            <polyline id="PATH_-_30" data-name="PATH - 30" points="895.836 1062.523 998.881 990.303 998.881 927.771" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_41" data-name="PATH - 41" points="728.937 1086.302 782.662 1140.467 895.836 1062.523" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_MATURATION_-_42_53" data-name="GROUP - THE CHANNEL OF MATURATION - 42|53">
+            <polyline id="PATH_-_53" data-name="PATH - 53" points="701.634 1031.257 701.194 1057.679 728.937 1086.302" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_42" data-name="PATH - 42" points="729.818 952.431 701.634 1005.715 701.634 1031.257" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_DISCOVERY_-_29_46" data-name="GROUP - THE CHANNEL OF DISCOVERY - 29|46">
+            <polyline id="PATH_-_29" data-name="PATH - 29" points="758.001 854.67 757.561 896.945 729.818 952.431" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_46" data-name="PATH - 46" points="758.001 772.762 758.001 811.954 758.001 854.67" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_THE_PRODIGAL_-_13_33" data-name="GROUP - THE CHANNEL OF THE PRODIGAL - 13|33">
+            <polyline id="PATH_-_13" data-name="PATH - 13" points="757.561 685.129 757.561 731.808 758.001 772.762" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_33" data-name="PATH - 33" points="757.561 592.652 757.561 642.854 757.561 685.129" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_CURIOSITY_-_11_56" data-name="GROUP - THE CHANNEL OF CURIOSITY - 11|56">
+            <polyline id="PATH_-_56" data-name="PATH - 56" points="758.001 518.23 758.001 546.414 757.561 592.652" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_11" data-name="PATH - 11" points="728.497 457.9 757.561 486.083 758.001 518.23" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_ABSTRACTION_-_47_64" data-name="GROUP - THE CHANNEL OF ABSTRACTION - 47|64">
+            <polyline id="PATH_-_47" data-name="PATH - 47" points="701.634 409.9 701.634 432.799 728.497 457.9" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_64" data-name="PATH - 64" points="729.818 348.249 702.075 387.882 701.634 409.9" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CIRCUIT_-_Defence" data-name="GROUP - CIRCUIT - Defence">
+          <g id="GROUP_-_THE_CHANNEL_OF_MATING_-_6_59" data-name="GROUP - THE CHANNEL OF MATING - 6|59">
+            <polyline id="PATH_-_6" data-name="PATH - 6" points="840.968 939.539 912.4 927.548 1000.38 926.328" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_59" data-name="PATH - 59" points="731.971 948.998 784.601 950.108 840.968 939.539" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_PRESERVATION_-_27_50" data-name="GROUP - THE CHANNEL OF PRESERVATION - 27|50">
+            <polyline id="PATH_-_27" data-name="PATH - 27" points="632.234 940.42 672.748 949.227 731.971 948.998" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_50" data-name="PATH - 50" points="481.189 927.209 571.023 926.769 632.234 940.42" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CIRCUIT_-_Tribal_-_Ego" data-name="GROUP - CIRCUIT - Tribal - Ego">
+          <g id="GROUP_-_THE_CHANNEL_OF_TRANSFORMATION_-_32_54" data-name="GROUP - THE CHANNEL OF TRANSFORMATION - 32|54">
+            <polyline id="PATH_-_54" data-name="PATH - 54" points="601.671 1025.972 669.047 1084.541 728.497 1085.862" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_32" data-name="PATH - 32" points="535.286 930.083 528.57 962.119 601.671 1025.972" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_SURRENDER_-_26_44" data-name="GROUP - THE CHANNEL OF SURRENDER - 26|44">
+            <polyline id="PATH_-_44" data-name="PATH - 44" points="693.267 864.798 544.424 898.706 535.396 929.532" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_26" data-name="PATH - 26" points="860.606 826.927 814.368 837.936 693.267 864.798" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_SYNTHESIS_-_19_49" data-name="GROUP - THE CHANNEL OF SYNTHESIS - 19|49">
+            <polyline id="PATH_-_49" data-name="PATH - 49" points="869.854 1021.569 950.441 962.56 944.551 928.404" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_19" data-name="PATH - 19" points="729.377 1085.862 783.102 1085.422 869.854 1021.569" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_COMMUNITY_-_37_40" data-name="GROUP - THE CHANNEL OF COMMUNITY - 37|40">
+            <polyline id="PATH_-_37" data-name="PATH - 37" points="944.551 928.156 938.551 898.266 914.331 876.688" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_40" data-name="PATH - 40" points="914.331 876.688 888.35 853.349 861.047 827.808" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_THE_MONEY_LINE_-_21_45" data-name="GROUP - THE CHANNEL OF THE MONEY LINE - 21|45">
+            <polyline id="PATH_-_21" data-name="PATH - 21" points="824.276 709.789 863.028 784.652 861.829 827.177" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_45" data-name="PATH - 45" points="730.368 593.918 785.084 633.826 824.276 709.789" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CIRCUIT_-_Individual_-_Centering" data-name="GROUP - CIRCUIT - Individual - Centering">
+          <g id="GROUP_-_THE_CHANNEL_OF_EXPLORATION_-_10_34" data-name="GROUP - THE CHANNEL OF EXPLORATION - 10|34">
+            <polyline id="PATH_-_34" data-name="PATH - 34" points="579.928 772.762 674.882 916.101 729.873 951.275" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_10" data-name="PATH - 10" points="730.038 772.762 662.332 772.762 579.928 772.762" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="GROUP_-_THE_CHANNEL_OF_INITIATION_-_25_51" data-name="GROUP - THE CHANNEL OF INITIATION - 25|51">
+            <polyline id="PATH_-_51" data-name="PATH - 51" points="860.386 827.587 837.267 808.872 815.469 791.037" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline id="PATH_-_25" data-name="PATH - 25" points="815.469 791.037 793.616 771.936 729.997 772.762" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+      <g id="GROUP_-_CENTRES" data-name="GROUP - CENTRES">
+        <g id="GROUP_-_GATES" data-name="GROUP - GATES">
+          <g id="GROUP_-_ROOT" data-name="GROUP - ROOT">
+            <circle id="SYMBOL_-_GATE_-_54" data-name="SYMBOL - GATE - 54" cx="670.9933" cy="1085.0022" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_38" data-name="SYMBOL - GATE - 38" cx="670.9933" cy="1112.9992" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_58" data-name="SYMBOL - GATE - 58" cx="670.9933" cy="1140.9962" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_41" data-name="SYMBOL - GATE - 41" cx="783.5962" cy="1140.9962" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_39" data-name="SYMBOL - GATE - 39" cx="783.5962" cy="1112.9992" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_19" data-name="SYMBOL - GATE - 19" cx="783.5962" cy="1085.0022" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_52" data-name="SYMBOL - GATE - 52" cx="758.1704" cy="1058.0463" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_60" data-name="SYMBOL - GATE - 60" cx="730.1734" cy="1058.0463" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_53" data-name="SYMBOL - GATE - 53" cx="702.1764" cy="1058.0463" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_SACRAL" data-name="GROUP - SACRAL">
+            <circle id="SYMBOL_-_GATE_-_34" data-name="SYMBOL - GATE - 34" cx="675.2124" cy="916.101" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_27" data-name="SYMBOL - GATE - 27" cx="671.9096" cy="950.7706" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_42" data-name="SYMBOL - GATE - 42" cx="702.1764" cy="1005.3761" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_3" data-name="SYMBOL - GATE - 3" cx="730.1734" cy="1005.3761" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_9" data-name="SYMBOL - GATE - 9" cx="758.1704" cy="1005.3761" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_59" data-name="SYMBOL - GATE - 59" cx="783.5424" cy="951.7706" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_29" data-name="SYMBOL - GATE - 29" cx="758.1704" cy="897.402" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_14" data-name="SYMBOL - GATE - 14" cx="730.1734" cy="897.402" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_5" data-name="SYMBOL - GATE - 5" cx="702.1764" cy="897.402" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_SPLEEN" data-name="GROUP - SPLEEN">
+            <circle id="SYMBOL_-_GATE_-_18" data-name="SYMBOL - GATE - 18" cx="480.8308" cy="990.1203" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_28" data-name="SYMBOL - GATE - 28" cx="505.024" cy="976.0306" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_32" data-name="SYMBOL - GATE - 32" cx="529.2173" cy="961.9409" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_50" data-name="SYMBOL - GATE - 50" cx="569.9056" cy="927.3275" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_44" data-name="SYMBOL - GATE - 44" cx="544.7324" cy="898.4732" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_57" data-name="SYMBOL - GATE - 57" cx="513.1531" cy="878.2451" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_48" data-name="SYMBOL - GATE - 48" cx="480.9718" cy="860.1231" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_SP" data-name="GROUP - SP">
+            <circle id="SYMBOL_-_GATE_-_49" data-name="SYMBOL - GATE - 49" cx="950.9433" cy="961.9409" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_55" data-name="SYMBOL - GATE - 55" cx="975.1366" cy="976.0306" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_30" data-name="SYMBOL - GATE - 30" cx="999.3299" cy="990.1203" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_36" data-name="SYMBOL - GATE - 36" cx="999.1888" cy="860.1231" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_22" data-name="SYMBOL - GATE - 22" cx="967.0076" cy="878.2451" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_37" data-name="SYMBOL - GATE - 37" cx="938.0705" cy="898.1429" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_6" data-name="SYMBOL - GATE - 6" cx="910.2551" cy="927.3275" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_EGO" data-name="GROUP - EGO">
+            <circle id="SYMBOL_-_GATE_-_51" data-name="SYMBOL - GATE - 51" cx="837.2766" cy="808.2837" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_26" data-name="SYMBOL - GATE - 26" cx="814.8084" cy="837.4956" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_40" data-name="SYMBOL - GATE - 40" cx="889.1307" cy="853.4819" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_21" data-name="SYMBOL - GATE - 21" cx="863.0356" cy="785.0831" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_G" data-name="GROUP - G">
+            <circle id="SYMBOL_-_GATE_-_10" data-name="SYMBOL - GATE - 10" cx="662.9195" cy="772.1221" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_15" data-name="SYMBOL - GATE - 15" cx="702.1764" cy="812.1109" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_2" data-name="SYMBOL - GATE - 2" cx="730.1734" cy="818.2402" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_46" data-name="SYMBOL - GATE - 46" cx="758.1704" cy="812.1109" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_25" data-name="SYMBOL - GATE - 25" cx="793.2002" cy="772.1221" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_13" data-name="SYMBOL - GATE - 13" cx="758.1704" cy="732.1333" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_1" data-name="SYMBOL - GATE - 1" cx="730.1734" cy="726.0039" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_7" data-name="SYMBOL - GATE - 7" cx="702.1764" cy="732.1333" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_THROAT" data-name="GROUP - THROAT">
+            <circle id="SYMBOL_-_GATE_-_16" data-name="SYMBOL - GATE - 16" cx="668.9373" cy="592.6272" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_20" data-name="SYMBOL - GATE - 20" cx="671.5795" cy="627.7574" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_31" data-name="SYMBOL - GATE - 31" cx="702.1764" cy="642.8136" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_8" data-name="SYMBOL - GATE - 8" cx="730.1734" cy="642.8136" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_33" data-name="SYMBOL - GATE - 33" cx="758.1704" cy="642.8136" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_45" data-name="SYMBOL - GATE - 45" cx="785.1263" cy="633.5695" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_12" data-name="SYMBOL - GATE - 12" cx="785.1263" cy="594.0793" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_35" data-name="SYMBOL - GATE - 35" cx="784.8635" cy="560.7255" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_56" data-name="SYMBOL - GATE - 56" cx="758.1704" cy="546.3924" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_23" data-name="SYMBOL - GATE - 23" cx="730.1734" cy="546.3924" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_62" data-name="SYMBOL - GATE - 62" cx="702.1764" cy="546.3924" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_AJNA" data-name="GROUP - AJNA">
+            <circle id="SYMBOL_-_GATE_-_17" data-name="SYMBOL - GATE - 17" cx="702.1764" cy="486.1978" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_43" data-name="SYMBOL - GATE - 43" cx="730.1734" cy="495.6244" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_11" data-name="SYMBOL - GATE - 11" cx="758.1704" cy="486.1978" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_4" data-name="SYMBOL - GATE - 4" cx="758.1704" cy="433.5276" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_24" data-name="SYMBOL - GATE - 24" cx="730.1734" cy="433.5276" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_47" data-name="SYMBOL - GATE - 47" cx="702.1764" cy="433.5276" r="6.7719"/>
+          </g>
+          <g id="GROUP_-_HEAD" data-name="GROUP - HEAD">
+            <circle id="SYMBOL_-_GATE_-_63" data-name="SYMBOL - GATE - 63" cx="758.1704" cy="388.9565" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_61" data-name="SYMBOL - GATE - 61" cx="730.1734" cy="388.516" r="6.7719"/>
+            <circle id="SYMBOL_-_GATE_-_64" data-name="SYMBOL - GATE - 64" cx="702.1764" cy="388.9565" r="6.7719"/>
+          </g>
+        </g>
+        <g id="GROUP_-_CENTRE_DEFINITIONS" data-name="GROUP - CENTRE DEFINITIONS">
+          <path id="SYMBOL_-_DEFINITION_-_ROOT" data-name="SYMBOL - DEFINITION - ROOT" d="M709.94,1040.9327c-28.7075-.438-25.2478-3.8391-24.8216,24.8251C713.8242,1066.194,710.3645,1069.5952,709.94,1040.9327Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10" stroke-width="0.81"/>
+          <path id="SYMBOL_-_DEFINITION_-_SACRAL" data-name="SYMBOL - DEFINITION - SACRAL" d="M710.48,903.9511c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C714.3638,929.2124,710.9041,932.6136,710.48,903.9511Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10" stroke-width="0.81"/>
+          <path id="SYMBOL_-_DEFINITION_-_SPLEEN" data-name="SYMBOL - DEFINITION - SPLEEN" d="M445.3067,858.1717c85.4586,44.3022,85.37,28.47-1.0923,80.632C444.22,938.8034,445.3067,858.1717,445.3067,858.1717Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10"/>
+          <path id="SYMBOL_-_DEFINITION_-_SP" data-name="SYMBOL - DEFINITION - SP" d="M971.2738,857.1717c-85.4586,44.3022-85.37,28.47,1.0923,80.632C972.3605,937.8034,971.2738,857.1717,971.2738,857.1717Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10"/>
+          <path id="SYMBOL_-_DEFINITION_-_EGO" data-name="SYMBOL - DEFINITION - EGO" d="M809.0716,801.0538c40.991,7.35,36.4637,12.4991,22.5452-26.6185Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10"/>
+          <path id="SYMBOL_-_DEFINITION_-_G-CENTRE" data-name="SYMBOL - DEFINITION - G-CENTRE" d="M699.0672,720.0075c-20.609,19.9895-20.5675,15.1382.0025,35.1055C719.6761,735.1235,719.6347,739.9748,699.0672,720.0075Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10" stroke-width="0.81"/>
+          <path id="SYMBOL_-_DEFINITION_-_THROAT" data-name="SYMBOL - DEFINITION - THROAT" d="M710.92,547.4572c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C714.8042,572.7185,711.3445,576.12,710.92,547.4572Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10" stroke-width="0.81"/>
+          <path id="SYMBOL_-_DEFINITION_-_AJNA" data-name="SYMBOL - DEFINITION - AJNA" d="M712.2232,415.419c-16.2756,27.7914-10.9737,27.7171-26.977-.1207Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10"/>
+          <path id="SYMBOL_-_DEFINITION_-_HEAD" data-name="SYMBOL - DEFINITION - HEAD" d="M712.2232,332.08c-16.2756-27.7914-10.9737-27.7171-26.977.1207Z" transform="translate(31.5075 33.1984)" stroke="#000" stroke-miterlimit="10"/>
+        </g>
+        <g id="GROUP_-_OUTLINES" data-name="GROUP - OUTLINES">
+          <path id="SYMBOL_-_CENTRE_-_ROOT" data-name="SYMBOL - CENTRE - ROOT" d="M768.2839,1010.8423c-163.03-2.091-143.3824-18.3271-140.9619,118.5093C790.3419,1131.4342,770.6943,1147.67,768.2839,1010.8423Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_SACRAL" data-name="SYMBOL - CENTRE - SACRAL" d="M767.0157,846.9978C603.9858,844.51,623.6334,825.1955,626.0539,987.98,789.0737,990.4572,769.4262,1009.7722,767.0157,846.9978Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_SPLEEN" data-name="SYMBOL - CENTRE - SPLEEN" d="M423.8712,798.3014c204.0336,119.4889,203.4879,80.5641-.886,198.0544C422.9986,996.3559,423.8712,798.3014,423.8712,798.3014Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_SP" data-name="SYMBOL - CENTRE - SP" d="M989.47,793.2288c-204.0337,119.489-203.4879,80.5642.886,198.0545C990.3426,991.2834,989.47,793.2288,989.47,793.2288Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_EGO" data-name="SYMBOL - CENTRE - EGO" d="M772.014,789.9622c5.5655-8.75,15.4773-18.6068,29.8047-30.9461,10.94-9.4221,39.4377-28.6549,39.5138-28.253,1.36,7.1917,32.2307,98.3888,34.0709,105.6115.2945,1.1561-37.3861-7.5551-53.3138-10.5644C779.64,816.3855,754.4777,817.8605,772.014,789.9622Zm69.349-59.381C816.1472,747.277,758.96,787.9948,767.41,807.3668c2.6566,8.1521,20.4273,11.5,55.8314,18.1684,13.114,1.5989,35.5219,9.7255,52.5119,10.9106C868.5314,814.144,845.7826,744.2419,841.363,730.5812Z" transform="translate(31.5075 33.1984)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1.1797"/>
+          <path id="SYMBOL_-_CENTRE_-_G-CENTRE" data-name="SYMBOL - CENTRE - G-CENTRE" d="M698.3381,659.2535C581.3,772.7742,581.94,705.4357,698.7569,818.83,815.7812,705.3094,815.1413,772.6479,698.3381,659.2535Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_THROAT" data-name="SYMBOL - CENTRE - THROAT" d="M767.8612,498.9015c-163.03-2.1951-143.3824-19.24-140.9619,124.4142C789.9192,625.5021,770.2716,642.5472,767.8612,498.9015Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_AJNA" data-name="SYMBOL - CENTRE - AJNA" d="M615.5418,384.1959c74.0152,138.3932,90.6218,137.6707,167.1961,1.3487C752.2222,385.216,634.3647,384.4147,615.5418,384.1959Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+          <path id="SYMBOL_-_CENTRE_-_HEAD" data-name="SYMBOL - CENTRE - HEAD" d="M715.7311,277.512c6.2185,9.1576,13.64,23.02,23.5776,41.5835,7.7153,14.4114,17.317,32.3468,29.0036,52.9751l.2341.4132-.475-.0047c-1.3787-.0137-137.88-1.37-138.4894-1.3662l-.0015-.2725-.2373-.141c12.26-20.6358,22.3037-38.543,30.3738-52.9318,20.0587-35.7635,30.127-53.7148,40.16-53.6162C704.8279,264.2,709.7172,268.6556,715.7311,277.512Zm51.8709,94.4151c-11.5844-20.461-21.1106-38.2552-28.7758-52.5733-19.4469-36.3257-29.2083-54.5593-38.9547-54.6552-9.7086-.0952-19.7239,17.7615-39.6771,53.3368-8.0185,14.2965-17.9849,32.0659-30.1385,52.5359.2466,0,.5926.0035,1.082.0081l4.3969.0422c3.7876.0367,9.1981.09,15.69.1536,12.9844.1275,30.2961.2987,47.6075.47C731.0864,371.5645,763.34,371.8848,767.602,371.9271Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.3356"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="GENERATED-BODYGRAPH">
+    <g>
+      <rect id="background-2" data-name="background" x="130.2702" y="131.961" width="1202.4747" height="1202.4747" fill="#151e25"/>
+      <g id="THE_BODYGRAPH_-_CONNECTORS-2" data-name="THE BODYGRAPH - CONNECTORS">
+        <g id="GROUP_-_CONNECTORS_-_DIRECT" data-name="GROUP - CONNECTORS - DIRECT">
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_1-2" data-name="LINE - DIRECT-CONNECTION - GATE 1" x1="1130.6074" y1="289.9529" x2="730.1734" y2="726.0039" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_2-2" data-name="LINE - DIRECT-CONNECTION - GATE 2" x1="332.4075" y1="1176.4438" x2="730.1734" y2="818.2402" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_3-2" data-name="LINE - DIRECT-CONNECTION - GATE 3" x1="220.9253" y1="1041.5052" x2="730.1734" y2="1005.376" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_4-2" data-name="LINE - DIRECT-CONNECTION - GATE 4" x1="1211.7372" y1="1086.9309" x2="758.1868" y2="433.4717" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_5-2" data-name="LINE - DIRECT-CONNECTION - GATE 5" x1="874.5379" y1="154.1563" x2="702.1763" y2="897.402" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_6-2" data-name="LINE - DIRECT-CONNECTION - GATE 6" x1="1327.3273" y1="760.5149" x2="781.3624" y2="954.2242" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_7-2" data-name="LINE - DIRECT-CONNECTION - GATE 7" x1="1174.7529" y1="1132.2983" x2="702.1763" y2="732.1332" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_8-2" data-name="LINE - DIRECT-CONNECTION - GATE 8" x1="426.549" y1="1245.7875" x2="730.1734" y2="642.8136" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_9-2" data-name="LINE - DIRECT-CONNECTION - GATE 9" x1="930.6052" y1="170.964" x2="758.1704" y2="1005.376" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_10-2" data-name="LINE - DIRECT-CONNECTION - GATE 10" x1="700.2919" y1="137.5702" x2="662.4816" y2="772.0523" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_11-2" data-name="LINE - DIRECT-CONNECTION - GATE 11" x1="758.1704" y1="486.1978" x2="758.8241" y2="137.3786" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_12-2" data-name="LINE - DIRECT-CONNECTION - GATE 12" x1="704.1909" y1="1329.0181" x2="785.1262" y2="601.3453" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_13-2" data-name="LINE - DIRECT-CONNECTION - GATE 13" x1="288.2621" y1="334.0983" x2="757.2324" y2="731.7052" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_14-2" data-name="LINE - DIRECT-CONNECTION - GATE 14" x1="1036.466" y1="220.6092" x2="730.1734" y2="897.402" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_15-2" data-name="LINE - DIRECT-CONNECTION - GATE 15" x1="762.723" y1="1328.8265" x2="701.1419" y2="810.8918" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_16-2" data-name="LINE - DIRECT-CONNECTION - GATE 16" x1="532.4099" y1="1295.4327" x2="668.2766" y2="593.0924" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_17-2" data-name="LINE - DIRECT-CONNECTION - GATE 17" x1="141.8071" y1="822.6453" x2="702.1763" y2="486.1978" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_18-2" data-name="LINE - DIRECT-CONNECTION - GATE 18" x1="1321.2079" y1="643.7513" x2="480.8308" y2="990.1202" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_19-2" data-name="LINE - DIRECT-CONNECTION - GATE 19" x1="329.5151" y1="292.5745" x2="783.5961" y2="1085.0022" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_20-2" data-name="LINE - DIRECT-CONNECTION - GATE 20" x1="478.26" y1="1273.2104" x2="671.249" y2="628.7621" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_21-2" data-name="LINE - DIRECT-CONNECTION - GATE 21" x1="153.414" y1="880.0154" x2="860.9412" y2="784.5957" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_22-2" data-name="LINE - DIRECT-CONNECTION - GATE 22" x1="141.2343" y1="647.6128" x2="967.0076" y2="878.2451" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_23-2" data-name="LINE - DIRECT-CONNECTION - GATE 23" x1="377.775" y1="1213.4281" x2="730.1734" y2="546.3924" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_24-2" data-name="LINE - DIRECT-CONNECTION - GATE 24" x1="290.8837" y1="1135.1908" x2="730.1734" y2="433.5275" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_25-2" data-name="LINE - DIRECT-CONNECTION - GATE 25" x1="135.8794" y1="764.4139" x2="792.8339" y2="773.1404" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_26-2" data-name="LINE - DIRECT-CONNECTION - GATE 26" x1="817.093" y1="142.9251" x2="814.9185" y2="836.835" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_27-2" data-name="LINE - DIRECT-CONNECTION - GATE 27" x1="253.6032" y1="1090.0664" x2="670.2583" y2="951.7706" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_28-2" data-name="LINE - DIRECT-CONNECTION - GATE 28" x1="1209.4118" y1="376.3303" x2="505.0241" y2="976.0306" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_29-2" data-name="LINE - DIRECT-CONNECTION - GATE 29" x1="1244.0967" y1="1038.1568" x2="758.1704" y2="897.402" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_30-2" data-name="LINE - DIRECT-CONNECTION - GATE 30" x1="218.9184" y1="428.2398" x2="999.3299" y2="990.1202" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_31-2" data-name="LINE - DIRECT-CONNECTION - GATE 31" x1="1088.3756" y1="1211.1026" x2="701.1419" y2="640.4206" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_32-2" data-name="LINE - DIRECT-CONNECTION - GATE 32" x1="1269.8505" y1="476.4219" x2="528.3855" y2="961.3444" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_33-2" data-name="LINE - DIRECT-CONNECTION - GATE 33" x1="758.1704" y1="642.8136" x2="1133.5" y2="1173.8222" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_34-2" data-name="LINE - DIRECT-CONNECTION - GATE 34" x1="984.7551" y1="193.1863" x2="675.2124" y2="916.1009" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_35-2" data-name="LINE - DIRECT-CONNECTION - GATE 35" x1="588.4772" y1="1312.2404" x2="784.203" y2="560.3952" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_36-2" data-name="LINE - DIRECT-CONNECTION - GATE 36" x1="135.6878" y1="705.8818" x2="999.1887" y2="860.1231" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_37-2" data-name="LINE - DIRECT-CONNECTION - GATE 37" x1="169.2732" y1="534.1007" x2="935.075" y2="898.9379" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_38-2" data-name="LINE - DIRECT-CONNECTION - GATE 38" x1="584.6904" y1="155.1048" x2="670.9934" y2="1112.9992" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_39-2" data-name="LINE - DIRECT-CONNECTION - GATE 39" x1="878.3245" y1="1311.2918" x2="783.5961" y2="1112.9992" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_40-2" data-name="LINE - DIRECT-CONNECTION - GATE 40" x1="1293.7418" y1="932.296" x2="889.2302" y2="854.2295" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_41-2" data-name="LINE - DIRECT-CONNECTION - GATE 41" x1="374.6395" y1="255.294" x2="782.4793" y2="1140.7457" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_42-2" data-name="LINE - DIRECT-CONNECTION - GATE 42" x1="193.1645" y1="989.9748" x2="702.1763" y2="1005.376" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_43-2" data-name="LINE - DIRECT-CONNECTION - GATE 43" x1="1085.2401" y1="252.9686" x2="730.1734" y2="495.6243" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_44-2" data-name="LINE - DIRECT-CONNECTION - GATE 44" x1="1172.1314" y1="331.2059" x2="544.7323" y2="898.4732" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_45-2" data-name="LINE - DIRECT-CONNECTION - GATE 45" x1="645.922" y1="1323.4715" x2="785.1262" y2="633.5695" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_46-2" data-name="LINE - DIRECT-CONNECTION - GATE 46" x1="1327.1356" y1="701.9828" x2="758.21" y2="812.3582" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_47-2" data-name="LINE - DIRECT-CONNECTION - GATE 47" x1="1320.3373" y1="816.3909" x2="702.1763" y2="433.5275" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_48-2" data-name="LINE - DIRECT-CONNECTION - GATE 48" x1="1309.601" y1="586.3813" x2="480.9718" y2="860.1231" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_49-2" data-name="LINE - DIRECT-CONNECTION - GATE 49" x1="251.2778" y1="379.4658" x2="950.9909" y2="962.1821" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_50-2" data-name="LINE - DIRECT-CONNECTION - GATE 50" x1="1242.0897" y1="424.8915" x2="569.9056" y2="927.3274" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_51-2" data-name="LINE - DIRECT-CONNECTION - GATE 51" x1="170.5883" y1="935.9715" x2="837.267" y2="808.8718" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_52-2" data-name="LINE - DIRECT-CONNECTION - GATE 52" x1="820.9545" y1="1322.8988" x2="758.1704" y2="1058.0463" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_53-2" data-name="LINE - DIRECT-CONNECTION - GATE 53" x1="934.2807" y1="1294.1176" x2="702.1763" y2="1058.0463" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_54-2" data-name="LINE - DIRECT-CONNECTION - GATE 54" x1="528.7344" y1="172.2791" x2="670.9934" y2="1085.0022" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_55-2" data-name="LINE - DIRECT-CONNECTION - GATE 55" x1="191.4955" y1="479.9508" x2="975.1366" y2="976.0306" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_56-2" data-name="LINE - DIRECT-CONNECTION - GATE 56" x1="1039.8143" y1="1243.7806" x2="758.1704" y2="546.3924" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_57-2" data-name="LINE - DIRECT-CONNECTION - GATE 57" x1="1292.4268" y1="530.4252" x2="513.1531" y2="878.2451" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_58-2" data-name="LINE - DIRECT-CONNECTION - GATE 58" x1="642.0605" y1="143.4979" x2="670.9934" y2="1140.9962" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_59-2" data-name="LINE - DIRECT-CONNECTION - GATE 59" x1="1271.5195" y1="986.4459" x2="910.2551" y2="927.3274" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_60-2" data-name="LINE - DIRECT-CONNECTION - GATE 60" x1="423.2007" y1="222.6161" x2="730.1734" y2="1058.0463" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_61-2" data-name="LINE - DIRECT-CONNECTION - GATE 61" x1="474.7311" y1="194.8553" x2="730.1734" y2="388.516" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_62-2" data-name="LINE - DIRECT-CONNECTION - GATE 62" x1="988.284" y1="1271.5413" x2="702.1763" y2="546.3924" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_63-2" data-name="LINE - DIRECT-CONNECTION - GATE 63" x1="152.4655" y1="590.168" x2="757.9075" y2="388.7959" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_DIRECT-CONNECTION_-_GATE_64-2" data-name="LINE - DIRECT-CONNECTION - GATE 64" x1="1310.5496" y1="876.2287" x2="702.1763" y2="388.9565" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="GROUP_-_CONNECTORS_-_CURVED" data-name="GROUP - CONNECTORS - CURVED">
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_1-2" data-name="LINE - CURVED-CONNECTION - GATE 1" d="M1099.1,256.7543C985.12,448.3681,854.7237,601.0307,698.6656,692.8056" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_2-2" data-name="LINE - CURVED-CONNECTION - GATE 2" d="M300.9,1143.2456c27.0869,20.1284,209.71-165.4449,397.7656-358.2036" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_3-2" data-name="LINE - CURVED-CONNECTION - GATE 3" d="M189.4175,1008.3067c178.7349,100.5141,346.3931,62.2836,509.2481-36.1289" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_CURVED-CONNECTION_-_GATE_4-2" data-name="LINE - CURVED-CONNECTION - GATE 4" x1="1211.7372" y1="1086.9309" x2="758.1868" y2="433.4717" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_5-2" data-name="LINE - CURVED-CONNECTION - GATE 5" d="M843.0306,120.958c120.315,325.8525,57.062,571.0532-172.3613,743.2456" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_6-2" data-name="LINE - CURVED-CONNECTION - GATE 6" d="M1295.8194,727.3164c-8.5493-89.6324-206.82-10.5859-545.9649,193.7094" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_7-2" data-name="LINE - CURVED-CONNECTION - GATE 7" d="M1143.2452,1099.1C202.4579,1339.3424-30.0554,756.7376,670.669,698.935" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_8-2" data-name="LINE - CURVED-CONNECTION - GATE 8" d="M395.0416,1212.5893c-212.0777-284.8222,3.509-455.2069,303.624-602.974" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_9-2" data-name="LINE - CURVED-CONNECTION - GATE 9" d="M899.0978,137.7655C1152.5465,798.35,1210.5235,1218.5,726.6628,972.1777" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_10-2" data-name="LINE - CURVED-CONNECTION - GATE 10" d="M668.7842,104.3715c-122.0008,207.4444-162.6274,417.9009-37.81,634.4825" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_11-2" data-name="LINE - CURVED-CONNECTION - GATE 11" d="M726.6628,452.9994c92.8148-108.8637,97.9066-224.7469.6538-348.8193" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_12-2" data-name="LINE - CURVED-CONNECTION - GATE 12" d="M672.6833,1295.82c288.9511-197.8609,683.7216-377.667,80.9354-727.6728" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_13-2" data-name="LINE - CURVED-CONNECTION - GATE 13" d="M256.7544,300.9c505.8038-131.1968,801.7564-104.03,468.97,397.607" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_14-2" data-name="LINE - CURVED-CONNECTION - GATE 14" d="M1004.9585,187.4107c-20.9023,250.411-132.2558,473.18-306.2929,676.7929" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_15-2" data-name="LINE - CURVED-CONNECTION - GATE 15" d="M731.2154,1295.6279c-285.4619-169.0273-184.1322-343.3356-61.581-517.9346" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_16-2" data-name="LINE - CURVED-CONNECTION - GATE 16" d="M500.9024,1262.2343C196.4961,938.57,182.4975,692.477,636.769,559.8943" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_17-2" data-name="LINE - CURVED-CONNECTION - GATE 17" d="M110.2994,789.4467c155.46-172.3359,343.6767-281.7432,560.37-336.4473" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_18-2" data-name="LINE - CURVED-CONNECTION - GATE 18" d="M1289.7007,610.5531c-269.85,762.8614-550.9911,814.3448-840.3774,346.3692" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_19-2" data-name="LINE - CURVED-CONNECTION - GATE 19" d="M298.0074,259.3759c1178.8716,13.5137,1111.9343,928.04,454.0811,792.4278" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_20-2" data-name="LINE - CURVED-CONNECTION - GATE 20" d="M446.7525,1240.0123C243.5084,925.7743,198.3306,669.7661,636.7691,591.917" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_21-2" data-name="LINE - CURVED-CONNECTION - GATE 21" d="M121.9063,846.8169c449.39-235.33,695.2272-276.6612,707.5273-95.42" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_22-2" data-name="LINE - CURVED-CONNECTION - GATE 22" d="M109.7266,614.4146c710.4.3515,931.129,86.8183,825.7736,230.6322" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_23-2" data-name="LINE - CURVED-CONNECTION - GATE 23" d="M346.2672,1180.23C178.63,544.4209,246.7906,250.5717,698.6656,513.1938" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_24-2" data-name="LINE - CURVED-CONNECTION - GATE 24" d="M259.376,1101.9924q49.2417-441.5552,439.29-701.6636" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_25-2" data-name="LINE - CURVED-CONNECTION - GATE 25" d="M104.3716,731.2152c586.7964-122.7606,780.2242-111.12,656.9546,8.7267" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_26-2" data-name="LINE - CURVED-CONNECTION - GATE 26" d="M785.5855,109.7266c52.3207,327.3057,15.3179,423.3714-2.2849,693.2494" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_27-2" data-name="LINE - CURVED-CONNECTION - GATE 27" d="M222.0958,1056.8681c135.957,14.897,274.9976-54.856,416.6548-138.296" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_28-2" data-name="LINE - CURVED-CONNECTION - GATE 28" d="M1177.9044,343.1324c-152.0859,950.1923-385.5713,1161.9818-704.3877,599.7" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_29-2" data-name="LINE - CURVED-CONNECTION - GATE 29" d="M726.6628,864.2036c157.7255,132.0425,318.7221,198.5581,485.9262,140.7549" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_30-2" data-name="LINE - CURVED-CONNECTION - GATE 30" d="M187.4106,395.0414c195.9038,832.4732,451.125,1069.1451,780.4116,561.88" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_31-2" data-name="LINE - CURVED-CONNECTION - GATE 31" d="M1056.8683,1177.9043C246.5748,1164.27-9.312,1006.9151,669.6344,607.2224" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_32-2" data-name="LINE - CURVED-CONNECTION - GATE 32" d="M1238.3429,443.2235C1022.6794,1278.77,780.5641,1548.2646,496.8781,928.146" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_33-2" data-name="LINE - CURVED-CONNECTION - GATE 33" d="M726.6628,609.6153c218.06,56.9569,432.1513,119.039,375.3295,531.0087" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_34-2" data-name="LINE - CURVED-CONNECTION - GATE 34" d="M953.2477,159.9877C523.6806,198.2023,416.0494,422.2389,642.714,882.9024" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_35-2" data-name="LINE - CURVED-CONNECTION - GATE 35" d="M556.97,1279.0423c762.4248-235.0757,711.9527-493.5936,195.7256-751.8451" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_36-2" data-name="LINE - CURVED-CONNECTION - GATE 36" d="M104.1806,672.6836c851.9952-70.4737,1028.0606,5.0878,863.501,154.2412" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_37-2" data-name="LINE - CURVED-CONNECTION - GATE 37" d="M137.7657,500.9023C807.0464,59.8368,1053.0558,194.0331,903.5674,865.74" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_38-2" data-name="LINE - CURVED-CONNECTION - GATE 38" d="M553.1827,121.9062c-337.292,721.688-330.6714,1065.3311,86.3032,957.8945" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_39-2" data-name="LINE - CURVED-CONNECTION - GATE 39" d="M846.8169,1278.0932c15.7476-92.227-18.144-157.0459-94.7285-198.2925" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_40-2" data-name="LINE - CURVED-CONNECTION - GATE 40" d="M1262.2345,899.0976C1169.0251,723.8017,1024.06,679.7051,857.7228,819.49" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_41-2" data-name="LINE - CURVED-CONNECTION - GATE 41" d="M343.1319,222.0957c-11.7764,1058.64,164.6611,1144.5156,407.84,885.4516" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_42-2" data-name="LINE - CURVED-CONNECTION - GATE 42" d="M161.6568,956.7763C312.669,1067.44,483.5606,1065.667,670.669,972.1778" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_43-2" data-name="LINE - CURVED-CONNECTION - GATE 43" d="M1053.7325,219.77C991.8874,442.9824,874.7267,526.8783,698.6656,462.4257" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_44-2" data-name="LINE - CURVED-CONNECTION - GATE 44" d="M1140.6236,298.0073C676.4507,74.3861,463.4317,257.188,513.2248,865.2749" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_45-2" data-name="LINE - CURVED-CONNECTION - GATE 45" d="M614.4146,1290.2729c552.3682-231.4482,714.5679-461.7544,139.2041-689.9019" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_46-2" data-name="LINE - CURVED-CONNECTION - GATE 46" d="M1295.628,668.7846c-64.0345-411.4221-515.85,138.1547-568.9258,110.375" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_47-2" data-name="LINE - CURVED-CONNECTION - GATE 47" d="M1288.83,783.1923C766.5669,7.6749,170.7516,130.537,670.669,400.329" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_48-2" data-name="LINE - CURVED-CONNECTION - GATE 48" d="M1278.0934,553.1831C630.5182-61.4747,400.9317,118.3959,449.4645,826.9248" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_49-2" data-name="LINE - CURVED-CONNECTION - GATE 49" d="M219.7706,346.2675C458.943,1583.5693,689.4933,1305.4555,919.484,928.9839" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_50-2" data-name="LINE - CURVED-CONNECTION - GATE 50" d="M1210.5821,391.6934C649.5921,41.2743,408.0191,181.8339,538.398,894.1289" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_51-2" data-name="LINE - CURVED-CONNECTION - GATE 51" d="M139.0806,902.773c370.751-252.4347,632.817-360.3347,666.1284-128.8607" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_52-2" data-name="LINE - CURVED-CONNECTION - GATE 52" d="M789.4469,1289.7c126.6284-182.6665,73.07-250.0787-62.7841-264.852" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_53-2" data-name="LINE - CURVED-CONNECTION - GATE 53" d="M902.773,1260.9194c-510.7383-140.5074-596.5062-220.396-232.104-236.0713" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_54-2" data-name="LINE - CURVED-CONNECTION - GATE 54" d="M497.2266,139.0805c65.8912,551.6022,97.4942,878.854,142.2593,912.7232" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_55-2" data-name="LINE - CURVED-CONNECTION - GATE 55" d="M159.9878,446.7523c391.7461,1035.8238,602.03,861.5582,783.6412,496.08" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_56-2" data-name="LINE - CURVED-CONNECTION - GATE 56" d="M1008.3067,1210.5824c193.8814-574.1739-34.7432-646.6324-281.644-697.3882" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_57-2" data-name="LINE - CURVED-CONNECTION - GATE 57" d="M1260.919,497.227C670.8028-14.2247,416.88,112.7968,481.6456,845.0468" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_58-2" data-name="LINE - CURVED-CONNECTION - GATE 58" d="M610.5528,110.3c-535.1782,789.5851-377.5615,997.94,28.9331,997.4981" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_59-2" data-name="LINE - CURVED-CONNECTION - GATE 59" d="M1240.0118,953.2475c-181.4433,162.7168-300.4536,138.7935-361.2641-59.1187" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_60-2" data-name="LINE - CURVED-CONNECTION - GATE 60" d="M391.6929,189.4179c-276.4274,1046.8785,312.7824,1317.7035,306.9727,835.43" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_61-2" data-name="LINE - CURVED-CONNECTION - GATE 61" d="M443.2237,161.6571c161.82-20.1743,267.9043,21.2413,255.4419,193.6607" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_62-2" data-name="LINE - CURVED-CONNECTION - GATE 62" d="M956.7765,1238.3424C185.4206,1124.0561,37.6036,892.2271,670.669,513.1938" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="LINE_-_CURVED-CONNECTION_-_GATE_63-2" data-name="LINE - CURVED-CONNECTION - GATE 63" x1="152.4655" y1="590.168" x2="757.9075" y2="388.7959" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="LINE_-_CURVED-CONNECTION_-_GATE_64-2" data-name="LINE - CURVED-CONNECTION - GATE 64" d="M1279.0421,843.03C878.2784,228.3656,648.5987,4.518,670.669,355.7582" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="GROUP_-_GATE-DOTS-2" data-name="GROUP - GATE-DOTS">
+          <circle id="SYMBOL_-_GATE-DOT_-_1-2" data-name="SYMBOL - GATE-DOT - 1" cx="1130.6074" cy="289.9529" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_2-2" data-name="SYMBOL - GATE-DOT - 2" cx="332.4075" cy="1176.4438" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_3-2" data-name="SYMBOL - GATE-DOT - 3" cx="220.9253" cy="1041.5052" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_4-2" data-name="SYMBOL - GATE-DOT - 4" cx="1211.7372" cy="1086.9309" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_5-2" data-name="SYMBOL - GATE-DOT - 5" cx="874.5379" cy="154.1563" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_6-2" data-name="SYMBOL - GATE-DOT - 6" cx="1271.5195" cy="986.4459" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_7-2" data-name="SYMBOL - GATE-DOT - 7" cx="1174.7529" cy="1132.2983" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_8-2" data-name="SYMBOL - GATE-DOT - 8" cx="426.549" cy="1245.7875" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_9-2" data-name="SYMBOL - GATE-DOT - 9" cx="930.6052" cy="170.964" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_10-2" data-name="SYMBOL - GATE-DOT - 10" cx="700.2919" cy="137.5702" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_11-2" data-name="SYMBOL - GATE-DOT - 11" cx="758.8241" cy="137.3786" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_12-2" data-name="SYMBOL - GATE-DOT - 12" cx="704.1909" cy="1329.0181" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_13-2" data-name="SYMBOL - GATE-DOT - 13" cx="288.2621" cy="334.0983" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_14-2" data-name="SYMBOL - GATE-DOT - 14" cx="1036.466" cy="220.6092" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_15-2" data-name="SYMBOL - GATE-DOT - 15" cx="762.723" cy="1328.8265" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_16-2" data-name="SYMBOL - GATE-DOT - 16" cx="532.4099" cy="1295.4327" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_17-2" data-name="SYMBOL - GATE-DOT - 17" cx="110.2995" cy="789.447" r="5.4175" transform="matrix(1, -0.0031, 0.0031, 1, 29.0564, 33.5447)" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_18-2" data-name="SYMBOL - GATE-DOT - 18" cx="1321.2079" cy="643.7513" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_19-2" data-name="SYMBOL - GATE-DOT - 19" cx="329.5151" cy="292.5745" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_20-2" data-name="SYMBOL - GATE-DOT - 20" cx="478.26" cy="1273.2104" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_21-2" data-name="SYMBOL - GATE-DOT - 21" cx="153.414" cy="880.0154" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_22-2" data-name="SYMBOL - GATE-DOT - 22" cx="109.7267" cy="614.4144" r="5.4175" transform="translate(28.342 33.7721) rotate(-0.2953)" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_23-2" data-name="SYMBOL - GATE-DOT - 23" cx="377.775" cy="1213.4281" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_24-2" data-name="SYMBOL - GATE-DOT - 24" cx="290.8837" cy="1135.1908" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_25-2" data-name="SYMBOL - GATE-DOT - 25" cx="135.8794" cy="764.4139" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_26-2" data-name="SYMBOL - GATE-DOT - 26" cx="817.093" cy="142.9251" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_27-2" data-name="SYMBOL - GATE-DOT - 27" cx="253.6032" cy="1090.0664" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_28-2" data-name="SYMBOL - GATE-DOT - 28" cx="1209.4118" cy="376.3303" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_29-2" data-name="SYMBOL - GATE-DOT - 29" cx="1244.0967" cy="1038.1568" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_30-2" data-name="SYMBOL - GATE-DOT - 30" cx="218.9184" cy="428.2398" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_31-2" data-name="SYMBOL - GATE-DOT - 31" cx="1088.3756" cy="1211.1026" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_32-2" data-name="SYMBOL - GATE-DOT - 32" cx="1269.8505" cy="476.4219" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_33-2" data-name="SYMBOL - GATE-DOT - 33" cx="1133.5" cy="1173.8222" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_34-2" data-name="SYMBOL - GATE-DOT - 34" cx="984.7551" cy="193.1863" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_35-2" data-name="SYMBOL - GATE-DOT - 35" cx="588.4772" cy="1312.2404" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_36-2" data-name="SYMBOL - GATE-DOT - 36" cx="135.6878" cy="705.8818" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_37-2" data-name="SYMBOL - GATE-DOT - 37" cx="169.2732" cy="534.1007" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_38-2" data-name="SYMBOL - GATE-DOT - 38" cx="584.6904" cy="155.1048" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_39-2" data-name="SYMBOL - GATE-DOT - 39" cx="878.3245" cy="1311.2918" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_40-2" data-name="SYMBOL - GATE-DOT - 40" cx="1293.7418" cy="932.296" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_41-2" data-name="SYMBOL - GATE-DOT - 41" cx="374.6395" cy="255.294" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_42-2" data-name="SYMBOL - GATE-DOT - 42" cx="193.1645" cy="989.9748" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_43-2" data-name="SYMBOL - GATE-DOT - 43" cx="1085.2401" cy="252.9686" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_44-2" data-name="SYMBOL - GATE-DOT - 44" cx="1172.1314" cy="331.2059" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_45-2" data-name="SYMBOL - GATE-DOT - 45" cx="614.4144" cy="1290.2731" r="5.4175" transform="translate(-415.4895 366.5412) rotate(-22.5)" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_46-2" data-name="SYMBOL - GATE-DOT - 46" cx="1327.1356" cy="701.9828" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_47-2" data-name="SYMBOL - GATE-DOT - 47" cx="1321.7807" cy="818.7839" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_48-2" data-name="SYMBOL - GATE-DOT - 48" cx="1309.601" cy="586.3813" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_49-2" data-name="SYMBOL - GATE-DOT - 49" cx="251.2778" cy="379.4658" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_50-2" data-name="SYMBOL - GATE-DOT - 50" cx="1242.0897" cy="424.8915" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_51-2" data-name="SYMBOL - GATE-DOT - 51" cx="170.5883" cy="935.9715" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_52-2" data-name="SYMBOL - GATE-DOT - 52" cx="820.9545" cy="1322.8988" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_53-2" data-name="SYMBOL - GATE-DOT - 53" cx="934.2807" cy="1294.1176" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_54-2" data-name="SYMBOL - GATE-DOT - 54" cx="528.7344" cy="172.2791" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_55-2" data-name="SYMBOL - GATE-DOT - 55" cx="191.4955" cy="479.9508" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_56-2" data-name="SYMBOL - GATE-DOT - 56" cx="1039.8143" cy="1243.7806" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_57-2" data-name="SYMBOL - GATE-DOT - 57" cx="1292.4268" cy="530.4252" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_58-2" data-name="SYMBOL - GATE-DOT - 58" cx="642.0605" cy="143.4979" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_59-2" data-name="SYMBOL - GATE-DOT - 59" cx="1327.3273" cy="760.5149" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_60-2" data-name="SYMBOL - GATE-DOT - 60" cx="423.2007" cy="222.6161" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_61-2" data-name="SYMBOL - GATE-DOT - 61" cx="474.7311" cy="194.8553" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_62-2" data-name="SYMBOL - GATE-DOT - 62" cx="988.284" cy="1271.5413" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_63-2" data-name="SYMBOL - GATE-DOT - 63" cx="152.4655" cy="590.168" r="5.4175" fill="none" stroke="#fff"/>
+          <circle id="SYMBOL_-_GATE-DOT_-_64-2" data-name="SYMBOL - GATE-DOT - 64" cx="1310.5496" cy="876.2287" r="5.4175" fill="none" stroke="#fff"/>
+        </g>
+      </g>
+      <g id="THE_BODYGRAPH-2" data-name="THE BODYGRAPH">
+        <g id="GROUP_-_CHANNELS-2" data-name="GROUP - CHANNELS">
+          <g id="GROUP_-_CIRCUIT_-_Individual_-_Knowing-2" data-name="GROUP - CIRCUIT - Individual - Knowing">
+            <g id="GROUP_-_THE_CHANNEL_OF_AWARENESS_-_24_61-2" data-name="GROUP - THE CHANNEL OF AWARENESS - 24 61">
+              <polyline id="PATH_-_24-2" data-name="PATH - 24" points="730.258 410.781 730.171 433.527 730.258 457.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_61-2" data-name="PATH - 61" points="729.264 349.004 729.173 388.516 730.258 410.781" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_STRUCTURING_-_23_43-2" data-name="GROUP - THE CHANNEL OF STRUCTURING - 23 43">
+              <polyline id="PATH_-_23-2" data-name="PATH - 23" points="730.203 525.386 730.203 545.698 730.368 593.918" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_43-2" data-name="PATH - 43" points="730.258 457.9 729.818 495.331 730.203 525.386" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_INSPIRATION_-_1_8-2" data-name="GROUP - THE CHANNEL OF INSPIRATION - 1 8">
+              <polyline id="PATH_-_1-2" data-name="PATH - 1" points="730.038 676.652 729.818 725.643 729.873 772.762" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_8-2" data-name="PATH - 8" points="730.368 593.918 730.038 643.129 730.038 676.652" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_BEAT_-_2_14-2" data-name="GROUP - THE CHANNEL OF THE BEAT - 2 14">
+              <polyline id="PATH_-_14-2" data-name="PATH - 14" points="729.818 864.358 729.873 897.44 729.707 951.771" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_2-2" data-name="PATH - 2" points="729.873 772.762 729.818 818.56 729.818 864.358" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_MUTATION_-_3_60-2" data-name="GROUP - THE CHANNEL OF MUTATION - 3 60">
+              <polyline id="PATH_-_3-2" data-name="PATH - 3" points="729.707 951.771 730.038 1005.605 730.258 1032.578" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <path id="PATH_-_60-2" data-name="PATH - 60" d="M725.6128,1052.6637l-26.7522-28.2386-.11-25.0457m-29.2843,53.1742,29.3943-28.1285" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_STRUGGLE_-_28_38-2" data-name="GROUP - THE CHANNEL OF STRUGGLE - 28 38">
+              <polyline id="PATH_-_38-2" data-name="PATH - 38" points="585.818 1043.147 670.368 1113.165 700.919 1085.862" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_28-2" data-name="PATH - 28" points="507.763 928.651 504.791 976.211 585.818 1043.147" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_EMOTING_-_39_55-2" data-name="GROUP - THE CHANNEL OF EMOTING - 39 55">
+              <polyline id="PATH_-_55-2" data-name="PATH - 55" points="881.744 1042.706 974.936 976.211 970.973 928.156" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_39-2" data-name="PATH - 39" points="755.139 1083.88 784.038 1113.275 881.744 1042.706" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_BRAINWAVE_-_20_57-2" data-name="GROUP - THE CHANNEL OF THE BRAINWAVE - 20 57">
+              <polyline id="PATH_-_57-2" data-name="PATH - 57" points="579.763 772.762 512.552 878.284 507.763 928.651" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_20-2" data-name="PATH - 20" points="730.368 594.083 671.249 627.936 579.873 772.542" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_OPENNESS_-_12_22-2" data-name="GROUP - THE CHANNEL OF OPENNESS - 12 22">
+              <polyline id="PATH_-_12-2" data-name="PATH - 12" points="873.817 733.129 784.863 594.083 730.698 593.918" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_22-2" data-name="PATH - 22" points="970.973 928.156 966.845 877.954 873.817 733.129" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="GROUP_-_CIRCUIT_-_Collective_Logic_-_Understanding-2" data-name="GROUP - CIRCUIT - Collective Logic - Understanding">
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_WAVELENGTH_-_16_48" data-name="GROUP - THE CHANNEL OF THE WAVELENGTH - 16 48">
+              <polyline id="PATH_-_16-2" data-name="PATH - 16" points="573.157 728.505 668.607 593.423 730.038 593.588" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_48-2" data-name="PATH - 48" points="480.02 929.642 479.862 860.371 573.157 728.505" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_JUDGEMENT_-_18_58-2" data-name="GROUP - THE CHANNEL OF JUDGEMENT - 18 58">
+              <polyline id="PATH_-_18-2" data-name="PATH - 18" points="575.139 1065.715 479.683 990.567 480.02 929.642" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_58-2" data-name="PATH - 58" points="729.024 1085.463 670.864 1140.027 575.139 1065.715" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_CONCENTRATION_-_9_52-2" data-name="GROUP - THE CHANNEL OF CONCENTRATION - 9 52">
+              <polyline id="PATH_-_52-2" data-name="PATH - 52" points="757.781 1032.358 758.111 1057.128 729.024 1085.463" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_9-2" data-name="PATH - 9" points="729.48 951.9 757.781 1004.284 757.781 1032.358" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_RHYTHM_-_5_15-2" data-name="GROUP - THE CHANNEL OF RHYTHM - 5 15">
+              <polyline id="PATH_-_5-2" data-name="PATH - 5" points="701.964 853.018 702.295 897.275 729.48 951.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_15-2" data-name="PATH - 15" points="701.964 772.101 701.634 812.395 701.964 853.018" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_ALPHA_-_7_31-2" data-name="GROUP - THE CHANNEL OF THE ALPHA - 7 31">
+              <polyline id="PATH_-_7-2" data-name="PATH - 7" points="701.964 688.872 701.964 732.138 701.964 772.101" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_31-2" data-name="PATH - 31" points="702.295 593.918 701.964 642.634 701.964 688.872" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_ACCEPTANCE_-_17_62-2" data-name="GROUP - THE CHANNEL OF ACCEPTANCE - 17 62">
+              <polyline id="PATH_-_62-2" data-name="PATH - 62" points="701.964 518.781 701.634 546.193 702.295 593.918" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_17-2" data-name="PATH - 17" points="730.698 458.671 702.176 486.198 701.964 518.781" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_LOGIC_-_4_63-2" data-name="GROUP - THE CHANNEL OF LOGIC - 4 63">
+              <polyline id="PATH_-_4-2" data-name="PATH - 4" points="757.781 410.781 758.171 433.527 730.698 458.671" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_63-2" data-name="PATH - 63" points="731.084 348.434 758.17 388.956 757.781 410.781" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_ABSTRACTION_-_47_64-2" data-name="GROUP - THE CHANNEL OF ABSTRACTION - 47 64">
+              <polyline id="PATH_-_47-2" data-name="PATH - 47" points="701.634 409.9 701.634 432.799 728.496 457.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_64-2" data-name="PATH - 64" points="729.818 348.249 702.075 387.882 701.634 409.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="GROUP_-_CIRCUIT_-_Collective_Abstract_-_Sensing-2" data-name="GROUP - CIRCUIT - Collective Abstract - Sensing">
+            <g id="GROUP_-_THE_CHANNEL_OF_TRANSITORINESS_-_35_36-2" data-name="GROUP - THE CHANNEL OF TRANSITORINESS - 35 36">
+              <polyline id="PATH_-_35-2" data-name="PATH - 35" points="896.716 716.835 783.983 559.184 730.368 593.423" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_36-2" data-name="PATH - 36" points="998.881 927.771 998.441 859.074 896.716 716.835" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_RECOGNITION_-_30_41-2" data-name="GROUP - THE CHANNEL OF RECOGNITION - 30 41">
+              <polyline id="PATH_-_30-2" data-name="PATH - 30" points="895.836 1062.523 998.881 990.303 998.881 927.771" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_41-2" data-name="PATH - 41" points="728.937 1086.302 782.662 1140.467 895.836 1062.523" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_MATURATION_-_42_53-2" data-name="GROUP - THE CHANNEL OF MATURATION - 42 53">
+              <polyline id="PATH_-_53-2" data-name="PATH - 53" points="701.634 1031.257 701.194 1057.679 728.937 1086.302" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_42-2" data-name="PATH - 42" points="729.818 952.431 701.634 1005.715 701.634 1031.257" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_DISCOVERY_-_29_46-2" data-name="GROUP - THE CHANNEL OF DISCOVERY - 29 46">
+              <polyline id="PATH_-_29-2" data-name="PATH - 29" points="758.001 854.67 757.561 896.945 729.818 952.431" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_46-2" data-name="PATH - 46" points="758.001 772.762 758.001 811.954 758.001 854.67" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_PRODIGAL_-_13_33-2" data-name="GROUP - THE CHANNEL OF THE PRODIGAL - 13 33">
+              <polyline id="PATH_-_13-2" data-name="PATH - 13" points="757.561 685.129 757.561 731.808 758.001 772.762" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_33-2" data-name="PATH - 33" points="757.561 592.652 757.561 642.854 757.561 685.129" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_CURIOSITY_-_11_56-2" data-name="GROUP - THE CHANNEL OF CURIOSITY - 11 56">
+              <polyline id="PATH_-_56-2" data-name="PATH - 56" points="758.001 518.23 758.001 546.414 757.561 592.652" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_11-2" data-name="PATH - 11" points="728.496 457.9 757.561 486.083 758.001 518.23" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="GROUP_-_CIRCUIT_-_Defence-2" data-name="GROUP - CIRCUIT - Defence">
+            <g id="GROUP_-_THE_CHANNEL_OF_MATING_-_6_59-2" data-name="GROUP - THE CHANNEL OF MATING - 6 59">
+              <polyline id="PATH_-_6-2" data-name="PATH - 6" points="839.028 940.982 910.461 928.99 998.441 927.771" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_59-2" data-name="PATH - 59" points="730.031 950.441 782.662 951.55 839.028 940.982" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_PRESERVATION_-_27_50-2" data-name="GROUP - THE CHANNEL OF PRESERVATION - 27 50">
+              <polyline id="PATH_-_27-2" data-name="PATH - 27" points="630.295 941.862 670.809 950.67 730.031 950.441" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_50-2" data-name="PATH - 50" points="479.249 928.651 569.084 928.211 630.295 941.862" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="GROUP_-_CIRCUIT_-_Tribal_-_Ego-2" data-name="GROUP - CIRCUIT - Tribal - Ego">
+            <g id="GROUP_-_THE_CHANNEL_OF_TRANSFORMATION_-_32_54-2" data-name="GROUP - THE CHANNEL OF TRANSFORMATION - 32 54">
+              <polyline id="PATH_-_54-2" data-name="PATH - 54" points="601.671 1025.972 669.047 1084.541 728.496 1085.862" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_32-2" data-name="PATH - 32" points="535.286 930.083 528.57 962.119 601.671 1025.972" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_SURRENDER_-_26_44-2" data-name="GROUP - THE CHANNEL OF SURRENDER - 26 44">
+              <polyline id="PATH_-_44-2" data-name="PATH - 44" points="693.267 864.798 544.423 898.706 535.396 929.532" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_26-2" data-name="PATH - 26" points="860.606 826.927 814.368 837.936 693.267 864.798" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_SYNTHESIS_-_19_49-2" data-name="GROUP - THE CHANNEL OF SYNTHESIS - 19 49">
+              <polyline id="PATH_-_49-2" data-name="PATH - 49" points="869.854 1021.569 950.441 962.56 944.551 928.404" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_19-2" data-name="PATH - 19" points="729.377 1085.862 783.102 1085.422 869.854 1021.569" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_COMMUNITY_-_37_40-2" data-name="GROUP - THE CHANNEL OF COMMUNITY - 37 40">
+              <polyline id="PATH_-_37-2" data-name="PATH - 37" points="944.551 928.156 938.551 898.266 914.331 876.688" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_40-2" data-name="PATH - 40" points="914.331 876.688 888.349 853.349 861.047 827.808" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_THE_MONEY_LINE_-_21_45-2" data-name="GROUP - THE CHANNEL OF THE MONEY LINE - 21 45">
+              <polyline id="PATH_-_21-2" data-name="PATH - 21" points="824.276 709.789 863.028 784.652 861.829 827.177" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_45-2" data-name="PATH - 45" points="730.368 593.918 785.084 633.826 824.276 709.789" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="GROUP_-_CIRCUIT_-_Individual_-_Centering-2" data-name="GROUP - CIRCUIT - Individual - Centering">
+            <g id="GROUP_-_THE_CHANNEL_OF_EXPLORATION_-_10_34-2" data-name="GROUP - THE CHANNEL OF EXPLORATION - 10 34">
+              <polyline id="PATH_-_34-2" data-name="PATH - 34" points="579.928 772.762 674.882 916.101 729.873 951.275" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_10-2" data-name="PATH - 10" points="730.038 772.762 662.331 772.762 579.928 772.762" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="GROUP_-_THE_CHANNEL_OF_INITIATION_-_25_51-2" data-name="GROUP - THE CHANNEL OF INITIATION - 25 51">
+              <polyline id="PATH_-_51-2" data-name="PATH - 51" points="860.386 827.587 837.267 808.872 815.469 791.037" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+              <polyline id="PATH_-_25-2" data-name="PATH - 25" points="815.469 791.037 793.616 771.936 729.996 772.762" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+        <g id="GROUP_-_CENTRES-2" data-name="GROUP - CENTRES">
+          <g id="GROUP_-_OUTLINES-2" data-name="GROUP - OUTLINES">
+            <path id="SYMBOL_-_CENTRE_-_ROOT-2" data-name="SYMBOL - CENTRE - ROOT" d="M768.2838,1010.8424c-163.03-2.0909-143.3823-18.3271-140.9619,118.5092C790.3418,1131.4342,770.6942,1147.67,768.2838,1010.8424Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_SACRAL-2" data-name="SYMBOL - CENTRE - SACRAL" d="M767.0157,846.9978C603.9857,844.51,623.6333,825.1954,626.0538,987.98,789.0736,990.4571,769.4261,1009.7724,767.0157,846.9978Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_SPLEEN-2" data-name="SYMBOL - CENTRE - SPLEEN" d="M423.8711,798.3014c204.0337,119.4888,203.4879,80.564-.886,198.0543C422.9985,996.3559,423.8711,798.3014,423.8711,798.3014Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_SP-2" data-name="SYMBOL - CENTRE - SP" d="M989.47,793.2287c-204.0336,119.489-203.4879,80.5642.886,198.0545C990.3426,991.2834,989.47,793.2287,989.47,793.2287Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_EGO-2" data-name="SYMBOL - CENTRE - EGO" d="M772.0139,789.9624c5.5655-8.75,15.4773-18.6068,29.8047-30.9461,10.94-9.4222,39.4377-28.6549,39.5138-28.253,1.36,7.1917,32.2307,98.3888,34.071,105.6115.2944,1.1561-37.3862-7.5551-53.3138-10.5644C779.64,816.3855,754.4776,817.86,772.0139,789.9624Zm69.349-59.381C816.1471,747.2772,758.96,787.995,767.41,807.367c2.6566,8.1522,20.4275,11.5,55.8314,18.1685,13.1141,1.5988,35.522,9.7255,52.512,10.9105-7.2222-22.3021-29.9709-92.2037-34.3906-105.8649Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_G" data-name="SYMBOL - CENTRE - G" d="M698.338,659.2534C581.3,772.7741,581.9394,705.4356,698.7569,818.83,815.7812,705.3094,815.1413,772.6479,698.338,659.2534Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_THROAT-2" data-name="SYMBOL - CENTRE - THROAT" d="M767.8611,498.9015c-163.03-2.1951-143.3824-19.24-140.9619,124.4141C789.9192,625.5023,770.2715,642.5471,767.8611,498.9015Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_AJNA-2" data-name="SYMBOL - CENTRE - AJNA" d="M615.5418,384.1959c74.0151,138.3932,90.6219,137.6706,167.1961,1.3487C752.2221,385.2159,634.3647,384.4146,615.5418,384.1959Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+            <path id="SYMBOL_-_CENTRE_-_HEAD-2" data-name="SYMBOL - CENTRE - HEAD" d="M715.7306,277.5124c6.2185,9.1575,13.64,23.02,23.5776,41.5835,7.7153,14.4114,17.317,32.3468,29.0036,52.975l.2341.4133-.475-.0047c-1.3787-.0137-137.88-1.37-138.4894-1.3663l-.0015-.2724-.2373-.141c12.26-20.6358,22.3037-38.543,30.3738-52.9318,20.0587-35.7635,30.127-53.7148,40.16-53.6162C704.8279,264.2,709.7171,268.6555,715.7306,277.5124Zm51.8709,94.4151c-11.5844-20.461-21.11-38.2552-28.7758-52.5733-19.4469-36.3257-29.2083-54.5593-38.9547-54.6553-9.7086-.0952-19.7239,17.7615-39.6771,53.3368-8.0185,14.2965-17.9848,32.0659-30.1385,52.5359.2466,0,.5926.0035,1.082.0081l4.3969.0422c3.7876.0367,9.1981.09,15.69.1536,12.9844.1275,30.2961.2987,47.6075.47,32.2545.3189,64.5077.6393,68.77.6816Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3356"/>
+          </g>
+          <g id="GROUP_-_DEFINITIONS" data-name="GROUP - DEFINITIONS">
+            <path id="SYMBOL_-_DEFINITION_-_ROOT-2" data-name="SYMBOL - DEFINITION - ROOT" d="M709.94,1040.9323c-28.7074-.438-25.2478-3.8391-24.8214,24.8251C713.8241,1066.1941,710.3644,1069.5952,709.94,1040.9323Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_SACRAL-2" data-name="SYMBOL - DEFINITION - SACRAL" d="M710.48,903.9511c-28.7073-.438-25.2478-3.8391-24.8214,24.825C714.3637,929.2124,710.9041,932.6136,710.48,903.9511Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_SPLEEN-2" data-name="SYMBOL - DEFINITION - SPLEEN" d="M445.3066,858.1717c85.4586,44.3021,85.37,28.47-1.0922,80.632C444.22,938.8034,445.3066,858.1717,445.3066,858.1717Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_SP-2" data-name="SYMBOL - DEFINITION - SP" d="M971.2737,857.1717c-85.4586,44.3021-85.37,28.47,1.0923,80.632C972.3606,937.8034,971.2737,857.1717,971.2737,857.1717Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_EGO-2" data-name="SYMBOL - DEFINITION - EGO" d="M809.0716,801.0537c40.9911,7.35,36.4637,12.4991,22.5453-26.6184Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_G" data-name="SYMBOL - DEFINITION - G" d="M699.0671,720.0075c-20.609,19.99-20.5675,15.1382.0025,35.1055C719.6761,735.1234,719.6346,739.9748,699.0671,720.0075Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_THROAT-2" data-name="SYMBOL - DEFINITION - THROAT" d="M710.92,547.4571c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C714.8042,572.7185,711.3445,576.12,710.92,547.4571Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_AJNA-2" data-name="SYMBOL - DEFINITION - AJNA" d="M712.2231,415.4189c-16.2756,27.7915-10.9737,27.7171-26.977-.1207Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+            <path id="SYMBOL_-_DEFINITION_-_HEAD-2" data-name="SYMBOL - DEFINITION - HEAD" d="M712.2231,332.08c-16.2756-27.7915-10.9737-27.7171-26.977.1207Z" transform="translate(31.5075 33.1984)" fill="none" stroke="#fff" stroke-width="0.81"/>
+          </g>
+          <g id="GROUP_-_GATES-2" data-name="GROUP - GATES">
+            <g id="GROUP_-_HEAD-2" data-name="GROUP - HEAD">
+              <circle id="SYMBOL_-_GATE_-_63-2" data-name="SYMBOL - GATE - 63" cx="758.1704" cy="388.9565" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_61-2" data-name="SYMBOL - GATE - 61" cx="730.1734" cy="388.516" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_64-2" data-name="SYMBOL - GATE - 64" cx="702.1763" cy="388.9565" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_AJNA-2" data-name="GROUP - AJNA">
+              <circle id="SYMBOL_-_GATE_-_17-2" data-name="SYMBOL - GATE - 17" cx="702.1763" cy="486.1978" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_43-2" data-name="SYMBOL - GATE - 43" cx="730.1734" cy="495.6243" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_11-2" data-name="SYMBOL - GATE - 11" cx="758.1704" cy="486.1978" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_4-2" data-name="SYMBOL - GATE - 4" cx="758.1704" cy="433.5275" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_24-2" data-name="SYMBOL - GATE - 24" cx="730.1734" cy="433.5275" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_47-2" data-name="SYMBOL - GATE - 47" cx="702.1763" cy="433.5275" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_THROAT-2" data-name="GROUP - THROAT">
+              <circle id="SYMBOL_-_GATE_-_16-2" data-name="SYMBOL - GATE - 16" cx="668.9373" cy="592.6271" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_20-2" data-name="SYMBOL - GATE - 20" cx="671.5795" cy="627.7574" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_31-2" data-name="SYMBOL - GATE - 31" cx="702.1763" cy="642.8136" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_8-2" data-name="SYMBOL - GATE - 8" cx="730.1734" cy="642.8136" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_33-2" data-name="SYMBOL - GATE - 33" cx="758.1704" cy="642.8136" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_45-2" data-name="SYMBOL - GATE - 45" cx="785.1262" cy="633.5695" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_12-2" data-name="SYMBOL - GATE - 12" cx="785.1262" cy="594.0792" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_35-2" data-name="SYMBOL - GATE - 35" cx="784.8635" cy="560.7255" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_56-2" data-name="SYMBOL - GATE - 56" cx="758.1704" cy="546.3924" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_23-2" data-name="SYMBOL - GATE - 23" cx="730.1734" cy="546.3924" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_62-2" data-name="SYMBOL - GATE - 62" cx="702.1763" cy="546.3924" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_G-2" data-name="GROUP - G">
+              <circle id="SYMBOL_-_GATE_-_10-2" data-name="SYMBOL - GATE - 10" cx="662.9194" cy="772.122" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_15-2" data-name="SYMBOL - GATE - 15" cx="702.1763" cy="812.1109" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_2-2" data-name="SYMBOL - GATE - 2" cx="730.1734" cy="818.2402" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_46-2" data-name="SYMBOL - GATE - 46" cx="758.1704" cy="812.1109" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_25-2" data-name="SYMBOL - GATE - 25" cx="793.2002" cy="772.122" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_13-2" data-name="SYMBOL - GATE - 13" cx="758.1704" cy="732.1332" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_1-2" data-name="SYMBOL - GATE - 1" cx="730.1734" cy="726.0039" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_7-2" data-name="SYMBOL - GATE - 7" cx="702.1763" cy="732.1332" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_EGO-2" data-name="GROUP - EGO">
+              <circle id="SYMBOL_-_GATE_-_51-2" data-name="SYMBOL - GATE - 51" cx="837.2766" cy="808.2836" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_26-2" data-name="SYMBOL - GATE - 26" cx="814.8084" cy="837.4956" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_40-2" data-name="SYMBOL - GATE - 40" cx="889.1306" cy="853.4819" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_21-2" data-name="SYMBOL - GATE - 21" cx="863.0355" cy="785.0831" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_SACRAL-2" data-name="GROUP - SACRAL">
+              <circle id="SYMBOL_-_GATE_-_34-2" data-name="SYMBOL - GATE - 34" cx="675.2124" cy="916.1009" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_27-2" data-name="SYMBOL - GATE - 27" cx="671.9096" cy="950.7706" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_42-2" data-name="SYMBOL - GATE - 42" cx="702.1763" cy="1005.376" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_3-2" data-name="SYMBOL - GATE - 3" cx="730.1734" cy="1005.376" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_9-2" data-name="SYMBOL - GATE - 9" cx="758.1704" cy="1005.376" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_59-2" data-name="SYMBOL - GATE - 59" cx="783.5424" cy="951.7706" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_29-2" data-name="SYMBOL - GATE - 29" cx="758.1704" cy="897.402" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_14-2" data-name="SYMBOL - GATE - 14" cx="730.1734" cy="897.402" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_5-2" data-name="SYMBOL - GATE - 5" cx="702.1763" cy="897.402" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_SPLEEN-2" data-name="GROUP - SPLEEN">
+              <circle id="SYMBOL_-_GATE_-_18-2" data-name="SYMBOL - GATE - 18" cx="480.8308" cy="990.1202" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_28-2" data-name="SYMBOL - GATE - 28" cx="505.0241" cy="976.0306" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_32-2" data-name="SYMBOL - GATE - 32" cx="529.2173" cy="961.9409" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_50-2" data-name="SYMBOL - GATE - 50" cx="569.9056" cy="927.3274" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_44-2" data-name="SYMBOL - GATE - 44" cx="544.7323" cy="898.4732" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_57-2" data-name="SYMBOL - GATE - 57" cx="513.1531" cy="878.2451" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_48-2" data-name="SYMBOL - GATE - 48" cx="480.9718" cy="860.1231" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_SP-2" data-name="GROUP - SP">
+              <circle id="SYMBOL_-_GATE_-_49-2" data-name="SYMBOL - GATE - 49" cx="950.9433" cy="961.9409" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_55-2" data-name="SYMBOL - GATE - 55" cx="975.1366" cy="976.0306" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_30-2" data-name="SYMBOL - GATE - 30" cx="999.3299" cy="990.1202" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_36-2" data-name="SYMBOL - GATE - 36" cx="999.1887" cy="860.1231" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_22-2" data-name="SYMBOL - GATE - 22" cx="967.0076" cy="878.2451" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_37-2" data-name="SYMBOL - GATE - 37" cx="938.0705" cy="898.1429" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_6-2" data-name="SYMBOL - GATE - 6" cx="910.2551" cy="927.3274" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+            <g id="GROUP_-_ROOT-2" data-name="GROUP - ROOT">
+              <circle id="SYMBOL_-_GATE_-_54-2" data-name="SYMBOL - GATE - 54" cx="670.9934" cy="1085.0022" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_38-2" data-name="SYMBOL - GATE - 38" cx="670.9934" cy="1112.9992" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_58-2" data-name="SYMBOL - GATE - 58" cx="670.9934" cy="1140.9962" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_41-2" data-name="SYMBOL - GATE - 41" cx="783.5961" cy="1140.9962" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_39-2" data-name="SYMBOL - GATE - 39" cx="783.5961" cy="1112.9992" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_19-2" data-name="SYMBOL - GATE - 19" cx="783.5961" cy="1085.0022" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_52-2" data-name="SYMBOL - GATE - 52" cx="758.1704" cy="1058.0463" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_60-2" data-name="SYMBOL - GATE - 60" cx="730.1734" cy="1058.0463" r="6.7719" fill="none" stroke="#fff"/>
+              <circle id="SYMBOL_-_GATE_-_53-2" data-name="SYMBOL - GATE - 53" cx="702.1763" cy="1058.0463" r="6.7719" fill="none" stroke="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
