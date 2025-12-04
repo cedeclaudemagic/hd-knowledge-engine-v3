@@ -150,7 +150,9 @@ function generateCrossElement(cross, bandType) {
   // Use tspan elements for each line
   const lineHeight = fontConfig.lineHeight;
 
+  // Add data-gate for queryability (uses personality sun as primary gate)
   return `    <text
+       data-gate="${cross.personalitySun}"
        data-cross-type="${cross.type}"
        data-cross-name="${cross.name}"
        data-personality-sun="${cross.personalitySun}"

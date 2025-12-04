@@ -70,7 +70,7 @@
   </g>
   <g id="LINES">
   <g id="GATE-30" data-wheel-position="0" data-inner-gate="41" data-outer-gate="30">
-    <g id="LINE-30.6" class="line">
+    <g id="LINE-30.6" class="line" data-gate="30" data-line="6">
       <text
     x="3450.36" y="1998.82"
     font-family="Copperplate-Light, Copperplate"
@@ -98,7 +98,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3609.51, 2232.83) rotate(55.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-30.5" class="line">
+    <g id="LINE-30.5" class="line" data-gate="30" data-line="5">
       <text
     x="3376.54" y="2049.91"
     font-family="Copperplate-Light, Copperplate"
@@ -129,7 +129,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-30.4" class="line">
+    <g id="LINE-30.4" class="line" data-gate="30" data-line="4">
       <text
     x="3303.56" y="2102.21"
     font-family="Copperplate-Light, Copperplate"
@@ -157,7 +157,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3470.28, 2330.89) rotate(53.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-30.3" class="line">
+    <g id="LINE-30.3" class="line" data-gate="30" data-line="3">
       <text
     x="3231.45" y="2155.69"
     font-family="Copperplate-Light, Copperplate"
@@ -185,7 +185,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3401.89, 2381.61) rotate(52.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-30.2" class="line">
+    <g id="LINE-30.2" class="line" data-gate="30" data-line="2">
       <text
     x="3160.22" y="2210.34"
     font-family="Copperplate-Light, Copperplate"
@@ -216,7 +216,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-30.1" class="line">
+    <g id="LINE-30.1" class="line" data-gate="30" data-line="1">
       <text
     x="3089.90" y="2266.16"
     font-family="Copperplate-Light, Copperplate"
@@ -246,7 +246,7 @@
     </g>
   </g>
   <g id="GATE-49" data-wheel-position="1" data-inner-gate="19" data-outer-gate="49">
-    <g id="LINE-49.6" class="line">
+    <g id="LINE-49.6" class="line" data-gate="49" data-line="6">
       <text
     x="3020.50" y="2323.11"
     font-family="Copperplate-Light, Copperplate"
@@ -277,7 +277,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-49.5" class="line">
+    <g id="LINE-49.5" class="line" data-gate="49" data-line="5">
       <text
     x="2952.04" y="2381.20"
     font-family="Copperplate-Light, Copperplate"
@@ -305,7 +305,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3136.89, 2595.49) rotate(49.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-49.4" class="line">
+    <g id="LINE-49.4" class="line" data-gate="49" data-line="4">
       <text
     x="2884.54" y="2440.39"
     font-family="Copperplate-Light, Copperplate"
@@ -333,7 +333,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3072.87, 2651.63) rotate(48.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-49.3" class="line">
+    <g id="LINE-49.3" class="line" data-gate="49" data-line="3">
       <text
     x="2818.02" y="2500.68"
     font-family="Copperplate-Light, Copperplate"
@@ -361,7 +361,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3009.78, 2708.81) rotate(47.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-49.2" class="line">
+    <g id="LINE-49.2" class="line" data-gate="49" data-line="2">
       <text
     x="2752.49" y="2562.06"
     font-family="Copperplate-Light, Copperplate"
@@ -392,7 +392,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-49.1" class="line">
+    <g id="LINE-49.1" class="line" data-gate="49" data-line="1">
       <text
     x="2687.98" y="2624.49"
     font-family="Copperplate-Light, Copperplate"
@@ -422,7 +422,7 @@
     </g>
   </g>
   <g id="GATE-33" data-wheel-position="2" data-inner-gate="13" data-outer-gate="33">
-    <g id="LINE-33.6" class="line">
+    <g id="LINE-33.6" class="line" data-gate="33" data-line="6">
       <text
     x="2624.49" y="2687.98"
     font-family="Copperplate-Light, Copperplate"
@@ -450,7 +450,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2826.23, 2886.44) rotate(44.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-33.5" class="line">
+    <g id="LINE-33.5" class="line" data-gate="33" data-line="5">
       <text
     x="2562.06" y="2752.49"
     font-family="Copperplate-Light, Copperplate"
@@ -478,7 +478,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2767.02, 2947.63) rotate(43.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-33.4" class="line">
+    <g id="LINE-33.4" class="line" data-gate="33" data-line="4">
       <text
     x="2500.68" y="2818.02"
     font-family="Copperplate-Light, Copperplate"
@@ -506,7 +506,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2708.81, 3009.78) rotate(42.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-33.3" class="line">
+    <g id="LINE-33.3" class="line" data-gate="33" data-line="3">
       <text
     x="2440.39" y="2884.54"
     font-family="Copperplate-Light, Copperplate"
@@ -534,7 +534,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2651.63, 3072.87) rotate(41.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-33.2" class="line">
+    <g id="LINE-33.2" class="line" data-gate="33" data-line="2">
       <text
     x="2381.20" y="2952.04"
     font-family="Copperplate-Light, Copperplate"
@@ -565,7 +565,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-33.1" class="line">
+    <g id="LINE-33.1" class="line" data-gate="33" data-line="1">
       <text
     x="2323.11" y="3020.50"
     font-family="Copperplate-Light, Copperplate"
@@ -598,7 +598,7 @@
     </g>
   </g>
   <g id="GATE-19" data-wheel-position="3" data-inner-gate="49" data-outer-gate="19">
-    <g id="LINE-19.6" class="line">
+    <g id="LINE-19.6" class="line" data-gate="19" data-line="6">
       <text
     x="2266.16" y="3089.90"
     font-family="Copperplate-Light, Copperplate"
@@ -629,7 +629,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-19.5" class="line">
+    <g id="LINE-19.5" class="line" data-gate="19" data-line="5">
       <text
     x="2210.34" y="3160.22"
     font-family="Copperplate-Light, Copperplate"
@@ -660,7 +660,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-19.4" class="line">
+    <g id="LINE-19.4" class="line" data-gate="19" data-line="4">
       <text
     x="2155.69" y="3231.45"
     font-family="Copperplate-Light, Copperplate"
@@ -691,7 +691,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-19.3" class="line">
+    <g id="LINE-19.3" class="line" data-gate="19" data-line="3">
       <text
     x="2102.21" y="3303.56"
     font-family="Copperplate-Light, Copperplate"
@@ -722,7 +722,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-19.2" class="line">
+    <g id="LINE-19.2" class="line" data-gate="19" data-line="2">
       <text
     x="2049.91" y="3376.54"
     font-family="Copperplate-Light, Copperplate"
@@ -750,7 +750,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2281.29, 3539.49) rotate(35.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-19.1" class="line">
+    <g id="LINE-19.1" class="line" data-gate="19" data-line="1">
       <text
     x="1998.82" y="3450.36"
     font-family="Copperplate-Light, Copperplate"
@@ -780,7 +780,7 @@
     </g>
   </g>
   <g id="GATE-41" data-wheel-position="4" data-inner-gate="30" data-outer-gate="41">
-    <g id="LINE-41.6" class="line">
+    <g id="LINE-41.6" class="line" data-gate="41" data-line="6">
       <text
     x="1948.94" y="3525.01"
     font-family="Copperplate-Light, Copperplate"
@@ -808,7 +808,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2185.52, 3680.31) rotate(33.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-41.5" class="line">
+    <g id="LINE-41.5" class="line" data-gate="41" data-line="5">
       <text
     x="1900.29" y="3600.47"
     font-family="Copperplate-Light, Copperplate"
@@ -839,7 +839,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-41.4" class="line">
+    <g id="LINE-41.4" class="line" data-gate="41" data-line="4">
       <text
     x="1852.88" y="3676.71"
     font-family="Copperplate-Light, Copperplate"
@@ -870,7 +870,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-41.3" class="line">
+    <g id="LINE-41.3" class="line" data-gate="41" data-line="3">
       <text
     x="1806.72" y="3753.72"
     font-family="Copperplate-Light, Copperplate"
@@ -901,7 +901,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-41.2" class="line">
+    <g id="LINE-41.2" class="line" data-gate="41" data-line="2">
       <text
     x="1761.83" y="3831.47"
     font-family="Copperplate-Light, Copperplate"
@@ -929,7 +929,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2008.07, 3970.96) rotate(29.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-41.1" class="line">
+    <g id="LINE-41.1" class="line" data-gate="41" data-line="1">
       <text
     x="1718.22" y="3909.94"
     font-family="Copperplate-Light, Copperplate"
@@ -959,7 +959,7 @@
     </g>
   </g>
   <g id="GATE-39" data-wheel-position="5" data-inner-gate="55" data-outer-gate="39">
-    <g id="LINE-39.6" class="line">
+    <g id="LINE-39.6" class="line" data-gate="39" data-line="6">
       <text
     x="1675.90" y="3989.12"
     font-family="Copperplate-Light, Copperplate"
@@ -990,7 +990,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-39.5" class="line">
+    <g id="LINE-39.5" class="line" data-gate="39" data-line="5">
       <text
     x="1634.88" y="4068.98"
     font-family="Copperplate-Light, Copperplate"
@@ -1018,7 +1018,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1887.66, 4196.22) rotate(26.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-39.4" class="line">
+    <g id="LINE-39.4" class="line" data-gate="39" data-line="4">
       <text
     x="1595.17" y="4149.50"
     font-family="Copperplate-Light, Copperplate"
@@ -1049,7 +1049,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-39.3" class="line">
+    <g id="LINE-39.3" class="line" data-gate="39" data-line="3">
       <text
     x="1556.78" y="4230.66"
     font-family="Copperplate-Light, Copperplate"
@@ -1077,7 +1077,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1813.59, 4349.56) rotate(24.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-39.2" class="line">
+    <g id="LINE-39.2" class="line" data-gate="39" data-line="2">
       <text
     x="1519.73" y="4312.44"
     font-family="Copperplate-Light, Copperplate"
@@ -1108,7 +1108,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-39.1" class="line">
+    <g id="LINE-39.1" class="line" data-gate="39" data-line="1">
       <text
     x="1484.02" y="4394.81"
     font-family="Copperplate-Light, Copperplate"
@@ -1141,7 +1141,7 @@
     </g>
   </g>
   <g id="GATE-40" data-wheel-position="6" data-inner-gate="37" data-outer-gate="40">
-    <g id="LINE-40.6" class="line">
+    <g id="LINE-40.6" class="line" data-gate="40" data-line="6">
       <text
     x="1449.66" y="4477.76"
     font-family="Copperplate-Light, Copperplate"
@@ -1172,7 +1172,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-40.5" class="line">
+    <g id="LINE-40.5" class="line" data-gate="40" data-line="5">
       <text
     x="1416.67" y="4561.26"
     font-family="Copperplate-Light, Copperplate"
@@ -1203,7 +1203,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-40.4" class="line">
+    <g id="LINE-40.4" class="line" data-gate="40" data-line="4">
       <text
     x="1385.04" y="4645.28"
     font-family="Copperplate-Light, Copperplate"
@@ -1231,7 +1231,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1650.71, 4742.80) rotate(20.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-40.3" class="line">
+    <g id="LINE-40.3" class="line" data-gate="40" data-line="3">
       <text
     x="1354.80" y="4729.81"
     font-family="Copperplate-Light, Copperplate"
@@ -1262,7 +1262,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-40.2" class="line">
+    <g id="LINE-40.2" class="line" data-gate="40" data-line="2">
       <text
     x="1325.94" y="4814.83"
     font-family="Copperplate-Light, Copperplate"
@@ -1290,7 +1290,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1594.66, 4903.60) rotate(18.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-40.1" class="line">
+    <g id="LINE-40.1" class="line" data-gate="40" data-line="1">
       <text
     x="1298.47" y="4900.30"
     font-family="Copperplate-Light, Copperplate"
@@ -1323,7 +1323,7 @@
     </g>
   </g>
   <g id="GATE-4" data-wheel-position="7" data-inner-gate="63" data-outer-gate="4">
-    <g id="LINE-4.6" class="line">
+    <g id="LINE-4.6" class="line" data-gate="4" data-line="6">
       <text
     x="1272.41" y="4986.22"
     font-family="Copperplate-Light, Copperplate"
@@ -1351,7 +1351,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1543.89, 5066.15) rotate(16.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-4.5" class="line">
+    <g id="LINE-4.5" class="line" data-gate="4" data-line="5">
       <text
     x="1247.76" y="5072.55"
     font-family="Copperplate-Light, Copperplate"
@@ -1382,7 +1382,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-4.4" class="line">
+    <g id="LINE-4.4" class="line" data-gate="4" data-line="4">
       <text
     x="1224.52" y="5159.27"
     font-family="Copperplate-Light, Copperplate"
@@ -1413,7 +1413,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-4.3" class="line">
+    <g id="LINE-4.3" class="line" data-gate="4" data-line="3">
       <text
     x="1202.71" y="5246.36"
     font-family="Copperplate-Light, Copperplate"
@@ -1444,7 +1444,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-4.2" class="line">
+    <g id="LINE-4.2" class="line" data-gate="4" data-line="2">
       <text
     x="1182.32" y="5333.79"
     font-family="Copperplate-Light, Copperplate"
@@ -1472,7 +1472,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1458.45, 5395.80) rotate(12.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-4.1" class="line">
+    <g id="LINE-4.1" class="line" data-gate="4" data-line="1">
       <text
     x="1163.37" y="5421.55"
     font-family="Copperplate-Light, Copperplate"
@@ -1505,7 +1505,7 @@
     </g>
   </g>
   <g id="GATE-12" data-wheel-position="8" data-inner-gate="22" data-outer-gate="12">
-    <g id="LINE-12.6" class="line">
+    <g id="LINE-12.6" class="line" data-gate="12" data-line="6">
       <text
     x="1145.85" y="5509.60"
     font-family="Copperplate-Light, Copperplate"
@@ -1533,7 +1533,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1423.86, 5562.54) rotate(10.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-12.5" class="line">
+    <g id="LINE-12.5" class="line" data-gate="12" data-line="5">
       <text
     x="1129.78" y="5597.93"
     font-family="Copperplate-Light, Copperplate"
@@ -1561,7 +1561,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1408.62, 5646.31) rotate(9.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-12.4" class="line">
+    <g id="LINE-12.4" class="line" data-gate="12" data-line="4">
       <text
     x="1115.16" y="5686.51"
     font-family="Copperplate-Light, Copperplate"
@@ -1589,7 +1589,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1394.74, 5730.33) rotate(8.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-12.3" class="line">
+    <g id="LINE-12.3" class="line" data-gate="12" data-line="3">
       <text
     x="1101.98" y="5775.32"
     font-family="Copperplate-Light, Copperplate"
@@ -1620,7 +1620,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-12.2" class="line">
+    <g id="LINE-12.2" class="line" data-gate="12" data-line="2">
       <text
     x="1090.26" y="5864.33"
     font-family="Copperplate-Light, Copperplate"
@@ -1651,7 +1651,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-12.1" class="line">
+    <g id="LINE-12.1" class="line" data-gate="12" data-line="1">
       <text
     x="1080.00" y="5953.52"
     font-family="Copperplate-Light, Copperplate"
@@ -1684,7 +1684,7 @@
     </g>
   </g>
   <g id="GATE-35" data-wheel-position="9" data-inner-gate="36" data-outer-gate="35">
-    <g id="LINE-35.6" class="line">
+    <g id="LINE-35.6" class="line" data-gate="35" data-line="6">
       <text
     x="1071.20" y="6042.87"
     font-family="Copperplate-Light, Copperplate"
@@ -1712,7 +1712,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1353.06, 6068.31) rotate(5.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-35.5" class="line">
+    <g id="LINE-35.5" class="line" data-gate="35" data-line="5">
       <text
     x="1063.87" y="6132.35"
     font-family="Copperplate-Light, Copperplate"
@@ -1743,7 +1743,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-35.4" class="line">
+    <g id="LINE-35.4" class="line" data-gate="35" data-line="4">
       <text
     x="1058.00" y="6221.94"
     font-family="Copperplate-Light, Copperplate"
@@ -1771,7 +1771,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1340.53, 6238.14) rotate(3.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-35.3" class="line">
+    <g id="LINE-35.3" class="line" data-gate="35" data-line="3">
       <text
     x="1053.59" y="6311.61"
     font-family="Copperplate-Light, Copperplate"
@@ -1802,7 +1802,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-35.2" class="line">
+    <g id="LINE-35.2" class="line" data-gate="35" data-line="2">
       <text
     x="1050.65" y="6401.34"
     font-family="Copperplate-Light, Copperplate"
@@ -1833,7 +1833,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-35.1" class="line">
+    <g id="LINE-35.1" class="line" data-gate="35" data-line="1">
       <text
     x="1049.18" y="6491.11"
     font-family="Copperplate-Light, Copperplate"
@@ -1866,7 +1866,7 @@
     </g>
   </g>
   <g id="GATE-51" data-wheel-position="10" data-inner-gate="25" data-outer-gate="51">
-    <g id="LINE-51.6" class="line">
+    <g id="LINE-51.6" class="line" data-gate="51" data-line="6">
       <text
     x="1049.18" y="6580.89"
     font-family="Copperplate-Light, Copperplate"
@@ -1897,7 +1897,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-51.5" class="line">
+    <g id="LINE-51.5" class="line" data-gate="51" data-line="5">
       <text
     x="1050.65" y="6670.66"
     font-family="Copperplate-Light, Copperplate"
@@ -1928,7 +1928,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-51.4" class="line">
+    <g id="LINE-51.4" class="line" data-gate="51" data-line="4">
       <text
     x="1053.59" y="6760.39"
     font-family="Copperplate-Light, Copperplate"
@@ -1956,7 +1956,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1336.35, 6748.82) rotate(-2.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-51.3" class="line">
+    <g id="LINE-51.3" class="line" data-gate="51" data-line="3">
       <text
     x="1058.00" y="6850.06"
     font-family="Copperplate-Light, Copperplate"
@@ -1987,7 +1987,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-51.2" class="line">
+    <g id="LINE-51.2" class="line" data-gate="51" data-line="2">
       <text
     x="1063.87" y="6939.65"
     font-family="Copperplate-Light, Copperplate"
@@ -2018,7 +2018,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-51.1" class="line">
+    <g id="LINE-51.1" class="line" data-gate="51" data-line="1">
       <text
     x="1071.20" y="7029.13"
     font-family="Copperplate-Light, Copperplate"
@@ -2048,7 +2048,7 @@
     </g>
   </g>
   <g id="GATE-62" data-wheel-position="11" data-inner-gate="17" data-outer-gate="62">
-    <g id="LINE-62.6" class="line">
+    <g id="LINE-62.6" class="line" data-gate="62" data-line="6">
       <text
     x="1080.00" y="7118.48"
     font-family="Copperplate-Light, Copperplate"
@@ -2079,7 +2079,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-62.5" class="line">
+    <g id="LINE-62.5" class="line" data-gate="62" data-line="5">
       <text
     x="1090.26" y="7207.67"
     font-family="Copperplate-Light, Copperplate"
@@ -2110,7 +2110,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-62.4" class="line">
+    <g id="LINE-62.4" class="line" data-gate="62" data-line="4">
       <text
     x="1101.98" y="7296.68"
     font-family="Copperplate-Light, Copperplate"
@@ -2138,7 +2138,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1382.25, 7257.45) rotate(-7.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-62.3" class="line">
+    <g id="LINE-62.3" class="line" data-gate="62" data-line="3">
       <text
     x="1115.16" y="7385.49"
     font-family="Copperplate-Light, Copperplate"
@@ -2166,7 +2166,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1394.74, 7341.67) rotate(-8.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-62.2" class="line">
+    <g id="LINE-62.2" class="line" data-gate="62" data-line="2">
       <text
     x="1129.78" y="7474.07"
     font-family="Copperplate-Light, Copperplate"
@@ -2197,7 +2197,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-62.1" class="line">
+    <g id="LINE-62.1" class="line" data-gate="62" data-line="1">
       <text
     x="1145.85" y="7562.40"
     font-family="Copperplate-Light, Copperplate"
@@ -2230,7 +2230,7 @@
     </g>
   </g>
   <g id="GATE-45" data-wheel-position="12" data-inner-gate="21" data-outer-gate="45">
-    <g id="LINE-45.6" class="line">
+    <g id="LINE-45.6" class="line" data-gate="45" data-line="6">
       <text
     x="1163.37" y="7650.45"
     font-family="Copperplate-Light, Copperplate"
@@ -2261,7 +2261,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-45.5" class="line">
+    <g id="LINE-45.5" class="line" data-gate="45" data-line="5">
       <text
     x="1182.32" y="7738.21"
     font-family="Copperplate-Light, Copperplate"
@@ -2289,7 +2289,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1458.45, 7676.20) rotate(-12.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-45.4" class="line">
+    <g id="LINE-45.4" class="line" data-gate="45" data-line="4">
       <text
     x="1202.71" y="7825.64"
     font-family="Copperplate-Light, Copperplate"
@@ -2317,7 +2317,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1477.78, 7759.13) rotate(-13.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-45.3" class="line">
+    <g id="LINE-45.3" class="line" data-gate="45" data-line="3">
       <text
     x="1224.52" y="7912.73"
     font-family="Copperplate-Light, Copperplate"
@@ -2348,7 +2348,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-45.2" class="line">
+    <g id="LINE-45.2" class="line" data-gate="45" data-line="2">
       <text
     x="1247.76" y="7999.45"
     font-family="Copperplate-Light, Copperplate"
@@ -2379,7 +2379,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-45.1" class="line">
+    <g id="LINE-45.1" class="line" data-gate="45" data-line="1">
       <text
     x="1272.41" y="8085.78"
     font-family="Copperplate-Light, Copperplate"
@@ -2412,7 +2412,7 @@
     </g>
   </g>
   <g id="GATE-25" data-wheel-position="13" data-inner-gate="51" data-outer-gate="25">
-    <g id="LINE-25.6" class="line">
+    <g id="LINE-25.6" class="line" data-gate="25" data-line="6">
       <text
     x="1298.47" y="8171.70"
     font-family="Copperplate-Light, Copperplate"
@@ -2440,7 +2440,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1568.61, 8087.33) rotate(-17.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-25.5" class="line">
+    <g id="LINE-25.5" class="line" data-gate="25" data-line="5">
       <text
     x="1325.94" y="8257.17"
     font-family="Copperplate-Light, Copperplate"
@@ -2468,7 +2468,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1594.66, 8168.40) rotate(-18.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-25.4" class="line">
+    <g id="LINE-25.4" class="line" data-gate="25" data-line="4">
       <text
     x="1354.80" y="8342.19"
     font-family="Copperplate-Light, Copperplate"
@@ -2496,7 +2496,7 @@
   >4</text>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1622.03, 8249.03) rotate(-19.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-25.3" class="line">
+    <g id="LINE-25.3" class="line" data-gate="25" data-line="3">
       <text
     x="1385.04" y="8426.72"
     font-family="Copperplate-Light, Copperplate"
@@ -2527,7 +2527,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-25.2" class="line">
+    <g id="LINE-25.2" class="line" data-gate="25" data-line="2">
       <text
     x="1416.67" y="8510.74"
     font-family="Copperplate-Light, Copperplate"
@@ -2558,7 +2558,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-25.1" class="line">
+    <g id="LINE-25.1" class="line" data-gate="25" data-line="1">
       <text
     x="1449.66" y="8594.24"
     font-family="Copperplate-Light, Copperplate"
@@ -2588,7 +2588,7 @@
     </g>
   </g>
   <g id="GATE-53" data-wheel-position="14" data-inner-gate="42" data-outer-gate="53">
-    <g id="LINE-53.6" class="line">
+    <g id="LINE-53.6" class="line" data-gate="53" data-line="6">
       <text
     x="1484.02" y="8677.19"
     font-family="Copperplate-Light, Copperplate"
@@ -2616,7 +2616,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1744.58, 8566.75) rotate(-22.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-53.5" class="line">
+    <g id="LINE-53.5" class="line" data-gate="53" data-line="5">
       <text
     x="1519.73" y="8759.56"
     font-family="Copperplate-Light, Copperplate"
@@ -2644,7 +2644,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1778.45, 8644.88) rotate(-23.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-53.4" class="line">
+    <g id="LINE-53.4" class="line" data-gate="53" data-line="4">
       <text
     x="1556.78" y="8841.34"
     font-family="Copperplate-Light, Copperplate"
@@ -2675,7 +2675,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-53.3" class="line">
+    <g id="LINE-53.3" class="line" data-gate="53" data-line="3">
       <text
     x="1595.17" y="8922.50"
     font-family="Copperplate-Light, Copperplate"
@@ -2703,7 +2703,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(1850.00, 8799.41) rotate(-25.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-53.2" class="line">
+    <g id="LINE-53.2" class="line" data-gate="53" data-line="2">
       <text
     x="1634.88" y="9003.02"
     font-family="Copperplate-Light, Copperplate"
@@ -2734,7 +2734,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-53.1" class="line">
+    <g id="LINE-53.1" class="line" data-gate="53" data-line="1">
       <text
     x="1675.90" y="9082.88"
     font-family="Copperplate-Light, Copperplate"
@@ -2767,7 +2767,7 @@
     </g>
   </g>
   <g id="GATE-60" data-wheel-position="15" data-inner-gate="3" data-outer-gate="60">
-    <g id="LINE-60.6" class="line">
+    <g id="LINE-60.6" class="line" data-gate="60" data-line="6">
       <text
     x="1718.22" y="9162.06"
     font-family="Copperplate-Light, Copperplate"
@@ -2798,7 +2798,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-60.5" class="line">
+    <g id="LINE-60.5" class="line" data-gate="60" data-line="5">
       <text
     x="1761.83" y="9240.53"
     font-family="Copperplate-Light, Copperplate"
@@ -2826,7 +2826,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2008.07, 9101.04) rotate(-29.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-60.4" class="line">
+    <g id="LINE-60.4" class="line" data-gate="60" data-line="4">
       <text
     x="1806.72" y="9318.28"
     font-family="Copperplate-Light, Copperplate"
@@ -2857,7 +2857,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-60.3" class="line">
+    <g id="LINE-60.3" class="line" data-gate="60" data-line="3">
       <text
     x="1852.88" y="9395.29"
     font-family="Copperplate-Light, Copperplate"
@@ -2888,7 +2888,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-60.2" class="line">
+    <g id="LINE-60.2" class="line" data-gate="60" data-line="2">
       <text
     x="1900.29" y="9471.53"
     font-family="Copperplate-Light, Copperplate"
@@ -2916,7 +2916,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2139.38, 9320.13) rotate(-32.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-60.1" class="line">
+    <g id="LINE-60.1" class="line" data-gate="60" data-line="1">
       <text
     x="1948.94" y="9546.99"
     font-family="Copperplate-Light, Copperplate"
@@ -2946,7 +2946,7 @@
     </g>
   </g>
   <g id="GATE-50" data-wheel-position="16" data-inner-gate="27" data-outer-gate="50">
-    <g id="LINE-50.6" class="line">
+    <g id="LINE-50.6" class="line" data-gate="50" data-line="6">
       <text
     x="1998.82" y="9621.64"
     font-family="Copperplate-Light, Copperplate"
@@ -2974,7 +2974,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2232.83, 9462.49) rotate(-34.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-50.5" class="line">
+    <g id="LINE-50.5" class="line" data-gate="50" data-line="5">
       <text
     x="2049.91" y="9695.46"
     font-family="Copperplate-Light, Copperplate"
@@ -3005,7 +3005,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-50.4" class="line">
+    <g id="LINE-50.4" class="line" data-gate="50" data-line="4">
       <text
     x="2102.21" y="9768.44"
     font-family="Copperplate-Light, Copperplate"
@@ -3033,7 +3033,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2330.89, 9601.72) rotate(-36.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-50.3" class="line">
+    <g id="LINE-50.3" class="line" data-gate="50" data-line="3">
       <text
     x="2155.69" y="9840.55"
     font-family="Copperplate-Light, Copperplate"
@@ -3061,7 +3061,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2381.61, 9670.11) rotate(-37.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-50.2" class="line">
+    <g id="LINE-50.2" class="line" data-gate="50" data-line="2">
       <text
     x="2210.34" y="9911.78"
     font-family="Copperplate-Light, Copperplate"
@@ -3089,7 +3089,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2433.45, 9737.67) rotate(-37.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-50.1" class="line">
+    <g id="LINE-50.1" class="line" data-gate="50" data-line="1">
       <text
     x="2266.16" y="9982.10"
     font-family="Copperplate-Light, Copperplate"
@@ -3122,7 +3122,7 @@
     </g>
   </g>
   <g id="GATE-61" data-wheel-position="17" data-inner-gate="24" data-outer-gate="61">
-    <g id="LINE-61.6" class="line">
+    <g id="LINE-61.6" class="line" data-gate="61" data-line="6">
       <text
     x="2323.11" y="10051.50"
     font-family="Copperplate-Light, Copperplate"
@@ -3150,7 +3150,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2540.40, 9870.18) rotate(-39.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-61.5" class="line">
+    <g id="LINE-61.5" class="line" data-gate="61" data-line="5">
       <text
     x="2381.20" y="10119.96"
     font-family="Copperplate-Light, Copperplate"
@@ -3178,7 +3178,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2595.49, 9935.11) rotate(-40.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-61.4" class="line">
+    <g id="LINE-61.4" class="line" data-gate="61" data-line="4">
       <text
     x="2440.39" y="10187.46"
     font-family="Copperplate-Light, Copperplate"
@@ -3209,7 +3209,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-61.3" class="line">
+    <g id="LINE-61.3" class="line" data-gate="61" data-line="3">
       <text
     x="2500.68" y="10253.98"
     font-family="Copperplate-Light, Copperplate"
@@ -3240,7 +3240,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-61.2" class="line">
+    <g id="LINE-61.2" class="line" data-gate="61" data-line="2">
       <text
     x="2562.06" y="10319.51"
     font-family="Copperplate-Light, Copperplate"
@@ -3268,7 +3268,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2767.02, 10124.37) rotate(-43.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-61.1" class="line">
+    <g id="LINE-61.1" class="line" data-gate="61" data-line="1">
       <text
     x="2624.49" y="10384.02"
     font-family="Copperplate-Light, Copperplate"
@@ -3298,7 +3298,7 @@
     </g>
   </g>
   <g id="GATE-14" data-wheel-position="18" data-inner-gate="2" data-outer-gate="14">
-    <g id="LINE-14.6" class="line">
+    <g id="LINE-14.6" class="line" data-gate="14" data-line="6">
       <text
     x="2687.98" y="10447.51"
     font-family="Copperplate-Light, Copperplate"
@@ -3326,7 +3326,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(2886.44, 10245.77) rotate(-45.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-14.5" class="line">
+    <g id="LINE-14.5" class="line" data-gate="14" data-line="5">
       <text
     x="2752.49" y="10509.94"
     font-family="Copperplate-Light, Copperplate"
@@ -3357,7 +3357,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-14.4" class="line">
+    <g id="LINE-14.4" class="line" data-gate="14" data-line="4">
       <text
     x="2818.02" y="10571.32"
     font-family="Copperplate-Light, Copperplate"
@@ -3385,7 +3385,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3009.78, 10363.19) rotate(-47.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-14.3" class="line">
+    <g id="LINE-14.3" class="line" data-gate="14" data-line="3">
       <text
     x="2884.54" y="10631.61"
     font-family="Copperplate-Light, Copperplate"
@@ -3413,7 +3413,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3072.87, 10420.37) rotate(-48.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-14.2" class="line">
+    <g id="LINE-14.2" class="line" data-gate="14" data-line="2">
       <text
     x="2952.04" y="10690.80"
     font-family="Copperplate-Light, Copperplate"
@@ -3441,7 +3441,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3136.89, 10476.51) rotate(-49.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-14.1" class="line">
+    <g id="LINE-14.1" class="line" data-gate="14" data-line="1">
       <text
     x="3020.50" y="10748.89"
     font-family="Copperplate-Light, Copperplate"
@@ -3471,7 +3471,7 @@
     </g>
   </g>
   <g id="GATE-43" data-wheel-position="19" data-inner-gate="23" data-outer-gate="43">
-    <g id="LINE-43.6" class="line">
+    <g id="LINE-43.6" class="line" data-gate="43" data-line="6">
       <text
     x="3089.90" y="10805.84"
     font-family="Copperplate-Light, Copperplate"
@@ -3502,7 +3502,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-43.5" class="line">
+    <g id="LINE-43.5" class="line" data-gate="43" data-line="5">
       <text
     x="3160.22" y="10861.66"
     font-family="Copperplate-Light, Copperplate"
@@ -3530,7 +3530,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3334.33, 10638.55) rotate(-52.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-43.4" class="line">
+    <g id="LINE-43.4" class="line" data-gate="43" data-line="4">
       <text
     x="3231.45" y="10916.31"
     font-family="Copperplate-Light, Copperplate"
@@ -3558,7 +3558,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3401.89, 10690.39) rotate(-52.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-43.3" class="line">
+    <g id="LINE-43.3" class="line" data-gate="43" data-line="3">
       <text
     x="3303.56" y="10969.79"
     font-family="Copperplate-Light, Copperplate"
@@ -3586,7 +3586,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3470.28, 10741.11) rotate(-53.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-43.2" class="line">
+    <g id="LINE-43.2" class="line" data-gate="43" data-line="2">
       <text
     x="3376.54" y="11022.09"
     font-family="Copperplate-Light, Copperplate"
@@ -3614,7 +3614,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3539.49, 10790.71) rotate(-54.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-43.1" class="line">
+    <g id="LINE-43.1" class="line" data-gate="43" data-line="1">
       <text
     x="3450.36" y="11073.18"
     font-family="Copperplate-Light, Copperplate"
@@ -3644,7 +3644,7 @@
     </g>
   </g>
   <g id="GATE-1" data-wheel-position="20" data-inner-gate="8" data-outer-gate="1">
-    <g id="LINE-1.6" class="line">
+    <g id="LINE-1.6" class="line" data-gate="1" data-line="6">
       <text
     x="3525.01" y="11123.06"
     font-family="Copperplate-Light, Copperplate"
@@ -3672,7 +3672,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3680.31, 10886.48) rotate(-56.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-1.5" class="line">
+    <g id="LINE-1.5" class="line" data-gate="1" data-line="5">
       <text
     x="3600.47" y="11171.71"
     font-family="Copperplate-Light, Copperplate"
@@ -3700,7 +3700,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3751.87, 10932.62) rotate(-57.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-1.4" class="line">
+    <g id="LINE-1.4" class="line" data-gate="1" data-line="4">
       <text
     x="3676.71" y="11219.12"
     font-family="Copperplate-Light, Copperplate"
@@ -3728,7 +3728,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3824.18, 10977.58) rotate(-58.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-1.3" class="line">
+    <g id="LINE-1.3" class="line" data-gate="1" data-line="3">
       <text
     x="3753.72" y="11265.28"
     font-family="Copperplate-Light, Copperplate"
@@ -3756,7 +3756,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3897.22, 11021.36) rotate(-59.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-1.2" class="line">
+    <g id="LINE-1.2" class="line" data-gate="1" data-line="2">
       <text
     x="3831.47" y="11310.17"
     font-family="Copperplate-Light, Copperplate"
@@ -3784,7 +3784,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3970.96, 11063.93) rotate(-60.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-1.1" class="line">
+    <g id="LINE-1.1" class="line" data-gate="1" data-line="1">
       <text
     x="3909.94" y="11353.78"
     font-family="Copperplate-Light, Copperplate"
@@ -3814,7 +3814,7 @@
     </g>
   </g>
   <g id="GATE-57" data-wheel-position="21" data-inner-gate="20" data-outer-gate="57">
-    <g id="LINE-57.6" class="line">
+    <g id="LINE-57.6" class="line" data-gate="57" data-line="6">
       <text
     x="3989.12" y="11396.10"
     font-family="Copperplate-Light, Copperplate"
@@ -3842,7 +3842,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4120.48, 11145.43) rotate(-62.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-57.5" class="line">
+    <g id="LINE-57.5" class="line" data-gate="57" data-line="5">
       <text
     x="4068.98" y="11437.12"
     font-family="Copperplate-Light, Copperplate"
@@ -3870,7 +3870,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4196.22, 11184.34) rotate(-63.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-57.4" class="line">
+    <g id="LINE-57.4" class="line" data-gate="57" data-line="4">
       <text
     x="4149.50" y="11476.83"
     font-family="Copperplate-Light, Copperplate"
@@ -3901,7 +3901,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-57.3" class="line">
+    <g id="LINE-57.3" class="line" data-gate="57" data-line="3">
       <text
     x="4230.66" y="11515.22"
     font-family="Copperplate-Light, Copperplate"
@@ -3926,7 +3926,7 @@
   >3</text>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4349.56, 11258.41) rotate(-65.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-57.2" class="line">
+    <g id="LINE-57.2" class="line" data-gate="57" data-line="2">
       <text
     x="4312.44" y="11552.27"
     font-family="Copperplate-Light, Copperplate"
@@ -3954,7 +3954,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4427.12, 11293.55) rotate(-66.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-57.1" class="line">
+    <g id="LINE-57.1" class="line" data-gate="57" data-line="1">
       <text
     x="4394.81" y="11587.98"
     font-family="Copperplate-Light, Copperplate"
@@ -3987,7 +3987,7 @@
     </g>
   </g>
   <g id="GATE-48" data-wheel-position="22" data-inner-gate="16" data-outer-gate="48">
-    <g id="LINE-48.6" class="line">
+    <g id="LINE-48.6" class="line" data-gate="48" data-line="6">
       <text
     x="4477.76" y="11622.34"
     font-family="Copperplate-Light, Copperplate"
@@ -4018,7 +4018,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-48.5" class="line">
+    <g id="LINE-48.5" class="line" data-gate="48" data-line="5">
       <text
     x="4561.26" y="11655.33"
     font-family="Copperplate-Light, Copperplate"
@@ -4046,7 +4046,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4663.11, 11391.29) rotate(-68.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-48.4" class="line">
+    <g id="LINE-48.4" class="line" data-gate="48" data-line="4">
       <text
     x="4645.28" y="11686.96"
     font-family="Copperplate-Light, Copperplate"
@@ -4077,7 +4077,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-48.3" class="line">
+    <g id="LINE-48.3" class="line" data-gate="48" data-line="3">
       <text
     x="4729.81" y="11717.20"
     font-family="Copperplate-Light, Copperplate"
@@ -4105,7 +4105,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4822.97, 11449.97) rotate(-70.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-48.2" class="line">
+    <g id="LINE-48.2" class="line" data-gate="48" data-line="2">
       <text
     x="4814.83" y="11746.06"
     font-family="Copperplate-Light, Copperplate"
@@ -4133,7 +4133,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4903.60, 11477.34) rotate(-71.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-48.1" class="line">
+    <g id="LINE-48.1" class="line" data-gate="48" data-line="1">
       <text
     x="4900.30" y="11773.53"
     font-family="Copperplate-Light, Copperplate"
@@ -4166,7 +4166,7 @@
     </g>
   </g>
   <g id="GATE-36" data-wheel-position="23" data-inner-gate="35" data-outer-gate="36">
-    <g id="LINE-36.6" class="line">
+    <g id="LINE-36.6" class="line" data-gate="36" data-line="6">
       <text
     x="4986.22" y="11799.59"
     font-family="Copperplate-Light, Copperplate"
@@ -4197,7 +4197,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-36.5" class="line">
+    <g id="LINE-36.5" class="line" data-gate="36" data-line="5">
       <text
     x="5072.55" y="11824.24"
     font-family="Copperplate-Light, Copperplate"
@@ -4228,7 +4228,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-36.4" class="line">
+    <g id="LINE-36.4" class="line" data-gate="36" data-line="4">
       <text
     x="5159.27" y="11847.48"
     font-family="Copperplate-Light, Copperplate"
@@ -4259,7 +4259,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-36.3" class="line">
+    <g id="LINE-36.3" class="line" data-gate="36" data-line="3">
       <text
     x="5246.36" y="11869.29"
     font-family="Copperplate-Light, Copperplate"
@@ -4287,7 +4287,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5312.87, 11594.22) rotate(-76.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-36.2" class="line">
+    <g id="LINE-36.2" class="line" data-gate="36" data-line="2">
       <text
     x="5333.79" y="11889.68"
     font-family="Copperplate-Light, Copperplate"
@@ -4318,7 +4318,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-36.1" class="line">
+    <g id="LINE-36.1" class="line" data-gate="36" data-line="1">
       <text
     x="5421.55" y="11908.63"
     font-family="Copperplate-Light, Copperplate"
@@ -4348,7 +4348,7 @@
     </g>
   </g>
   <g id="GATE-21" data-wheel-position="24" data-inner-gate="45" data-outer-gate="21">
-    <g id="LINE-21.6" class="line">
+    <g id="LINE-21.6" class="line" data-gate="21" data-line="6">
       <text
     x="5509.60" y="11926.15"
     font-family="Copperplate-Light, Copperplate"
@@ -4376,7 +4376,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5562.54, 11648.14) rotate(-79.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-21.5" class="line">
+    <g id="LINE-21.5" class="line" data-gate="21" data-line="5">
       <text
     x="5597.93" y="11942.22"
     font-family="Copperplate-Light, Copperplate"
@@ -4407,7 +4407,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-21.4" class="line">
+    <g id="LINE-21.4" class="line" data-gate="21" data-line="4">
       <text
     x="5686.51" y="11956.84"
     font-family="Copperplate-Light, Copperplate"
@@ -4435,7 +4435,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5730.33, 11677.26) rotate(-81.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-21.3" class="line">
+    <g id="LINE-21.3" class="line" data-gate="21" data-line="3">
       <text
     x="5775.32" y="11970.02"
     font-family="Copperplate-Light, Copperplate"
@@ -4466,7 +4466,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-21.2" class="line">
+    <g id="LINE-21.2" class="line" data-gate="21" data-line="2">
       <text
     x="5864.33" y="11981.74"
     font-family="Copperplate-Light, Copperplate"
@@ -4497,7 +4497,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-21.1" class="line">
+    <g id="LINE-21.1" class="line" data-gate="21" data-line="1">
       <text
     x="5953.52" y="11992.00"
     font-family="Copperplate-Light, Copperplate"
@@ -4527,7 +4527,7 @@
     </g>
   </g>
   <g id="GATE-22" data-wheel-position="25" data-inner-gate="12" data-outer-gate="22">
-    <g id="LINE-22.6" class="line">
+    <g id="LINE-22.6" class="line" data-gate="22" data-line="6">
       <text
     x="6042.87" y="12000.80"
     font-family="Copperplate-Light, Copperplate"
@@ -4555,7 +4555,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6068.31, 11718.94) rotate(-84.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-22.5" class="line">
+    <g id="LINE-22.5" class="line" data-gate="22" data-line="5">
       <text
     x="6132.35" y="12008.13"
     font-family="Copperplate-Light, Copperplate"
@@ -4586,7 +4586,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-22.4" class="line">
+    <g id="LINE-22.4" class="line" data-gate="22" data-line="4">
       <text
     x="6221.94" y="12014.00"
     font-family="Copperplate-Light, Copperplate"
@@ -4617,7 +4617,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-22.3" class="line">
+    <g id="LINE-22.3" class="line" data-gate="22" data-line="3">
       <text
     x="6311.61" y="12018.41"
     font-family="Copperplate-Light, Copperplate"
@@ -4645,7 +4645,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6323.18, 11735.65) rotate(-87.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-22.2" class="line">
+    <g id="LINE-22.2" class="line" data-gate="22" data-line="2">
       <text
     x="6401.34" y="12021.35"
     font-family="Copperplate-Light, Copperplate"
@@ -4676,7 +4676,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-22.1" class="line">
+    <g id="LINE-22.1" class="line" data-gate="22" data-line="1">
       <text
     x="6491.11" y="12022.82"
     font-family="Copperplate-Light, Copperplate"
@@ -4706,7 +4706,7 @@
     </g>
   </g>
   <g id="GATE-5" data-wheel-position="26" data-inner-gate="15" data-outer-gate="5">
-    <g id="LINE-5.6" class="line">
+    <g id="LINE-5.6" class="line" data-gate="5" data-line="6">
       <text
     x="7029.13" y="12000.80"
     font-family="Copperplate-Light, Copperplate"
@@ -4734,7 +4734,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-5.5" class="line">
+    <g id="LINE-5.5" class="line" data-gate="5" data-line="5">
       <text
     x="6939.65" y="12008.13"
     font-family="Copperplate-Light, Copperplate"
@@ -4762,7 +4762,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6918.83, 11725.90) rotate(85.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-5.4" class="line">
+    <g id="LINE-5.4" class="line" data-gate="5" data-line="4">
       <text
     x="6850.06" y="12014.00"
     font-family="Copperplate-Light, Copperplate"
@@ -4793,7 +4793,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-5.3" class="line">
+    <g id="LINE-5.3" class="line" data-gate="5" data-line="3">
       <text
     x="6760.39" y="12018.41"
     font-family="Copperplate-Light, Copperplate"
@@ -4821,7 +4821,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6748.82, 11735.65) rotate(87.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-5.2" class="line">
+    <g id="LINE-5.2" class="line" data-gate="5" data-line="2">
       <text
     x="6670.66" y="12021.35"
     font-family="Copperplate-Light, Copperplate"
@@ -4849,7 +4849,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6663.71, 11738.43) rotate(88.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-5.1" class="line">
+    <g id="LINE-5.1" class="line" data-gate="5" data-line="1">
       <text
     x="6580.89" y="12022.82"
     font-family="Copperplate-Light, Copperplate"
@@ -4879,7 +4879,7 @@
     </g>
   </g>
   <g id="GATE-9" data-wheel-position="27" data-inner-gate="52" data-outer-gate="9">
-    <g id="LINE-9.6" class="line">
+    <g id="LINE-9.6" class="line" data-gate="9" data-line="6">
       <text
     x="7562.40" y="11926.15"
     font-family="Copperplate-Light, Copperplate"
@@ -4907,7 +4907,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7509.46, 11648.14) rotate(79.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-9.5" class="line">
+    <g id="LINE-9.5" class="line" data-gate="9" data-line="5">
       <text
     x="7474.07" y="11942.22"
     font-family="Copperplate-Light, Copperplate"
@@ -4935,7 +4935,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7425.69, 11663.38) rotate(80.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-9.4" class="line">
+    <g id="LINE-9.4" class="line" data-gate="9" data-line="4">
       <text
     x="7385.49" y="11956.84"
     font-family="Copperplate-Light, Copperplate"
@@ -4966,7 +4966,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-9.3" class="line">
+    <g id="LINE-9.3" class="line" data-gate="9" data-line="3">
       <text
     x="7296.68" y="11970.02"
     font-family="Copperplate-Light, Copperplate"
@@ -4994,7 +4994,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7257.45, 11689.75) rotate(82.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-9.2" class="line">
+    <g id="LINE-9.2" class="line" data-gate="9" data-line="2">
       <text
     x="7207.67" y="11981.74"
     font-family="Copperplate-Light, Copperplate"
@@ -5022,7 +5022,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7173.03, 11700.86) rotate(82.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-9.1" class="line">
+    <g id="LINE-9.1" class="line" data-gate="9" data-line="1">
       <text
     x="7118.48" y="11992.00"
     font-family="Copperplate-Light, Copperplate"
@@ -5052,7 +5052,7 @@
     </g>
   </g>
   <g id="GATE-55" data-wheel-position="28" data-inner-gate="39" data-outer-gate="55">
-    <g id="LINE-55.6" class="line">
+    <g id="LINE-55.6" class="line" data-gate="55" data-line="6">
       <text
     x="8085.78" y="11799.59"
     font-family="Copperplate-Light, Copperplate"
@@ -5083,7 +5083,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-55.5" class="line">
+    <g id="LINE-55.5" class="line" data-gate="55" data-line="5">
       <text
     x="7999.45" y="11824.24"
     font-family="Copperplate-Light, Copperplate"
@@ -5114,7 +5114,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-55.4" class="line">
+    <g id="LINE-55.4" class="line" data-gate="55" data-line="4">
       <text
     x="7912.73" y="11847.48"
     font-family="Copperplate-Light, Copperplate"
@@ -5142,7 +5142,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7841.73, 11573.53) rotate(75.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-55.3" class="line">
+    <g id="LINE-55.3" class="line" data-gate="55" data-line="3">
       <text
     x="7825.64" y="11869.29"
     font-family="Copperplate-Light, Copperplate"
@@ -5170,7 +5170,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7759.13, 11594.22) rotate(76.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-55.2" class="line">
+    <g id="LINE-55.2" class="line" data-gate="55" data-line="2">
       <text
     x="7738.21" y="11889.68"
     font-family="Copperplate-Light, Copperplate"
@@ -5201,7 +5201,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-55.1" class="line">
+    <g id="LINE-55.1" class="line" data-gate="55" data-line="1">
       <text
     x="7650.45" y="11908.63"
     font-family="Copperplate-Light, Copperplate"
@@ -5231,7 +5231,7 @@
     </g>
   </g>
   <g id="GATE-42" data-wheel-position="29" data-inner-gate="53" data-outer-gate="42">
-    <g id="LINE-42.6" class="line">
+    <g id="LINE-42.6" class="line" data-gate="42" data-line="6">
       <text
     x="8594.24" y="11622.34"
     font-family="Copperplate-Light, Copperplate"
@@ -5259,7 +5259,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8488.08, 11360.00) rotate(67.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-42.5" class="line">
+    <g id="LINE-42.5" class="line" data-gate="42" data-line="5">
       <text
     x="8510.74" y="11655.33"
     font-family="Copperplate-Light, Copperplate"
@@ -5287,7 +5287,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8408.89, 11391.29) rotate(68.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-42.4" class="line">
+    <g id="LINE-42.4" class="line" data-gate="42" data-line="4">
       <text
     x="8426.72" y="11686.96"
     font-family="Copperplate-Light, Copperplate"
@@ -5318,7 +5318,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-42.3" class="line">
+    <g id="LINE-42.3" class="line" data-gate="42" data-line="3">
       <text
     x="8342.19" y="11717.20"
     font-family="Copperplate-Light, Copperplate"
@@ -5349,7 +5349,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-42.2" class="line">
+    <g id="LINE-42.2" class="line" data-gate="42" data-line="2">
       <text
     x="8257.17" y="11746.06"
     font-family="Copperplate-Light, Copperplate"
@@ -5380,7 +5380,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-42.1" class="line">
+    <g id="LINE-42.1" class="line" data-gate="42" data-line="1">
       <text
     x="8171.70" y="11773.53"
     font-family="Copperplate-Light, Copperplate"
@@ -5410,7 +5410,7 @@
     </g>
   </g>
   <g id="GATE-17" data-wheel-position="30" data-inner-gate="62" data-outer-gate="17">
-    <g id="LINE-17.6" class="line">
+    <g id="LINE-17.6" class="line" data-gate="17" data-line="6">
       <text
     x="9082.88" y="11396.10"
     font-family="Copperplate-Light, Copperplate"
@@ -5441,7 +5441,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-17.5" class="line">
+    <g id="LINE-17.5" class="line" data-gate="17" data-line="5">
       <text
     x="9003.02" y="11437.12"
     font-family="Copperplate-Light, Copperplate"
@@ -5469,7 +5469,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8875.78, 11184.34) rotate(63.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-17.4" class="line">
+    <g id="LINE-17.4" class="line" data-gate="17" data-line="4">
       <text
     x="8922.50" y="11476.83"
     font-family="Copperplate-Light, Copperplate"
@@ -5497,7 +5497,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8799.41, 11222.00) rotate(64.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-17.3" class="line">
+    <g id="LINE-17.3" class="line" data-gate="17" data-line="3">
       <text
     x="8841.34" y="11515.22"
     font-family="Copperplate-Light, Copperplate"
@@ -5528,7 +5528,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-17.2" class="line">
+    <g id="LINE-17.2" class="line" data-gate="17" data-line="2">
       <text
     x="8759.56" y="11552.27"
     font-family="Copperplate-Light, Copperplate"
@@ -5559,7 +5559,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-17.1" class="line">
+    <g id="LINE-17.1" class="line" data-gate="17" data-line="1">
       <text
     x="8677.19" y="11587.98"
     font-family="Copperplate-Light, Copperplate"
@@ -5589,7 +5589,7 @@
     </g>
   </g>
   <g id="GATE-11" data-wheel-position="31" data-inner-gate="56" data-outer-gate="11">
-    <g id="LINE-11.6" class="line">
+    <g id="LINE-11.6" class="line" data-gate="11" data-line="6">
       <text
     x="9546.99" y="11123.06"
     font-family="Copperplate-Light, Copperplate"
@@ -5620,7 +5620,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-11.5" class="line">
+    <g id="LINE-11.5" class="line" data-gate="11" data-line="5">
       <text
     x="9471.53" y="11171.71"
     font-family="Copperplate-Light, Copperplate"
@@ -5651,7 +5651,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-11.4" class="line">
+    <g id="LINE-11.4" class="line" data-gate="11" data-line="4">
       <text
     x="9395.29" y="11219.12"
     font-family="Copperplate-Light, Copperplate"
@@ -5685,7 +5685,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-11.3" class="line">
+    <g id="LINE-11.3" class="line" data-gate="11" data-line="3">
       <text
     x="9318.28" y="11265.28"
     font-family="Copperplate-Light, Copperplate"
@@ -5713,7 +5713,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9174.78, 11021.36) rotate(59.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-11.2" class="line">
+    <g id="LINE-11.2" class="line" data-gate="11" data-line="2">
       <text
     x="9240.53" y="11310.17"
     font-family="Copperplate-Light, Copperplate"
@@ -5741,7 +5741,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9101.04, 11063.93) rotate(60.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-11.1" class="line">
+    <g id="LINE-11.1" class="line" data-gate="11" data-line="1">
       <text
     x="9162.06" y="11353.78"
     font-family="Copperplate-Light, Copperplate"
@@ -5771,7 +5771,7 @@
     </g>
   </g>
   <g id="GATE-7" data-wheel-position="32" data-inner-gate="31" data-outer-gate="7">
-    <g id="LINE-7.6" class="line">
+    <g id="LINE-7.6" class="line" data-gate="7" data-line="6">
       <text
     x="9982.10" y="10805.84"
     font-family="Copperplate-Light, Copperplate"
@@ -5802,7 +5802,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-7.5" class="line">
+    <g id="LINE-7.5" class="line" data-gate="7" data-line="5">
       <text
     x="9911.78" y="10861.66"
     font-family="Copperplate-Light, Copperplate"
@@ -5833,7 +5833,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-7.4" class="line">
+    <g id="LINE-7.4" class="line" data-gate="7" data-line="4">
       <text
     x="9840.55" y="10916.31"
     font-family="Copperplate-Light, Copperplate"
@@ -5864,7 +5864,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-7.3" class="line">
+    <g id="LINE-7.3" class="line" data-gate="7" data-line="3">
       <text
     x="9768.44" y="10969.79"
     font-family="Copperplate-Light, Copperplate"
@@ -5895,7 +5895,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-7.2" class="line">
+    <g id="LINE-7.2" class="line" data-gate="7" data-line="2">
       <text
     x="9695.46" y="11022.09"
     font-family="Copperplate-Light, Copperplate"
@@ -5923,7 +5923,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9532.51, 10790.71) rotate(54.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-7.1" class="line">
+    <g id="LINE-7.1" class="line" data-gate="7" data-line="1">
       <text
     x="9621.64" y="11073.18"
     font-family="Copperplate-Light, Copperplate"
@@ -5956,7 +5956,7 @@
     </g>
   </g>
   <g id="GATE-13" data-wheel-position="33" data-inner-gate="33" data-outer-gate="13">
-    <g id="LINE-13.6" class="line">
+    <g id="LINE-13.6" class="line" data-gate="13" data-line="6">
       <text
     x="10384.02" y="10447.51"
     font-family="Copperplate-Light, Copperplate"
@@ -5984,7 +5984,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10185.56, 10245.77) rotate(45.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-13.5" class="line">
+    <g id="LINE-13.5" class="line" data-gate="13" data-line="5">
       <text
     x="10319.51" y="10509.94"
     font-family="Copperplate-Light, Copperplate"
@@ -6012,7 +6012,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10124.37, 10304.98) rotate(46.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-13.4" class="line">
+    <g id="LINE-13.4" class="line" data-gate="13" data-line="4">
       <text
     x="10253.98" y="10571.32"
     font-family="Copperplate-Light, Copperplate"
@@ -6040,7 +6040,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10062.22, 10363.19) rotate(47.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-13.3" class="line">
+    <g id="LINE-13.3" class="line" data-gate="13" data-line="3">
       <text
     x="10187.46" y="10631.61"
     font-family="Copperplate-Light, Copperplate"
@@ -6068,7 +6068,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9999.13, 10420.37) rotate(48.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-13.2" class="line">
+    <g id="LINE-13.2" class="line" data-gate="13" data-line="2">
       <text
     x="10119.96" y="10690.80"
     font-family="Copperplate-Light, Copperplate"
@@ -6099,7 +6099,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-13.1" class="line">
+    <g id="LINE-13.1" class="line" data-gate="13" data-line="1">
       <text
     x="10051.50" y="10748.89"
     font-family="Copperplate-Light, Copperplate"
@@ -6129,7 +6129,7 @@
     </g>
   </g>
   <g id="GATE-31" data-wheel-position="34" data-inner-gate="7" data-outer-gate="31">
-    <g id="LINE-31.6" class="line">
+    <g id="LINE-31.6" class="line" data-gate="31" data-line="6">
       <text
     x="10748.89" y="10051.50"
     font-family="Copperplate-Light, Copperplate"
@@ -6160,7 +6160,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-31.5" class="line">
+    <g id="LINE-31.5" class="line" data-gate="31" data-line="5">
       <text
     x="10690.80" y="10119.96"
     font-family="Copperplate-Light, Copperplate"
@@ -6188,7 +6188,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10476.51, 9935.11) rotate(40.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-31.4" class="line">
+    <g id="LINE-31.4" class="line" data-gate="31" data-line="4">
       <text
     x="10631.61" y="10187.46"
     font-family="Copperplate-Light, Copperplate"
@@ -6216,7 +6216,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10420.37, 9999.13) rotate(41.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-31.3" class="line">
+    <g id="LINE-31.3" class="line" data-gate="31" data-line="3">
       <text
     x="10571.32" y="10253.98"
     font-family="Copperplate-Light, Copperplate"
@@ -6244,7 +6244,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10363.19, 10062.22) rotate(42.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-31.2" class="line">
+    <g id="LINE-31.2" class="line" data-gate="31" data-line="2">
       <text
     x="10509.94" y="10319.51"
     font-family="Copperplate-Light, Copperplate"
@@ -6275,7 +6275,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-31.1" class="line">
+    <g id="LINE-31.1" class="line" data-gate="31" data-line="1">
       <text
     x="10447.51" y="10384.02"
     font-family="Copperplate-Light, Copperplate"
@@ -6308,7 +6308,7 @@
     </g>
   </g>
   <g id="GATE-63" data-wheel-position="35" data-inner-gate="4" data-outer-gate="63">
-    <g id="LINE-63.6" class="line">
+    <g id="LINE-63.6" class="line" data-gate="63" data-line="6">
       <text
     x="11073.18" y="9621.64"
     font-family="Copperplate-Light, Copperplate"
@@ -6339,7 +6339,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-63.5" class="line">
+    <g id="LINE-63.5" class="line" data-gate="63" data-line="5">
       <text
     x="11022.09" y="9695.46"
     font-family="Copperplate-Light, Copperplate"
@@ -6367,7 +6367,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10790.71, 9532.51) rotate(35.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-63.4" class="line">
+    <g id="LINE-63.4" class="line" data-gate="63" data-line="4">
       <text
     x="10969.79" y="9768.44"
     font-family="Copperplate-Light, Copperplate"
@@ -6398,7 +6398,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-63.3" class="line">
+    <g id="LINE-63.3" class="line" data-gate="63" data-line="3">
       <text
     x="10916.31" y="9840.55"
     font-family="Copperplate-Light, Copperplate"
@@ -6426,7 +6426,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10690.39, 9670.11) rotate(37.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-63.2" class="line">
+    <g id="LINE-63.2" class="line" data-gate="63" data-line="2">
       <text
     x="10861.66" y="9911.78"
     font-family="Copperplate-Light, Copperplate"
@@ -6457,7 +6457,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-63.1" class="line">
+    <g id="LINE-63.1" class="line" data-gate="63" data-line="1">
       <text
     x="10805.84" y="9982.10"
     font-family="Copperplate-Light, Copperplate"
@@ -6487,7 +6487,7 @@
     </g>
   </g>
   <g id="GATE-46" data-wheel-position="36" data-inner-gate="29" data-outer-gate="46">
-    <g id="LINE-46.6" class="line">
+    <g id="LINE-46.6" class="line" data-gate="46" data-line="6">
       <text
     x="11353.78" y="9162.06"
     font-family="Copperplate-Light, Copperplate"
@@ -6518,7 +6518,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-46.5" class="line">
+    <g id="LINE-46.5" class="line" data-gate="46" data-line="5">
       <text
     x="11310.17" y="9240.53"
     font-family="Copperplate-Light, Copperplate"
@@ -6549,7 +6549,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-46.4" class="line">
+    <g id="LINE-46.4" class="line" data-gate="46" data-line="4">
       <text
     x="11265.28" y="9318.28"
     font-family="Copperplate-Light, Copperplate"
@@ -6580,7 +6580,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-46.3" class="line">
+    <g id="LINE-46.3" class="line" data-gate="46" data-line="3">
       <text
     x="11219.12" y="9395.29"
     font-family="Copperplate-Light, Copperplate"
@@ -6608,7 +6608,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10977.58, 9247.82) rotate(31.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-46.2" class="line">
+    <g id="LINE-46.2" class="line" data-gate="46" data-line="2">
       <text
     x="11171.71" y="9471.53"
     font-family="Copperplate-Light, Copperplate"
@@ -6636,7 +6636,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10932.62, 9320.13) rotate(32.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-46.1" class="line">
+    <g id="LINE-46.1" class="line" data-gate="46" data-line="1">
       <text
     x="11123.06" y="9546.99"
     font-family="Copperplate-Light, Copperplate"
@@ -6669,7 +6669,7 @@
     </g>
   </g>
   <g id="GATE-6" data-wheel-position="37" data-inner-gate="59" data-outer-gate="6">
-    <g id="LINE-6.6" class="line">
+    <g id="LINE-6.6" class="line" data-gate="6" data-line="6">
       <text
     x="11587.98" y="8677.19"
     font-family="Copperplate-Light, Copperplate"
@@ -6697,7 +6697,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11327.42, 8566.75) rotate(22.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-6.5" class="line">
+    <g id="LINE-6.5" class="line" data-gate="6" data-line="5">
       <text
     x="11552.27" y="8759.56"
     font-family="Copperplate-Light, Copperplate"
@@ -6725,7 +6725,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11293.55, 8644.88) rotate(23.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-6.4" class="line">
+    <g id="LINE-6.4" class="line" data-gate="6" data-line="4">
       <text
     x="11515.22" y="8841.34"
     font-family="Copperplate-Light, Copperplate"
@@ -6753,7 +6753,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11258.41, 8722.44) rotate(24.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-6.3" class="line">
+    <g id="LINE-6.3" class="line" data-gate="6" data-line="3">
       <text
     x="11476.83" y="8922.50"
     font-family="Copperplate-Light, Copperplate"
@@ -6784,7 +6784,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-6.2" class="line">
+    <g id="LINE-6.2" class="line" data-gate="6" data-line="2">
       <text
     x="11437.12" y="9003.02"
     font-family="Copperplate-Light, Copperplate"
@@ -6812,7 +6812,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11184.34, 8875.78) rotate(26.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-6.1" class="line">
+    <g id="LINE-6.1" class="line" data-gate="6" data-line="1">
       <text
     x="11396.10" y="9082.88"
     font-family="Copperplate-Light, Copperplate"
@@ -6845,7 +6845,7 @@
     </g>
   </g>
   <g id="GATE-37" data-wheel-position="38" data-inner-gate="40" data-outer-gate="37">
-    <g id="LINE-37.6" class="line">
+    <g id="LINE-37.6" class="line" data-gate="37" data-line="6">
       <text
     x="11773.53" y="8171.70"
     font-family="Copperplate-Light, Copperplate"
@@ -6873,7 +6873,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11503.39, 8087.33) rotate(17.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-37.5" class="line">
+    <g id="LINE-37.5" class="line" data-gate="37" data-line="5">
       <text
     x="11746.06" y="8257.17"
     font-family="Copperplate-Light, Copperplate"
@@ -6901,7 +6901,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11477.34, 8168.40) rotate(18.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-37.4" class="line">
+    <g id="LINE-37.4" class="line" data-gate="37" data-line="4">
       <text
     x="11717.20" y="8342.19"
     font-family="Copperplate-Light, Copperplate"
@@ -6932,7 +6932,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-37.3" class="line">
+    <g id="LINE-37.3" class="line" data-gate="37" data-line="3">
       <text
     x="11686.96" y="8426.72"
     font-family="Copperplate-Light, Copperplate"
@@ -6960,7 +6960,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11421.29, 8329.20) rotate(20.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-37.2" class="line">
+    <g id="LINE-37.2" class="line" data-gate="37" data-line="2">
       <text
     x="11655.33" y="8510.74"
     font-family="Copperplate-Light, Copperplate"
@@ -6991,7 +6991,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-37.1" class="line">
+    <g id="LINE-37.1" class="line" data-gate="37" data-line="1">
       <text
     x="11622.34" y="8594.24"
     font-family="Copperplate-Light, Copperplate"
@@ -7018,7 +7018,7 @@
     </g>
   </g>
   <g id="GATE-47" data-wheel-position="39" data-inner-gate="64" data-outer-gate="47">
-    <g id="LINE-47.6" class="line">
+    <g id="LINE-47.6" class="line" data-gate="47" data-line="6">
       <text
     x="11908.63" y="7650.45"
     font-family="Copperplate-Light, Copperplate"
@@ -7046,7 +7046,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-47.5" class="line">
+    <g id="LINE-47.5" class="line" data-gate="47" data-line="5">
       <text
     x="11889.68" y="7738.21"
     font-family="Copperplate-Light, Copperplate"
@@ -7071,7 +7071,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11613.55, 7676.20) rotate(12.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-47.4" class="line">
+    <g id="LINE-47.4" class="line" data-gate="47" data-line="4">
       <text
     x="11869.29" y="7825.64"
     font-family="Copperplate-Light, Copperplate"
@@ -7099,7 +7099,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11594.22, 7759.13) rotate(13.59)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-47.3" class="line">
+    <g id="LINE-47.3" class="line" data-gate="47" data-line="3">
       <text
     x="11847.48" y="7912.73"
     font-family="Copperplate-Light, Copperplate"
@@ -7130,7 +7130,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-47.2" class="line">
+    <g id="LINE-47.2" class="line" data-gate="47" data-line="2">
       <text
     x="11824.24" y="7999.45"
     font-family="Copperplate-Light, Copperplate"
@@ -7158,7 +7158,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11551.49, 7923.97) rotate(15.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-47.1" class="line">
+    <g id="LINE-47.1" class="line" data-gate="47" data-line="1">
       <text
     x="11799.59" y="8085.78"
     font-family="Copperplate-Light, Copperplate"
@@ -7191,7 +7191,7 @@
     </g>
   </g>
   <g id="GATE-64" data-wheel-position="40" data-inner-gate="47" data-outer-gate="64">
-    <g id="LINE-64.6" class="line">
+    <g id="LINE-64.6" class="line" data-gate="64" data-line="6">
       <text
     x="11992.00" y="7118.48"
     font-family="Copperplate-Light, Copperplate"
@@ -7219,7 +7219,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11710.59, 7088.43) rotate(6.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-64.5" class="line">
+    <g id="LINE-64.5" class="line" data-gate="64" data-line="5">
       <text
     x="11981.74" y="7207.67"
     font-family="Copperplate-Light, Copperplate"
@@ -7250,7 +7250,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-64.4" class="line">
+    <g id="LINE-64.4" class="line" data-gate="64" data-line="4">
       <text
     x="11970.02" y="7296.68"
     font-family="Copperplate-Light, Copperplate"
@@ -7278,7 +7278,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11689.75, 7257.45) rotate(7.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-64.3" class="line">
+    <g id="LINE-64.3" class="line" data-gate="64" data-line="3">
       <text
     x="11956.84" y="7385.49"
     font-family="Copperplate-Light, Copperplate"
@@ -7309,7 +7309,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-64.2" class="line">
+    <g id="LINE-64.2" class="line" data-gate="64" data-line="2">
       <text
     x="11942.22" y="7474.07"
     font-family="Copperplate-Light, Copperplate"
@@ -7337,7 +7337,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11663.38, 7425.69) rotate(9.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-64.1" class="line">
+    <g id="LINE-64.1" class="line" data-gate="64" data-line="1">
       <text
     x="11926.15" y="7562.40"
     font-family="Copperplate-Light, Copperplate"
@@ -7370,7 +7370,7 @@
     </g>
   </g>
   <g id="GATE-59" data-wheel-position="41" data-inner-gate="6" data-outer-gate="59">
-    <g id="LINE-59.6" class="line">
+    <g id="LINE-59.6" class="line" data-gate="59" data-line="6">
       <text
     x="12022.82" y="6580.89"
     font-family="Copperplate-Light, Copperplate"
@@ -7398,7 +7398,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11739.83, 6578.57) rotate(0.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-59.5" class="line">
+    <g id="LINE-59.5" class="line" data-gate="59" data-line="5">
       <text
     x="12021.35" y="6670.66"
     font-family="Copperplate-Light, Copperplate"
@@ -7426,7 +7426,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11738.43, 6663.71) rotate(1.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-59.4" class="line">
+    <g id="LINE-59.4" class="line" data-gate="59" data-line="4">
       <text
     x="12018.41" y="6760.39"
     font-family="Copperplate-Light, Copperplate"
@@ -7457,7 +7457,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-59.3" class="line">
+    <g id="LINE-59.3" class="line" data-gate="59" data-line="3">
       <text
     x="12014.00" y="6850.06"
     font-family="Copperplate-Light, Copperplate"
@@ -7488,7 +7488,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-59.2" class="line">
+    <g id="LINE-59.2" class="line" data-gate="59" data-line="2">
       <text
     x="12008.13" y="6939.65"
     font-family="Copperplate-Light, Copperplate"
@@ -7516,7 +7516,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11725.90, 6918.83) rotate(4.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-59.1" class="line">
+    <g id="LINE-59.1" class="line" data-gate="59" data-line="1">
       <text
     x="12000.80" y="7029.13"
     font-family="Copperplate-Light, Copperplate"
@@ -7549,7 +7549,7 @@
     </g>
   </g>
   <g id="GATE-29" data-wheel-position="42" data-inner-gate="46" data-outer-gate="29">
-    <g id="LINE-29.6" class="line">
+    <g id="LINE-29.6" class="line" data-gate="29" data-line="6">
       <text
     x="12000.80" y="6042.87"
     font-family="Copperplate-Light, Copperplate"
@@ -7580,7 +7580,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-29.5" class="line">
+    <g id="LINE-29.5" class="line" data-gate="29" data-line="5">
       <text
     x="12008.13" y="6132.35"
     font-family="Copperplate-Light, Copperplate"
@@ -7608,7 +7608,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11725.90, 6153.17) rotate(-4.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-29.4" class="line">
+    <g id="LINE-29.4" class="line" data-gate="29" data-line="4">
       <text
     x="12014.00" y="6221.94"
     font-family="Copperplate-Light, Copperplate"
@@ -7639,7 +7639,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-29.3" class="line">
+    <g id="LINE-29.3" class="line" data-gate="29" data-line="3">
       <text
     x="12018.41" y="6311.61"
     font-family="Copperplate-Light, Copperplate"
@@ -7670,7 +7670,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-29.2" class="line">
+    <g id="LINE-29.2" class="line" data-gate="29" data-line="2">
       <text
     x="12021.35" y="6401.34"
     font-family="Copperplate-Light, Copperplate"
@@ -7698,7 +7698,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11738.43, 6408.29) rotate(-1.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-29.1" class="line">
+    <g id="LINE-29.1" class="line" data-gate="29" data-line="1">
       <text
     x="12022.82" y="6491.11"
     font-family="Copperplate-Light, Copperplate"
@@ -7731,7 +7731,7 @@
     </g>
   </g>
   <g id="GATE-58" data-wheel-position="43" data-inner-gate="18" data-outer-gate="58">
-    <g id="LINE-58.6" class="line">
+    <g id="LINE-58.6" class="line" data-gate="58" data-line="6">
       <text
     x="11926.15" y="5509.60"
     font-family="Copperplate-Light, Copperplate"
@@ -7762,7 +7762,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-58.5" class="line">
+    <g id="LINE-58.5" class="line" data-gate="58" data-line="5">
       <text
     x="11942.22" y="5597.93"
     font-family="Copperplate-Light, Copperplate"
@@ -7790,7 +7790,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11663.38, 5646.31) rotate(-9.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-58.4" class="line">
+    <g id="LINE-58.4" class="line" data-gate="58" data-line="4">
       <text
     x="11956.84" y="5686.51"
     font-family="Copperplate-Light, Copperplate"
@@ -7818,7 +7818,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11677.26, 5730.33) rotate(-8.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-58.3" class="line">
+    <g id="LINE-58.3" class="line" data-gate="58" data-line="3">
       <text
     x="11970.02" y="5775.32"
     font-family="Copperplate-Light, Copperplate"
@@ -7849,7 +7849,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-58.2" class="line">
+    <g id="LINE-58.2" class="line" data-gate="58" data-line="2">
       <text
     x="11981.74" y="5864.33"
     font-family="Copperplate-Light, Copperplate"
@@ -7874,7 +7874,7 @@
   >2</text>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11700.86, 5898.97) rotate(-7.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-58.1" class="line">
+    <g id="LINE-58.1" class="line" data-gate="58" data-line="1">
       <text
     x="11992.00" y="5953.52"
     font-family="Copperplate-Light, Copperplate"
@@ -7904,7 +7904,7 @@
     </g>
   </g>
   <g id="GATE-16" data-wheel-position="44" data-inner-gate="48" data-outer-gate="16">
-    <g id="LINE-16.6" class="line">
+    <g id="LINE-16.6" class="line" data-gate="16" data-line="6">
       <text
     x="11799.59" y="4986.22"
     font-family="Copperplate-Light, Copperplate"
@@ -7935,7 +7935,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-16.5" class="line">
+    <g id="LINE-16.5" class="line" data-gate="16" data-line="5">
       <text
     x="11824.24" y="5072.55"
     font-family="Copperplate-Light, Copperplate"
@@ -7966,7 +7966,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-16.4" class="line">
+    <g id="LINE-16.4" class="line" data-gate="16" data-line="4">
       <text
     x="11847.48" y="5159.27"
     font-family="Copperplate-Light, Copperplate"
@@ -7994,7 +7994,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11573.53, 5230.27) rotate(-14.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-16.3" class="line">
+    <g id="LINE-16.3" class="line" data-gate="16" data-line="3">
       <text
     x="11869.29" y="5246.36"
     font-family="Copperplate-Light, Copperplate"
@@ -8025,7 +8025,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-16.2" class="line">
+    <g id="LINE-16.2" class="line" data-gate="16" data-line="2">
       <text
     x="11889.68" y="5333.79"
     font-family="Copperplate-Light, Copperplate"
@@ -8056,7 +8056,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-16.1" class="line">
+    <g id="LINE-16.1" class="line" data-gate="16" data-line="1">
       <text
     x="11908.63" y="5421.55"
     font-family="Copperplate-Light, Copperplate"
@@ -8089,7 +8089,7 @@
     </g>
   </g>
   <g id="GATE-10" data-wheel-position="45" data-inner-gate="57" data-outer-gate="10">
-    <g id="LINE-10.6" class="line">
+    <g id="LINE-10.6" class="line" data-gate="10" data-line="6">
       <text
     x="11622.34" y="4477.76"
     font-family="Copperplate-Light, Copperplate"
@@ -8117,7 +8117,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11360.00, 4583.92) rotate(-22.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-10.5" class="line">
+    <g id="LINE-10.5" class="line" data-gate="10" data-line="5">
       <text
     x="11655.33" y="4561.26"
     font-family="Copperplate-Light, Copperplate"
@@ -8145,7 +8145,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11391.29, 4663.11) rotate(-21.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-10.4" class="line">
+    <g id="LINE-10.4" class="line" data-gate="10" data-line="4">
       <text
     x="11686.96" y="4645.28"
     font-family="Copperplate-Light, Copperplate"
@@ -8173,7 +8173,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11421.29, 4742.80) rotate(-20.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-10.3" class="line">
+    <g id="LINE-10.3" class="line" data-gate="10" data-line="3">
       <text
     x="11717.20" y="4729.81"
     font-family="Copperplate-Light, Copperplate"
@@ -8204,7 +8204,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-10.2" class="line">
+    <g id="LINE-10.2" class="line" data-gate="10" data-line="2">
       <text
     x="11746.06" y="4814.83"
     font-family="Copperplate-Light, Copperplate"
@@ -8232,7 +8232,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11477.34, 4903.60) rotate(-18.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-10.1" class="line">
+    <g id="LINE-10.1" class="line" data-gate="10" data-line="1">
       <text
     x="11773.53" y="4900.30"
     font-family="Copperplate-Light, Copperplate"
@@ -8262,7 +8262,7 @@
     </g>
   </g>
   <g id="GATE-54" data-wheel-position="46" data-inner-gate="32" data-outer-gate="54">
-    <g id="LINE-54.6" class="line">
+    <g id="LINE-54.6" class="line" data-gate="54" data-line="6">
       <text
     x="11396.10" y="3989.12"
     font-family="Copperplate-Light, Copperplate"
@@ -8293,7 +8293,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-54.5" class="line">
+    <g id="LINE-54.5" class="line" data-gate="54" data-line="5">
       <text
     x="11437.12" y="4068.98"
     font-family="Copperplate-Light, Copperplate"
@@ -8321,7 +8321,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-54.4" class="line">
+    <g id="LINE-54.4" class="line" data-gate="54" data-line="4">
       <text
     x="11476.83" y="4149.50"
     font-family="Copperplate-Light, Copperplate"
@@ -8343,7 +8343,7 @@
   >4</text>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11222.00, 4272.59) rotate(-25.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-54.3" class="line">
+    <g id="LINE-54.3" class="line" data-gate="54" data-line="3">
       <text
     x="11515.22" y="4230.66"
     font-family="Copperplate-Light, Copperplate"
@@ -8374,7 +8374,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-54.2" class="line">
+    <g id="LINE-54.2" class="line" data-gate="54" data-line="2">
       <text
     x="11552.27" y="4312.44"
     font-family="Copperplate-Light, Copperplate"
@@ -8402,7 +8402,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(11293.55, 4427.12) rotate(-23.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-54.1" class="line">
+    <g id="LINE-54.1" class="line" data-gate="54" data-line="1">
       <text
     x="11587.98" y="4394.81"
     font-family="Copperplate-Light, Copperplate"
@@ -8432,7 +8432,7 @@
     </g>
   </g>
   <g id="GATE-27" data-wheel-position="47" data-inner-gate="50" data-outer-gate="27">
-    <g id="LINE-27.6" class="line">
+    <g id="LINE-27.6" class="line" data-gate="27" data-line="6">
       <text
     x="11123.06" y="3525.01"
     font-family="Copperplate-Light, Copperplate"
@@ -8460,7 +8460,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10886.48, 3680.31) rotate(-33.28)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-27.5" class="line">
+    <g id="LINE-27.5" class="line" data-gate="27" data-line="5">
       <text
     x="11171.71" y="3600.47"
     font-family="Copperplate-Light, Copperplate"
@@ -8491,7 +8491,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-27.4" class="line">
+    <g id="LINE-27.4" class="line" data-gate="27" data-line="4">
       <text
     x="11219.12" y="3676.71"
     font-family="Copperplate-Light, Copperplate"
@@ -8522,7 +8522,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-27.3" class="line">
+    <g id="LINE-27.3" class="line" data-gate="27" data-line="3">
       <text
     x="11265.28" y="3753.72"
     font-family="Copperplate-Light, Copperplate"
@@ -8553,7 +8553,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-27.2" class="line">
+    <g id="LINE-27.2" class="line" data-gate="27" data-line="2">
       <text
     x="11310.17" y="3831.47"
     font-family="Copperplate-Light, Copperplate"
@@ -8584,7 +8584,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-27.1" class="line">
+    <g id="LINE-27.1" class="line" data-gate="27" data-line="1">
       <text
     x="11353.78" y="3909.94"
     font-family="Copperplate-Light, Copperplate"
@@ -8614,7 +8614,7 @@
     </g>
   </g>
   <g id="GATE-38" data-wheel-position="48" data-inner-gate="28" data-outer-gate="38">
-    <g id="LINE-38.6" class="line">
+    <g id="LINE-38.6" class="line" data-gate="38" data-line="6">
       <text
     x="10805.84" y="3089.90"
     font-family="Copperplate-Light, Copperplate"
@@ -8642,7 +8642,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10585.62, 3267.64) rotate(-38.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-38.5" class="line">
+    <g id="LINE-38.5" class="line" data-gate="38" data-line="5">
       <text
     x="10861.66" y="3160.22"
     font-family="Copperplate-Light, Copperplate"
@@ -8673,7 +8673,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-38.4" class="line">
+    <g id="LINE-38.4" class="line" data-gate="38" data-line="4">
       <text
     x="10916.31" y="3231.45"
     font-family="Copperplate-Light, Copperplate"
@@ -8701,7 +8701,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10690.39, 3401.89) rotate(-37.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-38.3" class="line">
+    <g id="LINE-38.3" class="line" data-gate="38" data-line="3">
       <text
     x="10969.79" y="3303.56"
     font-family="Copperplate-Light, Copperplate"
@@ -8732,7 +8732,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-38.2" class="line">
+    <g id="LINE-38.2" class="line" data-gate="38" data-line="2">
       <text
     x="11022.09" y="3376.54"
     font-family="Copperplate-Light, Copperplate"
@@ -8760,7 +8760,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10790.71, 3539.49) rotate(-35.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-38.1" class="line">
+    <g id="LINE-38.1" class="line" data-gate="38" data-line="1">
       <text
     x="11073.18" y="3450.36"
     font-family="Copperplate-Light, Copperplate"
@@ -8790,7 +8790,7 @@
     </g>
   </g>
   <g id="GATE-26" data-wheel-position="49" data-inner-gate="44" data-outer-gate="26">
-    <g id="LINE-26.6" class="line">
+    <g id="LINE-26.6" class="line" data-gate="26" data-line="6">
       <text
     x="10447.51" y="2687.98"
     font-family="Copperplate-Light, Copperplate"
@@ -8818,7 +8818,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10245.77, 2886.44) rotate(-44.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-26.5" class="line">
+    <g id="LINE-26.5" class="line" data-gate="26" data-line="5">
       <text
     x="10509.94" y="2752.49"
     font-family="Copperplate-Light, Copperplate"
@@ -8849,7 +8849,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-26.4" class="line">
+    <g id="LINE-26.4" class="line" data-gate="26" data-line="4">
       <text
     x="10571.32" y="2818.02"
     font-family="Copperplate-Light, Copperplate"
@@ -8880,7 +8880,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-26.3" class="line">
+    <g id="LINE-26.3" class="line" data-gate="26" data-line="3">
       <text
     x="10631.61" y="2884.54"
     font-family="Copperplate-Light, Copperplate"
@@ -8908,7 +8908,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10420.37, 3072.87) rotate(-41.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-26.2" class="line">
+    <g id="LINE-26.2" class="line" data-gate="26" data-line="2">
       <text
     x="10690.80" y="2952.04"
     font-family="Copperplate-Light, Copperplate"
@@ -8936,7 +8936,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(10476.51, 3136.89) rotate(-40.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-26.1" class="line">
+    <g id="LINE-26.1" class="line" data-gate="26" data-line="1">
       <text
     x="10748.89" y="3020.50"
     font-family="Copperplate-Light, Copperplate"
@@ -8966,7 +8966,7 @@
     </g>
   </g>
   <g id="GATE-8" data-wheel-position="50" data-inner-gate="1" data-outer-gate="8">
-    <g id="LINE-8.6" class="line">
+    <g id="LINE-8.6" class="line" data-gate="8" data-line="6">
       <text
     x="10051.50" y="2323.11"
     font-family="Copperplate-Light, Copperplate"
@@ -8997,7 +8997,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-8.5" class="line">
+    <g id="LINE-8.5" class="line" data-gate="8" data-line="5">
       <text
     x="10119.96" y="2381.20"
     font-family="Copperplate-Light, Copperplate"
@@ -9025,7 +9025,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9935.11, 2595.49) rotate(-49.22)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-8.4" class="line">
+    <g id="LINE-8.4" class="line" data-gate="8" data-line="4">
       <text
     x="10187.46" y="2440.39"
     font-family="Copperplate-Light, Copperplate"
@@ -9056,7 +9056,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-8.3" class="line">
+    <g id="LINE-8.3" class="line" data-gate="8" data-line="3">
       <text
     x="10253.98" y="2500.68"
     font-family="Copperplate-Light, Copperplate"
@@ -9087,7 +9087,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-8.2" class="line">
+    <g id="LINE-8.2" class="line" data-gate="8" data-line="2">
       <text
     x="10319.51" y="2562.06"
     font-family="Copperplate-Light, Copperplate"
@@ -9118,7 +9118,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-8.1" class="line">
+    <g id="LINE-8.1" class="line" data-gate="8" data-line="1">
       <text
     x="10384.02" y="2624.49"
     font-family="Copperplate-Light, Copperplate"
@@ -9151,7 +9151,7 @@
     </g>
   </g>
   <g id="GATE-23" data-wheel-position="51" data-inner-gate="43" data-outer-gate="23">
-    <g id="LINE-23.6" class="line">
+    <g id="LINE-23.6" class="line" data-gate="23" data-line="6">
       <text
     x="9621.64" y="1998.82"
     font-family="Copperplate-Light, Copperplate"
@@ -9179,7 +9179,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(9462.49, 2232.83) rotate(-55.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-23.5" class="line">
+    <g id="LINE-23.5" class="line" data-gate="23" data-line="5">
       <text
     x="9695.46" y="2049.91"
     font-family="Copperplate-Light, Copperplate"
@@ -9210,7 +9210,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-23.4" class="line">
+    <g id="LINE-23.4" class="line" data-gate="23" data-line="4">
       <text
     x="9768.44" y="2102.21"
     font-family="Copperplate-Light, Copperplate"
@@ -9241,7 +9241,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-23.3" class="line">
+    <g id="LINE-23.3" class="line" data-gate="23" data-line="3">
       <text
     x="9840.55" y="2155.69"
     font-family="Copperplate-Light, Copperplate"
@@ -9272,7 +9272,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-23.2" class="line">
+    <g id="LINE-23.2" class="line" data-gate="23" data-line="2">
       <text
     x="9911.78" y="2210.34"
     font-family="Copperplate-Light, Copperplate"
@@ -9303,7 +9303,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-23.1" class="line">
+    <g id="LINE-23.1" class="line" data-gate="23" data-line="1">
       <text
     x="9982.10" y="2266.16"
     font-family="Copperplate-Light, Copperplate"
@@ -9336,7 +9336,7 @@
     </g>
   </g>
   <g id="GATE-2" data-wheel-position="52" data-inner-gate="14" data-outer-gate="2">
-    <g id="LINE-2.6" class="line">
+    <g id="LINE-2.6" class="line" data-gate="2" data-line="6">
       <text
     x="9162.06" y="1718.22"
     font-family="Copperplate-Light, Copperplate"
@@ -9367,7 +9367,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-2.5" class="line">
+    <g id="LINE-2.5" class="line" data-gate="2" data-line="5">
       <text
     x="9240.53" y="1761.83"
     font-family="Copperplate-Light, Copperplate"
@@ -9398,7 +9398,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-2.4" class="line">
+    <g id="LINE-2.4" class="line" data-gate="2" data-line="4">
       <text
     x="9318.28" y="1806.72"
     font-family="Copperplate-Light, Copperplate"
@@ -9429,7 +9429,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-2.3" class="line">
+    <g id="LINE-2.3" class="line" data-gate="2" data-line="3">
       <text
     x="9395.29" y="1852.88"
     font-family="Copperplate-Light, Copperplate"
@@ -9460,7 +9460,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-2.2" class="line">
+    <g id="LINE-2.2" class="line" data-gate="2" data-line="2">
       <text
     x="9471.53" y="1900.29"
     font-family="Copperplate-Light, Copperplate"
@@ -9491,7 +9491,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-2.1" class="line">
+    <g id="LINE-2.1" class="line" data-gate="2" data-line="1">
       <text
     x="9546.99" y="1948.94"
     font-family="Copperplate-Light, Copperplate"
@@ -9524,7 +9524,7 @@
     </g>
   </g>
   <g id="GATE-20" data-wheel-position="53" data-inner-gate="34" data-outer-gate="20">
-    <g id="LINE-20.6" class="line">
+    <g id="LINE-20.6" class="line" data-gate="20" data-line="6">
       <text
     x="8677.19" y="1484.02"
     font-family="Copperplate-Light, Copperplate"
@@ -9552,7 +9552,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8566.75, 1744.58) rotate(-67.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-20.5" class="line">
+    <g id="LINE-20.5" class="line" data-gate="20" data-line="5">
       <text
     x="8759.56" y="1519.73"
     font-family="Copperplate-Light, Copperplate"
@@ -9580,7 +9580,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8644.88, 1778.45) rotate(-66.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-20.4" class="line">
+    <g id="LINE-20.4" class="line" data-gate="20" data-line="4">
       <text
     x="8841.34" y="1556.78"
     font-family="Copperplate-Light, Copperplate"
@@ -9611,7 +9611,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-20.3" class="line">
+    <g id="LINE-20.3" class="line" data-gate="20" data-line="3">
       <text
     x="8922.50" y="1595.17"
     font-family="Copperplate-Light, Copperplate"
@@ -9642,7 +9642,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-20.2" class="line">
+    <g id="LINE-20.2" class="line" data-gate="20" data-line="2">
       <text
     x="9003.02" y="1634.88"
     font-family="Copperplate-Light, Copperplate"
@@ -9673,7 +9673,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-20.1" class="line">
+    <g id="LINE-20.1" class="line" data-gate="20" data-line="1">
       <text
     x="9082.88" y="1675.90"
     font-family="Copperplate-Light, Copperplate"
@@ -9706,7 +9706,7 @@
     </g>
   </g>
   <g id="GATE-52" data-wheel-position="54" data-inner-gate="9" data-outer-gate="52">
-    <g id="LINE-52.6" class="line">
+    <g id="LINE-52.6" class="line" data-gate="52" data-line="6">
       <text
     x="8171.70" y="1298.47"
     font-family="Copperplate-Light, Copperplate"
@@ -9734,7 +9734,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8087.33, 1568.61) rotate(-72.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-52.5" class="line">
+    <g id="LINE-52.5" class="line" data-gate="52" data-line="5">
       <text
     x="8257.17" y="1325.94"
     font-family="Copperplate-Light, Copperplate"
@@ -9765,7 +9765,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-52.4" class="line">
+    <g id="LINE-52.4" class="line" data-gate="52" data-line="4">
       <text
     x="8342.19" y="1354.80"
     font-family="Copperplate-Light, Copperplate"
@@ -9796,7 +9796,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-52.3" class="line">
+    <g id="LINE-52.3" class="line" data-gate="52" data-line="3">
       <text
     x="8426.72" y="1385.04"
     font-family="Copperplate-Light, Copperplate"
@@ -9824,7 +9824,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(8329.20, 1650.71) rotate(-69.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-52.2" class="line">
+    <g id="LINE-52.2" class="line" data-gate="52" data-line="2">
       <text
     x="8510.74" y="1416.67"
     font-family="Copperplate-Light, Copperplate"
@@ -9855,7 +9855,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-52.1" class="line">
+    <g id="LINE-52.1" class="line" data-gate="52" data-line="1">
       <text
     x="8594.24" y="1449.66"
     font-family="Copperplate-Light, Copperplate"
@@ -9888,7 +9888,7 @@
     </g>
   </g>
   <g id="GATE-15" data-wheel-position="55" data-inner-gate="5" data-outer-gate="15">
-    <g id="LINE-15.6" class="line">
+    <g id="LINE-15.6" class="line" data-gate="15" data-line="6">
       <text
     x="7650.45" y="1163.37"
     font-family="Copperplate-Light, Copperplate"
@@ -9919,7 +9919,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-15.5" class="line">
+    <g id="LINE-15.5" class="line" data-gate="15" data-line="5">
       <text
     x="7738.21" y="1182.32"
     font-family="Copperplate-Light, Copperplate"
@@ -9950,7 +9950,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-15.4" class="line">
+    <g id="LINE-15.4" class="line" data-gate="15" data-line="4">
       <text
     x="7825.64" y="1202.71"
     font-family="Copperplate-Light, Copperplate"
@@ -9981,7 +9981,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-15.3" class="line">
+    <g id="LINE-15.3" class="line" data-gate="15" data-line="3">
       <text
     x="7912.73" y="1224.52"
     font-family="Copperplate-Light, Copperplate"
@@ -10009,7 +10009,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7841.73, 1498.47) rotate(-75.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-15.2" class="line">
+    <g id="LINE-15.2" class="line" data-gate="15" data-line="2">
       <text
     x="7999.45" y="1247.76"
     font-family="Copperplate-Light, Copperplate"
@@ -10040,7 +10040,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-15.1" class="line">
+    <g id="LINE-15.1" class="line" data-gate="15" data-line="1">
       <text
     x="8085.78" y="1272.41"
     font-family="Copperplate-Light, Copperplate"
@@ -10073,7 +10073,7 @@
     </g>
   </g>
   <g id="GATE-44" data-wheel-position="56" data-inner-gate="26" data-outer-gate="44">
-    <g id="LINE-44.6" class="line">
+    <g id="LINE-44.6" class="line" data-gate="44" data-line="6">
       <text
     x="7118.48" y="1080.00"
     font-family="Copperplate-Light, Copperplate"
@@ -10101,7 +10101,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7088.43, 1361.41) rotate(-83.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-44.5" class="line">
+    <g id="LINE-44.5" class="line" data-gate="44" data-line="5">
       <text
     x="7207.67" y="1090.26"
     font-family="Copperplate-Light, Copperplate"
@@ -10129,7 +10129,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7173.03, 1371.14) rotate(-82.97)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-44.4" class="line">
+    <g id="LINE-44.4" class="line" data-gate="44" data-line="4">
       <text
     x="7296.68" y="1101.98"
     font-family="Copperplate-Light, Copperplate"
@@ -10157,7 +10157,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7257.45, 1382.25) rotate(-82.03)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-44.3" class="line">
+    <g id="LINE-44.3" class="line" data-gate="44" data-line="3">
       <text
     x="7385.49" y="1115.16"
     font-family="Copperplate-Light, Copperplate"
@@ -10185,7 +10185,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7341.67, 1394.74) rotate(-81.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-44.2" class="line">
+    <g id="LINE-44.2" class="line" data-gate="44" data-line="2">
       <text
     x="7474.07" y="1129.78"
     font-family="Copperplate-Light, Copperplate"
@@ -10213,7 +10213,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(7425.69, 1408.62) rotate(-80.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-44.1" class="line">
+    <g id="LINE-44.1" class="line" data-gate="44" data-line="1">
       <text
     x="7562.40" y="1145.85"
     font-family="Copperplate-Light, Copperplate"
@@ -10246,7 +10246,7 @@
     </g>
   </g>
   <g id="GATE-56" data-wheel-position="57" data-inner-gate="11" data-outer-gate="56">
-    <g id="LINE-56.6" class="line">
+    <g id="LINE-56.6" class="line" data-gate="56" data-line="6">
       <text
     x="6580.89" y="1049.18"
     font-family="Copperplate-Light, Copperplate"
@@ -10274,7 +10274,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6578.57, 1332.17) rotate(-89.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-56.5" class="line">
+    <g id="LINE-56.5" class="line" data-gate="56" data-line="5">
       <text
     x="6670.66" y="1050.65"
     font-family="Copperplate-Light, Copperplate"
@@ -10305,7 +10305,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-56.4" class="line">
+    <g id="LINE-56.4" class="line" data-gate="56" data-line="4">
       <text
     x="6760.39" y="1053.59"
     font-family="Copperplate-Light, Copperplate"
@@ -10333,7 +10333,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6748.82, 1336.35) rotate(-87.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-56.3" class="line">
+    <g id="LINE-56.3" class="line" data-gate="56" data-line="3">
       <text
     x="6850.06" y="1058.00"
     font-family="Copperplate-Light, Copperplate"
@@ -10361,7 +10361,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6833.86, 1340.53) rotate(-86.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-56.2" class="line">
+    <g id="LINE-56.2" class="line" data-gate="56" data-line="2">
       <text
     x="6939.65" y="1063.87"
     font-family="Copperplate-Light, Copperplate"
@@ -10392,7 +10392,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-56.1" class="line">
+    <g id="LINE-56.1" class="line" data-gate="56" data-line="1">
       <text
     x="7029.13" y="1071.20"
     font-family="Copperplate-Light, Copperplate"
@@ -10425,7 +10425,7 @@
     </g>
   </g>
   <g id="GATE-34" data-wheel-position="58" data-inner-gate="10" data-outer-gate="34">
-    <g id="LINE-34.6" class="line">
+    <g id="LINE-34.6" class="line" data-gate="34" data-line="6">
       <text
     x="6491.11" y="1049.18"
     font-family="Copperplate-Light, Copperplate"
@@ -10456,7 +10456,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-34.5" class="line">
+    <g id="LINE-34.5" class="line" data-gate="34" data-line="5">
       <text
     x="6401.34" y="1050.65"
     font-family="Copperplate-Light, Copperplate"
@@ -10487,7 +10487,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-34.4" class="line">
+    <g id="LINE-34.4" class="line" data-gate="34" data-line="4">
       <text
     x="6311.61" y="1053.59"
     font-family="Copperplate-Light, Copperplate"
@@ -10515,7 +10515,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6323.18, 1336.35) rotate(87.66)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-34.3" class="line">
+    <g id="LINE-34.3" class="line" data-gate="34" data-line="3">
       <text
     x="6221.94" y="1058.00"
     font-family="Copperplate-Light, Copperplate"
@@ -10543,7 +10543,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6238.14, 1340.53) rotate(86.72)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-34.2" class="line">
+    <g id="LINE-34.2" class="line" data-gate="34" data-line="2">
       <text
     x="6132.35" y="1063.87"
     font-family="Copperplate-Light, Copperplate"
@@ -10571,7 +10571,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(6153.17, 1346.10) rotate(85.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-34.1" class="line">
+    <g id="LINE-34.1" class="line" data-gate="34" data-line="1">
       <text
     x="6042.87" y="1071.20"
     font-family="Copperplate-Light, Copperplate"
@@ -10601,7 +10601,7 @@
     </g>
   </g>
   <g id="GATE-18" data-wheel-position="59" data-inner-gate="58" data-outer-gate="18">
-    <g id="LINE-18.6" class="line">
+    <g id="LINE-18.6" class="line" data-gate="18" data-line="6">
       <text
     x="5953.52" y="1080.00"
     font-family="Copperplate-Light, Copperplate"
@@ -10629,7 +10629,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5983.57, 1361.41) rotate(83.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-18.5" class="line">
+    <g id="LINE-18.5" class="line" data-gate="18" data-line="5">
       <text
     x="5864.33" y="1090.26"
     font-family="Copperplate-Light, Copperplate"
@@ -10660,7 +10660,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-18.4" class="line">
+    <g id="LINE-18.4" class="line" data-gate="18" data-line="4">
       <text
     x="5775.32" y="1101.98"
     font-family="Copperplate-Light, Copperplate"
@@ -10691,7 +10691,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-18.3" class="line">
+    <g id="LINE-18.3" class="line" data-gate="18" data-line="3">
       <text
     x="5686.51" y="1115.16"
     font-family="Copperplate-Light, Copperplate"
@@ -10719,7 +10719,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5730.33, 1394.74) rotate(81.09)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-18.2" class="line">
+    <g id="LINE-18.2" class="line" data-gate="18" data-line="2">
       <text
     x="5597.93" y="1129.78"
     font-family="Copperplate-Light, Copperplate"
@@ -10747,7 +10747,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5646.31, 1408.62) rotate(80.16)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-18.1" class="line">
+    <g id="LINE-18.1" class="line" data-gate="18" data-line="1">
       <text
     x="5509.60" y="1145.85"
     font-family="Copperplate-Light, Copperplate"
@@ -10780,7 +10780,7 @@
     </g>
   </g>
   <g id="GATE-28" data-wheel-position="60" data-inner-gate="38" data-outer-gate="28">
-    <g id="LINE-28.6" class="line">
+    <g id="LINE-28.6" class="line" data-gate="28" data-line="6">
       <text
     x="5421.55" y="1163.37"
     font-family="Copperplate-Light, Copperplate"
@@ -10811,7 +10811,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-28.5" class="line">
+    <g id="LINE-28.5" class="line" data-gate="28" data-line="5">
       <text
     x="5333.79" y="1182.32"
     font-family="Copperplate-Light, Copperplate"
@@ -10839,7 +10839,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5395.80, 1458.45) rotate(77.34)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-28.4" class="line">
+    <g id="LINE-28.4" class="line" data-gate="28" data-line="4">
       <text
     x="5246.36" y="1202.71"
     font-family="Copperplate-Light, Copperplate"
@@ -10867,7 +10867,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5312.87, 1477.78) rotate(76.41)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-28.3" class="line">
+    <g id="LINE-28.3" class="line" data-gate="28" data-line="3">
       <text
     x="5159.27" y="1224.52"
     font-family="Copperplate-Light, Copperplate"
@@ -10895,7 +10895,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5230.27, 1498.47) rotate(75.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-28.2" class="line">
+    <g id="LINE-28.2" class="line" data-gate="28" data-line="2">
       <text
     x="5072.55" y="1247.76"
     font-family="Copperplate-Light, Copperplate"
@@ -10923,7 +10923,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(5148.03, 1520.51) rotate(74.53)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-28.1" class="line">
+    <g id="LINE-28.1" class="line" data-gate="28" data-line="1">
       <text
     x="4986.22" y="1272.41"
     font-family="Copperplate-Light, Copperplate"
@@ -10956,7 +10956,7 @@
     </g>
   </g>
   <g id="GATE-32" data-wheel-position="61" data-inner-gate="54" data-outer-gate="32">
-    <g id="LINE-32.6" class="line">
+    <g id="LINE-32.6" class="line" data-gate="32" data-line="6">
       <text
     x="4900.30" y="1298.47"
     font-family="Copperplate-Light, Copperplate"
@@ -10987,7 +10987,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-32.5" class="line">
+    <g id="LINE-32.5" class="line" data-gate="32" data-line="5">
       <text
     x="4814.83" y="1325.94"
     font-family="Copperplate-Light, Copperplate"
@@ -11018,7 +11018,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-32.4" class="line">
+    <g id="LINE-32.4" class="line" data-gate="32" data-line="4">
       <text
     x="4729.81" y="1354.80"
     font-family="Copperplate-Light, Copperplate"
@@ -11046,7 +11046,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4822.97, 1622.03) rotate(70.78)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-32.3" class="line">
+    <g id="LINE-32.3" class="line" data-gate="32" data-line="3">
       <text
     x="4645.28" y="1385.04"
     font-family="Copperplate-Light, Copperplate"
@@ -11074,7 +11074,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4742.80, 1650.71) rotate(69.84)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-32.2" class="line">
+    <g id="LINE-32.2" class="line" data-gate="32" data-line="2">
       <text
     x="4561.26" y="1416.67"
     font-family="Copperplate-Light, Copperplate"
@@ -11102,7 +11102,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(4663.11, 1680.71) rotate(68.91)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-32.1" class="line">
+    <g id="LINE-32.1" class="line" data-gate="32" data-line="1">
       <text
     x="4477.76" y="1449.66"
     font-family="Copperplate-Light, Copperplate"
@@ -11135,7 +11135,7 @@
     </g>
   </g>
   <g id="GATE-24" data-wheel-position="62" data-inner-gate="61" data-outer-gate="24">
-    <g id="LINE-24.6" class="line">
+    <g id="LINE-24.6" class="line" data-gate="24" data-line="6">
       <text
     x="4394.81" y="1484.02"
     font-family="Copperplate-Light, Copperplate"
@@ -11166,7 +11166,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-24.5" class="line">
+    <g id="LINE-24.5" class="line" data-gate="24" data-line="5">
       <text
     x="4312.44" y="1519.73"
     font-family="Copperplate-Light, Copperplate"
@@ -11197,7 +11197,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-24.4" class="line">
+    <g id="LINE-24.4" class="line" data-gate="24" data-line="4">
       <text
     x="4230.66" y="1556.78"
     font-family="Copperplate-Light, Copperplate"
@@ -11228,7 +11228,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-24.3" class="line">
+    <g id="LINE-24.3" class="line" data-gate="24" data-line="3">
       <text
     x="4149.50" y="1595.17"
     font-family="Copperplate-Light, Copperplate"
@@ -11259,7 +11259,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-24.2" class="line">
+    <g id="LINE-24.2" class="line" data-gate="24" data-line="2">
       <text
     x="4068.98" y="1634.88"
     font-family="Copperplate-Light, Copperplate"
@@ -11290,7 +11290,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-24.1" class="line">
+    <g id="LINE-24.1" class="line" data-gate="24" data-line="1">
       <text
     x="3989.12" y="1675.90"
     font-family="Copperplate-Light, Copperplate"
@@ -11320,7 +11320,7 @@
     </g>
   </g>
   <g id="GATE-3" data-wheel-position="63" data-inner-gate="60" data-outer-gate="3">
-    <g id="LINE-3.6" class="line">
+    <g id="LINE-3.6" class="line" data-gate="3" data-line="6">
       <text
     x="3909.94" y="1718.22"
     font-family="Copperplate-Light, Copperplate"
@@ -11351,7 +11351,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-3.5" class="line">
+    <g id="LINE-3.5" class="line" data-gate="3" data-line="5">
       <text
     x="3831.47" y="1761.83"
     font-family="Copperplate-Light, Copperplate"
@@ -11379,7 +11379,7 @@
   </g>
       <rect x="-30" y="-9.375" width="60" height="18.75" transform="translate(3970.96, 2008.07) rotate(60.47)" fill="#FFFFFF"/>
     </g>
-    <g id="LINE-3.4" class="line">
+    <g id="LINE-3.4" class="line" data-gate="3" data-line="4">
       <text
     x="3753.72" y="1806.72"
     font-family="Copperplate-Light, Copperplate"
@@ -11410,7 +11410,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-3.3" class="line">
+    <g id="LINE-3.3" class="line" data-gate="3" data-line="3">
       <text
     x="3676.71" y="1852.88"
     font-family="Copperplate-Light, Copperplate"
@@ -11441,7 +11441,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-3.2" class="line">
+    <g id="LINE-3.2" class="line" data-gate="3" data-line="2">
       <text
     x="3600.47" y="1900.29"
     font-family="Copperplate-Light, Copperplate"
@@ -11472,7 +11472,7 @@
       <rect x="5.625" y="-9.375" width="24.375" height="18.75" fill="#FFFFFF"/>
     </g>
     </g>
-    <g id="LINE-3.1" class="line">
+    <g id="LINE-3.1" class="line" data-gate="3" data-line="1">
       <text
     x="3525.01" y="1948.94"
     font-family="Copperplate-Light, Copperplate"

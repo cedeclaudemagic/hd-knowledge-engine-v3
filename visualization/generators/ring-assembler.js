@@ -305,12 +305,17 @@ function assembleRings(config) {
   const viewPadding = 50;
   const viewBoxSize = (maxVisualRadius + viewPadding) * 2;
 
-  // Build SVG
+  // Calculate viewBox origin for centering
+  const viewBoxOriginX = center.x - maxVisualRadius - viewPadding;
+  const viewBoxOriginY = center.y - maxVisualRadius - viewPadding;
+
+  // Build SVG with high precision for Illustrator compatibility
+  // Using .toFixed(4) instead of .toFixed(0) prevents sub-pixel drift
   let svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="${viewBoxSize.toFixed(0)}"
-     height="${viewBoxSize.toFixed(0)}"
-     viewBox="${(center.x - maxVisualRadius - viewPadding).toFixed(0)} ${(center.y - maxVisualRadius - viewPadding).toFixed(0)} ${viewBoxSize.toFixed(0)} ${viewBoxSize.toFixed(0)}">
+     width="${viewBoxSize.toFixed(4)}"
+     height="${viewBoxSize.toFixed(4)}"
+     viewBox="${viewBoxOriginX.toFixed(4)} ${viewBoxOriginY.toFixed(4)} ${viewBoxSize.toFixed(4)} ${viewBoxSize.toFixed(4)}">
   <style>
     text { fill: ${stroke}; }
     circle, line { stroke: ${stroke}; }
@@ -319,7 +324,7 @@ function assembleRings(config) {
 `;
 
   if (includeBackground) {
-    svg += `  <rect id="background" x="${(center.x - maxVisualRadius - viewPadding).toFixed(0)}" y="${(center.y - maxVisualRadius - viewPadding).toFixed(0)}" width="${viewBoxSize.toFixed(0)}" height="${viewBoxSize.toFixed(0)}" fill="${backgroundColor}" stroke="none"/>\n`;
+    svg += `  <rect id="background" x="${viewBoxOriginX.toFixed(4)}" y="${viewBoxOriginY.toFixed(4)}" width="${viewBoxSize.toFixed(4)}" height="${viewBoxSize.toFixed(4)}" fill="${backgroundColor}" stroke="none"/>\n`;
   }
 
   // Add each ring with its transform

@@ -471,7 +471,7 @@ function generateGateElements(wheelPosition) {
   // Generate all 6 lines (from 6 to 1 as they appear CCW to CW)
   for (let line = 6; line >= 1; line--) {
     const lineElements = generateLineElements(outerGate, line, wheelPosition);
-    elements.push(`    <g id="LINE-${outerGate}.${line}" class="line">`);
+    elements.push(`    <g id="LINE-${outerGate}.${line}" class="line" data-gate="${outerGate}" data-line="${line}">`);
     lineElements.forEach(el => elements.push('      ' + el));
     elements.push('    </g>');
   }
