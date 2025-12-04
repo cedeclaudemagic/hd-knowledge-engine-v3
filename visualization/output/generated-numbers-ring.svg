@@ -9,76 +9,76 @@
       <circle id="RING_-_OUTER" cx="1657.7978" cy="1657.4867" r="1648.5514" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
     </g>
     <g id="DIVIDERS">
-      <line id="LINE_-_41_19" x1="613.2366" y1="384.6853" x2="680.4598" y2="466.5968" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_19_13" x1="493.5101" y1="493.1990" x2="568.4383" y2="568.1272" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_13_49" x1="384.9964" y1="612.9255" x2="466.9079" y2="680.1487" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_49_30" x1="288.7403" y1="742.7118" x2="376.8465" y2="801.5824" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_30_55" x1="205.6691" y1="881.3077" x2="299.1214" y2="931.2590" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_55_37" x1="136.5827" y1="1027.3788" x2="234.4810" y2="1067.9296" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_37_63" x1="82.1464" y1="1179.5181" x2="183.5480" y2="1210.2779" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_63_22" x1="42.8844" y1="1336.2605" x2="146.8127" y2="1356.9331" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_22_36" x1="19.1750" y1="1496.0964" x2="124.6291" y2="1506.4828" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_36_25" x1="11.2464" y1="1657.4867" x2="117.2108" y2="1657.4867" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_25_17" x1="19.1750" y1="1818.8770" x2="124.6291" y2="1808.4906" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_17_21" x1="42.8844" y1="1978.7129" x2="146.8127" y2="1958.0403" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_21_51" x1="82.1464" y1="2135.4553" x2="183.5480" y2="2104.6955" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_51_42" x1="136.5827" y1="2287.5946" x2="234.4810" y2="2247.0438" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_42_3" x1="205.6691" y1="2433.6657" x2="299.1214" y2="2383.7144" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_3_27" x1="288.7403" y1="2572.2616" x2="376.8465" y2="2513.3910" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_27_24" x1="384.9964" y1="2702.0479" x2="466.9079" y2="2634.8247" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_24_2" x1="493.5101" y1="2821.7744" x2="568.4383" y2="2746.8462" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_2_23" x1="613.2366" y1="2930.2881" x2="680.4598" y2="2848.3766" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_23_8" x1="743.0229" y1="3026.5442" x2="801.8935" y2="2938.4380" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_8_20" x1="881.6188" y1="3109.6154" x2="931.5701" y2="3016.1631" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_20_16" x1="1027.6899" y1="3178.7018" x2="1068.2407" y2="3080.8035" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_16_35" x1="1179.8292" y1="3233.1381" x2="1210.5890" y2="3131.7365" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_35_45" x1="1336.5716" y1="3272.4001" x2="1357.2442" y2="3168.4718" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_45_12" x1="1496.4075" y1="3296.1095" x2="1506.7939" y2="3190.6554" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_12_15" x1="1657.7978" y1="3304.0381" x2="1657.7978" y2="3198.0737" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_15_52" x1="1819.1881" y1="3296.1095" x2="1808.8017" y2="3190.6554" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_52_39" x1="1979.0240" y1="3272.4001" x2="1958.3514" y2="3168.4718" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_39_53" x1="2135.7664" y1="3233.1381" x2="2105.0066" y2="3131.7365" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_53_62" x1="2287.9057" y1="3178.7018" x2="2247.3549" y2="3080.8035" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_62_56" x1="2433.9768" y1="3109.6154" x2="2384.0255" y2="3016.1631" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_56_31" x1="2572.5727" y1="3026.5442" x2="2513.7021" y2="2938.4380" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_31_33" x1="2702.3590" y1="2930.2881" x2="2635.1358" y2="2848.3766" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_33_7" x1="2822.0855" y1="2821.7744" x2="2747.1573" y2="2746.8462" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_7_4" x1="2930.5992" y1="2702.0479" x2="2848.6877" y2="2634.8247" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_4_29" x1="3026.8553" y1="2572.2616" x2="2938.7491" y2="2513.3910" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_29_59" x1="3109.9265" y1="2433.6657" x2="3016.4742" y2="2383.7144" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_59_40" x1="3179.0129" y1="2287.5946" x2="3081.1146" y2="2247.0438" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_40_64" x1="3233.4492" y1="2135.4553" x2="3132.0476" y2="2104.6955" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_64_47" x1="3272.7112" y1="1978.7129" x2="3168.7829" y2="1958.0403" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_47_6" x1="3296.4206" y1="1818.8770" x2="3190.9665" y2="1808.4906" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_6_46" x1="3304.3492" y1="1657.4867" x2="3198.3848" y2="1657.4867" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_46_18" x1="3296.4206" y1="1496.0964" x2="3190.9665" y2="1506.4828" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_18_48" x1="3272.7112" y1="1336.2605" x2="3168.7829" y2="1356.9331" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_48_57" x1="3233.4492" y1="1179.5181" x2="3132.0476" y2="1210.2779" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_57_32" x1="3179.0129" y1="1027.3788" x2="3081.1146" y2="1067.9296" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_32_50" x1="3109.9265" y1="881.3077" x2="3016.4742" y2="931.2590" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_50_28" x1="3026.8553" y1="742.7118" x2="2938.7491" y2="801.5824" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_28_44" x1="2930.5992" y1="612.9255" x2="2848.6877" y2="680.1487" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_44_1" x1="2822.0855" y1="493.1990" x2="2747.1573" y2="568.1272" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_1_43" x1="2702.3590" y1="384.6853" x2="2635.1358" y2="466.5968" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_43_14" x1="2572.5727" y1="288.4292" x2="2513.7021" y2="376.5354" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_14_34" x1="2433.9768" y1="205.3580" x2="2384.0255" y2="298.8103" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_34_9" x1="2287.9057" y1="136.2716" x2="2247.3549" y2="234.1699" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_9_5" x1="2135.7664" y1="81.8353" x2="2105.0066" y2="183.2369" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_5_26" x1="1979.0240" y1="42.5733" x2="1958.3514" y2="146.5016" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_26_11" x1="1819.1881" y1="18.8639" x2="1808.8017" y2="124.3180" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_11_10" x1="1657.7978" y1="10.9353" x2="1657.7978" y2="116.8997" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_10_58" x1="1496.4075" y1="18.8639" x2="1506.7939" y2="124.3180" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_58_38" x1="1336.5716" y1="42.5733" x2="1357.2442" y2="146.5016" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_38_54" x1="1179.8292" y1="81.8353" x2="1210.5890" y2="183.2369" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_54_61" x1="1027.6899" y1="136.2716" x2="1068.2407" y2="234.1699" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_61_60" x1="881.6188" y1="205.3580" x2="931.5701" y2="298.8103" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-      <line id="LINE_-_60_41" x1="743.0229" y1="288.4292" x2="801.8935" y2="376.5354" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_41_19" x1="592.5512" y1="401.9465" x2="661.1056" y2="482.7472" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_13" x1="474.6162" y1="512.4047" x2="550.7603" y2="586.0968" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_49" x1="368.0759" y1="633.8906" x2="451.0764" y2="699.7645" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_30" x1="273.9563" y1="765.2344" x2="363.0139" y2="822.6556" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_55" x1="193.1639" y1="905.1710" x2="287.4209" y2="953.5865" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_37" x1="126.4766" y1="1052.3528" x2="225.0254" y2="1091.2964" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_63" x1="74.5369" y1="1205.3624" x2="176.4282" y2="1234.4590" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_22" x1="37.8448" y1="1362.7262" x2="142.0974" y2="1381.6957" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_36" x1="16.7537" y1="1522.9288" x2="122.3637" y2="1531.5883" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_25" x1="11.4668" y1="1684.4271" x2="117.4170" y2="1682.6934" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_17" x1="22.0350" y1="1845.6661" x2="127.3051" y2="1833.5557" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_21" x1="48.3564" y1="2005.0927" x2="151.9326" y2="1982.7224" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_51" x1="90.1777" y1="2161.1717" x2="191.0624" y2="2128.7569" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_42" x1="147.0960" y1="2312.4000" x2="244.3177" y2="2270.2528" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_3" x1="218.5631" y1="2457.3211" x2="311.1856" y2="2405.8475" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_27" x1="303.8909" y1="2594.5393" x2="391.0221" y2="2534.2350" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_24" x1="402.2576" y1="2722.7333" x2="483.0583" y2="2654.1789" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_2" x1="512.7158" y1="2840.6683" x2="586.4079" y2="2764.5242" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_23" x1="634.2017" y1="2947.2086" x2="700.0756" y2="2864.2081" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_8" x1="765.5455" y1="3041.3282" x2="822.9667" y2="2952.2706" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_20" x1="905.4821" y1="3122.1206" x2="953.8976" y2="3027.8636" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_16" x1="1052.6639" y1="3188.8079" x2="1091.6075" y2="3090.2591" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_35" x1="1205.6735" y1="3240.7476" x2="1234.7701" y2="3138.8563" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_45" x1="1363.0373" y1="3277.4397" x2="1382.0068" y2="3173.1871" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_12" x1="1523.2399" y1="3298.5308" x2="1531.8994" y2="3192.9208" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_15" x1="1684.7382" y1="3303.8177" x2="1683.0045" y2="3197.8675" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_52" x1="1845.9772" y1="3293.2495" x2="1833.8668" y2="3187.9794" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_39" x1="2005.4038" y1="3266.9281" x2="1983.0335" y2="3163.3519" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_53" x1="2161.4828" y1="3225.1068" x2="2129.0680" y2="3124.2221" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_62" x1="2312.7111" y1="3168.1885" x2="2270.5639" y2="3070.9668" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_56" x1="2457.6322" y1="3096.7214" x2="2406.1586" y2="3004.0989" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_31" x1="2594.8504" y1="3011.3936" x2="2534.5461" y2="2924.2624" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_33" x1="2723.0444" y1="2913.0269" x2="2654.4900" y2="2832.2262" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_7" x1="2840.9794" y1="2802.5687" x2="2764.8353" y2="2728.8766" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_4" x1="2947.5197" y1="2681.0828" x2="2864.5192" y2="2615.2089" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_29" x1="3041.6393" y1="2549.7390" x2="2952.5817" y2="2492.3178" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_59" x1="3122.4317" y1="2409.8024" x2="3028.1747" y2="2361.3869" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_40" x1="3189.1190" y1="2262.6206" x2="3090.5702" y2="2223.6770" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_64" x1="3241.0587" y1="2109.6110" x2="3139.1674" y2="2080.5144" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_47" x1="3277.7508" y1="1952.2472" x2="3173.4982" y2="1933.2777" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_6" x1="3298.8419" y1="1792.0446" x2="3193.2319" y2="1783.3851" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_46" x1="3304.1288" y1="1630.5463" x2="3198.1786" y2="1632.2800" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_18" x1="3293.5606" y1="1469.3073" x2="3188.2905" y2="1481.4177" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_48" x1="3267.2392" y1="1309.8807" x2="3163.6630" y2="1332.2510" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_57" x1="3225.4179" y1="1153.8017" x2="3124.5332" y2="1186.2165" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_32" x1="3168.4996" y1="1002.5734" x2="3071.2779" y2="1044.7206" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_50" x1="3097.0325" y1="857.6523" x2="3004.4100" y2="909.1259" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_28" x1="3011.7047" y1="720.4341" x2="2924.5735" y2="780.7384" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_44" x1="2913.3380" y1="592.2401" x2="2832.5373" y2="660.7945" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_1" x1="2802.8798" y1="474.3051" x2="2729.1877" y2="550.4492" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_43" x1="2681.3939" y1="367.7648" x2="2615.5200" y2="450.7653" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_14" x1="2550.0501" y1="273.6452" x2="2492.6289" y2="362.7028" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_34" x1="2410.1135" y1="192.8528" x2="2361.6980" y2="287.1098" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_9" x1="2262.9317" y1="126.1655" x2="2223.9881" y2="224.7143" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_5" x1="2109.9221" y1="74.2258" x2="2080.8255" y2="176.1171" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_26" x1="1952.5583" y1="37.5337" x2="1933.5888" y2="141.7863" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_11" x1="1792.3557" y1="16.4426" x2="1783.6962" y2="122.0526" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_10" x1="1630.8574" y1="11.1557" x2="1632.5911" y2="117.1059" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_58" x1="1469.6184" y1="21.7239" x2="1481.7288" y2="126.9940" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_58_38" x1="1310.1918" y1="48.0453" x2="1332.5621" y2="151.6215" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_54" x1="1154.1128" y1="89.8666" x2="1186.5276" y2="190.7513" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_61" x1="1002.8845" y1="146.7849" x2="1045.0317" y2="244.0066" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_60" x1="857.9634" y1="218.2520" x2="909.4370" y2="310.8745" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_41" x1="720.7452" y1="303.5798" x2="781.0495" y2="390.7110" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
     </g>
   </g>
   <g id="GATE_NUMBERS" fill="#FFFFFF">
   <text
      data-gate="41"
-     transform="translate(708.5097 377.5199) rotate(323.4375)"
+     transform="translate(685.2593 390.0498) rotate(322.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -87,7 +87,7 @@
      style="isolation: isolate">41</text>
   <text
      data-gate="19"
-     transform="translate(587.6221 476.7298) rotate(317.8125)"
+     transform="translate(565.7118 491.4783) rotate(316.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -96,7 +96,7 @@
      style="isolation: isolate">19</text>
   <text
      data-gate="13"
-     transform="translate(477.0409 587.3110) rotate(312.1875)"
+     transform="translate(456.6817 604.1361) rotate(311.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -105,7 +105,7 @@
      style="isolation: isolate">13</text>
   <text
      data-gate="49"
-     transform="translate(377.8310 708.1986) rotate(306.5625)"
+     transform="translate(359.2190 726.9383) rotate(305.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -114,7 +114,7 @@
      style="isolation: isolate">49</text>
   <text
      data-gate="30"
-     transform="translate(290.9479 838.2284) rotate(300.9375)"
+     transform="translate(274.2623 858.7021) rotate(300.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -123,7 +123,7 @@
      style="isolation: isolate">30</text>
   <text
      data-gate="55"
-     transform="translate(217.2283 976.1481) rotate(295.3125)"
+     transform="translate(202.6298 998.1587) rotate(294.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -132,7 +132,7 @@
      style="isolation: isolate">55</text>
   <text
      data-gate="37"
-     transform="translate(157.3822 1120.6294) rotate(289.6875)"
+     transform="translate(145.0114 1143.9649) rotate(288.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -141,7 +141,7 @@
      style="isolation: isolate">37</text>
   <text
      data-gate="63"
-     transform="translate(111.9859 1270.2810) rotate(284.0625)"
+     transform="translate(101.9619 1294.7167) rotate(283.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -150,7 +150,7 @@
      style="isolation: isolate">63</text>
   <text
      data-gate="22"
-     transform="translate(81.4766 1423.6615) rotate(278.4375)"
+     transform="translate(73.8960 1448.9621) rotate(277.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -159,7 +159,7 @@
      style="isolation: isolate">22</text>
   <text
      data-gate="36"
-     transform="translate(66.1481 1579.2940) rotate(272.8125)"
+     transform="translate(61.0840 1605.2157) rotate(271.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -168,7 +168,7 @@
      style="isolation: isolate">36</text>
   <text
      data-gate="25"
-     transform="translate(66.1481 1735.6794) rotate(267.1875)"
+     transform="translate(63.6491 1761.9727) rotate(266.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -177,7 +177,7 @@
      style="isolation: isolate">25</text>
   <text
      data-gate="17"
-     transform="translate(81.4766 1891.3119) rotate(261.5625)"
+     transform="translate(81.5668 1917.7235) rotate(260.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -186,7 +186,7 @@
      style="isolation: isolate">17</text>
   <text
      data-gate="21"
-     transform="translate(111.9859 2044.6924) rotate(255.9375)"
+     transform="translate(114.6645 2070.9680) rotate(255.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -195,7 +195,7 @@
      style="isolation: isolate">21</text>
   <text
      data-gate="51"
-     transform="translate(157.3822 2194.3440) rotate(250.3125)"
+     transform="translate(162.6233 2220.2305) rotate(249.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -204,7 +204,7 @@
      style="isolation: isolate">51</text>
   <text
      data-gate="42"
-     transform="translate(217.2283 2338.8253) rotate(244.6875)"
+     transform="translate(224.9815 2364.0735) rotate(243.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -213,7 +213,7 @@
      style="isolation: isolate">42</text>
   <text
      data-gate="3"
-     transform="translate(290.9479 2476.7450) rotate(239.0625)"
+     transform="translate(301.1386 2501.1116) rotate(238.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -222,7 +222,7 @@
      style="isolation: isolate">3</text>
   <text
      data-gate="27"
-     transform="translate(377.8310 2606.7748) rotate(233.4375)"
+     transform="translate(390.3609 2630.0252) rotate(232.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -231,7 +231,7 @@
      style="isolation: isolate">27</text>
   <text
      data-gate="24"
-     transform="translate(477.0409 2727.6624) rotate(227.8125)"
+     transform="translate(491.7894 2749.5727) rotate(226.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -240,7 +240,7 @@
      style="isolation: isolate">24</text>
   <text
      data-gate="2"
-     transform="translate(587.6221 2838.2436) rotate(222.1875)"
+     transform="translate(604.4472 2858.6028) rotate(221.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -249,7 +249,7 @@
      style="isolation: isolate">2</text>
   <text
      data-gate="23"
-     transform="translate(708.5097 2937.4535) rotate(216.5625)"
+     transform="translate(727.2494 2956.0655) rotate(215.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -258,7 +258,7 @@
      style="isolation: isolate">23</text>
   <text
      data-gate="8"
-     transform="translate(838.5395 3024.3366) rotate(210.9375)"
+     transform="translate(859.0132 3041.0222) rotate(210.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -267,7 +267,7 @@
      style="isolation: isolate">8</text>
   <text
      data-gate="20"
-     transform="translate(976.4592 3098.0562) rotate(205.3125)"
+     transform="translate(998.4698 3112.6547) rotate(204.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -276,7 +276,7 @@
      style="isolation: isolate">20</text>
   <text
      data-gate="16"
-     transform="translate(1120.9405 3157.9023) rotate(199.6875)"
+     transform="translate(1144.2760 3170.2731) rotate(198.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -285,7 +285,7 @@
      style="isolation: isolate">16</text>
   <text
      data-gate="35"
-     transform="translate(1270.5921 3203.2986) rotate(194.0625)"
+     transform="translate(1295.0278 3213.3226) rotate(193.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -294,7 +294,7 @@
      style="isolation: isolate">35</text>
   <text
      data-gate="45"
-     transform="translate(1423.9726 3233.8079) rotate(188.4375)"
+     transform="translate(1449.2732 3241.3885) rotate(187.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -303,7 +303,7 @@
      style="isolation: isolate">45</text>
   <text
      data-gate="12"
-     transform="translate(1579.6051 3249.1364) rotate(182.8125)"
+     transform="translate(1605.5268 3254.2005) rotate(181.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -312,7 +312,7 @@
      style="isolation: isolate">12</text>
   <text
      data-gate="15"
-     transform="translate(1735.9905 3249.1364) rotate(177.1875)"
+     transform="translate(1762.2838 3251.6354) rotate(176.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -321,7 +321,7 @@
      style="isolation: isolate">15</text>
   <text
      data-gate="52"
-     transform="translate(1891.6230 3233.8079) rotate(171.5625)"
+     transform="translate(1918.0346 3233.7177) rotate(170.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -330,7 +330,7 @@
      style="isolation: isolate">52</text>
   <text
      data-gate="39"
-     transform="translate(2045.0035 3203.2986) rotate(165.9375)"
+     transform="translate(2071.2791 3200.6200) rotate(165.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -339,7 +339,7 @@
      style="isolation: isolate">39</text>
   <text
      data-gate="53"
-     transform="translate(2194.6551 3157.9023) rotate(160.3125)"
+     transform="translate(2220.5416 3152.6612) rotate(159.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -348,7 +348,7 @@
      style="isolation: isolate">53</text>
   <text
      data-gate="62"
-     transform="translate(2339.1364 3098.0562) rotate(154.6875)"
+     transform="translate(2364.3846 3090.3030) rotate(153.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -357,7 +357,7 @@
      style="isolation: isolate">62</text>
   <text
      data-gate="56"
-     transform="translate(2477.0561 3024.3366) rotate(149.0625)"
+     transform="translate(2501.4227 3014.1459) rotate(148.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -366,7 +366,7 @@
      style="isolation: isolate">56</text>
   <text
      data-gate="31"
-     transform="translate(2607.0859 2937.4535) rotate(143.4375)"
+     transform="translate(2630.3363 2924.9236) rotate(142.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -375,7 +375,7 @@
      style="isolation: isolate">31</text>
   <text
      data-gate="33"
-     transform="translate(2727.9735 2838.2436) rotate(137.8125)"
+     transform="translate(2749.8838 2823.4951) rotate(136.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -384,7 +384,7 @@
      style="isolation: isolate">33</text>
   <text
      data-gate="7"
-     transform="translate(2838.5547 2727.6624) rotate(132.1875)"
+     transform="translate(2858.9139 2710.8373) rotate(131.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -393,7 +393,7 @@
      style="isolation: isolate">7</text>
   <text
      data-gate="4"
-     transform="translate(2937.7646 2606.7748) rotate(126.5625)"
+     transform="translate(2956.3766 2588.0351) rotate(125.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -402,7 +402,7 @@
      style="isolation: isolate">4</text>
   <text
      data-gate="29"
-     transform="translate(3024.6477 2476.7450) rotate(120.9375)"
+     transform="translate(3041.3333 2456.2713) rotate(120.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -411,7 +411,7 @@
      style="isolation: isolate">29</text>
   <text
      data-gate="59"
-     transform="translate(3098.3673 2338.8253) rotate(115.3125)"
+     transform="translate(3112.9658 2316.8147) rotate(114.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -420,7 +420,7 @@
      style="isolation: isolate">59</text>
   <text
      data-gate="40"
-     transform="translate(3158.2134 2194.3440) rotate(109.6875)"
+     transform="translate(3170.5842 2171.0085) rotate(108.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -429,7 +429,7 @@
      style="isolation: isolate">40</text>
   <text
      data-gate="64"
-     transform="translate(3203.6097 2044.6924) rotate(104.0625)"
+     transform="translate(3213.6337 2020.2567) rotate(103.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -438,7 +438,7 @@
      style="isolation: isolate">64</text>
   <text
      data-gate="47"
-     transform="translate(3234.1190 1891.3119) rotate(98.4375)"
+     transform="translate(3241.6996 1866.0113) rotate(97.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -447,7 +447,7 @@
      style="isolation: isolate">47</text>
   <text
      data-gate="6"
-     transform="translate(3249.4475 1735.6794) rotate(92.8125)"
+     transform="translate(3254.5116 1709.7577) rotate(91.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -456,7 +456,7 @@
      style="isolation: isolate">6</text>
   <text
      data-gate="46"
-     transform="translate(3249.4475 1579.2940) rotate(87.1875)"
+     transform="translate(3251.9465 1553.0007) rotate(86.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -465,7 +465,7 @@
      style="isolation: isolate">46</text>
   <text
      data-gate="18"
-     transform="translate(3234.1190 1423.6615) rotate(81.5625)"
+     transform="translate(3234.0288 1397.2499) rotate(80.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -474,7 +474,7 @@
      style="isolation: isolate">18</text>
   <text
      data-gate="48"
-     transform="translate(3203.6097 1270.2810) rotate(75.9375)"
+     transform="translate(3200.9311 1244.0054) rotate(75.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -483,7 +483,7 @@
      style="isolation: isolate">48</text>
   <text
      data-gate="57"
-     transform="translate(3158.2134 1120.6294) rotate(70.3125)"
+     transform="translate(3152.9723 1094.7429) rotate(69.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -492,7 +492,7 @@
      style="isolation: isolate">57</text>
   <text
      data-gate="32"
-     transform="translate(3098.3673 976.1481) rotate(64.6875)"
+     transform="translate(3090.6141 950.8999) rotate(63.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -501,7 +501,7 @@
      style="isolation: isolate">32</text>
   <text
      data-gate="50"
-     transform="translate(3024.6477 838.2284) rotate(59.0625)"
+     transform="translate(3014.4570 813.8618) rotate(58.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -510,7 +510,7 @@
      style="isolation: isolate">50</text>
   <text
      data-gate="28"
-     transform="translate(2937.7646 708.1986) rotate(53.4375)"
+     transform="translate(2925.2347 684.9482) rotate(52.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -519,7 +519,7 @@
      style="isolation: isolate">28</text>
   <text
      data-gate="44"
-     transform="translate(2838.5547 587.3110) rotate(47.8125)"
+     transform="translate(2823.8062 565.4007) rotate(46.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -528,7 +528,7 @@
      style="isolation: isolate">44</text>
   <text
      data-gate="1"
-     transform="translate(2727.9735 476.7298) rotate(42.1875)"
+     transform="translate(2711.1484 456.3706) rotate(41.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -537,7 +537,7 @@
      style="isolation: isolate">1</text>
   <text
      data-gate="43"
-     transform="translate(2607.0859 377.5199) rotate(36.5625)"
+     transform="translate(2588.3462 358.9079) rotate(35.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -546,7 +546,7 @@
      style="isolation: isolate">43</text>
   <text
      data-gate="14"
-     transform="translate(2477.0561 290.6368) rotate(30.9375)"
+     transform="translate(2456.5824 273.9512) rotate(30.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -555,7 +555,7 @@
      style="isolation: isolate">14</text>
   <text
      data-gate="34"
-     transform="translate(2339.1364 216.9172) rotate(25.3125)"
+     transform="translate(2317.1258 202.3187) rotate(24.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -564,7 +564,7 @@
      style="isolation: isolate">34</text>
   <text
      data-gate="9"
-     transform="translate(2194.6551 157.0711) rotate(19.6875)"
+     transform="translate(2171.3196 144.7003) rotate(18.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -573,7 +573,7 @@
      style="isolation: isolate">9</text>
   <text
      data-gate="5"
-     transform="translate(2045.0035 111.6748) rotate(14.0625)"
+     transform="translate(2020.5678 101.6508) rotate(13.1250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -582,7 +582,7 @@
      style="isolation: isolate">5</text>
   <text
      data-gate="26"
-     transform="translate(1891.6230 81.1655) rotate(8.4375)"
+     transform="translate(1866.3224 73.5849) rotate(7.5000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -591,7 +591,7 @@
      style="isolation: isolate">26</text>
   <text
      data-gate="11"
-     transform="translate(1735.9905 65.8370) rotate(2.8125)"
+     transform="translate(1710.0688 60.7729) rotate(1.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -600,7 +600,7 @@
      style="isolation: isolate">11</text>
   <text
      data-gate="10"
-     transform="translate(1579.6051 65.8370) rotate(-2.8125)"
+     transform="translate(1553.3118 63.3380) rotate(-3.7500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -609,7 +609,7 @@
      style="isolation: isolate">10</text>
   <text
      data-gate="58"
-     transform="translate(1423.9726 81.1655) rotate(-8.4375)"
+     transform="translate(1397.5610 81.2557) rotate(-9.3750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -618,7 +618,7 @@
      style="isolation: isolate">58</text>
   <text
      data-gate="38"
-     transform="translate(1270.5921 111.6748) rotate(-14.0625)"
+     transform="translate(1244.3165 114.3534) rotate(-15.0000)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -627,7 +627,7 @@
      style="isolation: isolate">38</text>
   <text
      data-gate="54"
-     transform="translate(1120.9405 157.0711) rotate(-19.6875)"
+     transform="translate(1095.0540 162.3122) rotate(-20.6250)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -636,7 +636,7 @@
      style="isolation: isolate">54</text>
   <text
      data-gate="61"
-     transform="translate(976.4592 216.9172) rotate(-25.3125)"
+     transform="translate(951.2110 224.6704) rotate(-26.2500)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"
@@ -645,7 +645,7 @@
      style="isolation: isolate">61</text>
   <text
      data-gate="60"
-     transform="translate(838.5395 290.6368) rotate(-30.9375)"
+     transform="translate(814.1729 300.8275) rotate(-31.8750)"
      font-size="117.1932"
      font-family="Herculanum"
      text-anchor="middle"

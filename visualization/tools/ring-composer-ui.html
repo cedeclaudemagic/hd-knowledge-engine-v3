@@ -803,9 +803,9 @@
       <div class="control-row">
         <div class="control-label">
           <span>Start Radius</span>
-          <span class="control-value" id="start-radius-value">500</span>
+          <span class="control-value" id="start-radius-value">800</span>
         </div>
-        <input type="range" id="start-radius" min="100" max="800" value="500">
+        <input type="range" id="start-radius" min="100" max="1000" value="800">
       </div>
       <div class="control-row">
         <div class="control-label">
@@ -813,6 +813,13 @@
           <span class="control-value" id="default-gap-value">2px</span>
         </div>
         <input type="range" id="default-gap" min="0" max="30" value="2">
+      </div>
+      <div class="control-row">
+        <div class="control-label">
+          <span>Export Padding</span>
+          <span class="control-value" id="export-padding-value">288px</span>
+        </div>
+        <input type="range" id="export-padding" min="0" max="500" value="288">
       </div>
     </div>
 
@@ -859,14 +866,22 @@
         svgFile: null,
         radius: 0  // No center piece
       },
+      bodygraph088: {
+        name: 'Bodygraph (0.88x)',
+        color: '#FF6B6B',
+        svgFile: '../output/generated-bodygraph-0.88x.svg',
+        // Canvas is 1202.4747 x 1202.4747 with no offset
+        // Internal center at 601.2374, 601.2374
+        center: { x: 601.2374, y: 601.2374 },
+        radius: 524.88  // Gate dots at 88% of original radius (596.45 * 0.88)
+      },
       bodygraph: {
-        name: 'Bodygraph',
+        name: 'Bodygraph (1.0x)',
         color: '#FF6B6B',
         svgFile: '../output/generated-bodygraph.svg',
         // Canvas is 1232.9 x 1232.9 with content group having translate(15.2127, 15.2127)
         // The internal center is at viewBox/2 = 601.2374, but after the offset (15.2127)
         // the center IN CANVAS COORDINATES is: 601.2374 + 15.2127 = 616.45
-        // Note: The translate is INSIDE the content, so we add it to the internal center
         center: { x: 616.45, y: 616.45 },
         radius: 596.45  // Gate dots are at this radius from center
       }
@@ -1028,7 +1043,7 @@
         outerRadius: 6360,  // Dividers extend to 6360, keynotes at 5487
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() { return this.innerRadius - 2; },
-        get visualOuter() { return this.outerRadius + 100; }  // Extra for text overflow beyond dividers
+        get visualOuter() { return this.outerRadius + 200; }  // Extra for text overflow beyond dividers (keynotes extend ~150px)
       },
       channels: {
         name: 'Channels',
@@ -1060,28 +1075,29 @@
 
     // State
     let state = {
-      centerPiece: 'bodygraph',  // Selected center piece type ('none', 'bodygraph', etc.)
+      centerPiece: 'bodygraph088',  // Selected center piece type ('none', 'bodygraph088', 'bodygraph', etc.)
       rings: [
-        { type: 'numbers', scale: 1.0, gapAfter: 2 },      // Hexagram Numbers
+        { type: 'numbers', scale: 1.02, gapAfter: 15 },    // Hexagram Numbers
         { type: 'quarters', scale: 1.0, gapAfter: 2 },     // Quarters/Trigrams/Faces
         { type: 'calendar', scale: 1.0, gapAfter: 2 },     // Calendar
         { type: 'hexagrams', scale: 1.0, gapAfter: 2 },    // Hexagrams
         { type: 'codons', scale: 1.0, gapAfter: 2 },       // Codons
         { type: 'numbers', scale: 1.0, gapAfter: 2 },      // Hexagram Numbers (duplicate)
         { type: 'iching', scale: 1.0, gapAfter: 2 },       // I Ching Names
-        { type: 'gatenames', scale: 1.0, gapAfter: 2 },    // HD Gate Names
-        { type: 'yinchops', scale: 1.0, gapAfter: 2 },     // Yin Chops
-        { type: 'genekeys', scale: 1.0, gapAfter: 2 },     // Gene Keys
-        { type: 'yangchops', scale: 1.0, gapAfter: 2 },    // Yang Chops
+        { type: 'gatenames', scale: 1.0, gapAfter: 0 },    // HD Gate Names
+        { type: 'yinchops', scale: 1.0, gapAfter: 0 },     // Yin Chops
+        { type: 'genekeys', scale: 1.0, gapAfter: 0 },     // Gene Keys
+        { type: 'yangchops', scale: 1.0, gapAfter: 0 },    // Yang Chops
         { type: 'crosses', scale: 1.0, gapAfter: 2 },      // Incarnation Crosses
-        { type: 'channels', scale: 1.0, gapAfter: 2 },     // Channels
-        { type: 'lines', scale: 1.0, gapAfter: 2 }         // 384 Lines
+        { type: 'channels', scale: 1.0, gapAfter: 42 },    // Channels
+        { type: 'lines', scale: 0.99, gapAfter: 0 }        // 384 Lines
       ],
       selectedIndex: null,
-      startRadius: 500,
+      startRadius: 800,
       defaultGap: 2,
       center: { x: 1000, y: 1000 },
-      viewMode: 'actual' // 'actual' or 'schematic'
+      viewMode: 'actual', // 'actual' or 'schematic'
+      exportPadding: 288  // Extra border padding for export (px)
     };
 
     // Load SVG file and extract content (works for both rings and center pieces)
@@ -1261,14 +1277,15 @@
     async function renderPreview() {
       const placements = calculatePlacements();
       const svg = document.getElementById('preview-svg');
+      const padding = state.exportPadding || 150;
       const maxRadius = placements.length > 0
-        ? placements[placements.length - 1].visualOuter + 50
+        ? placements[placements.length - 1].visualOuter + padding
         : 500;
 
       const cx = state.center.x;
       const cy = state.center.y;
-      const viewSize = maxRadius * 2 + 100;
-      const viewMin = cx - maxRadius - 50;
+      const viewSize = maxRadius * 2 + padding;
+      const viewMin = cx - maxRadius - (padding / 2);
 
       svg.setAttribute('viewBox', `${viewMin} ${viewMin} ${viewSize} ${viewSize}`);
 
@@ -1276,6 +1293,13 @@
 
       // Background
       content += `<rect x="${viewMin}" y="${viewMin}" width="${viewSize}" height="${viewSize}" fill="#151E25"/>`;
+
+      // Export padding indicator (dashed rectangle showing content area)
+      const contentRadius = placements.length > 0 ? placements[placements.length - 1].visualOuter : (state.startRadius || 500);
+      const contentMin = cx - contentRadius - 10;
+      const contentSize = contentRadius * 2 + 20;
+      content += `<rect x="${contentMin}" y="${contentMin}" width="${contentSize}" height="${contentSize}"
+                        fill="none" stroke="#fab414" stroke-width="1" stroke-dasharray="10,5" stroke-opacity="0.4"/>`;
 
       // Render center piece first (underneath rings)
       const centerPlacement = calculateCenterPiecePlacement();
@@ -1632,13 +1656,16 @@
         selectedIndex: null,
         startRadius: 400,
         defaultGap: 0,
+        exportPadding: 150,
         center: { x: 1000, y: 1000 },
         viewMode: state.viewMode
       };
       document.getElementById('start-radius').value = 400;
       document.getElementById('default-gap').value = 0;
+      document.getElementById('export-padding').value = 150;
       document.getElementById('start-radius-value').textContent = '400';
       document.getElementById('default-gap-value').textContent = '0px';
+      document.getElementById('export-padding-value').textContent = '150px';
       render();
     }
 
@@ -1719,13 +1746,14 @@
     function exportSVG() {
       const placements = calculatePlacements();
       const centerPlacement = calculateCenterPiecePlacement();
+      const padding = state.exportPadding || 150;  // Use configurable padding
       const maxRadius = placements.length > 0
-        ? placements[placements.length - 1].visualOuter + 50
-        : (centerPlacement ? centerPlacement.radius + 50 : 500);
+        ? placements[placements.length - 1].visualOuter + padding
+        : (centerPlacement ? centerPlacement.radius + padding : 500);
       const cx = state.center.x;
       const cy = state.center.y;
-      const viewSize = maxRadius * 2 + 100;
-      const viewMin = cx - maxRadius - 50;
+      const viewSize = maxRadius * 2 + padding;
+      const viewMin = cx - maxRadius - (padding / 2);
 
       let svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -1781,6 +1809,7 @@
         center: state.center,
         startRadius: state.startRadius,
         defaultGap: state.defaultGap,
+        exportPadding: state.exportPadding,
         centerPiece: state.centerPiece,
         rings: state.rings.map(r => ({
           type: r.type,
@@ -1818,6 +1847,12 @@ const config = ${JSON.stringify(config, null, 2)};
       state.defaultGap = parseInt(e.target.value);
       document.getElementById('default-gap-value').textContent = e.target.value + 'px';
       render();
+    });
+
+    document.getElementById('export-padding').addEventListener('input', (e) => {
+      state.exportPadding = parseInt(e.target.value);
+      document.getElementById('export-padding-value').textContent = e.target.value + 'px';
+      renderPreview();  // Only update preview, not full render (prevents flickering)
     });
 
     // ============================================================================
