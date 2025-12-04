@@ -23,6 +23,9 @@ const path = require('path');
 
 const GEOMETRY = require('./bodygraph-geometry.json');
 
+// V3 positioning algorithm for consistent wheel alignment
+const positioning = require('../../core/root-system/positioning-algorithm');
+
 // Knowledge engine connections - Full V3 integration
 const centersData = require('../../knowledge-systems/centers/mappings/centers-mappings.json');
 const channelsData = require('../../knowledge-systems/channels/mappings/channels-mappings.json');
@@ -76,33 +79,27 @@ const CENTER_Y = GEOMETRY.viewBox.height / 2;  // ~601.24
 // Base radius for outer gate dots (extracted from original geometry)
 const BASE_DOT_RADIUS = 596.45;
 
-// Gate sequence around the wheel (position 0-63 maps to gate number)
-// This defines the angular position of each gate on the outer wheel
-const GATE_WHEEL_SEQUENCE = [
-  41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
-  27, 24, 2, 23, 8, 20, 16, 35, 45, 12, 15, 52, 39, 53, 62, 56,
-  31, 33, 7, 4, 29, 59, 40, 64, 47, 6, 46, 18, 48, 57, 32, 50,
-  28, 44, 1, 43, 14, 34, 9, 5, 26, 11, 10, 58, 38, 54, 61, 60
-];
+// Position offset: aligns V3 angles to SVG wheel positions
+// Same as other ring generators for consistency
+const POSITION_OFFSET = 323.4375;
 
-// Build reverse lookup: gate number -> wheel position (0-63)
-const GATE_TO_POSITION = {};
-GATE_WHEEL_SEQUENCE.forEach((gate, pos) => {
-  GATE_TO_POSITION[gate] = pos;
-});
+/**
+ * Calculate SVG position angle from V3 angle
+ * Uses the same formula as numbers-ring.js and other generators
+ * for consistent wheel alignment across all components.
+ */
+function calculateSVGAngle(v3Angle) {
+  return -v3Angle - 90 + POSITION_OFFSET;
+}
 
 /**
  * Calculate the angle (in radians) for a gate's position on the wheel
- * Gate 41 (position 0) is at -127.5°, going counter-clockwise
+ * Uses V3 positioning algorithm for consistency with other ring generators.
  */
 function getGateAngle(gateNum) {
-  const position = GATE_TO_POSITION[gateNum];
-  // Start from Gate 41's position (-127.5°), go counter-clockwise (negative direction)
-  // Each position is 360/64 = 5.625 degrees apart
-  // Note: -127.5° aligns with V3 positioning algorithm (Gate 41 at 0.9375° -> SVG 232.5° -> -127.5°)
-  const startAngle = -127.5;
-  const degrees = startAngle - (position * 360 / 64);
-  return degrees * Math.PI / 180;
+  const v3Data = positioning.getDockingData(gateNum, 1);
+  const svgAngle = calculateSVGAngle(v3Data.angle);
+  return svgAngle * Math.PI / 180;
 }
 
 /**
