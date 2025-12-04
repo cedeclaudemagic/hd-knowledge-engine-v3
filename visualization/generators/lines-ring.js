@@ -338,11 +338,7 @@ function generateLineElements(gateNumber, lineNumber, wheelPosition) {
   const innerGate = gateSequence[wheelPosition];
   const v3Data = positioning.getDockingData(innerGate, 1);
 
-  // OUTER RING ADJUSTMENT: The lines ring is an outer ring with its own positioning
-  // philosophy, decoupled from the inner wheel structure. Subtract one LINE_ARC to
-  // maintain alignment after the core positioning algorithm fix.
-  const OUTER_RING_ADJUST = -0.9375;  // One LINE_ARC
-  const baseAngle = v3Data.angle + OUTER_RING_ADJUST;
+  const baseAngle = v3Data.angle;
 
   // Calculate angle offset for this line within the gate
   // We need to determine if this gate is on the left or right side first
@@ -494,10 +490,8 @@ function generateDividers() {
     const v3DataA = positioning.getDockingData(gateA, 1);
     const v3DataB = positioning.getDockingData(gateB, 1);
 
-    // OUTER RING ADJUSTMENT (same as line elements)
-    const OUTER_RING_ADJUST = -0.9375;
-    const angleA = v3DataA.angle + OUTER_RING_ADJUST;
-    const angleB = v3DataB.angle + OUTER_RING_ADJUST;
+    const angleA = v3DataA.angle;
+    const angleB = v3DataB.angle;
 
     // Calculate midpoint angle
     let midAngle;

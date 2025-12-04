@@ -89,17 +89,11 @@ const FONT = {
 // Use shared color scheme
 const COLORS = shared.COLORS;
 
-// Line position correction: V3 positioning uses 1-indexed lines, but line 1
-// should START at the gate boundary. This offset corrects for that.
-// Note: negative because it's applied to v3Angle before the sign flip in calculateSVGAngle
-const LINE_START_OFFSET = -0.9375;  // -1 line arc (becomes +0.9375 after sign flip)
-
 /**
  * Calculate SVG position angle from V3 angle
- * Includes LINE_START_OFFSET to correct for 1-indexed line positions
  */
 function calculateSVGAngle(v3Angle) {
-  return shared.calculateSVGAngle(v3Angle + LINE_START_OFFSET);
+  return shared.calculateSVGAngle(v3Angle);
 }
 
 /**
@@ -111,10 +105,9 @@ function calculateRotation(svgAngle) {
 
 /**
  * Calculate SVG position for a cross at specified radius
- * Includes LINE_START_OFFSET to correct for 1-indexed line positions
  */
 function calculatePosition(v3Angle, radius) {
-  return shared.calculatePosition(v3Angle + LINE_START_OFFSET, radius, CENTER);
+  return shared.calculatePosition(v3Angle, radius, CENTER);
 }
 
 /**

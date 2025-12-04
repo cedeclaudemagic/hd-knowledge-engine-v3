@@ -37,7 +37,9 @@ function getWheelPosition(gateNumber, lineNumber = 1) {
     throw new Error(`Gate ${gateNumber} not found in sequence`);
   }
 
-  const linePosition = (wheelIndex * LINES_PER_GATE) + lineNumber;
+  // Use (lineNumber - 1) so line 1 starts at 0°, not 0.9375°
+  // This ensures gate 41 line 1 is at 0° (the wheel origin)
+  const linePosition = (wheelIndex * LINES_PER_GATE) + (lineNumber - 1);
   const angle = linePosition * DEGREES_PER_LINE;
 
   return {

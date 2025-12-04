@@ -70,10 +70,9 @@ const GATE_ARC = 5.625;  // Degrees per gate
 const LINE_ARC = GATE_ARC / 6;  // 0.9375° per line
 
 // POSITION_ADJUST: Offset to align chops/dividers with the reference yin-chops SVG.
-// The V3 positioning gives line START positions, but visual elements need to be
-// offset to align correctly on the wheel with other rings.
-// Derived from reference: -GATE_ARC / 2 - LINE_ARC = -3.75° (4 line arcs)
-const POSITION_ADJUST = -GATE_ARC / 2 - LINE_ARC;  // -3.75°
+// After root fix in positioning-algorithm.js (lineNumber - 1), need +0.9375° adjustment
+// Original: -3.75° (4 line arcs), now: -2.8125° (3 line arcs)
+const POSITION_ADJUST = -GATE_ARC / 2;  // -2.8125°
 
 // ============================================================================
 // DATA LOOKUP
