@@ -45,12 +45,14 @@ const GATE_KNOWLEDGE = buildGateKnowledgeLookup();
 const COLORS = {
   background: '#151E25',    // Dark blue-grey canvas
   foreground: '#FFFFFF',    // White for all elements
+  silver: '#D4D8DC',        // Tinted silver - matches branding ring text
   highlight: '#fab414',     // Gold accent
   stroke: '#FFFFFF',        // White strokes
   gateStroke: '#FFFFFF',    // Gate circle stroke
   gateFill: '#FFFFFF',      // Gate circles filled white
   centerStroke: '#FFFFFF',  // Center outline stroke
   centerFill: 'none',       // Large center shapes unfilled
+  centerDefinitionFill: '#D4D8DC', // Silver fill for center definitions
   channelStroke: '#FFFFFF', // Channel path stroke
   connectorStroke: '#FFFFFF' // Connector line stroke
 };
@@ -625,7 +627,7 @@ function generateCenterShapes() {
 }
 
 /**
- * Generate center definitions (inner markers) - solid white filled
+ * Generate center definitions (inner markers) - silver filled
  */
 function generateCenterDefinitions() {
   const elements = [];
@@ -637,7 +639,7 @@ function generateCenterDefinitions() {
        data-center="${centerName}"
        d="${defData.d}"
        ${defData.transform ? `transform="${defData.transform}"` : ''}
-       fill="${COLORS.foreground}"
+       fill="${COLORS.centerDefinitionFill}"
        stroke="none"/>`);
   }
 
