@@ -60,18 +60,31 @@ const GATE_ARC = 5.625;           // Degrees per gate
 const LINE_ARC = GATE_ARC / 6;    // 0.9375° per line
 const HALF_LINE_ARC = LINE_ARC / 2;  // 0.46875° - for centering chops
 
-// POSITION_ADJUST: Offset to align with reference SVG and other rings.
+// POSITION_ADJUST: Base offset to align with reference SVG and other rings.
 // The V3 positioning gives line START positions, but visual elements need
 // to be offset to align correctly on the wheel with other rings.
 // Same offset as full-chops-ring.js: -GATE_ARC / 2 - LINE_ARC = -3.75°
 const POSITION_ADJUST = -GATE_ARC / 2 - LINE_ARC;  // -3.75°
 
-function zodiacToSvgAngle(zodiacDegree, forChop = false) {
+// Band-specific adjustments to fine-tune alignment
+const CHOPS_ADJUST = LINE_ARC;        // +0.9375° for chops band
+const ZODIAC_MONTH_ADJUST = -LINE_ARC; // -0.9375° for zodiac and month bands
+
+function zodiacToSvgAngle(zodiacDegree, forChop = false, forZodiacMonth = false) {
   // Convert zodiac degree to V3 angle (gate 41.1 at V3 0° = zodiac 302°)
   const v3Angle = (zodiacDegree - 302 + 360) % 360;
-  // Apply POSITION_ADJUST to align with other rings
-  // For chops, also add half line arc to center within line boundary
-  const adjustedAngle = v3Angle + POSITION_ADJUST + (forChop ? HALF_LINE_ARC : 0);
+
+  // Apply base offset plus band-specific adjustment
+  let adjustedAngle = v3Angle + POSITION_ADJUST;
+
+  if (forChop) {
+    // Chops get their own offset plus half line arc to center within line boundary
+    adjustedAngle += CHOPS_ADJUST + HALF_LINE_ARC;
+  } else if (forZodiacMonth) {
+    // Zodiac and month elements get opposite offset
+    adjustedAngle += ZODIAC_MONTH_ADJUST;
+  }
+
   // Use shared formula for consistency with all other ring generators
   return shared.calculateSVGAngle(adjustedAngle);
 }
@@ -199,7 +212,7 @@ function generateMonthDividers() {
   MONTHS.forEach((month, index) => {
     // Divider is at the boundary between months
     const dividerDegree = month.startDegree;
-    const svgAngle = zodiacToSvgAngle(dividerDegree);
+    const svgAngle = zodiacToSvgAngle(dividerDegree, false, true);
     const radians = svgAngle * Math.PI / 180;
 
     // Month dividers in outer band: borderOuter to outerRadius
@@ -222,7 +235,7 @@ function generateZodiacDividers() {
   const dividers = [];
 
   ZODIAC_SIGNS.forEach((sign, index) => {
-    const svgAngle = zodiacToSvgAngle(sign.startDegree);
+    const svgAngle = zodiacToSvgAngle(sign.startDegree, false, true);
     const radians = svgAngle * Math.PI / 180;
 
     // Zodiac dividers in inner band: innerRadius to borderInner
@@ -260,7 +273,7 @@ function generateMonthLabels() {
 
   MONTHS.forEach(month => {
     // midDegree is the zodiac degree where the Sun is on ~15th of the month
-    const svgAngle = zodiacToSvgAngle(month.midDegree);
+    const svgAngle = zodiacToSvgAngle(month.midDegree, false, true);
     const radians = svgAngle * Math.PI / 180;
 
     const x = CENTER.x + labelRadius * Math.cos(radians);
@@ -290,7 +303,7 @@ function generateZodiacLabels() {
   ZODIAC_SIGNS.forEach(sign => {
     // Position label in the middle of the sign's arc
     const midDegree = sign.startDegree + 15;
-    const svgAngle = zodiacToSvgAngle(midDegree);
+    const svgAngle = zodiacToSvgAngle(midDegree, false, true);
     const radians = svgAngle * Math.PI / 180;
 
     const x = CENTER.x + labelRadius * Math.cos(radians);

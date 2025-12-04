@@ -45,12 +45,17 @@ const TEXT_RADIUS = RING.midRadius;
 // Same as hexagram ring - the wheel alignment is consistent
 const POSITION_OFFSET = 323.4375;
 
+// Line position correction: V3 positioning uses 1-indexed lines, but line 1
+// should START at the gate boundary. This offset corrects for that.
+const LINE_START_OFFSET = 0.9375;  // +1 line arc
+
 /**
  * Calculate SVG position angle from V3 angle
  * Same formula as hexagram ring - maintains wheel consistency
+ * Includes LINE_START_OFFSET to correct for 1-indexed line positions
  */
 function calculateSVGAngle(v3Angle) {
-  return -v3Angle - 90 + POSITION_OFFSET;
+  return -v3Angle - 90 + POSITION_OFFSET + LINE_START_OFFSET;
 }
 
 /**
