@@ -1643,52 +1643,76 @@
     }
 
     /**
-     * Font-specific baseline correction for Illustrator compatibility.
-     *
-     * Illustrator ignores dominant-baseline="central", causing text to render
-     * at the baseline instead of vertically centered. This function adds a dy
-     * attribute to compensate, shifting text by half the cap height.
-     *
-     * Correction values derived from analysis of Illustrator exports:
-     * - Herculanum: -0.35em (cap height ratio ~0.70)
-     * - Copperplate family: -0.34em (cap height ratio ~0.68)
-     * - Default: -0.35em (safe fallback for unknown fonts)
+     * Font-specific baseline corrections for Illustrator compatibility.
+     * Values are in em units (half cap height).
      */
     const BASELINE_CORRECTIONS = {
-      'Herculanum': '0.35em',
-      'Copperplate': '0.34em',
-      'Copperplate-Bold': '0.34em',
-      'Copperplate-Light': '0.34em',
-      'Copperplate-Bold, Copperplate': '0.34em',
-      'Copperplate-Light, Copperplate': '0.34em',
-      'Copperplate, Copperplate-Light': '0.34em',
-      'default': '0.35em'
+      'Herculanum': 0.35,
+      'Copperplate': 0.34,
+      'Copperplate-Bold': 0.34,
+      'Copperplate-Light': 0.34,
+      'Copperplate-Bold, Copperplate': 0.34,
+      'Copperplate-Light, Copperplate': 0.34,
+      'Copperplate, Copperplate-Light': 0.34,
+      'default': 0.35
     };
 
     /**
-     * Apply baseline correction to SVG content for Illustrator export.
-     * Adds dy attribute to ALL <text> elements based on their font-family.
+     * Apply baseline correction for Illustrator export.
      *
-     * This corrects for Illustrator ignoring dominant-baseline="central".
-     * Both single-line and multiline text elements need this correction.
+     * - Single-line text: adds dy attribute to <text> element
+     * - Multiline text: adds baseline correction to FIRST tspan's dy value
      */
     function applyBaselineCorrection(svgContent) {
-      // Match text elements and add dy attribute based on font-family
-      return svgContent.replace(
-        /<text([^>]*?)font-family="([^"]+)"([^>]*?)>/g,
-        (match, before, fontFamily, after) => {
-          // Skip if text element already has dy attribute
+      let result = svgContent;
+
+      // Handle single-line text (no tspan) - add dy to text element
+      result = result.replace(
+        /<text([^>]*?)font-family="([^"]+)"([^>]*)>([^<]*)<\/text>/g,
+        (match, before, fontFamily, after, content) => {
           if (before.includes('dy=') || after.includes('dy=')) {
-            return match; // Don't override existing dy
+            return match;
           }
-
-          // Get correction for this font (or default)
           const correction = BASELINE_CORRECTIONS[fontFamily] || BASELINE_CORRECTIONS['default'];
-
-          // Add dy attribute after font-family
-          return `<text${before}font-family="${fontFamily}" dy="${correction}"${after}>`;
+          return `<text${before}font-family="${fontFamily}" dy="${correction}em"${after}>${content}</text>`;
         }
       );
+
+      // Handle multiline text - modify first tspan's dy value
+      result = result.replace(
+        /<text([^>]*?)font-family="([^"]+)"([^>]*)>([\s\S]*?)<\/text>/g,
+        (match, before, fontFamily, after, content) => {
+          if (!content.includes('<tspan')) {
+            return match;
+          }
+
+          const correction = BASELINE_CORRECTIONS[fontFamily] || BASELINE_CORRECTIONS['default'];
+          let firstTspanProcessed = false;
+
+          // Modify only the first tspan's dy value
+          const updatedContent = content.replace(
+            /<tspan([^>]*?)dy="([^"]+)"([^>]*)>/g,
+            (tspanMatch, tspanBefore, dyValue, tspanAfter) => {
+              if (firstTspanProcessed) {
+                return tspanMatch; // Leave subsequent tspans unchanged
+              }
+              firstTspanProcessed = true;
+
+              // Parse existing dy and add correction (convert em to approximate px)
+              const existingDy = parseFloat(dyValue);
+              // Assuming ~16px base font, 0.34em ≈ 5.4px
+              const correctionPx = correction * 16;
+              const newDy = existingDy + correctionPx;
+
+              return `<tspan${tspanBefore}dy="${newDy.toFixed(1)}"${tspanAfter}>`;
+            }
+          );
+
+          return `<text${before}font-family="${fontFamily}"${after}>${updatedContent}</text>`;
+        }
+      );
+
+      return result;
     }
 
     // Export SVG - generates actual composited SVG
@@ -1720,10 +1744,8 @@
       if (centerPlacement) {
         const centerContent = svgCache[centerPlacement.type];
         if (centerContent) {
-          // Apply baseline correction for Illustrator compatibility
-          const correctedContent = applyBaselineCorrection(centerContent);
           svg += `  <g id="center-piece" transform="${centerPlacement.transform}">\n`;
-          svg += `    ${correctedContent}\n`;
+          svg += `    ${centerContent}\n`;
           svg += `  </g>\n`;
         }
       }
@@ -1732,15 +1754,16 @@
       for (const p of placements) {
         const svgContent = svgCache[p.type];
         if (svgContent) {
-          // Apply baseline correction for Illustrator compatibility
-          const correctedContent = applyBaselineCorrection(svgContent);
           svg += `  <g id="${p.type}-ring" transform="${p.transform}">\n`;
-          svg += `    ${correctedContent}\n`;
+          svg += `    ${svgContent}\n`;
           svg += `  </g>\n`;
         }
       }
 
       svg += `</svg>`;
+
+      // Apply baseline correction for Illustrator compatibility
+      svg = applyBaselineCorrection(svg);
 
       // Download
       const blob = new Blob([svg], { type: 'image/svg+xml' });
