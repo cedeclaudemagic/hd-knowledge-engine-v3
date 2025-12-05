@@ -931,16 +931,16 @@
       <div class="control-row">
         <div class="control-label">
           <span>Start Radius</span>
-          <span class="control-value" id="start-radius-value">800</span>
+          <span class="control-value" id="start-radius-value">1000</span>
         </div>
-        <input type="range" id="start-radius" min="100" max="1000" value="800">
+        <input type="range" id="start-radius" min="100" max="1500" value="1000">
       </div>
       <div class="control-row">
         <div class="control-label">
           <span>Default Gap</span>
-          <span class="control-value" id="default-gap-value">2px</span>
+          <span class="control-value" id="default-gap-value">8px</span>
         </div>
-        <input type="range" id="default-gap" min="0" max="30" value="2">
+        <input type="range" id="default-gap" min="0" max="30" value="8">
         <button id="apply-default-gap" class="apply-gap-btn" title="Apply to all rings">Apply All</button>
       </div>
       <div class="control-row">
@@ -1257,24 +1257,24 @@
     let state = {
       centerPiece: 'bodygraph',  // Selected center piece type ('none', 'bodygraph088', 'bodygraph', etc.)
       rings: [
-        { type: 'numbers', scale: 1.02 },    // Hexagram Numbers
-        { type: 'quarters', scale: 1.0 },     // Quarters/Trigrams/Faces
-        { type: 'calendar', scale: 1.0 },     // Calendar
-        { type: 'hexagrams', scale: 1.0 },    // Hexagrams
-        { type: 'codons', scale: 1.0 },       // Codons
-        { type: 'numbers', scale: 1.0 },      // Hexagram Numbers (duplicate)
-        { type: 'iching', scale: 1.0 },       // I Ching Names
-        { type: 'gatenames', scale: 1.0 },    // HD Gate Names
-        { type: 'yinchops', scale: 1.0 },     // Yin Chops
-        { type: 'genekeys', scale: 1.0 },     // Gene Keys
-        { type: 'yangchops', scale: 1.0 },    // Yang Chops
-        { type: 'crosses', scale: 1.0 },      // Incarnation Crosses
-        { type: 'channels', scale: 1.0 },     // Channels
-        { type: 'lines', scale: 0.99 }        // 384 Lines
+        { type: 'numbers', scale: 1.02, gapAfter: 64 },   // Hexagram Numbers
+        { type: 'quarters', scale: 1.0, gapAfter: 8 },     // Quarters/Trigrams/Faces
+        { type: 'calendar', scale: 1.0, gapAfter: 8 },     // Calendar
+        { type: 'hexagrams', scale: 1.0, gapAfter: 8 },    // Hexagrams
+        { type: 'codons', scale: 1.0, gapAfter: 8 },       // Codons
+        { type: 'numbers', scale: 1.0, gapAfter: 8 },      // Hexagram Numbers (duplicate)
+        { type: 'iching', scale: 1.0, gapAfter: 8 },       // I Ching Names
+        { type: 'gatenames', scale: 1.0, gapAfter: 0 },    // HD Gate Names
+        { type: 'yinchops', scale: 1.0, gapAfter: 0 },     // Yin Chops
+        { type: 'genekeys', scale: 1.0, gapAfter: 0 },     // Gene Keys
+        { type: 'yangchops', scale: 1.0, gapAfter: 0 },    // Yang Chops
+        { type: 'crosses', scale: 1.0, gapAfter: 8 },      // Incarnation Crosses
+        { type: 'channels', scale: 1.0, gapAfter: 0 },     // Channels
+        { type: 'lines', scale: 1.0, gapAfter: 8 }         // 384 Lines
       ],
       selectedIndex: null,
-      startRadius: 800,
-      defaultGap: 2,
+      startRadius: 1000,
+      defaultGap: 8,
       center: { x: 1000, y: 1000 },
       viewMode: 'actual', // 'actual' or 'schematic'
       exportPadding: 288  // Extra border padding for export (px)
