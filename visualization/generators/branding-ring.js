@@ -104,7 +104,7 @@ const ORIGINAL = {
 // Colors
 const COLORS = {
   white: '#fff',
-  silver: '#D4D8DC',    // Tinted Silver - for text label only
+  silver: '#D4D8DC',    // Tinted Silver - for logo text and serial number hexagrams
   gold: '#fab300',
   background: '#151E25'
 };
@@ -159,7 +159,7 @@ function calculateSerialPositions() {
  * IMPORTANT: topY is always the TOP of the line for consistent spacing
  * Both yang (solid) and yin (broken) use rect elements with identical positioning
  */
-function generateHexLine(topY, isYang, fill = COLORS.white) {
+function generateHexLine(topY, isYang, fill = COLORS.silver) {
   const leftX = ORIGINAL.serial.leftSegmentX;
   const rightSegX = ORIGINAL.serial.rightSegmentX;
   const segW = ORIGINAL.segmentWidth;
@@ -185,7 +185,7 @@ function generateHexLine(topY, isYang, fill = COLORS.white) {
  * @param {string} dataName - data-name attribute
  * @param {string} fill - Fill color
  */
-function generateHexagram(gateNumber, line1TopY, id, dataName, fill = COLORS.white) {
+function generateHexagram(gateNumber, line1TopY, id, dataName, fill = COLORS.silver) {
   const binary = getHexagramBinary(gateNumber);
   const lines = [];
 

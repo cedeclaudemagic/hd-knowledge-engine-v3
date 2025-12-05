@@ -2,54 +2,45 @@
   <rect id="background" width="100%" height="100%" fill="#151E25"/>
   <g id="LOGO_and_Serial_Number" data-name="LOGO and Serial Number">
     <g id="SERIAL_NUMBER" data-name="SERIAL NUMBER">
-      <g id="CENTURY_-_20" data-name="CENTURY - 20">
-        <rect x="13594.3105" y="13628.9861" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13628.9861" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13614.2242" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13614.2242" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13599.4623" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13599.4623" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13584.7004" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13584.7004" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13569.9385" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13555.1766" width="38.75" height="3.3214" fill="#fff"/>
+      <g id="CENTURY_-_21" data-name="CENTURY - 21">
+        <rect x="13594.31" y="13628.9861" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.3105" y="13614.2242" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13618.2985" y="13614.2242" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.3105" y="13599.4623" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13618.2985" y="13599.4623" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13584.7004" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.3105" y="13569.9385" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13618.2985" y="13569.9385" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13555.1766" width="38.75" height="3.3214" fill="#D4D8DC"/>
       </g>
       <circle id="Dot_Above_CENTURY" data-name="Dot Above CENTURY" cx="13614.0056" cy="13539.947400000001" r="3.2292" fill="#fff"/>
       <g id="YEAR_-_25" data-name="YEAR - 25">
-        <rect x="13594.31" y="13524.718200000001" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13509.956300000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13509.956300000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13495.1944" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13495.1944" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13480.4325" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13465.670600000001" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13450.908700000002" width="38.75" height="3.3214" fill="#fff"/>
+        <rect x="13594.31" y="13524.718200000001" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.3105" y="13509.956300000002" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13618.2985" y="13509.956300000002" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.3105" y="13495.1944" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13618.2985" y="13495.1944" width="14.7619" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13480.4325" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13465.670600000001" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13450.908700000002" width="38.75" height="3.3214" fill="#D4D8DC"/>
       </g>
       <circle id="Dot_Above_YEAR" data-name="Dot Above YEAR" cx="13614.0056" cy="13435.679500000002" r="3.2292" fill="#fff"/>
-      <g id="COLLECTION_-_61" data-name="COLLECTION - 61">
-        <rect x="13594.31" y="13420.450300000002" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13405.688400000003" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13390.926500000001" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13390.926500000001" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13376.164600000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13376.164600000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13361.402700000002" width="38.75" height="3.3214" fill="#fff"/>
-        <rect x="13594.31" y="13346.640800000003" width="38.75" height="3.3214" fill="#fff"/>
+      <g id="COLLECTION_-_1" data-name="COLLECTION - 1">
+        <rect x="13594.31" y="13420.450300000002" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13405.688400000003" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13390.926500000001" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13376.164600000002" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13361.402700000002" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13346.640800000003" width="38.75" height="3.3214" fill="#D4D8DC"/>
       </g>
       <circle id="Dot_Above_COLLECTION" data-name="Dot Above COLLECTION" cx="13614.0056" cy="13331.411600000003" r="3.2292" fill="#fff"/>
-      <g id="STYLE_-_2" data-name="STYLE - 2">
-        <rect x="13594.3105" y="13316.182400000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13316.182400000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13301.420500000004" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13301.420500000004" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13286.658600000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13286.658600000002" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13271.896700000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13271.896700000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13257.134800000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13257.134800000003" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13594.3105" y="13242.372900000004" width="14.7619" height="3.3214" fill="#fff"/>
-        <rect x="13618.2985" y="13242.372900000004" width="14.7619" height="3.3214" fill="#fff"/>
+      <g id="STYLE_-_1" data-name="STYLE - 1">
+        <rect x="13594.31" y="13316.182400000003" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13301.420500000004" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13286.658600000002" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13271.896700000003" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13257.134800000003" width="38.75" height="3.3214" fill="#D4D8DC"/>
+        <rect x="13594.31" y="13242.372900000004" width="38.75" height="3.3214" fill="#D4D8DC"/>
       </g>
       <circle id="Dot_Above_STYLE" data-name="Dot Above STYLE" cx="13614.0056" cy="13227.143700000004" r="3.2292" fill="#fff"/>
       <g id="EDITION_-_1" data-name="Number in the Series - 1">
