@@ -2375,7 +2375,7 @@
          id="PATH_-_50"
          data-name="PATH - 50"
          data-gate="50"
-         points="348.979 796.69 438.814 796.25 500.025 809.901"
+         points="350 796.69 438.814 796.25 500.025 809.901"
          fill="none"
          stroke="#FFFFFF"
          stroke-linecap="round"
@@ -2640,7 +2640,7 @@
        data-biological=""
        data-function="Intuition, survival, and health"
        data-gate-count="7"
-       d="M425.8105,796.859c204.0336,119.4889,203.4879,80.5641-.886,198.0544C424.9379,994.9135,425.8105,796.859,425.8105,796.859Z"
+       d="M425.8106,796.8593c203.9998,118.8539,203.4998,80.1644,-0.8999,197.0291Z"
        transform="translate(-100.702 -97.3203)"
        fill="none"
        stroke="#FFFFFF"
@@ -2654,7 +2654,7 @@
        data-biological=""
        data-function="Emotions and emotional awareness"
        data-gate-count="7"
-       d="M991.4093,791.7864c-204.0337,119.489-203.4879,80.5642.886,198.0545C992.2819,989.841,991.4093,791.7864,991.4093,791.7864Z"
+       d="M991.4098,791.7867c-203.9999,118.8540,-203.4998,80.1644,0.8999,197.0292Z"
        transform="translate(-100.702 -97.3203)"
        fill="none"
        stroke="#FFFFFF"
@@ -2738,7 +2738,7 @@
        data-center="ROOT"
        d="M711.8794,1039.49c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C715.7635,1064.7517,712.3038,1068.1528,711.8794,1039.49Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_SACRAL"
@@ -2746,23 +2746,23 @@
        data-center="SACRAL"
        d="M712.419,902.5087c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C716.3031,927.77,712.8435,931.1712,712.419,902.5087Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_SPLEEN"
        data-name="SYMBOL - DEFINITION - SPLEEN"
        data-center="SPLEEN"
-       d="M447.246,856.7293c85.4586,44.3022,85.37,28.47-1.0923,80.632C446.1594,937.361,447.246,856.7293,447.246,856.7293Z"
+       d="M461.9102,874.7385c42.7002,22.0802,42.7002,14.1234,-0.5000,40.0820Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_SP"
        data-name="SYMBOL - DEFINITION - SP"
        data-center="SP"
-       d="M973.2131,855.7293c-85.4586,44.3022-85.37,28.47,1.0923,80.632C974.3,936.361,973.2131,855.7293,973.2131,855.7293Z"
+       d="M958.5099,874.7358c-42.7001,22.0802,-42.7001,14.1234,0.5000,40.0819Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_EGO"
@@ -2770,7 +2770,7 @@
        data-center="EGO"
        d="M811.0109,799.6114c40.9911,7.35,36.4637,12.4991,22.5453-26.6185Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_G"
@@ -2778,7 +2778,7 @@
        data-center="G"
        d="M701.0065,718.5651c-20.609,19.99-20.5675,15.1382.0025,35.1055C721.6154,733.6811,721.574,738.5324,701.0065,718.5651Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_THROAT"
@@ -2786,7 +2786,7 @@
        data-center="THROAT"
        d="M712.8594,546.0148c-28.7074-.438-25.2478-3.8391-24.8215,24.8251C716.7435,571.2761,713.2839,574.6772,712.8594,546.0148Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_AJNA"
@@ -2794,7 +2794,7 @@
        data-center="AJNA"
        d="M714.1625,413.9766c-16.2756,27.7914-10.9737,27.7171-26.977-.1207Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     <path
        id="SYMBOL_-_DEFINITION_-_HEAD"
@@ -2802,7 +2802,7 @@
        data-center="HEAD"
        d="M714.1625,330.6372c-16.2756-27.7914-10.9737-27.7171-26.977.1207Z"
        transform="translate(-100.702 -97.3203)"
-       fill="#D4D8DC"
+       fill="#FFFFFF"
        stroke="none"/>
     </g>
     <g id="GROUP_-_GATES" data-name="GROUP - GATES">
