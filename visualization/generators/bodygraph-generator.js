@@ -52,7 +52,7 @@ const COLORS = {
   gateFill: '#FFFFFF',      // Gate circles filled white
   centerStroke: '#FFFFFF',  // Center outline stroke
   centerFill: 'none',       // Large center shapes unfilled
-  centerDefinitionFill: '#D4D8DC', // Silver fill for center definitions
+  centerDefinitionFill: '#FFFFFF', // White fill for center definitions
   channelStroke: '#FFFFFF', // Channel path stroke
   connectorStroke: '#FFFFFF' // Connector line stroke
 };
