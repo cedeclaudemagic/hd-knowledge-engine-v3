@@ -120,453 +120,1669 @@
     </g>
     <g id="GROUP_-_INNER-GATE-NUMBERS">
     <text id="INNER-GATE-NUMBER_-_41"
-         transform="translate(3760.1820 2815.4998) rotate(323.4375)"
+         transform="translate(3696.5348 2863.5703) rotate(322.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">41</text>
+    <g id="INNER-HEXAGRAM_-_41"
+         transform="translate(3857.2015 2745.4949) rotate(-35.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_19"
-         transform="translate(3413.5034 3100.0116) rotate(317.8125)"
+         transform="translate(3354.8744 3154.0891) rotate(316.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">19</text>
+    <g id="INNER-HEXAGRAM_-_19"
+         transform="translate(3503.1940 3020.8342) rotate(-40.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_13"
-         transform="translate(3096.3812 3417.1338) rotate(312.1875)"
+         transform="translate(3043.3350 3476.6976) rotate(311.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">13</text>
+    <g id="INNER-HEXAGRAM_-_13"
+         transform="translate(3177.8792 3329.5465) rotate(-46.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_49"
-         transform="translate(2811.8694 3763.8124) rotate(306.5625)"
+         transform="translate(2764.9170 3828.2888) rotate(305.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">49</text>
+    <g id="INNER-HEXAGRAM_-_49"
+         transform="translate(2884.3899 3668.6586) rotate(-51.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_30"
-         transform="translate(2562.7081 4136.7087) rotate(300.9375)"
+         transform="translate(2522.3015 4205.4768) rotate(299.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">30</text>
+    <g id="INNER-HEXAGRAM_-_30"
+         transform="translate(2625.5527 4034.9048) rotate(-57.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_55"
-         transform="translate(2351.2967 4532.2314) rotate(295.3125)"
+         transform="translate(2317.8252 4604.6289) rotate(294.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">55</text>
+    <g id="INNER-HEXAGRAM_-_55"
+         transform="translate(2403.8602 4424.7580) rotate(-63.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_37"
-         transform="translate(2179.6714 4946.5716) rotate(289.6875)"
+         transform="translate(2153.4573 5021.9013) rotate(288.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">37</text>
+    <g id="INNER-HEXAGRAM_-_37"
+         transform="translate(2221.4476 4834.4635) rotate(-68.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_63"
-         transform="translate(2049.4850 5375.7388) rotate(284.0625)"
+         transform="translate(2030.7807 5453.2752) rotate(283.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">63</text>
+    <g id="INNER-HEXAGRAM_-_63"
+         transform="translate(2080.0715 5260.0758) rotate(-74.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_22"
-         transform="translate(1961.9911 5815.5999) rotate(278.4375)"
+         transform="translate(1950.9768 5894.5963) rotate(277.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">22</text>
+    <g id="INNER-HEXAGRAM_-_22"
+         transform="translate(1981.0934 5697.4959) rotate(-80.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_36"
-         transform="translate(1918.0326 6261.9189) rotate(272.8125)"
+         transform="translate(1914.8142 6341.6145) rotate(271.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">36</text>
+    <g id="INNER-HEXAGRAM_-_36"
+         transform="translate(1925.4666 6142.5112) rotate(-85.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_25"
-         transform="translate(1918.0326 6710.3975) rotate(267.1875)"
+         transform="translate(1922.6413 6790.0247) rotate(266.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">25</text>
+    <g id="INNER-HEXAGRAM_-_25"
+         transform="translate(1913.7268 6590.8361) rotate(-91.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_17"
-         transform="translate(1961.9911 7156.7165) rotate(261.5625)"
+         transform="translate(1974.3825 7235.5086) rotate(260.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">17</text>
+    <g id="INNER-HEXAGRAM_-_17"
+         transform="translate(1945.9871 7038.1528) rotate(-96.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_21"
-         transform="translate(2049.4850 7596.5776) rotate(255.9375)"
+         transform="translate(2069.5396 7673.7758) rotate(254.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">21</text>
+    <g id="INNER-HEXAGRAM_-_21"
+         transform="translate(2021.9367 7480.1536) rotate(-102.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_51"
-         transform="translate(2179.6714 8025.7448) rotate(250.3125)"
+         transform="translate(2207.1963 8100.6055) rotate(249.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">51</text>
+    <g id="INNER-HEXAGRAM_-_51"
+         transform="translate(2140.8442 7912.5816) rotate(-108.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_42"
-         transform="translate(2351.2967 8440.0850) rotate(244.6875)"
+         transform="translate(2386.0267 8511.8873) rotate(243.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">42</text>
+    <g id="INNER-HEXAGRAM_-_42"
+         transform="translate(2301.5646 8331.2724) rotate(-113.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_3"
-         transform="translate(2562.7081 8835.6077) rotate(239.0625)"
+         transform="translate(2604.3086 8903.6602) rotate(238.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">3</text>
+    <g id="INNER-HEXAGRAM_-_3"
+         transform="translate(2502.5499 8732.1937) rotate(-119.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_27"
-         transform="translate(2811.8694 9208.5040) rotate(233.4375)"
+         transform="translate(2859.9399 9272.1512) rotate(232.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">27</text>
+    <g id="INNER-HEXAGRAM_-_27"
+         transform="translate(2741.8645 9111.4845) rotate(-125.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_24"
-         transform="translate(3096.3812 9555.1826) rotate(227.8125)"
+         transform="translate(3150.4587 9613.8116) rotate(226.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">24</text>
+    <g id="INNER-HEXAGRAM_-_24"
+         transform="translate(3017.2038 9465.4920) rotate(-130.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_2"
-         transform="translate(3413.5034 9872.3048) rotate(222.1875)"
+         transform="translate(3473.0672 9925.3510) rotate(221.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">2</text>
+    <g id="INNER-HEXAGRAM_-_2"
+         transform="translate(3325.9161 9790.8068) rotate(-136.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_23"
-         transform="translate(3760.1820 10156.8166) rotate(216.5625)"
+         transform="translate(3824.6584 10203.7690) rotate(215.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">23</text>
+    <g id="INNER-HEXAGRAM_-_23"
+         transform="translate(3665.0282 10084.2961) rotate(-141.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_8"
-         transform="translate(4133.0783 10405.9779) rotate(210.9375)"
+         transform="translate(4201.8464 10446.3845) rotate(209.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">8</text>
+    <g id="INNER-HEXAGRAM_-_8"
+         transform="translate(4031.2744 10343.1333) rotate(-147.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_20"
-         transform="translate(4528.6010 10617.3893) rotate(205.3125)"
+         transform="translate(4600.9985 10650.8608) rotate(204.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">20</text>
+    <g id="INNER-HEXAGRAM_-_20"
+         transform="translate(4421.1276 10564.8258) rotate(-153.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_16"
-         transform="translate(4942.9412 10789.0146) rotate(199.6875)"
+         transform="translate(5018.2709 10815.2287) rotate(198.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">16</text>
+    <g id="INNER-HEXAGRAM_-_16"
+         transform="translate(4830.8331 10747.2384) rotate(-158.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_35"
-         transform="translate(5372.1084 10919.2010) rotate(194.0625)"
+         transform="translate(5449.6448 10937.9053) rotate(193.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">35</text>
+    <g id="INNER-HEXAGRAM_-_35"
+         transform="translate(5256.4454 10888.6145) rotate(-164.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_45"
-         transform="translate(5811.9695 11006.6949) rotate(188.4375)"
+         transform="translate(5890.9659 11017.7092) rotate(187.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">45</text>
+    <g id="INNER-HEXAGRAM_-_45"
+         transform="translate(5693.8655 10987.5926) rotate(-170.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_12"
-         transform="translate(6258.2885 11050.6534) rotate(182.8125)"
+         transform="translate(6337.9841 11053.8718) rotate(181.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">12</text>
+    <g id="INNER-HEXAGRAM_-_12"
+         transform="translate(6138.8808 11043.2194) rotate(-175.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_15"
-         transform="translate(6706.7671 11050.6534) rotate(177.1875)"
+         transform="translate(6627.0715 11053.8718) rotate(178.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">15</text>
+    <g id="INNER-HEXAGRAM_-_15"
+         transform="translate(6826.1748 11043.2194) rotate(175.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_52"
-         transform="translate(7153.0861 11006.6949) rotate(171.5625)"
+         transform="translate(7074.0897 11017.7092) rotate(172.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">52</text>
+    <g id="INNER-HEXAGRAM_-_52"
+         transform="translate(7271.1901 10987.5926) rotate(170.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_39"
-         transform="translate(7592.9472 10919.2010) rotate(165.9375)"
+         transform="translate(7515.4108 10937.9053) rotate(166.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">39</text>
+    <g id="INNER-HEXAGRAM_-_39"
+         transform="translate(7708.6102 10888.6145) rotate(164.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_53"
-         transform="translate(8022.1144 10789.0146) rotate(160.3125)"
+         transform="translate(7946.7847 10815.2287) rotate(161.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">53</text>
+    <g id="INNER-HEXAGRAM_-_53"
+         transform="translate(8134.2225 10747.2384) rotate(158.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_62"
-         transform="translate(8436.4546 10617.3893) rotate(154.6875)"
+         transform="translate(8364.0571 10650.8608) rotate(155.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">62</text>
+    <g id="INNER-HEXAGRAM_-_62"
+         transform="translate(8543.9280 10564.8258) rotate(153.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_56"
-         transform="translate(8831.9773 10405.9779) rotate(149.0625)"
+         transform="translate(8763.2092 10446.3845) rotate(150.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">56</text>
+    <g id="INNER-HEXAGRAM_-_56"
+         transform="translate(8933.7812 10343.1333) rotate(147.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_31"
-         transform="translate(9204.8736 10156.8166) rotate(143.4375)"
+         transform="translate(9140.3972 10203.7690) rotate(144.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">31</text>
+    <g id="INNER-HEXAGRAM_-_31"
+         transform="translate(9300.0274 10084.2961) rotate(141.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_33"
-         transform="translate(9551.5522 9872.3048) rotate(137.8125)"
+         transform="translate(9491.9884 9925.3510) rotate(138.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">33</text>
+    <g id="INNER-HEXAGRAM_-_33"
+         transform="translate(9639.1395 9790.8068) rotate(136.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="2" data-type="yin">
+        <rect x="0" y="56.00" width="32.00" height="8"/>
+        <rect x="38.00" y="56.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_7"
-         transform="translate(9868.6744 9555.1826) rotate(132.1875)"
+         transform="translate(9814.5969 9613.8116) rotate(133.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">7</text>
+    <g id="INNER-HEXAGRAM_-_7"
+         transform="translate(9947.8518 9465.4920) rotate(130.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_4"
-         transform="translate(10153.1862 9208.5040) rotate(126.5625)"
+         transform="translate(10105.1157 9272.1512) rotate(127.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">4</text>
+    <g id="INNER-HEXAGRAM_-_4"
+         transform="translate(10223.1911 9111.4845) rotate(125.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_29"
-         transform="translate(10402.3475 8835.6077) rotate(120.9375)"
+         transform="translate(10360.7470 8903.6602) rotate(121.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">29</text>
+    <g id="INNER-HEXAGRAM_-_29"
+         transform="translate(10462.5057 8732.1937) rotate(119.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_59"
-         transform="translate(10613.7589 8440.0850) rotate(115.3125)"
+         transform="translate(10579.0289 8511.8873) rotate(116.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">59</text>
+    <g id="INNER-HEXAGRAM_-_59"
+         transform="translate(10663.4910 8331.2724) rotate(113.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_40"
-         transform="translate(10785.3842 8025.7448) rotate(109.6875)"
+         transform="translate(10757.8593 8100.6055) rotate(110.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">40</text>
+    <g id="INNER-HEXAGRAM_-_40"
+         transform="translate(10824.2114 7912.5816) rotate(108.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_64"
-         transform="translate(10915.5706 7596.5776) rotate(104.0625)"
+         transform="translate(10895.5160 7673.7758) rotate(105.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">64</text>
+    <g id="INNER-HEXAGRAM_-_64"
+         transform="translate(10943.1189 7480.1536) rotate(102.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_47"
-         transform="translate(11003.0645 7156.7165) rotate(98.4375)"
+         transform="translate(10990.6731 7235.5086) rotate(99.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">47</text>
+    <g id="INNER-HEXAGRAM_-_47"
+         transform="translate(11019.0685 7038.1528) rotate(96.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_6"
-         transform="translate(11047.0230 6710.3975) rotate(92.8125)"
+         transform="translate(11042.4143 6790.0247) rotate(93.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">6</text>
+    <g id="INNER-HEXAGRAM_-_6"
+         transform="translate(11051.3288 6590.8361) rotate(91.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_46"
-         transform="translate(11047.0230 6261.9189) rotate(87.1875)"
+         transform="translate(11050.2414 6341.6145) rotate(88.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">46</text>
+    <g id="INNER-HEXAGRAM_-_46"
+         transform="translate(11039.5890 6142.5112) rotate(85.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_18"
-         transform="translate(11003.0645 5815.5999) rotate(81.5625)"
+         transform="translate(11014.0788 5894.5963) rotate(82.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">18</text>
+    <g id="INNER-HEXAGRAM_-_18"
+         transform="translate(10983.9622 5697.4959) rotate(80.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_48"
-         transform="translate(10915.5706 5375.7388) rotate(75.9375)"
+         transform="translate(10934.2749 5453.2752) rotate(76.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">48</text>
+    <g id="INNER-HEXAGRAM_-_48"
+         transform="translate(10884.9841 5260.0758) rotate(74.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_57"
-         transform="translate(10785.3842 4946.5716) rotate(70.3125)"
+         transform="translate(10811.5983 5021.9013) rotate(71.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">57</text>
+    <g id="INNER-HEXAGRAM_-_57"
+         transform="translate(10743.6080 4834.4635) rotate(68.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_32"
-         transform="translate(10613.7589 4532.2314) rotate(64.6875)"
+         transform="translate(10647.2304 4604.6289) rotate(65.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">32</text>
+    <g id="INNER-HEXAGRAM_-_32"
+         transform="translate(10561.1954 4424.7580) rotate(63.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_50"
-         transform="translate(10402.3475 4136.7087) rotate(59.0625)"
+         transform="translate(10442.7541 4205.4768) rotate(60.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">50</text>
+    <g id="INNER-HEXAGRAM_-_50"
+         transform="translate(10339.5029 4034.9048) rotate(57.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_28"
-         transform="translate(10153.1862 3763.8124) rotate(53.4375)"
+         transform="translate(10200.1386 3828.2888) rotate(54.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">28</text>
+    <g id="INNER-HEXAGRAM_-_28"
+         transform="translate(10080.6657 3668.6586) rotate(51.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_44"
-         transform="translate(9868.6744 3417.1338) rotate(47.8125)"
+         transform="translate(9921.7206 3476.6976) rotate(48.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">44</text>
+    <g id="INNER-HEXAGRAM_-_44"
+         transform="translate(9787.1764 3329.5465) rotate(46.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <g data-line="1" data-type="yin">
+        <rect x="0" y="70.00" width="32.00" height="8"/>
+        <rect x="38.00" y="70.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_1"
-         transform="translate(9551.5522 3100.0116) rotate(42.1875)"
+         transform="translate(9610.1812 3154.0891) rotate(43.1875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">1</text>
+    <g id="INNER-HEXAGRAM_-_1"
+         transform="translate(9461.8616 3020.8342) rotate(40.6875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_43"
-         transform="translate(9204.8736 2815.4998) rotate(36.5625)"
+         transform="translate(9268.5208 2863.5703) rotate(37.5625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">43</text>
+    <g id="INNER-HEXAGRAM_-_43"
+         transform="translate(9107.8541 2745.4949) rotate(35.0625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_14"
-         transform="translate(8831.9773 2566.3385) rotate(30.9375)"
+         transform="translate(8900.0298 2607.9390) rotate(31.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">14</text>
+    <g id="INNER-HEXAGRAM_-_14"
+         transform="translate(8728.5633 2506.1803) rotate(29.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_34"
-         transform="translate(8436.4546 2354.9271) rotate(25.3125)"
+         transform="translate(8508.2569 2389.6571) rotate(26.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">34</text>
+    <g id="INNER-HEXAGRAM_-_34"
+         transform="translate(8327.6420 2305.1950) rotate(23.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_9"
-         transform="translate(8022.1144 2183.3018) rotate(19.6875)"
+         transform="translate(8096.9751 2210.8267) rotate(20.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">9</text>
+    <g id="INNER-HEXAGRAM_-_9"
+         transform="translate(7908.9512 2144.4746) rotate(18.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_5"
-         transform="translate(7592.9472 2053.1154) rotate(14.0625)"
+         transform="translate(7670.1454 2073.1700) rotate(15.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">5</text>
+    <g id="INNER-HEXAGRAM_-_5"
+         transform="translate(7476.5232 2025.5671) rotate(12.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_26"
-         transform="translate(7153.0861 1965.6215) rotate(8.4375)"
+         transform="translate(7231.8782 1978.0129) rotate(9.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">26</text>
+    <g id="INNER-HEXAGRAM_-_26"
+         transform="translate(7034.5224 1949.6175) rotate(6.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_11"
-         transform="translate(6706.7671 1921.6630) rotate(2.8125)"
+         transform="translate(6786.3943 1926.2717) rotate(3.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">11</text>
+    <g id="INNER-HEXAGRAM_-_11"
+         transform="translate(6587.2057 1917.3572) rotate(1.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <rect data-line="3" data-type="yang" x="0" y="42.00" width="70" height="8"/>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_10"
-         transform="translate(6258.2885 1921.6630) rotate(-2.8125)"
+         transform="translate(6178.6613 1926.2717) rotate(-3.8125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">10</text>
+    <g id="INNER-HEXAGRAM_-_10"
+         transform="translate(6377.8499 1917.3572) rotate(-1.3125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_58"
-         transform="translate(5811.9695 1965.6215) rotate(-8.4375)"
+         transform="translate(5733.1774 1978.0129) rotate(-9.4375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">58</text>
+    <g id="INNER-HEXAGRAM_-_58"
+         transform="translate(5930.5332 1949.6175) rotate(-6.9375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_38"
-         transform="translate(5372.1084 2053.1154) rotate(-14.0625)"
+         transform="translate(5294.9102 2073.1700) rotate(-15.0625)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">38</text>
+    <g id="INNER-HEXAGRAM_-_38"
+         transform="translate(5488.5324 2025.5671) rotate(-12.5625) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_54"
-         transform="translate(4942.9412 2183.3018) rotate(-19.6875)"
+         transform="translate(4868.0805 2210.8267) rotate(-20.6875)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">54</text>
+    <g id="INNER-HEXAGRAM_-_54"
+         transform="translate(5056.1044 2144.4746) rotate(-18.1875) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="4" data-type="yang" x="0" y="28.00" width="70" height="8"/>
+      <g data-line="5" data-type="yin">
+        <rect x="0" y="14.00" width="32.00" height="8"/>
+        <rect x="38.00" y="14.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     <text id="INNER-GATE-NUMBER_-_61"
-         transform="translate(4528.6010 2354.9271) rotate(-25.3125)"
+         transform="translate(4456.7987 2389.6571) rotate(-26.3125)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">61</text>
+    <g id="INNER-HEXAGRAM_-_61"
+         transform="translate(4637.4136 2305.1950) rotate(-23.8125) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <rect data-line="6" data-type="yang" x="0" y="0.00" width="70" height="8"/>
+      </g>
     <text id="INNER-GATE-NUMBER_-_60"
-         transform="translate(4133.0783 2566.3385) rotate(-30.9375)"
+         transform="translate(4065.0258 2607.9390) rotate(-31.9375)"
          font-size="128"
          font-family="Herculanum"
          text-anchor="middle"
          dominant-baseline="central"
          fill="#FFFFFF">60</text>
+    <g id="INNER-HEXAGRAM_-_60"
+         transform="translate(4236.4923 2506.1803) rotate(-29.4375) translate(-35.00 -39.00)"
+         fill="#FFFFFF">
+      <rect data-line="1" data-type="yang" x="0" y="70.00" width="70" height="8"/>
+      <rect data-line="2" data-type="yang" x="0" y="56.00" width="70" height="8"/>
+      <g data-line="3" data-type="yin">
+        <rect x="0" y="42.00" width="32.00" height="8"/>
+        <rect x="38.00" y="42.00" width="32.00" height="8"/>
+      </g>
+      <g data-line="4" data-type="yin">
+        <rect x="0" y="28.00" width="32.00" height="8"/>
+        <rect x="38.00" y="28.00" width="32.00" height="8"/>
+      </g>
+      <rect data-line="5" data-type="yang" x="0" y="14.00" width="70" height="8"/>
+      <g data-line="6" data-type="yin">
+        <rect x="0" y="0.00" width="32.00" height="8"/>
+        <rect x="38.00" y="0.00" width="32.00" height="8"/>
+      </g>
+      </g>
     </g>
     <g id="GROUP_-_INNER-CENTRES">
     <text id="INNER-CENTRE_-_ROOT_-_41"

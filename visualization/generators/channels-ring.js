@@ -170,6 +170,15 @@ const HEXAGRAM_SYMBOL = {
     lineSpacing: 18 * 0.85,   // 15.3
     gapWidth: 8 * 0.85,       // 6.8
     get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
+  },
+  // Inner band dimensions (smaller to fit in narrower inner number band)
+  // Band width is ~130px (4505 to 4635), so hexagram needs to be compact
+  inner: {
+    lineWidth: 70,            // Compact width for inner band
+    lineHeight: 8,            // Reduced height
+    lineSpacing: 14,          // Reduced spacing
+    gapWidth: 6,              // Reduced gap
+    get totalHeight() { return this.lineSpacing * 5 + this.lineHeight; }
   }
 };
 
@@ -439,6 +448,30 @@ function generateOuterHexagram(gateNumber, position, rotation, isMultiChannel = 
 
   return `<!-- Outer Hexagram for gate ${gateNumber} -->
       <g id="OUTER-HEXAGRAM_-_${gateNumber}"
+         transform="translate(${position.x.toFixed(4)} ${position.y.toFixed(4)}) rotate(${rotation.toFixed(4)}) translate(${offsetX.toFixed(2)} ${offsetY.toFixed(2)})"
+         fill="${COLORS.foreground}">
+      ${symbol}
+      </g>`;
+}
+
+/**
+ * Generate a positioned hexagram for the inner band
+ * Hexagram is positioned next to the inner gate number
+ * Uses tangential rotation (same as gate number)
+ * @param {number} gateNumber - Gate number
+ * @param {Object} position - {x, y} position
+ * @param {number} rotation - Rotation angle in degrees
+ */
+function generateInnerHexagram(gateNumber, position, rotation) {
+  const dims = HEXAGRAM_SYMBOL.inner;
+
+  // Center the symbol on the position
+  const offsetX = -dims.lineWidth / 2;
+  const offsetY = -dims.totalHeight / 2;
+
+  const symbol = generateHexagramSymbol(gateNumber, dims);
+
+  return `<g id="INNER-HEXAGRAM_-_${gateNumber}"
          transform="translate(${position.x.toFixed(4)} ${position.y.toFixed(4)}) rotate(${rotation.toFixed(4)}) translate(${offsetX.toFixed(2)} ${offsetY.toFixed(2)})"
          fill="${COLORS.foreground}">
       ${symbol}
@@ -844,13 +877,20 @@ function generateDividers(stroke, strokeWidth) {
 }
 
 /**
- * Generate inner gate numbers (64 numbers around the inner ring)
- * These appear inside the ring, using Herculanum font
+ * Generate inner gate numbers and hexagrams (64 of each around the inner ring)
+ * These appear inside the ring, using Herculanum font for numbers
  * Font size varies based on channel count (single vs multi-channel gates)
+ * Hexagrams are positioned on the opposite side of the number from center
  */
 function generateInnerGateNumbers(fill) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
   const INNER_GATE_RADIUS = 4570; // Between inner ring (4505) and ring 2 (4635) - centered in reduced band
+
+  // Angular offset for hexagram (opposite side from number within gate segment)
+  // Positive offset = clockwise, negative = counter-clockwise
+  const INNER_HEXAGRAM_OFFSET = -1.5;  // Counter-clockwise from gate center
+  const INNER_NUMBER_OFFSET = 1.0;      // Clockwise from gate center
+
   let numbers = '';
 
   for (const gate of gateSequence) {
@@ -859,23 +899,40 @@ function generateInnerGateNumbers(fill) {
     const fonts = channelCount === 1 ? FONT.single : FONT.multi;
 
     const v3Data = positioning.getDockingData(gate, 1);
-    const svgAngle = calculateSVGAngle(v3Data.angle);
-    const radians = svgAngle * Math.PI / 180;
+    const baseAngle = v3Data.angle;
 
-    // Position at gate center
-    const x = CENTER.x + INNER_GATE_RADIUS * Math.cos(radians);
-    const y = CENTER.y + INNER_GATE_RADIUS * Math.sin(radians);
+    // Check if gate is on left side (text flipped)
+    const baseSvgAngle = calculateSVGAngle(baseAngle);
+    const gateIsFlipped = isFlipped(baseSvgAngle);
+    const flipMultiplier = gateIsFlipped ? -1 : 1;
 
-    // Text rotation - radial orientation (pointing outward)
-    const textRotation = svgAngle + 90;
+    // Calculate number position (offset clockwise from center)
+    const numberAngle = baseAngle + (INNER_NUMBER_OFFSET * flipMultiplier);
+    const numberSvgAngle = calculateSVGAngle(numberAngle);
+    const numberRadians = numberSvgAngle * Math.PI / 180;
+    const numberX = CENTER.x + INNER_GATE_RADIUS * Math.cos(numberRadians);
+    const numberY = CENTER.y + INNER_GATE_RADIUS * Math.sin(numberRadians);
+    const numberRotation = numberSvgAngle + 90;
 
     numbers += `    <text id="INNER-GATE-NUMBER_-_${gate}"
-         transform="translate(${x.toFixed(4)} ${y.toFixed(4)}) rotate(${textRotation.toFixed(4)})"
+         transform="translate(${numberX.toFixed(4)} ${numberY.toFixed(4)}) rotate(${numberRotation.toFixed(4)})"
          font-size="${fonts.innerGate.size}"
          font-family="${fonts.innerGate.family}"
          text-anchor="middle"
          dominant-baseline="central"
          fill="${fill}">${gate}</text>\n`;
+
+    // Calculate hexagram position (offset counter-clockwise from center)
+    const hexAngle = baseAngle + (INNER_HEXAGRAM_OFFSET * flipMultiplier);
+    const hexSvgAngle = calculateSVGAngle(hexAngle);
+    const hexRadians = hexSvgAngle * Math.PI / 180;
+    const hexX = CENTER.x + INNER_GATE_RADIUS * Math.cos(hexRadians);
+    const hexY = CENTER.y + INNER_GATE_RADIUS * Math.sin(hexRadians);
+    // Tangential rotation for hexagram (same as outer hexagrams)
+    const hexRotation = calculateTangentialRotation(hexSvgAngle);
+
+    const hexPos = { x: hexX, y: hexY };
+    numbers += `    ${generateInnerHexagram(gate, hexPos, hexRotation)}\n`;
   }
 
   return numbers;
