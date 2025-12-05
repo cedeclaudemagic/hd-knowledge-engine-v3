@@ -254,6 +254,23 @@
       margin-bottom: 16px;
     }
 
+    .apply-gap-btn {
+      margin-top: 8px;
+      padding: 6px 12px;
+      background: var(--surface-darker);
+      border: 1px solid var(--gold-primary);
+      color: var(--gold-primary);
+      border-radius: 4px;
+      font-size: 0.75em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .apply-gap-btn:hover {
+      background: var(--gold-primary);
+      color: var(--bg-primary);
+    }
+
     .control-label {
       display: flex;
       justify-content: space-between;
@@ -924,6 +941,7 @@
           <span class="control-value" id="default-gap-value">2px</span>
         </div>
         <input type="range" id="default-gap" min="0" max="30" value="2">
+        <button id="apply-default-gap" class="apply-gap-btn" title="Apply to all rings">Apply All</button>
       </div>
       <div class="control-row">
         <div class="control-label">
@@ -1065,9 +1083,7 @@
         innerRadius: 838.2597,
         outerRadius: 1084.3718,
         get bandWidth() { return this.outerRadius - this.innerRadius; },
-        get visualInner() {
-          return this.innerRadius - (this.bandWidth * 0.0885);
-        },
+        get visualInner() { return this.innerRadius; },
         get visualOuter() {
           return this.outerRadius + (this.bandWidth * 0.1062);
         }
@@ -1241,20 +1257,20 @@
     let state = {
       centerPiece: 'bodygraph',  // Selected center piece type ('none', 'bodygraph088', 'bodygraph', etc.)
       rings: [
-        { type: 'numbers', scale: 1.02, gapAfter: 15 },    // Hexagram Numbers
-        { type: 'quarters', scale: 1.0, gapAfter: 2 },     // Quarters/Trigrams/Faces
-        { type: 'calendar', scale: 1.0, gapAfter: 2 },     // Calendar
-        { type: 'hexagrams', scale: 1.0, gapAfter: 2 },    // Hexagrams
-        { type: 'codons', scale: 1.0, gapAfter: 2 },       // Codons
-        { type: 'numbers', scale: 1.0, gapAfter: 2 },      // Hexagram Numbers (duplicate)
-        { type: 'iching', scale: 1.0, gapAfter: 2 },       // I Ching Names
-        { type: 'gatenames', scale: 1.0, gapAfter: 0 },    // HD Gate Names
-        { type: 'yinchops', scale: 1.0, gapAfter: 0 },     // Yin Chops
-        { type: 'genekeys', scale: 1.0, gapAfter: 0 },     // Gene Keys
-        { type: 'yangchops', scale: 1.0, gapAfter: 0 },    // Yang Chops
-        { type: 'crosses', scale: 1.0, gapAfter: 2 },      // Incarnation Crosses
-        { type: 'channels', scale: 1.0, gapAfter: 42 },    // Channels
-        { type: 'lines', scale: 0.99, gapAfter: 0 }        // 384 Lines
+        { type: 'numbers', scale: 1.02 },    // Hexagram Numbers
+        { type: 'quarters', scale: 1.0 },     // Quarters/Trigrams/Faces
+        { type: 'calendar', scale: 1.0 },     // Calendar
+        { type: 'hexagrams', scale: 1.0 },    // Hexagrams
+        { type: 'codons', scale: 1.0 },       // Codons
+        { type: 'numbers', scale: 1.0 },      // Hexagram Numbers (duplicate)
+        { type: 'iching', scale: 1.0 },       // I Ching Names
+        { type: 'gatenames', scale: 1.0 },    // HD Gate Names
+        { type: 'yinchops', scale: 1.0 },     // Yin Chops
+        { type: 'genekeys', scale: 1.0 },     // Gene Keys
+        { type: 'yangchops', scale: 1.0 },    // Yang Chops
+        { type: 'crosses', scale: 1.0 },      // Incarnation Crosses
+        { type: 'channels', scale: 1.0 },     // Channels
+        { type: 'lines', scale: 0.99 }        // 384 Lines
       ],
       selectedIndex: null,
       startRadius: 800,
@@ -1878,9 +1894,9 @@
       state = {
         centerPiece: 'none',
         rings: [
-          { type: 'numbers', scale: 1.0, gapAfter: 0 },
-          { type: 'hexagrams', scale: 1.0, gapAfter: 0 },
-          { type: 'codons', scale: 1.0, gapAfter: 0 }
+          { type: 'numbers', scale: 1.0 },
+          { type: 'hexagrams', scale: 1.0 },
+          { type: 'codons', scale: 1.0 }
         ],
         selectedIndex: null,
         startRadius: 400,
@@ -2355,6 +2371,17 @@ const config = ${JSON.stringify(config, null, 2)};
       state.defaultGap = parseInt(e.target.value);
       document.getElementById('default-gap-value').textContent = e.target.value + 'px';
       render();
+    });
+
+    document.getElementById('apply-default-gap').addEventListener('click', () => {
+      const count = state.rings.length;
+      const gap = state.defaultGap;
+      if (confirm(`This will set the gap after ALL ${count} rings to ${gap}px.\n\nThis will override any custom gap values you have set.\n\nContinue?`)) {
+        state.rings.forEach(ring => {
+          ring.gapAfter = gap;
+        });
+        render();
+      }
     });
 
     document.getElementById('export-padding').addEventListener('input', (e) => {
