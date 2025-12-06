@@ -1128,9 +1128,10 @@
         name: 'Quarters/Trigrams/Faces',
         color: '#9B59B6',
         svgFile: '../output/generated-quarters-trigrams-faces-fifths.svg',
-        center: { x: 448.0762, y: 448.3394 },
+        // Center matches SVG GEOMETRY.center: { x: 447.6371, y: 448.3389 }
+        center: { x: 447.6371, y: 448.3389 },
         innerRadius: 272,
-        outerRadius: 448,
+        outerRadius: 452.5,
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() { return this.innerRadius - 2; },
         get visualOuter() { return this.outerRadius + 2; }

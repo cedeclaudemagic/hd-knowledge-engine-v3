@@ -56,6 +56,12 @@ const GEOMETRY = {
     outer: 418.936
   },
 
+  // Face divider radii (16 radial lines separating faces)
+  faceDividers: {
+    inner: 388.76,
+    outer: 415.75
+  },
+
   // Stroke widths from master
   strokes: {
     quarterLine: 0.75,       // Quarter pyramid lines
@@ -797,26 +803,92 @@ function generateTrigramGroup(trigram) {
 // calculated in getFaceData() using radii and angles from center
 
 /**
- * Face Structure: divider lines extracted from master
+ * Calculate face divider lines aligned with gate boundaries
+ * Uses the V3 positioning system to place dividers at the midpoint between
+ * adjacent gates at face boundaries.
+ *
+ * First principles:
+ * - 64 gates / 16 faces = 4 gates per face
+ * - Face dividers occur at every 4th gate boundary
+ * - First face divider is at SVG angle -90° (top of wheel)
+ * - Find which gate boundary is closest to -90°, then step by 4
+ *
+ * @param {object} center - Center point {x, y}
+ * @param {number} outerRadius - Outer radius of divider line
+ * @param {number} innerRadius - Inner radius of divider line
+ * @returns {Array} Array of divider objects with x1, y1, x2, y2
  */
-const FACE_DIVIDERS = [
-  { x1: 447.7106, y1: 32.5945, x2: 447.7106, y2: 59.5789 },
-  { x1: 288.5408, y1: 64.2552, x2: 298.8672, y2: 89.1855 },
-  { x1: 153.603, y1: 154.4175, x2: 172.6839, y2: 173.4983 },
-  { x1: 63.4404, y1: 289.355, x2: 88.3707, y2: 299.6815 },
-  { x1: 31.7794, y1: 448.5248, x2: 58.7638, y2: 448.5248 },
-  { x1: 63.4401, y1: 607.6946, x2: 88.3704, y2: 597.3682 },
-  { x1: 153.6024, y1: 742.6324, x2: 172.6832, y2: 723.5516 },
-  { x1: 288.5399, y1: 832.795, x2: 298.8664, y2: 807.8647 },
-  { x1: 447.7097, y1: 864.456, x2: 447.7097, y2: 837.4716 },
-  { x1: 606.8795, y1: 832.7954, x2: 596.5531, y2: 807.865 },
-  { x1: 741.8173, y1: 742.6331, x2: 722.7365, y2: 723.5522 },
-  { x1: 831.9799, y1: 607.6955, x2: 807.0496, y2: 597.369 },
-  { x1: 863.6409, y1: 448.5257, x2: 836.6565, y2: 448.5257 },
-  { x1: 831.9803, y1: 289.3559, x2: 807.0499, y2: 299.6823 },
-  { x1: 741.818, y1: 154.4181, x2: 722.7371, y2: 173.499 },
-  { x1: 606.8804, y1: 64.2555, x2: 596.5539, y2: 89.1858 }
-];
+function calculateFaceDividers(center, outerRadius, innerRadius) {
+  const positioning = require('../../core/root-system/positioning-algorithm.js');
+  const shared = require('./shared-constants.js');
+
+  const GATES_PER_FACE = 4;  // 64 gates / 16 faces
+  const NUM_FACES = 16;
+  const TARGET_SVG_ANGLE = -90;  // Top of wheel
+
+  // Find the gate boundary closest to the top of the wheel (-90° SVG angle)
+  let firstBoundary = 0;
+  let minDiff = Infinity;
+
+  for (let i = 0; i < 64; i++) {
+    const gateA = gateSequence[i];
+    const gateB = gateSequence[(i + 1) % 64];
+
+    const v3DataA = positioning.getDockingData(gateA, 1);
+    const v3DataB = positioning.getDockingData(gateB, 1);
+
+    let midAngle;
+    if (Math.abs(v3DataB.angle - v3DataA.angle) > 180) {
+      midAngle = ((v3DataA.angle + v3DataB.angle + 360) / 2) % 360;
+    } else {
+      midAngle = (v3DataA.angle + v3DataB.angle) / 2;
+    }
+
+    const svgAngle = shared.calculateSVGAngle(midAngle);
+    const diff = Math.abs(svgAngle - TARGET_SVG_ANGLE);
+
+    if (diff < minDiff) {
+      minDiff = diff;
+      firstBoundary = i;
+    }
+  }
+
+  // Generate dividers starting from the first boundary, stepping by GATES_PER_FACE
+  const dividers = [];
+
+  for (let i = 0; i < NUM_FACES; i++) {
+    const pos = (firstBoundary + i * GATES_PER_FACE) % 64;
+
+    const gateA = gateSequence[pos];
+    const gateB = gateSequence[(pos + 1) % 64];
+
+    const v3DataA = positioning.getDockingData(gateA, 1);
+    const v3DataB = positioning.getDockingData(gateB, 1);
+
+    const angleA = v3DataA.angle;
+    const angleB = v3DataB.angle;
+
+    // Calculate midpoint angle (handle wraparound)
+    let midAngle;
+    if (Math.abs(angleB - angleA) > 180) {
+      midAngle = ((angleA + angleB + 360) / 2) % 360;
+    } else {
+      midAngle = (angleA + angleB) / 2;
+    }
+
+    const svgAngle = shared.calculateSVGAngle(midAngle);
+    const radians = svgAngle * Math.PI / 180;
+
+    dividers.push({
+      x1: center.x + outerRadius * Math.cos(radians),
+      y1: center.y + outerRadius * Math.sin(radians),
+      x2: center.x + innerRadius * Math.cos(radians),
+      y2: center.y + innerRadius * Math.sin(radians)
+    });
+  }
+
+  return dividers;
+}
 
 /**
  * Generate the 16 Faces layer
@@ -831,11 +903,16 @@ function generateFacesLayer() {
     parts.push(generateFaceGroup(face));
   });
 
-  // Face dividers - using exact positions from master
+  // Face dividers - calculated from first principles
+  const faceDividers = calculateFaceDividers(
+    GEOMETRY.center,
+    GEOMETRY.faceDividers.outer,
+    GEOMETRY.faceDividers.inner
+  );
   parts.push('    <g id="Structure-3" data-name="Structure">');
   parts.push('      <g id="DIVIDERS">');
-  FACE_DIVIDERS.forEach(div => {
-    parts.push(`        <line x1="${div.x1}" y1="${div.y1}" x2="${div.x2}" y2="${div.y2}" fill="none" stroke="${activeColorScheme.divider}" stroke-miterlimit="10" stroke-width="${GEOMETRY.strokes.divider}"/>`);
+  faceDividers.forEach(div => {
+    parts.push(`        <line x1="${div.x1.toFixed(4)}" y1="${div.y1.toFixed(4)}" x2="${div.x2.toFixed(4)}" y2="${div.y2.toFixed(4)}" fill="none" stroke="${activeColorScheme.divider}" stroke-miterlimit="10" stroke-width="${GEOMETRY.strokes.divider}"/>`);
   });
   parts.push('      </g>');
   parts.push('    </g>');
