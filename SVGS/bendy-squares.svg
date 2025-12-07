@@ -1,0 +1,720 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="966.5969" height="966.5979" viewBox="0 0 966.5969 966.5979">
+  <g id="Outer-circle">
+    <g id="Quarters">
+      <circle cx="483.2986" cy="483.2988" r="483.2989" fill="none" stroke="#1d1d1b" stroke-miterlimit="10"/>
+    </g>
+    <g id="Trigrams">
+      <path d="M795.2437,795.2438c-50.6287-50.6286-632.8589-50.6278-683.4876.001,50.6287-50.6288,50.629-632.8594,0-683.4882,50.6287,50.6288,632.8587,50.6288,683.4874,0C744.6151,162.3854,744.615,744.6152,795.2437,795.2438ZM627.3533,33.7811C601.5972,95.9618,95.9614,305.403,33.7809,279.6469,95.9614,305.403,305.4026,811.0394,279.6466,873.22c25.756-62.1807,531.3916-271.6226,593.5722-245.8667C811.0382,601.5975,601.5972,95.9618,627.3533,33.7811Z" transform="translate(29.7988 29.7983)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10"/>
+    </g>
+    <g id="Quarters-2" data-name="Quarters">
+      <circle cx="483.2985" cy="483.2987" r="427.0429" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.8836"/>
+    </g>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <g id="_4-Quarters" data-name=" 4-Quarters">
+      <g id="GROUP_-_G_-_DUALITY_-_JUPTER_-_BONDING" data-name="GROUP - G - DUALITY - JUPTER - BONDING">
+        <g id="TEXT_-_CODON-LETTER_-_G_" data-name="TEXT - CODON-LETTER - G ">
+          <text transform="translate(830.4762 477.0121) rotate(90.0229)" font-size="8.4049" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">(G)</text>
+        </g>
+        <g id="TEXT_-_KEYWORD_-_Bonding" data-name="TEXT - KEYWORD - Bonding">
+          <text transform="matrix(0.0067, 1, -1, -0.0074, 803.576, 454.8359)" font-size="13.448" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Bonding</text>
+        </g>
+        <g id="TEXT_-_NAME_-_Duality" data-name="TEXT - NAME - Duality">
+          <text transform="matrix(0.0067, 1, -1, -0.0074, 781.9354, 447.2031)" font-size="18.4909" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">Duality</text>
+        </g>
+        <g id="TEXT_-_PLANET_-_Jupiter" data-name="TEXT - PLANET - Jupiter">
+          <text transform="matrix(0.0067, 1, -1, -0.0074, 792.3573, 460.8921)" font-size="11.767" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Jupiter</text>
+        </g>
+        <path id="SYMBOL_-_BIGRAM_-_G_-_YIN_BOTTOM_-_YANG_TOP_" data-name="SYMBOL - BIGRAM - G - YIN BOTTOM - YANG TOP " d="M784.1284,456.58h4.9572v7.9313h-4.9572Zm0-4.9571h4.9572v-7.9309h-4.9572Zm7.9314-7.9312v20.82h4.9571v-20.82Z" transform="translate(29.7988 29.7983)" fill="#1d1d1b"/>
+      </g>
+      <g id="GROUP_-_U_-_CIVILISATION-_DUBHE_-_FORM" data-name="GROUP - U - CIVILISATION- DUBHE - FORM">
+        <g id="TEXT_-_CODON-LETTER_-_U_" data-name="TEXT - CODON-LETTER - U ">
+          <text transform="translate(489.8848 831.2985) rotate(-179.9799)" font-size="8.405" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">(U)</text>
+        </g>
+        <g id="TEXT_-_KEYWORD_-_Form" data-name="TEXT - KEYWORD - Form">
+          <text transform="matrix(-1, 0.0067, 0.0074, -1, 501.0629, 803.7303)" font-size="13.448" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Form</text>
+        </g>
+        <g id="TEXT_-_NAME_-_Civilisation" data-name="TEXT - NAME - Civilisation">
+          <text transform="matrix(-1, 0.0067, 0.0074, -1, 539.9379, 781.5096)" font-size="18.4909" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">Civilisation</text>
+        </g>
+        <g id="TEXT_-_PLANET_-_Dubhe" data-name="TEXT - PLANET - Dubhe">
+          <text transform="matrix(-1, 0.0067, 0.0074, -1, 503.2777, 791.9139)" font-size="11.767" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Dubhe</text>
+        </g>
+        <path id="SYMBOL_-_BIGRAM_-_U_-_YIN_BOTTOM_-_YIN_TOP_" data-name="SYMBOL - BIGRAM - U - YIN BOTTOM - YIN TOP " d="M451.01,792.3918v4.957h-7.9312v-4.957Zm4.9571,0v4.957h7.9313v-4.957ZM443.0788,784.46v4.9572H451.01V784.46Zm12.8884,0v4.9572h7.9313V784.46Z" transform="translate(29.7988 29.7983)" fill="#1d1d1b"/>
+      </g>
+      <g id="GROUP_-_C_-_INITIATION_-_ALCYONE_-_MIND" data-name="GROUP - C - INITIATION - ALCYONE - MIND">
+        <g id="TEXT_-_CODON-LETTER_-_C_" data-name="TEXT - CODON-LETTER - C ">
+          <text transform="translate(135.3152 490.2397) rotate(-89.9771)" font-size="8.4049" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">(C)</text>
+        </g>
+        <g id="TEXT_-_KEYWORD_-_Mind" data-name="TEXT - KEYWORD - Mind">
+          <text transform="matrix(-0.0067, -1, 1, 0.0074, 162.9292, 500.8783)" font-size="13.448" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Mind</text>
+        </g>
+        <g id="TEXT_-_NAME_-_Initiation" data-name="TEXT - NAME - Initiation">
+          <text transform="matrix(-0.0067, -1, 1, 0.0074, 185.0865, 529.0882)" font-size="18.4909" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">Initiation</text>
+        </g>
+        <g id="TEXT_-_PLANET_-_Alcyone" data-name="TEXT - PLANET - Alcyone">
+          <text transform="matrix(-0.0067, -1, 1, 0.0074, 174.7945, 508.89)" font-size="11.767" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Alcyone</text>
+        </g>
+        <path id="SYMBOL_-_BIGRAM_-_C_-_YANG_BOTTOM_-_YIN_TOP_" data-name="SYMBOL - BIGRAM - C - YANG BOTTOM - YIN TOP " d="M122.7876,443.6922v20.82H117.83v-20.82Zm-12.8884,20.82h4.9571V456.58h-4.9571Zm0-12.8884h4.9571v-7.9316h-4.9571Z" transform="translate(29.7988 29.7983)" fill="#1d1d1b"/>
+      </g>
+      <g id="GROUP_-_A_-_MUTATION_-_SIRIUS_-_TRANSFORMATION" data-name="GROUP - A - MUTATION - SIRIUS - TRANSFORMATION">
+        <g id="TEXT_-_CODON-LETTER_-_A_" data-name="TEXT - CODON-LETTER - A ">
+          <text transform="translate(476.8893 135.4929) rotate(0.0201)" font-size="8.405" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">(A)</text>
+        </g>
+        <g id="TEXT_-_KEYWORD_-_Transformation" data-name="TEXT - KEYWORD - Transformation">
+          <text transform="matrix(1, -0.0067, -0.0074, 1, 427.8125, 163.3159)" font-size="13.448" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Transformation</text>
+        </g>
+        <g id="TEXT_-_NAME_-_Mutation" data-name="TEXT - NAME - Mutation">
+          <text transform="matrix(1, -0.0067, -0.0074, 1, 439.6343, 184.6958)" font-size="18.4909" fill="#1d1d1b" font-family="Copperplate" style="isolation: isolate">Mutation</text>
+        </g>
+        <g id="TEXT_-_PLANET_-_Sirius" data-name="TEXT - PLANET - Sirius">
+          <text transform="matrix(1, -0.0067, -0.0074, 1, 464.1114, 174.4458)" font-size="11.767" fill="#1d1d1b" font-family="Copperplate-Light, Copperplate" font-weight="300" style="isolation: isolate">Sirius</text>
+        </g>
+        <path id="SYMBOL_-_BIGRAM_-_A_-_YANG_BOTTOM_-_YANG_TOP_" data-name="SYMBOL - BIGRAM - A - YANG BOTTOM - YANG TOP " d="M463.8985,121.8814h-20.82v-4.9571h20.82Zm0-12.8884h-20.82V113.95h20.82Z" transform="translate(29.7988 29.7983)" fill="#1d1d1b"/>
+      </g>
+    </g>
+    <g id="_8-Trigrams" data-name=" 8-Trigrams">
+      <g id="GROUP_-_THUNDER" data-name="GROUP - THUNDER">
+        <g id="TEXT_-_Thunder" data-name="TEXT - Thunder">
+          <text transform="translate(175.4021 656.3732) rotate(-112.5004)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Thunder</text>
+        </g>
+        <path id="SYMBOL_-_TRIGRAM_-_THUNDER_-_YANG_BOTTOM_-_YIN_-_YIN_TOP_" data-name="SYMBOL - TRIGRAM - THUNDER - YANG BOTTOM - YIN - YIN TOP " d="M119.4983,605.9967l-8.3441-20.1443,4.7962-1.9868,8.3441,20.1444Zm-10.8527-4.4953,3.1787,7.674,4.7962-1.9866-3.1787-7.674Zm2.81-6.783-3.1788-7.674-4.7962,1.9865,3.1787,7.674ZM100.9718,604.68l3.1787,7.674,4.7962-1.9866-3.1787-7.674Zm-1.9867-4.7963,4.7962-1.9867-3.1787-7.674L95.8064,592.21Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_FIRE" data-name="GROUP - FIRE">
+        <g id="TEXT_-_Fire" data-name="TEXT - Fire">
+          <text transform="translate(152.3917 366.123) rotate(-67.4996)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Fire</text>
+        </g>
+        <path id="SYMBOL_-_FIRE_-_YANG_BOTTOM_-_YIN_-_YANG_TOP_" data-name="SYMBOL - FIRE - YANG BOTTOM - YIN - YANG TOP " d="M110.7986,321.3778l8.344-20.1443,4.7964,1.9866-8.3438,20.1444Zm2.2876-13.6624,3.1787-7.674-4.7963-1.9866-3.1787,7.674Zm-6.783,2.81-3.1786,7.674,4.7962,1.9868,3.1787-7.674Zm-10.8527,4.4953,4.7963,1.9865,8.3441-20.1444-4.7964-1.9867Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_MOUNTAIN" data-name="GROUP - MOUNTAIN">
+        <g id="TEXT_-_Mountain" data-name="TEXT - Mountain">
+          <text transform="translate(658.6916 788.9401) rotate(157.4996)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Mountain</text>
+        </g>
+        <path id="SYMBOL_-_TRIGRAM_-_MOUNTAIN_-_YIN_BOTTOM_-_YIN_-_YANG_TOP_" data-name="SYMBOL - TRIGRAM - MOUNTAIN - YIN BOTTOM - YIN - YANG TOP " d="M604.7445,786.233l-7.674,3.1787-1.9866-4.7962,7.674-3.1787Zm-14.4569.3691-7.674,3.1787,1.9865,4.7961,7.6741-3.1787Zm15.649,2.5087-7.674,3.1787,1.9865,4.7962,7.6741-3.1788Zm-12.47,5.1654-7.674,3.1787,1.9866,4.7961,7.674-3.1787Zm17.6357,7.3049-1.9867-4.7961-20.1444,8.3441,1.9867,4.7961Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_EARTH" data-name="GROUP - EARTH">
+        <g id="TEXT_-_Earth" data-name="TEXT - Earth">
+          <text transform="translate(372.8442 816.7219) rotate(-157.4996)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Earth</text>
+        </g>
+        <path id="SYMBOL_-_TRIGRAM_-_EARTH_-_YIN_BOTTOM_-_YIN_-_YIN_TOP_" data-name="SYMBOL - TRIGRAM - EARTH - YIN BOTTOM - YIN - YIN TOP " d="M303.2119,782.0477l7.674,3.1787-1.9867,4.7961-7.674-3.1787Zm12.47,5.1654-1.9867,4.7962,7.674,3.1786,1.9867-4.7961Zm-17.6357,7.3049,7.674,3.1787,1.9867-4.7961-7.6741-3.1788Zm12.47,5.1655,7.674,3.1786,1.9868-4.7961-7.6741-3.1789Zm-15.649,2.5087,7.674,3.1786,1.9867-4.7962-7.6741-3.1787Zm12.47,5.1653,7.6741,3.1786,1.9866-4.7962-7.674-3.1787Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_WATER" data-name="GROUP - WATER">
+        <g id="TEXT_-_Water" data-name="TEXT - Water">
+          <text transform="translate(815.8704 591.5265) rotate(112.5004)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Water</text>
+        </g>
+        <path id="SYMBOL_-_TRIGRAM_-_WATER_-_YIN_BOTTOM_-_YANG_-_YIN_TOP_" data-name="SYMBOL - TRIGRAM - WATER - YIN BOTTOM - YANG - YIN TOP " d="M789.01,596.8811l-3.1787,7.674-4.7961-1.9867,3.1787-7.674Zm-2.81-6.7831,4.7962,1.9868,3.1789-7.674-4.7964-1.9868Zm7.305,17.6358,8.344-20.1444-4.7963-1.9867-8.3439,20.1445Zm7.674,3.1787,3.1788-7.674-4.7964-1.9868-3.1787,7.6741Zm5.1654-12.47,3.1787-7.6741-4.7963-1.9867-3.1786,7.6741Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_WIND" data-name="GROUP - WIND">
+        <g id="TEXT_-_Wind" data-name="TEXT - Wind">
+          <text transform="translate(796.3874 328.6318) rotate(67.4996)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Wind</text>
+        </g>
+        <path id="SYMBOL_-_TRIGRAM_-_WIND_-_YIN_BOTTOM_-_YANG_-_YANG_TOP_" data-name="SYMBOL - TRIGRAM - WIND - YIN BOTTOM - YANG - YANG TOP " d="M793.0223,317.9218l3.1787,7.674-4.7963,1.9866-3.1787-7.674Zm-9.9617-10.4834,3.1787,7.674,4.7963-1.9867-3.1787-7.674Zm7.6741-3.1787,8.3441,20.1443,4.7962-1.9866-8.3441-20.1444Zm12.47-5.1654-4.7962,1.9867,8.344,20.1444,4.7964-1.9868Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_HEAVEN" data-name="GROUP - HEAVEN">
+        <g id="TEXT_-_Heaven" data-name="TEXT - Heaven">
+          <text transform="translate(586.0383 148.3536) rotate(22.5004)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Heaven</text>
+        </g>
+        <path id="TRIGRAM_-_HEAVEN_-_YANG_BOTTOM_-_YANG_-_YANG_TOP_" data-name="TRIGRAM - HEAVEN - YANG BOTTOM - YANG - YANG TOP " d="M583.61,111.8112l20.1444,8.3441-1.9867,4.7963-20.1444-8.3441Zm1.192-2.8773,20.1444,8.344,1.9867-4.7963-20.1447-8.3445Zm5.1654-12.47-1.9867,4.7963,20.1443,8.3441,1.9868-4.7963Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+      <g id="GROUP_-_LAKE" data-name="GROUP - LAKE">
+        <g id="TEXT_-_Lake" data-name="TEXT - Lake">
+          <text transform="translate(327.548 169.7321) rotate(-22.5004)" font-size="18.3718" font-family="Copperplate" style="isolation: isolate">Lake</text>
+        </g>
+        <path id="TRIGRAM_-_LAKE_-_YANG_BOTTOM_-_YANG_-_YIN_TOP_" data-name="TRIGRAM - LAKE - YANG BOTTOM - YANG - YIN TOP " d="M300.2358,121.4454l20.1444-8.3441,1.9867,4.7962-20.1444,8.3434Zm-1.1921-2.8778,20.1446-8.3441-1.9867-4.7963-20.1446,8.3437Zm7.305-17.6357,1.9867,4.7962,7.674-3.1787-1.9865-4.7962Zm-4.7963,1.9867-7.674,3.1787,1.9867,4.7962,7.6741-3.1787Z" transform="translate(29.7988 29.7983)"/>
+      </g>
+    </g>
+    <g id="_16-Faces" data-name=" 16-Faces">
+      <g id="GROUP_-_AC_-_PROMETHEUS" data-name="GROUP - AC - PROMETHEUS">
+        <text id="TEXT_-_ac_" data-name="TEXT - ac " transform="matrix(0.9808, 0.1951, -0.1951, 0.9808, 539.1632, 119.8428)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(ac)</text>
+        <path id="SYMBOL_-_FACE_-_PROMETHEUS_-_AC_-_YANG_BOTTOM_-_YANG_-_YANG_-_YIN_TOP_" data-name="SYMBOL - FACE - PROMETHEUS - AC - YANG BOTTOM - YANG - YANG - YIN TOP " d="M520.6271,69.4946l.8063-4.0534,17.0242,3.3864-.8062,4.0534Zm19.1206-7.1525-17.0243-3.3864-.8062,4.0534,17.0243,3.3864Zm1.29-6.4855L524.0135,52.47l-.8062,4.0534L540.2315,59.91Zm1.29-6.4854-6.4854-1.29-.8063,4.0535,6.4855,1.29Zm-11.3454,1.957-6.4854-1.29.8063-4.0534,6.4854,1.29Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Prometheus" data-name="TEXT - Prometheus" transform="matrix(0.9808, 0.1951, -0.1951, 0.9808, 508.1984, 49.8418)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Prometheus</text>
+      </g>
+      <g id="GROUP_-_AG_-_VISHNU" data-name="GROUP - AG - VISHNU">
+        <text id="TEXT_-_ag_" data-name="TEXT - ag " transform="matrix(0.9808, -0.1951, 0.1951, 0.9808, 394.5221, 126.1235)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(ag)</text>
+        <path id="SYMBOL_-_FACE_-_VISHNU_-_AG_-_YANG_BOTTOM_-_YANG_-_YIN_-_YANG_TOP_" data-name="SYMBOL - FACE - VISHNU - AG - YANG BOTTOM - YANG - YIN - YANG TOP " d="M366.9467,68.8276l17.0242-3.3864.8063,4.0534L367.7529,72.881Zm-.4837-2.4321,17.0242-3.3864-.8062-4.0534-17.0243,3.3864Zm4.3889-11.8289-6.4854,1.29.8062,4.0534,6.4855-1.29Zm4.86,3.2472,6.4854-1.29-.8062-4.0534-6.4855,1.29Zm-12.6352-8.4425.8063,4.0534,17.0243-3.3863-.8063-4.0534Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Vishnu" data-name="TEXT - Vishnu" transform="matrix(0.9808, -0.1951, 0.1951, 0.9808, 364.1266, 68.313)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Vishnu</text>
+      </g>
+      <g id="GROUP_-_GA_-_MINERVA" data-name="GROUP - GA - MINERVA">
+        <text id="TEXT_-_ga_" data-name="TEXT - ga " transform="translate(780.6808 266.4452) rotate(56.25)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(ga)</text>
+        <path id="SYMBOL_-_FACE_-_MINERVA_-_GA_-_YIN_BOTTOM_-_YANG_-_YANG_-_YANG_TOP_" data-name="SYMBOL - FACE - MINERVA - GA - YIN BOTTOM - YANG - YANG - YANG TOP " d="M777.09,228.2763l3.6736,5.4978-3.4363,2.2961-3.6737-5.4978Zm2.5334,11.23,3.6737,5.4978,3.4363-2.296L783.06,237.21Zm-.4716-12.608,9.6435,14.4325,3.4363-2.2961-9.6434-14.4325Zm5.4978-3.6738,9.6438,14.4325,3.4362-2.296-9.6435-14.4325Zm8.9344-5.97-3.4363,2.296,9.6436,14.4325,3.4363-2.296Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Minerva" data-name="TEXT - Minerva" transform="translate(819.4288 211.7211) rotate(56.25)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Minerva</text>
+      </g>
+      <g id="GROUP_-_AA_-_HADES" data-name="GROUP - AA - HADES">
+        <text id="TEXT_-_aa_" data-name="TEXT - aa " transform="translate(674.6339 169.2433) rotate(33.75)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(aa)</text>
+        <path id="SYMBOL_-_FACE_-_HADES_-_AA_-_YANG_BOTTOM_-_YANG_-_YANG_-_YANG_TOP_" data-name="SYMBOL - FACE - HADES - AA - YANG BOTTOM - YANG - YANG - YANG TOP " d="M665.4564,121.4321l14.4326,9.6436-2.296,3.4361-14.4325-9.6434Zm1.3777-2.0617,14.4325,9.6434,2.2961-3.4363L669.13,115.9341Zm3.6737-5.4978L684.94,123.516l2.2961-3.4363-14.4325-9.6435Zm5.97-8.9346-2.296,3.4364,14.4325,9.6435,2.296-3.4364Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Hades" data-name="TEXT - Hades" transform="translate(697.6964 109.3429) rotate(33.75)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Hades</text>
+      </g>
+      <g id="GROUP_-_GG_-_HARMONIA" data-name="GROUP - GG - HARMONIA">
+        <text id="TEXT_-_gg_" data-name="TEXT - gg " transform="translate(848.2646 541.0027) rotate(101.2504)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(gg)</text>
+        <path id="SYMBOL_-_FACE_-_HARMONIA_-_GG_-_YIN_BOTTOM_-_YANG_-_YIN_-_YANG_TOP_" data-name="SYMBOL - FACE - HARMONIA - GG - YIN BOTTOM - YANG - YIN - YANG TOP " d="M842.7238,524.1944l-1.29,6.4854-4.0534-.8063,1.29-6.4854Zm-6.15,9.7324-1.29,6.4855,4.0539.8062,1.29-6.4854Zm8.5818-9.2489-3.3864,17.0243,4.0534.8063,3.3863-17.0242Zm9.2488,8.5818,1.29-6.4854-4.0533-.8063-1.29,6.4855Zm-4.86,3.2472-1.29,6.4854,4.0534.8063,1.29-6.4854Zm12.635-8.4425-4.0534-.8063L854.74,544.2824l4.0533.8063Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Harmonia" data-name="TEXT - Harmonia" transform="translate(915.5849 523.2371) rotate(101.2504)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Harmonia</text>
+      </g>
+      <g id="GROUP_-_GC_-_CHRIST" data-name="GROUP - GC - CHRIST">
+        <text id="TEXT_-_gc_" data-name="TEXT - gc " transform="translate(841.8079 397.2972) rotate(78.7496)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(gc)</text>
+        <path id="SYMBOL_-_FACE_-_CHRIST_-_GC_-_YIN_BOTTOM_-_YANG_-_YANG_-_YIN_TOP_" data-name="SYMBOL - FACE - CHRIST - GC - YIN BOTTOM - YANG - YANG - YIN TOP " d="M839.3381,369.7076l1.29,6.4854-4.0533.8062-1.29-6.4854Zm-1.9572,11.3453,1.29,6.4855,4.0533-.8063-1.29-6.4855ZM841.77,369.224l3.3863,17.0243,4.0534-.8063-3.3864-17.0242Zm6.4853-1.29,3.3864,17.0243,4.0533-.8063-3.3863-17.0243Zm11.8289,4.389-1.29-6.4854-4.0533.8062,1.29,6.4854Zm.8061,4.0534-4.0533.8062,1.29,6.4855,4.0534-.8063Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Christ" data-name="TEXT - Christ" transform="translate(899.8763 368.4984) rotate(78.7496)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Christ</text>
+      </g>
+      <g id="GROUP_-_UA_-_MAAT" data-name="GROUP - UA - MAAT">
+        <text id="TEXT_-_ua_" data-name="TEXT - ua " transform="translate(701.7062 783.1846) rotate(146.25)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(ua)</text>
+        <path id="SYMBOL_-_FACE_-_MAAT_-_UA_-_YIN_BOTTOM_-_YIN_-_YANG_-_YANG_TOP_" data-name="SYMBOL - FACE - MAAT - UA - YIN BOTTOM - YIN - YANG - YANG TOP " d="M679.8887,779.85l-5.4978,3.6737-2.2961-3.4364,5.4979-3.6736Zm-11.23,2.5334-5.4982,3.6737,2.2961,3.4364,5.4978-3.6737Zm12.6079-.4716-5.4981,3.6736,2.2961,3.4363,5.4978-3.6736Zm-8.9344,5.97-5.4976,3.6737,2.296,3.4363,5.4978-3.6737ZM684.94,787.41l-14.4325,9.6435,2.2961,3.4364,14.4325-9.6436Zm5.97,8.9345-2.296-3.4363-14.4325,9.6436,2.296,3.4362Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Maat" data-name="TEXT - Maat" transform="translate(742.4777 831.2589) rotate(146.25)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Maat</text>
+      </g>
+      <g id="GROUP_-_GU_-_THOTH" data-name="GROUP - GU - THOTH">
+        <text id="TEXT_-_gu_" data-name="TEXT - gu " transform="translate(799.2927 676.2325) rotate(123.75)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(gu)</text>
+        <path id="SYMBOL_-_FACE_-_THOTH_-_GU_-_YIN_BOTTOM_-_YANG_-_YIN_-_YIN_TOP_" data-name="SYMBOL - FACE - THOTH - GU - YIN BOTTOM - YANG - YIN - YIN TOP " d="M783.2968,665.9213l3.4363,2.2961-3.6736,5.4981-3.4363-2.2961Zm-5.97,8.9344-3.6738,5.4978,3.4364,2.2961,3.6736-5.4978Zm5.2608,11.4678,9.6434-14.4325-3.4363-2.2959-9.6435,14.4325Zm5.4977,3.6738,3.6738-5.4981-3.4363-2.2961-3.6737,5.4978Zm5.97-8.9344,3.6737-5.4978-3.4362-2.2961-3.6737,5.4978Zm5.4978,3.6736,3.6737-5.4977-3.4362-2.2961-3.6737,5.4978Zm-5.97,8.9345,3.6736-5.4981-3.4363-2.296-3.6736,5.4978Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Thoth" data-name="TEXT - Thoth" transform="translate(858.4196 700.4669) rotate(123.75)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Thoth</text>
+      </g>
+      <g id="GROUP_-_UG_-_LAKSHMI" data-name="GROUP - UG - LAKSHMI">
+        <text id="TEXT_-_ug_" data-name="TEXT - ug " transform="translate(427.3848 851.0985) rotate(-168.7496)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(ug)</text>
+        <path id="SYMBOL_-_FACE_-_LAKSHMI_-_UG_-_YIN_BOTTOM_-_YIN_-_YIN_-_YANG_TOP_" data-name="SYMBOL - FACE - LAKSHMI - UG - YIN BOTTOM - YIN - YIN - YANG TOP " d="M373.4321,843.3886l-6.4854-1.29.8062-4.0533,6.4855,1.29Zm4.86-3.2472-.8063,4.0533,6.4855,1.29.8062-4.0534Zm-5.3434,5.6788-6.4854-1.29-.8063,4.0533,6.4855,1.29Zm3.2472,4.86,6.4855,1.29.8063-4.0533-6.4855-1.29Zm-1.29,6.4854,6.4855,1.29.8063-4.0533-6.4855-1.29Zm-3.247-4.86-6.4855-1.29-.8063,4.0534,6.4855,1.29Zm-8.5818,9.2488,17.0243,3.3863.8062-4.0533-17.0242-3.3864Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Lakshmi" data-name="TEXT - Lakshmi" transform="translate(436.6348 916.7548) rotate(-168.7496)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Lakshmi</text>
+      </g>
+      <g id="GROUP_-_UC_-_PARVATI" data-name="GROUP - UC - PARVATI">
+        <text id="TEXT_-_uc_" data-name="TEXT - uc " transform="translate(571.0903 844.4915) rotate(168.7496)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(uc)</text>
+        <path id="SYMBOL_-_FACE_-_PARVATI_-_UC_-_YIN_BOTTOM_-_YIN_-_YANG_-_YIN_TOP_" data-name="SYMBOL - FACE - PARVATI - UC - YIN BOTTOM - YIN - YANG - YIN TOP " d="M527.9188,844.1949l-6.4855,1.29-.8062-4.0534,6.4854-1.29Zm9.7326-6.15-6.4855,1.29.8063,4.0533,6.4854-1.29Zm1.29,6.4855-6.4854,1.29.8062,4.0534,6.4855-1.29Zm-10.5388,2.0963-6.4854,1.29.8062,4.0533,6.4855-1.29Zm11.8288,4.3891-17.0242,3.3863.8063,4.0534,17.0241-3.3864Zm-8.4425,12.6351-.8062-4.0534-6.4855,1.29.8063,4.0533Zm4.0534-.8062,6.4854-1.29-.8062-4.0533-6.4855,1.29Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Parvati" data-name="TEXT - Parvati" transform="translate(603.1167 901.8938) rotate(168.7496)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Parvati</text>
+      </g>
+      <g id="GROUP_-_CU_-_JANUS" data-name="GROUP - CU - JANUS">
+        <text id="TEXT_-_cu_" data-name="TEXT - cu " transform="translate(184.5779 704.4718) rotate(-123.75)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(cu)</text>
+        <path id="SYMBOL_-_FACE_-_JANUS_-_CU_-_YANG_BOTTOM_-_YIN_-_YIN_-_YIN_TOP_" data-name="SYMBOL - FACE - JANUS - CU - YANG BOTTOM - YIN - YIN - YIN TOP " d="M128.3147,682.65l-9.6435-14.4325,3.4364-2.2961,9.6434,14.4324Zm-8.0315-7.557-3.6738-5.4978-3.4363,2.296,3.6737,5.4981Zm-1.14,5.7324,3.6737,5.4978,3.4363-2.296-3.6737-5.4981Zm-5.4978,3.6737,3.6737,5.498,3.4363-2.296-3.6737-5.4978Zm1.14-5.7324-3.6737-5.4978-3.4363,2.2961,3.6737,5.4977Zm-6.6383,9.406,3.6737,5.4981,3.4363-2.296-3.6737-5.4978Zm-2.296-3.4363,3.4362-2.2961-3.6736-5.4976-3.4364,2.296Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Janus" data-name="TEXT - Janus" transform="translate(139.2566 749.3468) rotate(-123.75)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Janus</text>
+      </g>
+      <g id="GROUP_-_UU-_MAIA" data-name="GROUP - UU- MAIA">
+        <text id="TEXT_-_uu_" data-name="TEXT - uu " transform="translate(291.9216 802.3063) rotate(-146.25)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(uu)</text>
+        <path id="SYMBOL_-_FACE_-_MAIA_-_UU_-_YIN_BOTTOM_-_YIN_-_YIN_-_YIN_TOP_" data-name="SYMBOL - FACE - MAIA - UU - YIN BOTTOM - YIN - YIN - YIN TOP " d="M227.8116,776.4142l5.4977,3.6737-2.296,3.4363-5.4978-3.6737Zm8.9343,5.97-2.2961,3.4363,5.4978,3.6737,2.2961-3.4363ZM221.842,785.349l5.4978,3.6736,2.2962-3.4363-5.4978-3.6735Zm8.9344,5.97,5.4981,3.6737,2.2961-3.4363-5.4978-3.6737Zm-12.6081-.4717,5.4978,3.6737,2.2961-3.4364-5.4978-3.6736Zm8.9344,5.97,5.4978,3.6738,2.296-3.4364-5.4978-3.6744Zm-12.6081-.4716,5.4981,3.6737,2.2961-3.4364-5.4978-3.6737Zm8.9344,5.97,5.4978,3.6737,2.296-3.4363-5.4978-3.6737Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Maia" data-name="TEXT - Maia" transform="translate(260.9684 856.947) rotate(-146.25)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Maia</text>
+      </g>
+      <g id="GROUP_-_CC_-_MITRA" data-name="GROUP - CC - MITRA">
+        <text id="TEXT_-_cc_" data-name="TEXT - cc " transform="translate(117.0996 428.7666) rotate(-78.7496)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(cc)</text>
+        <path id="SYMBOL_-_FACE_-_MITRA_-_CC_-_YANG_BOTTOM_-_YIN_-_YANG_-_YIN_TOP_" data-name="SYMBOL - FACE - MITRA - CC - YANG BOTTOM - YIN - YANG - YIN TOP " d="M66.7337,387.5381l-4.0534-.8063,3.3863-17.0242,4.0534.8062Zm-4.389-11.829,1.29-6.4854-4.0534-.8063-1.29,6.4855Zm-4.86,3.2472-1.29,6.4855,4.0534.8063,1.29-6.4855Zm-4.389-11.8288-3.3863,17.0243,4.0534.8062,3.3863-17.0243Zm-6.4854-1.29-1.29,6.4854,4.0534.8063,1.29-6.4855ZM44.514,376.3764l-1.29,6.4854,4.0534.8063,1.29-6.4854Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Mitra" data-name="TEXT - Mitra" transform="translate(53.3467 428.1807) rotate(-78.7496)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Mitra</text>
+      </g>
+      <g id="GROUP_-_CG_-_MICHAEL" data-name="GROUP - CG - MICHAEL">
+        <text id="TEXT_-_cg_" data-name="TEXT - cg " transform="translate(123.3453 573.4067) rotate(-101.2504)" font-size="16.7414" font-family="Copperplate" style="isolation: isolate">(cg)</text>
+        <path id="SYMBOL_-_FACE_-_MICHAEL_-_CG_-_YANG_BOTTOM_-_YIN_-_YIN_-_YANG_TOP_" data-name="SYMBOL - FACE - MICHAEL - CG - YANG BOTTOM - YIN - YIN - YANG TOP " d="M70.12,540.4123l-4.0534.8062L62.68,524.1944l4.0534-.8063Zm-11.8288-4.389,1.29,6.4855,4.0534-.8063-1.29-6.4854Zm3.2472-4.86-1.29-6.4855-4.0535.8063,1.29,6.4854Zm-6.4856,1.29-1.29-6.4855-4.0534.8063L51,533.26Zm-3.2471,4.86,1.29,6.4854,4.0534-.8063-1.29-6.4854Zm-8.5817-9.2489L46.61,545.0885l4.0534-.8062L47.2775,527.258Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Michael" data-name="TEXT - Michael" transform="translate(66.5093 608.5434) rotate(-101.2504)" font-size="19.5787" font-family="Copperplate" style="isolation: isolate">Michael</text>
+      </g>
+      <g id="GROUP_-_CA_-_KALI" data-name="GROUP - CA - KALI">
+        <text id="TEXT_-_ca_" data-name="TEXT - ca " transform="translate(166.4894 293.1309) rotate(-56.25)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(ca)</text>
+        <path id="SYMBOL_-_FACE_-_KALI_-_CA_-_YANG_BOTTOM_-_YIN_-_YANG_-_YANG_TOP_" data-name="SYMBOL - FACE - KALI - CA - YANG BOTTOM - YIN - YANG - YANG TOP " d="M122.1076,245.0049l-3.4364-2.2961,9.6435-14.4325,3.4363,2.2961Zm.4716-12.6082,3.6738-5.4978-3.4364-2.296L119.1429,230.1Zm-5.7324,1.14-3.6736,5.4977,3.4362,2.2961,3.6738-5.4981Zm.4717-12.6081-9.6433,14.4325,3.4363,2.296,9.6435-14.4325Zm-5.4978-3.6738-9.6435,14.4325,3.4364,2.2961,9.6434-14.4325Z" transform="translate(29.7988 29.7983)"/>
+        <text id="TEXT_-_Kali" data-name="TEXT - Kali" transform="translate(111.7228 262.3765) rotate(-56.25)" font-size="19.578" font-family="Copperplate" style="isolation: isolate">Kali</text>
+      </g>
+      <g id="GROUP_-_AU_-_KEEPERS" data-name="GROUP - AU - KEEPERS">
+        <text id="TEXT_-_au_" data-name="TEXT - au " transform="translate(263.2912 187.3425) rotate(-33.75)" font-size="16.7408" font-family="Copperplate" style="isolation: isolate">(au)</text>
+        <path id="SYMBOL_-_FACE_-_KEEPERS_-_AU_-_YANG_BOTTOM_-_YANG_-_YIN_-_YIN_TOP_" data-name="SYMBOL - FACE - KEEPERS - AU - YANG BOTTOM - YANG - YIN - YIN TOP " d="M227.8116,134.5119l-2.2962-3.4362,14.4325-9.6436,2.296,3.4364Zm8.4627-18.5778-14.4322,9.6434,2.2961,3.4363,14.4325-9.6434Zm-3.6737-5.4978-5.4978,3.674,2.2961,3.4361,5.4978-3.6736Zm-8.9344,5.97-5.4978,3.6737,2.2961,3.4363,5.4978-3.6737Zm5.2606-11.4679-5.4978,3.6737,2.2961,3.4364,5.4978-3.6738Zm-8.9343,5.97-5.4982,3.6737,2.2961,3.4364,5.4978-3.6737Z" transform="translate(29.7988 29.7983)"/>
+        <g id="TEXT_-_Keepers_of_the_Wheel" data-name="TEXT - Keepers of the Wheel">
+          <text transform="translate(209.4577 147.1496) rotate(-34.1461)" font-size="19.5782" font-family="Copperplate" style="isolation: isolate">Keepers</text>
+          <text transform="translate(221.2125 148.4963) rotate(-34.1461)" font-size="9.0727" font-family="Copperplate" style="isolation: isolate">of the Wheel</text>
+        </g>
+      </g>
+      <g id="Structure-3">
+        <g id="DIVIDERS">
+          <line x1="482.771" y1="67.5541" x2="482.771" y2="94.5385" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="323.6012" y1="99.2148" x2="333.9276" y2="124.1451" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="188.6634" y1="189.3771" x2="207.7443" y2="208.4579" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="98.5008" y1="324.3146" x2="123.4311" y2="334.6411" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="66.8398" y1="483.4844" x2="93.8242" y2="483.4844" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="98.5005" y1="642.6542" x2="123.4308" y2="632.3279" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="188.6628" y1="777.592" x2="207.7436" y2="758.5112" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="323.6003" y1="867.7546" x2="333.9268" y2="842.8243" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="482.7701" y1="899.4156" x2="482.7701" y2="872.4313" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="641.9399" y1="867.755" x2="631.6135" y2="842.8246" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="776.8777" y1="777.5928" x2="757.7969" y2="758.5118" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="867.0403" y1="642.6551" x2="842.11" y2="632.3287" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="898.7013" y1="483.4853" x2="871.7169" y2="483.4853" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="867.0407" y1="324.3155" x2="842.1103" y2="334.6419" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="776.8784" y1="189.3777" x2="757.7975" y2="208.4586" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+          <line x1="641.9408" y1="99.2151" x2="631.6143" y2="124.1454" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4103"/>
+        </g>
+      </g>
+    </g>
+    <g id="_32-Fifths" data-name=" 32-Fifths">
+      <g id="Structure-4">
+        <g id="RINGS">
+          <circle id="BOTTOM_RING" data-name="BOTTOM RING" cx="483.2987" cy="483.2983" r="388.2825" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4213"/>
+          <circle id="TOP_RING" data-name="TOP RING" cx="483.2987" cy="483.2983" r="418.936" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.4299"/>
+        </g>
+      </g>
+      <g id="MOUNTAIN">
+        <g id="MAAT-UA-YANG">
+          <g id="_1_-_YIN" data-name=" 1 - YIN">
+            <rect x="704.8073" y="755.5509" width="4.034" height="2.8572" transform="translate(-290.7185 655.6753) rotate(-39.69)"/>
+            <rect x="699.5095" y="759.9564" width="4.034" height="2.8572" transform="translate(-294.7531 653.3074) rotate(-39.69)"/>
+          </g>
+          <g id="_2_-_YIN" data-name=" 2 - YIN">
+            <rect x="707.2873" y="758.5299" width="4.034" height="2.8572" transform="translate(-292.0494 657.9458) rotate(-39.69)"/>
+            <rect x="701.982" y="762.9314" width="4.034" height="2.8572" transform="translate(-296.0832 655.5721) rotate(-39.69)"/>
+          </g>
+          <polygon id="_3_-_YANG" data-name=" 3 - YANG" points="733.654 797.253 735.423 799.386 735.479 799.453 735.49 799.442 735.543 799.506 738.647 796.928 740.846 795.102 743.953 792.526 742.126 790.327 742.113 790.336 742.061 790.272 742.006 790.207 733.596 797.187 733.654 797.253"/>
+          <rect id="_5_-_YANG" data-name=" 5 - YANG" x="708.4902" y="769.6204" width="10.928" height="2.8572" transform="translate(-298.0844 663.6535) rotate(-39.7)"/>
+          <polygon id="_4_-_YANG" data-name=" 4 - YANG" points="736.123 800.23 736.138 800.245 736.152 800.262 737.92 802.395 737.978 802.461 746.384 795.48 746.358 795.447 744.532 793.248 744.504 793.216 736.095 800.194 736.123 800.23"/>
+        </g>
+        <g id="MAAT-UA-YIN">
+          <g id="_1_-_YIN-2" data-name=" 1 - YIN-2">
+            <polygon points="667.881 831.299 666.179 832.22 667.542 834.732 669.316 833.773 671.089 832.811 669.727 830.297 667.881 831.299"/>
+            <polygon points="674.093 827.931 672.241 828.935 673.601 831.447 675.376 830.486 677.149 829.524 676.526 828.374 675.786 827.012 674.093 827.931"/>
+          </g>
+          <g id="_2_-_YIN-2" data-name=" 2 - YIN-2">
+            <rect x="638.6273" y="804.6605" width="4.034" height="2.8572" transform="translate(-278.7365 436.8098) rotate(-28.7198)"/>
+            <rect x="644.6944" y="801.3907" width="4.034" height="2.8572" transform="translate(-274.6952 435.1721) rotate(-28.47)"/>
+          </g>
+          <polygon id="_3_-_YANG-2" data-name=" 3 - YANG-2" points="673.413 837.098 669.867 839.019 671.228 841.533 674.777 839.61 677.289 838.246 680.835 836.324 679.474 833.811 675.925 835.734 673.413 837.098"/>
+          <polygon id="_4_-_YANG-2" data-name=" 4 - YANG-2" points="675.258 840.496 671.71 842.42 673.073 844.932 676.618 843.008 679.132 841.646 682.68 839.723 681.317 837.211 677.77 839.133 675.258 840.496"/>
+          <g id="_5_-_YIN" data-name=" 5 - YIN">
+            <rect x="644.1684" y="814.8752" width="4.034" height="2.8572" transform="translate(-281.1868 436.5521) rotate(-28.47)"/>
+            <rect x="650.2227" y="811.5894" width="4.034" height="2.8572" transform="translate(-278.8883 439.0408) rotate(-28.47)"/>
+          </g>
+        </g>
+        <g id="PARVATI-UC-YANG">
+          <g id="_1_-_YIN-3" data-name=" 1 - YIN-3">
+            <rect x="568.4022" y="829.7833" width="4.034" height="2.8572" transform="translate(-193.6423 239.6591) rotate(-17.49)"/>
+            <rect x="561.8272" y="831.8557" width="4.034" height="2.8572" transform="translate(-194.5691 237.7788) rotate(-17.49)"/>
+          </g>
+          <g id="_2_-_YIN-3" data-name=" 2 - YIN-3">
+            <rect x="569.564" y="833.4722" width="4.034" height="2.8572" transform="translate(-194.6973 240.1788) rotate(-17.49)"/>
+            <rect x="562.9926" y="835.5445" width="4.034" height="2.8572" transform="translate(-195.6239 238.2996) rotate(-17.49)"/>
+          </g>
+          <polygon id="_3_-_YANG-3" data-name=" 3 - YANG-3" points="598.268 871.177 600.993 870.316 603.32 869.584 604.84 869.103 604.84 869.103 604.843 869.103 603.982 866.378 602.466 866.855 600.134 867.589 597.409 868.45 593.559 869.663 594.42 872.389 594.42 872.389 594.42 872.392 598.268 871.177"/>
+          <g id="_4_-_YIN" data-name=" 4 - YIN">
+            <rect x="571.859" y="840.8278" width="4.034" height="2.8572" transform="translate(-197.022 241.488) rotate(-17.51)"/>
+            <rect x="565.2898" y="842.9025" width="4.034" height="2.8572" transform="translate(-197.9506 239.6077) rotate(-17.51)"/>
+          </g>
+          <polygon id="_5_-_YANG-2" data-name=" 5 - YANG-2" points="606.309 873.754 602.463 874.967 599.736 875.826 595.888 877.041 596.749 879.766 600.595 878.553 603.32 877.692 607.17 876.479 606.309 873.754"/>
+        </g>
+        <g id="PARVATI-UC-YIN">
+          <g id="_1_-_YIN-4" data-name=" 1 - YIN-4">
+            <rect x="495.6101" y="844.8145" width="4.034" height="2.8572" transform="translate(-42.6207 76.7873) rotate(-5.04)"/>
+            <rect x="488.7432" y="845.4179" width="4.034" height="2.8572" transform="translate(-42.7003 76.1864) rotate(-5.04)"/>
+          </g>
+          <g id="_2_-_YIN-4" data-name=" 2 - YIN-4">
+            <rect x="495.9473" y="848.6646" width="4.034" height="2.8572" transform="translate(-42.9576 76.8318) rotate(-5.04)"/>
+            <rect x="489.085" y="849.2696" width="4.034" height="2.8572" transform="translate(-43.0373 76.2313) rotate(-5.04)"/>
+          </g>
+          <polygon id="_3_-_YANG-4" data-name=" 3 - YANG-4" points="526.221 885.344 530.241 884.988 529.989 882.141 525.97 882.495 524.649 882.613 523.123 882.747 519.105 883.102 519.353 885.949 523.375 885.594 526.221 885.344"/>
+          <g id="_4_-_YIN-2" data-name=" 4 - YIN-2">
+            <rect x="489.7589" y="856.9706" width="4.034" height="2.8572" transform="translate(-43.7112 76.3203) rotate(-5.04)"/>
+            <rect x="496.6295" y="856.3709" width="4.034" height="2.8572" transform="translate(-43.632 76.9215) rotate(-5.04)"/>
+          </g>
+          <g id="_5_-_YIN-2" data-name=" 5 - YIN-2">
+            <rect x="490.097" y="860.8184" width="4.034" height="2.8572" transform="translate(-44.048 76.3648) rotate(-5.04)"/>
+            <rect x="496.9667" y="860.2208" width="4.034" height="2.8572" transform="translate(-43.9689 76.966) rotate(-5.04)"/>
+          </g>
+        </g>
+      </g>
+      <g id="WATER">
+        <g id="HARMONIA-GG-YANG">
+          <g id="_1_-_YIN-5" data-name=" 1 - YIN-5">
+            <rect x="844.5612" y="492.1755" width="4.0341" height="2.8572" transform="translate(306.406 1320.5677) rotate(-84.68)"/>
+            <rect x="843.9252" y="499.0419" width="4.0341" height="2.8572" transform="translate(298.9921 1326.1643) rotate(-84.68)"/>
+          </g>
+          <polygon id="_2_-_YANG" data-name=" 2 - YANG" points="881.476 525.919 881.853 521.9 879.006 521.635 878.633 525.653 878.366 528.498 877.994 532.516 880.837 532.782 881.213 528.764 881.476 525.919"/>
+          <g id="_3_-_YIN" data-name=" 3 - YIN">
+            <polygon points="885.064 529.119 882.219 528.856 882.218 528.858 882.218 528.858 881.843 532.874 884.688 533.141 884.688 533.137 884.69 533.139 885.064 529.119"/>
+            <polygon points="882.481 526.013 885.328 526.278 885.328 526.274 885.33 526.276 885.704 522.256 882.857 521.991 882.857 521.995 882.857 521.995 882.481 526.013"/>
+          </g>
+          <polygon id="_4_-_YANG-3" data-name=" 4 - YANG-3" points="889.179 526.634 889.555 522.615 886.708 522.35 886.332 526.368 886.069 529.213 885.693 533.231 888.539 533.497 888.914 529.48 889.179 526.634"/>
+          <rect id="_5_-_YANG-3" data-name=" 5 - YANG-3" x="856.1998" y="497.0448" width="10.928" height="2.8572" transform="translate(315.2446 1340.0062) rotate(-84.68)"/>
+        </g>
+        <g id="HARMONIA-GG-YIN">
+          <g id="_1_-_YIN-6" data-name=" 1 - YIN-6">
+            <rect x="831.0088" y="563.2396" width="4.0341" height="2.8572" transform="translate(73.3594 1218.5873) rotate(-72.46)"/>
+            <rect x="828.9302" y="569.8099" width="4.0341" height="2.8572" transform="translate(65.6423 1221.1955) rotate(-72.46)"/>
+          </g>
+          <polygon id="_2_-_YANG-2" data-name=" 2 - YANG-2" points="867.231 597.912 868.447 594.062 865.722 593.203 864.506 597.049 863.645 599.775 862.428 603.622 865.154 604.484 866.37 600.634 867.231 597.912"/>
+          <g id="_3_-_YIN-2" data-name=" 3 - YIN-2">
+            <rect x="836.3061" y="572.1416" width="4.0341" height="2.8572" transform="translate(68.572 1229.8575) rotate(-72.46)"/>
+            <rect x="838.3766" y="565.5573" width="4.0341" height="2.8572" transform="translate(76.2967 1227.2317) rotate(-72.46)"/>
+          </g>
+          <polygon id="_4_-_YANG-4" data-name=" 4 - YANG-4" points="874.605 600.24 875.821 596.395 873.096 595.532 871.88 599.381 871.019 602.104 869.803 605.953 872.53 606.814 873.744 602.967 874.605 600.24"/>
+          <g id="_5_-_YIN-3" data-name=" 5 - YIN-3">
+            <rect x="843.675" y="574.4673" width="4.0341" height="2.8572" transform="translate(71.5027 1238.5086) rotate(-72.46)"/>
+            <rect x="845.7611" y="567.9118" width="4.0341" height="2.8572" transform="translate(79.2108 1235.9178) rotate(-72.46)"/>
+          </g>
+        </g>
+        <g id="THOTH-GU-YANG">
+          <g id="_1_-_YIN-7" data-name=" 1 - YIN-7">
+            <rect x="800.3533" y="637.8987" width="4.0341" height="2.8572" transform="translate(-102.484 1092.1636) rotate(-62.9)"/>
+            <rect x="797.2154" y="644.0496" width="4.0341" height="2.8572" transform="translate(-109.668 1092.7191) rotate(-62.9)"/>
+          </g>
+          <polygon id="_2_-_YANG-3" data-name=" 2 - YANG-3" points="835.963 673.317 837.799 669.725 835.254 668.423 833.418 672.015 832.114 674.558 830.277 678.152 832.821 679.454 834.661 675.862 835.963 673.317"/>
+          <g id="_3_-_YIN-3" data-name=" 3 - YIN-3">
+            <rect x="807.2407" y="641.4328" width="4.0341" height="2.8572" transform="translate(-101.8802 1100.2191) rotate(-62.9)"/>
+            <polygon points="838.103 677.623 838.103 677.623 835.559 676.321 835.559 676.321 835.559 676.321 833.719 679.913 836.263 681.215 838.103 677.623 838.103 677.623"/>
+          </g>
+          <g id="_4_-_YIN-3" data-name=" 4 - YIN-3">
+            <rect x="810.685" y="643.1938" width="4.0341" height="2.8572" transform="translate(-101.5725 1104.244) rotate(-62.9)"/>
+            <rect x="807.5453" y="649.3353" width="4.0341" height="2.8572" transform="translate(-108.7492 1104.7928) rotate(-62.9)"/>
+          </g>
+          <polygon id="_5_-_YANG-4" data-name=" 5 - YANG-4" points="845.583 673.708 843.745 677.298 842.443 679.843 840.603 683.435 843.148 684.737 844.988 681.145 846.289 678.6 848.127 675.01 845.583 673.708"/>
+        </g>
+        <g id="THOTH-GU-YIN">
+          <g id="_1_-_YIN-8" data-name=" 1 - YIN-8">
+            <rect x="760.3148" y="699.266" width="4.0341" height="2.8572" transform="translate(-235.9497 853.6744) rotate(-49.42)"/>
+            <rect x="755.9483" y="704.4081" width="4.0469" height="2.8664" transform="translate(-241.1072 854.5665) rotate(-49.5539)"/>
+          </g>
+          <polygon id="_2_-_YANG-4" data-name=" 2 - YANG-4" points="794.842 735.405 797.467 732.34 795.297 730.48 792.672 733.546 790.814 735.717 788.189 738.782 790.359 740.642 792.984 737.577 794.842 735.405"/>
+          <g id="_3_-_YIN-4" data-name=" 3 - YIN-4">
+            <polygon points="795.92 740.091 793.75 738.231 793.731 738.254 793.679 738.209 791.054 741.274 793.227 743.134 793.244 743.113 793.295 743.157 795.92 740.091"/>
+            <polygon points="795.539 736.039 797.71 737.897 797.727 737.877 797.78 737.922 800.405 734.856 798.235 732.996 798.216 733.019 798.164 732.974 795.539 736.039"/>
+          </g>
+          <g id="_4_-_YIN-4" data-name=" 4 - YIN-4">
+            <polygon points="798.788 742.583 796.62 740.729 796.617 740.725 793.992 743.79 793.995 743.794 796.163 745.648 796.167 745.652 798.792 742.587 798.788 742.583"/>
+            <polygon points="798.478 738.557 800.648 740.413 800.65 740.415 803.275 737.35 803.273 737.348 801.103 735.492 801.1 735.488 798.477 738.555 798.478 738.557"/>
+          </g>
+          <g id="_5_-_YIN-4" data-name=" 5 - YIN-4">
+            <rect x="767.5146" y="714.5261" width="4.0341" height="2.8572" transform="translate(-245.0234 864.4759) rotate(-49.42)"/>
+            <rect x="771.9965" y="709.3049" width="4.0341" height="2.8572" transform="translate(-239.4916 866.0551) rotate(-49.42)"/>
+          </g>
+        </g>
+      </g>
+      <g id="WIND">
+        <g id="MINERVA-GA-YANG">
+          <g id="_1_-_YIN-9" data-name=" 1 - YIN-9">
+            <rect x="757.4876" y="201.0307" width="2.8572" height="4.034" transform="translate(73.5645 558.026) rotate(-39.43)"/>
+            <rect x="761.8801" y="206.3579" width="2.8572" height="4.034" transform="translate(71.1808 562.0282) rotate(-39.43)"/>
+          </g>
+          <polygon id="_2_-_YANG-5" data-name=" 2 - YANG-5" points="793.703 235.064 796.264 238.182 798.473 236.364 795.91 233.249 794.094 231.042 791.532 227.923 789.323 229.74 791.886 232.856 793.703 235.064"/>
+          <rect id="_3_-_YANG-5" data-name=" 3 - YANG-5" x="765.6583" y="195.335" width="2.8572" height="10.928" transform="translate(76.8524 562.7037) rotate(-39.43)"/>
+          <polygon id="_4_-_YANG-5" data-name=" 4 - YANG-5" points="802.305 233.213 804.445 231.452 804.513 231.4 797.572 222.958 797.505 223.011 795.364 224.771 795.296 224.828 802.239 233.268 802.305 233.213"/>
+          <rect id="_5_-YANG" data-name=" 5 -YANG" x="771.6989" y="190.3677" width="2.8572" height="10.928" transform="translate(81.3821 565.4097) rotate(-39.43)"/>
+        </g>
+        <g id="MINERVA-GA-YIN">
+          <g id="_1_-_YIN-10" data-name=" 1 - YIN-10">
+            <rect x="799.9881" y="264.3959" width="2.8572" height="4.034" transform="translate(-3.6681 423.5454) rotate(-27.06)"/>
+            <rect x="803.1294" y="270.5361" width="2.8572" height="4.034" transform="translate(-6.1176 425.6466) rotate(-27.06)"/>
+          </g>
+          <polygon id="_2_-YANG" data-name=" 2 -YANG" points="839.91 301.715 838.075 298.123 836.775 295.577 834.937 291.984 832.392 293.284 834.229 296.877 835.529 299.423 837.366 303.016 839.91 301.715"/>
+          <rect id="_3_-_YANG-6" data-name=" 3 - YANG-6" x="808.449" y="260.5005" width="2.8572" height="10.928" transform="translate(-2.5379 427.3454) rotate(-27.06)"/>
+          <polygon id="_4_-_YANG-6" data-name=" 4 - YANG-6" points="842.416 295.905 844.251 299.497 846.797 298.197 844.96 294.604 843.66 292.058 841.824 288.467 839.279 289.766 841.116 293.36 842.416 295.905"/>
+          <g id="_5_-YIN" data-name=" 5 -YIN">
+            <rect x="816.9131" y="263.5018" width="2.8572" height="4.034" transform="translate(-1.4086 431.1471) rotate(-27.06)"/>
+            <rect x="813.766" y="257.3598" width="2.8572" height="4.034" transform="translate(1.0411 429.0431) rotate(-27.06)"/>
+          </g>
+        </g>
+        <g id="CHRIST-GC-YANG">
+          <g id="_1_-_YIN-11" data-name=" 1 - YIN-11">
+            <rect x="830.0119" y="336.2087" width="2.8572" height="4.034" transform="translate(-30.4572 265.2259) rotate(-15.56)"/>
+            <rect x="831.8474" y="342.8426" width="2.8572" height="4.034" transform="translate(-32.1694 265.9614) rotate(-15.56)"/>
+          </g>
+          <polygon id="_2_-_YANG-6" data-name=" 2 - YANG-6" points="866.905 368.558 865.824 364.671 863.068 365.438 864.152 369.324 864.918 372.077 866.001 375.967 868.753 375.199 867.671 371.312 866.905 368.558"/>
+          <rect id="_3_-_YANG-7" data-name=" 3 - YANG-7" x="838.3769" y="334.004" width="2.8572" height="10.928" transform="translate(-30.4838 267.5153) rotate(-15.56)"/>
+          <g id="_4_-_YIN-5" data-name=" 4 - YIN-5">
+            <rect x="841.1729" y="333.0887" width="2.8572" height="4.034" transform="translate(-29.2112 268.1055) rotate(-15.56)"/>
+            <rect x="843.0283" y="339.7337" width="2.8572" height="4.034" transform="translate(-30.9257 268.8467) rotate(-15.56)"/>
+          </g>
+          <polygon id="_5_-_YANG-5" data-name=" 5 - YANG-5" points="878.848 368.199 878.08 365.447 876.998 361.56 874.245 362.326 875.327 366.213 876.093 368.966 877.176 372.856 879.93 372.086 878.848 368.199"/>
+        </g>
+        <g id="CHRIST-GC-YIN">
+          <g id="_1_-_YIN-12" data-name=" 1 - YIN-12">
+            <rect x="845.0896" y="409.391" width="2.8572" height="4.034" transform="translate(-1.8356 102.5357) rotate(-4.83)"/>
+            <rect x="845.6679" y="416.2545" width="2.8572" height="4.034" transform="translate(-2.4114 102.6088) rotate(-4.83)"/>
+          </g>
+          <polygon id="_2_-_YANG-7" data-name=" 2 - YANG-7" points="881.693 442.711 881.353 438.689 878.504 438.931 878.846 442.951 879.087 445.798 879.426 449.821 882.273 449.58 881.934 445.558 881.693 442.711"/>
+          <polygon id="_3_-_YANG-8" data-name=" 3 - YANG-8" points="885.546 442.386 885.207 438.364 882.36 438.605 882.697 442.625 882.94 445.474 883.278 449.494 886.129 449.253 885.787 445.233 885.546 442.386"/>
+          <g id="_4_-_YIN-6" data-name=" 4 - YIN-6">
+            <rect x="856.6509" y="408.4121" width="2.8572" height="4.034" transform="translate(-1.7121 103.5057) rotate(-4.83)"/>
+            <rect x="857.2275" y="415.2802" width="2.8572" height="4.034" transform="translate(-2.2883 103.5786) rotate(-4.83)"/>
+          </g>
+          <g id="_5_-_YIN-5" data-name=" 5 - YIN-5">
+            <polygon points="893.076 439.639 892.912 437.712 890.065 437.953 890.234 439.964 890.406 441.973 893.253 441.733 893.076 439.639"/>
+            <polygon points="893.671 446.681 893.494 444.58 890.645 444.822 890.817 446.831 890.987 448.842 892.289 448.732 893.834 448.602 893.671 446.681"/>
+          </g>
+        </g>
+      </g>
+      <g id="HEAVEN">
+        <g id="PROMETHEUS-AC-YIN">
+          <rect id="_1_-_YANG" data-name=" 1 - YANG" x="493.6565" y="54.918" width="2.8572" height="10.928" transform="translate(419.0286 577.5712) rotate(-84.7)"/>
+          <polygon id="_2_-_YANG-8" data-name=" 2 - YANG-8" points="519.924 84.35 519.922 84.37 519.922 84.393 519.664 87.154 519.657 87.24 530.538 88.248 530.544 88.205 530.805 85.358 530.809 85.317 519.93 84.307 519.924 84.35"/>
+          <polygon id="_3_-_YANG-9" data-name=" 3 - YANG-9" points="520.281 80.5 520.026 83.259 520.018 83.345 520.031 83.347 520.026 83.428 524.042 83.802 526.889 84.067 530.907 84.44 531.172 81.593 531.155 81.591 531.163 81.509 531.17 81.423 520.289 80.414 520.281 80.5"/>
+          <g id="_4_-_YIN-7" data-name=" 4 - YIN-7">
+            <rect x="498.2202" y="47.2189" width="2.8572" height="4.034" transform="translate(434.1832 571.9822) rotate(-84.69)"/>
+            <rect x="491.3225" y="46.575" width="2.8571" height="4.0339" transform="translate(428.5862 564.5338) rotate(-84.6925)"/>
+          </g>
+          <g id="_5_-_YIN-6" data-name=" 5 - YIN-6">
+            <rect x="498.5351" y="43.3575" width="2.8571" height="4.0339" transform="translate(438.3353 568.7957) rotate(-84.6925)"/>
+            <rect x="491.6733" y="42.7225" width="2.8571" height="4.0339" transform="translate(432.7405 561.387) rotate(-84.6925)"/>
+          </g>
+        </g>
+        <g id="PROMETHEUS-AC-YANG">
+          <rect id="_1_-_YANG-2" data-name=" 1 - YANG-2" x="568.4616" y="70.155" width="2.8572" height="10.928" transform="translate(359.4774 627.7118) rotate(-72.86)"/>
+          <polygon id="_2_-_YANG-9" data-name=" 2 - YANG-9" points="596.028 98.743 595.212 101.391 595.185 101.473 605.629 104.695 605.655 104.613 606.472 101.965 606.496 101.88 596.054 98.661 596.028 98.743"/>
+          <polygon id="_3_-_YANG-10" data-name=" 3 - YANG-10" points="597.193 94.967 596.351 97.697 596.367 97.703 596.354 97.742 600.211 98.932 602.941 99.774 606.798 100.964 607.64 98.233 607.624 98.228 607.635 98.187 597.193 94.967"/>
+          <g id="_4_-_YIN-8" data-name=" 4 - YIN-8">
+            <rect x="575.2046" y="63.4888" width="2.8572" height="4.034" transform="translate(373.903 627.025) rotate(-72.8606)"/>
+            <rect x="568.6215" y="61.4695" width="2.8572" height="4.034" transform="translate(371.1839 619.3076) rotate(-72.86)"/>
+          </g>
+          <polygon id="_5_-_YANG-6" data-name=" 5 - YANG-6" points="598.634 90.353 602.491 91.543 605.221 92.385 609.076 93.573 609.92 90.841 606.063 89.651 603.333 88.809 599.478 87.621 598.634 90.353"/>
+        </g>
+        <g id="HADES-AA-YIN">
+          <rect id="_1_-_YANG-3" data-name=" 1 - YANG-3" x="642.2155" y="101.264" width="2.8572" height="10.928" transform="translate(280.4806 657.3421) rotate(-62.38)"/>
+          <polygon id="_2_-_YANG-10" data-name=" 2 - YANG-10" points="671.09 129.367 669.806 131.823 669.764 131.898 679.447 136.968 679.486 136.891 680.772 134.436 680.812 134.359 671.13 129.29 671.09 129.367"/>
+          <rect id="_3_-_YANG-11" data-name=" 3 - YANG-11" x="645.8438" y="94.3343" width="2.8572" height="10.928" transform="translate(288.5667 656.8399) rotate(-62.38)"/>
+          <polygon id="_4_-_YANG-7" data-name=" 4 - YANG-7" points="678.291 124.311 674.716 122.439 673.39 124.971 676.965 126.842 679.498 128.167 683.074 130.038 684.4 127.507 680.824 125.635 678.291 124.311"/>
+          <g id="_5_-_YIN-7" data-name=" 5 - YIN-7">
+            <rect x="652.4779" y="92.5186" width="2.8572" height="4.034" transform="translate(296.7882 659.8952) rotate(-62.38)"/>
+            <rect x="646.3759" y="89.3358" width="2.8572" height="4.034" transform="translate(296.3352 652.7813) rotate(-62.38)"/>
+          </g>
+        </g>
+        <g id="HADES-AA-YANG">
+          <rect id="_1_-_YANG-4" data-name=" 1 - YANG-4" x="704.2462" y="143.6465" width="2.8572" height="10.928" transform="translate(172.023 629.1691) rotate(-50.56)"/>
+          <polygon id="_2_-_YANG-11" data-name=" 2 - YANG-11" points="734.609 171.293 732.848 173.435 732.792 173.502 741.233 180.445 741.287 180.376 743.05 178.236 743.104 178.17 734.663 171.227 734.609 171.293"/>
+          <rect id="_3_-_YANG-12" data-name=" 3 - YANG-12" x="709.2148" y="137.6053" width="2.8572" height="10.928" transform="translate(178.5008 630.8029) rotate(-50.56)"/>
+          <polygon id="_4_-_YANG-8" data-name=" 4 - YANG-8" points="739.576 165.254 737.815 167.396 737.761 167.461 746.202 174.404 746.256 174.335 748.017 172.197 748.071 172.128 739.632 165.187 739.576 165.254"/>
+          <rect id="_5_-_YANG-7" data-name=" 5 - YANG-7" x="714.1818" y="131.5585" width="2.8572" height="10.928" transform="translate(184.9823 632.4334) rotate(-50.56)"/>
+        </g>
+      </g>
+      <g id="EARTH">
+        <g id="LAKSHMI-UU-YANG">
+          <g id="_1_-_YIN-13" data-name=" 1 - YIN-13">
+            <rect x="416.2344" y="845.0816" width="2.8572" height="4.0341" transform="translate(-432.8152 1219.141) rotate(-85)"/>
+            <rect x="409.3641" y="844.4803" width="2.8572" height="4.0341" transform="translate(-438.4877 1211.7479) rotate(-85)"/>
+          </g>
+          <g id="_2_-_YIN-5" data-name=" 2 - YIN-5">
+            <polygon points="442.107 881.692 442.355 878.851 442.355 878.847 438.335 878.495 438.335 878.499 438.085 881.342 438.087 881.347 442.105 881.697 442.107 881.692"/>
+            <polygon points="445.204 879.099 444.953 881.942 444.953 881.946 448.973 882.298 448.973 882.294 449.222 879.449 449.222 879.445 445.202 879.093 445.204 879.099"/>
+          </g>
+          <g id="_3_-_YIN-5" data-name=" 3 - YIN-5">
+            <polygon points="444.865 882.952 444.865 882.952 444.616 885.797 444.616 885.797 444.616 885.797 448.637 886.149 448.885 883.304 444.865 882.952 444.865 882.952"/>
+            <rect x="408.693" y="852.1957" width="2.8572" height="4.0341" transform="translate(-446.7862 1218.1224) rotate(-85)"/>
+          </g>
+          <polygon id="_4_-_YANG-9" data-name=" 4 - YANG-9" points="441.679 886.555 437.659 886.203 437.413 889.05 441.433 889.402 444.28 889.652 448.298 890.002 448.548 887.155 444.528 886.803 441.679 886.555"/>
+          <rect id="_5_-_YANG-8" data-name=" 5 - YANG-8" x="411.4516" y="856.7491" width="2.8572" height="10.928" transform="translate(-452.2381 1228.1736) rotate(-85)"/>
+        </g>
+        <g id="MAIA-UG-YIN">
+          <g id="_1_-_YIN-14" data-name=" 1 - YIN-14">
+            <rect x="340.4338" y="830.825" width="2.8572" height="4.0341" transform="translate(-525.1099 941.9969) rotate(-72.74)"/>
+            <rect x="333.8863" y="828.7638" width="2.8573" height="4.0342" transform="translate(-527.7451 934.3102) rotate(-72.741)"/>
+          </g>
+          <g id="_2_-_YIN-6" data-name=" 2 - YIN-6">
+            <polygon points="369.003 864.35 368.157 867.077 368.155 867.078 372.01 868.277 372.01 868.274 372.856 865.547 372.858 865.541 369.005 864.344 369.003 864.35"/>
+            <polygon points="365.427 866.227 366.275 863.502 366.275 863.498 362.422 862.301 362.422 862.305 361.574 865.029 361.572 865.035 365.425 866.232 365.427 866.227"/>
+          </g>
+          <g id="_3_-_YIN-6" data-name=" 3 - YIN-6">
+            <polygon points="367.849 867.969 367.003 870.699 367.03 870.706 367.009 870.772 370.862 871.969 371.71 869.241 371.682 869.231 371.702 869.166 367.849 867.969"/>
+            <polygon points="364.278 869.926 365.128 867.195 365.1 867.186 365.121 867.12 361.266 865.925 360.418 868.654 360.446 868.663 360.426 868.729 364.278 869.926"/>
+          </g>
+          <polygon id="_4_-_YANG-10" data-name=" 4 - YANG-10" points="363.973 870.816 360.118 869.617 359.272 872.347 363.125 873.544 365.855 874.391 369.708 875.588 370.556 872.859 366.703 871.662 363.973 870.816"/>
+          <g id="_5_-_YIN-8" data-name=" 5 - YIN-8">
+            <rect x="329.261" y="843.4968" width="2.8572" height="4.0341" transform="translate(-545.0688 940.2392) rotate(-72.74)"/>
+            <rect x="335.8453" y="845.5434" width="2.8572" height="4.0341" transform="translate(-542.3925 947.9663) rotate(-72.74)"/>
+          </g>
+        </g>
+        <g id="MAIA-UG-YANG">
+          <g id="_1_-_YIN-15" data-name=" 1 - YIN-15">
+            <rect x="267.6124" y="801.0766" width="2.8572" height="4.0341" transform="translate(-537.0149 696.1824) rotate(-62.19)"/>
+            <rect x="261.514" y="797.8632" width="2.8572" height="4.0341" transform="translate(-537.4258 689.0741) rotate(-62.19)"/>
+          </g>
+          <g id="_2_-YIN" data-name=" 2 -YIN">
+            <polygon points="292.066 835.361 293.399 832.836 293.399 832.833 289.831 830.95 289.828 830.954 288.498 833.478 288.494 833.481 292.064 835.366 292.066 835.361"/>
+            <polygon points="295.927 834.17 294.594 836.694 294.592 836.7 298.161 838.581 298.161 838.577 299.495 836.053 299.497 836.047 295.927 834.166 295.927 834.17"/>
+          </g>
+          <g id="_3_-_YIN-7" data-name=" 3 - YIN-7">
+            <polygon points="290.256 838.818 291.589 836.29 291.58 836.284 291.593 836.256 288.025 834.373 286.69 836.903 286.701 836.907 286.688 836.935 290.256 838.818"/>
+            <polygon points="294.121 837.59 292.788 840.117 292.799 840.125 292.784 840.151 296.353 842.036 297.685 839.506 297.676 839.501 297.689 839.473 294.121 837.59"/>
+          </g>
+          <g id="_4_-_YIN-9" data-name=" 4 - YIN-9">
+            <rect x="262.1914" y="811.3734" width="2.8572" height="4.0341" transform="translate(-549.0143 696.8804) rotate(-62.19)"/>
+            <rect x="256.0963" y="808.1593" width="2.8572" height="4.0341" transform="translate(-549.423 689.7747) rotate(-62.19)"/>
+          </g>
+          <polygon id="_5_-_YANG-9" data-name=" 5 - YANG-9" points="287.981 843.129 284.411 841.248 283.078 843.776 286.648 845.657 289.175 846.991 292.745 848.876 294.079 846.348 290.509 844.463 287.981 843.129"/>
+        </g>
+        <g id="LAKSHMI-UU-YIN">
+          <g id="_1_-_YIN-16" data-name=" 1 - YIN-16">
+            <rect x="203.0722" y="758.75" width="2.8572" height="4.0341" transform="translate(-485.4006 470.2235) rotate(-50.96)"/>
+            <rect x="197.7199" y="754.4099" width="2.8572" height="4.0341" transform="translate(-484.0106 464.4599) rotate(-50.96)"/>
+          </g>
+          <g id="_2_-_YIN-7" data-name=" 2 - YIN-7">
+            <polygon points="227.178 791.644 228.976 789.427 228.979 789.423 225.845 786.883 225.841 786.886 224.045 789.101 224.041 789.105 227.174 791.647 227.178 791.644"/>
+            <polygon points="231.194 791.227 229.398 793.445 229.396 793.447 232.529 795.99 232.532 795.986 234.331 793.77 234.331 793.766 231.198 791.223 231.194 791.227"/>
+          </g>
+          <g id="_3_-_YIN-8" data-name=" 3 - YIN-8">
+            <polygon points="224.74 794.649 224.744 794.653 226.544 792.431 223.409 789.89 223.409 789.89 223.405 789.89 221.606 792.108 224.738 794.651 224.74 794.649"/>
+            <polygon points="228.762 794.234 228.759 794.231 226.96 796.451 230.093 798.993 230.095 798.991 230.097 798.993 231.899 796.773 228.764 794.232 228.762 794.234"/>
+          </g>
+          <g id="_4_-_YIN-10" data-name=" 4 - YIN-10">
+            <polygon points="220.97 792.897 219.176 795.114 219.172 795.117 222.306 797.658 222.308 797.656 224.106 795.44 224.108 795.434 220.974 792.893 220.97 792.897"/>
+            <polygon points="226.325 797.24 224.529 799.454 224.525 799.458 227.659 802.002 227.661 801.997 229.459 799.78 229.463 799.776 226.329 797.236 226.325 797.24"/>
+          </g>
+          <g id="_5_-_YIN-9" data-name=" 5 - YIN-9">
+            <rect x="187.9732" y="766.4306" width="2.8572" height="4.0341" transform="translate(-496.9548 461.3389) rotate(-50.96)"/>
+            <rect x="193.3293" y="770.778" width="2.8572" height="4.0341" transform="translate(-498.3489 467.1082) rotate(-50.96)"/>
+          </g>
+        </g>
+      </g>
+      <g id="THUNDER">
+        <g id="JANUS-CU-YIN">
+          <polygon id="_1_-_YANG-5" data-name=" 1 - YANG-5" points="177.194 735.475 179.746 738.602 181.96 736.794 179.408 733.667 177.6 731.453 175.051 728.328 172.835 730.134 175.386 733.261 177.194 735.475"/>
+          <g id="_2_-_YIN-8" data-name=" 2 - YIN-8">
+            <rect x="140.9734" y="701.4204" width="2.8572" height="4.034" transform="translate(-382.9048 278.3067) rotate(-39.22)"/>
+            <rect x="145.3348" y="706.7608" width="2.8572" height="4.034" transform="translate(-385.299 282.2674) rotate(-39.22)"/>
+          </g>
+          <g id="_3_-_YIN-9" data-name=" 3 - YIN-9">
+            <polygon points="173.417 738.557 171.202 740.364 171.21 740.376 171.187 740.394 173.737 743.519 175.953 741.714 175.944 741.704 175.968 741.684 173.417 738.557"/>
+            <polygon points="169.38 738.18 171.594 736.372 171.584 736.363 171.609 736.342 169.059 733.217 166.843 735.023 166.851 735.035 166.828 735.053 169.38 738.18"/>
+          </g>
+          <g id="_4_-_YIN-11" data-name=" 4 - YIN-11">
+            <polygon points="170.4 741.035 168.19 742.839 168.186 742.843 170.738 745.97 170.741 745.966 172.952 744.162 172.955 744.158 170.404 741.031 170.4 741.035"/>
+            <polygon points="166.382 740.625 168.592 738.821 168.596 738.817 166.046 735.692 166.043 735.696 163.832 737.5 163.827 737.502 166.378 740.629 166.382 740.625"/>
+          </g>
+          <g id="_5_-_YIN-10" data-name=" 5 - YIN-10">
+            <rect x="136.325" y="714.1275" width="2.8572" height="4.034" transform="translate(-391.9867 278.2301) rotate(-39.22)"/>
+            <rect x="131.9672" y="708.7871" width="2.8572" height="4.034" transform="translate(-389.5916 274.2716) rotate(-39.22)"/>
+          </g>
+        </g>
+        <g id="JANUS-CU-YANG">
+          <polygon id="_1_-_YANG-6" data-name=" 1 - YANG-6" points="136.081 669.342 134.681 666.847 132.705 663.329 130.212 664.73 132.188 668.248 133.587 670.739 135.563 674.258 138.055 672.859 136.081 669.342"/>
+          <g id="_2_-_YIN-9" data-name=" 2 - YIN-9">
+            <rect x="97.8719" y="635.8756" width="2.8572" height="4.034" transform="translate(-269.7597 160.0699) rotate(-29.31)"/>
+            <rect x="101.2499" y="641.8871" width="2.8572" height="4.034" transform="translate(-272.2701 162.4931) rotate(-29.31)"/>
+          </g>
+          <g id="_3_-_YIN-10" data-name=" 3 - YIN-10">
+            <polygon points="125.483 672.011 125.492 672.032 127.986 670.631 126.01 667.112 125.972 667.135 125.961 667.116 123.47 668.515 125.446 672.034 125.483 672.011"/>
+            <polygon points="129.347 673.144 129.338 673.128 126.845 674.525 128.819 678.045 128.858 678.025 128.868 678.041 131.359 676.642 129.385 673.122 129.347 673.144"/>
+          </g>
+          <g id="_4_-_YIN-12" data-name=" 4 - YIN-12">
+            <rect x="94.5543" y="645.6721" width="2.8572" height="4.034" transform="translate(-274.9802 159.6999) rotate(-29.31)"/>
+            <rect x="91.1777" y="639.662" width="2.8572" height="4.034" transform="translate(-272.4702 157.2775) rotate(-29.31)"/>
+          </g>
+          <polygon id="_5_-_YANG-10" data-name=" 5 - YANG-10" points="121.241 674.418 119.265 670.899 116.774 672.299 118.75 675.817 120.149 678.308 122.125 681.827 124.616 680.428 122.64 676.909 121.241 674.418"/>
+        </g>
+        <g id="MICHAEL-CG-YIN">
+          <polygon id="_1_-_YANG-7" data-name=" 1 - YANG-7" points="101.593 591.797 102.808 595.645 103.668 598.373 104.883 602.221 107.608 601.36 106.393 597.511 105.532 594.786 104.317 590.938 101.593 591.797"/>
+          <g id="_2_-_YIN-10" data-name=" 2 - YIN-10">
+            <rect x="68.6828" y="562.6648" width="2.8572" height="4.034" transform="translate(-136.94 77.099) rotate(-17.52)"/>
+            <rect x="70.7614" y="569.2365" width="2.8572" height="4.034" transform="translate(-138.8219 78.0296) rotate(-17.52)"/>
+          </g>
+          <g id="_3_-_YIN-11" data-name=" 3 - YIN-11">
+            <rect x="64.9984" y="563.8259" width="2.8572" height="4.034" transform="translate(-137.4605 76.0437) rotate(-17.52)"/>
+            <polygon points="99.019 599.84 99.019 599.84 96.292 600.7 96.292 600.7 96.292 600.7 97.507 604.548 100.234 603.688 99.019 599.84 99.019 599.84"/>
+          </g>
+          <polygon id="_4_-_YANG-11" data-name=" 4 - YANG-11" points="94.471 598.278 93.256 594.429 90.531 595.291 91.746 599.139 92.607 601.864 93.822 605.712 96.545 604.853 95.33 601.005 94.471 598.278"/>
+          <g id="_5_-_YIN-11" data-name=" 5 - YIN-11">
+            <rect x="57.6112" y="566.1514" width="2.8572" height="4.034" transform="translate(-138.5032 73.9278) rotate(-17.52)"/>
+            <rect x="59.6972" y="572.7308" width="2.8572" height="4.034" transform="translate(-140.3871 74.8609) rotate(-17.52)"/>
+          </g>
+        </g>
+        <g id="MICHAEL-CG-YANG">
+          <polygon id="_1_-_YANG-8" data-name=" 1 - YANG-8" points="88.585 521.753 89.061 525.759 91.899 525.422 91.423 521.413 91.084 518.578 90.61 514.57 87.77 514.909 88.247 518.914 88.585 521.753"/>
+          <g id="_2_-_YIN-11" data-name=" 2 - YIN-11">
+            <rect x="54.4027" y="485.4168" width="2.8572" height="4.034" transform="translate(-27.356 39.7983) rotate(-6.78)"/>
+            <rect x="55.219" y="492.2657" width="2.8572" height="4.034" transform="translate(-28.1588 39.9426) rotate(-6.78)"/>
+          </g>
+          <g id="_3_-_YIN-12" data-name=" 3 - YIN-12">
+            <polygon points="80.611 519.822 80.615 519.841 83.452 519.505 82.976 515.496 82.931 515.503 82.929 515.482 80.089 515.821 80.568 519.828 80.611 519.822"/>
+            <polygon points="83.746 522.348 83.742 522.329 80.904 522.665 81.383 526.673 81.426 526.667 81.429 526.686 84.267 526.349 83.789 522.342 83.746 522.348"/>
+          </g>
+          <polygon id="_4_-_YANG-12" data-name=" 4 - YANG-12" points="77.111 523.136 77.589 527.144 80.427 526.807 79.95 522.798 79.614 519.96 79.135 515.953 76.296 516.292 76.774 520.299 77.111 523.136"/>
+          <rect id="_5_-_YANG-11" data-name=" 5 - YANG-11" x="43.3395" y="486.7789" width="2.8572" height="10.928" transform="translate(-28.0011 38.5258) rotate(-6.78)"/>
+        </g>
+      </g>
+      <g id="FIRE">
+        <g id="MITRA-CC-YIN">
+          <polygon id="_1_-_YANG-9" data-name=" 1 - YANG-9" points="89.422 438.01 89.005 442.024 88.712 444.865 88.294 448.88 91.137 449.175 91.555 445.161 91.848 442.319 92.265 438.305 89.422 438.01"/>
+          <g id="_2_-_YIN-12" data-name=" 2 - YIN-12">
+            <rect x="54.997" y="408.5662" width="4.034" height="2.8572" transform="matrix(0.1031, -0.9947, 0.9947, 0.1031, -326.8759, 454.2163)"/>
+            <rect x="54.2855" y="415.4239" width="4.034" height="2.8572" transform="translate(-334.3351 459.659) rotate(-84.08)"/>
+          </g>
+          <polygon id="_3_-_YANG-13" data-name=" 3 - YANG-13" points="83.861 444.365 84.155 441.52 84.407 439.095 84.572 437.51 84.572 437.51 84.572 437.506 81.729 437.214 81.566 438.794 81.314 441.227 81.016 444.068 80.599 448.082 83.442 448.378 83.442 448.378 83.446 448.378 83.861 444.365"/>
+          <g id="_4_-_YIN-13" data-name=" 4 - YIN-13">
+            <rect x="47.3233" y="407.7926" width="4.034" height="2.8572" transform="translate(-332.991 445.7457) rotate(-84.06)"/>
+            <rect x="46.6091" y="414.6494" width="4.034" height="2.8572" transform="translate(-340.4513 451.1826) rotate(-84.06)"/>
+          </g>
+          <g id="_5_-_YIN-12" data-name=" 5 - YIN-12">
+            <rect x="43.4762" y="407.3909" width="4.034" height="2.8572" transform="translate(-336.0405 441.5592) rotate(-84.06)"/>
+            <rect x="42.7625" y="414.2489" width="4.034" height="2.8572" transform="translate(-343.5015 446.9976) rotate(-84.06)"/>
+          </g>
+        </g>
+        <g id="MITRA-CC-YANG">
+          <polygon id="_1_-_YANG-10" data-name=" 1 - YANG-10" points="105.792 361.364 104.724 365.256 103.968 368.013 102.902 371.903 105.659 372.659 106.725 368.769 107.481 366.012 108.549 362.12 105.792 361.364"/>
+          <g id="_2_-_YIN-13" data-name=" 2 - YIN-13">
+            <rect x="71.1126" y="331.4714" width="4.034" height="2.8572" transform="translate(-237.4606 345.2144) rotate(-74.67)"/>
+            <rect x="69.2866" y="338.1197" width="4.034" height="2.8572" transform="translate(-245.2156 348.344) rotate(-74.67)"/>
+          </g>
+          <polygon id="_3_-_YANG-14" data-name=" 3 - YANG-14" points="100.023 363.967 101.088 360.077 98.332 359.32 97.266 363.211 96.511 365.969 95.444 369.862 98.2 370.614 99.266 366.724 100.023 363.967"/>
+          <g id="_4_-_YIN-14" data-name=" 4 - YIN-14">
+            <rect x="63.6508" y="329.4255" width="4.034" height="2.8572" transform="translate(-240.9765 336.513) rotate(-74.67)"/>
+            <rect x="61.83" y="336.0738" width="4.034" height="2.8572" transform="translate(-248.7278 339.6477) rotate(-74.67)"/>
+          </g>
+          <polygon id="_5_YANG" data-name=" 5 YANG" points="92.564 361.922 93.63 358.031 90.875 357.277 89.807 361.169 89.053 363.924 87.985 367.816 90.742 368.572 91.81 364.68 92.564 361.922"/>
+        </g>
+        <g id="KALI-CA-YIN">
+          <polygon id="_1_-_YANG-11" data-name=" 1 - YANG-11" points="136.552 289.59 134.781 293.218 133.528 295.785 131.758 299.413 134.327 300.668 136.097 297.04 137.35 294.473 139.121 290.845 136.552 289.59"/>
+          <g id="_2_-_YIN-14" data-name=" 2 - YIN-14">
+            <rect x="101.6741" y="259.1441" width="4.034" height="2.8572" transform="translate(-146.1591 269.2427) rotate(-63.98)"/>
+            <rect x="98.6492" y="265.3385" width="4.034" height="2.8572" transform="translate(-153.4236 270.0014) rotate(-63.98)"/>
+          </g>
+          <polygon id="_3_-_YANG-15" data-name=" 3 - YANG-15" points="130.4 291.08 132.169 287.454 129.602 286.201 127.831 289.825 126.576 292.394 124.808 296.02 127.377 297.275 129.145 293.649 130.4 291.08"/>
+          <polygon id="_4_-_YANG-13" data-name=" 4 - YANG-13" points="126.924 289.383 128.695 285.759 126.126 284.504 124.357 288.13 123.102 290.699 121.334 294.325 123.901 295.578 125.671 291.954 126.924 289.383"/>
+          <g id="_5_-_YIN-13" data-name=" 5 - YIN-13">
+            <rect x="91.2495" y="254.0576" width="4.034" height="2.8572" transform="translate(-147.4397 257.0196) rotate(-63.98)"/>
+            <rect x="88.2265" y="260.2501" width="4.034" height="2.8572" transform="translate(-154.7014 257.779) rotate(-63.98)"/>
+          </g>
+        </g>
+        <g id="KALI-CA-YANG">
+          <polygon id="_1_-_YANG-12" data-name=" 1 - YANG-12" points="180.773 226.486 178.23 229.619 176.426 231.838 173.882 234.968 176.099 236.77 178.643 233.639 180.447 231.421 182.991 228.29 180.773 226.486"/>
+          <g id="_2_-_YIN-15" data-name=" 2 - YIN-15">
+            <rect x="145.7903" y="195.2818" width="4.034" height="2.8572" transform="translate(-68.2688 217.1535) rotate(-50.9)"/>
+            <rect x="141.4438" y="200.6308" width="4.034" height="2.8572" transform="translate(-74.0252 215.756) rotate(-50.9)"/>
+          </g>
+          <polygon id="_3_-_YANG-16" data-name=" 3 - YANG-16" points="177.035 223.425 174.816 221.625 174.805 221.636 174.771 221.61 172.227 224.74 170.423 226.959 167.879 230.09 170.097 231.893 170.109 231.879 170.14 231.907 177.035 223.425"/>
+          <polygon id="_4_-_YANG-14" data-name=" 4 - YANG-14" points="173.966 220.931 171.815 219.183 171.749 219.129 164.855 227.611 164.922 227.664 167.075 229.413 167.141 229.467 174.033 220.987 173.966 220.931"/>
+          <rect id="_5_-_YANG-12" data-name=" 5 - YANG-12" x="131.1446" y="190.5928" width="10.928" height="2.8572" transform="translate(-68.7659 206.731) rotate(-50.9)"/>
+        </g>
+      </g>
+      <g id="LAKE">
+        <g id="KEEPERS-AU-YIN">
+          <rect id="_1_-_YANG-13" data-name=" 1 - YANG-13" x="199.1693" y="144.7476" width="10.9277" height="2.8571" transform="translate(-16.2857 195.5422) rotate(-40.0022)"/>
+          <polygon id="_2_-_YANG-12" data-name=" 2 - YANG-12" points="229.887 172.862 226.796 175.456 228.634 177.644 231.723 175.051 233.915 173.214 237.004 170.621 235.168 168.431 232.077 171.026 229.887 172.862"/>
+          <g id="_3_-_YIN-13" data-name=" 3 - YIN-13">
+            <polygon points="229.591 168.062 229.591 168.062 231.427 170.251 231.427 170.251 231.427 170.251 234.518 167.657 232.68 165.469 229.591 168.062 229.591 168.062"/>
+            <rect x="195.0226" y="141.0629" width="4.034" height="2.8572" transform="translate(-15.6945 189.7895) rotate(-40)"/>
+          </g>
+          <g id="_4_-_YIN-15" data-name=" 4 - YIN-15">
+            <polygon points="226.751 169.123 224.915 166.938 224.911 166.934 221.822 169.527 221.826 169.53 223.66 171.718 223.662 171.72 226.753 169.125 226.751 169.123"/>
+            <polygon points="227.105 165.102 228.939 167.286 228.943 167.289 232.032 164.697 232.03 164.691 230.196 162.507 230.193 162.503 227.103 165.096 227.105 165.102"/>
+          </g>
+          <g id="_5_-_YIN-14" data-name=" 5 - YIN-14">
+            <rect x="195.3241" y="130.704" width="4.034" height="2.8572" transform="translate(-8.9654 187.5598) rotate(-40)"/>
+            <rect x="190.0423" y="135.1342" width="4.034" height="2.8572" transform="translate(-13.0488 185.2012) rotate(-40)"/>
+          </g>
+        </g>
+        <g id="KEEPERS-AU-YANG">
+          <rect id="_1_-_YANG-14" data-name=" 1 - YANG-14" x="264.4294" y="102.0248" width="10.928" height="2.8572" transform="translate(11.9322 160.4407) rotate(-26.37)"/>
+          <polygon id="_2_-_YANG-13" data-name=" 2 - YANG-13" points="299.895 130.431 303.51 128.639 302.241 126.078 298.625 127.871 296.064 129.141 292.448 130.933 293.718 133.494 297.334 131.701 299.895 130.431"/>
+          <g id="_3_-_YIN-14" data-name=" 3 - YIN-14">
+            <polygon points="295.6 128.245 295.615 128.237 294.347 125.675 290.733 127.469 290.751 127.51 290.735 127.516 292.004 130.076 295.618 128.286 295.6 128.245"/>
+            <polygon points="296.928 124.448 296.909 124.455 298.179 127.016 301.795 125.224 301.776 125.182 301.791 125.175 300.521 122.614 296.907 124.405 296.928 124.448"/>
+          </g>
+          <g id="_4_-_YIN-16" data-name=" 4 - YIN-16">
+            <rect x="259.6367" y="93.2098" width="4.034" height="2.8572" transform="translate(14.9901 155.8636) rotate(-26.37)"/>
+            <rect x="265.815" y="90.1487" width="4.034" height="2.8572" transform="translate(16.9926 158.2893) rotate(-26.37)"/>
+          </g>
+          <polygon id="_5_-_YANG-13" data-name=" 5 - YANG-13" points="294.746 120.086 298.36 118.296 297.09 115.735 293.476 117.525 290.916 118.795 287.3 120.588 288.57 123.148 292.185 121.356 294.746 120.086"/>
+        </g>
+        <g id="VISHNU-AG-YIN">
+          <rect id="_1_-_YANG-15" data-name=" 1 - YANG-15" x="337.2118" y="72.6556" width="10.928" height="2.8572" transform="translate(22.6817 127.5498) rotate(-16.07)"/>
+          <polygon id="_2_-_YANG-14" data-name=" 2 - YANG-14" points="373.145 101.132 377.023 100.015 376.231 97.269 372.355 98.384 369.609 99.176 365.731 100.294 366.523 103.04 370.399 101.924 373.145 101.132"/>
+          <g id="_3_-_YIN-15" data-name=" 3 - YIN-15">
+            <polygon points="369.33 98.207 368.538 95.461 368.535 95.461 368.535 95.461 364.658 96.577 365.448 99.325 365.45 99.323 365.452 99.325 369.33 98.207"/>
+            <polygon points="371.281 94.669 372.072 97.415 372.076 97.415 372.076 97.415 375.952 96.3 375.162 93.552 375.16 93.554 375.159 93.552 371.281 94.669"/>
+          </g>
+          <g id="_5_-_YIN-15" data-name=" 5 - YIN-15">
+            <rect x="339.687" y="56.837" width="4.034" height="2.8572" transform="translate(27.0225 126.6626) rotate(-16.07)"/>
+            <rect x="333.0606" y="58.7458" width="4.034" height="2.8572" transform="translate(26.2352 124.903) rotate(-16.07)"/>
+          </g>
+          <polygon id="_4_-_YANG-15" data-name=" 4 - YANG-15" points="371.002 93.7 374.88 92.583 374.088 89.837 370.212 90.953 367.466 91.744 363.588 92.862 364.379 95.608 368.256 94.492 371.002 93.7"/>
+        </g>
+        <g id="VISHNU-AG-YANG">
+          <rect id="_1_-_YANG-16" data-name=" 1 - YANG-16" x="410.8574" y="58.5419" width="10.928" height="2.8572" transform="translate(26.662 58.5462) rotate(-3.94)"/>
+          <polygon id="_2_-_YANG-15" data-name=" 2 - YANG-15" points="447.408 87.257 451.432 86.979 451.236 84.129 447.212 84.406 444.359 84.6 440.334 84.88 440.529 87.731 444.555 87.455 447.408 87.257"/>
+          <g id="_3_-_YIN-16" data-name=" 3 - YIN-16">
+            <rect x="410.3342" y="51.063" width="4.034" height="2.8572" transform="translate(27.1665 58.2557) rotate(-3.94)"/>
+            <rect x="417.2083" y="50.5897" width="4.034" height="2.8572" transform="translate(27.2153 58.7269) rotate(-3.94)"/>
+          </g>
+          <polygon id="_4_-_YANG-16" data-name=" 4 - YANG-16" points="446.876 79.541 450.902 79.265 450.705 76.412 446.681 76.69 443.83 76.886 439.802 77.164 439.998 80.015 444.026 79.737 446.876 79.541"/>
+          <rect id="_5_-_YANG-14" data-name=" 5 - YANG-14" x="409.7912" y="43.1106" width="10.928" height="2.8572" transform="translate(27.7198 58.4364) rotate(-3.94)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
