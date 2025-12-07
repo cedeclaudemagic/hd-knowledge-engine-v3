@@ -296,27 +296,24 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
   const specialCases = {
     'Energy which Fluctuates and Initiates Pulses': {
       lines: ['Energy Which Fluctuates', '&amp; Initiates Pulses'],
-      extraOffset: 40  // Extra padding from channelName
+      extraOffset: 5  // Extra padding from channelName
     },
     "Leadership For 'Good' or 'Bad'": {
       lines: ['Leadership', "For 'Good' or 'Bad'"],
-      extraOffset: 40
+      extraOffset: 5
     },
     'Mental Activity Mixed With Clarity': {
       lines: ['Mental Activity', 'Mixed With Clarity'],
-      extraOffset: 40
+      extraOffset: 5
     },
     'Balanced Development – Cyclic': {
       lines: ['Balanced Development', '&amp; Cyclic'],
-      extraOffset: 40
+      extraOffset: 5
     },
-    'Commitment To Higher Principles': {
-      lines: ['Commitment To Higher Principles'],
-      extraOffset: 0
-    },
+    'Commitment To Higher Principles': 'single',  // Keep as single line (31 chars > 28 threshold)
     'Thoughts that must become Deeds': {
       lines: ['Thoughts that must', 'become Deeds'],
-      extraOffset: 20,
+      extraOffset: 15,
       lineHeightMultiplier: 0.8  // Tighter line spacing
     }
   };
@@ -327,7 +324,10 @@ function formatKeynote(keynote, fontSize, maxChars = 28) {
 
   if (specialCases[keynote]) {
     const special = specialCases[keynote];
-    if (Array.isArray(special)) {
+    if (special === 'single') {
+      // Force single line - return plain text
+      return keynote;
+    } else if (Array.isArray(special)) {
       lines = special;
     } else {
       lines = special.lines;
@@ -571,7 +571,7 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   // must be NEGATED to maintain the same visual positioning
   const flipMultiplier = gateIsFlipped ? -1 : 1;
   const offsets = {
-    channelName: (channelCount > 1 ? 0.22 : BASE_ANGLE_OFFSETS.channelName) * flipMultiplier,
+    channelName: (channelCount > 1 ? 0.24 : BASE_ANGLE_OFFSETS.channelName) * flipMultiplier,
     keynote: (channelCount > 1 ? -0.18 : BASE_ANGLE_OFFSETS.keynote) * flipMultiplier,
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount) * flipMultiplier,
     circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount) * flipMultiplier,

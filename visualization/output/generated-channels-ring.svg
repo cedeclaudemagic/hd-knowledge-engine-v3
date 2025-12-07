@@ -3334,7 +3334,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Balanced Development</tspan><tspan x="0" dy="45.8">&amp; Cyclic</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Balanced Development</tspan><tspan x="0" dy="45.8">&amp; Cyclic</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_42_53"
          transform="translate(1566.3733 9042.3480) rotate(-27.4725)"
@@ -3410,7 +3410,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Energy Which Fluctuates</tspan><tspan x="0" dy="45.8">&amp; Initiates Pulses</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Energy Which Fluctuates</tspan><tspan x="0" dy="45.8">&amp; Initiates Pulses</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_3_60"
          transform="translate(1840.5964 9511.9066) rotate(-33.0975)"
@@ -3826,7 +3826,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Awakening_-_20_10"
-         transform="translate(4620.2201 10827.5849) rotate(-66.7825)"
+         transform="translate(4621.7357 10828.2347) rotate(-66.8025)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="end"
@@ -3839,7 +3839,7 @@
          font-family="Copperplate"
          text-anchor="end"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="0.0">Commitment To Higher Principles</tspan></text>
+         fill="#FFFFFF">Commitment To Higher Principles</text>
       <!-- Energy Type + Circuit (stacked, radial) -->
       <g id="ENERGY-CIRCUIT_-_20_10"
          transform="translate(4203.4290 11743.4017) rotate(-66.5625)">
@@ -3896,7 +3896,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_The_Brainwave_-_20_57"
-         transform="translate(4479.1697 10764.3275) rotate(-64.9075)"
+         transform="translate(4480.6632 10765.0265) rotate(-64.9275)"
          font-size="69.126"
          font-family="Copperplate"
          text-anchor="end"
@@ -3969,7 +3969,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Charisma_-_20_34"
-         transform="translate(4340.2646 10696.4889) rotate(-63.0325)"
+         transform="translate(4341.7344 10697.2364) rotate(-63.0525)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="end"
@@ -3982,7 +3982,7 @@
          font-family="Copperplate"
          text-anchor="end"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-33.1">Thoughts that must</tspan><tspan x="0" dy="26.1">become Deeds</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-28.1">Thoughts that must</tspan><tspan x="0" dy="26.1">become Deeds</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial) -->
       <g id="ENERGY-CIRCUIT_-_20_34"
          transform="translate(3864.4686 11583.0853) rotate(-62.8125)">
@@ -4581,7 +4581,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Balanced Development</tspan><tspan x="0" dy="45.8">&amp; Cyclic</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Balanced Development</tspan><tspan x="0" dy="45.8">&amp; Cyclic</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_53_42"
          transform="translate(8151.2748 11769.9035) rotate(72.4725)"
@@ -4809,7 +4809,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Leadership</tspan><tspan x="0" dy="45.8">For 'Good' or 'Bad'</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Leadership</tspan><tspan x="0" dy="45.8">For 'Good' or 'Bad'</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_31_7"
          transform="translate(9613.2095 11057.9755) rotate(55.5975)"
@@ -4961,7 +4961,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Leadership</tspan><tspan x="0" dy="45.8">For 'Good' or 'Bad'</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Leadership</tspan><tspan x="0" dy="45.8">For 'Good' or 'Bad'</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_7_31"
          transform="translate(10444.9716 10359.3636) rotate(44.3475)"
@@ -5338,7 +5338,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Mental Activity</tspan><tspan x="0" dy="45.8">Mixed With Clarity</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Mental Activity</tspan><tspan x="0" dy="45.8">Mixed With Clarity</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_64_47"
          transform="translate(11802.9076 8034.1373) rotate(16.2225)"
@@ -5414,7 +5414,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Mental Activity</tspan><tspan x="0" dy="45.8">Mixed With Clarity</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Mental Activity</tspan><tspan x="0" dy="45.8">Mixed With Clarity</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Projected_-_47_64"
          transform="translate(11929.0170 7505.1950) rotate(10.5975)"
@@ -5787,7 +5787,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_The_Brainwave_-_57_20"
-         transform="translate(10882.5631 4766.8951) rotate(-21.3425)"
+         transform="translate(10883.1629 4768.4311) rotate(-21.3225)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="start"
@@ -5866,7 +5866,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Perfected_Form_-_57_10"
-         transform="translate(10936.4600 4911.7808) rotate(-19.4675)"
+         transform="translate(10937.0092 4913.3356) rotate(-19.4475)"
          font-size="69.126"
          font-family="Copperplate"
          text-anchor="start"
@@ -5936,7 +5936,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Power_-_57_34"
-         transform="translate(10985.5875 5058.3523) rotate(-17.5925)"
+         transform="translate(10986.0856 5059.9242) rotate(-17.5725)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="start"
@@ -6559,7 +6559,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Exploration_-_34_10"
-         transform="translate(8378.1200 2159.1608) rotate(-66.3425)"
+         transform="translate(8379.6303 2159.8228) rotate(-66.3225)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="start"
@@ -6629,7 +6629,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Charisma_-_34_20"
-         transform="translate(8518.6805 2223.4996) rotate(-64.4675)"
+         transform="translate(8520.1683 2224.2106) rotate(-64.4475)"
          font-size="69.126"
          font-family="Copperplate"
          text-anchor="start"
@@ -6642,7 +6642,7 @@
          font-family="Copperplate"
          text-anchor="start"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-32.8">Thoughts that must</tspan><tspan x="0" dy="25.7">become Deeds</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.8">Thoughts that must</tspan><tspan x="0" dy="25.7">become Deeds</tspan></text>
       <!-- Energy Type + Circuit (stacked, radial) -->
       <g id="ENERGY-CIRCUIT_-_34_20"
          transform="translate(8932.4185 1306.2996) rotate(-64.6875)">
@@ -6708,7 +6708,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Power_-_34_57"
-         transform="translate(8657.0606 2292.4029) rotate(-62.5925)"
+         transform="translate(8658.5243 2293.1622) rotate(-62.5725)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="start"
@@ -7088,7 +7088,7 @@
        data-channel-index="0">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Awakening_-_10_20"
-         transform="translate(6078.4021 1779.4759) rotate(85.0925)"
+         transform="translate(6076.7592 1779.6172) rotate(85.0725)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="end"
@@ -7101,7 +7101,7 @@
          font-family="Copperplate"
          text-anchor="end"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="0.0">Commitment To Higher Principles</tspan></text>
+         fill="#FFFFFF">Commitment To Higher Principles</text>
       <!-- Energy Type + Circuit (stacked, radial) -->
       <g id="ENERGY-CIRCUIT_-_10_20"
          transform="translate(6014.2660 775.3237) rotate(85.3125)">
@@ -7167,7 +7167,7 @@
        data-channel-index="1">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Exploration_-_10_34"
-         transform="translate(6232.6169 1768.7733) rotate(86.9675)"
+         transform="translate(6230.9702 1768.8608) rotate(86.9475)"
          font-size="69.126"
          font-family="Copperplate"
          text-anchor="end"
@@ -7240,7 +7240,7 @@
        data-channel-index="2">
       <!-- Channel Name (radial) -->
       <text id="CHANNEL-NAME_-_Perfected_Form_-_10_57"
-         transform="translate(6387.0992 1763.1222) rotate(88.8425)"
+         transform="translate(6385.4505 1763.1558) rotate(88.8225)"
          font-size="56.2"
          font-family="Copperplate"
          text-anchor="end"
@@ -7633,7 +7633,7 @@
          font-family="Copperplate"
          text-anchor="middle"
          dominant-baseline="central"
-         fill="#FFFFFF"><tspan x="0" dy="-62.9">Energy Which Fluctuates</tspan><tspan x="0" dy="45.8">&amp; Initiates Pulses</tspan></text>
+         fill="#FFFFFF"><tspan x="0" dy="-27.9">Energy Which Fluctuates</tspan><tspan x="0" dy="45.8">&amp; Initiates Pulses</tspan></text>
       <!-- Energy Type (radial) -->
       <text id="ENERGY-TYPE_-_Generated_-_60_3"
          transform="translate(3456.7794 1844.2268) rotate(56.9025)"
