@@ -914,10 +914,7 @@ function generateRingNameText(ring, useTangent, layout) {
       text-anchor="middle"
       dominant-baseline="central"
       fill="${COLORS.foreground}"
-      style="isolation: isolate">
-      <tspan x="0" dy="${(-lineHeight / 2).toFixed(1)}">Ring of</tspan>
-      <tspan x="0" dy="${lineHeight.toFixed(1)}">${ringLabel}</tspan>
-    </text>`;
+      style="isolation: isolate"><tspan x="0" dy="${(-lineHeight / 2).toFixed(1)}">Ring of</tspan><tspan x="0" dy="${(lineHeight - 4).toFixed(1)}">${ringLabel}</tspan></text>`;
 }
 
 /**

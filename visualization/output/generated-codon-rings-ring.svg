@@ -115,10 +115,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">FIRE</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">FIRE</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Lysine"
       data-ring="Ring of Fire"
       data-amino-acid="Lysine"
@@ -198,10 +195,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">WATER</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">WATER</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Phenylalanine"
       data-ring="Ring of Water"
       data-amino-acid="Phenylalanine"
@@ -365,10 +359,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">LIFE AND DEATH</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">LIFE AND DEATH</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Leucine"
       data-ring="Ring of Life And Death"
       data-amino-acid="Leucine"
@@ -490,10 +481,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">UNION</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">UNION</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Valine"
       data-ring="Ring of Union"
       data-amino-acid="Valine"
@@ -615,10 +603,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">LIGHT</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">LIGHT</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Threonine"
       data-ring="Ring of Light"
       data-amino-acid="Threonine"
@@ -740,10 +725,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">ALCHEMY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">ALCHEMY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Glysine"
       data-ring="Ring of Alchemy"
       data-amino-acid="Glysine"
@@ -865,10 +847,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">HUMANITY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">HUMANITY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Arginine"
       data-ring="Ring of Humanity"
       data-amino-acid="Arginine"
@@ -948,10 +927,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">HUMANITY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">HUMANITY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Arginine"
       data-ring="Ring of Humanity"
       data-amino-acid="Arginine"
@@ -1031,10 +1007,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">TRIALS</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">TRIALS</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Terminators"
       data-ring="Ring of Trials"
       data-amino-acid="Terminators"
@@ -1089,10 +1062,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">SECRETS</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">SECRETS</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Terminator"
       data-ring="Ring of Secrets"
       data-amino-acid="Terminator"
@@ -1172,10 +1142,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-7.7">Ring of</tspan>
-      <tspan x="0" dy="15.4">PURIFICATION</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-7.7">Ring of</tspan><tspan x="0" dy="11.4">PURIFICATION</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Glutamine"
       data-ring="Ring of Purification"
       data-amino-acid="Glutamine"
@@ -1297,10 +1264,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">SEEKING</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">SEEKING</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Serine"
       data-ring="Ring of Seeking"
       data-amino-acid="Serine"
@@ -1380,10 +1344,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">SEEKING</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">SEEKING</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Serine"
       data-ring="Ring of Seeking"
       data-amino-acid="Serine"
@@ -1463,10 +1424,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">PROSPERITY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">PROSPERITY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Cysteine"
       data-ring="Ring of Prosperity"
       data-amino-acid="Cysteine"
@@ -1588,10 +1546,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">MATTER</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">MATTER</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Alanine"
       data-ring="Ring of Matter"
       data-amino-acid="Alanine"
@@ -1692,10 +1647,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">GAIA</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">GAIA</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Isoleucine"
       data-ring="Ring of Gaia"
       data-amino-acid="Isoleucine"
@@ -1817,10 +1769,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-11.5">Ring of</tspan>
-      <tspan x="0" dy="23.1">DIVINITY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-11.5">Ring of</tspan><tspan x="0" dy="19.1">DIVINITY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Proline"
       data-ring="Ring of Divinity"
       data-amino-acid="Proline"
@@ -1900,10 +1849,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">ILLUSION</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">ILLUSION</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Aspartic_Acid"
       data-ring="Ring of Illusion"
       data-amino-acid="Aspartic_Acid"
@@ -1983,10 +1929,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">NO RETURN</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">NO RETURN</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Tyrosine"
       data-ring="Ring of No Return"
       data-amino-acid="Tyrosine"
@@ -2066,10 +2009,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">DESTINY</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">DESTINY</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Asparagine"
       data-ring="Ring of Destiny"
       data-amino-acid="Asparagine"
@@ -2124,10 +2064,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">MIRACLES</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">MIRACLES</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Tryptophan"
       data-ring="Ring of Miracles"
       data-amino-acid="Tryptophan"
@@ -2182,10 +2119,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">ORIGIN</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">ORIGIN</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Methionine"
       data-ring="Ring of Origin"
       data-amino-acid="Methionine"
@@ -2265,10 +2199,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-9.2">Ring of</tspan>
-      <tspan x="0" dy="18.5">ILLUMINATI</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-9.2">Ring of</tspan><tspan x="0" dy="14.5">ILLUMINATI</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Glutamic_Acid"
       data-ring="Ring of Illuminati"
       data-amino-acid="Glutamic_Acid"
@@ -2348,10 +2279,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate">
-      <tspan x="0" dy="-7.7">Ring of</tspan>
-      <tspan x="0" dy="15.4">THE WHIRLWIND</tspan>
-    </text>
+      style="isolation: isolate"><tspan x="0" dy="-7.7">Ring of</tspan><tspan x="0" dy="11.4">THE WHIRLWIND</tspan></text>
     <text id="TEXT_-_AMINO-ACID-NAME_-_Histidine"
       data-ring="Ring of The Whirlwind"
       data-amino-acid="Histidine"

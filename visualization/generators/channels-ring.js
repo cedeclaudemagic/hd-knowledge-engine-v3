@@ -68,7 +68,7 @@ const BAND_RADII_SINGLE = {
 const BAND_RADII_MULTI = {
   innerCentre: 4671,      // Match single-channel inner centre radius - 36px gap from inner number band (was 4768)
   channelName: 4724,      // Moved 116px inward (was 4840)
-  keynote: 4724,          // Moved 116px inward (was 4840)
+  keynote: 4724,          // Same radius as channelName, angularly separated
   energyType: 5730,       // Moved 300px inward (was 6030)
   circuit: 5730,          // Moved 300px inward (was 6030)
   outerCentre: 5780,      // Moved 316px inward (was 6096)
@@ -571,8 +571,8 @@ function generateChannelElement(channel, gatePosition, channelCount = 1, channel
   // must be NEGATED to maintain the same visual positioning
   const flipMultiplier = gateIsFlipped ? -1 : 1;
   const offsets = {
-    channelName: (channelCount > 1 ? 0.28 : BASE_ANGLE_OFFSETS.channelName) * flipMultiplier,
-    keynote: getScaledOffset(BASE_ANGLE_OFFSETS.keynote, channelCount) * flipMultiplier,
+    channelName: (channelCount > 1 ? 0.22 : BASE_ANGLE_OFFSETS.channelName) * flipMultiplier,
+    keynote: (channelCount > 1 ? -0.18 : BASE_ANGLE_OFFSETS.keynote) * flipMultiplier,
     energyType: getScaledOffset(BASE_ANGLE_OFFSETS.energyType, channelCount) * flipMultiplier,
     circuit: getScaledOffset(BASE_ANGLE_OFFSETS.circuit, channelCount) * flipMultiplier,
     outerCentre: getScaledOffset(BASE_ANGLE_OFFSETS.outerCentre, channelCount) * flipMultiplier,
@@ -884,7 +884,8 @@ function generateDividers(stroke, strokeWidth) {
  */
 function generateInnerGateNumbers(fill) {
   const gateSequence = require('../../core/root-system/gate-sequence.json').sequence;
-  const INNER_GATE_RADIUS = 4570; // Between inner ring (4505) and ring 2 (4635) - centered in reduced band
+  const INNER_NUMBER_RADIUS = 4574;   // Numbers - slightly outward
+  const INNER_HEXAGRAM_RADIUS = 4570; // Hexagrams - original position
 
   // Angular offset for hexagram (opposite side from number within gate segment)
   // Positive offset = clockwise, negative = counter-clockwise
@@ -910,8 +911,8 @@ function generateInnerGateNumbers(fill) {
     const numberAngle = baseAngle + (INNER_NUMBER_OFFSET * flipMultiplier);
     const numberSvgAngle = calculateSVGAngle(numberAngle);
     const numberRadians = numberSvgAngle * Math.PI / 180;
-    const numberX = CENTER.x + INNER_GATE_RADIUS * Math.cos(numberRadians);
-    const numberY = CENTER.y + INNER_GATE_RADIUS * Math.sin(numberRadians);
+    const numberX = CENTER.x + INNER_NUMBER_RADIUS * Math.cos(numberRadians);
+    const numberY = CENTER.y + INNER_NUMBER_RADIUS * Math.sin(numberRadians);
     const numberRotation = numberSvgAngle + 90;
 
     numbers += `    <text id="INNER-GATE-NUMBER_-_${gate}"
@@ -926,8 +927,8 @@ function generateInnerGateNumbers(fill) {
     const hexAngle = baseAngle + (INNER_HEXAGRAM_OFFSET * flipMultiplier);
     const hexSvgAngle = calculateSVGAngle(hexAngle);
     const hexRadians = hexSvgAngle * Math.PI / 180;
-    const hexX = CENTER.x + INNER_GATE_RADIUS * Math.cos(hexRadians);
-    const hexY = CENTER.y + INNER_GATE_RADIUS * Math.sin(hexRadians);
+    const hexX = CENTER.x + INNER_HEXAGRAM_RADIUS * Math.cos(hexRadians);
+    const hexY = CENTER.y + INNER_HEXAGRAM_RADIUS * Math.sin(hexRadians);
     // Tangential rotation for hexagram (same as outer hexagrams)
     const hexRotation = calculateTangentialRotation(hexSvgAngle);
 
@@ -1124,7 +1125,8 @@ module.exports = {
 // CLI: node channels-ring.js [output.svg]
 if (require.main === module) {
   const fs = require('fs');
-  const output = process.argv[2] || 'generated-channels-ring.svg';
+  const path = require('path');
+  const output = process.argv[2] || path.join(__dirname, '../output/generated-channels-ring.svg');
 
   console.log('Generating channels ring...');
   const svg = generateChannelsRing();
