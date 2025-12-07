@@ -1196,7 +1196,7 @@
         get visualOuter() { return this.outerRadius + 2; }
       },
       lines: {
-        name: '384 Lines',
+        name: '384 Lines (Harmonic)',
         color: '#8E44AD',
         svgFile: '../output/generated-lines-ring.svg',
         center: { x: 6536, y: 6536 },
@@ -1205,6 +1205,17 @@
         get bandWidth() { return this.outerRadius - this.innerRadius; },
         get visualInner() { return this.innerRadius - 2; },
         get visualOuter() { return this.outerRadius + 200; }  // Extra for text overflow beyond dividers (keynotes extend ~150px)
+      },
+      linesInner: {
+        name: '384 Lines (Inner)',
+        color: '#9B59B6',
+        svgFile: '../output/generated-lines-inner-ring.svg',
+        center: { x: 6536, y: 6536 },
+        innerRadius: 5160,
+        outerRadius: 6360,
+        get bandWidth() { return this.outerRadius - this.innerRadius; },
+        get visualInner() { return this.innerRadius - 2; },
+        get visualOuter() { return this.outerRadius + 200; }
       },
       channels: {
         name: 'Channels',
