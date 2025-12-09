@@ -373,7 +373,7 @@ function splitInterlacedRing(gates, ringName) {
       isolatedGates: [[23], [20]]  // each shown separately with reference to others
     },
     'Ring of Trials': {
-      mainGates: [56, 33],        // UAG and UAA - shown with tracing lines (clockwise order)
+      mainGates: [33, 56],        // UAA and UAG - shown with tracing lines (wheel order: higher position first)
       isolatedGates: [[12]],      // UGA - shown in brackets only, no tracing line
       showOnlyMain: true,         // Don't create separate segment for gate 12
       preserveOrder: true         // Keep explicit order

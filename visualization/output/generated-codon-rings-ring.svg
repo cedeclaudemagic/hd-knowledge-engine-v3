@@ -940,18 +940,7 @@
       fill="#FFFFFF"
       style="isolation: isolate">Arginine</text>
       </g>
-      <g id="RING_OF_TRIALS_-_56_-_33" data-name="Ring of Trials - 56 - 33">
-    <text id="TEXT_-_CODON-LETTERS_-_UAG"
-      data-gate="56"
-      data-codon="UAG"
-      transform="translate(1560.7266 1862.4799) rotate(149.0625)"
-      font-size="24.238145119999995"
-      font-family="Copperplate"
-      font-weight="400"
-      text-anchor="middle"
-      dominant-baseline="central"
-      fill="#FFFFFF"
-      style="isolation: isolate">UAG</text>
+      <g id="RING_OF_TRIALS_-_33_-_56" data-name="Ring of Trials - 33 - 56">
     <text id="TEXT_-_CODON-LETTERS_-_UAA"
       data-gate="33"
       data-codon="UAA"
@@ -963,16 +952,27 @@
       dominant-baseline="central"
       fill="#FFFFFF"
       style="isolation: isolate">UAA</text>
-    <circle id="SYMBOL_-_GATE-DOT_-_56"
+    <text id="TEXT_-_CODON-LETTERS_-_UAG"
       data-gate="56"
-      cx="1576.1516"
-      cy="1888.2150"
-      r="8.343167489999999"
-      fill="#FFFFFF"/>
+      data-codon="UAG"
+      transform="translate(1560.7266 1862.4799) rotate(149.0625)"
+      font-size="24.238145119999995"
+      font-family="Copperplate"
+      font-weight="400"
+      text-anchor="middle"
+      dominant-baseline="central"
+      fill="#FFFFFF"
+      style="isolation: isolate">UAG</text>
     <circle id="SYMBOL_-_GATE-DOT_-_33"
       data-gate="33"
       cx="1715.2290"
       cy="1785.0682"
+      r="8.343167489999999"
+      fill="#FFFFFF"/>
+    <circle id="SYMBOL_-_GATE-DOT_-_56"
+      data-gate="56"
+      cx="1576.1516"
+      cy="1888.2150"
       r="8.343167489999999"
       fill="#FFFFFF"/>
     <line id="PATHS_-_JOIN-DOTS_-_RING_OF_TRIALS_MAIN"
@@ -987,9 +987,9 @@
       x1="1665.5113" y1="1863.3671"
       x2="1715.2290" y2="1785.0682"
       fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
-    <text id="TEXT_-_GROUPED-KEYS_-_56_33"
+    <text id="TEXT_-_GROUPED-KEYS_-_33_56"
       data-ring="Ring of Trials"
-      data-gates="56,33"
+      data-gates="33,56"
       transform="translate(1686.9685 1892.2988) rotate(143.4375)"
       font-size="19.35"
       font-family="Copperplate-Light, Copperplate"
@@ -997,7 +997,7 @@
       text-anchor="middle"
       dominant-baseline="central"
       fill="#FFFFFF"
-      style="isolation: isolate"><tspan x="0" dy="-8.7">56 - 33</tspan><tspan x="0" dy="17.4" font-size="10.64">[12]</tspan></text>
+      style="isolation: isolate"><tspan x="0" dy="-8.7">33 - 56</tspan><tspan x="0" dy="17.4" font-size="10.64">[12]</tspan></text>
     <text id="TEXT_-_RING-NAME_-_TRIALS"
       data-ring="Ring of Trials"
       transform="translate(1726.2896 1945.3172) rotate(53.4375)"
