@@ -1,0 +1,324 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Electromagnetic Line Mapping",
+  "description": "Schema for the 384-line electromagnetic interpretation layer of Human Design",
+  "version": "1.1.0",
+
+  "definitions": {
+    "trigram": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["Heaven", "Earth", "Thunder", "Water", "Mountain", "Wind", "Fire", "Lake"]
+        },
+        "position": {
+          "type": "integer",
+          "minimum": -4,
+          "maximum": 4,
+          "description": "Wave position: -4 (Source/Heaven) to +4 (Sink/Earth), 0 excluded"
+        },
+        "binary": {
+          "type": "string",
+          "pattern": "^[01]{3}$",
+          "description": "Three-bit binary pattern (bottom-to-top)"
+        },
+        "axis": {
+          "type": "string",
+          "enum": ["poles", "storage", "flow", "gates"],
+          "description": "Which of the four axes this trigram belongs to"
+        }
+      },
+      "required": ["name", "position", "binary", "axis"]
+    },
+
+    "vector": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "integer",
+          "description": "Inner trigram position"
+        },
+        "to": {
+          "type": "integer",
+          "description": "Outer trigram position"
+        },
+        "amplitude": {
+          "type": "integer",
+          "description": "Absolute difference between positions"
+        },
+        "direction": {
+          "type": "string",
+          "enum": ["inward", "outward", "static"],
+          "description": "Movement toward zero (inward), away from zero (outward), or none (static)"
+        },
+        "crossesZero": {
+          "type": "boolean",
+          "description": "Whether the vector crosses the Monopole"
+        }
+      },
+      "required": ["from", "to", "amplitude", "direction", "crossesZero"]
+    },
+
+    "electromagnetic": {
+      "type": "object",
+      "properties": {
+        "gateType": {
+          "type": "string",
+          "enum": ["doubled", "same-phase-material", "same-phase-void", "cross-zero-manifesting", "cross-zero-dematerialising"],
+          "description": "Classification based on inner/outer trigram relationship"
+        },
+        "innerTrigram": { "$ref": "#/definitions/trigram" },
+        "outerTrigram": { "$ref": "#/definitions/trigram" },
+        "vector": { "$ref": "#/definitions/vector" },
+        "languageType": {
+          "type": "string",
+          "enum": ["state", "action", "transformation"],
+          "description": "The type of language used in keynotes"
+        },
+        "transitionType": {
+          "type": "string",
+          "enum": ["expression-shift", "polarity-flip", "relational-reorientation", "mode-shift"],
+          "description": "The character of the 3→4 transition"
+        }
+      },
+      "required": ["gateType", "innerTrigram", "outerTrigram", "vector", "languageType", "transitionType"]
+    },
+
+    "channel": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "string",
+          "pattern": "^\\d{1,2}-\\d{1,2}$"
+        },
+        "name": { "type": "string" },
+        "pairingType": {
+          "type": "string",
+          "enum": [
+            "double-transformer",
+            "transformer-circulator",
+            "transformer-standing-wave",
+            "double-circulator",
+            "circulator-standing-wave"
+          ]
+        }
+      },
+      "required": ["number", "name", "pairingType"]
+    },
+
+    "context": {
+      "type": "object",
+      "properties": {
+        "centre": {
+          "type": "string",
+          "enum": ["G", "Sacral", "Ajna", "Solar Plexus", "Throat", "Spleen", "Root", "Heart", "Head"]
+        },
+        "centreSignature": {
+          "type": "string",
+          "enum": [
+            "polar-reference",
+            "gate-discrimination",
+            "material-expression",
+            "voltage-pressure",
+            "stored-energy",
+            "source-flow",
+            "gate-initiation",
+            "storage-polar-output",
+            "mirror-transformation"
+          ],
+          "description": "The centre's electromagnetic signature"
+        },
+        "circuits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Knowing", "Understanding", "Sensing", "Integration", "Centering", "Defense", "Ego"]
+          }
+        },
+        "circuitArchitecture": {
+          "type": "string",
+          "enum": [
+            "double-circulator",
+            "dual-reservoir",
+            "oscillator",
+            "commutator",
+            "regulated",
+            "zero-anchor"
+          ],
+          "description": "The primary circuit's architectural signature"
+        },
+        "channels": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/channel" }
+        }
+      },
+      "required": ["centre", "centreSignature", "circuits", "circuitArchitecture", "channels"]
+    },
+
+    "interpretation": {
+      "type": "object",
+      "properties": {
+        "linePosition": {
+          "type": "string",
+          "enum": ["entry-inner", "development-inner", "completion-inner", "entry-outer", "development-outer", "completion-outer"],
+          "description": "Position within the hexagram structure"
+        },
+        "positionMeaning": {
+          "type": "string",
+          "description": "Electromagnetic interpretation of this line's position"
+        },
+        "lineFunction": {
+          "type": "string",
+          "description": "What this line does in the context of the gate's vector"
+        },
+        "shadow": {
+          "type": "string",
+          "description": "The characteristic risk or shadow of this position"
+        },
+        "shadowType": {
+          "type": "string",
+          "enum": [
+            "losing-reference",
+            "fixation",
+            "frustration",
+            "refusing-synthesis",
+            "ego-carryover",
+            "refusing-completion",
+            "spirit-lost-in-form",
+            "general"
+          ],
+          "description": "Characteristic shadow pattern classification (primarily for Line 6)"
+        }
+      },
+      "required": ["linePosition", "positionMeaning", "lineFunction"]
+    },
+
+    "source": {
+      "type": "object",
+      "properties": {
+        "keynote": {
+          "type": "string",
+          "description": "The traditional line keynote"
+        },
+        "polarity": {
+          "type": "string",
+          "enum": ["YIN", "YANG"],
+          "description": "Line polarity from source material"
+        },
+        "exaltation": {
+          "type": "object",
+          "properties": {
+            "planet": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        },
+        "detriment": {
+          "type": "object",
+          "properties": {
+            "planet": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        }
+      },
+      "required": ["keynote", "polarity"]
+    },
+
+    "extensions": {
+      "type": "object",
+      "properties": {
+        "quarter": {
+          "type": "string",
+          "enum": ["Initiation", "Civilization", "Duality", "Mutation"],
+          "description": "Quarter assignment based on bottom bigram"
+        },
+        "codonRing": {
+          "type": "string",
+          "description": "Codon ring membership"
+        }
+      },
+      "description": "Reserved for future framework extensions"
+    },
+
+    "lineEntry": {
+      "type": "object",
+      "properties": {
+        "gate": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "line": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "gateName": {
+          "type": "string",
+          "description": "I Ching hexagram name"
+        },
+        "gateKeyword": {
+          "type": "string",
+          "description": "Human Design keyword for the gate"
+        },
+        "electromagnetic": { "$ref": "#/definitions/electromagnetic" },
+        "context": { "$ref": "#/definitions/context" },
+        "interpretation": { "$ref": "#/definitions/interpretation" },
+        "source": { "$ref": "#/definitions/source" },
+        "extensions": { "$ref": "#/definitions/extensions" }
+      },
+      "required": ["gate", "line", "gateName", "gateKeyword", "electromagnetic", "context", "source"]
+    }
+  },
+
+  "type": "object",
+  "properties": {
+    "systemName": { "type": "string" },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "completeness": {
+      "type": "string",
+      "enum": ["partial", "full"]
+    },
+    "validatedLines": { "type": "integer" },
+    "totalLines": { "type": "integer" },
+    "framework": {
+      "type": "object",
+      "properties": {
+        "fourAxes": {
+          "type": "object",
+          "description": "The Four Axes Framework reference"
+        },
+        "gateTypes": {
+          "type": "object",
+          "description": "Gate classification reference"
+        },
+        "languageTypes": {
+          "type": "object",
+          "description": "Language type definitions"
+        },
+        "transitionTypes": {
+          "type": "object",
+          "description": "3→4 transition type definitions"
+        },
+        "centreSignatures": {
+          "type": "object",
+          "description": "Centre electromagnetic signature definitions"
+        },
+        "circuitArchitectures": {
+          "type": "object",
+          "description": "Circuit architecture definitions"
+        },
+        "linePositions": {
+          "type": "object",
+          "description": "Line position definitions"
+        }
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/lineEntry" }
+    }
+  },
+  "required": ["systemName", "version", "mappings"]
+}
