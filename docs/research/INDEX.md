@@ -241,6 +241,7 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 | Document | Description |
 |----------|-------------|
 | [ELECTROMAGNETIC-DERIVATION-STATE-OF-KNOWLEDGE.md](planetary/ELECTROMAGNETIC-DERIVATION-STATE-OF-KNOWLEDGE.md) | **Definitive state-of-knowledge document** — what's solved, what's ruled out, what's open |
+| [HARMONIC-FRAMEWORK-SYNTHESIS.md](planetary/HARMONIC-FRAMEWORK-SYNTHESIS.md) | **NEW** — Why the standing wave lookup table has the structure it does |
 | [PREDICTIVE-MODEL-SYNTHESIS.md](planetary/PREDICTIVE-MODEL-SYNTHESIS.md) | Final model results and derived planet definitions |
 | [ANOMALY-DERIVATION-SYNTHESIS.md](planetary/ANOMALY-DERIVATION-SYNTHESIS.md) | 4 rules explaining all 10 anomalies |
 | [RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md](planetary/RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md) | Original research proposal |
@@ -263,12 +264,31 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 1. **Base Layer (50%):** Electromagnetically deterministic - position defines planet
 2. **Transformation Layer (50%):** Additional factors - multiple planets can guide the same transformation
 
+### Harmonic Framework (NEW)
+
+Standing wave assignments aren't arbitrary — they encode **harmonic physics**:
+
+| Interval | Bridge Planet | Harmonic Function |
+|----------|--------------|-------------------|
+| Octave (2:1) | Venus | Pure integration |
+| Perfect Fifth (3:2) | Venus | Harmonic anchoring |
+| Perfect Fourth (4:3) | Sun, Mars | Dynamic action |
+| Major Third (5:4) | Pluto, Uranus | Gate transformation |
+
+- **Venus** bridges the most consonant intervals (octave, fifth) and dominates Lines 1-2
+- **Sun/Mars** bridge the action interval (perfect fourth)
+- **Pluto/Uranus** bridge the gate intervals (major third)
+- **Lines** correspond to overtone series (Venus at fundamental, Pluto at mode shift)
+
+This is **explanatory**, not derivational — it tells us *why* the lookup table has the structure it does.
+
 ---
 
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.5.0 | 2025-12-17 | Harmonic framework discovered — standing waves encode musical physics |
 | 2.4.0 | 2025-12-17 | Russell hypothesis tested and ruled out; empirical conclusion accepted |
 | 2.3.0 | 2025-12-17 | Added state-of-knowledge document, nuclear trigram hypothesis ruled out |
 | 2.2.0 | 2025-12-17 | Added predictive model research section, anomaly derivation, electromagnetic planet definitions |

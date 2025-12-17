@@ -304,15 +304,57 @@ This would not invalidate the electromagnetic framework. It would mean:
 
 ---
 
+## Part 7: Harmonic Framework — Why the Lookup Table Has Structure
+
+### Discovery
+
+While the standing wave lookup table is **derivable** (position + line → planet), we asked: **WHY** does it have the structure it does?
+
+Testing musical harmonic principles revealed coherent structure:
+
+### The Harmonic Interval Mapping
+
+| Interval | Positions | Bridge Planet | Harmonic Function |
+|----------|-----------|--------------|-------------------|
+| Octave (2:1) | -4 ↔ +4 | Venus | Pure integration |
+| Perfect Fifth (3:2) | -3 ↔ +3 | Venus | Harmonic anchoring |
+| Perfect Fourth (4:3) | -2 ↔ +2 | Sun, Mars | Dynamic action |
+| Major Third (5:4) | -1 ↔ +1 | Pluto, Uranus | Gate transformation |
+
+### Key Findings
+
+1. **Venus bridges the most consonant intervals** (octave, fifth) — it's the only planet appearing at both poles of these intervals
+2. **Sun/Mars bridge the action interval** (perfect fourth) — dynamic polarity at the "work" position
+3. **Pluto/Uranus bridge the gate intervals** (major third) — transformation agents at threshold crossings
+4. **Lines correspond to overtone series** — Venus dominates Lines 1-2 (fundamental, octave), Pluto at Line 4 (mode shift)
+
+### What This Means
+
+The standing wave layer is now **doubly grounded**:
+- **Mathematically:** Position + Line determines planet (100% derivable)
+- **Harmonically:** Planetary roles match interval character (explanatory)
+
+This is **not** derivation from harmonics — we can't compute assignments from intervals alone. But it **IS** meaningful structure that explains why the lookup table has the pattern it does.
+
+### Status
+
+**EXPLANATORY FRAMEWORK ESTABLISHED.**
+
+See: [HARMONIC-FRAMEWORK-SYNTHESIS.md](HARMONIC-FRAMEWORK-SYNTHESIS.md)
+
+---
+
 ## Summary Table
 
 | Component | Status | Accuracy | Conclusion |
 |-----------|--------|----------|------------|
 | Standing waves (doubled) | **SOLVED** | 100% | Fully derivable from (position, line) |
+| Standing wave explanation | **EXPLAINED** | — | Harmonic framework reveals structure |
 | Same-phase gates | Partial | 48% | Additional factors unknown |
 | Cross-zero gates | **NOT DERIVABLE** | 18% (CV) | Empirical data, not structure |
 | Nuclear trigrams | **RULED OUT** | Z=0.09 | No signal |
 | Russell wave mechanics | **RULED OUT** | Z=-2.96 | Negative signal |
+| Musical harmonics (cross-zero) | **RULED OUT** | 13% | No improvement over baseline |
 | **Empirical hypothesis** | **ACCEPTED** | — | Transformation layer is observed data |
 
 ---
@@ -351,10 +393,15 @@ Answer: It works perfectly at standing waves, partially at same-phase gates, and
 | `scripts/test-nuclear-trigrams.js` | Initial nuclear test (overfitting) |
 | `scripts/test-nuclear-trigrams-validated.js` | Cross-validated nuclear test |
 | `scripts/test-russell-hypothesis.js` | Russell wave mechanics test |
+| `scripts/test-musical-hypothesis.js` | Initial musical scale test |
+| `scripts/test-musical-hypothesis-v2.js` | Harmonic ratio test |
+| `scripts/test-harmonic-deep-dive.js` | Comprehensive harmonic analysis |
 | `PREDICTIVE-MODEL-SYNTHESIS.md` | Model results summary |
 | `ANOMALY-DERIVATION-SYNTHESIS.md` | 10 anomaly rules |
+| `HARMONIC-FRAMEWORK-SYNTHESIS.md` | **NEW** — Harmonic explanation of standing waves |
 
 ---
 
-*Final state of knowledge as of 2025-12-17*
-*Research complete: Standing waves solved, transformation layer empirical*
+*State of knowledge as of 2025-12-17*
+*Standing waves: Solved + Explained (harmonic framework)*
+*Transformation layer: Empirical*
