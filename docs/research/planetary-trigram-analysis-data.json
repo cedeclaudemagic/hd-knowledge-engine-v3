@@ -1,0 +1,2532 @@
+{
+  "byTrigram": {
+    "Heaven": {
+      "exalt": {
+        "Moon": 2,
+        "Venus": 5,
+        "Mars": 5,
+        "Earth": 6,
+        "Neptune": 4,
+        "Sun": 6,
+        "Mercury": 1,
+        "Pluto": 12,
+        "Uranus": 2,
+        "Jupiter": 3,
+        "Saturn": 2
+      },
+      "detri": {
+        "Uranus": 3,
+        "Mars": 9,
+        "Earth": 4,
+        "Jupiter": 6,
+        "Pluto": 5,
+        "Moon": 4,
+        "Venus": 5,
+        "Sun": 2,
+        "Mercury": 5,
+        "Saturn": 2,
+        "Neptune": 2
+      }
+    },
+    "Earth": {
+      "exalt": {
+        "Venus": 8,
+        "Saturn": 4,
+        "Jupiter": 10,
+        "Mercury": 3,
+        "Sun": 5,
+        "Neptune": 4,
+        "Moon": 6,
+        "Pluto": 3,
+        "Earth": 3,
+        "Mars": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 11,
+        "Uranus": 3,
+        "Earth": 3,
+        "Saturn": 4,
+        "Neptune": 5,
+        "Mercury": 6,
+        "Sun": 2,
+        "Jupiter": 3,
+        "Pluto": 4,
+        "Venus": 2,
+        "Moon": 5
+      }
+    },
+    "Thunder": {
+      "exalt": {
+        "Earth": 2,
+        "Mars": 8,
+        "Venus": 3,
+        "Jupiter": 3,
+        "Pluto": 6,
+        "Neptune": 3,
+        "Sun": 10,
+        "Moon": 4,
+        "Mercury": 1,
+        "Uranus": 4,
+        "Saturn": 3
+      },
+      "detri": {
+        "Mercury": 5,
+        "Uranus": 1,
+        "Pluto": 4,
+        "Mars": 10,
+        "Moon": 6,
+        "Jupiter": 6,
+        "Venus": 4,
+        "Earth": 4,
+        "Neptune": 4,
+        "Saturn": 1,
+        "Sun": 1
+      }
+    },
+    "Water": {
+      "exalt": {
+        "Neptune": 6,
+        "Mars": 5,
+        "Sun": 8,
+        "Moon": 5,
+        "Venus": 8,
+        "Uranus": 3,
+        "Pluto": 2,
+        "Jupiter": 4,
+        "Saturn": 5,
+        "Mercury": 2
+      },
+      "detri": {
+        "Mars": 11,
+        "Earth": 4,
+        "Pluto": 7,
+        "Sun": 3,
+        "Mercury": 8,
+        "Neptune": 2,
+        "Venus": 3,
+        "Jupiter": 3,
+        "Moon": 6
+      }
+    },
+    "Mountain": {
+      "exalt": {
+        "Sun": 9,
+        "Jupiter": 9,
+        "Mercury": 1,
+        "Venus": 3,
+        "Earth": 5,
+        "Saturn": 5,
+        "Mars": 5,
+        "Neptune": 3,
+        "Pluto": 1,
+        "Moon": 5,
+        "Uranus": 2
+      },
+      "detri": {
+        "Saturn": 3,
+        "Pluto": 4,
+        "Mars": 14,
+        "Earth": 4,
+        "Mercury": 5,
+        "Uranus": 1,
+        "Moon": 4,
+        "Jupiter": 4,
+        "Venus": 7,
+        "Neptune": 2
+      }
+    },
+    "Wind": {
+      "exalt": {
+        "Moon": 11,
+        "Jupiter": 3,
+        "Earth": 1,
+        "Pluto": 5,
+        "Neptune": 3,
+        "Saturn": 4,
+        "Venus": 9,
+        "Mars": 3,
+        "Sun": 6,
+        "Mercury": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 11,
+        "Earth": 2,
+        "Pluto": 2,
+        "Jupiter": 8,
+        "Moon": 4,
+        "Mercury": 7,
+        "Uranus": 2,
+        "Venus": 8,
+        "Saturn": 2,
+        "Neptune": 1
+      }
+    },
+    "Fire": {
+      "exalt": {
+        "Venus": 5,
+        "Moon": 6,
+        "Earth": 2,
+        "Sun": 7,
+        "Jupiter": 9,
+        "Pluto": 5,
+        "Saturn": 7,
+        "Mars": 2,
+        "Mercury": 2,
+        "Neptune": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Moon": 4,
+        "Sun": 2,
+        "Venus": 5,
+        "Mars": 14,
+        "Earth": 4,
+        "Pluto": 6,
+        "Jupiter": 8,
+        "Mercury": 2,
+        "Uranus": 1,
+        "Saturn": 1
+      }
+    },
+    "Lake": {
+      "exalt": {
+        "Sun": 5,
+        "Mercury": 2,
+        "Earth": 1,
+        "Pluto": 8,
+        "Uranus": 4,
+        "Moon": 8,
+        "Jupiter": 4,
+        "Venus": 4,
+        "Neptune": 4,
+        "Saturn": 6
+      },
+      "detri": {
+        "Moon": 10,
+        "Mars": 14,
+        "Jupiter": 5,
+        "Mercury": 5,
+        "Sun": 3,
+        "Neptune": 2,
+        "Earth": 2,
+        "Venus": 4,
+        "Saturn": 1,
+        "Uranus": 1
+      }
+    }
+  },
+  "byAxis": {
+    "poles": {
+      "exalt": {
+        "Moon": 8,
+        "Venus": 13,
+        "Mars": 6,
+        "Earth": 9,
+        "Saturn": 6,
+        "Jupiter": 13,
+        "Mercury": 4,
+        "Neptune": 8,
+        "Sun": 11,
+        "Pluto": 15,
+        "Uranus": 3
+      },
+      "detri": {
+        "Uranus": 6,
+        "Mars": 20,
+        "Earth": 7,
+        "Jupiter": 9,
+        "Pluto": 9,
+        "Saturn": 6,
+        "Moon": 9,
+        "Venus": 7,
+        "Neptune": 7,
+        "Mercury": 11,
+        "Sun": 4
+      }
+    },
+    "gates": {
+      "exalt": {
+        "Earth": 3,
+        "Mars": 11,
+        "Venus": 12,
+        "Moon": 15,
+        "Jupiter": 6,
+        "Pluto": 11,
+        "Neptune": 6,
+        "Sun": 16,
+        "Saturn": 7,
+        "Mercury": 3,
+        "Uranus": 5
+      },
+      "detri": {
+        "Mercury": 12,
+        "Uranus": 3,
+        "Pluto": 6,
+        "Mars": 21,
+        "Earth": 6,
+        "Moon": 10,
+        "Jupiter": 14,
+        "Venus": 12,
+        "Neptune": 5,
+        "Saturn": 3,
+        "Sun": 1
+      }
+    },
+    "flow": {
+      "exalt": {
+        "Neptune": 8,
+        "Mars": 7,
+        "Sun": 15,
+        "Moon": 11,
+        "Venus": 13,
+        "Uranus": 4,
+        "Pluto": 7,
+        "Jupiter": 13,
+        "Earth": 2,
+        "Saturn": 12,
+        "Mercury": 4
+      },
+      "detri": {
+        "Mars": 25,
+        "Earth": 8,
+        "Pluto": 13,
+        "Sun": 5,
+        "Mercury": 10,
+        "Moon": 10,
+        "Venus": 8,
+        "Jupiter": 11,
+        "Neptune": 2,
+        "Uranus": 1,
+        "Saturn": 1
+      }
+    },
+    "storage": {
+      "exalt": {
+        "Sun": 14,
+        "Jupiter": 13,
+        "Mercury": 3,
+        "Earth": 6,
+        "Venus": 7,
+        "Pluto": 9,
+        "Uranus": 6,
+        "Moon": 13,
+        "Saturn": 11,
+        "Mars": 5,
+        "Neptune": 7
+      },
+      "detri": {
+        "Saturn": 4,
+        "Pluto": 4,
+        "Mars": 28,
+        "Moon": 14,
+        "Earth": 6,
+        "Mercury": 10,
+        "Jupiter": 9,
+        "Uranus": 2,
+        "Venus": 11,
+        "Sun": 3,
+        "Neptune": 4
+      }
+    }
+  },
+  "byFamily": {
+    "Father": {
+      "exalt": {
+        "Moon": 2,
+        "Venus": 5,
+        "Mars": 5,
+        "Earth": 6,
+        "Neptune": 4,
+        "Sun": 6,
+        "Mercury": 1,
+        "Pluto": 12,
+        "Uranus": 2,
+        "Jupiter": 3,
+        "Saturn": 2
+      },
+      "detri": {
+        "Uranus": 3,
+        "Mars": 9,
+        "Earth": 4,
+        "Jupiter": 6,
+        "Pluto": 5,
+        "Moon": 4,
+        "Venus": 5,
+        "Sun": 2,
+        "Mercury": 5,
+        "Saturn": 2,
+        "Neptune": 2
+      }
+    },
+    "Mother": {
+      "exalt": {
+        "Venus": 8,
+        "Saturn": 4,
+        "Jupiter": 10,
+        "Mercury": 3,
+        "Sun": 5,
+        "Neptune": 4,
+        "Moon": 6,
+        "Pluto": 3,
+        "Earth": 3,
+        "Mars": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 11,
+        "Uranus": 3,
+        "Earth": 3,
+        "Saturn": 4,
+        "Neptune": 5,
+        "Mercury": 6,
+        "Sun": 2,
+        "Jupiter": 3,
+        "Pluto": 4,
+        "Venus": 2,
+        "Moon": 5
+      }
+    },
+    "Eldest Son": {
+      "exalt": {
+        "Earth": 2,
+        "Mars": 8,
+        "Venus": 3,
+        "Jupiter": 3,
+        "Pluto": 6,
+        "Neptune": 3,
+        "Sun": 10,
+        "Moon": 4,
+        "Mercury": 1,
+        "Uranus": 4,
+        "Saturn": 3
+      },
+      "detri": {
+        "Mercury": 5,
+        "Uranus": 1,
+        "Pluto": 4,
+        "Mars": 10,
+        "Moon": 6,
+        "Jupiter": 6,
+        "Venus": 4,
+        "Earth": 4,
+        "Neptune": 4,
+        "Saturn": 1,
+        "Sun": 1
+      }
+    },
+    "Middle Son": {
+      "exalt": {
+        "Neptune": 6,
+        "Mars": 5,
+        "Sun": 8,
+        "Moon": 5,
+        "Venus": 8,
+        "Uranus": 3,
+        "Pluto": 2,
+        "Jupiter": 4,
+        "Saturn": 5,
+        "Mercury": 2
+      },
+      "detri": {
+        "Mars": 11,
+        "Earth": 4,
+        "Pluto": 7,
+        "Sun": 3,
+        "Mercury": 8,
+        "Neptune": 2,
+        "Venus": 3,
+        "Jupiter": 3,
+        "Moon": 6
+      }
+    },
+    "Youngest Son": {
+      "exalt": {
+        "Sun": 9,
+        "Jupiter": 9,
+        "Mercury": 1,
+        "Venus": 3,
+        "Earth": 5,
+        "Saturn": 5,
+        "Mars": 5,
+        "Neptune": 3,
+        "Pluto": 1,
+        "Moon": 5,
+        "Uranus": 2
+      },
+      "detri": {
+        "Saturn": 3,
+        "Pluto": 4,
+        "Mars": 14,
+        "Earth": 4,
+        "Mercury": 5,
+        "Uranus": 1,
+        "Moon": 4,
+        "Jupiter": 4,
+        "Venus": 7,
+        "Neptune": 2
+      }
+    },
+    "Eldest Daughter": {
+      "exalt": {
+        "Moon": 11,
+        "Jupiter": 3,
+        "Earth": 1,
+        "Pluto": 5,
+        "Neptune": 3,
+        "Saturn": 4,
+        "Venus": 9,
+        "Mars": 3,
+        "Sun": 6,
+        "Mercury": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 11,
+        "Earth": 2,
+        "Pluto": 2,
+        "Jupiter": 8,
+        "Moon": 4,
+        "Mercury": 7,
+        "Uranus": 2,
+        "Venus": 8,
+        "Saturn": 2,
+        "Neptune": 1
+      }
+    },
+    "Youngest Daughter": {
+      "exalt": {
+        "Sun": 5,
+        "Mercury": 2,
+        "Earth": 1,
+        "Pluto": 8,
+        "Uranus": 4,
+        "Moon": 8,
+        "Jupiter": 4,
+        "Venus": 4,
+        "Neptune": 4,
+        "Saturn": 6
+      },
+      "detri": {
+        "Moon": 10,
+        "Mars": 14,
+        "Jupiter": 5,
+        "Mercury": 5,
+        "Sun": 3,
+        "Neptune": 2,
+        "Earth": 2,
+        "Venus": 4,
+        "Saturn": 1,
+        "Uranus": 1
+      }
+    },
+    "Middle Daughter": {
+      "exalt": {
+        "Venus": 5,
+        "Moon": 6,
+        "Earth": 2,
+        "Sun": 7,
+        "Jupiter": 9,
+        "Pluto": 5,
+        "Saturn": 7,
+        "Mars": 2,
+        "Mercury": 2,
+        "Neptune": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Moon": 4,
+        "Sun": 2,
+        "Venus": 5,
+        "Mars": 14,
+        "Earth": 4,
+        "Pluto": 6,
+        "Jupiter": 8,
+        "Mercury": 2,
+        "Uranus": 1,
+        "Saturn": 1
+      }
+    }
+  },
+  "byPolarity": {
+    "YANG": {
+      "exalt": {
+        "Moon": 21,
+        "Venus": 22,
+        "Mars": 14,
+        "Earth": 9,
+        "Mercury": 7,
+        "Neptune": 14,
+        "Sun": 28,
+        "Jupiter": 20,
+        "Pluto": 29,
+        "Uranus": 9,
+        "Saturn": 17
+      },
+      "detri": {
+        "Uranus": 6,
+        "Mars": 49,
+        "Earth": 14,
+        "Jupiter": 22,
+        "Pluto": 14,
+        "Mercury": 21,
+        "Moon": 22,
+        "Venus": 22,
+        "Sun": 6,
+        "Saturn": 5,
+        "Neptune": 6
+      }
+    },
+    "YIN": {
+      "exalt": {
+        "Venus": 23,
+        "Saturn": 19,
+        "Jupiter": 25,
+        "Mercury": 7,
+        "Mars": 15,
+        "Neptune": 15,
+        "Sun": 28,
+        "Moon": 26,
+        "Uranus": 9,
+        "Pluto": 13,
+        "Earth": 11
+      },
+      "detri": {
+        "Mars": 45,
+        "Uranus": 6,
+        "Earth": 13,
+        "Saturn": 9,
+        "Pluto": 18,
+        "Sun": 7,
+        "Mercury": 22,
+        "Neptune": 12,
+        "Moon": 21,
+        "Jupiter": 21,
+        "Venus": 16
+      }
+    }
+  },
+  "byCentre": {
+    "G": {
+      "exalt": {
+        "Moon": 5,
+        "Venus": 9,
+        "Mars": 4,
+        "Earth": 7,
+        "Saturn": 2,
+        "Jupiter": 4,
+        "Mercury": 5,
+        "Neptune": 4,
+        "Sun": 4,
+        "Uranus": 1,
+        "Pluto": 3
+      },
+      "detri": {
+        "Uranus": 6,
+        "Mars": 10,
+        "Earth": 3,
+        "Jupiter": 4,
+        "Pluto": 4,
+        "Saturn": 3,
+        "Mercury": 7,
+        "Neptune": 3,
+        "Moon": 3,
+        "Sun": 1,
+        "Venus": 3
+      }
+    },
+    "Sacral": {
+      "exalt": {
+        "Earth": 4,
+        "Mars": 9,
+        "Venus": 5,
+        "Neptune": 3,
+        "Sun": 11,
+        "Uranus": 2,
+        "Pluto": 4,
+        "Moon": 7,
+        "Jupiter": 5,
+        "Saturn": 4
+      },
+      "detri": {
+        "Mercury": 6,
+        "Uranus": 2,
+        "Pluto": 8,
+        "Mars": 10,
+        "Earth": 6,
+        "Moon": 3,
+        "Sun": 2,
+        "Jupiter": 4,
+        "Neptune": 2,
+        "Venus": 8,
+        "Saturn": 2
+      }
+    },
+    "Ajna": {
+      "exalt": {
+        "Moon": 9,
+        "Venus": 3,
+        "Sun": 4,
+        "Jupiter": 3,
+        "Mercury": 2,
+        "Neptune": 2,
+        "Pluto": 6,
+        "Mars": 1,
+        "Uranus": 1,
+        "Saturn": 4
+      },
+      "detri": {
+        "Earth": 2,
+        "Mars": 9,
+        "Pluto": 3,
+        "Saturn": 1,
+        "Venus": 4,
+        "Sun": 2,
+        "Mercury": 2,
+        "Jupiter": 5,
+        "Moon": 4,
+        "Neptune": 3
+      }
+    },
+    "Solar Plexus": {
+      "exalt": {
+        "Pluto": 6,
+        "Venus": 6,
+        "Neptune": 5,
+        "Sun": 5,
+        "Mercury": 1,
+        "Moon": 3,
+        "Saturn": 3,
+        "Jupiter": 9,
+        "Mars": 2,
+        "Earth": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mercury": 4,
+        "Mars": 13,
+        "Pluto": 5,
+        "Moon": 5,
+        "Venus": 2,
+        "Jupiter": 6,
+        "Saturn": 3,
+        "Sun": 2,
+        "Earth": 1
+      }
+    },
+    "Throat": {
+      "exalt": {
+        "Neptune": 5,
+        "Sun": 14,
+        "Moon": 7,
+        "Jupiter": 13,
+        "Venus": 8,
+        "Saturn": 5,
+        "Earth": 2,
+        "Pluto": 4,
+        "Mars": 1,
+        "Mercury": 1,
+        "Uranus": 6
+      },
+      "detri": {
+        "Mercury": 12,
+        "Earth": 5,
+        "Saturn": 1,
+        "Sun": 2,
+        "Pluto": 4,
+        "Jupiter": 9,
+        "Mars": 17,
+        "Moon": 9,
+        "Uranus": 1,
+        "Neptune": 4,
+        "Venus": 2
+      }
+    },
+    "Spleen": {
+      "exalt": {
+        "Earth": 2,
+        "Pluto": 9,
+        "Neptune": 1,
+        "Saturn": 4,
+        "Mars": 5,
+        "Sun": 4,
+        "Jupiter": 3,
+        "Venus": 6,
+        "Mercury": 2,
+        "Moon": 4,
+        "Uranus": 2
+      },
+      "detri": {
+        "Jupiter": 6,
+        "Moon": 8,
+        "Mercury": 4,
+        "Uranus": 1,
+        "Venus": 5,
+        "Sun": 2,
+        "Neptune": 3,
+        "Mars": 9,
+        "Saturn": 1,
+        "Earth": 2
+      }
+    },
+    "Root": {
+      "exalt": {
+        "Sun": 3,
+        "Jupiter": 3,
+        "Venus": 5,
+        "Mars": 3,
+        "Earth": 4,
+        "Neptune": 6,
+        "Pluto": 5,
+        "Saturn": 11,
+        "Moon": 9,
+        "Uranus": 2,
+        "Mercury": 1
+      },
+      "detri": {
+        "Moon": 5,
+        "Mercury": 6,
+        "Venus": 9,
+        "Jupiter": 5,
+        "Mars": 13,
+        "Earth": 5,
+        "Pluto": 4,
+        "Sun": 2,
+        "Neptune": 2,
+        "Uranus": 1
+      }
+    },
+    "Heart": {
+      "exalt": {
+        "Mars": 4,
+        "Neptune": 2,
+        "Jupiter": 2,
+        "Pluto": 4,
+        "Sun": 9,
+        "Uranus": 3
+      },
+      "detri": {
+        "Moon": 4,
+        "Neptune": 1,
+        "Jupiter": 2,
+        "Earth": 3,
+        "Pluto": 3,
+        "Venus": 3,
+        "Mars": 4,
+        "Saturn": 2,
+        "Mercury": 2
+      }
+    },
+    "Head": {
+      "exalt": {
+        "Neptune": 1,
+        "Moon": 3,
+        "Saturn": 3,
+        "Pluto": 1,
+        "Sun": 2,
+        "Jupiter": 3,
+        "Mercury": 2,
+        "Venus": 3
+      },
+      "detri": {
+        "Venus": 2,
+        "Mars": 9,
+        "Jupiter": 2,
+        "Uranus": 1,
+        "Saturn": 1,
+        "Pluto": 1,
+        "Moon": 2
+      }
+    }
+  },
+  "byBinaryBit": {
+    "bit0": {
+      "bit0_1": {
+        "exalt": {
+          "Moon": 24,
+          "Venus": 22,
+          "Mars": 15,
+          "Earth": 14,
+          "Sun": 28,
+          "Jupiter": 24,
+          "Mercury": 6,
+          "Neptune": 12,
+          "Pluto": 23,
+          "Uranus": 6,
+          "Saturn": 18
+        },
+        "detri": {
+          "Uranus": 7,
+          "Mars": 48,
+          "Earth": 14,
+          "Jupiter": 26,
+          "Pluto": 17,
+          "Saturn": 8,
+          "Moon": 16,
+          "Venus": 25,
+          "Sun": 4,
+          "Mercury": 19,
+          "Neptune": 5
+        }
+      },
+      "bit0_0": {
+        "exalt": {
+          "Venus": 23,
+          "Saturn": 18,
+          "Jupiter": 21,
+          "Mercury": 8,
+          "Earth": 6,
+          "Mars": 14,
+          "Neptune": 17,
+          "Sun": 28,
+          "Moon": 23,
+          "Uranus": 12,
+          "Pluto": 19
+        },
+        "detri": {
+          "Mars": 46,
+          "Uranus": 5,
+          "Earth": 13,
+          "Saturn": 6,
+          "Mercury": 24,
+          "Pluto": 15,
+          "Sun": 9,
+          "Neptune": 13,
+          "Moon": 27,
+          "Jupiter": 17,
+          "Venus": 13
+        }
+      }
+    },
+    "bit1": {
+      "bit1_1": {
+        "exalt": {
+          "Moon": 26,
+          "Venus": 26,
+          "Mars": 13,
+          "Earth": 8,
+          "Neptune": 17,
+          "Sun": 25,
+          "Uranus": 10,
+          "Pluto": 27,
+          "Mercury": 7,
+          "Jupiter": 14,
+          "Saturn": 17
+        },
+        "detri": {
+          "Uranus": 6,
+          "Mars": 45,
+          "Earth": 12,
+          "Jupiter": 22,
+          "Pluto": 14,
+          "Moon": 24,
+          "Sun": 8,
+          "Mercury": 25,
+          "Venus": 20,
+          "Saturn": 5,
+          "Neptune": 7
+        }
+      },
+      "bit1_0": {
+        "exalt": {
+          "Venus": 19,
+          "Saturn": 19,
+          "Jupiter": 31,
+          "Mercury": 7,
+          "Earth": 12,
+          "Mars": 16,
+          "Sun": 31,
+          "Neptune": 12,
+          "Moon": 21,
+          "Pluto": 15,
+          "Uranus": 8
+        },
+        "detri": {
+          "Mars": 49,
+          "Uranus": 6,
+          "Earth": 15,
+          "Saturn": 9,
+          "Mercury": 18,
+          "Pluto": 18,
+          "Neptune": 11,
+          "Sun": 5,
+          "Jupiter": 21,
+          "Moon": 19,
+          "Venus": 18
+        }
+      }
+    },
+    "bit2": {
+      "bit2_1": {
+        "exalt": {
+          "Moon": 20,
+          "Venus": 17,
+          "Mars": 15,
+          "Earth": 11,
+          "Neptune": 13,
+          "Sun": 28,
+          "Mercury": 6,
+          "Pluto": 31,
+          "Uranus": 11,
+          "Jupiter": 19,
+          "Saturn": 18
+        },
+        "detri": {
+          "Uranus": 6,
+          "Mars": 47,
+          "Earth": 14,
+          "Jupiter": 25,
+          "Pluto": 15,
+          "Mercury": 17,
+          "Moon": 24,
+          "Venus": 18,
+          "Sun": 8,
+          "Saturn": 5,
+          "Neptune": 8
+        }
+      },
+      "bit2_0": {
+        "exalt": {
+          "Venus": 28,
+          "Saturn": 18,
+          "Jupiter": 26,
+          "Mercury": 8,
+          "Neptune": 16,
+          "Mars": 14,
+          "Sun": 28,
+          "Moon": 27,
+          "Uranus": 7,
+          "Pluto": 11,
+          "Earth": 9
+        },
+        "detri": {
+          "Mars": 47,
+          "Uranus": 6,
+          "Earth": 13,
+          "Saturn": 9,
+          "Pluto": 17,
+          "Sun": 5,
+          "Mercury": 26,
+          "Neptune": 10,
+          "Jupiter": 18,
+          "Venus": 20,
+          "Moon": 19
+        }
+      }
+    }
+  },
+  "byLineBit": {
+    "yang_line": {
+      "exalt": {
+        "Moon": 21,
+        "Venus": 22,
+        "Mars": 14,
+        "Earth": 9,
+        "Mercury": 7,
+        "Neptune": 14,
+        "Sun": 28,
+        "Jupiter": 20,
+        "Pluto": 29,
+        "Uranus": 9,
+        "Saturn": 17
+      },
+      "detri": {
+        "Uranus": 6,
+        "Mars": 49,
+        "Earth": 14,
+        "Jupiter": 22,
+        "Pluto": 14,
+        "Mercury": 21,
+        "Moon": 22,
+        "Venus": 22,
+        "Sun": 6,
+        "Saturn": 5,
+        "Neptune": 6
+      }
+    },
+    "yin_line": {
+      "exalt": {
+        "Venus": 23,
+        "Saturn": 19,
+        "Jupiter": 25,
+        "Mercury": 7,
+        "Mars": 15,
+        "Neptune": 15,
+        "Sun": 28,
+        "Moon": 26,
+        "Uranus": 9,
+        "Pluto": 13,
+        "Earth": 11
+      },
+      "detri": {
+        "Mars": 45,
+        "Uranus": 6,
+        "Earth": 13,
+        "Saturn": 9,
+        "Pluto": 18,
+        "Sun": 7,
+        "Mercury": 22,
+        "Neptune": 12,
+        "Moon": 21,
+        "Jupiter": 21,
+        "Venus": 16
+      }
+    }
+  },
+  "byTrigramLine": {
+    "Heaven-L1": {
+      "exalt": {
+        "Moon": 2,
+        "Earth": 2,
+        "Mars": 1,
+        "Sun": 1,
+        "Pluto": 5,
+        "Uranus": 1,
+        "Jupiter": 1,
+        "Venus": 1,
+        "Neptune": 1,
+        "Saturn": 1
+      },
+      "detri": {
+        "Uranus": 1,
+        "Jupiter": 1,
+        "Earth": 1,
+        "Pluto": 2,
+        "Mars": 3,
+        "Mercury": 3,
+        "Venus": 2,
+        "Neptune": 1,
+        "Sun": 1
+      }
+    },
+    "Heaven-L2": {
+      "exalt": {
+        "Venus": 4,
+        "Mars": 2,
+        "Pluto": 3,
+        "Jupiter": 2,
+        "Neptune": 2,
+        "Sun": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 6,
+        "Uranus": 1,
+        "Pluto": 2,
+        "Moon": 2,
+        "Jupiter": 4,
+        "Venus": 1
+      }
+    },
+    "Heaven-L3": {
+      "exalt": {
+        "Mars": 2,
+        "Earth": 4,
+        "Neptune": 1,
+        "Mercury": 1,
+        "Pluto": 4,
+        "Sun": 3,
+        "Saturn": 1
+      },
+      "detri": {
+        "Earth": 3,
+        "Pluto": 1,
+        "Moon": 2,
+        "Venus": 2,
+        "Sun": 1,
+        "Saturn": 2,
+        "Mercury": 2,
+        "Neptune": 1,
+        "Uranus": 1,
+        "Jupiter": 1
+      }
+    },
+    "Earth-L1": {
+      "exalt": {
+        "Venus": 5,
+        "Sun": 1,
+        "Neptune": 1,
+        "Moon": 1,
+        "Jupiter": 3,
+        "Earth": 2,
+        "Mars": 1,
+        "Saturn": 1,
+        "Pluto": 1
+      },
+      "detri": {
+        "Mars": 4,
+        "Uranus": 1,
+        "Mercury": 2,
+        "Sun": 1,
+        "Jupiter": 1,
+        "Saturn": 1,
+        "Venus": 1,
+        "Moon": 2,
+        "Neptune": 2,
+        "Pluto": 1
+      }
+    },
+    "Earth-L2": {
+      "exalt": {
+        "Saturn": 2,
+        "Mercury": 1,
+        "Venus": 3,
+        "Sun": 2,
+        "Moon": 3,
+        "Jupiter": 2,
+        "Earth": 1,
+        "Pluto": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 3,
+        "Earth": 2,
+        "Neptune": 2,
+        "Mercury": 4,
+        "Pluto": 1,
+        "Jupiter": 1,
+        "Moon": 3
+      }
+    },
+    "Earth-L3": {
+      "exalt": {
+        "Jupiter": 5,
+        "Mercury": 2,
+        "Moon": 2,
+        "Neptune": 3,
+        "Pluto": 1,
+        "Sun": 2,
+        "Saturn": 1
+      },
+      "detri": {
+        "Uranus": 2,
+        "Saturn": 3,
+        "Jupiter": 1,
+        "Mars": 4,
+        "Venus": 1,
+        "Earth": 1,
+        "Pluto": 2,
+        "Sun": 1,
+        "Neptune": 1
+      }
+    },
+    "Thunder-L1": {
+      "exalt": {
+        "Earth": 1,
+        "Jupiter": 3,
+        "Mars": 2,
+        "Sun": 3,
+        "Neptune": 1,
+        "Pluto": 2,
+        "Uranus": 2,
+        "Venus": 1
+      },
+      "detri": {
+        "Mercury": 3,
+        "Mars": 4,
+        "Venus": 3,
+        "Moon": 1,
+        "Neptune": 1,
+        "Earth": 1,
+        "Saturn": 1,
+        "Pluto": 1
+      }
+    },
+    "Thunder-L2": {
+      "exalt": {
+        "Mars": 4,
+        "Pluto": 1,
+        "Sun": 4,
+        "Moon": 4,
+        "Mercury": 1,
+        "Uranus": 2
+      },
+      "detri": {
+        "Uranus": 1,
+        "Moon": 3,
+        "Neptune": 2,
+        "Mars": 5,
+        "Earth": 1,
+        "Venus": 1,
+        "Mercury": 1,
+        "Sun": 1
+      }
+    },
+    "Thunder-L3": {
+      "exalt": {
+        "Venus": 2,
+        "Neptune": 2,
+        "Pluto": 3,
+        "Mars": 2,
+        "Earth": 1,
+        "Sun": 3,
+        "Saturn": 3
+      },
+      "detri": {
+        "Pluto": 3,
+        "Jupiter": 6,
+        "Earth": 2,
+        "Mars": 1,
+        "Neptune": 1,
+        "Moon": 2,
+        "Mercury": 1
+      }
+    },
+    "Water-L1": {
+      "exalt": {
+        "Neptune": 1,
+        "Moon": 2,
+        "Uranus": 1,
+        "Pluto": 1,
+        "Venus": 2,
+        "Jupiter": 1,
+        "Mars": 1,
+        "Saturn": 2,
+        "Sun": 3,
+        "Mercury": 2
+      },
+      "detri": {
+        "Mars": 3,
+        "Earth": 2,
+        "Sun": 2,
+        "Mercury": 4,
+        "Neptune": 2,
+        "Venus": 2,
+        "Moon": 1
+      }
+    },
+    "Water-L2": {
+      "exalt": {
+        "Mars": 2,
+        "Moon": 1,
+        "Venus": 3,
+        "Neptune": 3,
+        "Jupiter": 1,
+        "Sun": 4,
+        "Saturn": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Earth": 2,
+        "Mars": 4,
+        "Pluto": 2,
+        "Mercury": 2,
+        "Sun": 1,
+        "Venus": 1,
+        "Moon": 3,
+        "Jupiter": 1
+      }
+    },
+    "Water-L3": {
+      "exalt": {
+        "Sun": 1,
+        "Venus": 3,
+        "Neptune": 2,
+        "Moon": 2,
+        "Mars": 2,
+        "Pluto": 1,
+        "Jupiter": 2,
+        "Saturn": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Pluto": 5,
+        "Mercury": 2,
+        "Jupiter": 2,
+        "Mars": 4,
+        "Moon": 2
+      }
+    },
+    "Mountain-L1": {
+      "exalt": {
+        "Sun": 4,
+        "Venus": 1,
+        "Earth": 3,
+        "Neptune": 3,
+        "Pluto": 1,
+        "Jupiter": 1,
+        "Mars": 1,
+        "Saturn": 1,
+        "Moon": 1
+      },
+      "detri": {
+        "Saturn": 2,
+        "Mars": 7,
+        "Mercury": 2,
+        "Earth": 2,
+        "Venus": 2,
+        "Jupiter": 1
+      }
+    },
+    "Mountain-L2": {
+      "exalt": {
+        "Jupiter": 6,
+        "Sun": 1,
+        "Saturn": 2,
+        "Mars": 2,
+        "Moon": 2,
+        "Venus": 1,
+        "Earth": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Pluto": 2,
+        "Earth": 1,
+        "Uranus": 1,
+        "Mars": 3,
+        "Moon": 2,
+        "Venus": 2,
+        "Saturn": 1,
+        "Mercury": 2,
+        "Neptune": 1,
+        "Jupiter": 1
+      }
+    },
+    "Mountain-L3": {
+      "exalt": {
+        "Mercury": 1,
+        "Earth": 1,
+        "Mars": 2,
+        "Sun": 4,
+        "Moon": 2,
+        "Jupiter": 2,
+        "Saturn": 2,
+        "Venus": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mars": 4,
+        "Mercury": 1,
+        "Moon": 2,
+        "Jupiter": 2,
+        "Pluto": 2,
+        "Earth": 1,
+        "Venus": 3,
+        "Neptune": 1
+      }
+    },
+    "Wind-L1": {
+      "exalt": {
+        "Moon": 5,
+        "Earth": 1,
+        "Jupiter": 1,
+        "Mars": 2,
+        "Sun": 1,
+        "Pluto": 1,
+        "Neptune": 1,
+        "Venus": 3,
+        "Saturn": 1
+      },
+      "detri": {
+        "Mars": 4,
+        "Jupiter": 3,
+        "Mercury": 2,
+        "Venus": 5,
+        "Saturn": 1,
+        "Moon": 1
+      }
+    },
+    "Wind-L2": {
+      "exalt": {
+        "Jupiter": 2,
+        "Pluto": 3,
+        "Saturn": 2,
+        "Sun": 5,
+        "Venus": 3,
+        "Neptune": 1
+      },
+      "detri": {
+        "Earth": 2,
+        "Moon": 3,
+        "Uranus": 2,
+        "Jupiter": 2,
+        "Mars": 4,
+        "Venus": 3
+      }
+    },
+    "Wind-L3": {
+      "exalt": {
+        "Moon": 6,
+        "Neptune": 1,
+        "Venus": 3,
+        "Saturn": 1,
+        "Mercury": 2,
+        "Mars": 1,
+        "Uranus": 1,
+        "Pluto": 1
+      },
+      "detri": {
+        "Pluto": 2,
+        "Jupiter": 3,
+        "Mercury": 5,
+        "Saturn": 1,
+        "Neptune": 1,
+        "Mars": 3
+      }
+    },
+    "Lake-L1": {
+      "exalt": {
+        "Sun": 2,
+        "Pluto": 3,
+        "Jupiter": 3,
+        "Moon": 1,
+        "Neptune": 3,
+        "Mercury": 1,
+        "Saturn": 1,
+        "Venus": 2
+      },
+      "detri": {
+        "Moon": 4,
+        "Jupiter": 2,
+        "Mercury": 3,
+        "Mars": 4,
+        "Venus": 2,
+        "Neptune": 1
+      }
+    },
+    "Lake-L2": {
+      "exalt": {
+        "Mercury": 1,
+        "Uranus": 2,
+        "Jupiter": 1,
+        "Pluto": 3,
+        "Saturn": 3,
+        "Moon": 4,
+        "Venus": 1
+      },
+      "detri": {
+        "Mars": 6,
+        "Mercury": 1,
+        "Sun": 2,
+        "Moon": 2,
+        "Venus": 1,
+        "Jupiter": 1,
+        "Uranus": 1,
+        "Earth": 1
+      }
+    },
+    "Lake-L3": {
+      "exalt": {
+        "Earth": 1,
+        "Moon": 3,
+        "Venus": 1,
+        "Pluto": 2,
+        "Sun": 3,
+        "Saturn": 2,
+        "Uranus": 2,
+        "Neptune": 1
+      },
+      "detri": {
+        "Moon": 4,
+        "Jupiter": 2,
+        "Neptune": 1,
+        "Earth": 1,
+        "Mars": 4,
+        "Sun": 1,
+        "Saturn": 1,
+        "Venus": 1,
+        "Mercury": 1
+      }
+    },
+    "Fire-L1": {
+      "exalt": {
+        "Venus": 2,
+        "Moon": 5,
+        "Jupiter": 3,
+        "Sun": 2,
+        "Pluto": 2,
+        "Mars": 1,
+        "Saturn": 1
+      },
+      "detri": {
+        "Moon": 1,
+        "Mars": 7,
+        "Earth": 1,
+        "Jupiter": 3,
+        "Sun": 1,
+        "Venus": 1,
+        "Mercury": 1
+      }
+    },
+    "Fire-L2": {
+      "exalt": {
+        "Moon": 1,
+        "Sun": 3,
+        "Jupiter": 4,
+        "Mercury": 1,
+        "Neptune": 1,
+        "Saturn": 2,
+        "Earth": 1,
+        "Venus": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Sun": 1,
+        "Venus": 1,
+        "Pluto": 4,
+        "Jupiter": 3,
+        "Mars": 3,
+        "Moon": 1,
+        "Mercury": 1,
+        "Earth": 1,
+        "Uranus": 1
+      }
+    },
+    "Fire-L3": {
+      "exalt": {
+        "Earth": 1,
+        "Sun": 2,
+        "Pluto": 3,
+        "Saturn": 4,
+        "Mars": 1,
+        "Jupiter": 2,
+        "Neptune": 1,
+        "Venus": 1,
+        "Mercury": 1
+      },
+      "detri": {
+        "Venus": 3,
+        "Earth": 2,
+        "Mars": 4,
+        "Jupiter": 2,
+        "Moon": 2,
+        "Pluto": 2,
+        "Saturn": 1
+      }
+    }
+  },
+  "byTrigramPair": {
+    "Heaven→Heaven": {
+      "exalt": {
+        "Moon": 1,
+        "Venus": 1,
+        "Mars": 2,
+        "Earth": 2
+      },
+      "detri": {
+        "Uranus": 2,
+        "Mars": 1,
+        "Earth": 1,
+        "Jupiter": 1,
+        "Pluto": 1
+      }
+    },
+    "Earth→Earth": {
+      "exalt": {
+        "Venus": 2,
+        "Saturn": 1,
+        "Jupiter": 1,
+        "Mercury": 2
+      },
+      "detri": {
+        "Mars": 3,
+        "Uranus": 1,
+        "Earth": 1,
+        "Saturn": 1
+      }
+    },
+    "Thunder→Water": {
+      "exalt": {
+        "Earth": 1,
+        "Mars": 2,
+        "Venus": 1,
+        "Neptune": 1,
+        "Sun": 1
+      },
+      "detri": {
+        "Mercury": 1,
+        "Uranus": 1,
+        "Pluto": 2,
+        "Mars": 1,
+        "Earth": 1
+      }
+    },
+    "Water→Mountain": {
+      "exalt": {
+        "Moon": 2,
+        "Venus": 1,
+        "Sun": 1,
+        "Jupiter": 1,
+        "Mercury": 1
+      },
+      "detri": {
+        "Earth": 1,
+        "Mars": 2,
+        "Pluto": 2,
+        "Saturn": 1
+      }
+    },
+    "Heaven→Water": {
+      "exalt": {
+        "Mars": 1,
+        "Venus": 2,
+        "Neptune": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Earth": 1,
+        "Pluto": 2,
+        "Moon": 1,
+        "Sun": 1
+      }
+    },
+    "Water→Heaven": {
+      "exalt": {
+        "Pluto": 1,
+        "Venus": 2,
+        "Neptune": 1,
+        "Sun": 1,
+        "Mercury": 1
+      },
+      "detri": {
+        "Mercury": 1,
+        "Mars": 1,
+        "Pluto": 2,
+        "Moon": 1,
+        "Venus": 1
+      }
+    },
+    "Water→Earth": {
+      "exalt": {
+        "Venus": 2,
+        "Neptune": 1,
+        "Moon": 1,
+        "Sun": 1,
+        "Mercury": 1
+      },
+      "detri": {
+        "Mercury": 3,
+        "Uranus": 2,
+        "Neptune": 1
+      }
+    },
+    "Earth→Water": {
+      "exalt": {
+        "Neptune": 1,
+        "Sun": 1,
+        "Moon": 1,
+        "Jupiter": 2,
+        "Venus": 1
+      },
+      "detri": {
+        "Mercury": 2,
+        "Earth": 1,
+        "Saturn": 1,
+        "Sun": 1,
+        "Pluto": 1
+      }
+    },
+    "Heaven→Wind": {
+      "exalt": {
+        "Pluto": 2,
+        "Earth": 1,
+        "Moon": 2,
+        "Jupiter": 1
+      },
+      "detri": {
+        "Mars": 2,
+        "Jupiter": 1,
+        "Sun": 1,
+        "Earth": 1,
+        "Pluto": 1
+      }
+    },
+    "Lake→Heaven": {
+      "exalt": {
+        "Sun": 1,
+        "Mercury": 1,
+        "Earth": 1,
+        "Uranus": 1,
+        "Jupiter": 1,
+        "Pluto": 1
+      },
+      "detri": {
+        "Moon": 2,
+        "Mars": 2,
+        "Mercury": 1,
+        "Saturn": 1
+      }
+    },
+    "Heaven→Earth": {
+      "exalt": {
+        "Moon": 3,
+        "Neptune": 2,
+        "Pluto": 1
+      },
+      "detri": {
+        "Mars": 2,
+        "Venus": 1,
+        "Sun": 1,
+        "Mercury": 1,
+        "Jupiter": 1
+      }
+    },
+    "Earth→Heaven": {
+      "exalt": {
+        "Venus": 1,
+        "Saturn": 1,
+        "Neptune": 1,
+        "Earth": 1,
+        "Sun": 2
+      },
+      "detri": {
+        "Jupiter": 1,
+        "Mercury": 2,
+        "Mars": 2,
+        "Earth": 1
+      }
+    },
+    "Fire→Heaven": {
+      "exalt": {
+        "Venus": 1,
+        "Moon": 1,
+        "Earth": 1,
+        "Pluto": 1,
+        "Neptune": 1,
+        "Mars": 1
+      },
+      "detri": {
+        "Moon": 1,
+        "Sun": 1,
+        "Venus": 2,
+        "Jupiter": 1,
+        "Mercury": 1
+      }
+    },
+    "Heaven→Fire": {
+      "exalt": {
+        "Jupiter": 2,
+        "Earth": 1,
+        "Moon": 1,
+        "Sun": 2
+      },
+      "detri": {
+        "Mercury": 1,
+        "Mars": 2,
+        "Neptune": 1,
+        "Venus": 1,
+        "Earth": 1
+      }
+    },
+    "Mountain→Earth": {
+      "exalt": {
+        "Venus": 1,
+        "Sun": 1,
+        "Earth": 1,
+        "Jupiter": 2,
+        "Pluto": 1
+      },
+      "detri": {
+        "Mars": 1,
+        "Earth": 1,
+        "Mercury": 1,
+        "Saturn": 1,
+        "Pluto": 1,
+        "Venus": 1
+      }
+    },
+    "Earth→Thunder": {
+      "exalt": {
+        "Earth": 1,
+        "Sun": 1,
+        "Moon": 1,
+        "Jupiter": 1,
+        "Pluto": 1,
+        "Neptune": 1
+      },
+      "detri": {
+        "Mercury": 2,
+        "Mars": 2,
+        "Moon": 1,
+        "Jupiter": 1
+      }
+    },
+    "Thunder→Lake": {
+      "exalt": {
+        "Mars": 1,
+        "Sun": 1,
+        "Pluto": 2,
+        "Uranus": 1,
+        "Moon": 1
+      },
+      "detri": {
+        "Venus": 1,
+        "Moon": 1,
+        "Earth": 1,
+        "Jupiter": 2,
+        "Mars": 1
+      }
+    },
+    "Wind→Mountain": {
+      "exalt": {
+        "Earth": 2,
+        "Pluto": 1,
+        "Neptune": 1,
+        "Saturn": 1,
+        "Mars": 1
+      },
+      "detri": {
+        "Jupiter": 2,
+        "Moon": 2,
+        "Mercury": 1,
+        "Uranus": 1
+      }
+    },
+    "Lake→Earth": {
+      "exalt": {
+        "Sun": 1,
+        "Jupiter": 2,
+        "Venus": 1,
+        "Mars": 1,
+        "Earth": 1
+      },
+      "detri": {
+        "Moon": 2,
+        "Mercury": 1,
+        "Venus": 1,
+        "Jupiter": 1,
+        "Mars": 1
+      }
+    },
+    "Earth→Wind": {
+      "exalt": {
+        "Venus": 3,
+        "Sun": 1,
+        "Jupiter": 1,
+        "Saturn": 1
+      },
+      "detri": {
+        "Moon": 2,
+        "Earth": 1,
+        "Mercury": 2,
+        "Uranus": 1
+      }
+    },
+    "Thunder→Fire": {
+      "exalt": {
+        "Mars": 2,
+        "Neptune": 1,
+        "Jupiter": 2,
+        "Pluto": 1
+      },
+      "detri": {
+        "Moon": 1,
+        "Neptune": 1,
+        "Jupiter": 1,
+        "Earth": 1,
+        "Pluto": 1,
+        "Venus": 1
+      }
+    },
+    "Fire→Mountain": {
+      "exalt": {
+        "Moon": 1,
+        "Sun": 2,
+        "Saturn": 1,
+        "Neptune": 1,
+        "Jupiter": 1
+      },
+      "detri": {
+        "Mars": 5,
+        "Jupiter": 1
+      }
+    },
+    "Earth→Mountain": {
+      "exalt": {
+        "Jupiter": 3,
+        "Sun": 2,
+        "Mars": 1
+      },
+      "detri": {
+        "Mars": 1,
+        "Moon": 2,
+        "Pluto": 1,
+        "Earth": 1,
+        "Jupiter": 1
+      }
+    },
+    "Thunder→Earth": {
+      "exalt": {
+        "Sun": 1,
+        "Moon": 2,
+        "Venus": 1,
+        "Saturn": 1,
+        "Jupiter": 1
+      },
+      "detri": {
+        "Neptune": 2,
+        "Mars": 2,
+        "Jupiter": 1,
+        "Pluto": 1
+      }
+    },
+    "Thunder→Heaven": {
+      "exalt": {
+        "Neptune": 1,
+        "Mercury": 1,
+        "Mars": 1,
+        "Venus": 2,
+        "Earth": 1
+      },
+      "detri": {
+        "Mercury": 1,
+        "Mars": 1,
+        "Pluto": 1,
+        "Jupiter": 1,
+        "Uranus": 1
+      }
+    },
+    "Heaven→Mountain": {
+      "exalt": {
+        "Neptune": 1,
+        "Sun": 3,
+        "Pluto": 1,
+        "Mars": 1
+      },
+      "detri": {
+        "Mars": 1,
+        "Pluto": 1,
+        "Saturn": 2,
+        "Venus": 1,
+        "Moon": 1
+      }
+    },
+    "Thunder→Mountain": {
+      "exalt": {
+        "Sun": 1,
+        "Moon": 2,
+        "Pluto": 1,
+        "Jupiter": 2
+      },
+      "detri": {
+        "Earth": 1,
+        "Mars": 3,
+        "Saturn": 1,
+        "Pluto": 1
+      }
+    },
+    "Wind→Lake": {
+      "exalt": {
+        "Mars": 1,
+        "Sun": 1,
+        "Saturn": 1,
+        "Jupiter": 1,
+        "Pluto": 2
+      },
+      "detri": {
+        "Venus": 1,
+        "Jupiter": 2,
+        "Mercury": 1,
+        "Sun": 1,
+        "Neptune": 1
+      }
+    },
+    "Water→Water": {
+      "exalt": {
+        "Mars": 3,
+        "Sun": 2,
+        "Saturn": 1
+      },
+      "detri": {
+        "Neptune": 1,
+        "Venus": 2,
+        "Jupiter": 2,
+        "Earth": 1
+      }
+    },
+    "Fire→Fire": {
+      "exalt": {
+        "Sun": 2,
+        "Pluto": 2,
+        "Jupiter": 1,
+        "Mars": 1
+      },
+      "detri": {
+        "Jupiter": 3,
+        "Mars": 1,
+        "Pluto": 1,
+        "Moon": 1
+      }
+    },
+    "Mountain→Lake": {
+      "exalt": {
+        "Sun": 3,
+        "Jupiter": 1,
+        "Moon": 1,
+        "Pluto": 1
+      },
+      "detri": {
+        "Earth": 1,
+        "Mercury": 1,
+        "Jupiter": 1,
+        "Mars": 1,
+        "Moon": 2
+      }
+    },
+    "Wind→Thunder": {
+      "exalt": {
+        "Sun": 1,
+        "Venus": 1,
+        "Mercury": 1,
+        "Jupiter": 1,
+        "Moon": 1,
+        "Pluto": 1
+      },
+      "detri": {
+        "Mars": 2,
+        "Jupiter": 2,
+        "Saturn": 1,
+        "Neptune": 1
+      }
+    },
+    "Mountain→Heaven": {
+      "exalt": {
+        "Sun": 2,
+        "Jupiter": 2,
+        "Pluto": 2
+      },
+      "detri": {
+        "Mars": 2,
+        "Neptune": 2,
+        "Jupiter": 2
+      }
+    },
+    "Heaven→Thunder": {
+      "exalt": {
+        "Saturn": 2,
+        "Mars": 2,
+        "Pluto": 1,
+        "Earth": 1
+      },
+      "detri": {
+        "Pluto": 1,
+        "Venus": 1,
+        "Mercury": 1,
+        "Mars": 1,
+        "Moon": 1,
+        "Jupiter": 1
+      }
+    },
+    "Earth→Fire": {
+      "exalt": {
+        "Venus": 2,
+        "Jupiter": 1,
+        "Moon": 1,
+        "Mercury": 1,
+        "Saturn": 1
+      },
+      "detri": {
+        "Neptune": 1,
+        "Moon": 1,
+        "Sun": 1,
+        "Mars": 2,
+        "Jupiter": 1
+      }
+    },
+    "Fire→Earth": {
+      "exalt": {
+        "Mars": 1,
+        "Neptune": 1,
+        "Pluto": 3,
+        "Jupiter": 1
+      },
+      "detri": {
+        "Jupiter": 2,
+        "Moon": 2,
+        "Mercury": 1,
+        "Saturn": 1
+      }
+    },
+    "Fire→Wind": {
+      "exalt": {
+        "Venus": 3,
+        "Jupiter": 2,
+        "Moon": 1
+      },
+      "detri": {
+        "Mercury": 2,
+        "Mars": 2,
+        "Saturn": 1
+      }
+    },
+    "Lake→Fire": {
+      "exalt": {
+        "Neptune": 1,
+        "Pluto": 2,
+        "Sun": 1,
+        "Saturn": 2
+      },
+      "detri": {
+        "Mars": 2,
+        "Moon": 1,
+        "Earth": 2,
+        "Pluto": 1
+      }
+    },
+    "Mountain→Water": {
+      "exalt": {
+        "Mars": 1,
+        "Moon": 3,
+        "Jupiter": 1,
+        "Neptune": 1
+      },
+      "detri": {
+        "Mercury": 1,
+        "Jupiter": 1,
+        "Earth": 1,
+        "Sun": 1,
+        "Mars": 2
+      }
+    },
+    "Water→Thunder": {
+      "exalt": {
+        "Sun": 3,
+        "Pluto": 1,
+        "Uranus": 2
+      },
+      "detri": {
+        "Moon": 2,
+        "Mars": 2,
+        "Earth": 2
+      }
+    },
+    "Lake→Mountain": {
+      "exalt": {
+        "Neptune": 1,
+        "Saturn": 3,
+        "Earth": 1,
+        "Mars": 1
+      },
+      "detri": {
+        "Mercury": 1,
+        "Mars": 1,
+        "Moon": 1,
+        "Venus": 2,
+        "Pluto": 1
+      }
+    },
+    "Thunder→Wind": {
+      "exalt": {
+        "Sun": 3,
+        "Mars": 1,
+        "Moon": 2
+      },
+      "detri": {
+        "Venus": 4,
+        "Moon": 1,
+        "Saturn": 1
+      }
+    },
+    "Heaven→Lake": {
+      "exalt": {
+        "Pluto": 3,
+        "Mercury": 1,
+        "Moon": 1,
+        "Sun": 1
+      },
+      "detri": {
+        "Venus": 2,
+        "Moon": 2,
+        "Jupiter": 1,
+        "Mars": 1
+      }
+    },
+    "Wind→Heaven": {
+      "exalt": {
+        "Pluto": 3,
+        "Jupiter": 1,
+        "Mars": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Venus": 1,
+        "Mars": 2,
+        "Neptune": 1,
+        "Sun": 1,
+        "Earth": 1
+      }
+    },
+    "Earth→Lake": {
+      "exalt": {
+        "Jupiter": 2,
+        "Uranus": 3,
+        "Neptune": 1
+      },
+      "detri": {
+        "Mars": 4,
+        "Jupiter": 2
+      }
+    },
+    "Wind→Earth": {
+      "exalt": {
+        "Neptune": 1,
+        "Sun": 1,
+        "Moon": 2,
+        "Earth": 1,
+        "Saturn": 1
+      },
+      "detri": {
+        "Jupiter": 1,
+        "Mars": 2,
+        "Pluto": 1,
+        "Neptune": 2
+      }
+    },
+    "Water→Lake": {
+      "exalt": {
+        "Saturn": 3,
+        "Jupiter": 1,
+        "Venus": 1
+      },
+      "detri": {
+        "Neptune": 1,
+        "Mercury": 1,
+        "Mars": 1,
+        "Moon": 1,
+        "Sun": 1
+      }
+    },
+    "Wind→Water": {
+      "exalt": {
+        "Moon": 2,
+        "Pluto": 1,
+        "Sun": 1,
+        "Mars": 1,
+        "Venus": 1
+      },
+      "detri": {
+        "Mars": 1,
+        "Venus": 1,
+        "Mercury": 1,
+        "Earth": 1,
+        "Moon": 2
+      }
+    },
+    "Fire→Lake": {
+      "exalt": {
+        "Jupiter": 2,
+        "Earth": 1,
+        "Neptune": 2,
+        "Moon": 1
+      },
+      "detri": {
+        "Sun": 1,
+        "Pluto": 2,
+        "Mars": 2,
+        "Saturn": 1
+      }
+    },
+    "Wind→Fire": {
+      "exalt": {
+        "Mars": 1,
+        "Sun": 1,
+        "Moon": 1,
+        "Saturn": 2,
+        "Venus": 1
+      },
+      "detri": {
+        "Venus": 2,
+        "Mercury": 1,
+        "Mars": 2,
+        "Moon": 1
+      }
+    },
+    "Thunder→Thunder": {
+      "exalt": {
+        "Pluto": 1,
+        "Mars": 1,
+        "Sun": 3,
+        "Uranus": 1
+      },
+      "detri": {
+        "Venus": 1,
+        "Mercury": 2,
+        "Jupiter": 1,
+        "Mars": 1,
+        "Pluto": 1
+      }
+    },
+    "Mountain→Mountain": {
+      "exalt": {
+        "Earth": 2,
+        "Venus": 2,
+        "Saturn": 2
+      },
+      "detri": {
+        "Mars": 2,
+        "Venus": 1,
+        "Jupiter": 1,
+        "Pluto": 1,
+        "Neptune": 1
+      }
+    },
+    "Mountain→Wind": {
+      "exalt": {
+        "Neptune": 2,
+        "Moon": 4
+      },
+      "detri": {
+        "Venus": 2,
+        "Mars": 2,
+        "Earth": 1,
+        "Pluto": 1
+      }
+    },
+    "Lake→Thunder": {
+      "exalt": {
+        "Pluto": 2,
+        "Saturn": 2,
+        "Sun": 1
+      },
+      "detri": {
+        "Venus": 2,
+        "Mars": 1,
+        "Jupiter": 1
+      }
+    },
+    "Fire→Thunder": {
+      "exalt": {
+        "Jupiter": 2,
+        "Venus": 1,
+        "Saturn": 2,
+        "Uranus": 1
+      },
+      "detri": {
+        "Venus": 1,
+        "Earth": 1,
+        "Mars": 2,
+        "Sun": 1,
+        "Moon": 1
+      }
+    },
+    "Mountain→Fire": {
+      "exalt": {
+        "Moon": 2,
+        "Uranus": 2,
+        "Sun": 2
+      },
+      "detri": {
+        "Mars": 2,
+        "Moon": 1,
+        "Venus": 1,
+        "Mercury": 1,
+        "Pluto": 1
+      }
+    },
+    "Wind→Wind": {
+      "exalt": {
+        "Venus": 3,
+        "Mercury": 1,
+        "Pluto": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Moon": 3,
+        "Mars": 2
+      }
+    },
+    "Lake→Lake": {
+      "exalt": {
+        "Venus": 1,
+        "Uranus": 1,
+        "Pluto": 1,
+        "Moon": 2
+      },
+      "detri": {
+        "Moon": 1,
+        "Uranus": 1,
+        "Mars": 1,
+        "Neptune": 1,
+        "Sun": 1,
+        "Mercury": 1
+      }
+    },
+    "Water→Wind": {
+      "exalt": {
+        "Sun": 2,
+        "Uranus": 1,
+        "Saturn": 1,
+        "Venus": 2
+      },
+      "detri": {
+        "Mercury": 3,
+        "Pluto": 1,
+        "Mars": 1,
+        "Uranus": 1
+      }
+    },
+    "Lake→Water": {
+      "exalt": {
+        "Venus": 1,
+        "Saturn": 2,
+        "Mercury": 1,
+        "Neptune": 1,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mercury": 2,
+        "Earth": 1,
+        "Mars": 1,
+        "Venus": 1,
+        "Jupiter": 1
+      }
+    },
+    "Lake→Wind": {
+      "exalt": {
+        "Neptune": 1,
+        "Moon": 2,
+        "Saturn": 2,
+        "Pluto": 1
+      },
+      "detri": {
+        "Venus": 1,
+        "Mars": 4,
+        "Jupiter": 1
+      }
+    },
+    "Mountain→Thunder": {
+      "exalt": {
+        "Neptune": 1,
+        "Saturn": 2,
+        "Uranus": 1,
+        "Venus": 1,
+        "Moon": 1
+      },
+      "detri": {
+        "Mars": 1,
+        "Mercury": 2,
+        "Venus": 1,
+        "Pluto": 1,
+        "Neptune": 1
+      }
+    },
+    "Fire→Water": {
+      "exalt": {
+        "Sun": 2,
+        "Jupiter": 3,
+        "Mercury": 1
+      },
+      "detri": {
+        "Mars": 3,
+        "Uranus": 1,
+        "Saturn": 1,
+        "Pluto": 1
+      }
+    },
+    "Water→Fire": {
+      "exalt": {
+        "Venus": 3,
+        "Saturn": 1,
+        "Moon": 1,
+        "Mercury": 1
+      },
+      "detri": {
+        "Mars": 2,
+        "Moon": 2,
+        "Jupiter": 1,
+        "Venus": 1
+      }
+    }
+  }
+}

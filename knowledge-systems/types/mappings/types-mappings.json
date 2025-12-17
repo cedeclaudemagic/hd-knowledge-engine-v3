@@ -1,0 +1,483 @@
+{
+  "systemName": "Human Design Types",
+  "version": "1.1.0",
+  "description": "Type determination logic based on motor-to-Throat connections and Sacral definition",
+  "completeness": "full",
+  "dataArchitecture": "classification",
+  "totalTypes": 5,
+
+  "typeDefinitions": {
+    "Manifestor": {
+      "description": "Motor connected to Throat without Sacral definition",
+      "population": "~9%",
+      "aura": "Closed and repelling",
+      "strategy": "To inform",
+      "signature": "Peace",
+      "notSelf": "Anger",
+      "determinedBy": {
+        "sacralDefined": false,
+        "motorToThroat": true
+      },
+      "electromagneticSignature": {
+        "character": "Direct transformation pathway to expression without sustained generation",
+        "function": "Initiate action from voltage, will, or stored energy"
+      }
+    },
+    "Generator": {
+      "description": "Sacral defined without motor-to-Throat connection",
+      "population": "~37%",
+      "aura": "Open and enveloping",
+      "strategy": "To respond",
+      "signature": "Satisfaction",
+      "notSelf": "Frustration",
+      "determinedBy": {
+        "sacralDefined": true,
+        "motorToThroat": false
+      },
+      "electromagneticSignature": {
+        "character": "Source connection with sustained generation, no direct expression pathway",
+        "function": "Generate life force through response, energy must be requested to reach expression"
+      }
+    },
+    "ManifestingGenerator": {
+      "description": "Sacral defined with motor-to-Throat connection",
+      "population": "~33%",
+      "aura": "Open and enveloping",
+      "strategy": "To respond, then inform",
+      "signature": "Satisfaction",
+      "notSelf": "Frustration and anger",
+      "determinedBy": {
+        "sacralDefined": true,
+        "motorToThroat": true
+      },
+      "electromagneticSignature": {
+        "character": "Source connection with sustained generation PLUS direct expression pathway",
+        "function": "Generate and initiate - both sustained response capacity and direct action"
+      }
+    },
+    "Projector": {
+      "description": "No Sacral definition, no motor-to-Throat connection",
+      "population": "~20%",
+      "aura": "Focused and absorbing",
+      "strategy": "To wait for invitation",
+      "signature": "Success",
+      "notSelf": "Bitterness",
+      "determinedBy": {
+        "sacralDefined": false,
+        "motorToThroat": false,
+        "hasDefined": true
+      },
+      "electromagneticSignature": {
+        "character": "No internal generation, no direct expression, focused absorption",
+        "function": "Guide and direct others' energy through recognition and invitation"
+      }
+    },
+    "Reflector": {
+      "description": "No defined centres",
+      "population": "~1%",
+      "aura": "Resistant and sampling",
+      "strategy": "To wait a lunar cycle",
+      "signature": "Surprise",
+      "notSelf": "Disappointment",
+      "determinedBy": {
+        "allCentresUndefined": true
+      },
+      "electromagneticSignature": {
+        "character": "No consistent internal signature, reflective electromagnetic field",
+        "function": "Sample and reflect the conditioning field through lunar cycle"
+      }
+    }
+  },
+
+  "motorCentres": {
+    "Sacral": {
+      "type": "Motor",
+      "gates": [3, 5, 9, 14, 27, 29, 34, 42, 59],
+      "electromagneticSignature": "source-flow",
+      "positionCluster": "-4 and +1/+2",
+      "typeRole": "Defines Generator types (Generator and MG)"
+    },
+    "Heart": {
+      "type": "Motor",
+      "gates": [21, 26, 40, 51],
+      "electromagneticSignature": "gate-initiation",
+      "positionCluster": "+1",
+      "typeRole": "Can create Manifestor when connected to Throat"
+    },
+    "SolarPlexus": {
+      "type": "Motor/Awareness",
+      "gates": [6, 22, 30, 36, 37, 49, 55],
+      "electromagneticSignature": "voltage-pressure",
+      "positionCluster": "-2",
+      "typeRole": "Can create Manifestor when connected to Throat"
+    },
+    "Root": {
+      "type": "Pressure/Motor",
+      "gates": [19, 38, 39, 41, 52, 53, 54, 58, 60],
+      "electromagneticSignature": "stored-energy",
+      "positionCluster": "+-3",
+      "typeRole": "Can create Manifestor when connected to Throat (indirect only)"
+    }
+  },
+
+  "motorToThroatChannels": {
+    "directChannels": [
+      {
+        "channel": "12-22",
+        "name": "Openness",
+        "motor": "SolarPlexus",
+        "circuit": "Knowing",
+        "channelType": "Manifested",
+        "electromagneticPairing": "double-transformer",
+        "gates": {
+          "12": {
+            "vector": "+4 to -4",
+            "gateType": "cross-zero-dematerialising"
+          },
+          "22": {
+            "vector": "-2 to +3",
+            "gateType": "cross-zero-manifesting"
+          }
+        },
+        "typeCreation": "Creates Manifestor (or MG if Sacral defined)"
+      },
+      {
+        "channel": "21-45",
+        "name": "The Money Line",
+        "motor": "Heart",
+        "circuit": "Ego",
+        "channelType": "Manifested",
+        "electromagneticPairing": "double-transformer",
+        "gates": {
+          "21": {
+            "vector": "+1 to -2",
+            "gateType": "cross-zero-dematerialising"
+          },
+          "45": {
+            "vector": "+4 to -3",
+            "gateType": "cross-zero-manifesting"
+          }
+        },
+        "typeCreation": "Creates Manifestor (or MG if Sacral defined)"
+      },
+      {
+        "channel": "35-36",
+        "name": "Transitoriness",
+        "motor": "SolarPlexus",
+        "circuit": "Sensing",
+        "channelType": "Manifested",
+        "electromagneticPairing": "double-transformer",
+        "gates": {
+          "35": {
+            "vector": "+4 to -2",
+            "gateType": "cross-zero-dematerialising"
+          },
+          "36": {
+            "vector": "-2 to +4",
+            "gateType": "cross-zero-manifesting"
+          }
+        },
+        "typeCreation": "Creates Manifestor (or MG if Sacral defined)",
+        "note": "Perfect oscillator - gates are mirror images"
+      }
+    ],
+    "sacralToThroatChannel": {
+      "channel": "20-34",
+      "name": "Charisma",
+      "motor": "Sacral",
+      "circuit": "Integration",
+      "channelType": "Manifesting Generated",
+      "electromagneticPairing": "double-transformer",
+      "gates": {
+        "20": {
+          "vector": "+4 to -1",
+          "gateType": "cross-zero-dematerialising"
+        },
+        "34": {
+          "vector": "-4 to +1",
+          "gateType": "cross-zero-manifesting"
+        }
+      },
+      "typeCreation": "Always creates Manifesting Generator",
+      "note": "The quintessential MG channel - both defines Sacral AND connects motor to Throat"
+    }
+  },
+
+  "sacralChannels": [
+    {"channel": "2-14", "connection": "G-Sacral", "circuit": "Knowing"},
+    {"channel": "3-60", "connection": "Sacral-Root", "circuit": "Knowing"},
+    {"channel": "5-15", "connection": "Sacral-G", "circuit": "Understanding"},
+    {"channel": "6-59", "connection": "SolarPlexus-Sacral", "circuit": "Defense"},
+    {"channel": "9-52", "connection": "Sacral-Root", "circuit": "Understanding"},
+    {"channel": "10-34", "connection": "G-Sacral", "circuit": "Centering"},
+    {"channel": "20-34", "connection": "Throat-Sacral", "circuit": "Integration"},
+    {"channel": "27-50", "connection": "Sacral-Spleen", "circuit": "Defense"},
+    {"channel": "29-46", "connection": "Sacral-G", "circuit": "Sensing"},
+    {"channel": "34-57", "connection": "Sacral-Spleen", "circuit": "Integration"},
+    {"channel": "42-53", "connection": "Sacral-Root", "circuit": "Sensing"}
+  ],
+
+  "indirectMotorToThroatPaths": {
+    "heartToThroatViaG": {
+      "heartToG": ["25-51"],
+      "gToThroat": ["1-8", "7-31", "13-33"],
+      "note": "Heart can reach Throat through G Centre bridging"
+    },
+    "solarPlexusToThroatViaSacral": {
+      "spToSacral": ["6-59"],
+      "sacralToThroat": ["20-34"],
+      "note": "SP can reach Throat through Sacral - always creates MG (Sacral becomes defined)"
+    },
+    "rootToThroatViaSpleen": {
+      "rootToSpleen": ["18-58", "28-38", "32-54"],
+      "spleenToThroat": ["16-48", "20-57"],
+      "note": "Root can reach Throat through Spleen bridging"
+    },
+    "rootToThroatViaSolarPlexus": {
+      "rootToSP": ["19-49", "30-41", "39-55"],
+      "spToThroat": ["12-22", "35-36"],
+      "note": "Root can reach Throat through Solar Plexus bridging"
+    },
+    "rootToThroatViaSacral": {
+      "rootToSacral": ["3-60", "9-52", "42-53"],
+      "sacralToThroat": ["20-34"],
+      "note": "Root can reach Throat through Sacral - always creates MG"
+    }
+  },
+
+  "authorityHierarchy": [
+    {
+      "priority": 1,
+      "authority": "Emotional",
+      "centre": "SolarPlexus",
+      "emPosition": "-2 (Voltage)",
+      "axis": "Flow",
+      "standingWave": "Gate 30 (Fire/Fire)",
+      "temporalMode": "wave-over-time",
+      "description": "Wait for emotional clarity over time - no truth in the now",
+      "electromagneticLogic": {
+        "whyPriority": "Voltage fluctuates - wave must complete cycle(s) before true signal can be read",
+        "mechanism": "Emotional wave moves through hope/peak/pain/trough - clarity only at neutral or after full observation",
+        "whyAbsolute": "Wave modulates ALL other centre signals - must be accounted for first"
+      },
+      "decisionProcess": "Wait through wave cycle(s), observe question at different positions, clarity emerges when answer is consistent regardless of wave position"
+    },
+    {
+      "priority": 2,
+      "authority": "Sacral",
+      "centre": "Sacral",
+      "emPosition": "-4, +1/+2 (Source/Flow)",
+      "axis": "Poles + Gates + Flow",
+      "standingWave": "Gate 29 (Water/Water)",
+      "temporalMode": "instantaneous",
+      "description": "Gut response - sounds of uh-huh or uhn-uh",
+      "electromagneticLogic": {
+        "whyPriority": "Most fundamental life force - direct connection to source (-4) with in-the-moment response (+1/+2)",
+        "mechanism": "Binary response in the now - available energy or not",
+        "whySecond": "If SP defined, wave position can distort Sacral feeling of availability"
+      },
+      "decisionProcess": "Wait to respond to life, listen for gut sounds (uh-huh/uhn-uhn), response is binary and immediate"
+    },
+    {
+      "priority": 3,
+      "authority": "Splenic",
+      "centre": "Spleen",
+      "emPosition": "-1 (Gate OUT)",
+      "axis": "Gates",
+      "standingWave": "Gate 57 (Wind/Wind)",
+      "temporalMode": "instantaneous",
+      "description": "In-the-moment intuitive knowing - speaks once",
+      "electromagneticLogic": {
+        "whyPriority": "Fastest awareness - discrimination at gate threshold, survival-based",
+        "mechanism": "Speaks once, very quietly, does NOT repeat",
+        "whyThird": "Emotional noise (if SP defined) can drown out quiet splenic voice; Sacral generation (if defined) is more fundamental"
+      },
+      "decisionProcess": "Listen for the quiet voice in the moment, it speaks once about safety/health/wellbeing, trust immediate knowing"
+    },
+    {
+      "priority": 4,
+      "authority": "Ego",
+      "centre": "Heart",
+      "emPosition": "+1 (Gate IN)",
+      "axis": "Gates",
+      "standingWave": "Gate 51 (Thunder/Thunder)",
+      "temporalMode": "commitment-based",
+      "description": "What do I want? Will-based commitment",
+      "electromagneticLogic": {
+        "whyPriority": "Initiation threshold - will pushes energy through the gate into manifestation",
+        "mechanism": "Commitment and promise - checking willpower capacity",
+        "whyFourth": "Will can be distorted by SP wave, should respond (Sacral) rather than initiate alone, not survival-based (Spleen)"
+      },
+      "decisionProcess": "Ask 'What do I want?', check if will/resources are available for commitment, honour rest cycle"
+    },
+    {
+      "priority": 5,
+      "authority": "Self-Projected",
+      "centre": "G",
+      "emPosition": "+-4 (Poles)",
+      "axis": "Poles",
+      "standingWave": "Gates 1 and 2 (Heaven/Heaven, Earth/Earth)",
+      "temporalMode": "resonance-through-voice",
+      "description": "Identity and direction - hear yourself speak",
+      "electromagneticLogic": {
+        "whyPriority": "Contains complete reference frame (both poles) - identity and direction emanate from still point",
+        "mechanism": "Speaking externalises internal reference, making it audible",
+        "whyFifth": "Doesn't generate (Sacral), create pressure (SP), discriminate survival (Spleen), or initiate will (Heart)"
+      },
+      "decisionProcess": "Talk through decisions (not for input but to hear own voice), feel for identity resonance - does this feel like 'me'?",
+      "requires": "G-Throat connection (channels 1-8, 7-31, or 13-33)"
+    },
+    {
+      "priority": 6,
+      "authority": "Mental",
+      "centre": "Ajna",
+      "emPosition": "Mixed",
+      "axis": "Multiple",
+      "standingWave": "None",
+      "temporalMode": "external-resonance",
+      "description": "No inner authority - use others as sounding board",
+      "electromagneticLogic": {
+        "whyPriority": "No inner authority available - Ajna processes but doesn't know",
+        "mechanism": "Environment and others become the authority",
+        "whyLast": "Mind can rationalise any position - not a decision-making centre"
+      },
+      "decisionProcess": "Find trusted others to talk with, the environment (who/where) guides, not the conclusion reached",
+      "note": "For Projectors with only Head/Ajna defined - actually 'no inner authority'"
+    },
+    {
+      "priority": 7,
+      "authority": "Lunar",
+      "centre": "None",
+      "emPosition": "None",
+      "axis": "None",
+      "standingWave": "None",
+      "temporalMode": "28-day-cycle",
+      "description": "Wait 28 days - sample all configurations",
+      "electromagneticLogic": {
+        "whyPriority": "No consistent internal signature - must sample entire field",
+        "mechanism": "Moon transits all 64 gates in 28 days, creating complete sampling",
+        "whyLast": "No defined centres means no inner authority at all"
+      },
+      "decisionProcess": "Wait full lunar cycle, sample decision from every gate/channel configuration, clarity emerges from pattern across whole cycle",
+      "note": "Reflectors only"
+    }
+  ],
+
+  "authorityByType": {
+    "Manifestor": {
+      "possibleAuthorities": ["Emotional", "Splenic", "Ego", "Self-Projected", "Mental"],
+      "determinationLogic": "Check SP defined first, then Spleen, then Heart, then G-Throat, else Mental"
+    },
+    "Generator": {
+      "possibleAuthorities": ["Emotional", "Sacral"],
+      "determinationLogic": "If SP defined = Emotional, else Sacral (always has at least Sacral)"
+    },
+    "ManifestingGenerator": {
+      "possibleAuthorities": ["Emotional", "Sacral"],
+      "determinationLogic": "If SP defined = Emotional, else Sacral (always has at least Sacral)"
+    },
+    "Projector": {
+      "possibleAuthorities": ["Emotional", "Splenic", "Ego", "Self-Projected", "Mental"],
+      "determinationLogic": "Check SP defined first, then Spleen, then Heart, then G-Throat, else Mental/Environment"
+    },
+    "Reflector": {
+      "possibleAuthorities": ["Lunar"],
+      "determinationLogic": "Always Lunar (no defined centres)"
+    }
+  },
+
+  "awarenessVsMotorAuthority": {
+    "awarenessCentres": {
+      "SolarPlexus": {
+        "type": "Awareness + Motor",
+        "hasAuthority": true,
+        "authorityPriority": 1,
+        "note": "Dual function creates absolute priority - wave modulates all other signals"
+      },
+      "Spleen": {
+        "type": "Awareness only",
+        "hasAuthority": true,
+        "authorityPriority": 3,
+        "note": "Pure awareness at gate threshold - survival discrimination"
+      },
+      "Ajna": {
+        "type": "Awareness only",
+        "hasAuthority": false,
+        "note": "Processing centre - mind is for others, not self-authority"
+      }
+    },
+    "motorCentres": {
+      "Sacral": {
+        "type": "Motor only",
+        "hasAuthority": true,
+        "authorityPriority": 2,
+        "note": "Life force generation from source - most fundamental motor"
+      },
+      "Heart": {
+        "type": "Motor only",
+        "hasAuthority": true,
+        "authorityPriority": 4,
+        "note": "Will/initiation motor - commitment-based authority"
+      },
+      "Root": {
+        "type": "Motor only",
+        "hasAuthority": false,
+        "note": "Pressure/fuel motor - provides drive but no decision information"
+      }
+    },
+    "identityCentre": {
+      "G": {
+        "type": "Identity",
+        "hasAuthority": true,
+        "authorityPriority": 5,
+        "requires": "Throat connection",
+        "note": "Reference frame authority - identity resonance through voice"
+      }
+    }
+  },
+
+  "channelTypesByCircuit": {
+    "Knowing": {
+      "projected": ["1-8", "20-57", "23-43", "24-61", "28-38", "39-55"],
+      "generated": ["2-14", "3-60"],
+      "manifested": ["12-22"],
+      "manifestingGenerated": []
+    },
+    "Understanding": {
+      "projected": ["4-63", "7-31", "16-48", "17-62", "18-58"],
+      "generated": ["5-15", "9-52"],
+      "manifested": [],
+      "manifestingGenerated": []
+    },
+    "Sensing": {
+      "projected": ["11-56", "13-33", "30-41", "47-64"],
+      "generated": ["29-46", "42-53"],
+      "manifested": ["35-36"],
+      "manifestingGenerated": []
+    },
+    "Integration": {
+      "projected": ["10-20", "10-57", "20-57"],
+      "generated": ["34-57"],
+      "manifested": [],
+      "manifestingGenerated": ["20-34"]
+    },
+    "Centering": {
+      "projected": ["25-51"],
+      "generated": ["10-34"],
+      "manifested": [],
+      "manifestingGenerated": []
+    },
+    "Ego": {
+      "projected": ["19-49", "26-44", "32-54", "37-40"],
+      "generated": [],
+      "manifested": ["21-45"],
+      "manifestingGenerated": []
+    },
+    "Defense": {
+      "projected": [],
+      "generated": ["6-59", "27-50"],
+      "manifested": [],
+      "manifestingGenerated": []
+    }
+  }
+}

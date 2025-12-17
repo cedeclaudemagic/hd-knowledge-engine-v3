@@ -1,0 +1,1268 @@
+{
+  "byCircuit": {
+    "Knowing": {
+      "exalt": {
+        "Moon": 12,
+        "Venus": 15,
+        "Mars": 7,
+        "Earth": 5,
+        "Saturn": 14,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Neptune": 8,
+        "Sun": 15,
+        "Pluto": 9,
+        "Uranus": 3
+      },
+      "detri": {
+        "Uranus": 5,
+        "Mars": 31,
+        "Earth": 13,
+        "Jupiter": 11,
+        "Pluto": 7,
+        "Saturn": 2,
+        "Mercury": 12,
+        "Sun": 4,
+        "Neptune": 4,
+        "Venus": 7,
+        "Moon": 11
+      }
+    },
+    "Understanding": {
+      "exalt": {
+        "Moon": 13,
+        "Venus": 11,
+        "Sun": 11,
+        "Jupiter": 9,
+        "Mercury": 3,
+        "Mars": 4,
+        "Neptune": 6,
+        "Uranus": 4,
+        "Pluto": 10,
+        "Earth": 7,
+        "Saturn": 5
+      },
+      "detri": {
+        "Earth": 7,
+        "Mars": 17,
+        "Pluto": 9,
+        "Saturn": 3,
+        "Moon": 10,
+        "Sun": 3,
+        "Mercury": 12,
+        "Uranus": 5,
+        "Neptune": 4,
+        "Jupiter": 8,
+        "Venus": 5
+      }
+    },
+    "Defense": {
+      "exalt": {
+        "Pluto": 2,
+        "Venus": 5,
+        "Neptune": 1,
+        "Sun": 5,
+        "Mercury": 1,
+        "Moon": 3,
+        "Jupiter": 2,
+        "Mars": 1,
+        "Saturn": 3,
+        "Uranus": 1
+      },
+      "detri": {
+        "Mercury": 5,
+        "Mars": 7,
+        "Pluto": 4,
+        "Moon": 2,
+        "Venus": 3,
+        "Earth": 1,
+        "Saturn": 1,
+        "Uranus": 1
+      }
+    },
+    "Integration": {
+      "exalt": {
+        "Sun": 2,
+        "Mercury": 2,
+        "Earth": 2,
+        "Uranus": 2,
+        "Jupiter": 2,
+        "Pluto": 3,
+        "Venus": 6,
+        "Saturn": 3,
+        "Mars": 2
+      },
+      "detri": {
+        "Moon": 8,
+        "Mars": 5,
+        "Mercury": 4,
+        "Saturn": 1,
+        "Earth": 1,
+        "Uranus": 1,
+        "Pluto": 1,
+        "Venus": 1,
+        "Jupiter": 1
+      }
+    },
+    "Centering": {
+      "exalt": {
+        "Sun": 4,
+        "Mercury": 2,
+        "Earth": 3,
+        "Uranus": 2,
+        "Jupiter": 1,
+        "Pluto": 3,
+        "Neptune": 1,
+        "Mars": 4,
+        "Venus": 2,
+        "Saturn": 2
+      },
+      "detri": {
+        "Moon": 3,
+        "Mars": 5,
+        "Mercury": 5,
+        "Saturn": 1,
+        "Pluto": 3,
+        "Jupiter": 3,
+        "Uranus": 1,
+        "Venus": 2
+      }
+    },
+    "Sensing": {
+      "exalt": {
+        "Moon": 16,
+        "Neptune": 8,
+        "Pluto": 9,
+        "Venus": 7,
+        "Earth": 3,
+        "Mars": 8,
+        "Sun": 12,
+        "Saturn": 10,
+        "Jupiter": 6,
+        "Mercury": 2,
+        "Uranus": 2
+      },
+      "detri": {
+        "Mars": 17,
+        "Venus": 15,
+        "Sun": 4,
+        "Mercury": 6,
+        "Jupiter": 14,
+        "Moon": 11,
+        "Neptune": 7,
+        "Earth": 2,
+        "Pluto": 5,
+        "Saturn": 2
+      }
+    },
+    "Ego": {
+      "exalt": {
+        "Sun": 9,
+        "Jupiter": 12,
+        "Venus": 5,
+        "Mars": 5,
+        "Earth": 2,
+        "Neptune": 5,
+        "Pluto": 9,
+        "Mercury": 1,
+        "Moon": 3,
+        "Uranus": 6,
+        "Saturn": 2
+      },
+      "detri": {
+        "Moon": 6,
+        "Mercury": 3,
+        "Venus": 6,
+        "Jupiter": 7,
+        "Mars": 17,
+        "Neptune": 3,
+        "Earth": 4,
+        "Pluto": 4,
+        "Saturn": 5,
+        "Sun": 2
+      }
+    }
+  },
+  "byCircuitArchitecture": {
+    "double-circulator": {
+      "exalt": {
+        "Moon": 12,
+        "Venus": 15,
+        "Mars": 7,
+        "Earth": 5,
+        "Saturn": 14,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Neptune": 8,
+        "Sun": 15,
+        "Pluto": 9,
+        "Uranus": 3
+      },
+      "detri": {
+        "Uranus": 5,
+        "Mars": 31,
+        "Earth": 13,
+        "Jupiter": 11,
+        "Pluto": 7,
+        "Saturn": 2,
+        "Mercury": 12,
+        "Sun": 4,
+        "Neptune": 4,
+        "Venus": 7,
+        "Moon": 11
+      }
+    },
+    "dual-reservoir": {
+      "exalt": {
+        "Moon": 13,
+        "Venus": 11,
+        "Sun": 11,
+        "Jupiter": 9,
+        "Mercury": 3,
+        "Mars": 4,
+        "Neptune": 6,
+        "Uranus": 4,
+        "Pluto": 10,
+        "Earth": 7,
+        "Saturn": 5
+      },
+      "detri": {
+        "Earth": 7,
+        "Mars": 17,
+        "Pluto": 9,
+        "Saturn": 3,
+        "Moon": 10,
+        "Sun": 3,
+        "Mercury": 12,
+        "Uranus": 5,
+        "Neptune": 4,
+        "Jupiter": 8,
+        "Venus": 5
+      }
+    },
+    "zero-anchor": {
+      "exalt": {
+        "Pluto": 11,
+        "Venus": 10,
+        "Neptune": 6,
+        "Sun": 14,
+        "Mercury": 2,
+        "Jupiter": 14,
+        "Mars": 6,
+        "Earth": 2,
+        "Moon": 6,
+        "Uranus": 7,
+        "Saturn": 5
+      },
+      "detri": {
+        "Mercury": 8,
+        "Mars": 24,
+        "Pluto": 8,
+        "Moon": 8,
+        "Venus": 9,
+        "Jupiter": 7,
+        "Neptune": 3,
+        "Earth": 5,
+        "Saturn": 6,
+        "Sun": 2,
+        "Uranus": 1
+      }
+    },
+    "commutator": {
+      "exalt": {
+        "Sun": 2,
+        "Mercury": 2,
+        "Earth": 2,
+        "Uranus": 2,
+        "Jupiter": 2,
+        "Pluto": 3,
+        "Venus": 6,
+        "Saturn": 3,
+        "Mars": 2
+      },
+      "detri": {
+        "Moon": 8,
+        "Mars": 5,
+        "Mercury": 4,
+        "Saturn": 1,
+        "Earth": 1,
+        "Uranus": 1,
+        "Pluto": 1,
+        "Venus": 1,
+        "Jupiter": 1
+      }
+    },
+    "regulated": {
+      "exalt": {
+        "Sun": 4,
+        "Mercury": 2,
+        "Earth": 3,
+        "Uranus": 2,
+        "Jupiter": 1,
+        "Pluto": 3,
+        "Neptune": 1,
+        "Mars": 4,
+        "Venus": 2,
+        "Saturn": 2
+      },
+      "detri": {
+        "Moon": 3,
+        "Mars": 5,
+        "Mercury": 5,
+        "Saturn": 1,
+        "Pluto": 3,
+        "Jupiter": 3,
+        "Uranus": 1,
+        "Venus": 2
+      }
+    },
+    "oscillator": {
+      "exalt": {
+        "Moon": 16,
+        "Neptune": 8,
+        "Pluto": 9,
+        "Venus": 7,
+        "Earth": 3,
+        "Mars": 8,
+        "Sun": 12,
+        "Saturn": 10,
+        "Jupiter": 6,
+        "Mercury": 2,
+        "Uranus": 2
+      },
+      "detri": {
+        "Mars": 17,
+        "Venus": 15,
+        "Sun": 4,
+        "Mercury": 6,
+        "Jupiter": 14,
+        "Moon": 11,
+        "Neptune": 7,
+        "Earth": 2,
+        "Pluto": 5,
+        "Saturn": 2
+      }
+    }
+  },
+  "byChannelPairingType": {
+    "circulator-standing-wave": {
+      "exalt": {
+        "Moon": 5,
+        "Venus": 9,
+        "Mars": 2,
+        "Earth": 7,
+        "Saturn": 3,
+        "Jupiter": 7,
+        "Mercury": 4,
+        "Neptune": 1,
+        "Sun": 4,
+        "Pluto": 4,
+        "Uranus": 2
+      },
+      "detri": {
+        "Uranus": 3,
+        "Mars": 14,
+        "Earth": 5,
+        "Jupiter": 3,
+        "Pluto": 4,
+        "Saturn": 3,
+        "Mercury": 4,
+        "Sun": 2,
+        "Moon": 5,
+        "Neptune": 2,
+        "Venus": 2
+      }
+    },
+    "transformer-circulator": {
+      "exalt": {
+        "Earth": 9,
+        "Mars": 12,
+        "Venus": 16,
+        "Neptune": 12,
+        "Sun": 21,
+        "Moon": 14,
+        "Jupiter": 21,
+        "Mercury": 6,
+        "Uranus": 8,
+        "Pluto": 16,
+        "Saturn": 9
+      },
+      "detri": {
+        "Mercury": 21,
+        "Uranus": 5,
+        "Pluto": 13,
+        "Mars": 31,
+        "Earth": 12,
+        "Saturn": 8,
+        "Moon": 19,
+        "Sun": 6,
+        "Neptune": 5,
+        "Venus": 12,
+        "Jupiter": 11
+      }
+    },
+    "double-transformer": {
+      "exalt": {
+        "Pluto": 10,
+        "Venus": 15,
+        "Neptune": 10,
+        "Sun": 15,
+        "Mercury": 4,
+        "Moon": 15,
+        "Saturn": 13,
+        "Earth": 2,
+        "Jupiter": 10,
+        "Mars": 6,
+        "Uranus": 6
+      },
+      "detri": {
+        "Mercury": 13,
+        "Mars": 28,
+        "Pluto": 7,
+        "Moon": 13,
+        "Venus": 14,
+        "Sun": 3,
+        "Jupiter": 14,
+        "Earth": 4,
+        "Uranus": 2,
+        "Neptune": 4,
+        "Saturn": 3
+      }
+    },
+    "transformer-standing-wave": {
+      "exalt": {
+        "Earth": 6,
+        "Pluto": 8,
+        "Neptune": 4,
+        "Saturn": 9,
+        "Mars": 10,
+        "Venus": 12,
+        "Sun": 9,
+        "Jupiter": 2,
+        "Mercury": 3,
+        "Moon": 4,
+        "Uranus": 4
+      },
+      "detri": {
+        "Jupiter": 11,
+        "Moon": 14,
+        "Mercury": 9,
+        "Uranus": 4,
+        "Earth": 2,
+        "Mars": 12,
+        "Pluto": 6,
+        "Neptune": 4,
+        "Venus": 6,
+        "Sun": 1
+      }
+    },
+    "double-circulator": {
+      "exalt": {
+        "Jupiter": 9,
+        "Sun": 11,
+        "Mars": 3,
+        "Moon": 9,
+        "Venus": 5,
+        "Saturn": 8,
+        "Pluto": 10,
+        "Neptune": 2,
+        "Uranus": 2,
+        "Mercury": 1
+      },
+      "detri": {
+        "Mars": 19,
+        "Moon": 8,
+        "Pluto": 4,
+        "Earth": 6,
+        "Jupiter": 6,
+        "Neptune": 3,
+        "Saturn": 2,
+        "Venus": 6,
+        "Mercury": 4,
+        "Sun": 1
+      }
+    }
+  },
+  "byPlanetClass": {
+    "luminaries": {
+      "exalt": 105,
+      "detri": 64,
+      "byCircuit": {
+        "Knowing": {
+          "exalt": 27,
+          "detri": 15
+        },
+        "Understanding": {
+          "exalt": 24,
+          "detri": 13
+        },
+        "Defense": {
+          "exalt": 8,
+          "detri": 2
+        },
+        "Integration": {
+          "exalt": 2,
+          "detri": 8
+        },
+        "Centering": {
+          "exalt": 4,
+          "detri": 3
+        },
+        "Sensing": {
+          "exalt": 28,
+          "detri": 15
+        },
+        "Ego": {
+          "exalt": 12,
+          "detri": 8
+        }
+      }
+    },
+    "personal": {
+      "exalt": 98,
+      "detri": 185,
+      "byCircuit": {
+        "Knowing": {
+          "exalt": 27,
+          "detri": 50
+        },
+        "Understanding": {
+          "exalt": 18,
+          "detri": 34
+        },
+        "Defense": {
+          "exalt": 7,
+          "detri": 15
+        },
+        "Integration": {
+          "exalt": 10,
+          "detri": 10
+        },
+        "Centering": {
+          "exalt": 8,
+          "detri": 12
+        },
+        "Sensing": {
+          "exalt": 17,
+          "detri": 38
+        },
+        "Ego": {
+          "exalt": 11,
+          "detri": 26
+        }
+      }
+    },
+    "social": {
+      "exalt": 86,
+      "detri": 59,
+      "byCircuit": {
+        "Knowing": {
+          "exalt": 29,
+          "detri": 13
+        },
+        "Understanding": {
+          "exalt": 14,
+          "detri": 11
+        },
+        "Integration": {
+          "exalt": 5,
+          "detri": 2
+        },
+        "Centering": {
+          "exalt": 3,
+          "detri": 4
+        },
+        "Sensing": {
+          "exalt": 16,
+          "detri": 16
+        },
+        "Ego": {
+          "exalt": 14,
+          "detri": 12
+        },
+        "Defense": {
+          "exalt": 5,
+          "detri": 1
+        }
+      }
+    },
+    "transpersonal": {
+      "exalt": 94,
+      "detri": 64,
+      "byCircuit": {
+        "Knowing": {
+          "exalt": 20,
+          "detri": 16
+        },
+        "Understanding": {
+          "exalt": 20,
+          "detri": 18
+        },
+        "Defense": {
+          "exalt": 4,
+          "detri": 5
+        },
+        "Integration": {
+          "exalt": 5,
+          "detri": 2
+        },
+        "Centering": {
+          "exalt": 6,
+          "detri": 4
+        },
+        "Sensing": {
+          "exalt": 19,
+          "detri": 12
+        },
+        "Ego": {
+          "exalt": 20,
+          "detri": 7
+        }
+      }
+    },
+    "earth": {
+      "exalt": 22,
+      "detri": 28,
+      "byCircuit": {
+        "Knowing": {
+          "exalt": 5,
+          "detri": 13
+        },
+        "Understanding": {
+          "exalt": 7,
+          "detri": 7
+        },
+        "Integration": {
+          "exalt": 2,
+          "detri": 1
+        },
+        "Centering": {
+          "exalt": 3,
+          "detri": 0
+        },
+        "Sensing": {
+          "exalt": 3,
+          "detri": 2
+        },
+        "Ego": {
+          "exalt": 2,
+          "detri": 4
+        },
+        "Defense": {
+          "exalt": 0,
+          "detri": 1
+        }
+      }
+    }
+  },
+  "byCircuitType": {
+    "individual": {
+      "exalt": {
+        "Moon": 12,
+        "Venus": 23,
+        "Mars": 13,
+        "Earth": 10,
+        "Saturn": 19,
+        "Jupiter": 18,
+        "Mercury": 9,
+        "Neptune": 9,
+        "Sun": 21,
+        "Uranus": 7,
+        "Pluto": 15
+      },
+      "detri": {
+        "Uranus": 7,
+        "Mars": 41,
+        "Earth": 14,
+        "Jupiter": 15,
+        "Pluto": 11,
+        "Saturn": 4,
+        "Mercury": 21,
+        "Sun": 4,
+        "Moon": 22,
+        "Neptune": 4,
+        "Venus": 10
+      }
+    },
+    "collective": {
+      "exalt": {
+        "Moon": 29,
+        "Venus": 18,
+        "Sun": 23,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Mars": 12,
+        "Neptune": 14,
+        "Uranus": 6,
+        "Pluto": 19,
+        "Earth": 10,
+        "Saturn": 15
+      },
+      "detri": {
+        "Earth": 9,
+        "Mars": 34,
+        "Pluto": 14,
+        "Saturn": 5,
+        "Moon": 21,
+        "Sun": 7,
+        "Mercury": 18,
+        "Uranus": 5,
+        "Neptune": 11,
+        "Jupiter": 22,
+        "Venus": 20
+      }
+    },
+    "tribal": {
+      "exalt": {
+        "Pluto": 11,
+        "Venus": 10,
+        "Neptune": 6,
+        "Sun": 14,
+        "Mercury": 2,
+        "Jupiter": 14,
+        "Mars": 6,
+        "Earth": 2,
+        "Moon": 6,
+        "Uranus": 7,
+        "Saturn": 5
+      },
+      "detri": {
+        "Mercury": 8,
+        "Mars": 24,
+        "Pluto": 8,
+        "Moon": 8,
+        "Venus": 9,
+        "Jupiter": 7,
+        "Neptune": 3,
+        "Earth": 5,
+        "Saturn": 6,
+        "Sun": 2,
+        "Uranus": 1
+      }
+    }
+  },
+  "byTransformationLevel": {
+    "low": {
+      "exalt": {
+        "Moon": 12,
+        "Venus": 15,
+        "Mars": 7,
+        "Earth": 5,
+        "Saturn": 14,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Neptune": 8,
+        "Sun": 15,
+        "Pluto": 9,
+        "Uranus": 3
+      },
+      "detri": {
+        "Uranus": 5,
+        "Mars": 31,
+        "Earth": 13,
+        "Jupiter": 11,
+        "Pluto": 7,
+        "Saturn": 2,
+        "Mercury": 12,
+        "Sun": 4,
+        "Neptune": 4,
+        "Venus": 7,
+        "Moon": 11
+      }
+    },
+    "medium": {
+      "exalt": {
+        "Moon": 19,
+        "Venus": 29,
+        "Sun": 31,
+        "Jupiter": 26,
+        "Mercury": 9,
+        "Mars": 16,
+        "Neptune": 13,
+        "Uranus": 15,
+        "Pluto": 27,
+        "Earth": 14,
+        "Saturn": 15
+      },
+      "detri": {
+        "Earth": 13,
+        "Mars": 51,
+        "Pluto": 21,
+        "Saturn": 11,
+        "Moon": 29,
+        "Sun": 5,
+        "Mercury": 29,
+        "Venus": 17,
+        "Uranus": 8,
+        "Neptune": 7,
+        "Jupiter": 19
+      }
+    },
+    "high": {
+      "exalt": {
+        "Moon": 16,
+        "Neptune": 8,
+        "Pluto": 9,
+        "Venus": 7,
+        "Earth": 3,
+        "Mars": 8,
+        "Sun": 12,
+        "Saturn": 10,
+        "Jupiter": 6,
+        "Mercury": 2,
+        "Uranus": 2
+      },
+      "detri": {
+        "Mars": 17,
+        "Venus": 15,
+        "Sun": 4,
+        "Mercury": 6,
+        "Jupiter": 14,
+        "Moon": 11,
+        "Neptune": 7,
+        "Earth": 2,
+        "Pluto": 5,
+        "Saturn": 2
+      }
+    }
+  },
+  "byAnchorCount": {
+    "0": {
+      "exalt": {
+        "Pluto": 11,
+        "Venus": 10,
+        "Neptune": 6,
+        "Sun": 14,
+        "Mercury": 2,
+        "Jupiter": 14,
+        "Mars": 6,
+        "Earth": 2,
+        "Moon": 6,
+        "Uranus": 7,
+        "Saturn": 5
+      },
+      "detri": {
+        "Mercury": 8,
+        "Mars": 24,
+        "Pluto": 8,
+        "Moon": 8,
+        "Venus": 9,
+        "Jupiter": 7,
+        "Neptune": 3,
+        "Earth": 5,
+        "Saturn": 6,
+        "Sun": 2,
+        "Uranus": 1
+      }
+    },
+    "1": {
+      "exalt": {
+        "Sun": 6,
+        "Mercury": 4,
+        "Earth": 5,
+        "Uranus": 4,
+        "Jupiter": 3,
+        "Pluto": 6,
+        "Venus": 8,
+        "Saturn": 5,
+        "Neptune": 1,
+        "Mars": 6
+      },
+      "detri": {
+        "Moon": 11,
+        "Mars": 10,
+        "Mercury": 9,
+        "Saturn": 2,
+        "Earth": 1,
+        "Uranus": 2,
+        "Pluto": 4,
+        "Jupiter": 4,
+        "Venus": 3
+      }
+    },
+    "2": {
+      "exalt": {
+        "Moon": 29,
+        "Venus": 18,
+        "Sun": 23,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Mars": 12,
+        "Neptune": 14,
+        "Uranus": 6,
+        "Pluto": 19,
+        "Earth": 10,
+        "Saturn": 15
+      },
+      "detri": {
+        "Earth": 9,
+        "Mars": 34,
+        "Pluto": 14,
+        "Saturn": 5,
+        "Moon": 21,
+        "Sun": 7,
+        "Mercury": 18,
+        "Uranus": 5,
+        "Neptune": 11,
+        "Jupiter": 22,
+        "Venus": 20
+      }
+    },
+    "3": {
+      "exalt": {
+        "Moon": 12,
+        "Venus": 15,
+        "Mars": 7,
+        "Earth": 5,
+        "Saturn": 14,
+        "Jupiter": 15,
+        "Mercury": 5,
+        "Neptune": 8,
+        "Sun": 15,
+        "Pluto": 9,
+        "Uranus": 3
+      },
+      "detri": {
+        "Uranus": 5,
+        "Mars": 31,
+        "Earth": 13,
+        "Jupiter": 11,
+        "Pluto": 7,
+        "Saturn": 2,
+        "Mercury": 12,
+        "Sun": 4,
+        "Neptune": 4,
+        "Venus": 7,
+        "Moon": 11
+      }
+    }
+  },
+  "planetCircuitMatrix": {
+    "Moon": {
+      "Knowing": {
+        "exalt": 12,
+        "detri": 11
+      },
+      "Understanding": {
+        "exalt": 13,
+        "detri": 10
+      },
+      "Defense": {
+        "exalt": 3,
+        "detri": 2
+      },
+      "Integration": {
+        "exalt": 0,
+        "detri": 8
+      },
+      "Centering": {
+        "exalt": 0,
+        "detri": 3
+      },
+      "Sensing": {
+        "exalt": 16,
+        "detri": 11
+      },
+      "Ego": {
+        "exalt": 3,
+        "detri": 6
+      }
+    },
+    "Uranus": {
+      "Knowing": {
+        "exalt": 3,
+        "detri": 5
+      },
+      "Understanding": {
+        "exalt": 4,
+        "detri": 5
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 2,
+        "detri": 1
+      },
+      "Ego": {
+        "exalt": 6,
+        "detri": 0
+      },
+      "Sensing": {
+        "exalt": 2,
+        "detri": 0
+      },
+      "Defense": {
+        "exalt": 1,
+        "detri": 1
+      }
+    },
+    "Venus": {
+      "Knowing": {
+        "exalt": 15,
+        "detri": 7
+      },
+      "Understanding": {
+        "exalt": 11,
+        "detri": 5
+      },
+      "Defense": {
+        "exalt": 5,
+        "detri": 3
+      },
+      "Sensing": {
+        "exalt": 7,
+        "detri": 15
+      },
+      "Ego": {
+        "exalt": 5,
+        "detri": 6
+      },
+      "Integration": {
+        "exalt": 6,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 2,
+        "detri": 2
+      }
+    },
+    "Mars": {
+      "Knowing": {
+        "exalt": 7,
+        "detri": 31
+      },
+      "Understanding": {
+        "exalt": 4,
+        "detri": 17
+      },
+      "Defense": {
+        "exalt": 1,
+        "detri": 7
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 5
+      },
+      "Centering": {
+        "exalt": 4,
+        "detri": 5
+      },
+      "Sensing": {
+        "exalt": 8,
+        "detri": 17
+      },
+      "Ego": {
+        "exalt": 5,
+        "detri": 17
+      }
+    },
+    "Earth": {
+      "Knowing": {
+        "exalt": 5,
+        "detri": 13
+      },
+      "Understanding": {
+        "exalt": 7,
+        "detri": 7
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 3,
+        "detri": 0
+      },
+      "Sensing": {
+        "exalt": 3,
+        "detri": 2
+      },
+      "Ego": {
+        "exalt": 2,
+        "detri": 4
+      },
+      "Defense": {
+        "exalt": 0,
+        "detri": 1
+      }
+    },
+    "Jupiter": {
+      "Knowing": {
+        "exalt": 15,
+        "detri": 11
+      },
+      "Understanding": {
+        "exalt": 9,
+        "detri": 8
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 1,
+        "detri": 3
+      },
+      "Sensing": {
+        "exalt": 6,
+        "detri": 14
+      },
+      "Ego": {
+        "exalt": 12,
+        "detri": 7
+      },
+      "Defense": {
+        "exalt": 2,
+        "detri": 0
+      }
+    },
+    "Pluto": {
+      "Knowing": {
+        "exalt": 9,
+        "detri": 7
+      },
+      "Understanding": {
+        "exalt": 10,
+        "detri": 9
+      },
+      "Defense": {
+        "exalt": 2,
+        "detri": 4
+      },
+      "Integration": {
+        "exalt": 3,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 3,
+        "detri": 3
+      },
+      "Sensing": {
+        "exalt": 9,
+        "detri": 5
+      },
+      "Ego": {
+        "exalt": 9,
+        "detri": 4
+      }
+    },
+    "Saturn": {
+      "Knowing": {
+        "exalt": 14,
+        "detri": 2
+      },
+      "Understanding": {
+        "exalt": 5,
+        "detri": 3
+      },
+      "Integration": {
+        "exalt": 3,
+        "detri": 1
+      },
+      "Centering": {
+        "exalt": 2,
+        "detri": 1
+      },
+      "Ego": {
+        "exalt": 2,
+        "detri": 5
+      },
+      "Defense": {
+        "exalt": 3,
+        "detri": 1
+      },
+      "Sensing": {
+        "exalt": 10,
+        "detri": 2
+      }
+    },
+    "Mercury": {
+      "Knowing": {
+        "exalt": 5,
+        "detri": 12
+      },
+      "Understanding": {
+        "exalt": 3,
+        "detri": 12
+      },
+      "Defense": {
+        "exalt": 1,
+        "detri": 5
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 4
+      },
+      "Centering": {
+        "exalt": 2,
+        "detri": 5
+      },
+      "Sensing": {
+        "exalt": 2,
+        "detri": 6
+      },
+      "Ego": {
+        "exalt": 1,
+        "detri": 3
+      }
+    },
+    "Neptune": {
+      "Knowing": {
+        "exalt": 8,
+        "detri": 4
+      },
+      "Understanding": {
+        "exalt": 6,
+        "detri": 4
+      },
+      "Defense": {
+        "exalt": 1,
+        "detri": 0
+      },
+      "Sensing": {
+        "exalt": 8,
+        "detri": 7
+      },
+      "Ego": {
+        "exalt": 5,
+        "detri": 3
+      },
+      "Centering": {
+        "exalt": 1,
+        "detri": 0
+      }
+    },
+    "Sun": {
+      "Knowing": {
+        "exalt": 15,
+        "detri": 4
+      },
+      "Understanding": {
+        "exalt": 11,
+        "detri": 3
+      },
+      "Defense": {
+        "exalt": 5,
+        "detri": 0
+      },
+      "Integration": {
+        "exalt": 2,
+        "detri": 0
+      },
+      "Centering": {
+        "exalt": 4,
+        "detri": 0
+      },
+      "Sensing": {
+        "exalt": 12,
+        "detri": 4
+      },
+      "Ego": {
+        "exalt": 9,
+        "detri": 2
+      }
+    }
+  }
+}
