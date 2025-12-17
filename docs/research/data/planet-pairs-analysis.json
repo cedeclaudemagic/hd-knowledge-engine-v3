@@ -1,0 +1,3175 @@
+{
+  "summary": {
+    "totalPairs": 376,
+    "uniquePairs": 95,
+    "rarePairs": 22
+  },
+  "pairCounts": {
+    "Moon/Mars": 22,
+    "Jupiter/Mars": 15,
+    "Venus/Moon": 12,
+    "Sun/Earth": 12,
+    "Saturn/Mars": 11,
+    "Pluto/Venus": 10,
+    "Sun/Mars": 10,
+    "Venus/Mars": 9,
+    "Neptune/Mars": 9,
+    "Pluto/Moon": 8,
+    "Jupiter/Mercury": 7,
+    "Sun/Moon": 7,
+    "Neptune/Jupiter": 7,
+    "Sun/Venus": 7,
+    "Mars/Venus": 7,
+    "Uranus/Mars": 7,
+    "Venus/Pluto": 6,
+    "Sun/Pluto": 6,
+    "Jupiter/Pluto": 6,
+    "Venus/Mercury": 6,
+    "Moon/Mercury": 6,
+    "Pluto/Mars": 6,
+    "Pluto/Jupiter": 6,
+    "Mars/Moon": 6,
+    "Sun/Jupiter": 6,
+    "Earth/Mercury": 5,
+    "Venus/Jupiter": 5,
+    "Saturn/Mercury": 5,
+    "Jupiter/Saturn": 5,
+    "Earth/Jupiter": 4,
+    "Earth/Pluto": 4,
+    "Mercury/Mars": 4,
+    "Neptune/Mercury": 4,
+    "Moon/Sun": 4,
+    "Mars/Jupiter": 4,
+    "Saturn/Jupiter": 4,
+    "Pluto/Neptune": 4,
+    "Saturn/Moon": 4,
+    "Mars/Earth": 3,
+    "Mercury/Venus": 3,
+    "Venus/Neptune": 3,
+    "Moon/Saturn": 3,
+    "Jupiter/Sun": 3,
+    "Jupiter/Earth": 3,
+    "Moon/Pluto": 3,
+    "Uranus/Mercury": 3,
+    "Mars/Mercury": 3,
+    "Mars/Neptune": 3,
+    "Saturn/Neptune": 3,
+    "Mercury/Jupiter": 3,
+    "Saturn/Pluto": 3,
+    "Moon/Venus": 3,
+    "Mars/Uranus": 2,
+    "Jupiter/Uranus": 2,
+    "Sun/Saturn": 2,
+    "Neptune/Moon": 2,
+    "Uranus/Sun": 2,
+    "Pluto/Mercury": 2,
+    "Neptune/Pluto": 2,
+    "Sun/Uranus": 2,
+    "Pluto/Saturn": 2,
+    "Earth/Venus": 2,
+    "Sun/Mercury": 2,
+    "Pluto/Earth": 2,
+    "Moon/Jupiter": 2,
+    "Saturn/Uranus": 2,
+    "Jupiter/Moon": 2,
+    "Pluto/Sun": 2,
+    "Saturn/Venus": 2,
+    "Saturn/Earth": 2,
+    "Uranus/Jupiter": 2,
+    "Moon/Neptune": 2,
+    "Neptune/Venus": 2,
+    "Moon/Uranus": 1,
+    "Mercury/Earth": 1,
+    "Mercury/Saturn": 1,
+    "Moon/Earth": 1,
+    "Mercury/Uranus": 1,
+    "Earth/Sun": 1,
+    "Earth/Moon": 1,
+    "Venus/Sun": 1,
+    "Earth/Neptune": 1,
+    "Sun/Neptune": 1,
+    "Mars/Pluto": 1,
+    "Earth/Uranus": 1,
+    "Jupiter/Neptune": 1,
+    "Uranus/Earth": 1,
+    "Neptune/Saturn": 1,
+    "Earth/Mars": 1,
+    "Neptune/Earth": 1,
+    "Jupiter/Venus": 1,
+    "Venus/Earth": 1,
+    "Uranus/Moon": 1,
+    "Uranus/Pluto": 1,
+    "Uranus/Venus": 1
+  },
+  "pairDetails": {
+    "Moon/Uranus": {
+      "exalt": "Moon",
+      "detri": "Uranus",
+      "count": 1,
+      "lines": [
+        "1.1"
+      ],
+      "byGateType": {
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 1
+      }
+    },
+    "Venus/Mars": {
+      "exalt": "Venus",
+      "detri": "Mars",
+      "count": 9,
+      "lines": [
+        "1.2",
+        "2.1",
+        "2.4",
+        "6.2",
+        "15.1",
+        "37.5",
+        "52.2",
+        "57.4",
+        "64.1"
+      ],
+      "byGateType": {
+        "doubled": 5,
+        "cross-zero-dematerialising": 2,
+        "same-phase-material": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "G": 4,
+        "Solar Plexus": 2,
+        "Root": 1,
+        "Spleen": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 3,
+        "Defense Circuit": 1,
+        "Understanding Circuit": 2,
+        "Ego Circuit": 1,
+        "Integration Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 3,
+        "2": 3,
+        "4": 2,
+        "5": 1
+      }
+    },
+    "Mars/Earth": {
+      "exalt": "Mars",
+      "detri": "Earth",
+      "count": 3,
+      "lines": [
+        "1.3",
+        "3.5",
+        "5.1"
+      ],
+      "byGateType": {
+        "doubled": 1,
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Sacral": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      }
+    },
+    "Earth/Jupiter": {
+      "exalt": "Earth",
+      "detri": "Jupiter",
+      "count": 4,
+      "lines": [
+        "1.4",
+        "18.1",
+        "19.5",
+        "34.6"
+      ],
+      "byGateType": {
+        "doubled": 1,
+        "cross-zero-manifesting": 3
+      },
+      "byCentre": {
+        "G": 1,
+        "Spleen": 1,
+        "Root": 1,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Understanding Circuit": 1,
+        "Ego Circuit": 1,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Mars/Uranus": {
+      "exalt": "Mars",
+      "detri": "Uranus",
+      "count": 2,
+      "lines": [
+        "1.5",
+        "3.2"
+      ],
+      "byGateType": {
+        "doubled": 1,
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2
+      },
+      "byLine": {
+        "2": 1,
+        "5": 1
+      }
+    },
+    "Earth/Pluto": {
+      "exalt": "Earth",
+      "detri": "Pluto",
+      "count": 4,
+      "lines": [
+        "1.6",
+        "46.4",
+        "49.2",
+        "52.5"
+      ],
+      "byGateType": {
+        "doubled": 2,
+        "cross-zero-manifesting": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "G": 2,
+        "Solar Plexus": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 1,
+        "Ego Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Saturn/Mars": {
+      "exalt": "Saturn",
+      "detri": "Mars",
+      "count": 11,
+      "lines": [
+        "2.2",
+        "22.3",
+        "35.6",
+        "41.2",
+        "50.4",
+        "50.5",
+        "54.2",
+        "55.3",
+        "59.3",
+        "60.3",
+        "61.5"
+      ],
+      "byGateType": {
+        "doubled": 1,
+        "cross-zero-manifesting": 5,
+        "cross-zero-dematerialising": 2,
+        "same-phase-void": 3
+      },
+      "byCentre": {
+        "G": 1,
+        "Solar Plexus": 2,
+        "Throat": 1,
+        "Root": 3,
+        "Spleen": 2,
+        "Sacral": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 5,
+        "Sensing Circuit": 2,
+        "Defense Circuit": 3,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "2": 3,
+        "3": 4,
+        "4": 1,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "Jupiter/Uranus": {
+      "exalt": "Jupiter",
+      "detri": "Uranus",
+      "count": 2,
+      "lines": [
+        "2.3",
+        "63.2"
+      ],
+      "byGateType": {
+        "doubled": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    "Mercury/Earth": {
+      "exalt": "Mercury",
+      "detri": "Earth",
+      "count": 1,
+      "lines": [
+        "2.5"
+      ],
+      "byGateType": {
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "5": 1
+      }
+    },
+    "Mercury/Saturn": {
+      "exalt": "Mercury",
+      "detri": "Saturn",
+      "count": 1,
+      "lines": [
+        "2.6"
+      ],
+      "byGateType": {
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "6": 1
+      }
+    },
+    "Earth/Mercury": {
+      "exalt": "Earth",
+      "detri": "Mercury",
+      "count": 5,
+      "lines": [
+        "3.1",
+        "12.4",
+        "15.3",
+        "16.1",
+        "18.4"
+      ],
+      "byGateType": {
+        "same-phase-material": 3,
+        "cross-zero-dematerialising": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Throat": 2,
+        "G": 1,
+        "Spleen": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Understanding Circuit": 3
+      },
+      "byLine": {
+        "1": 2,
+        "3": 1,
+        "4": 2
+      }
+    },
+    "Venus/Pluto": {
+      "exalt": "Venus",
+      "detri": "Pluto",
+      "count": 6,
+      "lines": [
+        "3.3",
+        "4.3",
+        "5.2",
+        "5.5",
+        "8.6",
+        "62.4"
+      ],
+      "byGateType": {
+        "same-phase-material": 4,
+        "cross-zero-manifesting": 2
+      },
+      "byCentre": {
+        "Sacral": 3,
+        "Ajna": 1,
+        "Throat": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Understanding Circuit": 4
+      },
+      "byLine": {
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Neptune/Mars": {
+      "exalt": "Neptune",
+      "detri": "Mars",
+      "count": 9,
+      "lines": [
+        "3.4",
+        "11.2",
+        "12.3",
+        "22.4",
+        "26.1",
+        "38.1",
+        "39.5",
+        "45.3",
+        "62.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 3,
+        "cross-zero-manifesting": 3,
+        "cross-zero-dematerialising": 2,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Ajna": 1,
+        "Throat": 3,
+        "Solar Plexus": 1,
+        "Heart": 1,
+        "Root": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 5,
+        "Sensing Circuit": 1,
+        "Ego Circuit": 2,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "1": 3,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1
+      }
+    },
+    "Sun/Pluto": {
+      "exalt": "Sun",
+      "detri": "Pluto",
+      "count": 6,
+      "lines": [
+        "3.6",
+        "6.4",
+        "23.3",
+        "26.2",
+        "51.6",
+        "56.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 2,
+        "cross-zero-dematerialising": 2,
+        "cross-zero-manifesting": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Solar Plexus": 1,
+        "Throat": 2,
+        "Heart": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Defense Circuit": 1,
+        "Ego Circuit": 1,
+        "Centering Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "6": 3
+      }
+    },
+    "Moon/Earth": {
+      "exalt": "Moon",
+      "detri": "Earth",
+      "count": 1,
+      "lines": [
+        "4.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "1": 1
+      }
+    },
+    "Moon/Mars": {
+      "exalt": "Moon",
+      "detri": "Mars",
+      "count": 22,
+      "lines": [
+        "4.2",
+        "9.4",
+        "11.1",
+        "14.4",
+        "16.3",
+        "22.1",
+        "24.2",
+        "24.5",
+        "27.2",
+        "31.4",
+        "32.5",
+        "35.4",
+        "39.6",
+        "46.3",
+        "48.1",
+        "49.5",
+        "53.2",
+        "53.3",
+        "56.1",
+        "61.2",
+        "61.3",
+        "64.4"
+      ],
+      "byGateType": {
+        "same-phase-material": 6,
+        "same-phase-void": 5,
+        "cross-zero-manifesting": 5,
+        "cross-zero-dematerialising": 6
+      },
+      "byCentre": {
+        "Ajna": 4,
+        "Sacral": 3,
+        "Throat": 4,
+        "Solar Plexus": 2,
+        "Spleen": 2,
+        "Root": 3,
+        "G": 1,
+        "Head": 3
+      },
+      "byCircuit": {
+        "Understanding Circuit": 5,
+        "Sensing Circuit": 7,
+        "Knowing Circuit": 7,
+        "Defense Circuit": 1,
+        "Ego Circuit": 2
+      },
+      "byLine": {
+        "1": 4,
+        "2": 5,
+        "3": 4,
+        "4": 5,
+        "5": 3,
+        "6": 1
+      }
+    },
+    "Sun/Saturn": {
+      "exalt": "Sun",
+      "detri": "Saturn",
+      "count": 2,
+      "lines": [
+        "4.4",
+        "26.3"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "Heart": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    "Jupiter/Pluto": {
+      "exalt": "Jupiter",
+      "detri": "Pluto",
+      "count": 6,
+      "lines": [
+        "4.5",
+        "15.5",
+        "21.5",
+        "24.6",
+        "30.5",
+        "63.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 3,
+        "cross-zero-dematerialising": 1,
+        "doubled": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Ajna": 2,
+        "G": 1,
+        "Heart": 1,
+        "Solar Plexus": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 3,
+        "Ego Circuit": 1,
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "5": 4,
+        "6": 2
+      }
+    },
+    "Mercury/Mars": {
+      "exalt": "Mercury",
+      "detri": "Mars",
+      "count": 4,
+      "lines": [
+        "4.6",
+        "10.2",
+        "25.2",
+        "63.4"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "G": 2,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Integration Circuit": 1,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "2": 2,
+        "4": 1,
+        "6": 1
+      }
+    },
+    "Neptune/Moon": {
+      "exalt": "Neptune",
+      "detri": "Moon",
+      "count": 2,
+      "lines": [
+        "5.3",
+        "36.2"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 2
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    "Uranus/Sun": {
+      "exalt": "Uranus",
+      "detri": "Sun",
+      "count": 2,
+      "lines": [
+        "5.4",
+        "55.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 2
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "4": 1,
+        "5": 1
+      }
+    },
+    "Pluto/Mercury": {
+      "exalt": "Pluto",
+      "detri": "Mercury",
+      "count": 2,
+      "lines": [
+        "6.1",
+        "36.5"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 2
+      },
+      "byCircuit": {
+        "Defense Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "5": 1
+      }
+    },
+    "Neptune/Pluto": {
+      "exalt": "Neptune",
+      "detri": "Pluto",
+      "count": 2,
+      "lines": [
+        "6.3",
+        "49.3"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 2
+      },
+      "byCircuit": {
+        "Defense Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "3": 2
+      }
+    },
+    "Venus/Moon": {
+      "exalt": "Venus",
+      "detri": "Moon",
+      "count": 12,
+      "lines": [
+        "6.5",
+        "13.1",
+        "19.3",
+        "20.1",
+        "20.2",
+        "35.2",
+        "48.6",
+        "50.6",
+        "57.1",
+        "57.2",
+        "58.1",
+        "64.2"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 5,
+        "same-phase-void": 2,
+        "cross-zero-manifesting": 2,
+        "doubled": 3
+      },
+      "byCentre": {
+        "Solar Plexus": 1,
+        "G": 1,
+        "Root": 2,
+        "Throat": 3,
+        "Spleen": 4,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Defense Circuit": 2,
+        "Sensing Circuit": 3,
+        "Ego Circuit": 1,
+        "Integration Circuit": 4,
+        "Understanding Circuit": 2
+      },
+      "byLine": {
+        "1": 4,
+        "2": 4,
+        "3": 1,
+        "5": 1,
+        "6": 2
+      }
+    },
+    "Mercury/Venus": {
+      "exalt": "Mercury",
+      "detri": "Venus",
+      "count": 3,
+      "lines": [
+        "6.6",
+        "60.4",
+        "64.6"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 2,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 1,
+        "Root": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Defense Circuit": 1,
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "4": 1,
+        "6": 2
+      }
+    },
+    "Venus/Mercury": {
+      "exalt": "Venus",
+      "detri": "Mercury",
+      "count": 6,
+      "lines": [
+        "7.1",
+        "20.6",
+        "37.6",
+        "59.4",
+        "59.6",
+        "60.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 3,
+        "same-phase-void": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Throat": 1,
+        "Solar Plexus": 1,
+        "Sacral": 2,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Integration Circuit": 1,
+        "Ego Circuit": 1,
+        "Defense Circuit": 2,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 2,
+        "4": 1,
+        "6": 3
+      }
+    },
+    "Neptune/Mercury": {
+      "exalt": "Neptune",
+      "detri": "Mercury",
+      "count": 4,
+      "lines": [
+        "7.2",
+        "8.1",
+        "25.1",
+        "41.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 2,
+        "cross-zero-dematerialising": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 2,
+        "Throat": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Knowing Circuit": 1,
+        "Centering Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 3,
+        "2": 1
+      }
+    },
+    "Moon/Mercury": {
+      "exalt": "Moon",
+      "detri": "Mercury",
+      "count": 6,
+      "lines": [
+        "7.3",
+        "11.5",
+        "48.3",
+        "50.3",
+        "56.4",
+        "58.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 2,
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Ajna": 1,
+        "Spleen": 2,
+        "Throat": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 3,
+        "Sensing Circuit": 2,
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "3": 3,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Sun/Uranus": {
+      "exalt": "Sun",
+      "detri": "Uranus",
+      "count": 2,
+      "lines": [
+        "7.4",
+        "59.5"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "4": 1,
+        "5": 1
+      }
+    },
+    "Venus/Neptune": {
+      "exalt": "Venus",
+      "detri": "Neptune",
+      "count": 3,
+      "lines": [
+        "7.5",
+        "35.1",
+        "52.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Throat": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Mercury/Uranus": {
+      "exalt": "Mercury",
+      "detri": "Uranus",
+      "count": 1,
+      "lines": [
+        "7.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "6": 1
+      }
+    },
+    "Sun/Earth": {
+      "exalt": "Sun",
+      "detri": "Earth",
+      "count": 12,
+      "lines": [
+        "8.2",
+        "12.6",
+        "14.6",
+        "15.2",
+        "20.3",
+        "23.4",
+        "27.1",
+        "29.5",
+        "31.1",
+        "38.3",
+        "40.6",
+        "48.4"
+      ],
+      "byGateType": {
+        "same-phase-material": 5,
+        "cross-zero-dematerialising": 3,
+        "same-phase-void": 2,
+        "doubled": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Throat": 5,
+        "Sacral": 3,
+        "G": 1,
+        "Root": 1,
+        "Heart": 1,
+        "Spleen": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 5,
+        "Understanding Circuit": 3,
+        "Integration Circuit": 1,
+        "Defense Circuit": 1,
+        "Sensing Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "6": 3
+      }
+    },
+    "Moon/Saturn": {
+      "exalt": "Moon",
+      "detri": "Saturn",
+      "count": 3,
+      "lines": [
+        "8.3",
+        "37.4",
+        "42.6"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Throat": 1,
+        "Solar Plexus": 1,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Ego Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1,
+        "6": 1
+      }
+    },
+    "Jupiter/Mercury": {
+      "exalt": "Jupiter",
+      "detri": "Mercury",
+      "count": 7,
+      "lines": [
+        "8.4",
+        "14.1",
+        "19.2",
+        "20.4",
+        "28.4",
+        "31.2",
+        "37.2"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "same-phase-void": 3,
+        "cross-zero-manifesting": 1,
+        "cross-zero-dematerialising": 2
+      },
+      "byCentre": {
+        "Throat": 3,
+        "Sacral": 1,
+        "Root": 1,
+        "Spleen": 1,
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 3,
+        "Ego Circuit": 2,
+        "Integration Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 3,
+        "4": 3
+      }
+    },
+    "Jupiter/Sun": {
+      "exalt": "Jupiter",
+      "detri": "Sun",
+      "count": 3,
+      "lines": [
+        "8.5",
+        "35.3",
+        "49.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Throat": 2,
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      }
+    },
+    "Pluto/Mars": {
+      "exalt": "Pluto",
+      "detri": "Mars",
+      "count": 6,
+      "lines": [
+        "9.1",
+        "27.3",
+        "34.4",
+        "38.4",
+        "40.3",
+        "61.6"
+      ],
+      "byGateType": {
+        "same-phase-void": 3,
+        "same-phase-material": 2,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Sacral": 3,
+        "Root": 1,
+        "Heart": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Defense Circuit": 1,
+        "Centering Circuit": 1,
+        "Knowing Circuit": 2,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "3": 2,
+        "4": 2,
+        "6": 1
+      }
+    },
+    "Pluto/Jupiter": {
+      "exalt": "Pluto",
+      "detri": "Jupiter",
+      "count": 6,
+      "lines": [
+        "9.2",
+        "17.4",
+        "30.3",
+        "30.4",
+        "33.5",
+        "36.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 2,
+        "doubled": 2,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Ajna": 1,
+        "Solar Plexus": 3,
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Sensing Circuit": 4
+      },
+      "byLine": {
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1
+      }
+    },
+    "Earth/Sun": {
+      "exalt": "Earth",
+      "detri": "Sun",
+      "count": 1,
+      "lines": [
+        "9.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "3": 1
+      }
+    },
+    "Jupiter/Earth": {
+      "exalt": "Jupiter",
+      "detri": "Earth",
+      "count": 3,
+      "lines": [
+        "9.5",
+        "21.4",
+        "39.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 1,
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Heart": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Ego Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "Moon/Pluto": {
+      "exalt": "Moon",
+      "detri": "Pluto",
+      "count": 3,
+      "lines": [
+        "9.6",
+        "27.6",
+        "53.6"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Sacral": 2,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Defense Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "6": 3
+      }
+    },
+    "Sun/Moon": {
+      "exalt": "Sun",
+      "detri": "Moon",
+      "count": 7,
+      "lines": [
+        "10.1",
+        "17.2",
+        "19.1",
+        "26.6",
+        "31.6",
+        "40.1",
+        "40.2"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-dematerialising": 2,
+        "cross-zero-manifesting": 2,
+        "same-phase-material": 2
+      },
+      "byCentre": {
+        "G": 1,
+        "Ajna": 1,
+        "Root": 1,
+        "Heart": 3,
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Integration Circuit": 1,
+        "Understanding Circuit": 2,
+        "Ego Circuit": 4
+      },
+      "byLine": {
+        "1": 3,
+        "2": 2,
+        "6": 2
+      }
+    },
+    "Earth/Moon": {
+      "exalt": "Earth",
+      "detri": "Moon",
+      "count": 1,
+      "lines": [
+        "10.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Integration Circuit": 1
+      },
+      "byLine": {
+        "3": 1
+      }
+    },
+    "Uranus/Mercury": {
+      "exalt": "Uranus",
+      "detri": "Mercury",
+      "count": 3,
+      "lines": [
+        "10.4",
+        "51.4",
+        "60.6"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "doubled": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Heart": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Integration Circuit": 1,
+        "Centering Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "4": 2,
+        "6": 1
+      }
+    },
+    "Jupiter/Mars": {
+      "exalt": "Jupiter",
+      "detri": "Mars",
+      "count": 15,
+      "lines": [
+        "10.5",
+        "14.2",
+        "16.4",
+        "19.6",
+        "22.5",
+        "23.1",
+        "27.4",
+        "33.3",
+        "37.3",
+        "44.2",
+        "45.1",
+        "45.4",
+        "47.3",
+        "49.4",
+        "55.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 5,
+        "same-phase-material": 3,
+        "cross-zero-manifesting": 3,
+        "cross-zero-dematerialising": 4
+      },
+      "byCentre": {
+        "G": 1,
+        "Sacral": 2,
+        "Throat": 5,
+        "Root": 1,
+        "Solar Plexus": 4,
+        "Spleen": 1,
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Integration Circuit": 1,
+        "Knowing Circuit": 4,
+        "Understanding Circuit": 1,
+        "Ego Circuit": 6,
+        "Defense Circuit": 1,
+        "Sensing Circuit": 2
+      },
+      "byLine": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 5,
+        "5": 2,
+        "6": 1
+      }
+    },
+    "Pluto/Saturn": {
+      "exalt": "Pluto",
+      "detri": "Saturn",
+      "count": 2,
+      "lines": [
+        "10.6",
+        "26.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Heart": 1
+      },
+      "byCircuit": {
+        "Integration Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "4": 1,
+        "6": 1
+      }
+    },
+    "Pluto/Venus": {
+      "exalt": "Pluto",
+      "detri": "Venus",
+      "count": 10,
+      "lines": [
+        "11.3",
+        "13.4",
+        "15.6",
+        "21.6",
+        "43.1",
+        "44.1",
+        "48.2",
+        "51.1",
+        "54.1",
+        "54.3"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 4,
+        "same-phase-void": 3,
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Ajna": 2,
+        "G": 2,
+        "Heart": 2,
+        "Spleen": 2,
+        "Root": 2
+      },
+      "byCircuit": {
+        "Sensing Circuit": 2,
+        "Understanding Circuit": 2,
+        "Ego Circuit": 4,
+        "Knowing Circuit": 1,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "1": 4,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "6": 2
+      }
+    },
+    "Moon/Sun": {
+      "exalt": "Moon",
+      "detri": "Sun",
+      "count": 4,
+      "lines": [
+        "11.4",
+        "13.2",
+        "39.4",
+        "58.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1,
+        "same-phase-void": 1,
+        "same-phase-material": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "G": 1,
+        "Root": 2
+      },
+      "byCircuit": {
+        "Sensing Circuit": 2,
+        "Knowing Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "4": 2,
+        "5": 1
+      }
+    },
+    "Venus/Sun": {
+      "exalt": "Venus",
+      "detri": "Sun",
+      "count": 1,
+      "lines": [
+        "11.4"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "4": 1
+      }
+    },
+    "Neptune/Jupiter": {
+      "exalt": "Neptune",
+      "detri": "Jupiter",
+      "count": 7,
+      "lines": [
+        "11.6",
+        "13.5",
+        "16.6",
+        "18.3",
+        "21.3",
+        "46.1",
+        "60.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 4,
+        "same-phase-void": 1,
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "G": 2,
+        "Throat": 1,
+        "Spleen": 1,
+        "Heart": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 3,
+        "Understanding Circuit": 2,
+        "Ego Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "3": 2,
+        "5": 2,
+        "6": 2
+      }
+    },
+    "Venus/Jupiter": {
+      "exalt": "Venus",
+      "detri": "Jupiter",
+      "count": 5,
+      "lines": [
+        "12.1",
+        "24.3",
+        "25.5",
+        "32.2",
+        "64.5"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 3,
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Throat": 1,
+        "Ajna": 1,
+        "G": 1,
+        "Spleen": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Centering Circuit": 1,
+        "Ego Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "5": 2
+      }
+    },
+    "Saturn/Mercury": {
+      "exalt": "Saturn",
+      "detri": "Mercury",
+      "count": 5,
+      "lines": [
+        "12.2",
+        "34.3",
+        "47.2",
+        "62.2",
+        "62.6"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 2,
+        "cross-zero-manifesting": 1,
+        "same-phase-material": 2
+      },
+      "byCentre": {
+        "Throat": 3,
+        "Sacral": 1,
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Centering Circuit": 1,
+        "Sensing Circuit": 1,
+        "Understanding Circuit": 2
+      },
+      "byLine": {
+        "2": 3,
+        "3": 1,
+        "6": 1
+      }
+    },
+    "Sun/Mars": {
+      "exalt": "Sun",
+      "detri": "Mars",
+      "count": 10,
+      "lines": [
+        "12.5",
+        "22.6",
+        "30.2",
+        "32.1",
+        "33.1",
+        "43.6",
+        "46.2",
+        "51.5",
+        "63.1",
+        "63.5"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 2,
+        "cross-zero-manifesting": 5,
+        "doubled": 2,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Throat": 2,
+        "Solar Plexus": 2,
+        "Spleen": 1,
+        "Ajna": 1,
+        "G": 1,
+        "Heart": 1,
+        "Head": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 3,
+        "Sensing Circuit": 3,
+        "Ego Circuit": 1,
+        "Centering Circuit": 1,
+        "Understanding Circuit": 2
+      },
+      "byLine": {
+        "1": 3,
+        "2": 2,
+        "5": 3,
+        "6": 2
+      }
+    },
+    "Earth/Venus": {
+      "exalt": "Earth",
+      "detri": "Venus",
+      "count": 2,
+      "lines": [
+        "13.3",
+        "41.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 2
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    "Mars/Mercury": {
+      "exalt": "Mars",
+      "detri": "Mercury",
+      "count": 3,
+      "lines": [
+        "13.6",
+        "39.1",
+        "51.2"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "same-phase-material": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Root": 1,
+        "Heart": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1,
+        "Knowing Circuit": 1,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 1,
+        "6": 1
+      }
+    },
+    "Earth/Neptune": {
+      "exalt": "Earth",
+      "detri": "Neptune",
+      "count": 1,
+      "lines": [
+        "14.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "3": 1
+      }
+    },
+    "Sun/Venus": {
+      "exalt": "Sun",
+      "detri": "Venus",
+      "count": 7,
+      "lines": [
+        "14.5",
+        "29.2",
+        "42.1",
+        "42.2",
+        "42.5",
+        "50.2",
+        "56.3"
+      ],
+      "byGateType": {
+        "same-phase-void": 2,
+        "doubled": 1,
+        "cross-zero-dematerialising": 4
+      },
+      "byCentre": {
+        "Sacral": 5,
+        "Spleen": 1,
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 5,
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "5": 2
+      }
+    },
+    "Jupiter/Saturn": {
+      "exalt": "Jupiter",
+      "detri": "Saturn",
+      "count": 5,
+      "lines": [
+        "15.4",
+        "27.5",
+        "32.4",
+        "36.6",
+        "63.3"
+      ],
+      "byGateType": {
+        "same-phase-material": 2,
+        "cross-zero-manifesting": 3
+      },
+      "byCentre": {
+        "G": 1,
+        "Sacral": 1,
+        "Spleen": 1,
+        "Solar Plexus": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Defense Circuit": 1,
+        "Ego Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 2,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Sun/Mercury": {
+      "exalt": "Sun",
+      "detri": "Mercury",
+      "count": 2,
+      "lines": [
+        "16.2",
+        "59.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Throat": 1,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    "Pluto/Moon": {
+      "exalt": "Pluto",
+      "detri": "Moon",
+      "count": 8,
+      "lines": [
+        "16.5",
+        "18.2",
+        "31.5",
+        "36.4",
+        "38.2",
+        "43.2",
+        "43.3",
+        "57.5"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 2,
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 3,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Throat": 2,
+        "Spleen": 2,
+        "Solar Plexus": 1,
+        "Root": 1,
+        "Ajna": 2
+      },
+      "byCircuit": {
+        "Understanding Circuit": 3,
+        "Sensing Circuit": 1,
+        "Knowing Circuit": 3,
+        "Integration Circuit": 1
+      },
+      "byLine": {
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      }
+    },
+    "Mars/Venus": {
+      "exalt": "Mars",
+      "detri": "Venus",
+      "count": 7,
+      "lines": [
+        "17.1",
+        "19.4",
+        "26.5",
+        "28.1",
+        "34.2",
+        "41.5",
+        "50.1"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "cross-zero-manifesting": 4,
+        "same-phase-void": 2
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "Root": 2,
+        "Heart": 1,
+        "Spleen": 2,
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Ego Circuit": 2,
+        "Knowing Circuit": 1,
+        "Centering Circuit": 1,
+        "Sensing Circuit": 1,
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "1": 3,
+        "2": 1,
+        "4": 1,
+        "5": 2
+      }
+    },
+    "Pluto/Earth": {
+      "exalt": "Pluto",
+      "detri": "Earth",
+      "count": 2,
+      "lines": [
+        "17.3",
+        "44.6"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "Spleen": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "6": 1
+      }
+    },
+    "Uranus/Mars": {
+      "exalt": "Uranus",
+      "detri": "Mars",
+      "count": 7,
+      "lines": [
+        "17.5",
+        "40.4",
+        "44.5",
+        "45.2",
+        "56.5",
+        "57.6",
+        "58.3"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 3,
+        "same-phase-material": 1,
+        "same-phase-void": 1,
+        "doubled": 2
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "Heart": 1,
+        "Spleen": 2,
+        "Throat": 2,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Ego Circuit": 3,
+        "Sensing Circuit": 1,
+        "Integration Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 3,
+        "6": 1
+      }
+    },
+    "Moon/Jupiter": {
+      "exalt": "Moon",
+      "detri": "Jupiter",
+      "count": 2,
+      "lines": [
+        "17.6",
+        "39.2"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Ajna": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "2": 1,
+        "6": 1
+      }
+    },
+    "Saturn/Uranus": {
+      "exalt": "Saturn",
+      "detri": "Uranus",
+      "count": 2,
+      "lines": [
+        "18.5",
+        "20.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Spleen": 1,
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1,
+        "Integration Circuit": 1
+      },
+      "byLine": {
+        "5": 2
+      }
+    },
+    "Mars/Moon": {
+      "exalt": "Mars",
+      "detri": "Moon",
+      "count": 6,
+      "lines": [
+        "18.6",
+        "21.1",
+        "30.6",
+        "34.5",
+        "42.3",
+        "48.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 3,
+        "cross-zero-dematerialising": 2,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Spleen": 2,
+        "Heart": 1,
+        "Solar Plexus": 1,
+        "Sacral": 2
+      },
+      "byCircuit": {
+        "Understanding Circuit": 2,
+        "Ego Circuit": 1,
+        "Sensing Circuit": 2,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "3": 1,
+        "5": 2,
+        "6": 2
+      }
+    },
+    "Mars/Neptune": {
+      "exalt": "Mars",
+      "detri": "Neptune",
+      "count": 3,
+      "lines": [
+        "21.2",
+        "29.1",
+        "44.3"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "doubled": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Heart": 1,
+        "Sacral": 1,
+        "Spleen": 1
+      },
+      "byCircuit": {
+        "Ego Circuit": 2,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    "Sun/Jupiter": {
+      "exalt": "Sun",
+      "detri": "Jupiter",
+      "count": 6,
+      "lines": [
+        "22.2",
+        "28.2",
+        "30.1",
+        "31.3",
+        "33.6",
+        "51.3"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1,
+        "same-phase-void": 1,
+        "doubled": 2,
+        "cross-zero-dematerialising": 2
+      },
+      "byCentre": {
+        "Solar Plexus": 2,
+        "Spleen": 1,
+        "Throat": 2,
+        "Heart": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Sensing Circuit": 2,
+        "Understanding Circuit": 1,
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "6": 1
+      }
+    },
+    "Jupiter/Moon": {
+      "exalt": "Jupiter",
+      "detri": "Moon",
+      "count": 2,
+      "lines": [
+        "23.2",
+        "23.5"
+      ],
+      "byGateType": {
+        "same-phase-material": 2
+      },
+      "byCentre": {
+        "Throat": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2
+      },
+      "byLine": {
+        "2": 1,
+        "5": 1
+      }
+    },
+    "Mars/Jupiter": {
+      "exalt": "Mars",
+      "detri": "Jupiter",
+      "count": 4,
+      "lines": [
+        "23.6",
+        "29.3",
+        "29.6",
+        "36.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "doubled": 2,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Throat": 1,
+        "Sacral": 2,
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 3
+      },
+      "byLine": {
+        "1": 1,
+        "3": 1,
+        "6": 2
+      }
+    },
+    "Sun/Neptune": {
+      "exalt": "Sun",
+      "detri": "Neptune",
+      "count": 1,
+      "lines": [
+        "24.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 1
+      }
+    },
+    "Saturn/Neptune": {
+      "exalt": "Saturn",
+      "detri": "Neptune",
+      "count": 3,
+      "lines": [
+        "24.4",
+        "46.6",
+        "47.1"
+      ],
+      "byGateType": {
+        "same-phase-material": 1,
+        "cross-zero-manifesting": 1,
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Ajna": 2,
+        "G": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 2
+      },
+      "byLine": {
+        "1": 1,
+        "4": 1,
+        "6": 1
+      }
+    },
+    "Mars/Pluto": {
+      "exalt": "Mars",
+      "detri": "Pluto",
+      "count": 1,
+      "lines": [
+        "25.3"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "3": 1
+      }
+    },
+    "Earth/Uranus": {
+      "exalt": "Earth",
+      "detri": "Uranus",
+      "count": 1,
+      "lines": [
+        "25.6"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "G": 1
+      },
+      "byCircuit": {
+        "Centering Circuit": 1
+      },
+      "byLine": {
+        "6": 1
+      }
+    },
+    "Saturn/Jupiter": {
+      "exalt": "Saturn",
+      "detri": "Jupiter",
+      "count": 4,
+      "lines": [
+        "28.3",
+        "52.4",
+        "54.6",
+        "61.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 2,
+        "doubled": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Spleen": 1,
+        "Root": 2,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2,
+        "Understanding Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 2,
+        "6": 1
+      }
+    },
+    "Pluto/Sun": {
+      "exalt": "Pluto",
+      "detri": "Sun",
+      "count": 2,
+      "lines": [
+        "28.5",
+        "44.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 2
+      },
+      "byCentre": {
+        "Spleen": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "4": 1,
+        "5": 1
+      }
+    },
+    "Pluto/Neptune": {
+      "exalt": "Pluto",
+      "detri": "Neptune",
+      "count": 4,
+      "lines": [
+        "28.6",
+        "32.6",
+        "33.4",
+        "58.4"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-manifesting": 1,
+        "cross-zero-dematerialising": 1,
+        "doubled": 1
+      },
+      "byCentre": {
+        "Spleen": 2,
+        "Throat": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1,
+        "Ego Circuit": 1,
+        "Sensing Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "4": 2,
+        "6": 2
+      }
+    },
+    "Saturn/Venus": {
+      "exalt": "Saturn",
+      "detri": "Venus",
+      "count": 2,
+      "lines": [
+        "29.4",
+        "52.3"
+      ],
+      "byGateType": {
+        "doubled": 2
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1
+      }
+    },
+    "Mercury/Jupiter": {
+      "exalt": "Mercury",
+      "detri": "Jupiter",
+      "count": 3,
+      "lines": [
+        "32.3",
+        "35.5",
+        "43.4"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1,
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Spleen": 1,
+        "Throat": 1,
+        "Ajna": 1
+      },
+      "byCircuit": {
+        "Ego Circuit": 1,
+        "Sensing Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "Jupiter/Neptune": {
+      "exalt": "Jupiter",
+      "detri": "Neptune",
+      "count": 1,
+      "lines": [
+        "33.2"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "2": 1
+      }
+    },
+    "Saturn/Pluto": {
+      "exalt": "Saturn",
+      "detri": "Pluto",
+      "count": 3,
+      "lines": [
+        "34.1",
+        "38.5",
+        "41.6"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 2,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Root": 2
+      },
+      "byCircuit": {
+        "Centering Circuit": 1,
+        "Knowing Circuit": 1,
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "1": 1,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Saturn/Earth": {
+      "exalt": "Saturn",
+      "detri": "Earth",
+      "count": 2,
+      "lines": [
+        "38.6",
+        "60.2"
+      ],
+      "byGateType": {
+        "same-phase-void": 1,
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Root": 2
+      },
+      "byCircuit": {
+        "Knowing Circuit": 2
+      },
+      "byLine": {
+        "2": 1,
+        "6": 1
+      }
+    },
+    "Uranus/Earth": {
+      "exalt": "Uranus",
+      "detri": "Earth",
+      "count": 1,
+      "lines": [
+        "40.5"
+      ],
+      "byGateType": {
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Heart": 1
+      },
+      "byCircuit": {
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "5": 1
+      }
+    },
+    "Saturn/Moon": {
+      "exalt": "Saturn",
+      "detri": "Moon",
+      "count": 4,
+      "lines": [
+        "41.3",
+        "47.4",
+        "55.6",
+        "64.3"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 2,
+        "cross-zero-dematerialising": 2
+      },
+      "byCentre": {
+        "Root": 1,
+        "Ajna": 1,
+        "Solar Plexus": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 3,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "3": 2,
+        "4": 1,
+        "6": 1
+      }
+    },
+    "Moon/Venus": {
+      "exalt": "Moon",
+      "detri": "Venus",
+      "count": 3,
+      "lines": [
+        "42.4",
+        "43.5",
+        "53.4"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 2,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Sacral": 1,
+        "Ajna": 1,
+        "Root": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 2,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "4": 2,
+        "5": 1
+      }
+    },
+    "Uranus/Jupiter": {
+      "exalt": "Uranus",
+      "detri": "Jupiter",
+      "count": 2,
+      "lines": [
+        "45.5",
+        "45.6"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 2
+      },
+      "byCentre": {
+        "Throat": 2
+      },
+      "byCircuit": {
+        "Ego Circuit": 2
+      },
+      "byLine": {
+        "5": 1,
+        "6": 1
+      }
+    },
+    "Moon/Neptune": {
+      "exalt": "Moon",
+      "detri": "Neptune",
+      "count": 2,
+      "lines": [
+        "46.5",
+        "62.5"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1,
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "G": 1,
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1,
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "5": 2
+      }
+    },
+    "Neptune/Saturn": {
+      "exalt": "Neptune",
+      "detri": "Saturn",
+      "count": 1,
+      "lines": [
+        "49.6"
+      ],
+      "byGateType": {
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Ego Circuit": 1
+      },
+      "byLine": {
+        "6": 1
+      }
+    },
+    "Earth/Mars": {
+      "exalt": "Earth",
+      "detri": "Mars",
+      "count": 1,
+      "lines": [
+        "52.1"
+      ],
+      "byGateType": {
+        "doubled": 1
+      },
+      "byCentre": {
+        "Root": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "1": 1
+      }
+    },
+    "Neptune/Venus": {
+      "exalt": "Neptune",
+      "detri": "Venus",
+      "count": 2,
+      "lines": [
+        "53.1",
+        "61.1"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1,
+        "same-phase-void": 1
+      },
+      "byCentre": {
+        "Root": 1,
+        "Head": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1,
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 2
+      }
+    },
+    "Neptune/Earth": {
+      "exalt": "Neptune",
+      "detri": "Earth",
+      "count": 1,
+      "lines": [
+        "53.5"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Root": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "5": 1
+      }
+    },
+    "Jupiter/Venus": {
+      "exalt": "Jupiter",
+      "detri": "Venus",
+      "count": 1,
+      "lines": [
+        "55.1"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "1": 1
+      }
+    },
+    "Venus/Earth": {
+      "exalt": "Venus",
+      "detri": "Earth",
+      "count": 1,
+      "lines": [
+        "55.2"
+      ],
+      "byGateType": {
+        "cross-zero-manifesting": 1
+      },
+      "byCentre": {
+        "Solar Plexus": 1
+      },
+      "byCircuit": {
+        "Knowing Circuit": 1
+      },
+      "byLine": {
+        "2": 1
+      }
+    },
+    "Uranus/Moon": {
+      "exalt": "Uranus",
+      "detri": "Moon",
+      "count": 1,
+      "lines": [
+        "56.2"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Sensing Circuit": 1
+      },
+      "byLine": {
+        "2": 1
+      }
+    },
+    "Uranus/Pluto": {
+      "exalt": "Uranus",
+      "detri": "Pluto",
+      "count": 1,
+      "lines": [
+        "59.2"
+      ],
+      "byGateType": {
+        "cross-zero-dematerialising": 1
+      },
+      "byCentre": {
+        "Sacral": 1
+      },
+      "byCircuit": {
+        "Defense Circuit": 1
+      },
+      "byLine": {
+        "2": 1
+      }
+    },
+    "Uranus/Venus": {
+      "exalt": "Uranus",
+      "detri": "Venus",
+      "count": 1,
+      "lines": [
+        "62.3"
+      ],
+      "byGateType": {
+        "same-phase-material": 1
+      },
+      "byCentre": {
+        "Throat": 1
+      },
+      "byCircuit": {
+        "Understanding Circuit": 1
+      },
+      "byLine": {
+        "3": 1
+      }
+    }
+  },
+  "reciprocalPairs": [
+    {
+      "pair": "Moon <-> Mars",
+      "p1ExaltP2Detri": 22,
+      "p2ExaltP1Detri": 6,
+      "total": 28
+    },
+    {
+      "pair": "Mars <-> Jupiter",
+      "p1ExaltP2Detri": 4,
+      "p2ExaltP1Detri": 15,
+      "total": 19
+    },
+    {
+      "pair": "Venus <-> Mars",
+      "p1ExaltP2Detri": 9,
+      "p2ExaltP1Detri": 7,
+      "total": 16
+    },
+    {
+      "pair": "Venus <-> Pluto",
+      "p1ExaltP2Detri": 6,
+      "p2ExaltP1Detri": 10,
+      "total": 16
+    },
+    {
+      "pair": "Moon <-> Venus",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 12,
+      "total": 15
+    },
+    {
+      "pair": "Sun <-> Earth",
+      "p1ExaltP2Detri": 12,
+      "p2ExaltP1Detri": 1,
+      "total": 13
+    },
+    {
+      "pair": "Mars <-> Neptune",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 9,
+      "total": 12
+    },
+    {
+      "pair": "Jupiter <-> Pluto",
+      "p1ExaltP2Detri": 6,
+      "p2ExaltP1Detri": 6,
+      "total": 12
+    },
+    {
+      "pair": "Sun <-> Moon",
+      "p1ExaltP2Detri": 7,
+      "p2ExaltP1Detri": 4,
+      "total": 11
+    },
+    {
+      "pair": "Moon <-> Pluto",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 8,
+      "total": 11
+    },
+    {
+      "pair": "Mercury <-> Jupiter",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 7,
+      "total": 10
+    },
+    {
+      "pair": "Sun <-> Jupiter",
+      "p1ExaltP2Detri": 6,
+      "p2ExaltP1Detri": 3,
+      "total": 9
+    },
+    {
+      "pair": "Mercury <-> Venus",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 6,
+      "total": 9
+    },
+    {
+      "pair": "Mars <-> Uranus",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 7,
+      "total": 9
+    },
+    {
+      "pair": "Jupiter <-> Saturn",
+      "p1ExaltP2Detri": 5,
+      "p2ExaltP1Detri": 4,
+      "total": 9
+    },
+    {
+      "pair": "Sun <-> Venus",
+      "p1ExaltP2Detri": 7,
+      "p2ExaltP1Detri": 1,
+      "total": 8
+    },
+    {
+      "pair": "Sun <-> Pluto",
+      "p1ExaltP2Detri": 6,
+      "p2ExaltP1Detri": 2,
+      "total": 8
+    },
+    {
+      "pair": "Jupiter <-> Neptune",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 7,
+      "total": 8
+    },
+    {
+      "pair": "Moon <-> Saturn",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 4,
+      "total": 7
+    },
+    {
+      "pair": "Mercury <-> Mars",
+      "p1ExaltP2Detri": 4,
+      "p2ExaltP1Detri": 3,
+      "total": 7
+    },
+    {
+      "pair": "Mars <-> Pluto",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 6,
+      "total": 7
+    },
+    {
+      "pair": "Jupiter <-> Earth",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 4,
+      "total": 7
+    },
+    {
+      "pair": "Mercury <-> Saturn",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 5,
+      "total": 6
+    },
+    {
+      "pair": "Mercury <-> Earth",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 5,
+      "total": 6
+    },
+    {
+      "pair": "Venus <-> Jupiter",
+      "p1ExaltP2Detri": 5,
+      "p2ExaltP1Detri": 1,
+      "total": 6
+    },
+    {
+      "pair": "Neptune <-> Pluto",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 4,
+      "total": 6
+    },
+    {
+      "pair": "Pluto <-> Earth",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 4,
+      "total": 6
+    },
+    {
+      "pair": "Venus <-> Neptune",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 2,
+      "total": 5
+    },
+    {
+      "pair": "Saturn <-> Pluto",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 2,
+      "total": 5
+    },
+    {
+      "pair": "Sun <-> Uranus",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 2,
+      "total": 4
+    },
+    {
+      "pair": "Moon <-> Jupiter",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 2,
+      "total": 4
+    },
+    {
+      "pair": "Moon <-> Neptune",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 2,
+      "total": 4
+    },
+    {
+      "pair": "Mercury <-> Uranus",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 3,
+      "total": 4
+    },
+    {
+      "pair": "Mars <-> Earth",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 1,
+      "total": 4
+    },
+    {
+      "pair": "Jupiter <-> Uranus",
+      "p1ExaltP2Detri": 2,
+      "p2ExaltP1Detri": 2,
+      "total": 4
+    },
+    {
+      "pair": "Saturn <-> Neptune",
+      "p1ExaltP2Detri": 3,
+      "p2ExaltP1Detri": 1,
+      "total": 4
+    },
+    {
+      "pair": "Venus <-> Earth",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 2,
+      "total": 3
+    },
+    {
+      "pair": "Moon <-> Uranus",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 1,
+      "total": 2
+    },
+    {
+      "pair": "Moon <-> Earth",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 1,
+      "total": 2
+    },
+    {
+      "pair": "Uranus <-> Earth",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 1,
+      "total": 2
+    },
+    {
+      "pair": "Neptune <-> Earth",
+      "p1ExaltP2Detri": 1,
+      "p2ExaltP1Detri": 1,
+      "total": 2
+    }
+  ],
+  "rarePairsList": [
+    "Moon/Uranus",
+    "Mercury/Earth",
+    "Mercury/Saturn",
+    "Moon/Earth",
+    "Mercury/Uranus",
+    "Earth/Sun",
+    "Earth/Moon",
+    "Venus/Sun",
+    "Earth/Neptune",
+    "Sun/Neptune",
+    "Mars/Pluto",
+    "Earth/Uranus",
+    "Jupiter/Neptune",
+    "Uranus/Earth",
+    "Neptune/Saturn",
+    "Earth/Mars",
+    "Neptune/Earth",
+    "Jupiter/Venus",
+    "Venus/Earth",
+    "Uranus/Moon",
+    "Uranus/Pluto",
+    "Uranus/Venus"
+  ]
+}

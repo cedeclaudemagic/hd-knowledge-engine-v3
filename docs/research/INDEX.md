@@ -220,12 +220,44 @@ Doubled-trigram gates have pure states with unique planetary dynamics. Void stan
 ### 7. Some Positions Are Unenhanceable
 4 lines have no exaltation: perversion, enlightenment shift, futility (and one multi-exalt: the teacher).
 
+### 8. Doubled Gates Are 100% Electromagnetically Derivable
+The 47 doubled-gate exaltation planets can be perfectly predicted from (position, line) alone. This is the proof of concept for electromagnetic planet derivation.
+
+---
+
+## Predictive Model Research
+
+**Latest Finding:** We can derive exaltation planets from electromagnetic coordinates—but only for certain gate types.
+
+| Gate Type | Accuracy | Conclusion |
+|-----------|----------|------------|
+| Doubled (pure states) | **100%** | Fully derivable |
+| Same-phase (stable) | 48% | Partially derivable |
+| Cross-zero (transformation) | 44% | Not derivable from coordinates |
+| **Overall** | 52% | System is ~50% electromagnetically deterministic |
+
+### Key Documents
+
+| Document | Description |
+|----------|-------------|
+| [PREDICTIVE-MODEL-SYNTHESIS.md](planetary/PREDICTIVE-MODEL-SYNTHESIS.md) | Final model results and derived planet definitions |
+| [ANOMALY-DERIVATION-SYNTHESIS.md](planetary/ANOMALY-DERIVATION-SYNTHESIS.md) | 4 rules explaining all 10 anomalies |
+| [RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md](planetary/RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md) | Original research proposal |
+
+### The Core Insight
+
+**Transformation states (cross-zero gates) have additional degrees of freedom that electromagnetic coordinates cannot capture.** This is not model failure—it reveals the two-layer structure of the system:
+
+1. **Base Layer (50%):** Electromagnetically deterministic - position defines planet
+2. **Transformation Layer (50%):** Additional factors - multiple planets can guide the same transformation
+
 ---
 
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.2.0 | 2025-12-17 | Added predictive model research section, anomaly derivation, electromagnetic planet definitions |
 | 2.1.0 | 2025-12-17 | Added validation audit report and status section |
 | 2.0.0 | 2025-12-17 | Reorganized into domains with subdirectories |
 | 1.0.0 | 2025-12-17 | Initial index creation |

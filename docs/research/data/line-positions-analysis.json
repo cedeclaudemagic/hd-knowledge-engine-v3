@@ -1,0 +1,706 @@
+{
+  "1": {
+    "line": 1,
+    "position": {
+      "name": "entry-inner",
+      "function": "Foundation/Entry",
+      "theme": "Introspection"
+    },
+    "exaltPlanets": {
+      "Moon": 6,
+      "Venus": 12,
+      "Earth": 4,
+      "Mars": 8,
+      "Pluto": 6,
+      "Neptune": 9,
+      "Sun": 12,
+      "Jupiter": 5,
+      "Saturn": 2
+    },
+    "detriPlanets": {
+      "Uranus": 1,
+      "Mars": 17,
+      "Mercury": 11,
+      "Earth": 4,
+      "Moon": 8,
+      "Jupiter": 5,
+      "Venus": 11,
+      "Neptune": 4,
+      "Pluto": 1,
+      "Sun": 1
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 11
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 6,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 9,
+        "Centering Circuit": 3
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 32,
+        "YIN": 32
+      },
+      "detri": {
+        "YANG": 31,
+        "YIN": 32
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 37,
+        "keynote": "The Mother Father",
+        "exaltCount": 1,
+        "detriCount": 0
+      }
+    ],
+    "totalExalt": 64,
+    "totalDetri": 63
+  },
+  "2": {
+    "line": 2,
+    "position": {
+      "name": "development-inner",
+      "function": "Development",
+      "theme": "Projection"
+    },
+    "exaltPlanets": {
+      "Venus": 10,
+      "Saturn": 7,
+      "Mars": 4,
+      "Moon": 7,
+      "Neptune": 3,
+      "Sun": 13,
+      "Pluto": 5,
+      "Mercury": 2,
+      "Jupiter": 8,
+      "Uranus": 3,
+      "Earth": 1
+    },
+    "detriPlanets": {
+      "Mars": 19,
+      "Uranus": 3,
+      "Pluto": 4,
+      "Mercury": 9,
+      "Earth": 4,
+      "Jupiter": 5,
+      "Sun": 1,
+      "Moon": 12,
+      "Neptune": 2,
+      "Venus": 5
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 7,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 8,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 13,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 31,
+        "YIN": 32
+      },
+      "detri": {
+        "YANG": 32,
+        "YIN": 32
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 58,
+        "keynote": "Perversion",
+        "exaltCount": 0,
+        "detriCount": 1
+      }
+    ],
+    "totalExalt": 63,
+    "totalDetri": 64
+  },
+  "3": {
+    "line": 3,
+    "position": {
+      "name": "completion-inner",
+      "function": "Inner Completion",
+      "theme": "Adaptation"
+    },
+    "exaltPlanets": {
+      "Mars": 5,
+      "Jupiter": 7,
+      "Venus": 4,
+      "Neptune": 7,
+      "Moon": 8,
+      "Earth": 5,
+      "Pluto": 8,
+      "Sun": 7,
+      "Saturn": 9,
+      "Mercury": 2,
+      "Uranus": 2
+    },
+    "detriPlanets": {
+      "Earth": 5,
+      "Uranus": 1,
+      "Pluto": 6,
+      "Moon": 7,
+      "Mercury": 5,
+      "Saturn": 3,
+      "Sun": 2,
+      "Venus": 6,
+      "Mars": 16,
+      "Neptune": 2,
+      "Jupiter": 10
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 7,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 6,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 2,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 32,
+        "YIN": 32
+      },
+      "detri": {
+        "YANG": 31,
+        "YIN": 32
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 57,
+        "keynote": "Acuteness",
+        "exaltCount": 1,
+        "detriCount": 0
+      }
+    ],
+    "totalExalt": 64,
+    "totalDetri": 63
+  },
+  "4": {
+    "line": 4,
+    "position": {
+      "name": "entry-outer",
+      "function": "Mode Shift/Externalization",
+      "theme": "Opportunity"
+    },
+    "exaltPlanets": {
+      "Earth": 5,
+      "Venus": 6,
+      "Neptune": 2,
+      "Sun": 5,
+      "Uranus": 4,
+      "Jupiter": 12,
+      "Moon": 11,
+      "Pluto": 10,
+      "Mars": 1,
+      "Saturn": 6,
+      "Mercury": 3
+    },
+    "detriPlanets": {
+      "Jupiter": 6,
+      "Mars": 19,
+      "Saturn": 5,
+      "Sun": 4,
+      "Pluto": 3,
+      "Uranus": 1,
+      "Mercury": 9,
+      "Venus": 7,
+      "Earth": 3,
+      "Neptune": 3,
+      "Moon": 2
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 17,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 15,
+        "cross-zero-dematerialising": 15,
+        "same-phase-void": 12
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 9,
+        "Sacral": 9,
+        "Ajna": 7,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 8,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 7,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 8,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 15,
+        "Ego Circuit": 9,
+        "Centering Circuit": 4
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 9,
+        "Centering Circuit": 2
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 32,
+        "YIN": 33
+      },
+      "detri": {
+        "YANG": 30,
+        "YIN": 32
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 11,
+        "keynote": "The Teacher",
+        "exaltCount": 2,
+        "detriCount": 1
+      },
+      {
+        "gate": 25,
+        "keynote": "Survival",
+        "exaltCount": 2,
+        "detriCount": 0
+      },
+      {
+        "gate": 54,
+        "keynote": "Enlightenment Endarkenment",
+        "exaltCount": 0,
+        "detriCount": 0
+      }
+    ],
+    "totalExalt": 65,
+    "totalDetri": 62
+  },
+  "5": {
+    "line": 5,
+    "position": {
+      "name": "development-outer",
+      "function": "Outer Development",
+      "theme": "Universalization"
+    },
+    "exaltPlanets": {
+      "Mars": 6,
+      "Mercury": 2,
+      "Jupiter": 10,
+      "Venus": 7,
+      "Moon": 8,
+      "Sun": 8,
+      "Neptune": 4,
+      "Pluto": 6,
+      "Uranus": 6,
+      "Saturn": 5,
+      "Earth": 2
+    },
+    "detriPlanets": {
+      "Uranus": 4,
+      "Earth": 6,
+      "Pluto": 7,
+      "Moon": 7,
+      "Neptune": 3,
+      "Sun": 4,
+      "Mars": 15,
+      "Mercury": 2,
+      "Jupiter": 8,
+      "Venus": 5,
+      "Saturn": 1
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 15,
+        "cross-zero-dematerialising": 15,
+        "same-phase-void": 12
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 5,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 8,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 13,
+        "Ego Circuit": 9,
+        "Centering Circuit": 3
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 32,
+        "YIN": 32
+      },
+      "detri": {
+        "YANG": 31,
+        "YIN": 31
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 47,
+        "keynote": "The saint",
+        "exaltCount": 1,
+        "detriCount": 0
+      },
+      {
+        "gate": 54,
+        "keynote": "Magnanimity",
+        "exaltCount": 1,
+        "detriCount": 0
+      }
+    ],
+    "totalExalt": 64,
+    "totalDetri": 62
+  },
+  "6": {
+    "line": 6,
+    "position": {
+      "name": "completion-outer",
+      "function": "Outer Completion",
+      "theme": "Transition"
+    },
+    "exaltPlanets": {
+      "Earth": 3,
+      "Mercury": 5,
+      "Sun": 11,
+      "Neptune": 4,
+      "Venus": 7,
+      "Moon": 7,
+      "Pluto": 7,
+      "Mars": 5,
+      "Jupiter": 4,
+      "Saturn": 7,
+      "Uranus": 3
+    },
+    "detriPlanets": {
+      "Pluto": 11,
+      "Saturn": 5,
+      "Mars": 8,
+      "Venus": 4,
+      "Uranus": 2,
+      "Jupiter": 9,
+      "Earth": 5,
+      "Mercury": 7,
+      "Moon": 7,
+      "Neptune": 4,
+      "Sun": 1
+    },
+    "byGateType": {
+      "exalt": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-manifesting": 16,
+        "cross-zero-dematerialising": 15,
+        "same-phase-void": 12
+      },
+      "detri": {
+        "doubled": 8,
+        "same-phase-material": 12,
+        "cross-zero-dematerialising": 16,
+        "same-phase-void": 12,
+        "cross-zero-manifesting": 15
+      }
+    },
+    "byCentre": {
+      "exalt": {
+        "G": 8,
+        "Sacral": 9,
+        "Ajna": 5,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      },
+      "detri": {
+        "G": 8,
+        "Sacral": 8,
+        "Ajna": 6,
+        "Solar Plexus": 7,
+        "Throat": 11,
+        "Spleen": 7,
+        "Root": 9,
+        "Heart": 4,
+        "Head": 3
+      }
+    },
+    "byCircuit": {
+      "exalt": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 14,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 13,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      },
+      "detri": {
+        "Knowing Circuit": 16,
+        "Understanding Circuit": 13,
+        "Defense Circuit": 4,
+        "Integration Circuit": 3,
+        "Sensing Circuit": 14,
+        "Ego Circuit": 10,
+        "Centering Circuit": 3
+      }
+    },
+    "byPolarity": {
+      "exalt": {
+        "YANG": 32,
+        "YIN": 31
+      },
+      "detri": {
+        "YANG": 32,
+        "YIN": 31
+      }
+    },
+    "anomalies": [
+      {
+        "gate": 5,
+        "keynote": "Yielding",
+        "exaltCount": 1,
+        "detriCount": 0
+      },
+      {
+        "gate": 47,
+        "keynote": "Futility",
+        "exaltCount": 0,
+        "detriCount": 1
+      }
+    ],
+    "totalExalt": 63,
+    "totalDetri": 63
+  }
+}

@@ -1,0 +1,1412 @@
+{
+  "1": {
+    "gate": 1,
+    "name": "The Creative",
+    "trigram": "Heaven",
+    "position": -4,
+    "axis": "poles",
+    "centre": "G",
+    "circuit": "Knowing Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Creation is independent of will",
+        "polarity": "YANG",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Moon"
+        ],
+        "detriPlanets": [
+          "Uranus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Moon",
+            "desc": "Time is everything. The ability of adaptation as a symbol"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "Instability leads to distortion. Here, patience is a virtue and revolution a vice"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Love is light",
+        "polarity": "YANG",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "The required harmony between established values and ideals that enriches inspiration. As a symbol of beauty"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "Desires and passions have their place but not at the expense of Creation"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "The energy to sustain creative work",
+        "polarity": "YANG",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Earth"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "As the symbol of the profound need for self-expression"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Earth",
+            "desc": "Material forces can disrupt creativity and lead to overambition"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Aloneness as the medium of creativity",
+        "polarity": "YANG",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Earth"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Earth",
+            "desc": "The tension of inner light. As the symbol of personal perspective manifested outside of influence"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "Where the potential magic of inspiration is diluted"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "The energy to attract society with creation",
+        "polarity": "YANG",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Uranus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "For its powerful ego endurance"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "Where eccentricity can handicap endurance"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Objectivity",
+        "polarity": "YANG",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Earth"
+        ],
+        "detriPlanets": [
+          "Pluto"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Earth",
+            "desc": "Clear assessment of creative value"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "The risk that subjective appraisal will result in disappointment and creative frustration"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "2": {
+    "gate": 2,
+    "name": "The Receptive",
+    "trigram": "Earth",
+    "position": 4,
+    "axis": "poles",
+    "centre": "G",
+    "circuit": "Knowing Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Intuition",
+        "polarity": "YIN",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "Sensitivity to disharmony and atrophy. The importance of aesthetics whether inborn or acquired"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The assertion of ego in spite of wisdom"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Genius",
+        "polarity": "YIN",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Saturn"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Saturn",
+            "desc": "Unconscious and unlearnable alignment of stimulus and response. The natural. The inner strength to focus and realize"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "Genius as madness. Knowledge exclusively as power for the enhancement of the ego"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Patience",
+        "polarity": "YIN",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Jupiter"
+        ],
+        "detriPlanets": [
+          "Uranus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "The teacher that never stops being a student. Dedication to a lifetime of receptivity with the maturity to accept that the process never ends. When connected permanently to Gate 14 through the Beat Channel, rewards for services rendered"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "For the revolutionary patience is a vice"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Secretiveness",
+        "polarity": "YIN",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "More than modesty, the ability to preserve harmony through discretion. The higher goal transcends personal acclaim. The team player, acknowledged as the leader but never the captain"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "Loose lips sink ships. The unquenchable fire of the ego engenders enmity"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Intelligent application",
+        "polarity": "YIN",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Mercury"
+        ],
+        "detriPlanets": [
+          "Earth"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "The strategist. Reasoned management of resources"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Earth",
+            "desc": "The inability to share responsibility or recognize the abilities of others"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Fixation",
+        "polarity": "YIN",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Mercury"
+        ],
+        "detriPlanets": [
+          "Saturn"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "Unable or unwilling to see the whole picture. Less negative, though the intellect becomes absorbed in constant rationalization"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Saturn",
+            "desc": "The need for security may distort awareness to its ultimate perversion, destructiveness"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "29": {
+    "gate": 29,
+    "name": "The Abysmal",
+    "trigram": "Water",
+    "position": 2,
+    "axis": "flow",
+    "centre": "Sacral",
+    "circuit": "Sensing Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "The draftee",
+        "polarity": "YIN",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Neptune"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The ability to adapt to struggle when necessary but not as a permanent state. The innate nature to apply energy in times of war and peace"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Neptune",
+            "desc": "A deep impressionability whose mark from times of struggle may make a return to normal conditions extremely difficult"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Assessment",
+        "polarity": "YANG",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Venus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "Persistence tempered by caution. The power of sustainment as a guiding light"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Venus",
+            "desc": "A tendency to overcautiousness when persistence is perceived as adding to rather than ending disharmony"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Evaluation",
+        "polarity": "YIN",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "In this context, properly assessed inaction. Despite the urge and cost of inaction the knowledge that it is sometimes better to fight another day"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "A preference for withdrawal in principle with little regard for effect"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Directness",
+        "polarity": "YIN",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Saturn"
+        ],
+        "detriPlanets": [
+          "Venus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Saturn",
+            "desc": "The shortest distance between two points is a straight line. The wisdom to use the simplest and most direct approach to solve difficulties"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Venus",
+            "desc": "Simplicity and directness all too often seen as inharmonic and aesthetically crude"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Overreach",
+        "polarity": "YANG",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Earth"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "The tendency to bite off more than one can chew, where the drive is in the design and not ambition driven"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Earth",
+            "desc": "Failed ambition"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Confusion",
+        "polarity": "YIN",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The state that exists when momentum outstrips awareness. Driving blind and given Mars' energy and determination, often blind luck"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "A tendency in confusion to withdraw rather than accept the condition and continue to persevere"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "30": {
+    "gate": 30,
+    "name": "Clinging Fire",
+    "trigram": "Fire",
+    "position": -2,
+    "axis": "flow",
+    "centre": "Solar Plexus",
+    "circuit": "Sensing Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Composure",
+        "polarity": "YANG",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "Balance in the face of disorder. The maximization of limitation in all cases"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "The ability to maintain composure but at the expense of progress"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Pragmatism",
+        "polarity": "YIN",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "The balance between extremes. The productive application of energy without wastage"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "Over-aggressiveness that chafes against limitations"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Resignation",
+        "polarity": "YANG",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Pluto"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "The acceptance of what is. The awareness and manifestation of the law of regeneration. The laws of Karma, reincarnation and resurrection"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "The tendency by its very knowledge to encourage or avoid despair"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Burnout",
+        "polarity": "YANG",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Pluto"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "An unrealistic pace that begs misfortune. A compulsive and hyperactive nature that carries all the earmarks of burnout but doesn't necessarily arrive at it. A positive outcome is often assisted through analysis"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "Uncontrollable expansion with the inevitable bursting of the bubble"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Irony",
+        "polarity": "YIN",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Jupiter"
+        ],
+        "detriPlanets": [
+          "Pluto"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "Recognition and dedication to transitory goals. The strength derived from knowledge and experience that two steps forward and one step back, is still one step forward"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "The anger engendered by the irony, frustration with its limitations and a desire to eliminate the entire process"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Enforcement",
+        "polarity": "YANG",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Moon"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The discipline to maintain right action. The assertiveness to purge the inferior while accepting to lead the weak"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Moon",
+            "desc": "An inherent peacefulness that all too often will abide the presence of inferior forces"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "51": {
+    "gate": 51,
+    "name": "The Arousing",
+    "trigram": "Thunder",
+    "position": 1,
+    "axis": "gates",
+    "centre": "Heart",
+    "circuit": "Centering Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Reference",
+        "polarity": "YANG",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Pluto"
+        ],
+        "detriPlanets": [
+          "Venus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "The gift of re-examination that is the foundation of preparedness"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Venus",
+            "desc": "A tendency to emotional withdrawal after a shock"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Withdrawal",
+        "polarity": "YIN",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Mars"
+        ],
+        "detriPlanets": [
+          "Mercury"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The recognition of the mechanics of shock that indicates when withdrawal is the only logical action"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "Being too smart for one's own good and rejecting withdrawal in the vain belief that one can outsmart natural forces"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Adaptation",
+        "polarity": "YIN",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "The life-sustaining awareness that thinks on its feet and thus creates opportunities"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "The destabilization that occurs when one's field of normal activity is radically and unpredictably disturbed, where the tendency is withdrawal rather than adaptation"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Limitation",
+        "polarity": "YANG",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Uranus"
+        ],
+        "detriPlanets": [
+          "Mercury"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "A pure inventiveness and sometimes genius to find some opportunity even in the midst of the most devastating shocks"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "A reasoned make-do mentality that is ineffectual in times of severe shock"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Symmetry",
+        "polarity": "YIN",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "Perfected illumination that in grasping the nature of the shock, can transform its normal patterns into a symmetrical adaptation that rides the shock and avoids its devastation"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "A tendency in seeking the core, to harmonize with one shock only to be overwhelmed by the next"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Separation",
+        "polarity": "YIN",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Sun"
+        ],
+        "detriPlanets": [
+          "Pluto"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Sun",
+            "desc": "In times of crisis when all those around are confused and in disorder, the ability not to succumb to the panic but to have the will and vitality to survive it alone"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "Curiously, the same gift, but one by its attitude that invites disapproval that in the extreme may even prevent a successful separation"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "52": {
+    "gate": 52,
+    "name": "Keeping Still",
+    "trigram": "Mountain",
+    "position": 3,
+    "axis": "storage",
+    "centre": "Root",
+    "circuit": "Understanding Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Think before you speak",
+        "polarity": "YIN",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Earth"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Earth",
+            "desc": "The pause that is so profound that it leads to silence"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "Speaking first and living with the consequences afterwards"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Concern",
+        "polarity": "YIN",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "The pause that is initiated to benefit others"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "A selfish and abrupt pause that may endanger others unnecessarily"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Controls",
+        "polarity": "YANG",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Saturn"
+        ],
+        "detriPlanets": [
+          "Venus"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Saturn",
+            "desc": "The ability by its very nature to understand restraint with the potential in acceptance, to use the period to redefine strategies"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Venus",
+            "desc": "A deep dissatisfaction with controls that disturb tranquillity, leads to emotional withdrawel and affects vision"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Self-discipline",
+        "polarity": "YIN",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Saturn"
+        ],
+        "detriPlanets": [
+          "Jupiter"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Saturn",
+            "desc": "Perfected self-discipline and restraint that deals easily and with impulsive temptations"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Jupiter",
+            "desc": "Though responsive to the need of a principled control based on the understanding of conditions, there is a tendency due to its natural expansiveness, to doubt and restlessness"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Explanation",
+        "polarity": "YIN",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Earth"
+        ],
+        "detriPlanets": [
+          "Pluto"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Earth",
+            "desc": "The often terse but exceedingly accurate statement"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "A convolution whose enigmatic nature is normally misunderstood with unpredictable circumstances"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Peacefulness",
+        "polarity": "YANG",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Neptune"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "A harmonic and balanced attunement that is at ease regardless of the situation"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Neptune",
+            "desc": "Delusion as a substitute for genuine tranquillity. Given the positive nature of this position, the delusion may be just as effective as the 'real thing'"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 6,
+      "anomalies": 0
+    }
+  },
+  "57": {
+    "gate": 57,
+    "name": "The Gentle",
+    "trigram": "Wind",
+    "position": -1,
+    "axis": "gates",
+    "centre": "Spleen",
+    "circuit": "Integration Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Confusion",
+        "polarity": "YIN",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Moon"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "The gift of penetrating to the inner meaning that ensures timely action"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Moon",
+            "desc": "where feelings are no substitute for clarity and can lead to indecision"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Cleansing",
+        "polarity": "YANG",
+        "linePosition": "development-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Moon"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "Perfected cleansing through inner realization"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Moon",
+            "desc": "A superficial cleansing that tends to hide the dirt underneath the carpet"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 3,
+        "keynote": "Acuteness",
+        "polarity": "YANG",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Mercury"
+        ],
+        "detriPlanets": [],
+        "exaltDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "The perfected intelligence, where clarity eliminates doubt and ensures manifestation"
+          }
+        ],
+        "detriDescs": [],
+        "hasExalt": true,
+        "hasDetri": false,
+        "anomaly": true
+      },
+      {
+        "line": 4,
+        "keynote": "The director",
+        "polarity": "YIN",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "The mastery of relationships that through clarity can maximize productivity while the sensitivity to interrelationships will ensure harmony"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "A tendency given this position to be dictatorial rather than directorial"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Progression",
+        "polarity": "YANG",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Pluto"
+        ],
+        "detriPlanets": [
+          "Moon"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "The natural ability to establish new forms while maintaining the powers of reevaluation and reexamination. This provides the clarity to examine the data and assess the process"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Moon",
+            "desc": "The tendency to keep on keeping on, that can end up as a misguided missile"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Utilisation",
+        "polarity": "YANG",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Uranus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "The acceptance that clarity is a double-edged sword. There are situations where understanding cannot lead to rectification. Here, Uranus' innovative quality can generally make the best out of an otherwise difficult but rarely permanent situation"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "When clarity points to a problem one is unable because of circumstances to solve, a tendency to anger and frustration that provokes inevitably futile action"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 6,
+      "totalDetri": 5,
+      "anomalies": 1
+    }
+  },
+  "58": {
+    "gate": 58,
+    "name": "The Joyous",
+    "trigram": "Lake",
+    "position": -3,
+    "axis": "storage",
+    "centre": "Root",
+    "circuit": "Understanding Circuit",
+    "lines": [
+      {
+        "line": 1,
+        "keynote": "Love of life",
+        "polarity": "YANG",
+        "linePosition": "entry-inner",
+        "exaltPlanets": [
+          "Venus"
+        ],
+        "detriPlanets": [
+          "Moon"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Venus",
+            "desc": "The very stimulation of the world is the basis of an aesthetic appreciation of its beauty and wonder. Alone or shared with others this profound inner realization is the key for a joyous harmony with the process of being"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Moon",
+            "desc": "The Moon has its phases, its moods, that will limit joy to an intermittent and cyclical experience"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 2,
+        "keynote": "Perversion",
+        "polarity": "YANG",
+        "linePosition": "development-inner",
+        "exaltPlanets": [],
+        "detriPlanets": [
+          "Uranus"
+        ],
+        "exaltDescs": [],
+        "detriDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "A genius for perverse stimulation that afflicts oneself and others by promoting degeneracy and reducing joy to indulgence and decadence"
+          }
+        ],
+        "hasExalt": false,
+        "hasDetri": true,
+        "anomaly": true
+      },
+      {
+        "line": 3,
+        "keynote": "Electricity",
+        "polarity": "YIN",
+        "linePosition": "completion-inner",
+        "exaltPlanets": [
+          "Uranus"
+        ],
+        "detriPlanets": [
+          "Mars"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Uranus",
+            "desc": "The individual whose electric vitality creates its own stimulation and is not dependent on others"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mars",
+            "desc": "The quality of fire is dependent on its fuel and subject to its influence, good or bad"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 4,
+        "keynote": "Focussing",
+        "polarity": "YANG",
+        "linePosition": "entry-outer",
+        "exaltPlanets": [
+          "Pluto"
+        ],
+        "detriPlanets": [
+          "Neptune"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Pluto",
+            "desc": "A natural specialization that when confronted with a multiplicity of stimulations will have no inner difficulty in focusing on the appropriate influence"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Neptune",
+            "desc": "An impressionability that becomes confused when confronted with a multiplicity of stimulations and in trying to accommodate all of it, becomes unstable"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 5,
+        "keynote": "Defence",
+        "polarity": "YANG",
+        "linePosition": "development-outer",
+        "exaltPlanets": [
+          "Moon"
+        ],
+        "detriPlanets": [
+          "Sun"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Moon",
+            "desc": "The natural and practical instinct to protect oneself regardless of temptations"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Sun",
+            "desc": "The assumption that the best defense is a good offense, that might allow strength of character to enjoy questionable stimulus without succumbing to it"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      },
+      {
+        "line": 6,
+        "keynote": "Carried away",
+        "polarity": "YIN",
+        "linePosition": "completion-outer",
+        "exaltPlanets": [
+          "Moon"
+        ],
+        "detriPlanets": [
+          "Mercury"
+        ],
+        "exaltDescs": [
+          {
+            "planet": "Moon",
+            "desc": "The tendency to practicality that while thoroughly enjoying external stimulation has the instinct to draw back when its independent integrity is threatened"
+          }
+        ],
+        "detriDescs": [
+          {
+            "planet": "Mercury",
+            "desc": "When its basic intelligence is effectively stimulated, its natural desire for attunement will lead it to identify so strongly with the stimulation that it is at risk of losing its identity"
+          }
+        ],
+        "hasExalt": true,
+        "hasDetri": true,
+        "anomaly": false
+      }
+    ],
+    "stats": {
+      "totalExalt": 5,
+      "totalDetri": 6,
+      "anomalies": 1
+    }
+  }
+}

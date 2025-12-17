@@ -1,0 +1,1045 @@
+{
+  "summary": {
+    "totalCrossZeroGates": 32,
+    "anomalyCount": 3,
+    "normalCount": 29
+  },
+  "anomalies": [
+    {
+      "gate": 54,
+      "gateName": "The Marrying Maiden",
+      "keynote": "Enlightenment Endarkenment",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Thunder",
+      "innerPosition": -3,
+      "outerPosition": 1,
+      "amplitude": 4,
+      "direction": "inward",
+      "centre": "Root",
+      "circuit": "Ego Circuit",
+      "exaltCount": 0,
+      "detriCount": 0,
+      "exaltPlanets": [],
+      "detriPlanets": [],
+      "exaltDescs": [],
+      "detriDescs": [],
+      "anomalyType": "ZERO_POINT"
+    },
+    {
+      "gate": 11,
+      "gateName": "Peace",
+      "keynote": "The Teacher",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Heaven",
+      "outerTrigram": "Earth",
+      "innerPosition": -4,
+      "outerPosition": 4,
+      "amplitude": 8,
+      "direction": "outward",
+      "centre": "Ajna",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 2,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon",
+        "Venus"
+      ],
+      "detriPlanets": [
+        "Sun"
+      ],
+      "exaltDescs": [
+        "The sage, that in the extreme, can teach harmony to the tone deaf.",
+        "The ability to reach out and attract the alienated"
+      ],
+      "detriDescs": [
+        "The Guru, whose most valued wisdom is intentionally limited to a few"
+      ],
+      "anomalyType": "MULTI_EXALT"
+    },
+    {
+      "gate": 25,
+      "gateName": "Innocence",
+      "keynote": "Survival",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Thunder",
+      "outerTrigram": "Heaven",
+      "innerPosition": 1,
+      "outerPosition": -4,
+      "amplitude": 5,
+      "direction": "outward",
+      "centre": "G",
+      "circuit": "Centering Circuit",
+      "exaltCount": 2,
+      "detriCount": 0,
+      "exaltPlanets": [
+        "Venus",
+        "Jupiter"
+      ],
+      "detriPlanets": [],
+      "exaltDescs": [
+        "The nature of true innocence can be maintained regardless of circumstances. The beauty of the rose in the garbage dump. Jupiter is also exalted. The highest principles even amongst the greatest decadence",
+        "The highest principles even amongst the greatest decadence."
+      ],
+      "detriDescs": [],
+      "anomalyType": "NO_DETRI"
+    }
+  ],
+  "allLine4": [
+    {
+      "gate": 54,
+      "gateName": "The Marrying Maiden",
+      "keynote": "Enlightenment Endarkenment",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Thunder",
+      "innerPosition": -3,
+      "outerPosition": 1,
+      "amplitude": 4,
+      "direction": "inward",
+      "centre": "Root",
+      "circuit": "Ego Circuit",
+      "exaltCount": 0,
+      "detriCount": 0,
+      "exaltPlanets": [],
+      "detriPlanets": [],
+      "exaltDescs": [],
+      "detriDescs": [],
+      "anomalyType": "ZERO_POINT"
+    },
+    {
+      "gate": 11,
+      "gateName": "Peace",
+      "keynote": "The Teacher",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Heaven",
+      "outerTrigram": "Earth",
+      "innerPosition": -4,
+      "outerPosition": 4,
+      "amplitude": 8,
+      "direction": "outward",
+      "centre": "Ajna",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 2,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon",
+        "Venus"
+      ],
+      "detriPlanets": [
+        "Sun"
+      ],
+      "exaltDescs": [
+        "The sage, that in the extreme, can teach harmony to the tone deaf.",
+        "The ability to reach out and attract the alienated"
+      ],
+      "detriDescs": [
+        "The Guru, whose most valued wisdom is intentionally limited to a few"
+      ],
+      "anomalyType": "MULTI_EXALT"
+    },
+    {
+      "gate": 25,
+      "gateName": "Innocence",
+      "keynote": "Survival",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Thunder",
+      "outerTrigram": "Heaven",
+      "innerPosition": 1,
+      "outerPosition": -4,
+      "amplitude": 5,
+      "direction": "outward",
+      "centre": "G",
+      "circuit": "Centering Circuit",
+      "exaltCount": 2,
+      "detriCount": 0,
+      "exaltPlanets": [
+        "Venus",
+        "Jupiter"
+      ],
+      "detriPlanets": [],
+      "exaltDescs": [
+        "The nature of true innocence can be maintained regardless of circumstances. The beauty of the rose in the garbage dump. Jupiter is also exalted. The highest principles even amongst the greatest decadence",
+        "The highest principles even amongst the greatest decadence."
+      ],
+      "detriDescs": [],
+      "anomalyType": "NO_DETRI"
+    },
+    {
+      "gate": 5,
+      "gateName": "Waiting",
+      "keynote": "The Hunter",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Heaven",
+      "outerTrigram": "Water",
+      "innerPosition": -4,
+      "outerPosition": 2,
+      "amplitude": 6,
+      "direction": "inward",
+      "centre": "Sacral",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Uranus"
+      ],
+      "detriPlanets": [
+        "Sun"
+      ],
+      "exaltDescs": [
+        "Waiting as a guarantee of survival. The creative genius to transform the most passive experience into active achievement"
+      ],
+      "detriDescs": [
+        "The vanity of a personality so strong that unwilling to hide behind a blind, threatens its very survival"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 6,
+      "gateName": "Conflict",
+      "keynote": "Triumph",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Water",
+      "outerTrigram": "Heaven",
+      "innerPosition": 2,
+      "outerPosition": -4,
+      "amplitude": 6,
+      "direction": "outward",
+      "centre": "Solar Plexus",
+      "circuit": "Defense Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Sun"
+      ],
+      "detriPlanets": [
+        "Pluto"
+      ],
+      "exaltDescs": [
+        "A position of natural and unchallengeable power. The charity and wisdom that must come with victory and the movement towards new horizons"
+      ],
+      "detriDescs": [
+        "The conqueror and purger"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 12,
+      "gateName": "Standstill",
+      "keynote": "The Prophet",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Earth",
+      "outerTrigram": "Heaven",
+      "innerPosition": 4,
+      "outerPosition": -4,
+      "amplitude": 8,
+      "direction": "outward",
+      "centre": "Throat",
+      "circuit": "Knowing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "exaltDescs": [
+        "The ability to foresee and plan for the end of standstill. The rousing of the stagnant for communal preparation"
+      ],
+      "detriDescs": [
+        "The voice in the wilderness"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 17,
+      "gateName": "Following",
+      "keynote": "The personnel manager",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Thunder",
+      "outerTrigram": "Lake",
+      "innerPosition": 1,
+      "outerPosition": -3,
+      "amplitude": 4,
+      "direction": "outward",
+      "centre": "Ajna",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Jupiter"
+      ],
+      "exaltDescs": [
+        "The ability to probe and discover the underlying motivation and resources of those who wish to follow"
+      ],
+      "detriDescs": [
+        "The overgenerous and often misguided acceptance of would-be followers, often with disastrous results"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 18,
+      "gateName": "Work on What Has Been Spoilt",
+      "keynote": "The incompetent",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Wind",
+      "outerTrigram": "Mountain",
+      "innerPosition": -1,
+      "outerPosition": 3,
+      "amplitude": 4,
+      "direction": "outward",
+      "centre": "Spleen",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "exaltDescs": [
+        "Given this negative position, survival through suffering"
+      ],
+      "detriDescs": [
+        "Indecision and anxiety and no escape from misfortune"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 19,
+      "gateName": "Approach",
+      "keynote": "The team player",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Earth",
+      "innerPosition": -3,
+      "outerPosition": 4,
+      "amplitude": 7,
+      "direction": "outward",
+      "centre": "Root",
+      "circuit": "Ego Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mars"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "exaltDescs": [
+        "The power and energy for outward activity and the ability to accept others as long as they can keep up. A driving force which can benefit the whole group"
+      ],
+      "detriDescs": [
+        "Attractive and cooperative but a tendency to dissatisfaction with the contribution of others"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 20,
+      "gateName": "Contemplation",
+      "keynote": "Application",
+      "polarity": "YIN",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Earth",
+      "outerTrigram": "Wind",
+      "innerPosition": 4,
+      "outerPosition": -1,
+      "amplitude": 5,
+      "direction": "inward",
+      "centre": "Throat",
+      "circuit": "Integration Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "exaltDescs": [
+        "The teacher whose students transcend him"
+      ],
+      "detriDescs": [
+        "A tendency to prefer theory to application"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 21,
+      "gateName": "Biting Through",
+      "keynote": "Strategy",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Thunder",
+      "outerTrigram": "Fire",
+      "innerPosition": 1,
+      "outerPosition": -2,
+      "amplitude": 3,
+      "direction": "outward",
+      "centre": "Heart",
+      "circuit": "Ego Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Earth"
+      ],
+      "exaltDescs": [
+        "Success in action through clarity"
+      ],
+      "detriDescs": [
+        "A tendency, when in the right to misjudge the power of one's opponents"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 22,
+      "gateName": "Grace",
+      "keynote": "Sensitivity",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Fire",
+      "outerTrigram": "Mountain",
+      "innerPosition": -2,
+      "outerPosition": 3,
+      "amplitude": 5,
+      "direction": "outward",
+      "centre": "Solar Plexus",
+      "circuit": "Knowing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Neptune"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "A mediumistic simplicity that rejects elaborate rituals"
+      ],
+      "detriDescs": [
+        "An over-reliance on the mechanics of style that can abort potentially significant relationships"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 26,
+      "gateName": "The Taming Power of the Great",
+      "keynote": "Censorship",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Heaven",
+      "outerTrigram": "Mountain",
+      "innerPosition": -4,
+      "outerPosition": 3,
+      "amplitude": 7,
+      "direction": "inward",
+      "centre": "Heart",
+      "circuit": "Ego Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Saturn"
+      ],
+      "exaltDescs": [
+        "The alteration of memory through elimination. The ability through censorship to save the collectivity from itself"
+      ],
+      "detriDescs": [
+        "The use of censorship to maintain the status quo; selective memory in fear of unrestrained consequences"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 31,
+      "gateName": "Influence",
+      "keynote": "Intent",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Mountain",
+      "outerTrigram": "Lake",
+      "innerPosition": 3,
+      "outerPosition": -3,
+      "amplitude": 6,
+      "direction": "outward",
+      "centre": "Throat",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The success of influence based on how it is perceived. Public acknowledgment of a nurturing and protective influence"
+      ],
+      "detriDescs": [
+        "Perceived ego aggrandizement and attempted manipulation"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 32,
+      "gateName": "Duration",
+      "keynote": "Right is might",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Wind",
+      "outerTrigram": "Thunder",
+      "innerPosition": -1,
+      "outerPosition": 1,
+      "amplitude": 2,
+      "direction": "outward",
+      "centre": "Spleen",
+      "circuit": "Ego Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Saturn"
+      ],
+      "exaltDescs": [
+        "Even in times of change certain underlying principles endure"
+      ],
+      "detriDescs": [
+        "Where Jupiter will establish right action in the larger social realm, Saturn's will lead to inner strength and endurance as long as it is not threatened from the outside"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 33,
+      "gateName": "Retreat",
+      "keynote": "Dignity",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Mountain",
+      "outerTrigram": "Heaven",
+      "innerPosition": 3,
+      "outerPosition": -4,
+      "amplitude": 7,
+      "direction": "outward",
+      "centre": "Throat",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Neptune"
+      ],
+      "exaltDescs": [
+        "A lack of turmoil in retreat. The underlying faith in resurrection that turns retreat into an opportunity for renewal and regeneration"
+      ],
+      "detriDescs": [
+        "Without the guiding light of resurrection, the inevitable dissolution that leads to degeneration"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 34,
+      "gateName": "Great Power",
+      "keynote": "Triumph",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Heaven",
+      "outerTrigram": "Thunder",
+      "innerPosition": -4,
+      "outerPosition": 1,
+      "amplitude": 5,
+      "direction": "inward",
+      "centre": "Sacral",
+      "circuit": "Centering Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The freedom in absolute victory to unlimited use of power. A tendency in victory to restrain excessive power in favour of more subtle and covert styles"
+      ],
+      "detriDescs": [
+        "Ego gratification in the unrestrained use of power with impunity, inevitably leading to abuse"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 35,
+      "gateName": "Progress",
+      "keynote": "Hunger",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Earth",
+      "outerTrigram": "Fire",
+      "innerPosition": 4,
+      "outerPosition": -2,
+      "amplitude": 6,
+      "direction": "inward",
+      "centre": "Throat",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The insatiable appetite for progress. Less severe. Symbolized by the phases of the Moon, the drive may be obsessive when the Moon is full, but like the fading of the Moon the obsession abates"
+      ],
+      "detriDescs": [
+        "The abuse of position to accumulate perks with the inevitable retribution from those unfairly deprived"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 36,
+      "gateName": "Darkening of the Light",
+      "keynote": "Espionage",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Fire",
+      "outerTrigram": "Earth",
+      "innerPosition": -2,
+      "outerPosition": 4,
+      "amplitude": 6,
+      "direction": "outward",
+      "centre": "Solar Plexus",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Moon"
+      ],
+      "exaltDescs": [
+        "The ability to prepare for and anticipate decline through the accumulation of secret or privileged information"
+      ],
+      "detriDescs": [
+        "The tendency in recognizing the strengths of the opposition to accept the inevitability of decline and rather than resist, to offer one's services to guarantee survival. The double agent"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 41,
+      "gateName": "Decrease",
+      "keynote": "Correction",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Mountain",
+      "innerPosition": -3,
+      "outerPosition": 3,
+      "amplitude": 6,
+      "direction": "outward",
+      "centre": "Root",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "exaltDescs": [
+        "Survival of the fittest and its eventual flourishing"
+      ],
+      "detriDescs": [
+        "The expenditure of energy on maintaining relationships rather than on correction. In times of decrease weak associations are shunned as costly, no matter how attractive"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 42,
+      "gateName": "Increase",
+      "keynote": "The middle man",
+      "polarity": "YIN",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Thunder",
+      "outerTrigram": "Wind",
+      "innerPosition": 1,
+      "outerPosition": -1,
+      "amplitude": 2,
+      "direction": "outward",
+      "centre": "Sacral",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "exaltDescs": [
+        "The quintessential manifestation of the mediator"
+      ],
+      "detriDescs": [
+        "Where the gift to establish and maintain relationships is ill-suited in this position to act in mediation where harmony must take a back seat to pragmatism"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 45,
+      "gateName": "Gathering Together",
+      "keynote": "Direction",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Earth",
+      "outerTrigram": "Lake",
+      "innerPosition": 4,
+      "outerPosition": -3,
+      "amplitude": 7,
+      "direction": "inward",
+      "centre": "Throat",
+      "circuit": "Ego Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The ability to focus the opportunity of gathering together for the service of higher principles"
+      ],
+      "detriDescs": [
+        "The tendency to try to influence the direction of a group action for personal benefit"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 46,
+      "gateName": "Pushing Upward",
+      "keynote": "Impact",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Wind",
+      "outerTrigram": "Earth",
+      "innerPosition": -1,
+      "outerPosition": 4,
+      "amplitude": 5,
+      "direction": "outward",
+      "centre": "G",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Pluto"
+      ],
+      "exaltDescs": [
+        "The ability, once recognized, to move rapidly from a position of obscurity to influence"
+      ],
+      "detriDescs": [
+        "A reaction in achievement that tends to bite off the hand that fed it"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 47,
+      "gateName": "Oppression",
+      "keynote": "Repression",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Water",
+      "outerTrigram": "Lake",
+      "innerPosition": 2,
+      "outerPosition": -3,
+      "amplitude": 5,
+      "direction": "outward",
+      "centre": "Ajna",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Saturn"
+      ],
+      "detriPlanets": [
+        "Moon"
+      ],
+      "exaltDescs": [
+        "The strength of identity that even in times of the most powerful oppression can maintain its resources and to some extent ensure their survival for the benefit of others"
+      ],
+      "detriDescs": [
+        "When robbed of its light, the Moon is lost in darkness; barely able to nourish itself, let alone others"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 48,
+      "gateName": "The Well",
+      "keynote": "Restructuring",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Wind",
+      "outerTrigram": "Water",
+      "innerPosition": -1,
+      "outerPosition": 2,
+      "amplitude": 3,
+      "direction": "outward",
+      "centre": "Spleen",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Sun"
+      ],
+      "detriPlanets": [
+        "Earth"
+      ],
+      "exaltDescs": [
+        "The good sense to take advantage of restriction on short term activity to assess the situation and restructure for long term goals that will facilitate development when activity resumes"
+      ],
+      "detriDescs": [
+        "A resistance to restructuring on speculation, with the tendency when activity resumes to have to do so anyway"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 53,
+      "gateName": "Development",
+      "keynote": "Assuredness",
+      "polarity": "YIN",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Mountain",
+      "outerTrigram": "Wind",
+      "innerPosition": 3,
+      "outerPosition": -1,
+      "amplitude": 4,
+      "direction": "inward",
+      "centre": "Root",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "exaltDescs": [
+        "The ability to maintain the strength of one's individuality in complex and often awkward situations, that ensure continued security and development"
+      ],
+      "detriDescs": [
+        "The persistent difficulty with embarrassing or awkward situations where normal emotional reactions may prove detrimental"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 55,
+      "gateName": "Abundance",
+      "keynote": "Assimilation",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Fire",
+      "outerTrigram": "Thunder",
+      "innerPosition": -2,
+      "outerPosition": 1,
+      "amplitude": 3,
+      "direction": "inward",
+      "centre": "Solar Plexus",
+      "circuit": "Knowing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The establishment of a framework that balances principles with energy and leads inevitably to expansion and prosperity"
+      ],
+      "detriDescs": [
+        "Boundless energy that knows no restraint"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 56,
+      "gateName": "The Wanderer",
+      "keynote": "Expediency",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Mountain",
+      "outerTrigram": "Fire",
+      "innerPosition": 3,
+      "outerPosition": -2,
+      "amplitude": 5,
+      "direction": "inward",
+      "centre": "Throat",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "exaltDescs": [
+        "The perfection of the superficial personality, that can mask, when essential, its true feelings to secure protection"
+      ],
+      "detriDescs": [
+        "Expedient behaviour whose price is a constant stressful alertness and nervous anxiety in fear of losing what has been gained"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 59,
+      "gateName": "Dispersion",
+      "keynote": "Brotherhood Sisterhood",
+      "polarity": "YIN",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Water",
+      "outerTrigram": "Wind",
+      "innerPosition": 2,
+      "outerPosition": -1,
+      "amplitude": 3,
+      "direction": "inward",
+      "centre": "Sacral",
+      "circuit": "Defense Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Venus"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "exaltDescs": [
+        "The dropping of barriers to union to establish a universal union"
+      ],
+      "detriDescs": [
+        "An intellectual understanding that is rarely put into action"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 60,
+      "gateName": "Limitation",
+      "keynote": "Resourcefulness",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Water",
+      "innerPosition": -3,
+      "outerPosition": 2,
+      "amplitude": 5,
+      "direction": "inward",
+      "centre": "Root",
+      "circuit": "Knowing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mercury"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "exaltDescs": [
+        "The reasoned and intelligent maximization of potential within limitations"
+      ],
+      "detriDescs": [
+        "A tendency in times of limitation to seek the inner meaning of the restriction rather than using its gifts to find a harmonic application within the limitation. The former leads to withdrawal and the latter to transcendence"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 63,
+      "gateName": "After Completion",
+      "keynote": "Memory",
+      "polarity": "YIN",
+      "gateType": "cross-zero-manifesting",
+      "innerTrigram": "Fire",
+      "outerTrigram": "Water",
+      "innerPosition": -2,
+      "outerPosition": 2,
+      "amplitude": 4,
+      "direction": "outward",
+      "centre": "Head",
+      "circuit": "Understanding Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mercury"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "The detailed accounting of the achievement process whose information base can prepare a new order for the future"
+      ],
+      "detriDescs": [
+        "A willingness to forget in the glow of victory, with a possible price to be paid later"
+      ],
+      "anomalyType": "NORMAL"
+    },
+    {
+      "gate": 64,
+      "gateName": "Before Completion",
+      "keynote": "Conviction",
+      "polarity": "YANG",
+      "gateType": "cross-zero-dematerialising",
+      "innerTrigram": "Water",
+      "outerTrigram": "Fire",
+      "innerPosition": 2,
+      "outerPosition": -2,
+      "amplitude": 4,
+      "direction": "outward",
+      "centre": "Head",
+      "circuit": "Sensing Circuit",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "exaltDescs": [
+        "Symbolized by its phases, the Moon is assured of transition convinced by its very process that it will triumph"
+      ],
+      "detriDescs": [
+        "Where force and energy alone cannot overcome doubt"
+      ],
+      "anomalyType": "NORMAL"
+    }
+  ]
+}

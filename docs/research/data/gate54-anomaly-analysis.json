@@ -1,0 +1,674 @@
+{
+  "gate": 54,
+  "name": "The Marrying Maiden",
+  "electromagnetic": {
+    "gateType": "cross-zero-manifesting",
+    "innerTrigram": {
+      "name": "Lake",
+      "position": -3,
+      "binary": "110",
+      "axis": "storage"
+    },
+    "outerTrigram": {
+      "name": "Thunder",
+      "position": 1,
+      "binary": "100",
+      "axis": "gates"
+    },
+    "vector": {
+      "from": -3,
+      "to": 1,
+      "amplitude": 4,
+      "direction": "inward",
+      "crossesZero": true
+    }
+  },
+  "lines": [
+    {
+      "line": 1,
+      "keynote": "Influence",
+      "polarity": "YANG",
+      "exaltation": [
+        {
+          "planet": "Pluto",
+          "description": {
+            "blackBook": "The ability to achieve influence through secret relationships, anywhere from the private adviser to the satanist",
+            "whiteBook": "Ambition energized through secret relationships which fuel influence."
+          }
+        }
+      ],
+      "detriment": [
+        {
+          "planet": "Venus",
+          "description": {
+            "blackBook": "A socially misguided insistence on formal recognition of a relationship, that in terms of influence, will diminish its power",
+            "whiteBook": "Ambition which demands formal recognition limiting influence."
+          }
+        }
+      ]
+    },
+    {
+      "line": 2,
+      "keynote": "Discretion",
+      "polarity": "YANG",
+      "exaltation": [
+        {
+          "planet": "Saturn",
+          "description": {
+            "blackBook": "The wisdom once a relationship is formally recognized to restrain the temptation to take advantage of past informal interactions",
+            "whiteBook": "The energy of restraint fuels ambition."
+          }
+        }
+      ],
+      "detriment": [
+        {
+          "planet": "Mars",
+          "description": {
+            "blackBook": "Recognition, in the formal sense, seen as a licence to take advantage of informal knowledge. A lack of loyalty",
+            "whiteBook": null
+          }
+        }
+      ]
+    },
+    {
+      "line": 3,
+      "keynote": "Covert interaction",
+      "polarity": "YIN",
+      "exaltation": [
+        {
+          "planet": "Pluto",
+          "description": {
+            "blackBook": "The ability when stymied in formal relationships to use secret or purely psychic channels, when it is the only resort",
+            "whiteBook": "The drive when blocked to use secret means to fuel ambition."
+          }
+        }
+      ],
+      "detriment": [
+        {
+          "planet": "Venus",
+          "description": {
+            "blackBook": "The insistence that formal channels, no matter how frustrating, can be overcome by the power of attraction",
+            "whiteBook": "The energy of ambition when blocked will fuel the power of attraction to overcome the obstacle."
+          }
+        }
+      ]
+    },
+    {
+      "line": 4,
+      "keynote": "Enlightenment Endarkenment",
+      "polarity": "YANG",
+      "exaltation": [],
+      "detriment": []
+    },
+    {
+      "line": 5,
+      "keynote": "Magnanimity",
+      "polarity": "YIN",
+      "exaltation": [
+        {
+          "planet": "Sun",
+          "description": {
+            "blackBook": "The natural authority and actualizing spirit, that in a position of power, can have genuine and fruitful relationships with the less advantaged. (As long as they are in service and make no demands.)",
+            "whiteBook": null
+          }
+        }
+      ],
+      "detriment": []
+    },
+    {
+      "line": 6,
+      "keynote": "Selectivity",
+      "polarity": "YIN",
+      "exaltation": [
+        {
+          "planet": "Saturn",
+          "description": {
+            "blackBook": "The ingrained responsibility, in terms of maintaining security and personal identity that will naturally restrict its relationships to ones that are mutually beneficial",
+            "whiteBook": "The energy to restrict relationships that hinder ambition."
+          }
+        }
+      ],
+      "detriment": [
+        {
+          "planet": "Jupiter",
+          "description": {
+            "blackBook": "A generally benefic and expansive nature that assumes that it can instill, what is otherwise missing in its partners. A waste of energy",
+            "whiteBook": "The waste of energy in maintaining relationships which hinder ambition."
+          }
+        }
+      ]
+    }
+  ],
+  "anomalies": {
+    "line4": {
+      "keynote": "Enlightenment/Endarkenment",
+      "status": "No exaltation, no detriment - UNIQUE in system",
+      "position": {
+        "linePosition": "entry-outer",
+        "positionMeaning": "Mode shift — crossing zero between domains",
+        "lineFunction": "Enlightenment Endarkenment — building at this position",
+        "shadow": "Failed transition across threshold"
+      }
+    },
+    "line5": {
+      "keynote": "Magnanimity",
+      "status": "Neptune exalted, no detriment",
+      "position": {
+        "linePosition": "development-outer",
+        "positionMeaning": "Development within matter domain at gate-in (matter gate) — having crossed zero",
+        "lineFunction": "Magnanimity — building at this position",
+        "shadow": "Losing direction during development"
+      }
+    }
+  },
+  "line4Comparison": [
+    {
+      "gate": 11,
+      "keynote": "The Teacher",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Heaven",
+      "outer": "Earth",
+      "exaltCount": 2,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon",
+        "Venus"
+      ],
+      "detriPlanets": [
+        "Sun"
+      ],
+      "anomaly": "YES"
+    },
+    {
+      "gate": 25,
+      "keynote": "Survival",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Thunder",
+      "outer": "Heaven",
+      "exaltCount": 2,
+      "detriCount": 0,
+      "exaltPlanets": [
+        "Venus",
+        "Jupiter"
+      ],
+      "detriPlanets": [],
+      "anomaly": "YES"
+    },
+    {
+      "gate": 54,
+      "keynote": "Enlightenment Endarkenment",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Lake",
+      "outer": "Thunder",
+      "exaltCount": 0,
+      "detriCount": 0,
+      "exaltPlanets": [],
+      "detriPlanets": [],
+      "anomaly": "YES"
+    },
+    {
+      "gate": 5,
+      "keynote": "The Hunter",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Heaven",
+      "outer": "Water",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Uranus"
+      ],
+      "detriPlanets": [
+        "Sun"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 6,
+      "keynote": "Triumph",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Water",
+      "outer": "Heaven",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Sun"
+      ],
+      "detriPlanets": [
+        "Pluto"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 12,
+      "keynote": "The Prophet",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Earth",
+      "outer": "Heaven",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 17,
+      "keynote": "The personnel manager",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Thunder",
+      "outer": "Lake",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Jupiter"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 18,
+      "keynote": "The incompetent",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Wind",
+      "outer": "Mountain",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 19,
+      "keynote": "The team player",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Lake",
+      "outer": "Earth",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mars"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 20,
+      "keynote": "Application",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Earth",
+      "outer": "Wind",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 21,
+      "keynote": "Strategy",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Thunder",
+      "outer": "Fire",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Earth"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 22,
+      "keynote": "Sensitivity",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Fire",
+      "outer": "Mountain",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Neptune"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 26,
+      "keynote": "Censorship",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Heaven",
+      "outer": "Mountain",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Saturn"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 31,
+      "keynote": "Intent",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Mountain",
+      "outer": "Lake",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 32,
+      "keynote": "Right is might",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Wind",
+      "outer": "Thunder",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Saturn"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 33,
+      "keynote": "Dignity",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Mountain",
+      "outer": "Heaven",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Neptune"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 34,
+      "keynote": "Triumph",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Heaven",
+      "outer": "Thunder",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 35,
+      "keynote": "Hunger",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Earth",
+      "outer": "Fire",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 36,
+      "keynote": "Espionage",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Fire",
+      "outer": "Earth",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Pluto"
+      ],
+      "detriPlanets": [
+        "Moon"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 41,
+      "keynote": "Correction",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Lake",
+      "outer": "Mountain",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 42,
+      "keynote": "The middle man",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Thunder",
+      "outer": "Wind",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 45,
+      "keynote": "Direction",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Earth",
+      "outer": "Lake",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 46,
+      "keynote": "Impact",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Wind",
+      "outer": "Earth",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Earth"
+      ],
+      "detriPlanets": [
+        "Pluto"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 47,
+      "keynote": "Repression",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Water",
+      "outer": "Lake",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Saturn"
+      ],
+      "detriPlanets": [
+        "Moon"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 48,
+      "keynote": "Restructuring",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Wind",
+      "outer": "Water",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Sun"
+      ],
+      "detriPlanets": [
+        "Earth"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 53,
+      "keynote": "Assuredness",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Mountain",
+      "outer": "Wind",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 55,
+      "keynote": "Assimilation",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Fire",
+      "outer": "Thunder",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Jupiter"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 56,
+      "keynote": "Expediency",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Mountain",
+      "outer": "Fire",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 59,
+      "keynote": "Brotherhood Sisterhood",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Water",
+      "outer": "Wind",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Venus"
+      ],
+      "detriPlanets": [
+        "Mercury"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 60,
+      "keynote": "Resourcefulness",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Lake",
+      "outer": "Water",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mercury"
+      ],
+      "detriPlanets": [
+        "Venus"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 63,
+      "keynote": "Memory",
+      "gateType": "cross-zero-manifesting",
+      "inner": "Fire",
+      "outer": "Water",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Mercury"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    },
+    {
+      "gate": 64,
+      "keynote": "Conviction",
+      "gateType": "cross-zero-dematerialising",
+      "inner": "Water",
+      "outer": "Fire",
+      "exaltCount": 1,
+      "detriCount": 1,
+      "exaltPlanets": [
+        "Moon"
+      ],
+      "detriPlanets": [
+        "Mars"
+      ],
+      "anomaly": ""
+    }
+  ]
+}

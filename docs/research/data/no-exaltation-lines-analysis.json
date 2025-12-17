@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "totalLines": 3,
+    "byGateType": {
+      "cross-zero-dematerialising": [
+        "47.6"
+      ],
+      "cross-zero-manifesting": [
+        "54.4"
+      ],
+      "doubled": [
+        "58.2"
+      ]
+    },
+    "byCentre": {
+      "Ajna": [
+        "47.6"
+      ],
+      "Root": [
+        "54.4",
+        "58.2"
+      ]
+    },
+    "byCircuit": {
+      "Sensing Circuit": [
+        "47.6"
+      ],
+      "Ego Circuit": [
+        "54.4"
+      ],
+      "Understanding Circuit": [
+        "58.2"
+      ]
+    },
+    "byLine": {
+      "2": [
+        "58.2"
+      ],
+      "4": [
+        "54.4"
+      ],
+      "6": [
+        "47.6"
+      ]
+    },
+    "byPlanet": {
+      "Sun": [
+        "47.6"
+      ],
+      "NONE": [
+        "54.4"
+      ],
+      "Uranus": [
+        "58.2"
+      ]
+    }
+  },
+  "lines": [
+    {
+      "gate": 47,
+      "line": 6,
+      "gateName": "Oppression",
+      "keynote": "Futility",
+      "polarity": "YIN",
+      "gateType": "cross-zero-dematerialising",
+      "centre": "Ajna",
+      "circuit": "Sensing Circuit",
+      "innerTrigram": "Water",
+      "outerTrigram": "Lake",
+      "innerPosition": 2,
+      "outerPosition": -3,
+      "linePosition": "completion-outer",
+      "positionMeaning": "Completion of void domain at capacitance (void storage) — having crossed zero",
+      "lineFunction": "Futility — building at this position",
+      "crossesZero": true,
+      "amplitude": 5,
+      "detriPlanets": [
+        "Sun"
+      ],
+      "detriDescriptions": [
+        {
+          "planet": "Sun",
+          "desc": "Where the strength of will alone may find a way to adapt and survive, but without hope of ever overcoming the oppression"
+        }
+      ]
+    },
+    {
+      "gate": 54,
+      "line": 4,
+      "gateName": "The Marrying Maiden",
+      "keynote": "Enlightenment Endarkenment",
+      "polarity": "YANG",
+      "gateType": "cross-zero-manifesting",
+      "centre": "Root",
+      "circuit": "Ego Circuit",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Thunder",
+      "innerPosition": -3,
+      "outerPosition": 1,
+      "linePosition": "entry-outer",
+      "positionMeaning": "Mode shift — crossing zero between domains",
+      "lineFunction": "Enlightenment Endarkenment — building at this position",
+      "crossesZero": true,
+      "amplitude": 4,
+      "detriPlanets": [],
+      "detriDescriptions": []
+    },
+    {
+      "gate": 58,
+      "line": 2,
+      "gateName": "The Joyous",
+      "keynote": "Perversion",
+      "polarity": "YANG",
+      "gateType": "doubled",
+      "centre": "Root",
+      "circuit": "Understanding Circuit",
+      "innerTrigram": "Lake",
+      "outerTrigram": "Lake",
+      "innerPosition": -3,
+      "outerPosition": -3,
+      "linePosition": "development-inner",
+      "positionMeaning": "Development within Lake standing wave at capacitance (void storage)",
+      "lineFunction": "Perversion — holding at this position",
+      "crossesZero": false,
+      "amplitude": 0,
+      "detriPlanets": [
+        "Uranus"
+      ],
+      "detriDescriptions": [
+        {
+          "planet": "Uranus",
+          "desc": "A genius for perverse stimulation that afflicts oneself and others by promoting degeneracy and reducing joy to indulgence and decadence"
+        }
+      ]
+    }
+  ]
+}

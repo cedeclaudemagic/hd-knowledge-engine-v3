@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "totalLines": 384,
+    "noExaltation": 3,
+    "multipleExaltations": 2,
+    "noDetriment": 7,
+    "multipleDetriments": 0,
+    "missingBoth": 1
+  },
+  "anomalies": {
+    "noExaltation": [
+      {
+        "gate": 47,
+        "line": 6,
+        "gateName": "Oppression",
+        "keynote": "Futility",
+        "polarity": "YIN",
+        "gateType": "cross-zero-dematerialising",
+        "centre": "Ajna",
+        "circuit": "Sensing Circuit",
+        "innerTrigram": "Water",
+        "outerTrigram": "Lake",
+        "innerPosition": 2,
+        "outerPosition": -3
+      },
+      {
+        "gate": 54,
+        "line": 4,
+        "gateName": "The Marrying Maiden",
+        "keynote": "Enlightenment Endarkenment",
+        "polarity": "YANG",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Root",
+        "circuit": "Ego Circuit",
+        "innerTrigram": "Lake",
+        "outerTrigram": "Thunder",
+        "innerPosition": -3,
+        "outerPosition": 1
+      },
+      {
+        "gate": 58,
+        "line": 2,
+        "gateName": "The Joyous",
+        "keynote": "Perversion",
+        "polarity": "YANG",
+        "gateType": "doubled",
+        "centre": "Root",
+        "circuit": "Understanding Circuit",
+        "innerTrigram": "Lake",
+        "outerTrigram": "Lake",
+        "innerPosition": -3,
+        "outerPosition": -3
+      }
+    ],
+    "noDetriment": [
+      {
+        "gate": 5,
+        "line": 6,
+        "gateName": "Waiting",
+        "keynote": "Yielding",
+        "polarity": "YIN",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Sacral",
+        "circuit": "Understanding Circuit",
+        "innerTrigram": "Heaven",
+        "outerTrigram": "Water",
+        "innerPosition": -4,
+        "outerPosition": 2
+      },
+      {
+        "gate": 25,
+        "line": 4,
+        "gateName": "Innocence",
+        "keynote": "Survival",
+        "polarity": "YANG",
+        "gateType": "cross-zero-dematerialising",
+        "centre": "G",
+        "circuit": "Centering Circuit",
+        "innerTrigram": "Thunder",
+        "outerTrigram": "Heaven",
+        "innerPosition": 1,
+        "outerPosition": -4
+      },
+      {
+        "gate": 37,
+        "line": 1,
+        "gateName": "The Family",
+        "keynote": "The Mother Father",
+        "polarity": "YANG",
+        "gateType": "same-phase-void",
+        "centre": "Solar Plexus",
+        "circuit": "Ego Circuit",
+        "innerTrigram": "Fire",
+        "outerTrigram": "Wind",
+        "innerPosition": -2,
+        "outerPosition": -1
+      },
+      {
+        "gate": 47,
+        "line": 5,
+        "gateName": "Oppression",
+        "keynote": "The saint",
+        "polarity": "YANG",
+        "gateType": "cross-zero-dematerialising",
+        "centre": "Ajna",
+        "circuit": "Sensing Circuit",
+        "innerTrigram": "Water",
+        "outerTrigram": "Lake",
+        "innerPosition": 2,
+        "outerPosition": -3
+      },
+      {
+        "gate": 54,
+        "line": 4,
+        "gateName": "The Marrying Maiden",
+        "keynote": "Enlightenment Endarkenment",
+        "polarity": "YANG",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Root",
+        "circuit": "Ego Circuit",
+        "innerTrigram": "Lake",
+        "outerTrigram": "Thunder",
+        "innerPosition": -3,
+        "outerPosition": 1
+      },
+      {
+        "gate": 54,
+        "line": 5,
+        "gateName": "The Marrying Maiden",
+        "keynote": "Magnanimity",
+        "polarity": "YIN",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Root",
+        "circuit": "Ego Circuit",
+        "innerTrigram": "Lake",
+        "outerTrigram": "Thunder",
+        "innerPosition": -3,
+        "outerPosition": 1
+      },
+      {
+        "gate": 57,
+        "line": 3,
+        "gateName": "The Gentle",
+        "keynote": "Acuteness",
+        "polarity": "YANG",
+        "gateType": "doubled",
+        "centre": "Spleen",
+        "circuit": "Integration Circuit",
+        "innerTrigram": "Wind",
+        "outerTrigram": "Wind",
+        "innerPosition": -1,
+        "outerPosition": -1
+      }
+    ],
+    "multipleExaltations": [
+      {
+        "gate": 11,
+        "line": 4,
+        "gateName": "Peace",
+        "keynote": "The Teacher",
+        "polarity": "YIN",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Ajna",
+        "circuit": "Sensing Circuit",
+        "innerTrigram": "Heaven",
+        "outerTrigram": "Earth",
+        "innerPosition": -4,
+        "outerPosition": 4,
+        "planets": [
+          "Moon",
+          "Venus"
+        ],
+        "descriptions": [
+          {
+            "planet": "Moon",
+            "description": "The sage, that in the extreme, can teach harmony to the tone deaf."
+          },
+          {
+            "planet": "Venus",
+            "description": "The ability to reach out and attract the alienated"
+          }
+        ]
+      },
+      {
+        "gate": 25,
+        "line": 4,
+        "gateName": "Innocence",
+        "keynote": "Survival",
+        "polarity": "YANG",
+        "gateType": "cross-zero-dematerialising",
+        "centre": "G",
+        "circuit": "Centering Circuit",
+        "innerTrigram": "Thunder",
+        "outerTrigram": "Heaven",
+        "innerPosition": 1,
+        "outerPosition": -4,
+        "planets": [
+          "Venus",
+          "Jupiter"
+        ],
+        "descriptions": [
+          {
+            "planet": "Venus",
+            "description": "The nature of true innocence can be maintained regardless of circumstances. The beauty of the rose in the garbage dump. Jupiter is also exalted. The highest principles even amongst the greatest decadence"
+          },
+          {
+            "planet": "Jupiter",
+            "description": "The highest principles even amongst the greatest decadence."
+          }
+        ]
+      }
+    ],
+    "multipleDetriments": [],
+    "missingBoth": [
+      {
+        "gate": 54,
+        "line": 4,
+        "gateName": "The Marrying Maiden",
+        "keynote": "Enlightenment Endarkenment",
+        "polarity": "YANG",
+        "gateType": "cross-zero-manifesting",
+        "centre": "Root",
+        "circuit": "Ego Circuit",
+        "innerTrigram": "Lake",
+        "outerTrigram": "Thunder",
+        "innerPosition": -3,
+        "outerPosition": 1
+      }
+    ]
+  }
+}
