@@ -249,7 +249,12 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 
 | Hypothesis | Test | Result |
 |------------|------|--------|
-| Nuclear trigrams explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=0.09, worse than baseline) |
+| Nuclear trigrams explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=0.09, no signal) |
+| Russell wave mechanics explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=-2.96, negative signal) |
+
+### Accepted Conclusion
+
+**The transformation layer is empirical data, not derivable structure.** Both derivation hypotheses have been rigorously tested and ruled out. The ~50% of the system that is not electromagnetically deterministic appears to be observed/channeled data about consciousness.
 
 ### The Core Insight
 
@@ -264,6 +269,7 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.4.0 | 2025-12-17 | Russell hypothesis tested and ruled out; empirical conclusion accepted |
 | 2.3.0 | 2025-12-17 | Added state-of-knowledge document, nuclear trigram hypothesis ruled out |
 | 2.2.0 | 2025-12-17 | Added predictive model research section, anomaly derivation, electromagnetic planet definitions |
 | 2.1.0 | 2025-12-17 | Added validation audit report and status section |
