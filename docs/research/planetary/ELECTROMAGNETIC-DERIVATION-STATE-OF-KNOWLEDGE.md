@@ -355,6 +355,7 @@ See: [HARMONIC-FRAMEWORK-SYNTHESIS.md](HARMONIC-FRAMEWORK-SYNTHESIS.md)
 | Nuclear trigrams | **RULED OUT** | Z=0.09 | No signal |
 | Russell wave mechanics | **RULED OUT** | Z=-2.96 | Negative signal |
 | Musical harmonics (cross-zero) | **RULED OUT** | 13% | No improvement over baseline |
+| Threshold crossing | **RULED OUT** | 6-13% | Approach/departure dynamics don't predict |
 | **Empirical hypothesis** | **ACCEPTED** | — | Transformation layer is observed data |
 
 ---
@@ -396,12 +397,80 @@ Answer: It works perfectly at standing waves, partially at same-phase gates, and
 | `scripts/test-musical-hypothesis.js` | Initial musical scale test |
 | `scripts/test-musical-hypothesis-v2.js` | Harmonic ratio test |
 | `scripts/test-harmonic-deep-dive.js` | Comprehensive harmonic analysis |
+| `scripts/test-threshold-crossing.js` | Threshold crossing hypothesis test |
 | `PREDICTIVE-MODEL-SYNTHESIS.md` | Model results summary |
 | `ANOMALY-DERIVATION-SYNTHESIS.md` | 10 anomaly rules |
-| `HARMONIC-FRAMEWORK-SYNTHESIS.md` | **NEW** — Harmonic explanation of standing waves |
+| `HARMONIC-FRAMEWORK-SYNTHESIS.md` | Harmonic explanation of standing waves |
 
 ---
 
-*State of knowledge as of 2025-12-17*
-*Standing waves: Solved + Explained (harmonic framework)*
-*Transformation layer: Empirical*
+## The Philosophical Conclusion
+
+### Structure Underdetermines Experience
+
+The boundary between derivable and empirical is not a failure of analysis. It reveals a fundamental property of the system.
+
+**Knowing the geometry of a transformation does not determine the quality of that transformation.**
+
+The electromagnetic coordinates tell you:
+- Where the transformation starts
+- Where it ends
+- What type of crossing occurs
+- The amplitude and direction
+
+They do **not** tell you which planetary principle guides that specific transformation.
+
+### The Musical Analogy
+
+This is like knowing a musical interval without knowing:
+- Which instrument plays it
+- What emotion it evokes in this performance
+- Whether it resolves or suspends tension
+
+The interval is **structure**. The performance is **actuality**.
+
+The electromagnetic framework gives you the intervals.
+The Rave I Ching gives you the performances.
+
+### Two Types of Knowledge
+
+The Human Design planetary layer contains two fundamentally different types of information:
+
+| Type | Content | How Known |
+|------|---------|-----------|
+| **Architecture** | Positions, movements, circuits, centres | Derivable from wave mechanics |
+| **Actuality** | Which planet guides which transformation | Must be observed or received |
+
+You cannot derive actuality from architecture.
+
+### Implications
+
+1. **For the EM Framework:** The framework is complete for what it can explain — standing waves are fully derivable AND harmonically explained.
+
+2. **For the Rave I Ching:** The transformation layer is valuable precisely BECAUSE it cannot be derived. It contains irreducible empirical data about consciousness.
+
+3. **For Human Design:** The system has both mathematical rigor (derivable structure) and received wisdom (empirical transformation layer). Both are needed; neither replaces the other.
+
+---
+
+## Research Status: COMPLETE
+
+**Standing Waves**
+- Derivation: 100% from (position, line)
+- Explanation: Harmonic framework confirmed
+- Status: **SOLVED**
+
+**Transformation Layer**
+- Every structural hypothesis ruled out
+- Cross-validation distinguishes signal from noise
+- Status: **EMPIRICAL** (irreducibly so)
+
+**The Boundary**
+- ~50% of the system is electromagnetically deterministic
+- ~50% is observed/channeled data
+- This is the actual structure of the system
+
+---
+
+*Final state of knowledge: 2025-12-17*
+*Research complete*

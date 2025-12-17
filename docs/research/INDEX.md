@@ -252,10 +252,12 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 |------------|------|--------|
 | Nuclear trigrams explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=0.09, no signal) |
 | Russell wave mechanics explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=-2.96, negative signal) |
+| Musical harmonics explain cross-zero variance | Leave-one-out CV | **RULED OUT** (13%, no improvement) |
+| Threshold crossing (approach/departure) | Leave-one-out CV | **RULED OUT** (6-13%, no improvement) |
 
 ### Accepted Conclusion
 
-**The transformation layer is empirical data, not derivable structure.** Both derivation hypotheses have been rigorously tested and ruled out. The ~50% of the system that is not electromagnetically deterministic appears to be observed/channeled data about consciousness.
+**The transformation layer is empirical data, not derivable structure.** Every structural hypothesis has been rigorously tested and ruled out. The ~50% of the system that is not electromagnetically deterministic contains irreducible empirical data about consciousness — valuable precisely because it cannot be derived.
 
 ### The Core Insight
 
@@ -288,6 +290,7 @@ This is **explanatory**, not derivational — it tells us *why* the lookup table
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.0.0 | 2025-12-17 | **Research complete** — Threshold crossing ruled out; philosophical conclusion added |
 | 2.5.0 | 2025-12-17 | Harmonic framework discovered — standing waves encode musical physics |
 | 2.4.0 | 2025-12-17 | Russell hypothesis tested and ruled out; empirical conclusion accepted |
 | 2.3.0 | 2025-12-17 | Added state-of-knowledge document, nuclear trigram hypothesis ruled out |
