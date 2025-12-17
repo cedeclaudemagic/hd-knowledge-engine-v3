@@ -240,9 +240,16 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 
 | Document | Description |
 |----------|-------------|
+| [ELECTROMAGNETIC-DERIVATION-STATE-OF-KNOWLEDGE.md](planetary/ELECTROMAGNETIC-DERIVATION-STATE-OF-KNOWLEDGE.md) | **Definitive state-of-knowledge document** — what's solved, what's ruled out, what's open |
 | [PREDICTIVE-MODEL-SYNTHESIS.md](planetary/PREDICTIVE-MODEL-SYNTHESIS.md) | Final model results and derived planet definitions |
 | [ANOMALY-DERIVATION-SYNTHESIS.md](planetary/ANOMALY-DERIVATION-SYNTHESIS.md) | 4 rules explaining all 10 anomalies |
 | [RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md](planetary/RESEARCH-PROPOSAL-electromagnetic-planet-definitions.md) | Original research proposal |
+
+### Ruled Out Hypotheses
+
+| Hypothesis | Test | Result |
+|------------|------|--------|
+| Nuclear trigrams explain cross-zero variance | Leave-one-out CV + permutation test | **RULED OUT** (Z=0.09, worse than baseline) |
 
 ### The Core Insight
 
@@ -257,6 +264,7 @@ The 47 doubled-gate exaltation planets can be perfectly predicted from (position
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.3.0 | 2025-12-17 | Added state-of-knowledge document, nuclear trigram hypothesis ruled out |
 | 2.2.0 | 2025-12-17 | Added predictive model research section, anomaly derivation, electromagnetic planet definitions |
 | 2.1.0 | 2025-12-17 | Added validation audit report and status section |
 | 2.0.0 | 2025-12-17 | Reorganized into domains with subdirectories |
