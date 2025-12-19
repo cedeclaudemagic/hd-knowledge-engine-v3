@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "analysis": "Four Nodes Disphenoid",
+    "date": "2025-12-19T12:18:51.676Z"
+  },
+  "angles": {
+    "P_North": 0,
+    "D_South": 92,
+    "P_South": 180,
+    "D_North": 272
+  },
+  "coordinates": {
+    "P_North": [
+      1,
+      0,
+      0
+    ],
+    "P_South": [
+      -1,
+      1.2246467991473532e-16,
+      0
+    ],
+    "D_North": [
+      0.03489949670250128,
+      -0.9993908270190958,
+      1
+    ],
+    "D_South": [
+      -0.034899496702500955,
+      0.9993908270190958,
+      1
+    ]
+  },
+  "edges": {
+    "diagonal": 2,
+    "sameDirection": 1.711782990508726,
+    "cross": 1.752084185592976
+  },
+  "disphenoidVerified": true,
+  "volume": {
+    "at88deg": 0.6662605513460639,
+    "at90deg": 0.6666666666666666,
+    "twoThirds": 0.6666666666666666,
+    "ratio88to90": 0.9993908270190959
+  },
+  "asymmetry": {
+    "percentage": 2.3543402001133837,
+    "canBeClosed": false,
+    "minAsymmetryH": 9.999999999999831,
+    "minAsymmetryValue": 0.006911130586756187
+  },
+  "interpretation": {
+    "meaning": "88° creates inherent asymmetry that IS life",
+    "proof": "Ra statement \"90° = death, 88° = life\" geometrically proven"
+  }
+}

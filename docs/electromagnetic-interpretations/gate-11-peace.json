@@ -1,0 +1,430 @@
+{
+  "gate": 11,
+  "gateName": "Peace",
+  "ichingName": "T'ai",
+  "chineseName": "泰",
+  "hdKeyword": "Ideas",
+  "generatedAt": "2025-12-17",
+  "version": "1.0.0",
+
+  "electromagnetic": {
+    "gateType": "cross-zero-manifesting",
+    "innerTrigram": {
+      "name": "Heaven",
+      "position": -4,
+      "binary": "111",
+      "axis": "poles",
+      "function": "Source"
+    },
+    "outerTrigram": {
+      "name": "Earth",
+      "position": 4,
+      "binary": "000",
+      "axis": "poles",
+      "function": "Sink"
+    },
+    "vector": {
+      "from": -4,
+      "to": 4,
+      "amplitude": 8,
+      "direction": "manifesting",
+      "crossesZero": true
+    },
+    "languageType": "transformation",
+    "transitionType": "mode-shift",
+    "significance": "Maximum amplitude crossing - full wave from Source to Sink"
+  },
+
+  "context": {
+    "centre": "Ajna",
+    "centreSignature": "storage-polar-output",
+    "circuits": ["Sensing Circuit"],
+    "circuitArchitecture": "oscillator",
+    "channels": [
+      {
+        "number": "11-56",
+        "name": "Curiosity",
+        "partnerGate": 56,
+        "partnerName": "The Wanderer",
+        "partnerType": "cross-zero-dematerialising",
+        "partnerVector": "+3 → -2",
+        "pairingType": "double-transformer",
+        "pairingDynamic": "Oscillating pair - manifesting ideas meet dissolving structures"
+      }
+    ]
+  },
+
+  "gateInterpretation": {
+    "emSummary": "Gate 11 spans the COMPLETE wave from pure potential (Heaven/-4) to pure form (Earth/+4). This is the most dramatic transformation possible in the 64 hexagrams - the full amplitude manifesting journey.",
+    "nameAnalysis": "The I-Ching names this 'Peace' because it represents the complete resolution of potential into form. When the source pole fully manifests into the sink pole, there is completion - nothing remains in tension.",
+    "channelDynamic": "With Gate 56 (dematerialising +3 → -2), creates an oscillating double-transformer. Ideas manifest then dissolve into new explorations - hence 'Curiosity'."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "linePosition": "entry-inner",
+      "trigramDomain": "inner",
+      "trigramName": "Heaven",
+      "trigramPosition": -4,
+      "polarity": "YANG",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Undertakings bring good fortune.",
+          "interpretation": "Interconnected potentials at Source come together"
+        },
+        "raUruHu": {
+          "keynote": "Attunement",
+          "exaltation": {
+            "planet": "Moon",
+            "blackBook": "The serendipity of being in the right place at the right time. The nourishment derived from being with those who share the same goals and aspirations.",
+            "whiteBook": "The gift of finding those who will value your ideas."
+          },
+          "detriment": {
+            "planet": "Mars",
+            "blackBook": "The fear of anonymity.",
+            "whiteBook": "The sense that no one will value their ideas."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "First contact with the Source pole - entry to the field of pure potential",
+        "lineFunction": "Tuning to the field of connected potentials before selecting what to manifest",
+        "emKeynote": "First contact with the field of connected potentials",
+        "shadow": "Force (Mars) disrupts attunement to potential"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "STRONG",
+          "analysis": "The image of interconnected roots directly maps to the electromagnetic principle that the Source pole contains undifferentiated but connected potentials."
+        },
+        "ra_em": {
+          "rating": "STRONG",
+          "analysis": "'Attunement' describes the entry-level task: tuning to the field of potential before selecting what to manifest."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Moon exalted (receptive timing at Source), Mars detriment (force disrupts attunement to potential)."
+        }
+      }
+    },
+    {
+      "line": 2,
+      "linePosition": "development-inner",
+      "trigramDomain": "inner",
+      "trigramName": "Heaven",
+      "trigramPosition": -4,
+      "polarity": "YANG",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "Bearing with the uncultured in gentleness, fording the river with resolution, not neglecting what is distant, not regarding one's companions: thus one may manage to walk in the middle.",
+          "interpretation": "Expanding scope and tolerance before the great crossing"
+        },
+        "raUruHu": {
+          "keynote": "Rigour",
+          "exaltation": {
+            "planet": "Neptune",
+            "blackBook": "The recognition that without vigilance and risk, peace can lead to stagnation and collapse. The imagination applied to ensuring the understanding of achieved values.",
+            "whiteBook": "A sense of boredom overcome through the imagination."
+          },
+          "detriment": {
+            "planet": "Mars",
+            "blackBook": "The resorting to factionalism to satisfy the ego's need for action.",
+            "whiteBook": "Provoking with ideas to escape boredom."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "Development within the Source pole - building capacity before threshold crossing",
+        "lineFunction": "Expanding the range and tolerance of what potential can hold",
+        "emKeynote": "Expanding the scope of potential before the great crossing",
+        "shadow": "Factional action (Mars) fragments what must remain unified"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "STRONG",
+          "analysis": "The emphasis on breadth and tolerance directly supports building capacity at Source before the full-amplitude crossing."
+        },
+        "ra_em": {
+          "rating": "MODERATE",
+          "analysis": "'Rigour' partially fits - development requires discipline. But the EM frame emphasises expansion, while Ra emphasises vigilance against stagnation. Different emphases, same direction."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Neptune exalted (imagination expands potential), Mars detriment (factional action fragments what must remain unified)."
+        }
+      },
+
+      "flags": ["MODERATE_TENSION - Ra emphasises vigilance while EM emphasises expansion"]
+    },
+    {
+      "line": 3,
+      "linePosition": "completion-inner",
+      "trigramDomain": "inner",
+      "trigramName": "Heaven",
+      "trigramPosition": -4,
+      "polarity": "YANG",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "No plain not followed by a slope. No going not followed by a return. He who remains persevering in danger is without blame. Do not complain about this truth; enjoy the good fortune you still possess.",
+          "interpretation": "Peak of potential accepting the inevitability of manifestation"
+        },
+        "raUruHu": {
+          "keynote": "The Realist",
+          "exaltation": {
+            "planet": "Pluto",
+            "blackBook": "The acknowledgment that peace is transitory. The internal renewal to maintain strength and alertness.",
+            "whiteBook": "The realization that ideas come and go."
+          },
+          "detriment": {
+            "planet": "Venus",
+            "blackBook": "The tendency to appreciate harmony to the point of delusion. The belief that beauty is eternal. Fiddling while Rome burns.",
+            "whiteBook": "A pleasure in ideas that have no real application."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "Completion of the inner trigram - peak of origin domain before zero-crossing",
+        "lineFunction": "Maximum development at Source, accepting that the crossing is inevitable",
+        "emKeynote": "The peak of potential, accepting the inevitability of manifestation",
+        "shadow": "Attachment to harmony (Venus) prevents necessary transformation"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "EXCELLENT",
+          "analysis": "The text precisely describes the pre-threshold moment: potential cannot remain potential forever. 'No plain not followed by a slope' - the crossing follows Source."
+        },
+        "ra_em": {
+          "rating": "EXCELLENT",
+          "analysis": "'The Realist' perfectly names the line-3 function: accepting that manifestation must occur."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Pluto exalted (transformation is inevitable, embrace it), Venus detriment (attachment to harmony prevents necessary change)."
+        }
+      }
+    },
+    {
+      "line": 4,
+      "linePosition": "entry-outer",
+      "trigramDomain": "outer",
+      "trigramName": "Earth",
+      "trigramPosition": 4,
+      "polarity": "YIN",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "He flutters down, not boasting of his wealth, together with his neighbor, guileless and sincere.",
+          "interpretation": "Humble arrival at manifest form"
+        },
+        "raUruHu": {
+          "keynote": "The Teacher",
+          "exaltation": {
+            "planets": ["Moon", "Venus"],
+            "blackBook": "The sage, that in the extreme, can teach harmony to the tone deaf. The ability to reach out and attract the alienated.",
+            "whiteBook": null
+          },
+          "detriment": {
+            "planet": "Sun",
+            "blackBook": "The Guru, whose most valued wisdom is intentionally limited to a few.",
+            "whiteBook": "Ideas which can only be grasped by the few."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "Entry to the outer trigram - first contact with destination domain after zero-crossing",
+        "lineFunction": "Arrival at Sink (+4), where manifested ideas can now be transmitted",
+        "emKeynote": "First contact with manifest form; humble arrival at the Sink",
+        "shadow": "Self-focused radiance (Sun) restricts transmission of form"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "EXCELLENT",
+          "analysis": "'Fluttering down' precisely describes energy arriving at Sink. The humility reflects that form is receptive, not assertive."
+        },
+        "ra_em": {
+          "rating": "STRONG",
+          "analysis": "'The Teacher' fits entry to manifest form: ideas that have crossed into form can now be transmitted to others. Teaching requires manifestation."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Moon/Venus exalted (receptive grace at Sink), Sun detriment (self-focused radiance restricts transmission)."
+        }
+      },
+
+      "flags": ["NOTE - Multiple planets in exaltation (Moon + Venus) - rare pattern suggesting rich expression"]
+    },
+    {
+      "line": 5,
+      "linePosition": "development-outer",
+      "trigramDomain": "outer",
+      "trigramName": "Earth",
+      "trigramPosition": 4,
+      "polarity": "YIN",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "The sovereign I gives his daughter in marriage. This brings blessing and supreme good fortune.",
+          "interpretation": "Development through relational distribution of form"
+        },
+        "raUruHu": {
+          "keynote": "The Philanthropist",
+          "exaltation": {
+            "planet": "Moon",
+            "blackBook": "The motiveless nurturing of the disenfranchised to ensure harmony.",
+            "whiteBook": "Philosophic and humanitarian ideas."
+          },
+          "detriment": {
+            "planet": "Mercury",
+            "blackBook": "The withdrawing from direct contact, where giving is a form of defence.",
+            "whiteBook": "Giving away ideas out of a sense of insecurity."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "Development within the outer trigram - building capacity in destination domain",
+        "lineFunction": "Developing the relational network of manifest form through distribution",
+        "emKeynote": "Developing form through relational distribution",
+        "shadow": "Mental withdrawal (Mercury) prevents relational development"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "STRONG",
+          "analysis": "Marriage/giving develops the relational network of manifest form. Form at Sink naturally distributes and connects."
+        },
+        "ra_em": {
+          "rating": "STRONG",
+          "analysis": "'Philanthropist' = one who gives form to others. Development at Sink is distributive."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Moon exalted (nurturing distribution), Mercury detriment (mental withdrawal prevents relational development)."
+        }
+      }
+    },
+    {
+      "line": 6,
+      "linePosition": "completion-outer",
+      "trigramDomain": "outer",
+      "trigramName": "Earth",
+      "trigramPosition": 4,
+      "polarity": "YIN",
+
+      "traditional": {
+        "iching": {
+          "wilhelm": "The wall falls back into the moat. Use no army now. Make your commands known within your own town. Perseverance brings humiliation.",
+          "interpretation": "Full manifestation recognizing its own transience"
+        },
+        "raUruHu": {
+          "keynote": "Adaptability",
+          "exaltation": {
+            "planet": "Neptune",
+            "blackBook": "The inner balance to accept transition. The innate awareness that all forms are transitory.",
+            "whiteBook": "The realization that ideas lead to change and are changeable."
+          },
+          "detriment": {
+            "planet": "Jupiter",
+            "blackBook": "Adaptability in its most negative manifestation. The speculator who profits at the expense of others in times of peace or war.",
+            "whiteBook": "The realization of what idea is of value in any situation."
+          }
+        }
+      },
+
+      "emInterpretation": {
+        "positionMeaning": "Completion of the outer trigram - full arrival at destination, gate completion",
+        "lineFunction": "Maximum manifestation at Sink (+4), recognizing that dissolution begins",
+        "emKeynote": "Full manifestation recognizing its own transience",
+        "shadow": "Exploitation (Jupiter) at completion disrupts natural dissolution"
+      },
+
+      "alignment": {
+        "iching_em": {
+          "rating": "EXCELLENT",
+          "analysis": "'The wall falls back into the moat' describes the principle that maximum form (+4) is inherently unstable - it must either distribute or dissolve."
+        },
+        "ra_em": {
+          "rating": "EXCELLENT",
+          "analysis": "'Adaptability' names the Line-6 wisdom: at completion, rigidity fails. The cycle will turn."
+        },
+        "planetaryLogic": {
+          "rating": "ALIGNED",
+          "analysis": "Neptune exalted (accepting transience), Jupiter detriment (expansion/profit at completion disrupts natural dissolution)."
+        }
+      }
+    }
+  ],
+
+  "patternAnalysis": {
+    "strongAlignments": [
+      {
+        "line": 1,
+        "pattern": "Interconnected potentials",
+        "note": "I-Ching 'ribbon grass' = EM 'clustered Source'"
+      },
+      {
+        "line": 3,
+        "pattern": "Pre-threshold acceptance",
+        "note": "All sources agree: manifestation is inevitable"
+      },
+      {
+        "line": 4,
+        "pattern": "Humble arrival",
+        "note": "'Fluttering down' = receptive entry to Sink"
+      },
+      {
+        "line": 6,
+        "pattern": "Transience at completion",
+        "note": "'Wall falls' = form cannot hold at maximum"
+      }
+    ],
+    "planetaryPatterns": {
+      "marsDetriment": {
+        "lines": [1, 2],
+        "analysis": "Mars appears in detriment twice in the inner trigram (Source). Force disrupts potential - especially harmful at -4."
+      },
+      "moonExaltation": {
+        "lines": [1, 4, 5],
+        "analysis": "Moon appears in exaltation three times - receptive timing supports the full manifesting journey, especially at entry points and distribution."
+      }
+    },
+    "flags": [
+      {
+        "line": 2,
+        "type": "MODERATE_TENSION",
+        "description": "Ra emphasises 'vigilance against stagnation' while EM emphasises 'expansion of scope' - different emphases, same direction"
+      },
+      {
+        "line": 4,
+        "type": "NOTE",
+        "description": "Multiple planets in exaltation (Moon + Venus) - rare pattern suggests rich expression at this position"
+      }
+    ]
+  },
+
+  "summary": {
+    "gateFunction": "Complete manifesting journey from Source (-4) to Sink (+4)",
+    "innerTrigramTheme": "Establishing, expanding, and completing potential",
+    "thresholdMeaning": "Total mode-shift from Heaven to Earth",
+    "outerTrigramTheme": "Arriving, distributing, and accepting transience of form",
+    "nameSignificance": "'Peace' reflects electromagnetic completion - when potential fully manifests, tension resolves. But Line 6 reminds us this peace is temporary."
+  },
+
+  "sources": {
+    "iching": "Wilhelm/Baynes translation via James DeKorne's Gnostic Book of Changes",
+    "raUruHu": "HD-Knowledge-Engine-V3 hd-traditional-gates mappings",
+    "emFramework": "EM-Series articles (docs/articles/EM-Series/)"
+  }
+}

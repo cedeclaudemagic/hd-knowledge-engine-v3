@@ -1,0 +1,74 @@
+{
+  "description": "Phase 5: Platonic Hierarchy Mapping",
+  "generated": "2025-12-19T08:53:45.720Z",
+  "platonicSolids": [
+    {
+      "name": "Tetrahedron",
+      "vertices": 4,
+      "edges": 6,
+      "faces": 4,
+      "faceType": "triangle",
+      "dual": "Tetrahedron"
+    },
+    {
+      "name": "Cube",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 6,
+      "faceType": "square",
+      "dual": "Octahedron"
+    },
+    {
+      "name": "Octahedron",
+      "vertices": 6,
+      "edges": 12,
+      "faces": 8,
+      "faceType": "triangle",
+      "dual": "Cube"
+    },
+    {
+      "name": "Dodecahedron",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 12,
+      "faceType": "pentagon",
+      "dual": "Icosahedron"
+    },
+    {
+      "name": "Icosahedron",
+      "vertices": 12,
+      "edges": 30,
+      "faces": 20,
+      "faceType": "triangle",
+      "dual": "Dodecahedron"
+    }
+  ],
+  "mappings": {
+    "tetrahedron": {
+      "vertices": 4,
+      "maps_to": "Bigrams/Pillars"
+    },
+    "cube": {
+      "vertices": 8,
+      "maps_to": "Trigrams",
+      "status": "PROVEN"
+    },
+    "octahedron": {
+      "vertices": 6,
+      "maps_to": "Lines"
+    },
+    "icosahedron": {
+      "vertices": 12,
+      "maps_to": "Profiles (phi-layer)"
+    },
+    "dodecahedron": {
+      "vertices": 20,
+      "faces": 12,
+      "maps_to": "Container / Profile faces"
+    }
+  },
+  "twoLevelArchitecture": {
+    "level1": "Binary/Skeleton: Tetrahedron, Cube, Octahedron",
+    "level2": "Phi/Flesh: Dodecahedron, Icosahedron"
+  }
+}

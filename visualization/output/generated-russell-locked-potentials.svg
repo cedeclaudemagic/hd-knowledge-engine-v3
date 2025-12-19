@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect id="background" width="100%" height="100%" fill="#151E25"/>
+  <g id="TITLE">
+    <text x="600" y="80"
+          font-family="Copperplate" font-size="18"
+          fill="#FFFFFF" text-anchor="middle">THE FORMULA OF LOCKED POTENTIALS</text>
+    <text x="600" y="105"
+          font-family="Copperplate-Light, Copperplate" font-size="12"
+          fill="#FFFFFF" text-anchor="middle" opacity="0.7">Walter Russell + I Ching Trigrams + Electromagnetic Phases</text>
+  </g>
+  <g id="AXES">
+    <!-- Vertical axis: Heaven-Earth (amplitude poles) -->
+    <line x1="768.3807102406395" y1="193.49300569503384" x2="431.61928975936064" y2="1006.5069943049662"
+          stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="8,4"/>
+
+    <!-- Horizontal axis: Fire-Water (zero crossing) -->
+    <line x1="160" y1="600" x2="1040" y2="600"
+          stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="4,4"/>
+
+    <!-- Labels for hemispheres -->
+    <text x="150" y="580"
+          font-family="Copperplate-Light, Copperplate" font-size="11"
+          fill="#4a8ac0" text-anchor="end">CHARGING</text>
+    <text x="150" y="600"
+          font-family="Copperplate-Light, Copperplate" font-size="9"
+          fill="#4a8ac0" text-anchor="end" opacity="0.7">Electric Domination</text>
+    <text x="150" y="615"
+          font-family="Copperplate-Light, Copperplate" font-size="8"
+          fill="#4a8ac0" text-anchor="end" opacity="0.5">Centripetal</text>
+
+    <text x="1050" y="580"
+          font-family="Copperplate-Light, Copperplate" font-size="11"
+          fill="#c07050" text-anchor="start">DISCHARGING</text>
+    <text x="1050" y="600"
+          font-family="Copperplate-Light, Copperplate" font-size="9"
+          fill="#c07050" text-anchor="start" opacity="0.7">Magnetic Domination</text>
+    <text x="1050" y="615"
+          font-family="Copperplate-Light, Copperplate" font-size="8"
+          fill="#c07050" text-anchor="start" opacity="0.5">Centrifugal</text>
+  </g>
+  <g id="ARC-BACKGROUNDS">
+    <path d="M 600.00 220.00
+               A 380 380 0 0 1 868.70 331.30
+               L 741.42 458.58
+               A 200 200 0 0 0 600.00 400.00
+               Z" fill="#4a9a6a" opacity="0.12"/>
+    <path d="M 331.30 331.30
+               A 380 380 0 0 1 600.00 220.00
+               L 600.00 400.00
+               A 200 200 0 0 0 458.58 458.58
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 220.00 600.00
+               A 380 380 0 0 1 331.30 331.30
+               L 458.58 458.58
+               A 200 200 0 0 0 400.00 600.00
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 868.70 331.30
+               A 380 380 0 0 1 980.00 600.00
+               L 800.00 600.00
+               A 200 200 0 0 0 741.42 458.58
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 331.30 868.70
+               A 380 380 0 0 1 220.00 600.00
+               L 400.00 600.00
+               A 200 200 0 0 0 458.58 741.42
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 980.00 600.00
+               A 380 380 0 0 1 868.70 868.70
+               L 741.42 741.42
+               A 200 200 0 0 0 800.00 600.00
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 868.70 868.70
+               A 380 380 0 0 1 600.00 980.00
+               L 600.00 800.00
+               A 200 200 0 0 0 741.42 741.42
+               Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 600.00 980.00
+               A 380 380 0 0 1 331.30 868.70
+               L 458.58 741.42
+               A 200 200 0 0 0 600.00 800.00
+               Z" fill="#fab414" opacity="0.12"/>
+  </g>
+  <g id="STRUCTURE">
+    <circle cx="600" cy="600" r="380" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+    <circle cx="600" cy="600" r="290" fill="none" stroke="#FFFFFF" stroke-width="0.3" stroke-dasharray="3,2"/>
+    <circle cx="600" cy="600" r="200" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+    <line x1="600.00" y1="400.00" x2="600.00" y2="220.00" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="741.42" y1="458.58" x2="868.70" y2="331.30" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="800.00" y1="600.00" x2="980.00" y2="600.00" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="741.42" y1="741.42" x2="868.70" y2="868.70" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="600.00" y1="800.00" x2="600.00" y2="980.00" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="458.58" y1="741.42" x2="331.30" y2="868.70" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="400.00" y1="600.00" x2="220.00" y2="600.00" stroke="#FFFFFF" stroke-width="0.3"/>
+    <line x1="458.58" y1="458.58" x2="331.30" y2="331.30" stroke="#FFFFFF" stroke-width="0.3"/>
+  </g>
+  <g id="ZERO-CENTER">
+    <!-- Zero point circle -->
+    <circle cx="600" cy="600" r="60" fill="none" stroke="#888888" stroke-width="2"/>
+    <circle cx="600" cy="600" r="8" fill="#888888"/>
+
+    <!-- Zero label -->
+    <text x="600" y="570"
+          font-family="Copperplate" font-size="24" font-weight="bold"
+          fill="#FFFFFF" text-anchor="middle">0̄</text>
+    <text x="600" y="645"
+          font-family="Copperplate-Light, Copperplate" font-size="10"
+          fill="#FFFFFF" text-anchor="middle" opacity="0.7">Motion-in-Inertia</text>
+    <text x="600" y="658"
+          font-family="Copperplate-Light, Copperplate" font-size="8"
+          fill="#FFFFFF" text-anchor="middle" opacity="0.5">Stillness</text>
+  </g>
+  <g id="POLE-INDICATORS">
+    <!-- SPHERE indicator at Heaven -->
+    <g id="SPHERE-INDICATOR">
+      <circle cx="756.90" cy="221.21" r="12" fill="#fab414"/>
+      <text x="756.90" y="199.21"
+            font-family="Copperplate" font-size="12"
+            fill="#fab414" text-anchor="middle">SPHERE</text>
+    </g>
+
+    <!-- CUBE indicator at Earth -->
+    <g id="CUBE-INDICATOR">
+      <rect x="433.10" y="968.79" width="20" height="20" fill="#4a9a6a"/>
+      <text x="443.10" y="1008.79"
+            font-family="Copperplate" font-size="12"
+            fill="#4a9a6a" text-anchor="middle">CUBE</text>
+    </g>
+  </g>
+  <g id="TRIGRAMS">
+  <g id="TRIGRAM-HEAVEN" data-trigram="Heaven" data-binary="111" data-russell="-4" data-side="void">
+    <g transform="translate(683.42, 398.59) rotate(22.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="11.200000000000001" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 693.76, 373.65)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Heaven</text>
+    <text transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 709.60, 335.40)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#4a9a6a" text-anchor="middle" dominant-baseline="middle">-4</text>
+    <text transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 723.38, 302.14)"
+        font-family="Copperplate" font-size="10"
+        fill="#4a9a6a" text-anchor="middle" dominant-baseline="middle" opacity="0.9">SOURCE / VOID</text>
+    <text transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 737.15, 268.88)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Maximum Expansion</text>
+  </g>
+  <g id="TRIGRAM-LAKE" data-trigram="Lake" data-binary="110" data-russell="-3" data-side="void">
+    <g transform="translate(516.58, 398.59) rotate(-22.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 506.24, 373.65)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Lake</text>
+    <text transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 490.40, 335.40)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">-3</text>
+    <text transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 476.62, 302.14)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">CAPACITANCE</text>
+    <text transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 462.85, 268.88)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Electric Field Storage</text>
+  </g>
+  <g id="TRIGRAM-FIRE" data-trigram="Fire" data-binary="101" data-russell="-2" data-side="void">
+    <g transform="translate(398.59, 516.58) rotate(-67.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="11.200000000000001" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 373.65, 506.24)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Fire</text>
+    <text transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 335.40, 490.40)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">-2</text>
+    <text transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 302.14, 476.62)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">VOLTAGE</text>
+    <text transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 268.88, 462.85)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Potential Difference</text>
+  </g>
+  <g id="TRIGRAM-WIND" data-trigram="Wind" data-binary="011" data-russell="-1" data-side="void">
+    <g transform="translate(801.41, 516.58) rotate(67.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="11.200000000000001" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 826.35, 506.24)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Wind</text>
+    <text transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 864.60, 490.40)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">-1</text>
+    <text transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 897.86, 476.62)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">GATE OUT</text>
+    <text transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 931.12, 462.85)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Field Sustained / Open</text>
+  </g>
+  <g id="TRIGRAM-THUNDER" data-trigram="Thunder" data-binary="100" data-russell="+1" data-side="matter">
+    <g transform="translate(398.59, 683.42) rotate(-112.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 373.65, 693.76)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Thunder</text>
+    <text transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 335.40, 709.60)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">+1</text>
+    <text transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 302.14, 723.38)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">GATE IN</text>
+    <text transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 268.88, 737.15)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Circuit Completing / Close</text>
+  </g>
+  <g id="TRIGRAM-WATER" data-trigram="Water" data-binary="010" data-russell="+2" data-side="matter">
+    <g transform="translate(801.41, 683.42) rotate(112.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="11.200000000000001" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 826.35, 693.76)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Water</text>
+    <text transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 864.60, 709.60)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">+2</text>
+    <text transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 897.86, 723.38)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">CURRENT</text>
+    <text transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 931.12, 737.15)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Charge Movement</text>
+  </g>
+  <g id="TRIGRAM-MOUNTAIN" data-trigram="Mountain" data-binary="001" data-russell="+3" data-side="matter">
+    <g transform="translate(683.42, 801.41) rotate(157.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="11.200000000000001" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 693.76, 826.35)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Mountain</text>
+    <text transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 709.60, 864.60)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle">+3</text>
+    <text transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 723.38, 897.86)"
+        font-family="Copperplate" font-size="10"
+        fill="#c07050" text-anchor="middle" dominant-baseline="middle" opacity="0.9">INDUCTANCE</text>
+    <text transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 737.15, 931.12)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Magnetic Field Storage</text>
+  </g>
+  <g id="TRIGRAM-EARTH" data-trigram="Earth" data-binary="000" data-russell="+4" data-side="matter">
+    <g transform="translate(516.58, 801.41) rotate(-157.5)" fill="#FFFFFF">
+    <rect x="-5.6000000000000005" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="2.8" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-1.2000000000000002" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="-5.6000000000000005" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+    <rect x="1" y="-5.2" width="4.6000000000000005" height="2.4000000000000004"/>
+  </g>
+    <text transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 506.24, 826.35)"
+        font-family="Copperplate" font-size="13"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Earth</text>
+    <text transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 490.40, 864.60)"
+        font-family="Copperplate" font-size="16" font-weight="bold"
+        fill="#fab414" text-anchor="middle" dominant-baseline="middle">+4</text>
+    <text transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 476.62, 897.86)"
+        font-family="Copperplate" font-size="10"
+        fill="#fab414" text-anchor="middle" dominant-baseline="middle" opacity="0.9">SINK / CARBON</text>
+    <text transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 462.85, 931.12)"
+        font-family="Copperplate-Light, Copperplate" font-size="9"
+        fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.7">Maximum Compression</text>
+  </g>
+  </g>
+  <g id="FOOTER">
+    <text x="600" y="1120"
+          font-family="Copperplate-Light, Copperplate" font-size="10"
+          fill="#FFFFFF" text-anchor="middle" opacity="0.5">"All energy is caused by a disturbance in inertia"</text>
+    <text x="600" y="1140"
+          font-family="Copperplate-Light, Copperplate" font-size="9"
+          fill="#FFFFFF" text-anchor="middle" opacity="0.4">— Walter Russell, The Universal One</text>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+{
+  "description": "Phase 4: Phi Investigation",
+  "generated": "2025-12-19T08:42:19.478Z",
+  "phiConstants": {
+    "phi": 1.618033988749895,
+    "phiInv": 0.6180339887498948,
+    "phiSq": 2.618033988749895,
+    "goldenAngle": 137.50776405003785
+  },
+  "phiDivisions": [
+    {
+      "n": 1,
+      "value": 237.3250516799596,
+      "nearest": 237,
+      "deviation": 0.32505167995961415,
+      "deviationPct": "0.14",
+      "meaning": ""
+    },
+    {
+      "n": 2,
+      "value": 146.6749483200404,
+      "nearest": 147,
+      "deviation": 0.32505167995961415,
+      "deviationPct": "0.22",
+      "meaning": ""
+    },
+    {
+      "n": 3,
+      "value": 90.65010335991924,
+      "nearest": 91,
+      "deviation": 0.3498966400807575,
+      "deviationPct": "0.38",
+      "meaning": ""
+    },
+    {
+      "n": 4,
+      "value": 56.02484496012113,
+      "nearest": 56,
+      "deviation": 0.024844960121129134,
+      "deviationPct": "0.04",
+      "meaning": "56 = non-standing-wave gates!"
+    },
+    {
+      "n": 5,
+      "value": 34.6252583997981,
+      "nearest": 35,
+      "deviation": 0.37474160020190084,
+      "deviationPct": "1.07",
+      "meaning": ""
+    },
+    {
+      "n": 6,
+      "value": 21.399586560323023,
+      "nearest": 21,
+      "deviation": 0.39958656032302287,
+      "deviationPct": "1.90",
+      "meaning": "21 = Fibonacci number"
+    },
+    {
+      "n": 7,
+      "value": 13.22567183947508,
+      "nearest": 13,
+      "deviation": 0.22567183947507985,
+      "deviationPct": "1.74",
+      "meaning": "13 = Fibonacci number"
+    },
+    {
+      "n": 8,
+      "value": 8.173914720847941,
+      "nearest": 8,
+      "deviation": 0.17391472084794124,
+      "deviationPct": "2.17",
+      "meaning": "8 = standing waves / Fibonacci"
+    },
+    {
+      "n": 9,
+      "value": 5.051757118627136,
+      "nearest": 5,
+      "deviation": 0.051757118627135945,
+      "deviationPct": "1.04",
+      "meaning": "5 = Fibonacci number"
+    },
+    {
+      "n": 10,
+      "value": 3.122157602220805,
+      "nearest": 3,
+      "deviation": 0.12215760222080485,
+      "deviationPct": "4.07",
+      "meaning": "3 = Fibonacci number"
+    }
+  ],
+  "mercuryVenus": {
+    "mercury": 87.97,
+    "venus": 224.7,
+    "ratio": 0.3914997774810859,
+    "phiSqInv": 0.38196601125010515
+  },
+  "standingWaveGaps": [
+    9,
+    5,
+    9,
+    9,
+    9,
+    5,
+    9,
+    9
+  ],
+  "conclusion": "Phi appears at structural seams, not in core cube geometry"
+}

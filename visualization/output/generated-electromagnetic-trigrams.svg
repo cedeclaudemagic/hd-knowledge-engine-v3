@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896.1523" height="896.6787" viewBox="0 0 896.1523 896.6787">
+  <rect id="background" width="100%" height="100%" fill="#151E25"/>
+  <g id="FLOW-BAND">
+    <circle cx="448.0762" cy="448.3394" r="405"
+              fill="none" stroke="#FFFFFF" stroke-width="8" opacity="0.08"/>
+    <g id="ACCUMULATION-DIRECTION">
+      <polygon points="0,-8 5,4 -5,4"
+               transform="translate(853.0762, 448.3394) rotate(-45)"
+               fill="#4a7ab0"/>
+      <text transform="translate(873.0762, 448.3394) rotate(0)"
+            font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+            fill="#4a7ab0" text-anchor="start" dominant-baseline="middle">ACCUMULATION</text>
+    </g>
+    <g id="EXPRESSION-DIRECTION">
+      <polygon points="0,-8 5,4 -5,4"
+               transform="translate(43.0762, 448.3394) rotate(135)"
+               fill="#c07050"/>
+      <text transform="translate(23.0762, 448.3394) rotate(0)"
+            font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+            fill="#c07050" text-anchor="end" dominant-baseline="middle">EXPRESSION</text>
+    </g>
+    <circle cx="603.0630" cy="74.1682" r="4"
+              fill="#fab414"/>
+    <circle cx="293.0894" cy="822.5106" r="4"
+              fill="#4a9a6a"/>
+  </g>
+  <g id="ARC-INDICATORS">
+    <path d="M 448.0762 68.3394
+             A 380 380 0 0 1 716.7768 179.6388
+             L 674.3504 222.0652
+             A 320 320 0 0 0 448.0762 128.3394
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 179.3756 179.6388
+             A 380 380 0 0 1 448.0762 68.3394
+             L 448.0762 128.3394
+             A 320 320 0 0 0 221.8020 222.0652
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 68.0762 448.3394
+             A 380 380 0 0 1 179.3756 179.6388
+             L 221.8020 222.0652
+             A 320 320 0 0 0 128.0762 448.3394
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 179.3756 717.0400
+             A 380 380 0 0 1 68.0762 448.3394
+             L 128.0762 448.3394
+             A 320 320 0 0 0 221.8020 674.6136
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 448.0762 828.3394
+             A 380 380 0 0 1 179.3756 717.0400
+             L 221.8020 674.6136
+             A 320 320 0 0 0 448.0762 768.3394
+             Z" fill="#4a9a6a" opacity="0.12"/>
+    <path d="M 716.7768 717.0400
+             A 380 380 0 0 1 448.0762 828.3394
+             L 448.0762 768.3394
+             A 320 320 0 0 0 674.3504 674.6136
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 828.0762 448.3394
+             A 380 380 0 0 1 716.7768 717.0400
+             L 674.3504 674.6136
+             A 320 320 0 0 0 768.0762 448.3394
+             Z" fill="#c07050" opacity="0.12"/>
+    <path d="M 716.7768 179.6388
+             A 380 380 0 0 1 828.0762 448.3394
+             L 768.0762 448.3394
+             A 320 320 0 0 0 674.3504 222.0652
+             Z" fill="#c07050" opacity="0.12"/>
+  </g>
+  <g id="STRUCTURE">
+    <circle id="RING-OUTER" cx="448.0762" cy="448.3394" r="380" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+    <circle id="RING-INNER" cx="448.0762" cy="448.3394" r="320" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+    <circle id="RING-MID" cx="448.0762" cy="448.3394" r="350" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-dasharray="2,2"/>
+  </g>
+  <g id="DIVIDERS">
+    <line x1="448.0762" y1="128.3394" x2="448.0762" y2="68.3394" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="674.3504" y1="222.0652" x2="716.7768" y2="179.6388" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="768.0762" y1="448.3394" x2="828.0762" y2="448.3394" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="674.3504" y1="674.6136" x2="716.7768" y2="717.0400" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="448.0762" y1="768.3394" x2="448.0762" y2="828.3394" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="221.8020" y1="674.6136" x2="179.3756" y2="717.0400" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="128.0762" y1="448.3394" x2="68.0762" y2="448.3394" stroke="#FFFFFF" stroke-width="0.4"/>
+    <line x1="221.8020" y1="222.0652" x2="179.3756" y2="179.6388" stroke="#FFFFFF" stroke-width="0.4"/>
+  </g>
+  <g id="TRIGRAMS">
+  <g id="TRIGRAM-HEAVEN" data-trigram="Heaven" data-binary="111" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-HEAVEN">
+      <g transform="translate(576.2751, 138.8398) rotate(22.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="14.4" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-HEAVEN"
+      transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 580.1020, 129.6010)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Heaven</text>
+    <text id="EM-PHASE-HEAVEN"
+      transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 586.6076, 113.8950)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">SOURCE</text>
+    <text id="EM-KEYWORD-HEAVEN"
+      transform="matrix(0.9239, 0.3827, -0.3827, 0.9239, 589.6691, 106.5040)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Emanation</text>
+  </g>
+  <g id="TRIGRAM-LAKE" data-trigram="Lake" data-binary="110" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-LAKE">
+      <g transform="translate(319.8773, 138.8398) rotate(-22.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-6.525" width="5.85" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-LAKE"
+      transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 316.0504, 129.6010)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Lake</text>
+    <text id="EM-PHASE-LAKE"
+      transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 309.5448, 113.8950)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">CAPACITANCE</text>
+    <text id="EM-KEYWORD-LAKE"
+      transform="matrix(0.9239, -0.3827, 0.3827, 0.9239, 306.4833, 106.5040)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Electric Storage</text>
+  </g>
+  <g id="TRIGRAM-FIRE" data-trigram="Fire" data-binary="101" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-FIRE">
+      <g transform="translate(138.5766, 320.1405) rotate(-67.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="14.4" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-FIRE"
+      transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 129.3378, 316.3136)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Fire</text>
+    <text id="EM-PHASE-FIRE"
+      transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 113.6318, 309.8080)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">VOLTAGE</text>
+    <text id="EM-KEYWORD-FIRE"
+      transform="matrix(0.3827, -0.9239, 0.9239, 0.3827, 106.2408, 306.7465)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Potential Difference</text>
+  </g>
+  <g id="TRIGRAM-THUNDER" data-trigram="Thunder" data-binary="100" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-THUNDER">
+      <g transform="translate(138.5766, 576.5383) rotate(-112.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-6.525" width="5.85" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-THUNDER"
+      transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 129.3378, 580.3652)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Thunder</text>
+    <text id="EM-PHASE-THUNDER"
+      transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 113.6318, 586.8708)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">CLOSE / ON</text>
+    <text id="EM-KEYWORD-THUNDER"
+      transform="matrix(-0.3827, -0.9239, 0.9239, -0.3827, 106.2408, 589.9323)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Circuit Completing</text>
+  </g>
+  <g id="TRIGRAM-EARTH" data-trigram="Earth" data-binary="000" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-EARTH">
+      <g transform="translate(319.8773, 757.8390) rotate(-157.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="5.85" height="3.15"/>
+    <rect x="1.35" y="3.375" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-6.525" width="5.85" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-EARTH"
+      transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 316.0504, 767.0778)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Earth</text>
+    <text id="EM-PHASE-EARTH"
+      transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 309.5448, 782.7838)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#4a9a6a"
+      text-anchor="middle"
+      dominant-baseline="middle">SINK</text>
+    <text id="EM-KEYWORD-EARTH"
+      transform="matrix(-0.9239, -0.3827, 0.3827, -0.9239, 306.4833, 790.1748)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Manifestation</text>
+  </g>
+  <g id="TRIGRAM-MOUNTAIN" data-trigram="Mountain" data-binary="001" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-MOUNTAIN">
+      <g transform="translate(576.2751, 757.8390) rotate(157.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="5.85" height="3.15"/>
+    <rect x="1.35" y="3.375" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-1.575" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="14.4" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-MOUNTAIN"
+      transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 580.1020, 767.0778)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Mountain</text>
+    <text id="EM-PHASE-MOUNTAIN"
+      transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 586.6076, 782.7838)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">INDUCTANCE</text>
+    <text id="EM-KEYWORD-MOUNTAIN"
+      transform="matrix(-0.9239, 0.3827, -0.3827, -0.9239, 589.6691, 790.1748)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Magnetic Storage</text>
+  </g>
+  <g id="TRIGRAM-WATER" data-trigram="Water" data-binary="010" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-WATER">
+      <g transform="translate(757.5758, 576.5383) rotate(112.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="5.85" height="3.15"/>
+    <rect x="1.35" y="3.375" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="5.85" height="3.15"/>
+    <rect x="1.35" y="-6.525" width="5.85" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-WATER"
+      transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 766.8146, 580.3652)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Water</text>
+    <text id="EM-PHASE-WATER"
+      transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 782.5206, 586.8708)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">CURRENT</text>
+    <text id="EM-KEYWORD-WATER"
+      transform="matrix(-0.3827, 0.9239, -0.9239, -0.3827, 789.9116, 589.9323)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Charge Movement</text>
+  </g>
+  <g id="TRIGRAM-WIND" data-trigram="Wind" data-binary="011" data-arc="undefined" data-cycle-position="undefined">
+    <g id="SYMBOL-WIND">
+      <g transform="translate(757.5758, 320.1405) rotate(67.5)" fill="#FFFFFF">
+    <rect x="-7.2" y="3.375" width="5.85" height="3.15"/>
+    <rect x="1.35" y="3.375" width="5.85" height="3.15"/>
+    <rect x="-7.2" y="-1.575" width="14.4" height="3.15"/>
+    <rect x="-7.2" y="-6.525" width="14.4" height="3.15"/>
+  </g>
+    </g>
+    <text id="TRADITIONAL-WIND"
+      transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 766.8146, 316.3136)"
+      font-family="Copperplate"
+      font-size="14"
+      fill="#FFFFFF"
+      text-anchor="middle"
+      dominant-baseline="middle">Wind</text>
+    <text id="EM-PHASE-WIND"
+      transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 782.5206, 309.8080)"
+      font-family="Copperplate"
+      font-size="11"
+      fill="#c07050"
+      text-anchor="middle"
+      dominant-baseline="middle">OPEN / OFF</text>
+    <text id="EM-KEYWORD-WIND"
+      transform="matrix(0.3827, 0.9239, -0.9239, 0.3827, 789.9116, 306.7465)"
+      font-family="Copperplate-Light, Copperplate"
+      font-size="9"
+      font-weight="300"
+      fill="#FFFFFF"
+      opacity="0.7"
+      text-anchor="middle"
+      dominant-baseline="middle">Field Sustained</text>
+  </g>
+  </g>
+</svg>

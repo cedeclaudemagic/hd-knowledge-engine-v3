@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "phase": "CTB-Phase-2",
+    "title": "Cube-Octahedron Duality",
+    "date": "2025-12-19T11:38:02.326Z"
+  },
+  "lines": {
+    "1": {
+      "name": "Line 1",
+      "direction": "+Z",
+      "octahedronVertex": [
+        0,
+        0,
+        1
+      ],
+      "theme": "Introspection / Foundation",
+      "role": "Investigator"
+    },
+    "2": {
+      "name": "Line 2",
+      "direction": "-Z",
+      "octahedronVertex": [
+        0,
+        0,
+        -1
+      ],
+      "theme": "Projection / Talent",
+      "role": "Hermit"
+    },
+    "3": {
+      "name": "Line 3",
+      "direction": "+Y",
+      "octahedronVertex": [
+        0,
+        1,
+        0
+      ],
+      "theme": "Adaptation / Bonds",
+      "role": "Martyr"
+    },
+    "4": {
+      "name": "Line 4",
+      "direction": "-Y",
+      "octahedronVertex": [
+        0,
+        -1,
+        0
+      ],
+      "theme": "Externalization / Friendship",
+      "role": "Opportunist"
+    },
+    "5": {
+      "name": "Line 5",
+      "direction": "+X",
+      "octahedronVertex": [
+        1,
+        0,
+        0
+      ],
+      "theme": "Universalization / Heresy",
+      "role": "Heretic"
+    },
+    "6": {
+      "name": "Line 6",
+      "direction": "-X",
+      "octahedronVertex": [
+        -1,
+        0,
+        0
+      ],
+      "theme": "Transition / Role Model",
+      "role": "Role Model"
+    }
+  },
+  "colors": {
+    "1": {
+      "name": "Color 1",
+      "design": "Fear",
+      "personality": "Security",
+      "dietary": "Consecutive/Alternating",
+      "triad": "Lower (Conditions)",
+      "hypothesizedFace": "+X"
+    },
+    "2": {
+      "name": "Color 2",
+      "design": "Hope",
+      "personality": "Uncertainty",
+      "dietary": "Open/Closed",
+      "triad": "Lower (Conditions)",
+      "hypothesizedFace": "-X"
+    },
+    "3": {
+      "name": "Color 3",
+      "design": "Desire",
+      "personality": "Thirst",
+      "dietary": "Hot/Cold",
+      "triad": "Lower (Conditions)",
+      "hypothesizedFace": "+Y"
+    },
+    "4": {
+      "name": "Color 4",
+      "design": "Guilt",
+      "personality": "Touch",
+      "dietary": "Calm/Nervous",
+      "triad": "Upper (Circumstance)",
+      "hypothesizedFace": "-Y"
+    },
+    "5": {
+      "name": "Color 5",
+      "design": "Innocence",
+      "personality": "Sound",
+      "dietary": "High/Low",
+      "triad": "Upper (Circumstance)",
+      "hypothesizedFace": "+Z"
+    },
+    "6": {
+      "name": "Color 6",
+      "design": "Shame",
+      "personality": "Light",
+      "dietary": "Direct/Indirect",
+      "triad": "Upper (Circumstance)",
+      "hypothesizedFace": "-Z"
+    }
+  },
+  "pairAnalysis": {
+    "pairs": [
+      {
+        "a": 1,
+        "b": 6,
+        "axis": "X-axis?"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "axis": "Y-axis?"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "axis": "Z-axis?"
+      }
+    ],
+    "scores": {
+      "1-6": {
+        "designOpposition": 0.6,
+        "personalityOpposition": 0.7,
+        "overall": 0.65,
+        "notes": "Internal/External orientation difference"
+      },
+      "2-5": {
+        "designOpposition": 0.4,
+        "personalityOpposition": 0.3,
+        "overall": 0.35,
+        "notes": "Weak thematic opposition"
+      },
+      "3-4": {
+        "designOpposition": 0.8,
+        "personalityOpposition": 0.5,
+        "overall": 0.65,
+        "notes": "Temporal direction opposition (future/past)"
+      }
+    },
+    "averageScore": 0.5499999999999999
+  },
+  "triadMapping": {
+    "lower": {
+      "colors": [
+        1,
+        2,
+        3
+      ],
+      "tetrahedron": "Void",
+      "character": "Internal drives"
+    },
+    "upper": {
+      "colors": [
+        4,
+        5,
+        6
+      ],
+      "tetrahedron": "Material",
+      "character": "External conditions"
+    }
+  },
+  "assessment": {
+    "cubeFaceHypothesis": "PARTIALLY_SUPPORTED",
+    "triadTetrahedraHypothesis": "STRONG_FIT",
+    "derivable": [
+      "6 positions",
+      "Lower/Upper = Void/Material"
+    ],
+    "empirical": [
+      "Specific Color meanings",
+      "Exact pair relationships"
+    ]
+  }
+}

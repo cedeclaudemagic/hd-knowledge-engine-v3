@@ -1,0 +1,2616 @@
+{
+  "description": "Phase 2: Wheel Traversal Through Cube Space",
+  "generated": "2025-12-19T08:22:24.145Z",
+  "wheelPath": [
+    {
+      "gate": 41,
+      "binary": "110001",
+      "inner": "110",
+      "outer": "001",
+      "innerName": "Lake",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": 3
+    },
+    {
+      "gate": 19,
+      "binary": "110000",
+      "inner": "110",
+      "outer": "000",
+      "innerName": "Lake",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 4
+    },
+    {
+      "gate": 13,
+      "binary": "101111",
+      "inner": "101",
+      "outer": "111",
+      "innerName": "Fire",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -4
+    },
+    {
+      "gate": 49,
+      "binary": "101110",
+      "inner": "101",
+      "outer": "110",
+      "innerName": "Fire",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": -3
+    },
+    {
+      "gate": 30,
+      "binary": "101101",
+      "inner": "101",
+      "outer": "101",
+      "innerName": "Fire",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -2
+    },
+    {
+      "gate": 55,
+      "binary": "101100",
+      "inner": "101",
+      "outer": "100",
+      "innerName": "Fire",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 1
+    },
+    {
+      "gate": 37,
+      "binary": "101011",
+      "inner": "101",
+      "outer": "011",
+      "innerName": "Fire",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -1
+    },
+    {
+      "gate": 63,
+      "binary": "101010",
+      "inner": "101",
+      "outer": "010",
+      "innerName": "Fire",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 2
+    },
+    {
+      "gate": 22,
+      "binary": "101001",
+      "inner": "101",
+      "outer": "001",
+      "innerName": "Fire",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": 3
+    },
+    {
+      "gate": 36,
+      "binary": "101000",
+      "inner": "101",
+      "outer": "000",
+      "innerName": "Fire",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 4
+    },
+    {
+      "gate": 25,
+      "binary": "100111",
+      "inner": "100",
+      "outer": "111",
+      "innerName": "Thunder",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -4
+    },
+    {
+      "gate": 17,
+      "binary": "100110",
+      "inner": "100",
+      "outer": "110",
+      "innerName": "Thunder",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": -3
+    },
+    {
+      "gate": 21,
+      "binary": "100101",
+      "inner": "100",
+      "outer": "101",
+      "innerName": "Thunder",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -2
+    },
+    {
+      "gate": 51,
+      "binary": "100100",
+      "inner": "100",
+      "outer": "100",
+      "innerName": "Thunder",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 1
+    },
+    {
+      "gate": 42,
+      "binary": "100011",
+      "inner": "100",
+      "outer": "011",
+      "innerName": "Thunder",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -1
+    },
+    {
+      "gate": 3,
+      "binary": "100010",
+      "inner": "100",
+      "outer": "010",
+      "innerName": "Thunder",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 2
+    },
+    {
+      "gate": 27,
+      "binary": "100001",
+      "inner": "100",
+      "outer": "001",
+      "innerName": "Thunder",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": 3
+    },
+    {
+      "gate": 24,
+      "binary": "100000",
+      "inner": "100",
+      "outer": "000",
+      "innerName": "Thunder",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 4
+    },
+    {
+      "gate": 2,
+      "binary": "000000",
+      "inner": "000",
+      "outer": "000",
+      "innerName": "Earth",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 4
+    },
+    {
+      "gate": 23,
+      "binary": "000001",
+      "inner": "000",
+      "outer": "001",
+      "innerName": "Earth",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": 3
+    },
+    {
+      "gate": 8,
+      "binary": "000010",
+      "inner": "000",
+      "outer": "010",
+      "innerName": "Earth",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 2
+    },
+    {
+      "gate": 20,
+      "binary": "000011",
+      "inner": "000",
+      "outer": "011",
+      "innerName": "Earth",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -1
+    },
+    {
+      "gate": 16,
+      "binary": "000100",
+      "inner": "000",
+      "outer": "100",
+      "innerName": "Earth",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 1
+    },
+    {
+      "gate": 35,
+      "binary": "000101",
+      "inner": "000",
+      "outer": "101",
+      "innerName": "Earth",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -2
+    },
+    {
+      "gate": 45,
+      "binary": "000110",
+      "inner": "000",
+      "outer": "110",
+      "innerName": "Earth",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": -3
+    },
+    {
+      "gate": 12,
+      "binary": "000111",
+      "inner": "000",
+      "outer": "111",
+      "innerName": "Earth",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -4
+    },
+    {
+      "gate": 15,
+      "binary": "001000",
+      "inner": "001",
+      "outer": "000",
+      "innerName": "Mountain",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 4
+    },
+    {
+      "gate": 52,
+      "binary": "001001",
+      "inner": "001",
+      "outer": "001",
+      "innerName": "Mountain",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": 3
+    },
+    {
+      "gate": 39,
+      "binary": "001010",
+      "inner": "001",
+      "outer": "010",
+      "innerName": "Mountain",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 2
+    },
+    {
+      "gate": 53,
+      "binary": "001011",
+      "inner": "001",
+      "outer": "011",
+      "innerName": "Mountain",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -1
+    },
+    {
+      "gate": 62,
+      "binary": "001100",
+      "inner": "001",
+      "outer": "100",
+      "innerName": "Mountain",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 1
+    },
+    {
+      "gate": 56,
+      "binary": "001101",
+      "inner": "001",
+      "outer": "101",
+      "innerName": "Mountain",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -2
+    },
+    {
+      "gate": 31,
+      "binary": "001110",
+      "inner": "001",
+      "outer": "110",
+      "innerName": "Mountain",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": -3
+    },
+    {
+      "gate": 33,
+      "binary": "001111",
+      "inner": "001",
+      "outer": "111",
+      "innerName": "Mountain",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -4
+    },
+    {
+      "gate": 7,
+      "binary": "010000",
+      "inner": "010",
+      "outer": "000",
+      "innerName": "Water",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 4
+    },
+    {
+      "gate": 4,
+      "binary": "010001",
+      "inner": "010",
+      "outer": "001",
+      "innerName": "Water",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": 3
+    },
+    {
+      "gate": 29,
+      "binary": "010010",
+      "inner": "010",
+      "outer": "010",
+      "innerName": "Water",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 2
+    },
+    {
+      "gate": 59,
+      "binary": "010011",
+      "inner": "010",
+      "outer": "011",
+      "innerName": "Water",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -1
+    },
+    {
+      "gate": 40,
+      "binary": "010100",
+      "inner": "010",
+      "outer": "100",
+      "innerName": "Water",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 1
+    },
+    {
+      "gate": 64,
+      "binary": "010101",
+      "inner": "010",
+      "outer": "101",
+      "innerName": "Water",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -2
+    },
+    {
+      "gate": 47,
+      "binary": "010110",
+      "inner": "010",
+      "outer": "110",
+      "innerName": "Water",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": -3
+    },
+    {
+      "gate": 6,
+      "binary": "010111",
+      "inner": "010",
+      "outer": "111",
+      "innerName": "Water",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -4
+    },
+    {
+      "gate": 46,
+      "binary": "011000",
+      "inner": "011",
+      "outer": "000",
+      "innerName": "Wind",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 4
+    },
+    {
+      "gate": 18,
+      "binary": "011001",
+      "inner": "011",
+      "outer": "001",
+      "innerName": "Wind",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": 3
+    },
+    {
+      "gate": 48,
+      "binary": "011010",
+      "inner": "011",
+      "outer": "010",
+      "innerName": "Wind",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 2
+    },
+    {
+      "gate": 57,
+      "binary": "011011",
+      "inner": "011",
+      "outer": "011",
+      "innerName": "Wind",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -1
+    },
+    {
+      "gate": 32,
+      "binary": "011100",
+      "inner": "011",
+      "outer": "100",
+      "innerName": "Wind",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 1
+    },
+    {
+      "gate": 50,
+      "binary": "011101",
+      "inner": "011",
+      "outer": "101",
+      "innerName": "Wind",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -2
+    },
+    {
+      "gate": 28,
+      "binary": "011110",
+      "inner": "011",
+      "outer": "110",
+      "innerName": "Wind",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": -3
+    },
+    {
+      "gate": 44,
+      "binary": "011111",
+      "inner": "011",
+      "outer": "111",
+      "innerName": "Wind",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -4
+    },
+    {
+      "gate": 1,
+      "binary": "111111",
+      "inner": "111",
+      "outer": "111",
+      "innerName": "Heaven",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -4
+    },
+    {
+      "gate": 43,
+      "binary": "111110",
+      "inner": "111",
+      "outer": "110",
+      "innerName": "Heaven",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": -3
+    },
+    {
+      "gate": 14,
+      "binary": "111101",
+      "inner": "111",
+      "outer": "101",
+      "innerName": "Heaven",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -2
+    },
+    {
+      "gate": 34,
+      "binary": "111100",
+      "inner": "111",
+      "outer": "100",
+      "innerName": "Heaven",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 1
+    },
+    {
+      "gate": 9,
+      "binary": "111011",
+      "inner": "111",
+      "outer": "011",
+      "innerName": "Heaven",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -1
+    },
+    {
+      "gate": 5,
+      "binary": "111010",
+      "inner": "111",
+      "outer": "010",
+      "innerName": "Heaven",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 2
+    },
+    {
+      "gate": 26,
+      "binary": "111001",
+      "inner": "111",
+      "outer": "001",
+      "innerName": "Heaven",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": 3
+    },
+    {
+      "gate": 11,
+      "binary": "111000",
+      "inner": "111",
+      "outer": "000",
+      "innerName": "Heaven",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 4
+    },
+    {
+      "gate": 10,
+      "binary": "110111",
+      "inner": "110",
+      "outer": "111",
+      "innerName": "Lake",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -4
+    },
+    {
+      "gate": 58,
+      "binary": "110110",
+      "inner": "110",
+      "outer": "110",
+      "innerName": "Lake",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": -3
+    },
+    {
+      "gate": 38,
+      "binary": "110101",
+      "inner": "110",
+      "outer": "101",
+      "innerName": "Lake",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -2
+    },
+    {
+      "gate": 54,
+      "binary": "110100",
+      "inner": "110",
+      "outer": "100",
+      "innerName": "Lake",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 1
+    },
+    {
+      "gate": 61,
+      "binary": "110011",
+      "inner": "110",
+      "outer": "011",
+      "innerName": "Lake",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -1
+    },
+    {
+      "gate": 60,
+      "binary": "110010",
+      "inner": "110",
+      "outer": "010",
+      "innerName": "Lake",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 2
+    }
+  ],
+  "innerPath3D": [
+    {
+      "position": 0,
+      "gate": 41,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 1,
+      "gate": 19,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 2,
+      "gate": 13,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 3,
+      "gate": 49,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 4,
+      "gate": 30,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 5,
+      "gate": 55,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 6,
+      "gate": 37,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 7,
+      "gate": 63,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 8,
+      "gate": 22,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 9,
+      "gate": 36,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 10,
+      "gate": 25,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 11,
+      "gate": 17,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 12,
+      "gate": 21,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 13,
+      "gate": 51,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 14,
+      "gate": 42,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 15,
+      "gate": 3,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 16,
+      "gate": 27,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 17,
+      "gate": 24,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 18,
+      "gate": 2,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 19,
+      "gate": 23,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 20,
+      "gate": 8,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 21,
+      "gate": 20,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 22,
+      "gate": 16,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 23,
+      "gate": 35,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 24,
+      "gate": 45,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 25,
+      "gate": 12,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 26,
+      "gate": 15,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 27,
+      "gate": 52,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 28,
+      "gate": 39,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 29,
+      "gate": 53,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 30,
+      "gate": 62,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 31,
+      "gate": 56,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 32,
+      "gate": 31,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 33,
+      "gate": 33,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 34,
+      "gate": 7,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 35,
+      "gate": 4,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 36,
+      "gate": 29,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 37,
+      "gate": 59,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 38,
+      "gate": 40,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 39,
+      "gate": 64,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 40,
+      "gate": 47,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 41,
+      "gate": 6,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 42,
+      "gate": 46,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 43,
+      "gate": 18,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 44,
+      "gate": 48,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 45,
+      "gate": 57,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 46,
+      "gate": 32,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 47,
+      "gate": 50,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 48,
+      "gate": 28,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 49,
+      "gate": 44,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 50,
+      "gate": 1,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 51,
+      "gate": 43,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 52,
+      "gate": 14,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 53,
+      "gate": 34,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 54,
+      "gate": 9,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 55,
+      "gate": 5,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 56,
+      "gate": 26,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 57,
+      "gate": 11,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 58,
+      "gate": 10,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 59,
+      "gate": 58,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 60,
+      "gate": 38,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 61,
+      "gate": 54,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 62,
+      "gate": 61,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 63,
+      "gate": 60,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "outerPath3D": [
+    {
+      "position": 0,
+      "gate": 41,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 1,
+      "gate": 19,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 2,
+      "gate": 13,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 3,
+      "gate": 49,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 4,
+      "gate": 30,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 5,
+      "gate": 55,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 6,
+      "gate": 37,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 7,
+      "gate": 63,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 8,
+      "gate": 22,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 9,
+      "gate": 36,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 10,
+      "gate": 25,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 11,
+      "gate": 17,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 12,
+      "gate": 21,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 13,
+      "gate": 51,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 14,
+      "gate": 42,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 15,
+      "gate": 3,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 16,
+      "gate": 27,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 17,
+      "gate": 24,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 18,
+      "gate": 2,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 19,
+      "gate": 23,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 20,
+      "gate": 8,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 21,
+      "gate": 20,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 22,
+      "gate": 16,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 23,
+      "gate": 35,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 24,
+      "gate": 45,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 25,
+      "gate": 12,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 26,
+      "gate": 15,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 27,
+      "gate": 52,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 28,
+      "gate": 39,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 29,
+      "gate": 53,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 30,
+      "gate": 62,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 31,
+      "gate": 56,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 32,
+      "gate": 31,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 33,
+      "gate": 33,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 34,
+      "gate": 7,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 35,
+      "gate": 4,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 36,
+      "gate": 29,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 37,
+      "gate": 59,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 38,
+      "gate": 40,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 39,
+      "gate": 64,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 40,
+      "gate": 47,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 41,
+      "gate": 6,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 42,
+      "gate": 46,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 43,
+      "gate": 18,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 44,
+      "gate": 48,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 45,
+      "gate": 57,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 46,
+      "gate": 32,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 47,
+      "gate": 50,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 48,
+      "gate": 28,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 49,
+      "gate": 44,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 50,
+      "gate": 1,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 51,
+      "gate": 43,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 52,
+      "gate": 14,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 53,
+      "gate": 34,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 54,
+      "gate": 9,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 55,
+      "gate": 5,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 56,
+      "gate": 26,
+      "trigram": "Mountain",
+      "coords": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 57,
+      "gate": 11,
+      "trigram": "Earth",
+      "coords": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 58,
+      "gate": 10,
+      "trigram": "Heaven",
+      "coords": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 59,
+      "gate": 58,
+      "trigram": "Lake",
+      "coords": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "position": 60,
+      "gate": 38,
+      "trigram": "Fire",
+      "coords": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "position": 61,
+      "gate": 54,
+      "trigram": "Thunder",
+      "coords": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "position": 62,
+      "gate": 61,
+      "trigram": "Wind",
+      "coords": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "position": 63,
+      "gate": 60,
+      "trigram": "Water",
+      "coords": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "statistics": {
+    "innerTransitions": {
+      "hamming0": 56,
+      "hamming1": 6,
+      "hamming2": 2,
+      "hamming3": 0
+    },
+    "outerTransitions": {
+      "hamming0": 2,
+      "hamming1": 32,
+      "hamming2": 16,
+      "hamming3": 14
+    },
+    "totalBitsPerStep": {
+      "1": 34,
+      "2": 16,
+      "3": 8,
+      "4": 4,
+      "5": 2
+    },
+    "emSumDistribution": {
+      "0": 8,
+      "1": 6,
+      "2": 5,
+      "3": 4,
+      "4": 3,
+      "5": 4,
+      "6": 3,
+      "7": 2,
+      "8": 1,
+      "-6": 3,
+      "-5": 4,
+      "-4": 3,
+      "-1": 6,
+      "-3": 4,
+      "-2": 5,
+      "-8": 1,
+      "-7": 2
+    },
+    "totalEMSum": 0,
+    "tetrahedronCrossings": {
+      "inner": 2,
+      "outer": 30,
+      "total": 32
+    }
+  }
+}

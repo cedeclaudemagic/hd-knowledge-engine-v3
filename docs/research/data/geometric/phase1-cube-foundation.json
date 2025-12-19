@@ -1,0 +1,1725 @@
+{
+  "description": "Phase 1: Cube Foundation - Geometric Classification of 64 Gates",
+  "generated": "2025-12-19T08:15:26.867Z",
+  "trigramVertices": {
+    "100": {
+      "name": "Thunder",
+      "symbol": "☳",
+      "coords": [
+        1,
+        0,
+        0
+      ],
+      "emPosition": 1,
+      "yangCount": 1
+    },
+    "101": {
+      "name": "Fire",
+      "symbol": "☲",
+      "coords": [
+        1,
+        0,
+        1
+      ],
+      "emPosition": -2,
+      "yangCount": 2
+    },
+    "110": {
+      "name": "Lake",
+      "symbol": "☱",
+      "coords": [
+        1,
+        1,
+        0
+      ],
+      "emPosition": -3,
+      "yangCount": 2
+    },
+    "111": {
+      "name": "Heaven",
+      "symbol": "☰",
+      "coords": [
+        1,
+        1,
+        1
+      ],
+      "emPosition": -4,
+      "yangCount": 3
+    },
+    "000": {
+      "name": "Earth",
+      "symbol": "☷",
+      "coords": [
+        0,
+        0,
+        0
+      ],
+      "emPosition": 4,
+      "yangCount": 0
+    },
+    "001": {
+      "name": "Mountain",
+      "symbol": "☶",
+      "coords": [
+        0,
+        0,
+        1
+      ],
+      "emPosition": 3,
+      "yangCount": 1
+    },
+    "010": {
+      "name": "Water",
+      "symbol": "☵",
+      "coords": [
+        0,
+        1,
+        0
+      ],
+      "emPosition": 2,
+      "yangCount": 1
+    },
+    "011": {
+      "name": "Wind",
+      "symbol": "☴",
+      "coords": [
+        0,
+        1,
+        1
+      ],
+      "emPosition": -1,
+      "yangCount": 2
+    }
+  },
+  "gateClassifications": [
+    {
+      "gate": 1,
+      "binary": "111111",
+      "innerTrigram": "111",
+      "outerTrigram": "111",
+      "innerName": "Heaven",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -4,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 2,
+      "binary": "000000",
+      "innerTrigram": "000",
+      "outerTrigram": "000",
+      "innerName": "Earth",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 4,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 3,
+      "binary": "100010",
+      "innerTrigram": "100",
+      "outerTrigram": "010",
+      "innerName": "Thunder",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 4,
+      "binary": "010001",
+      "innerTrigram": "010",
+      "outerTrigram": "001",
+      "innerName": "Water",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": 3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 5,
+      "binary": "111010",
+      "innerTrigram": "111",
+      "outerTrigram": "010",
+      "innerName": "Heaven",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 6,
+      "binary": "010111",
+      "innerTrigram": "010",
+      "outerTrigram": "111",
+      "innerName": "Water",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 7,
+      "binary": "010000",
+      "innerTrigram": "010",
+      "outerTrigram": "000",
+      "innerName": "Water",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 8,
+      "binary": "000010",
+      "innerTrigram": "000",
+      "outerTrigram": "010",
+      "innerName": "Earth",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 9,
+      "binary": "111011",
+      "innerTrigram": "111",
+      "outerTrigram": "011",
+      "innerName": "Heaven",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 10,
+      "binary": "110111",
+      "innerTrigram": "110",
+      "outerTrigram": "111",
+      "innerName": "Lake",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 11,
+      "binary": "111000",
+      "innerTrigram": "111",
+      "outerTrigram": "000",
+      "innerName": "Heaven",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 4,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 12,
+      "binary": "000111",
+      "innerTrigram": "000",
+      "outerTrigram": "111",
+      "innerName": "Earth",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -4,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 13,
+      "binary": "101111",
+      "innerTrigram": "101",
+      "outerTrigram": "111",
+      "innerName": "Fire",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 14,
+      "binary": "111101",
+      "innerTrigram": "111",
+      "outerTrigram": "101",
+      "innerName": "Heaven",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": -2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 15,
+      "binary": "001000",
+      "innerTrigram": "001",
+      "outerTrigram": "000",
+      "innerName": "Mountain",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 16,
+      "binary": "000100",
+      "innerTrigram": "000",
+      "outerTrigram": "100",
+      "innerName": "Earth",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": 1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 17,
+      "binary": "100110",
+      "innerTrigram": "100",
+      "outerTrigram": "110",
+      "innerName": "Thunder",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": -3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 18,
+      "binary": "011001",
+      "innerTrigram": "011",
+      "outerTrigram": "001",
+      "innerName": "Wind",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": 3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 19,
+      "binary": "110000",
+      "innerTrigram": "110",
+      "outerTrigram": "000",
+      "innerName": "Lake",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 20,
+      "binary": "000011",
+      "innerTrigram": "000",
+      "outerTrigram": "011",
+      "innerName": "Earth",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 21,
+      "binary": "100101",
+      "innerTrigram": "100",
+      "outerTrigram": "101",
+      "innerName": "Thunder",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 22,
+      "binary": "101001",
+      "innerTrigram": "101",
+      "outerTrigram": "001",
+      "innerName": "Fire",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": 3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 23,
+      "binary": "000001",
+      "innerTrigram": "000",
+      "outerTrigram": "001",
+      "innerName": "Earth",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": 3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 24,
+      "binary": "100000",
+      "innerTrigram": "100",
+      "outerTrigram": "000",
+      "innerName": "Thunder",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 25,
+      "binary": "100111",
+      "innerTrigram": "100",
+      "outerTrigram": "111",
+      "innerName": "Thunder",
+      "outerName": "Heaven",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 26,
+      "binary": "111001",
+      "innerTrigram": "111",
+      "outerTrigram": "001",
+      "innerName": "Heaven",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -4,
+      "outerEM": 3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 27,
+      "binary": "100001",
+      "innerTrigram": "100",
+      "outerTrigram": "001",
+      "innerName": "Thunder",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": 3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 28,
+      "binary": "011110",
+      "innerTrigram": "011",
+      "outerTrigram": "110",
+      "innerName": "Wind",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": -3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 29,
+      "binary": "010010",
+      "innerTrigram": "010",
+      "outerTrigram": "010",
+      "innerName": "Water",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 2,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 30,
+      "binary": "101101",
+      "innerTrigram": "101",
+      "outerTrigram": "101",
+      "innerName": "Fire",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -2,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 31,
+      "binary": "001110",
+      "innerTrigram": "001",
+      "outerTrigram": "110",
+      "innerName": "Mountain",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": -3,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 32,
+      "binary": "011100",
+      "innerTrigram": "011",
+      "outerTrigram": "100",
+      "innerName": "Wind",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 1,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 33,
+      "binary": "001111",
+      "innerTrigram": "001",
+      "outerTrigram": "111",
+      "innerName": "Mountain",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 34,
+      "binary": "111100",
+      "innerTrigram": "111",
+      "outerTrigram": "100",
+      "innerName": "Heaven",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": 1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 35,
+      "binary": "000101",
+      "innerTrigram": "000",
+      "outerTrigram": "101",
+      "innerName": "Earth",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 4,
+      "outerEM": -2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 36,
+      "binary": "101000",
+      "innerTrigram": "101",
+      "outerTrigram": "000",
+      "innerName": "Fire",
+      "outerName": "Earth",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 37,
+      "binary": "101011",
+      "innerTrigram": "101",
+      "outerTrigram": "011",
+      "innerName": "Fire",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -2,
+      "outerEM": -1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 38,
+      "binary": "110101",
+      "innerTrigram": "110",
+      "outerTrigram": "101",
+      "innerName": "Lake",
+      "outerName": "Fire",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 39,
+      "binary": "001010",
+      "innerTrigram": "001",
+      "outerTrigram": "010",
+      "innerName": "Mountain",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 40,
+      "binary": "010100",
+      "innerTrigram": "010",
+      "outerTrigram": "100",
+      "innerName": "Water",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": 1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 41,
+      "binary": "110001",
+      "innerTrigram": "110",
+      "outerTrigram": "001",
+      "innerName": "Lake",
+      "outerName": "Mountain",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": 3,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 42,
+      "binary": "100011",
+      "innerTrigram": "100",
+      "outerTrigram": "011",
+      "innerName": "Thunder",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 1,
+      "outerEM": -1,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 43,
+      "binary": "111110",
+      "innerTrigram": "111",
+      "outerTrigram": "110",
+      "innerName": "Heaven",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -4,
+      "outerEM": -3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 44,
+      "binary": "011111",
+      "innerTrigram": "011",
+      "outerTrigram": "111",
+      "innerName": "Wind",
+      "outerName": "Heaven",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -4,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 45,
+      "binary": "000110",
+      "innerTrigram": "000",
+      "outerTrigram": "110",
+      "innerName": "Earth",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 4,
+      "outerEM": -3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 46,
+      "binary": "011000",
+      "innerTrigram": "011",
+      "outerTrigram": "000",
+      "innerName": "Wind",
+      "outerName": "Earth",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 4,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 47,
+      "binary": "010110",
+      "innerTrigram": "010",
+      "outerTrigram": "110",
+      "innerName": "Water",
+      "outerName": "Lake",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": 2,
+      "outerEM": -3,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 48,
+      "binary": "011010",
+      "innerTrigram": "011",
+      "outerTrigram": "010",
+      "innerName": "Wind",
+      "outerName": "Water",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -1,
+      "outerEM": 2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 49,
+      "binary": "101110",
+      "innerTrigram": "101",
+      "outerTrigram": "110",
+      "innerName": "Fire",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": -3,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 50,
+      "binary": "011101",
+      "innerTrigram": "011",
+      "outerTrigram": "101",
+      "innerName": "Wind",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -2,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 51,
+      "binary": "100100",
+      "innerTrigram": "100",
+      "outerTrigram": "100",
+      "innerName": "Thunder",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        0,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 1,
+      "outerEM": 1,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 52,
+      "binary": "001001",
+      "innerTrigram": "001",
+      "outerTrigram": "001",
+      "innerName": "Mountain",
+      "outerName": "Mountain",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        0,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": 3,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 53,
+      "binary": "001011",
+      "innerTrigram": "001",
+      "outerTrigram": "011",
+      "innerName": "Mountain",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 54,
+      "binary": "110100",
+      "innerTrigram": "110",
+      "outerTrigram": "100",
+      "innerName": "Lake",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 55,
+      "binary": "101100",
+      "innerTrigram": "101",
+      "outerTrigram": "100",
+      "innerName": "Fire",
+      "outerName": "Thunder",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 56,
+      "binary": "001101",
+      "innerTrigram": "001",
+      "outerTrigram": "101",
+      "innerName": "Mountain",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 3,
+      "outerEM": -2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 57,
+      "binary": "011011",
+      "innerTrigram": "011",
+      "outerTrigram": "011",
+      "innerName": "Wind",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        1,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -1,
+      "outerEM": -1,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 58,
+      "binary": "110110",
+      "innerTrigram": "110",
+      "outerTrigram": "110",
+      "innerName": "Lake",
+      "outerName": "Lake",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        1,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": -3,
+      "euclideanDistance": 0,
+      "hammingDistance": 0,
+      "geometricType": "STANDING_WAVE"
+    },
+    {
+      "gate": 59,
+      "binary": "010011",
+      "innerTrigram": "010",
+      "outerTrigram": "011",
+      "innerName": "Water",
+      "outerName": "Wind",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -1,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    },
+    {
+      "gate": 60,
+      "binary": "110010",
+      "innerTrigram": "110",
+      "outerTrigram": "010",
+      "innerName": "Lake",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -3,
+      "outerEM": 2,
+      "euclideanDistance": 1,
+      "hammingDistance": 1,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 61,
+      "binary": "110011",
+      "innerTrigram": "110",
+      "outerTrigram": "011",
+      "innerName": "Lake",
+      "outerName": "Wind",
+      "innerCoords": [
+        1,
+        1,
+        0
+      ],
+      "outerCoords": [
+        0,
+        1,
+        1
+      ],
+      "innerEM": -3,
+      "outerEM": -1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_VOID"
+    },
+    {
+      "gate": 62,
+      "binary": "001100",
+      "innerTrigram": "001",
+      "outerTrigram": "100",
+      "innerName": "Mountain",
+      "outerName": "Thunder",
+      "innerCoords": [
+        0,
+        0,
+        1
+      ],
+      "outerCoords": [
+        1,
+        0,
+        0
+      ],
+      "innerEM": 3,
+      "outerEM": 1,
+      "euclideanDistance": 1.4142135623730951,
+      "hammingDistance": 2,
+      "geometricType": "SAME_PHASE_MATERIAL"
+    },
+    {
+      "gate": 63,
+      "binary": "101010",
+      "innerTrigram": "101",
+      "outerTrigram": "010",
+      "innerName": "Fire",
+      "outerName": "Water",
+      "innerCoords": [
+        1,
+        0,
+        1
+      ],
+      "outerCoords": [
+        0,
+        1,
+        0
+      ],
+      "innerEM": -2,
+      "outerEM": 2,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_MANIFESTING"
+    },
+    {
+      "gate": 64,
+      "binary": "010101",
+      "innerTrigram": "010",
+      "outerTrigram": "101",
+      "innerName": "Water",
+      "outerName": "Fire",
+      "innerCoords": [
+        0,
+        1,
+        0
+      ],
+      "outerCoords": [
+        1,
+        0,
+        1
+      ],
+      "innerEM": 2,
+      "outerEM": -2,
+      "euclideanDistance": 1.7320508075688772,
+      "hammingDistance": 3,
+      "geometricType": "CROSS_ZERO_DEMATERIALISING"
+    }
+  ],
+  "typeCounts": {
+    "STANDING_WAVE": 8,
+    "CROSS_ZERO_MANIFESTING": 16,
+    "CROSS_ZERO_DEMATERIALISING": 16,
+    "SAME_PHASE_MATERIAL": 12,
+    "SAME_PHASE_VOID": 12
+  },
+  "distanceAnalysis": {
+    "byEuclidean": {
+      "0.000": [
+        1,
+        2,
+        29,
+        30,
+        51,
+        52,
+        57,
+        58
+      ],
+      "1.414": [
+        3,
+        4,
+        5,
+        6,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        49,
+        50,
+        61,
+        62
+      ],
+      "1.000": [
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        43,
+        44,
+        47,
+        48,
+        53,
+        54,
+        55,
+        56,
+        59,
+        60
+      ],
+      "1.732": [
+        11,
+        12,
+        31,
+        32,
+        41,
+        42,
+        63,
+        64
+      ]
+    },
+    "byHamming": {
+      "0": [
+        1,
+        2,
+        29,
+        30,
+        51,
+        52,
+        57,
+        58
+      ],
+      "1": [
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        43,
+        44,
+        47,
+        48,
+        53,
+        54,
+        55,
+        56,
+        59,
+        60
+      ],
+      "2": [
+        3,
+        4,
+        5,
+        6,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        49,
+        50,
+        61,
+        62
+      ],
+      "3": [
+        11,
+        12,
+        31,
+        32,
+        41,
+        42,
+        63,
+        64
+      ]
+    }
+  }
+}

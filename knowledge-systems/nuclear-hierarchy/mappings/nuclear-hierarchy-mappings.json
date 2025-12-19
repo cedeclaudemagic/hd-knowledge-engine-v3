@@ -1,0 +1,359 @@
+{
+  "systemName": "Nuclear Hexagram Hierarchy",
+  "version": "1.0.0",
+  "description": "The fractal hierarchy of the 64 hexagrams derived from nuclear transformation. Based on Richard Rudd's 'Dare to be Divine' teaching. Each hexagram's nuclear hexagram is formed by lines 2-3-4 (lower nuclear trigram) and lines 3-4-5 (upper nuclear trigram). Recursive application creates a 3-level tree: 4 Pillars → 12 Mysteries → 48 Letters.",
+  "source": "Dare to be Divine (Richard Rudd, 2020)",
+  "completeness": "full",
+  "dataArchitecture": "hierarchical",
+  "totalGates": 64,
+  "levels": {
+    "pillars": 4,
+    "mysteries": 12,
+    "letters": 48
+  },
+  "lastUpdated": "2024-12-18",
+  
+  "hierarchy": {
+    "pillars": [
+      {
+        "pillarNumber": 1,
+        "gate": 1,
+        "name": "Pillar of Fire",
+        "element": "Fire",
+        "siddhi": "Beauty",
+        "description": "The creative evolutionary impulse. Pure yang, pure creativity.",
+        "emPosition": -4,
+        "gateType": "standing-wave",
+        "mysteries": [28, 43, 44],
+        "allGates": [1, 28, 43, 44, 30, 55, 56, 62, 14, 32, 34, 50, 13, 31, 33, 49]
+      },
+      {
+        "pillarNumber": 2,
+        "gate": 2,
+        "name": "Pillar of Water",
+        "element": "Water",
+        "siddhi": "Unity",
+        "description": "The receptive primal base. Pure yin, pure receptivity.",
+        "emPosition": 4,
+        "gateType": "standing-wave",
+        "mysteries": [23, 24, 27],
+        "allGates": [2, 23, 24, 27, 3, 8, 20, 42, 4, 7, 19, 41, 29, 59, 60, 61]
+      },
+      {
+        "pillarNumber": 63,
+        "gate": 63,
+        "name": "Pillar of Truth",
+        "element": "Truth",
+        "siddhi": "Truth",
+        "description": "After Completion. The fusing of love and wisdom. Divine Science.",
+        "emPosition": "cross-zero",
+        "emMovement": {
+          "inner": 2,
+          "outer": -2,
+          "direction": "dematerialising"
+        },
+        "gateType": "cross-zero-dematerialising",
+        "mysteries": [38, 40, 54],
+        "allGates": [63, 38, 40, 54, 5, 9, 11, 48, 15, 22, 36, 52, 18, 26, 46, 57]
+      },
+      {
+        "pillarNumber": 64,
+        "gate": 64,
+        "name": "Pillar of Light",
+        "element": "Light",
+        "siddhi": "Illumination",
+        "description": "Before Completion. The transition requiring determined strength.",
+        "emPosition": "cross-zero",
+        "emMovement": {
+          "inner": -2,
+          "outer": 2,
+          "direction": "manifesting"
+        },
+        "gateType": "cross-zero-manifesting",
+        "mysteries": [37, 39, 53],
+        "allGates": [64, 37, 39, 53, 6, 10, 47, 58, 16, 21, 35, 51, 12, 17, 25, 45]
+      }
+    ],
+    
+    "mysteries": [
+      {
+        "gate": 28,
+        "pillar": 1,
+        "pillarElement": "Fire",
+        "siddhi": "Immortality",
+        "letters": [30, 55, 56, 62],
+        "emData": {
+          "innerTrigram": "Lake",
+          "outerTrigram": "Wind",
+          "innerPosition": -3,
+          "outerPosition": -1,
+          "gateType": "same-side-void"
+        }
+      },
+      {
+        "gate": 43,
+        "pillar": 1,
+        "pillarElement": "Fire",
+        "siddhi": "Epiphany",
+        "letters": [14, 32, 34, 50],
+        "emData": {
+          "innerTrigram": "Heaven",
+          "outerTrigram": "Lake",
+          "innerPosition": -4,
+          "outerPosition": -3,
+          "gateType": "same-side-void"
+        }
+      },
+      {
+        "gate": 44,
+        "pillar": 1,
+        "pillarElement": "Fire",
+        "siddhi": "Synarchy",
+        "letters": [13, 31, 33, 49],
+        "emData": {
+          "innerTrigram": "Wind",
+          "outerTrigram": "Heaven",
+          "innerPosition": -1,
+          "outerPosition": -4,
+          "gateType": "same-side-void"
+        }
+      },
+      {
+        "gate": 23,
+        "pillar": 2,
+        "pillarElement": "Water",
+        "siddhi": "Quintessence",
+        "letters": [3, 8, 20, 42],
+        "emData": {
+          "innerTrigram": "Earth",
+          "outerTrigram": "Mountain",
+          "innerPosition": 4,
+          "outerPosition": 3,
+          "gateType": "same-side-material"
+        }
+      },
+      {
+        "gate": 24,
+        "pillar": 2,
+        "pillarElement": "Water",
+        "siddhi": "Silence",
+        "letters": [4, 7, 19, 41],
+        "emData": {
+          "innerTrigram": "Thunder",
+          "outerTrigram": "Earth",
+          "innerPosition": 1,
+          "outerPosition": 4,
+          "gateType": "same-side-material"
+        }
+      },
+      {
+        "gate": 27,
+        "pillar": 2,
+        "pillarElement": "Water",
+        "siddhi": "Selflessness",
+        "letters": [29, 59, 60, 61],
+        "emData": {
+          "innerTrigram": "Mountain",
+          "outerTrigram": "Thunder",
+          "innerPosition": 3,
+          "outerPosition": 1,
+          "gateType": "same-side-material"
+        }
+      },
+      {
+        "gate": 38,
+        "pillar": 63,
+        "pillarElement": "Truth",
+        "siddhi": "Honour",
+        "letters": [5, 9, 11, 48],
+        "emData": {
+          "innerTrigram": "Lake",
+          "outerTrigram": "Thunder",
+          "innerPosition": -3,
+          "outerPosition": 1,
+          "gateType": "cross-zero-manifesting"
+        }
+      },
+      {
+        "gate": 40,
+        "pillar": 63,
+        "pillarElement": "Truth",
+        "siddhi": "Divine Will",
+        "letters": [15, 22, 36, 52],
+        "emData": {
+          "innerTrigram": "Lake",
+          "outerTrigram": "Thunder",
+          "innerPosition": -3,
+          "outerPosition": 1,
+          "gateType": "cross-zero-manifesting"
+        }
+      },
+      {
+        "gate": 54,
+        "pillar": 63,
+        "pillarElement": "Truth",
+        "siddhi": "Ascension",
+        "letters": [18, 26, 46, 57],
+        "emData": {
+          "innerTrigram": "Thunder",
+          "outerTrigram": "Lake",
+          "innerPosition": 1,
+          "outerPosition": -3,
+          "gateType": "cross-zero-dematerialising"
+        }
+      },
+      {
+        "gate": 37,
+        "pillar": 64,
+        "pillarElement": "Light",
+        "siddhi": "Tenderness",
+        "letters": [6, 10, 47, 58],
+        "emData": {
+          "innerTrigram": "Fire",
+          "outerTrigram": "Wind",
+          "innerPosition": -2,
+          "outerPosition": -1,
+          "gateType": "same-side-void"
+        }
+      },
+      {
+        "gate": 39,
+        "pillar": 64,
+        "pillarElement": "Light",
+        "siddhi": "Liberation",
+        "letters": [16, 21, 35, 51],
+        "emData": {
+          "innerTrigram": "Water",
+          "outerTrigram": "Mountain",
+          "innerPosition": 2,
+          "outerPosition": 3,
+          "gateType": "same-side-material"
+        }
+      },
+      {
+        "gate": 53,
+        "pillar": 64,
+        "pillarElement": "Light",
+        "siddhi": "Superabundance",
+        "letters": [12, 17, 25, 45],
+        "emData": {
+          "innerTrigram": "Thunder",
+          "outerTrigram": "Earth",
+          "innerPosition": 1,
+          "outerPosition": 4,
+          "gateType": "same-side-material"
+        }
+      }
+    ]
+  },
+  
+  "gateMappings": [
+    {"gate": 1, "level": "pillar", "pillar": 1, "mystery": null, "element": "Fire", "siddhi": "Beauty", "innerTrigram": "Heaven", "outerTrigram": "Heaven", "innerPosition": -4, "outerPosition": -4, "gateType": "standing-wave"},
+    {"gate": 2, "level": "pillar", "pillar": 2, "mystery": null, "element": "Water", "siddhi": "Unity", "innerTrigram": "Earth", "outerTrigram": "Earth", "innerPosition": 4, "outerPosition": 4, "gateType": "standing-wave"},
+    {"gate": 3, "level": "letter", "pillar": 2, "mystery": 23, "element": "Water", "siddhi": "Innocence", "innerTrigram": "Water", "outerTrigram": "Thunder", "innerPosition": 2, "outerPosition": 1, "gateType": "same-side-material"},
+    {"gate": 4, "level": "letter", "pillar": 2, "mystery": 24, "element": "Water", "siddhi": "Forgiveness", "innerTrigram": "Water", "outerTrigram": "Mountain", "innerPosition": 2, "outerPosition": 3, "gateType": "same-side-material"},
+    {"gate": 5, "level": "letter", "pillar": 63, "mystery": 38, "element": "Truth", "siddhi": "Timelessness", "innerTrigram": "Water", "outerTrigram": "Wind", "innerPosition": 2, "outerPosition": -1, "gateType": "cross-zero-dematerialising"},
+    {"gate": 6, "level": "letter", "pillar": 64, "mystery": 37, "element": "Light", "siddhi": "Peace", "innerTrigram": "Water", "outerTrigram": "Heaven", "innerPosition": 2, "outerPosition": -4, "gateType": "cross-zero-dematerialising"},
+    {"gate": 7, "level": "letter", "pillar": 2, "mystery": 24, "element": "Water", "siddhi": "Virtue", "innerTrigram": "Earth", "outerTrigram": "Water", "innerPosition": 4, "outerPosition": 2, "gateType": "same-side-material"},
+    {"gate": 8, "level": "letter", "pillar": 2, "mystery": 23, "element": "Water", "siddhi": "Exquisiteness", "innerTrigram": "Water", "outerTrigram": "Earth", "innerPosition": 2, "outerPosition": 4, "gateType": "same-side-material"},
+    {"gate": 9, "level": "letter", "pillar": 63, "mystery": 38, "element": "Truth", "siddhi": "Invincibility", "innerTrigram": "Heaven", "outerTrigram": "Wind", "innerPosition": -4, "outerPosition": -1, "gateType": "same-side-void"},
+    {"gate": 10, "level": "letter", "pillar": 64, "mystery": 37, "element": "Light", "siddhi": "Being", "innerTrigram": "Lake", "outerTrigram": "Heaven", "innerPosition": -3, "outerPosition": -4, "gateType": "same-side-void"},
+    {"gate": 11, "level": "letter", "pillar": 63, "mystery": 38, "element": "Truth", "siddhi": "Light", "innerTrigram": "Earth", "outerTrigram": "Heaven", "innerPosition": 4, "outerPosition": -4, "gateType": "cross-zero-dematerialising"},
+    {"gate": 12, "level": "letter", "pillar": 64, "mystery": 53, "element": "Light", "siddhi": "Purity", "innerTrigram": "Heaven", "outerTrigram": "Mountain", "innerPosition": -4, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 13, "level": "letter", "pillar": 1, "mystery": 44, "element": "Fire", "siddhi": "Empathy", "innerTrigram": "Heaven", "outerTrigram": "Fire", "innerPosition": -4, "outerPosition": -2, "gateType": "same-side-void"},
+    {"gate": 14, "level": "letter", "pillar": 1, "mystery": 43, "element": "Fire", "siddhi": "Bounteousness", "innerTrigram": "Fire", "outerTrigram": "Heaven", "innerPosition": -2, "outerPosition": -4, "gateType": "same-side-void"},
+    {"gate": 15, "level": "letter", "pillar": 63, "mystery": 40, "element": "Truth", "siddhi": "Florescence", "innerTrigram": "Earth", "outerTrigram": "Mountain", "innerPosition": 4, "outerPosition": 3, "gateType": "same-side-material"},
+    {"gate": 16, "level": "letter", "pillar": 64, "mystery": 39, "element": "Light", "siddhi": "Mastery", "innerTrigram": "Thunder", "outerTrigram": "Earth", "innerPosition": 1, "outerPosition": 4, "gateType": "same-side-material"},
+    {"gate": 17, "level": "letter", "pillar": 64, "mystery": 53, "element": "Light", "siddhi": "Omniscience", "innerTrigram": "Lake", "outerTrigram": "Thunder", "innerPosition": -3, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 18, "level": "letter", "pillar": 63, "mystery": 54, "element": "Truth", "siddhi": "Perfection", "innerTrigram": "Wind", "outerTrigram": "Mountain", "innerPosition": -1, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 19, "level": "letter", "pillar": 2, "mystery": 24, "element": "Water", "siddhi": "Sacrifice", "innerTrigram": "Earth", "outerTrigram": "Thunder", "innerPosition": 4, "outerPosition": 1, "gateType": "same-side-material"},
+    {"gate": 20, "level": "letter", "pillar": 2, "mystery": 23, "element": "Water", "siddhi": "Presence", "innerTrigram": "Earth", "outerTrigram": "Wind", "innerPosition": 4, "outerPosition": -1, "gateType": "cross-zero-dematerialising"},
+    {"gate": 21, "level": "letter", "pillar": 64, "mystery": 39, "element": "Light", "siddhi": "Valour", "innerTrigram": "Fire", "outerTrigram": "Thunder", "innerPosition": -2, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 22, "level": "letter", "pillar": 63, "mystery": 40, "element": "Truth", "siddhi": "Grace", "innerTrigram": "Fire", "outerTrigram": "Mountain", "innerPosition": -2, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 23, "level": "mystery", "pillar": 2, "mystery": null, "element": "Water", "siddhi": "Quintessence", "innerTrigram": "Earth", "outerTrigram": "Mountain", "innerPosition": 4, "outerPosition": 3, "gateType": "same-side-material"},
+    {"gate": 24, "level": "mystery", "pillar": 2, "mystery": null, "element": "Water", "siddhi": "Silence", "innerTrigram": "Thunder", "outerTrigram": "Earth", "innerPosition": 1, "outerPosition": 4, "gateType": "same-side-material"},
+    {"gate": 25, "level": "letter", "pillar": 64, "mystery": 53, "element": "Light", "siddhi": "Universal Love", "innerTrigram": "Heaven", "outerTrigram": "Thunder", "innerPosition": -4, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 26, "level": "letter", "pillar": 63, "mystery": 54, "element": "Truth", "siddhi": "Invisibility", "innerTrigram": "Thunder", "outerTrigram": "Heaven", "innerPosition": 1, "outerPosition": -4, "gateType": "cross-zero-dematerialising"},
+    {"gate": 27, "level": "mystery", "pillar": 2, "mystery": null, "element": "Water", "siddhi": "Selflessness", "innerTrigram": "Mountain", "outerTrigram": "Thunder", "innerPosition": 3, "outerPosition": 1, "gateType": "same-side-material"},
+    {"gate": 28, "level": "mystery", "pillar": 1, "mystery": null, "element": "Fire", "siddhi": "Immortality", "innerTrigram": "Lake", "outerTrigram": "Wind", "innerPosition": -3, "outerPosition": -1, "gateType": "same-side-void"},
+    {"gate": 29, "level": "letter", "pillar": 2, "mystery": 27, "element": "Water", "siddhi": "Devotion", "innerTrigram": "Water", "outerTrigram": "Water", "innerPosition": 2, "outerPosition": 2, "gateType": "standing-wave"},
+    {"gate": 30, "level": "letter", "pillar": 1, "mystery": 28, "element": "Fire", "siddhi": "Rapture", "innerTrigram": "Fire", "outerTrigram": "Fire", "innerPosition": -2, "outerPosition": -2, "gateType": "standing-wave"},
+    {"gate": 31, "level": "letter", "pillar": 1, "mystery": 44, "element": "Fire", "siddhi": "Humility", "innerTrigram": "Lake", "outerTrigram": "Mountain", "innerPosition": -3, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 32, "level": "letter", "pillar": 1, "mystery": 43, "element": "Fire", "siddhi": "Veneration", "innerTrigram": "Thunder", "outerTrigram": "Earth", "innerPosition": 1, "outerPosition": 4, "gateType": "same-side-material"},
+    {"gate": 33, "level": "letter", "pillar": 1, "mystery": 44, "element": "Fire", "siddhi": "Revelation", "innerTrigram": "Mountain", "outerTrigram": "Heaven", "innerPosition": 3, "outerPosition": -4, "gateType": "cross-zero-dematerialising"},
+    {"gate": 34, "level": "letter", "pillar": 1, "mystery": 43, "element": "Fire", "siddhi": "Majesty", "innerTrigram": "Thunder", "outerTrigram": "Heaven", "innerPosition": 1, "outerPosition": -4, "gateType": "cross-zero-dematerialising"},
+    {"gate": 35, "level": "letter", "pillar": 64, "mystery": 39, "element": "Light", "siddhi": "Boundlessness", "innerTrigram": "Earth", "outerTrigram": "Fire", "innerPosition": 4, "outerPosition": -2, "gateType": "cross-zero-dematerialising"},
+    {"gate": 36, "level": "letter", "pillar": 63, "mystery": 40, "element": "Truth", "siddhi": "Compassion", "innerTrigram": "Fire", "outerTrigram": "Earth", "innerPosition": -2, "outerPosition": 4, "gateType": "cross-zero-manifesting"},
+    {"gate": 37, "level": "mystery", "pillar": 64, "mystery": null, "element": "Light", "siddhi": "Tenderness", "innerTrigram": "Fire", "outerTrigram": "Wind", "innerPosition": -2, "outerPosition": -1, "gateType": "same-side-void"},
+    {"gate": 38, "level": "mystery", "pillar": 63, "mystery": null, "element": "Truth", "siddhi": "Honour", "innerTrigram": "Lake", "outerTrigram": "Thunder", "innerPosition": -3, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 39, "level": "mystery", "pillar": 64, "mystery": null, "element": "Light", "siddhi": "Liberation", "innerTrigram": "Water", "outerTrigram": "Mountain", "innerPosition": 2, "outerPosition": 3, "gateType": "same-side-material"},
+    {"gate": 40, "level": "mystery", "pillar": 63, "mystery": null, "element": "Truth", "siddhi": "Divine Will", "innerTrigram": "Lake", "outerTrigram": "Thunder", "innerPosition": -3, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 41, "level": "letter", "pillar": 2, "mystery": 24, "element": "Water", "siddhi": "Emanation", "innerTrigram": "Lake", "outerTrigram": "Mountain", "innerPosition": -3, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 42, "level": "letter", "pillar": 2, "mystery": 23, "element": "Water", "siddhi": "Celebration", "innerTrigram": "Thunder", "outerTrigram": "Wind", "innerPosition": 1, "outerPosition": -1, "gateType": "cross-zero-dematerialising"},
+    {"gate": 43, "level": "mystery", "pillar": 1, "mystery": null, "element": "Fire", "siddhi": "Epiphany", "innerTrigram": "Heaven", "outerTrigram": "Lake", "innerPosition": -4, "outerPosition": -3, "gateType": "same-side-void"},
+    {"gate": 44, "level": "mystery", "pillar": 1, "mystery": null, "element": "Fire", "siddhi": "Synarchy", "innerTrigram": "Wind", "outerTrigram": "Heaven", "innerPosition": -1, "outerPosition": -4, "gateType": "same-side-void"},
+    {"gate": 45, "level": "letter", "pillar": 64, "mystery": 53, "element": "Light", "siddhi": "Communion", "innerTrigram": "Lake", "outerTrigram": "Earth", "innerPosition": -3, "outerPosition": 4, "gateType": "cross-zero-manifesting"},
+    {"gate": 46, "level": "letter", "pillar": 63, "mystery": 54, "element": "Truth", "siddhi": "Ecstasy", "innerTrigram": "Earth", "outerTrigram": "Wind", "innerPosition": 4, "outerPosition": -1, "gateType": "cross-zero-dematerialising"},
+    {"gate": 47, "level": "letter", "pillar": 64, "mystery": 37, "element": "Light", "siddhi": "Transfiguration", "innerTrigram": "Water", "outerTrigram": "Lake", "innerPosition": 2, "outerPosition": -3, "gateType": "cross-zero-dematerialising"},
+    {"gate": 48, "level": "letter", "pillar": 63, "mystery": 38, "element": "Truth", "siddhi": "Wisdom", "innerTrigram": "Wind", "outerTrigram": "Water", "innerPosition": -1, "outerPosition": 2, "gateType": "cross-zero-manifesting"},
+    {"gate": 49, "level": "letter", "pillar": 1, "mystery": 44, "element": "Fire", "siddhi": "Rebirth", "innerTrigram": "Fire", "outerTrigram": "Lake", "innerPosition": -2, "outerPosition": -3, "gateType": "same-side-void"},
+    {"gate": 50, "level": "letter", "pillar": 1, "mystery": 43, "element": "Fire", "siddhi": "Harmony", "innerTrigram": "Wind", "outerTrigram": "Fire", "innerPosition": -1, "outerPosition": -2, "gateType": "same-side-void"},
+    {"gate": 51, "level": "letter", "pillar": 64, "mystery": 39, "element": "Light", "siddhi": "Awakening", "innerTrigram": "Thunder", "outerTrigram": "Thunder", "innerPosition": 1, "outerPosition": 1, "gateType": "standing-wave"},
+    {"gate": 52, "level": "letter", "pillar": 63, "mystery": 40, "element": "Truth", "siddhi": "Stillness", "innerTrigram": "Mountain", "outerTrigram": "Mountain", "innerPosition": 3, "outerPosition": 3, "gateType": "standing-wave"},
+    {"gate": 53, "level": "mystery", "pillar": 64, "mystery": null, "element": "Light", "siddhi": "Superabundance", "innerTrigram": "Thunder", "outerTrigram": "Earth", "innerPosition": 1, "outerPosition": 4, "gateType": "same-side-material"},
+    {"gate": 54, "level": "mystery", "pillar": 63, "mystery": null, "element": "Truth", "siddhi": "Ascension", "innerTrigram": "Thunder", "outerTrigram": "Lake", "innerPosition": 1, "outerPosition": -3, "gateType": "cross-zero-dematerialising"},
+    {"gate": 55, "level": "letter", "pillar": 1, "mystery": 28, "element": "Fire", "siddhi": "Freedom", "innerTrigram": "Fire", "outerTrigram": "Thunder", "innerPosition": -2, "outerPosition": 1, "gateType": "cross-zero-manifesting"},
+    {"gate": 56, "level": "letter", "pillar": 1, "mystery": 28, "element": "Fire", "siddhi": "Intoxication", "innerTrigram": "Fire", "outerTrigram": "Mountain", "innerPosition": -2, "outerPosition": 3, "gateType": "cross-zero-manifesting"},
+    {"gate": 57, "level": "letter", "pillar": 63, "mystery": 54, "element": "Truth", "siddhi": "Clarity", "innerTrigram": "Wind", "outerTrigram": "Wind", "innerPosition": -1, "outerPosition": -1, "gateType": "standing-wave"},
+    {"gate": 58, "level": "letter", "pillar": 64, "mystery": 37, "element": "Light", "siddhi": "Bliss", "innerTrigram": "Lake", "outerTrigram": "Lake", "innerPosition": -3, "outerPosition": -3, "gateType": "standing-wave"},
+    {"gate": 59, "level": "letter", "pillar": 2, "mystery": 27, "element": "Water", "siddhi": "Transparency", "innerTrigram": "Wind", "outerTrigram": "Water", "innerPosition": -1, "outerPosition": 2, "gateType": "cross-zero-manifesting"},
+    {"gate": 60, "level": "letter", "pillar": 2, "mystery": 27, "element": "Water", "siddhi": "Justice", "innerTrigram": "Water", "outerTrigram": "Lake", "innerPosition": 2, "outerPosition": -3, "gateType": "cross-zero-dematerialising"},
+    {"gate": 61, "level": "letter", "pillar": 2, "mystery": 27, "element": "Water", "siddhi": "Sanctity", "innerTrigram": "Wind", "outerTrigram": "Lake", "innerPosition": -1, "outerPosition": -3, "gateType": "same-side-void"},
+    {"gate": 62, "level": "letter", "pillar": 1, "mystery": 28, "element": "Fire", "siddhi": "Impeccability", "innerTrigram": "Thunder", "outerTrigram": "Mountain", "innerPosition": 1, "outerPosition": 3, "gateType": "same-side-material"},
+    {"gate": 63, "level": "pillar", "pillar": 63, "mystery": null, "element": "Truth", "siddhi": "Truth", "innerTrigram": "Water", "outerTrigram": "Fire", "innerPosition": 2, "outerPosition": -2, "gateType": "cross-zero-dematerialising"},
+    {"gate": 64, "level": "pillar", "pillar": 64, "mystery": null, "element": "Light", "siddhi": "Illumination", "innerTrigram": "Fire", "outerTrigram": "Water", "innerPosition": -2, "outerPosition": 2, "gateType": "cross-zero-manifesting"}
+  ],
+  
+  "standingWaveDistribution": {
+    "description": "Each Pillar contains exactly 2 standing wave gates with functionally coherent EM positions",
+    "distribution": [
+      {"pillar": 1, "element": "Fire", "gates": [1, 30], "positions": [-4, -2], "function": "Void-side source positions (poles)"},
+      {"pillar": 2, "element": "Water", "gates": [2, 29], "positions": [4, 2], "function": "Material-side sink positions (poles)"},
+      {"pillar": 63, "element": "Truth", "gates": [52, 57], "positions": [3, -1], "function": "Restraint positions (storage + discrimination)"},
+      {"pillar": 64, "element": "Light", "gates": [51, 58], "positions": [1, -3], "function": "Threshold positions (gate-in + capacitance)"}
+    ],
+    "totalStandingWaves": 8
+  },
+  
+  "gateTypeByPillar": {
+    "description": "Distribution of gate types across the four Pillars",
+    "fire_1": {
+      "standingWave": 2,
+      "crossZeroManifesting": 4,
+      "crossZeroDematerialising": 2,
+      "sameSideVoid": 8,
+      "sameSideMaterial": 0
+    },
+    "water_2": {
+      "standingWave": 2,
+      "crossZeroManifesting": 3,
+      "crossZeroDematerialising": 2,
+      "sameSideVoid": 1,
+      "sameSideMaterial": 8
+    },
+    "truth_63": {
+      "standingWave": 2,
+      "crossZeroManifesting": 6,
+      "crossZeroDematerialising": 5,
+      "sameSideVoid": 1,
+      "sameSideMaterial": 2
+    },
+    "light_64": {
+      "standingWave": 2,
+      "crossZeroManifesting": 6,
+      "crossZeroDematerialising": 4,
+      "sameSideVoid": 1,
+      "sameSideMaterial": 3
+    }
+  }
+}

@@ -344,6 +344,64 @@ See: [HARMONIC-FRAMEWORK-SYNTHESIS.md](HARMONIC-FRAMEWORK-SYNTHESIS.md)
 
 ---
 
+## Part 8: Structurally Informative — Nuclear Hexagram Hierarchy
+
+### Hypothesis
+
+The nuclear hexagram hierarchy (4 Pillars → 12 Mysteries → 48 Letters from Richard Rudd's "Dare to be Divine") organises gates by fractal depth through nuclear transformation. Does this alternative structure encode planetary information?
+
+### Methodology
+
+Five-phase research with permutation testing (1000 iterations per test):
+1. Descriptive analysis of planetary distributions
+2. Hypothesis testing (polarity, coherence, entropy)
+3. Predictive modelling with LOOCV
+4. Standing wave inheritance analysis
+5. Synthesis
+
+### Results
+
+| Test | Z-Score | Finding |
+|------|---------|---------|
+| **Pillar Polarity** | **7.23** | Planets show systematic affinities/aversions to specific pillars |
+| Elemental Correspondence | 1.98 | 3/4 pillars match predicted elemental planets |
+| Family Coherence | 1.90 | Near-significant trend |
+| Hierarchy Depth | 1.93 | Entropy increases with depth |
+| **Family Differentiation** | **-1.99** | Cross-zero siblings DIFFERENTIATE from standing wave |
+| Prediction Improvement | 1.48 | +7% accuracy with pillar features |
+| Universal Line Patterns | — | 56% accuracy for universal planets from line alone |
+
+### The Three-Layer Model
+
+**Layer 1: Pillar Polarity** — Planets have systematic affinities to elemental pillars (Z = 7.23)
+- Mars, Mercury: Universal challengers (negative in all pillars)
+- Sun: Universal supporter (positive in all pillars)
+- Pluto, Venus: Discriminating (pillar-specific polarity)
+
+**Layer 2: Family Differentiation** — Cross-zero siblings are LESS similar to their standing wave than random (Z = -1.99). Families function as ecological units where siblings occupy different planetary "niches."
+
+**Layer 3: Line Universality** — Line positions encode planetary tendencies across the entire I Ching (56% accuracy for universal planets), independent of family structure.
+
+### Classification
+
+The nuclear hierarchy occupies a **third category**:
+
+| Category | Example | Character |
+|----------|---------|-----------|
+| **Derivable** | Standing waves | 100% accuracy, deterministic |
+| **Structurally Informative** | Nuclear hierarchy | Statistical tendencies, +7% improvement |
+| **Ruled Out** | Russell, nuclear trigrams | No/negative signal |
+
+### Conclusion
+
+**The nuclear hierarchy is structurally informative but not deterministic.**
+
+It reveals organizational principles (polarity, differentiation) that shape planetary distributions without fully determining them. This is valuable—it confirms structure beyond random assignment—but doesn't provide a complete derivation key.
+
+See: [NUCLEAR-HIERARCHY-HYPOTHESIS.md](NUCLEAR-HIERARCHY-HYPOTHESIS.md), `reports/PHASE-5-SYNTHESIS.md`
+
+---
+
 ## Summary Table
 
 | Component | Status | Accuracy | Conclusion |
@@ -352,6 +410,7 @@ See: [HARMONIC-FRAMEWORK-SYNTHESIS.md](HARMONIC-FRAMEWORK-SYNTHESIS.md)
 | Standing wave explanation | **EXPLAINED** | — | Harmonic framework reveals structure |
 | Same-phase gates | Partial | 48% | Additional factors unknown |
 | Cross-zero gates | **NOT DERIVABLE** | 18% (CV) | Empirical data, not structure |
+| **Nuclear hierarchy** | **INFORMATIVE** | +7% | Polarity/differentiation structure |
 | Nuclear trigrams | **RULED OUT** | Z=0.09 | No signal |
 | Russell wave mechanics | **RULED OUT** | Z=-2.96 | Negative signal |
 | Musical harmonics (cross-zero) | **RULED OUT** | 13% | No improvement over baseline |
@@ -472,5 +531,5 @@ You cannot derive actuality from architecture.
 
 ---
 
-*Final state of knowledge: 2025-12-17*
-*Research complete*
+*Final state of knowledge: 2025-12-18*
+*Research complete (nuclear hierarchy research added)*

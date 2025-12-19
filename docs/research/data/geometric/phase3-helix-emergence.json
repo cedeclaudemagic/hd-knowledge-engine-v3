@@ -1,0 +1,165 @@
+{
+  "description": "Phase 3: Helix Emergence from Cube Rotation",
+  "generated": "2025-12-19T08:33:31.608Z",
+  "axis": {
+    "start": [
+      0,
+      0,
+      0
+    ],
+    "end": [
+      1,
+      1,
+      1
+    ],
+    "direction": [
+      0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258
+    ]
+  },
+  "projectionBasis": {
+    "U": [
+      0.7071067811865475,
+      -0.7071067811865475,
+      0
+    ],
+    "V": [
+      0.4082482904638631,
+      0.4082482904638631,
+      -0.8164965809277261
+    ]
+  },
+  "pathWithProjections": [
+    {
+      "name": "Lake",
+      "binary": "110",
+      "coords": [
+        1,
+        1,
+        0
+      ],
+      "em": -3,
+      "projection2D": [
+        0,
+        0.8164965809277261
+      ],
+      "axisHeight": 0.2886751345948129,
+      "angle": 90
+    },
+    {
+      "name": "Fire",
+      "binary": "101",
+      "coords": [
+        1,
+        0,
+        1
+      ],
+      "em": -2,
+      "projection2D": [
+        0.7071067811865475,
+        -0.4082482904638631
+      ],
+      "axisHeight": 0.2886751345948129,
+      "angle": -30.000000000000004
+    },
+    {
+      "name": "Thunder",
+      "binary": "100",
+      "coords": [
+        1,
+        0,
+        0
+      ],
+      "em": 1,
+      "projection2D": [
+        0.7071067811865475,
+        0.4082482904638631
+      ],
+      "axisHeight": -0.2886751345948129,
+      "angle": 30.000000000000004
+    },
+    {
+      "name": "Earth",
+      "binary": "000",
+      "coords": [
+        0,
+        0,
+        0
+      ],
+      "em": 4,
+      "projection2D": [
+        0,
+        0
+      ],
+      "axisHeight": -0.8660254037844388,
+      "angle": 0
+    },
+    {
+      "name": "Mountain",
+      "binary": "001",
+      "coords": [
+        0,
+        0,
+        1
+      ],
+      "em": 3,
+      "projection2D": [
+        0,
+        -0.8164965809277261
+      ],
+      "axisHeight": -0.2886751345948129,
+      "angle": -90
+    },
+    {
+      "name": "Water",
+      "binary": "010",
+      "coords": [
+        0,
+        1,
+        0
+      ],
+      "em": 2,
+      "projection2D": [
+        -0.7071067811865475,
+        0.4082482904638631
+      ],
+      "axisHeight": -0.2886751345948129,
+      "angle": 150.00000000000003
+    },
+    {
+      "name": "Wind",
+      "binary": "011",
+      "coords": [
+        0,
+        1,
+        1
+      ],
+      "em": -1,
+      "projection2D": [
+        -0.7071067811865475,
+        -0.4082482904638631
+      ],
+      "axisHeight": 0.2886751345948129,
+      "angle": -150.00000000000003
+    },
+    {
+      "name": "Heaven",
+      "binary": "111",
+      "coords": [
+        1,
+        1,
+        1
+      ],
+      "em": -4,
+      "projection2D": [
+        0,
+        0
+      ],
+      "axisHeight": 0.8660254037844388,
+      "angle": 0
+    }
+  ],
+  "zeroCrossings": 2,
+  "totalAngularDisplacement": -2.842170943040401e-14
+}

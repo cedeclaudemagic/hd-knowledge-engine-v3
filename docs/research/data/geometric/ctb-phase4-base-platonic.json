@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "phase": "CTB-Phase-4",
+    "title": "Base and Platonic Geometry",
+    "date": "2025-12-19T11:48:14.354Z"
+  },
+  "bases": {
+    "1": {
+      "number": 1,
+      "dimension": "Movement",
+      "symbol": "⧫ (hourglass)",
+      "keyword": "Reactive",
+      "function": "Uniqueness, separation, Monopole",
+      "character": "The singular point, the beginning",
+      "pyramidPosition": "Face 1"
+    },
+    "2": {
+      "number": 2,
+      "dimension": "Evolution",
+      "symbol": "⧨ (double-E)",
+      "keyword": "Integrative",
+      "function": "Mind, memory, triangulation",
+      "character": "The first relationship, duality emerges",
+      "pyramidPosition": "Face 2"
+    },
+    "3": {
+      "number": 3,
+      "dimension": "Being",
+      "symbol": "☐ (rectangle)",
+      "keyword": "Objective",
+      "function": "Body, genetics, survival",
+      "character": "The material plane, form",
+      "pyramidPosition": "Face 3"
+    },
+    "4": {
+      "number": 4,
+      "dimension": "Design",
+      "symbol": "☷ (wings)",
+      "keyword": "Progressive",
+      "function": "Ego, structure, civilisation",
+      "character": "The completion of corners",
+      "pyramidPosition": "Face 4"
+    },
+    "5": {
+      "number": 5,
+      "dimension": "Space/Illusion",
+      "symbol": "☆ (penta)",
+      "keyword": "Subjective",
+      "function": "Integration, synthesis, Personality",
+      "character": "The container, the whole",
+      "pyramidPosition": "Base (bottom)"
+    }
+  },
+  "platonicSolids": {
+    "tetrahedron": {
+      "name": "Tetrahedron",
+      "faces": 4,
+      "vertices": 4,
+      "edges": 6,
+      "faceType": "triangle",
+      "element": "Fire",
+      "character": "Primal division, simplest 3D form"
+    },
+    "cube": {
+      "name": "Cube (Hexahedron)",
+      "faces": 6,
+      "vertices": 8,
+      "edges": 12,
+      "faceType": "square",
+      "element": "Earth",
+      "character": "State space, stability"
+    },
+    "octahedron": {
+      "name": "Octahedron",
+      "faces": 8,
+      "vertices": 6,
+      "edges": 12,
+      "faceType": "triangle",
+      "element": "Air",
+      "character": "Directions, duality"
+    },
+    "icosahedron": {
+      "name": "Icosahedron",
+      "faces": 20,
+      "vertices": 12,
+      "edges": 30,
+      "faceType": "triangle",
+      "element": "Water",
+      "character": "Flow, complexity"
+    },
+    "dodecahedron": {
+      "name": "Dodecahedron",
+      "faces": 12,
+      "vertices": 20,
+      "edges": 30,
+      "faceType": "pentagon",
+      "element": "Aether/Universe",
+      "character": "Container, cosmos"
+    }
+  },
+  "basePlatonicMapping": [
+    {
+      "base": 1,
+      "dimension": "Movement",
+      "solid": "Tetrahedron",
+      "reasoning": "Primal point, first separation (4 vertices = minimum 3D)",
+      "match": "STRONG"
+    },
+    {
+      "base": 2,
+      "dimension": "Evolution",
+      "solid": "Cube",
+      "reasoning": "Mind/memory = state space (8 vertices = 8 trigrams)",
+      "match": "MODERATE"
+    },
+    {
+      "base": 3,
+      "dimension": "Being",
+      "solid": "Octahedron",
+      "reasoning": "Body/genetics = directions (6 vertices = 6 lines)",
+      "match": "STRONG"
+    },
+    {
+      "base": 4,
+      "dimension": "Design",
+      "solid": "Icosahedron",
+      "reasoning": "Ego/structure = complexity (12 vertices = 12 profiles)",
+      "match": "STRONG"
+    },
+    {
+      "base": 5,
+      "dimension": "Space",
+      "solid": "Dodecahedron",
+      "reasoning": "Integration/container (12 faces = container of cosmos)",
+      "match": "STRONG"
+    }
+  ],
+  "numericalCorrespondences": [
+    {
+      "hd": 4,
+      "hdName": "Bigrams",
+      "platonic": 4,
+      "platonicName": "Tetrahedron vertices",
+      "match": true
+    },
+    {
+      "hd": 8,
+      "hdName": "Trigrams",
+      "platonic": 8,
+      "platonicName": "Cube vertices",
+      "match": true
+    },
+    {
+      "hd": 6,
+      "hdName": "Lines",
+      "platonic": 6,
+      "platonicName": "Octahedron vertices",
+      "match": true
+    },
+    {
+      "hd": 12,
+      "hdName": "Profiles",
+      "platonic": 12,
+      "platonicName": "Icosahedron vertices",
+      "match": true
+    },
+    {
+      "hd": 12,
+      "hdName": "Profiles",
+      "platonic": 12,
+      "platonicName": "Dodecahedron faces",
+      "match": true
+    }
+  ],
+  "pentagonGeometry": {
+    "internalAngle": 108,
+    "externalAngle": 72,
+    "rotationComplete": "5 × 72° = 360°"
+  },
+  "lockKeyMechanism": {
+    "lock": {
+      "name": "Binary Layer",
+      "structure": "Lines × Colors × Tones = 216",
+      "formula": "(3×2)³",
+      "character": "Possibility space"
+    },
+    "key": {
+      "name": "Platonic Layer",
+      "structure": "5 Bases",
+      "formula": "5 Platonic solids",
+      "character": "Engagement level"
+    }
+  },
+  "why5": "There are exactly 5 Platonic solids (mathematical theorem)",
+  "derivability": {
+    "derivable": [
+      "5-fold from Platonic constraint",
+      "4+1 pyramid structure",
+      "Pentagon angles"
+    ],
+    "empirical": [
+      "Specific Base meanings",
+      "Exact solid-to-Base assignments"
+    ]
+  }
+}

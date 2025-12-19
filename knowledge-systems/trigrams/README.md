@@ -66,11 +66,11 @@ This creates 8 × 8 = 64 possible combinations, representing the 64 gates/hexagr
 - **I Ching**: "The Abysmal. Danger. Water that flows into the abyss."
 - **Image**: Water, middle son, winter
 
-### 5. Mountain (艮 Gèn) - Binary: 110
+### 5. Mountain (艮 Gèn) - Binary: 001
 ```
-☶  ═══  Yang
-   ─ ─  Yin
-   ─ ─  Yin (bottom)
+☶  ═══  Yang     (top = bit 2 = 1)
+   ─ ─  Yin      (middle = bit 1 = 0)
+   ─ ─  Yin      (bottom = bit 0 = 0)
 ```
 - **Element**: Mountain
 - **Quality**: Still, resting, stopping
@@ -79,11 +79,11 @@ This creates 8 × 8 = 64 possible combinations, representing the 64 gates/hexagr
 - **I Ching**: "Keeping Still. Rest. The mountain stands firm."
 - **Image**: Mountain, youngest son, transition
 
-### 6. Wind (巽 Xùn) - Binary: 001
+### 6. Wind (巽 Xùn) - Binary: 011
 ```
-☴  ─ ─  Yin
-   ═══  Yang
-   ═══  Yang (bottom)
+☴  ═══  Yang     (top = bit 2 = 1)
+   ═══  Yang     (middle = bit 1 = 1)
+   ─ ─  Yin      (bottom = bit 0 = 0)
 ```
 - **Element**: Wood/Wind
 - **Quality**: Gentle, penetrating, pervasive
@@ -105,11 +105,11 @@ This creates 8 × 8 = 64 possible combinations, representing the 64 gates/hexagr
 - **I Ching**: "The Clinging. Light. Fire that clings to fuel."
 - **Image**: Fire, middle daughter, lightning
 
-### 8. Lake (兌 Duì) - Binary: 011
+### 8. Lake (兌 Duì) - Binary: 110
 ```
-☱  ─ ─  Yin
-   ═══  Yang
-   ═══  Yang (bottom)
+☱  ─ ─  Yin      (top = bit 2 = 0)
+   ═══  Yang     (middle = bit 1 = 1)
+   ═══  Yang     (bottom = bit 0 = 1)
 ```
 - **Element**: Lake/Marsh
 - **Quality**: Joyous, pleasing, open
@@ -121,17 +121,20 @@ This creates 8 × 8 = 64 possible combinations, representing the 64 gates/hexagr
 ## Binary Encoding
 
 Each trigram is encoded as a 3-bit binary number, reading from **bottom to top** (traditional I Ching order):
+- Bit 0 (leftmost in string) = Line 1 = Bottom
+- Bit 1 (middle in string) = Line 2 = Middle
+- Bit 2 (rightmost in string) = Line 3 = Top
 
-| Binary | Decimal | Trigram | Chinese | Element |
-|--------|---------|---------|---------|---------|
-| 000    | 0       | Earth   | 坤      | Earth   |
-| 001    | 1       | Wind    | 巽      | Wood    |
-| 010    | 2       | Water   | 坎      | Water   |
-| 011    | 3       | Lake    | 兌      | Lake    |
-| 100    | 4       | Thunder | 震      | Thunder |
-| 101    | 5       | Fire    | 離      | Fire    |
-| 110    | 6       | Mountain| 艮      | Mountain|
-| 111    | 7       | Heaven  | 乾      | Heaven  |
+| Binary | Decimal | Trigram  | Chinese | Element  | Yang Position |
+|--------|---------|----------|---------|----------|---------------|
+| 000    | 0       | Earth    | 坤      | Earth    | None (all yin) |
+| 001    | 1       | Mountain | 艮      | Mountain | Top only |
+| 010    | 2       | Water    | 坎      | Water    | Middle only |
+| 011    | 3       | Wind     | 巽      | Wood     | Middle + Top |
+| 100    | 4       | Thunder  | 震      | Thunder  | Bottom only |
+| 101    | 5       | Fire     | 離      | Fire     | Bottom + Top |
+| 110    | 6       | Lake     | 兌      | Lake     | Bottom + Middle |
+| 111    | 7       | Heaven   | 乾      | Heaven   | All (all yang) |
 
 ## Hexagram Composition
 
@@ -167,10 +170,10 @@ The trigrams represent familial relationships:
 | Earth    | 000    | Mother            | Female |
 | Thunder  | 100    | Eldest Son        | Male   |
 | Water    | 010    | Middle Son        | Male   |
-| Mountain | 110    | Youngest Son      | Male   |
-| Wind     | 001    | Eldest Daughter   | Female |
+| Mountain | 001    | Youngest Son      | Male   |
+| Wind     | 011    | Eldest Daughter   | Female |
 | Fire     | 101    | Middle Daughter   | Female |
-| Lake     | 011    | Youngest Daughter | Female |
+| Lake     | 110    | Youngest Daughter | Female |
 
 ## Data Architecture
 
@@ -282,6 +285,13 @@ knowledge-systems/trigrams/
 
 ## Version History
 
+- **v1.1.1** (2025-12-17): Binary convention correction
+  - Fixed Mountain, Wind, Lake binary values in README
+  - Binary encoding table now correctly shows bottom-to-top convention
+  - Added "Yang Position" column for clarity
+  - All tables now match positioning-algorithm.js and trigrams-mappings.json
+- **v1.1.0** (2025-11-28): Electromagnetic phase integration
+  - Added emPhase to each trigram
 - **v1.0.0** (2025-11-10): Initial release
   - All 8 trigrams documented
   - Traditional I Ching meanings

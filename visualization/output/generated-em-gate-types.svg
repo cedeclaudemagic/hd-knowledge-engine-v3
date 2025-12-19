@@ -1,0 +1,1934 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect id="background" width="100%" height="100%" fill="#0a0a0a"/>
+  <g id="FLOW-INDICATORS">
+    <text x="5.0000" y="492.0000"
+        font-family="Copperplate" font-size="11"
+        fill="#20B090" text-anchor="start">MATTER</text>
+    <text x="5.0000" y="505.0000"
+        font-family="Copperplate-Light, Copperplate" font-size="9" font-weight="300"
+        fill="#20B090" text-anchor="start" opacity="0.7">+1 +2 +3 +4</text>
+    <text x="995.0000" y="492.0000"
+        font-family="Copperplate" font-size="11"
+        fill="#C080E0" text-anchor="end">VOID</text>
+    <text x="995.0000" y="505.0000"
+        font-family="Copperplate-Light, Copperplate" font-size="9" font-weight="300"
+        fill="#C080E0" text-anchor="end" opacity="0.7">-4 -3 -2 -1</text>
+    <text x="500" y="0"
+        font-family="Copperplate-Light, Copperplate" font-size="9" font-weight="300"
+        fill="#4A90D9" text-anchor="middle">MANIFESTING →</text>
+    <text x="500" y="1007"
+        font-family="Copperplate-Light, Copperplate" font-size="9" font-weight="300"
+        fill="#E07050" text-anchor="middle">← DEMATERIALISING</text>
+  </g>
+  <g id="GATE-ARCS">
+    <path id="ARC-41" d="M 208.1791 144.4152
+          A 460 460 0 0 1 244.4377 117.5240
+          L 322.2175 233.9297
+          A 320 320 0 0 0 296.9941 252.6367
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="41" data-type="cross-zero-manifesting"/>
+    <path id="ARC-19" d="M 174.7309 174.7309
+          A 460 460 0 0 1 208.1791 144.4152
+          L 296.9941 252.6367
+          A 320 320 0 0 0 273.7258 273.7258
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="19" data-type="cross-zero-manifesting"/>
+    <path id="ARC-13" d="M 144.4152 208.1791
+          A 460 460 0 0 1 174.7309 174.7309
+          L 273.7258 273.7258
+          A 320 320 0 0 0 252.6367 296.9941
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="13" data-type="same-phase-void"/>
+    <path id="ARC-49" d="M 117.5240 244.4377
+          A 460 460 0 0 1 144.4152 208.1791
+          L 252.6367 296.9941
+          A 320 320 0 0 0 233.9297 322.2175
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="49" data-type="same-phase-void"/>
+    <path id="ARC-30" d="M 94.3162 283.1575
+          A 460 460 0 0 1 117.5240 244.4377
+          L 233.9297 322.2175
+          A 320 320 0 0 0 217.7852 349.1530
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="30" data-type="doubled"/>
+    <path id="ARC-55" d="M 75.0154 323.9656
+          A 460 460 0 0 1 94.3162 283.1575
+          L 217.7852 349.1530
+          A 320 320 0 0 0 204.3585 377.5413
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="55" data-type="cross-zero-manifesting"/>
+    <path id="ARC-37" d="M 59.8074 366.4690
+          A 460 460 0 0 1 75.0154 323.9656
+          L 204.3585 377.5413
+          A 320 320 0 0 0 193.7791 407.1089
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="37" data-type="same-phase-void"/>
+    <path id="ARC-63" d="M 48.8388 410.2585
+          A 460 460 0 0 1 59.8074 366.4690
+          L 193.7791 407.1089
+          A 320 320 0 0 0 186.1487 437.5711
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="63" data-type="cross-zero-manifesting"/>
+    <path id="ARC-22" d="M 42.2150 454.9121
+          A 460 460 0 0 1 48.8388 410.2585
+          L 186.1487 437.5711
+          A 320 320 0 0 0 181.5409 468.6345
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="22" data-type="cross-zero-manifesting"/>
+    <path id="ARC-36" d="M 40.0000 500.0000
+          A 460 460 0 0 1 42.2150 454.9121
+          L 181.5409 468.6345
+          A 320 320 0 0 0 180.0000 500.0000
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="36" data-type="cross-zero-manifesting"/>
+    <path id="ARC-25" d="M 42.2150 545.0879
+          A 460 460 0 0 1 40.0000 500.0000
+          L 180.0000 500.0000
+          A 320 320 0 0 0 181.5409 531.3655
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="25" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-17" d="M 48.8388 589.7415
+          A 460 460 0 0 1 42.2150 545.0879
+          L 181.5409 531.3655
+          A 320 320 0 0 0 186.1487 562.4289
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="17" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-21" d="M 59.8074 633.5310
+          A 460 460 0 0 1 48.8388 589.7415
+          L 186.1487 562.4289
+          A 320 320 0 0 0 193.7791 592.8911
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="21" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-51" d="M 75.0154 676.0344
+          A 460 460 0 0 1 59.8074 633.5310
+          L 193.7791 592.8911
+          A 320 320 0 0 0 204.3585 622.4587
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="51" data-type="doubled"/>
+    <path id="ARC-42" d="M 94.3162 716.8425
+          A 460 460 0 0 1 75.0154 676.0344
+          L 204.3585 622.4587
+          A 320 320 0 0 0 217.7852 650.8470
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="42" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-3" d="M 117.5240 755.5623
+          A 460 460 0 0 1 94.3162 716.8425
+          L 217.7852 650.8470
+          A 320 320 0 0 0 233.9297 677.7825
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="3" data-type="same-phase-material"/>
+    <path id="ARC-27" d="M 144.4152 791.8209
+          A 460 460 0 0 1 117.5240 755.5623
+          L 233.9297 677.7825
+          A 320 320 0 0 0 252.6367 703.0059
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="27" data-type="same-phase-material"/>
+    <path id="ARC-24" d="M 174.7309 825.2691
+          A 460 460 0 0 1 144.4152 791.8209
+          L 252.6367 703.0059
+          A 320 320 0 0 0 273.7258 726.2742
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="24" data-type="same-phase-material"/>
+    <path id="ARC-2" d="M 208.1791 855.5848
+          A 460 460 0 0 1 174.7309 825.2691
+          L 273.7258 726.2742
+          A 320 320 0 0 0 296.9941 747.3633
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="2" data-type="doubled"/>
+    <path id="ARC-23" d="M 244.4377 882.4760
+          A 460 460 0 0 1 208.1791 855.5848
+          L 296.9941 747.3633
+          A 320 320 0 0 0 322.2175 766.0703
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="23" data-type="same-phase-material"/>
+    <path id="ARC-8" d="M 283.1575 905.6838
+          A 460 460 0 0 1 244.4377 882.4760
+          L 322.2175 766.0703
+          A 320 320 0 0 0 349.1530 782.2148
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="8" data-type="same-phase-material"/>
+    <path id="ARC-20" d="M 323.9656 924.9846
+          A 460 460 0 0 1 283.1575 905.6838
+          L 349.1530 782.2148
+          A 320 320 0 0 0 377.5413 795.6415
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="20" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-16" d="M 366.4690 940.1926
+          A 460 460 0 0 1 323.9656 924.9846
+          L 377.5413 795.6415
+          A 320 320 0 0 0 407.1089 806.2209
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="16" data-type="same-phase-material"/>
+    <path id="ARC-35" d="M 410.2585 951.1612
+          A 460 460 0 0 1 366.4690 940.1926
+          L 407.1089 806.2209
+          A 320 320 0 0 0 437.5711 813.8513
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="35" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-45" d="M 454.9121 957.7850
+          A 460 460 0 0 1 410.2585 951.1612
+          L 437.5711 813.8513
+          A 320 320 0 0 0 468.6345 818.4591
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="45" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-12" d="M 500.0000 960.0000
+          A 460 460 0 0 1 454.9121 957.7850
+          L 468.6345 818.4591
+          A 320 320 0 0 0 500.0000 820.0000
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="12" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-15" d="M 545.0879 957.7850
+          A 460 460 0 0 1 500.0000 960.0000
+          L 500.0000 820.0000
+          A 320 320 0 0 0 531.3655 818.4591
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="15" data-type="same-phase-material"/>
+    <path id="ARC-52" d="M 589.7415 951.1612
+          A 460 460 0 0 1 545.0879 957.7850
+          L 531.3655 818.4591
+          A 320 320 0 0 0 562.4289 813.8513
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="52" data-type="doubled"/>
+    <path id="ARC-39" d="M 633.5310 940.1926
+          A 460 460 0 0 1 589.7415 951.1612
+          L 562.4289 813.8513
+          A 320 320 0 0 0 592.8911 806.2209
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="39" data-type="same-phase-material"/>
+    <path id="ARC-53" d="M 676.0344 924.9846
+          A 460 460 0 0 1 633.5310 940.1926
+          L 592.8911 806.2209
+          A 320 320 0 0 0 622.4587 795.6415
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="53" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-62" d="M 716.8425 905.6838
+          A 460 460 0 0 1 676.0344 924.9846
+          L 622.4587 795.6415
+          A 320 320 0 0 0 650.8470 782.2148
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="62" data-type="same-phase-material"/>
+    <path id="ARC-56" d="M 755.5623 882.4760
+          A 460 460 0 0 1 716.8425 905.6838
+          L 650.8470 782.2148
+          A 320 320 0 0 0 677.7825 766.0703
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="56" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-31" d="M 791.8209 855.5848
+          A 460 460 0 0 1 755.5623 882.4760
+          L 677.7825 766.0703
+          A 320 320 0 0 0 703.0059 747.3633
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="31" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-33" d="M 825.2691 825.2691
+          A 460 460 0 0 1 791.8209 855.5848
+          L 703.0059 747.3633
+          A 320 320 0 0 0 726.2742 726.2742
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="33" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-7" d="M 855.5848 791.8209
+          A 460 460 0 0 1 825.2691 825.2691
+          L 726.2742 726.2742
+          A 320 320 0 0 0 747.3633 703.0059
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="7" data-type="same-phase-material"/>
+    <path id="ARC-4" d="M 882.4760 755.5623
+          A 460 460 0 0 1 855.5848 791.8209
+          L 747.3633 703.0059
+          A 320 320 0 0 0 766.0703 677.7825
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="4" data-type="same-phase-material"/>
+    <path id="ARC-29" d="M 905.6838 716.8425
+          A 460 460 0 0 1 882.4760 755.5623
+          L 766.0703 677.7825
+          A 320 320 0 0 0 782.2148 650.8470
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="29" data-type="doubled"/>
+    <path id="ARC-59" d="M 924.9846 676.0344
+          A 460 460 0 0 1 905.6838 716.8425
+          L 782.2148 650.8470
+          A 320 320 0 0 0 795.6415 622.4587
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="59" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-40" d="M 940.1926 633.5310
+          A 460 460 0 0 1 924.9846 676.0344
+          L 795.6415 622.4587
+          A 320 320 0 0 0 806.2209 592.8911
+          Z"
+          fill="#20B090" opacity="0.7"
+          data-gate="40" data-type="same-phase-material"/>
+    <path id="ARC-64" d="M 951.1612 589.7415
+          A 460 460 0 0 1 940.1926 633.5310
+          L 806.2209 592.8911
+          A 320 320 0 0 0 813.8513 562.4289
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="64" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-47" d="M 957.7850 545.0879
+          A 460 460 0 0 1 951.1612 589.7415
+          L 813.8513 562.4289
+          A 320 320 0 0 0 818.4591 531.3655
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="47" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-6" d="M 960.0000 500.0000
+          A 460 460 0 0 1 957.7850 545.0879
+          L 818.4591 531.3655
+          A 320 320 0 0 0 820.0000 500.0000
+          Z"
+          fill="#E07050" opacity="0.7"
+          data-gate="6" data-type="cross-zero-dematerialising"/>
+    <path id="ARC-46" d="M 957.7850 454.9121
+          A 460 460 0 0 1 960.0000 500.0000
+          L 820.0000 500.0000
+          A 320 320 0 0 0 818.4591 468.6345
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="46" data-type="cross-zero-manifesting"/>
+    <path id="ARC-18" d="M 951.1612 410.2585
+          A 460 460 0 0 1 957.7850 454.9121
+          L 818.4591 468.6345
+          A 320 320 0 0 0 813.8513 437.5711
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="18" data-type="cross-zero-manifesting"/>
+    <path id="ARC-48" d="M 940.1926 366.4690
+          A 460 460 0 0 1 951.1612 410.2585
+          L 813.8513 437.5711
+          A 320 320 0 0 0 806.2209 407.1089
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="48" data-type="cross-zero-manifesting"/>
+    <path id="ARC-57" d="M 924.9846 323.9656
+          A 460 460 0 0 1 940.1926 366.4690
+          L 806.2209 407.1089
+          A 320 320 0 0 0 795.6415 377.5413
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="57" data-type="doubled"/>
+    <path id="ARC-32" d="M 905.6838 283.1575
+          A 460 460 0 0 1 924.9846 323.9656
+          L 795.6415 377.5413
+          A 320 320 0 0 0 782.2148 349.1530
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="32" data-type="cross-zero-manifesting"/>
+    <path id="ARC-50" d="M 882.4760 244.4377
+          A 460 460 0 0 1 905.6838 283.1575
+          L 782.2148 349.1530
+          A 320 320 0 0 0 766.0703 322.2175
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="50" data-type="same-phase-void"/>
+    <path id="ARC-28" d="M 855.5848 208.1791
+          A 460 460 0 0 1 882.4760 244.4377
+          L 766.0703 322.2175
+          A 320 320 0 0 0 747.3633 296.9941
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="28" data-type="same-phase-void"/>
+    <path id="ARC-44" d="M 825.2691 174.7309
+          A 460 460 0 0 1 855.5848 208.1791
+          L 747.3633 296.9941
+          A 320 320 0 0 0 726.2742 273.7258
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="44" data-type="same-phase-void"/>
+    <path id="ARC-1" d="M 791.8209 144.4152
+          A 460 460 0 0 1 825.2691 174.7309
+          L 726.2742 273.7258
+          A 320 320 0 0 0 703.0059 252.6367
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="1" data-type="doubled"/>
+    <path id="ARC-43" d="M 755.5623 117.5240
+          A 460 460 0 0 1 791.8209 144.4152
+          L 703.0059 252.6367
+          A 320 320 0 0 0 677.7825 233.9297
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="43" data-type="same-phase-void"/>
+    <path id="ARC-14" d="M 716.8425 94.3162
+          A 460 460 0 0 1 755.5623 117.5240
+          L 677.7825 233.9297
+          A 320 320 0 0 0 650.8470 217.7852
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="14" data-type="same-phase-void"/>
+    <path id="ARC-34" d="M 676.0344 75.0154
+          A 460 460 0 0 1 716.8425 94.3162
+          L 650.8470 217.7852
+          A 320 320 0 0 0 622.4587 204.3585
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="34" data-type="cross-zero-manifesting"/>
+    <path id="ARC-9" d="M 633.5310 59.8074
+          A 460 460 0 0 1 676.0344 75.0154
+          L 622.4587 204.3585
+          A 320 320 0 0 0 592.8911 193.7791
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="9" data-type="same-phase-void"/>
+    <path id="ARC-5" d="M 589.7415 48.8388
+          A 460 460 0 0 1 633.5310 59.8074
+          L 592.8911 193.7791
+          A 320 320 0 0 0 562.4289 186.1487
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="5" data-type="cross-zero-manifesting"/>
+    <path id="ARC-26" d="M 545.0879 42.2150
+          A 460 460 0 0 1 589.7415 48.8388
+          L 562.4289 186.1487
+          A 320 320 0 0 0 531.3655 181.5409
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="26" data-type="cross-zero-manifesting"/>
+    <path id="ARC-11" d="M 500.0000 40.0000
+          A 460 460 0 0 1 545.0879 42.2150
+          L 531.3655 181.5409
+          A 320 320 0 0 0 500.0000 180.0000
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="11" data-type="cross-zero-manifesting"/>
+    <path id="ARC-10" d="M 454.9121 42.2150
+          A 460 460 0 0 1 500.0000 40.0000
+          L 500.0000 180.0000
+          A 320 320 0 0 0 468.6345 181.5409
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="10" data-type="same-phase-void"/>
+    <path id="ARC-58" d="M 410.2585 48.8388
+          A 460 460 0 0 1 454.9121 42.2150
+          L 468.6345 181.5409
+          A 320 320 0 0 0 437.5711 186.1487
+          Z"
+          fill="#FFD700" opacity="0.7"
+          data-gate="58" data-type="doubled"/>
+    <path id="ARC-38" d="M 366.4690 59.8074
+          A 460 460 0 0 1 410.2585 48.8388
+          L 437.5711 186.1487
+          A 320 320 0 0 0 407.1089 193.7791
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="38" data-type="same-phase-void"/>
+    <path id="ARC-54" d="M 323.9656 75.0154
+          A 460 460 0 0 1 366.4690 59.8074
+          L 407.1089 193.7791
+          A 320 320 0 0 0 377.5413 204.3585
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="54" data-type="cross-zero-manifesting"/>
+    <path id="ARC-61" d="M 283.1575 94.3162
+          A 460 460 0 0 1 323.9656 75.0154
+          L 377.5413 204.3585
+          A 320 320 0 0 0 349.1530 217.7852
+          Z"
+          fill="#C080E0" opacity="0.7"
+          data-gate="61" data-type="same-phase-void"/>
+    <path id="ARC-60" d="M 244.4377 117.5240
+          A 460 460 0 0 1 283.1575 94.3162
+          L 349.1530 217.7852
+          A 320 320 0 0 0 322.2175 233.9297
+          Z"
+          fill="#4A90D9" opacity="0.7"
+          data-gate="60" data-type="cross-zero-manifesting"/>
+  </g>
+  <g id="STRUCTURE">
+    <g id="RINGS">
+      <circle id="RING_-_INNER" cx="500" cy="500" r="320" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+      <circle id="RING_-_OUTER" cx="500" cy="500" r="460" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+    <g id="DIVIDERS">
+      <line id="LINE_-_41_19" x1="209.4479" y1="145.9612" x2="295.7254" y2="251.0906" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_19_13" x1="176.1451" y1="176.1451" x2="272.3116" y2="272.3116" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_13_49" x1="145.9612" y1="209.4479" x2="251.0906" y2="295.7254" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_49_30" x1="119.1869" y1="245.5488" x2="232.2668" y2="321.1064" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_30_55" x1="96.0801" y1="284.1003" x2="216.0214" y2="348.2103" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_55_37" x1="76.8632" y1="324.7310" x2="202.5108" y2="376.7759" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_37_63" x1="61.7213" y1="367.0496" x2="191.8652" y2="406.5283" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_63_22" x1="50.8003" y1="410.6486" x2="184.1871" y2="437.1809" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_22_36" x1="44.2054" y1="455.1081" x2="179.5505" y2="468.4385" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_36_25" x1="42.0000" y1="500.0000" x2="178.0000" y2="500.0000" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_25_17" x1="44.2054" y1="544.8919" x2="179.5505" y2="531.5615" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_17_21" x1="50.8003" y1="589.3514" x2="184.1871" y2="562.8191" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_21_51" x1="61.7213" y1="632.9504" x2="191.8652" y2="593.4717" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_51_42" x1="76.8632" y1="675.2690" x2="202.5108" y2="623.2241" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_42_3" x1="96.0801" y1="715.8997" x2="216.0214" y2="651.7897" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_3_27" x1="119.1869" y1="754.4512" x2="232.2668" y2="678.8936" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_27_24" x1="145.9612" y1="790.5521" x2="251.0906" y2="704.2746" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_24_2" x1="176.1451" y1="823.8549" x2="272.3116" y2="727.6884" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_2_23" x1="209.4479" y1="854.0388" x2="295.7254" y2="748.9094" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_23_8" x1="245.5488" y1="880.8131" x2="321.1064" y2="767.7332" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_8_20" x1="284.1003" y1="903.9199" x2="348.2103" y2="783.9786" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_20_16" x1="324.7310" y1="923.1368" x2="376.7759" y2="797.4892" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_16_35" x1="367.0496" y1="938.2787" x2="406.5283" y2="808.1348" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_35_45" x1="410.6486" y1="949.1997" x2="437.1809" y2="815.8129" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_45_12" x1="455.1081" y1="955.7946" x2="468.4385" y2="820.4495" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_12_15" x1="500.0000" y1="958.0000" x2="500.0000" y2="822.0000" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_15_52" x1="544.8919" y1="955.7946" x2="531.5615" y2="820.4495" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_52_39" x1="589.3514" y1="949.1997" x2="562.8191" y2="815.8129" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_39_53" x1="632.9504" y1="938.2787" x2="593.4717" y2="808.1348" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_53_62" x1="675.2690" y1="923.1368" x2="623.2241" y2="797.4892" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_62_56" x1="715.8997" y1="903.9199" x2="651.7897" y2="783.9786" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_56_31" x1="754.4512" y1="880.8131" x2="678.8936" y2="767.7332" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_31_33" x1="790.5521" y1="854.0388" x2="704.2746" y2="748.9094" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_33_7" x1="823.8549" y1="823.8549" x2="727.6884" y2="727.6884" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_7_4" x1="854.0388" y1="790.5521" x2="748.9094" y2="704.2746" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_4_29" x1="880.8131" y1="754.4512" x2="767.7332" y2="678.8936" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_29_59" x1="903.9199" y1="715.8997" x2="783.9786" y2="651.7897" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_59_40" x1="923.1368" y1="675.2690" x2="797.4892" y2="623.2241" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_40_64" x1="938.2787" y1="632.9504" x2="808.1348" y2="593.4717" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_64_47" x1="949.1997" y1="589.3514" x2="815.8129" y2="562.8191" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_47_6" x1="955.7946" y1="544.8919" x2="820.4495" y2="531.5615" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_6_46" x1="958.0000" y1="500.0000" x2="822.0000" y2="500.0000" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_46_18" x1="955.7946" y1="455.1081" x2="820.4495" y2="468.4385" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_18_48" x1="949.1997" y1="410.6486" x2="815.8129" y2="437.1809" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_48_57" x1="938.2787" y1="367.0496" x2="808.1348" y2="406.5283" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_57_32" x1="923.1368" y1="324.7310" x2="797.4892" y2="376.7759" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_32_50" x1="903.9199" y1="284.1003" x2="783.9786" y2="348.2103" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_50_28" x1="880.8131" y1="245.5488" x2="767.7332" y2="321.1064" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_28_44" x1="854.0388" y1="209.4479" x2="748.9094" y2="295.7254" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_44_1" x1="823.8549" y1="176.1451" x2="727.6884" y2="272.3116" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_1_43" x1="790.5521" y1="145.9612" x2="704.2746" y2="251.0906" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_43_14" x1="754.4512" y1="119.1869" x2="678.8936" y2="232.2668" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_14_34" x1="715.8997" y1="96.0801" x2="651.7897" y2="216.0214" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_34_9" x1="675.2690" y1="76.8632" x2="623.2241" y2="202.5108" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_9_5" x1="632.9504" y1="61.7213" x2="593.4717" y2="191.8652" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_5_26" x1="589.3514" y1="50.8003" x2="562.8191" y2="184.1871" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_26_11" x1="544.8919" y1="44.2054" x2="531.5615" y2="179.5505" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_11_10" x1="500.0000" y1="42.0000" x2="500.0000" y2="178.0000" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_10_58" x1="455.1081" y1="44.2054" x2="468.4385" y2="179.5505" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_58_38" x1="410.6486" y1="50.8003" x2="437.1809" y2="184.1871" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_38_54" x1="367.0496" y1="61.7213" x2="406.5283" y2="191.8652" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_54_61" x1="324.7310" y1="76.8632" x2="376.7759" y2="202.5108" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_61_60" x1="284.1003" y1="96.0801" x2="348.2103" y2="216.0214" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+      <line id="LINE_-_60_41" x1="245.5488" y1="119.1869" x2="321.1064" y2="232.2668" fill="none" stroke="#FFFFFF" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="GATE-LABELS">
+    <g id="LABEL-41" data-gate="41">
+      <g transform="translate(294.3646, 222.7328) rotate(323.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.803208, -0.595699, 0.595699, 0.803208, 274.3491, 195.7450)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">41</text>
+      <g transform="translate(257.6695, 173.2552) rotate(323.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.803208, -0.595699, 0.595699, 0.803208, 238.4880, 147.3919)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-3→+3</text>
+    </g>
+    <g id="LABEL-19" data-gate="19">
+      <g transform="translate(268.1778, 244.2237) rotate(317.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.740951, -0.671559, 0.671559, 0.740951, 245.6135, 219.3277)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">19</text>
+      <g transform="translate(226.8098, 198.5811) rotate(317.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.740951, -0.671559, 0.671559, 0.740951, 205.1856, 174.7225)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-3→+4</text>
+    </g>
+    <g id="LABEL-13" data-gate="13">
+      <g transform="translate(244.2237, 268.1778) rotate(312.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.671559, -0.740951, 0.740951, 0.671559, 219.3277, 245.6135)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">13</text>
+      <g transform="translate(198.5811, 226.8098) rotate(312.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.671559, -0.740951, 0.740951, 0.671559, 174.7225, 205.1856)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-2→-4</text>
+    </g>
+    <g id="LABEL-49" data-gate="49">
+      <g transform="translate(222.7328, 294.3646) rotate(306.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.595699, -0.803208, 0.803208, 0.595699, 195.7450, 274.3491)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">49</text>
+      <g transform="translate(173.2552, 257.6695) rotate(306.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.595699, -0.803208, 0.803208, 0.595699, 147.3919, 238.4880)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-2→-3</text>
+    </g>
+    <g id="LABEL-30" data-gate="30">
+      <g transform="translate(203.9121, 322.5317) rotate(300.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.514103, -0.857729, 0.857729, 0.514103, 175.0924, 305.2579)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">30</text>
+      <g transform="translate(151.0760, 290.8630) rotate(300.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.514103, -0.857729, 0.857729, 0.514103, 123.4571, 274.3089)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">-2→-2</text>
+    </g>
+    <g id="LABEL-55" data-gate="55">
+      <g transform="translate(187.9429, 352.4080) rotate(295.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.427555, -0.903989, 0.903989, 0.427555, 157.5689, 338.0421)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">55</text>
+      <g transform="translate(132.2572, 326.0706) rotate(295.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.427555, -0.903989, 0.903989, 0.427555, 103.1487, 312.3033)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-2→+1</text>
+    </g>
+    <g id="LABEL-37" data-gate="37">
+      <g transform="translate(174.9790, 383.7056) rotate(289.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.336890, -0.941544, 0.941544, 0.336890, 143.3431, 372.3861)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">37</text>
+      <g transform="translate(116.9799, 362.9532) rotate(289.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.336890, -0.941544, 0.941544, 0.336890, 86.6622, 352.1054)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-2→-1</text>
+    </g>
+    <g id="LABEL-63" data-gate="63">
+      <g transform="translate(165.1452, 416.1232) rotate(284.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.242980, -0.970031, 0.970031, 0.242980, 132.5522, 407.9591)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">63</text>
+      <g transform="translate(105.3913, 401.1557) rotate(284.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.242980, -0.970031, 0.970031, 0.242980, 74.1563, 393.3317)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-2→+2</text>
+    </g>
+    <g id="LABEL-22" data-gate="22">
+      <g transform="translate(158.5363, 449.3486) rotate(278.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.146730, -0.989177, 0.989177, 0.146730, 125.2999, 444.4185)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">22</text>
+      <g transform="translate(97.6030, 440.3100) rotate(278.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.146730, -0.989177, 0.989177, 0.146730, 65.7515, 435.5853)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-2→+3</text>
+    </g>
+    <g id="LABEL-36" data-gate="36">
+      <g transform="translate(155.2158, 483.0618) rotate(272.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.049068, -0.998795, 0.998795, 0.049068, 121.6563, 481.4132)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">36</text>
+      <g transform="translate(93.6900, 480.0393) rotate(272.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.049068, -0.998795, 0.998795, 0.049068, 61.5288, 478.4593)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-2→+4</text>
+    </g>
+    <g id="LABEL-25" data-gate="25">
+      <g transform="translate(155.2158, 516.9382) rotate(267.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.049068, -0.998795, 0.998795, -0.049068, 121.6563, 518.5868)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">25</text>
+      <g transform="translate(93.6900, 519.9607) rotate(267.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.049068, -0.998795, 0.998795, -0.049068, 61.5288, 521.5407)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+1→-4</text>
+    </g>
+    <g id="LABEL-17" data-gate="17">
+      <g transform="translate(158.5363, 550.6514) rotate(261.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.146730, -0.989177, 0.989177, -0.146730, 125.2999, 555.5815)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">17</text>
+      <g transform="translate(97.6030, 559.6900) rotate(261.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.146730, -0.989177, 0.989177, -0.146730, 65.7515, 564.4147)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+1→-3</text>
+    </g>
+    <g id="LABEL-21" data-gate="21">
+      <g transform="translate(165.1452, 583.8768) rotate(255.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.242980, -0.970031, 0.970031, -0.242980, 132.5522, 592.0409)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">21</text>
+      <g transform="translate(105.3913, 598.8443) rotate(255.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.242980, -0.970031, 0.970031, -0.242980, 74.1563, 606.6683)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+1→-2</text>
+    </g>
+    <g id="LABEL-51" data-gate="51">
+      <g transform="translate(174.9790, 616.2944) rotate(250.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.336890, -0.941544, 0.941544, -0.336890, 143.3431, 627.6139)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">51</text>
+      <g transform="translate(116.9799, 637.0468) rotate(250.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.336890, -0.941544, 0.941544, -0.336890, 86.6622, 647.8946)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">+1→+1</text>
+    </g>
+    <g id="LABEL-42" data-gate="42">
+      <g transform="translate(187.9429, 647.5920) rotate(244.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.427555, -0.903989, 0.903989, -0.427555, 157.5689, 661.9579)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">42</text>
+      <g transform="translate(132.2572, 673.9294) rotate(244.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.427555, -0.903989, 0.903989, -0.427555, 103.1487, 687.6967)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+1→-1</text>
+    </g>
+    <g id="LABEL-3" data-gate="3">
+      <g transform="translate(203.9121, 677.4683) rotate(239.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.514103, -0.857729, 0.857729, -0.514103, 175.0924, 694.7421)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">3</text>
+      <g transform="translate(151.0760, 709.1370) rotate(239.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.514103, -0.857729, 0.857729, -0.514103, 123.4571, 725.6911)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+1→+2</text>
+    </g>
+    <g id="LABEL-27" data-gate="27">
+      <g transform="translate(222.7328, 705.6354) rotate(233.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.595699, -0.803208, 0.803208, -0.595699, 195.7450, 725.6509)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">27</text>
+      <g transform="translate(173.2552, 742.3305) rotate(233.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.595699, -0.803208, 0.803208, -0.595699, 147.3919, 761.5120)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+1→+3</text>
+    </g>
+    <g id="LABEL-24" data-gate="24">
+      <g transform="translate(244.2237, 731.8222) rotate(227.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.671559, -0.740951, 0.740951, -0.671559, 219.3277, 754.3865)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">24</text>
+      <g transform="translate(198.5811, 773.1902) rotate(227.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.671559, -0.740951, 0.740951, -0.671559, 174.7225, 794.8144)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+1→+4</text>
+    </g>
+    <g id="LABEL-2" data-gate="2">
+      <g transform="translate(268.1778, 755.7763) rotate(222.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.740951, -0.671559, 0.671559, -0.740951, 245.6135, 780.6723)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">2</text>
+      <g transform="translate(226.8098, 801.4189) rotate(222.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.740951, -0.671559, 0.671559, -0.740951, 205.1856, 825.2775)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">+4→+4</text>
+    </g>
+    <g id="LABEL-23" data-gate="23">
+      <g transform="translate(294.3646, 777.2672) rotate(216.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.803208, -0.595699, 0.595699, -0.803208, 274.3491, 804.2550)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">23</text>
+      <g transform="translate(257.6695, 826.7448) rotate(216.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.803208, -0.595699, 0.595699, -0.803208, 238.4880, 852.6081)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+4→+3</text>
+    </g>
+    <g id="LABEL-8" data-gate="8">
+      <g transform="translate(322.5317, 796.0879) rotate(210.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.857729, -0.514103, 0.514103, -0.857729, 305.2579, 824.9076)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">8</text>
+      <g transform="translate(290.8630, 848.9240) rotate(210.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.857729, -0.514103, 0.514103, -0.857729, 274.3089, 876.5429)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+4→+2</text>
+    </g>
+    <g id="LABEL-20" data-gate="20">
+      <g transform="translate(352.4080, 812.0571) rotate(205.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.903989, -0.427555, 0.427555, -0.903989, 338.0421, 842.4311)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">20</text>
+      <g transform="translate(326.0706, 867.7428) rotate(205.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.903989, -0.427555, 0.427555, -0.903989, 312.3033, 896.8513)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+4→-1</text>
+    </g>
+    <g id="LABEL-16" data-gate="16">
+      <g transform="translate(383.7056, 825.0210) rotate(199.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.941544, -0.336890, 0.33689, -0.941544, 372.3861, 856.6569)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">16</text>
+      <g transform="translate(362.9532, 883.0201) rotate(199.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.941544, -0.336890, 0.33689, -0.941544, 352.1054, 913.3378)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+4→+1</text>
+    </g>
+    <g id="LABEL-35" data-gate="35">
+      <g transform="translate(416.1232, 834.8548) rotate(194.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.970031, -0.242980, 0.24298, -0.970031, 407.9591, 867.4478)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">35</text>
+      <g transform="translate(401.1557, 894.6087) rotate(194.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.970031, -0.242980, 0.24298, -0.970031, 393.3317, 925.8437)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+4→-2</text>
+    </g>
+    <g id="LABEL-45" data-gate="45">
+      <g transform="translate(449.3486, 841.4637) rotate(188.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.989177, -0.146730, 0.14673, -0.989177, 444.4185, 874.7001)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">45</text>
+      <g transform="translate(440.3100, 902.3970) rotate(188.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.989177, -0.146730, 0.14673, -0.989177, 435.5853, 934.2485)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+4→-3</text>
+    </g>
+    <g id="LABEL-12" data-gate="12">
+      <g transform="translate(483.0618, 844.7842) rotate(182.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.998795, -0.049068, 0.049068, -0.998795, 481.4132, 878.3437)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">12</text>
+      <g transform="translate(480.0393, 906.3100) rotate(182.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.998795, -0.049068, 0.049068, -0.998795, 478.4593, 938.4712)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+4→-4</text>
+    </g>
+    <g id="LABEL-15" data-gate="15">
+      <g transform="translate(516.9382, 844.7842) rotate(177.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.998795, 0.049068, -0.049068, -0.998795, 518.5868, 878.3437)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">15</text>
+      <g transform="translate(519.9607, 906.3100) rotate(177.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.998795, 0.049068, -0.049068, -0.998795, 521.5407, 938.4712)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+3→+4</text>
+    </g>
+    <g id="LABEL-52" data-gate="52">
+      <g transform="translate(550.6514, 841.4637) rotate(171.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.989177, 0.146730, -0.14673, -0.989177, 555.5815, 874.7001)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">52</text>
+      <g transform="translate(559.6900, 902.3970) rotate(171.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.989177, 0.146730, -0.14673, -0.989177, 564.4147, 934.2485)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">+3→+3</text>
+    </g>
+    <g id="LABEL-39" data-gate="39">
+      <g transform="translate(583.8768, 834.8548) rotate(165.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.970031, 0.242980, -0.24298, -0.970031, 592.0409, 867.4478)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">39</text>
+      <g transform="translate(598.8443, 894.6087) rotate(165.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.970031, 0.242980, -0.24298, -0.970031, 606.6683, 925.8437)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+3→+2</text>
+    </g>
+    <g id="LABEL-53" data-gate="53">
+      <g transform="translate(616.2944, 825.0210) rotate(160.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.941544, 0.336890, -0.33689, -0.941544, 627.6139, 856.6569)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">53</text>
+      <g transform="translate(637.0468, 883.0201) rotate(160.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.941544, 0.336890, -0.33689, -0.941544, 647.8946, 913.3378)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+3→-1</text>
+    </g>
+    <g id="LABEL-62" data-gate="62">
+      <g transform="translate(647.5920, 812.0571) rotate(154.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.903989, 0.427555, -0.427555, -0.903989, 661.9579, 842.4311)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">62</text>
+      <g transform="translate(673.9294, 867.7428) rotate(154.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.903989, 0.427555, -0.427555, -0.903989, 687.6967, 896.8513)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+3→+1</text>
+    </g>
+    <g id="LABEL-56" data-gate="56">
+      <g transform="translate(677.4683, 796.0879) rotate(149.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.857729, 0.514103, -0.514103, -0.857729, 694.7421, 824.9076)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">56</text>
+      <g transform="translate(709.1370, 848.9240) rotate(149.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.857729, 0.514103, -0.514103, -0.857729, 725.6911, 876.5429)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+3→-2</text>
+    </g>
+    <g id="LABEL-31" data-gate="31">
+      <g transform="translate(705.6354, 777.2672) rotate(143.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.803208, 0.595699, -0.595699, -0.803208, 725.6509, 804.2550)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">31</text>
+      <g transform="translate(742.3305, 826.7448) rotate(143.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.803208, 0.595699, -0.595699, -0.803208, 761.5120, 852.6081)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+3→-3</text>
+    </g>
+    <g id="LABEL-33" data-gate="33">
+      <g transform="translate(731.8222, 755.7763) rotate(137.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.740951, 0.671559, -0.671559, -0.740951, 754.3865, 780.6723)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">33</text>
+      <g transform="translate(773.1902, 801.4189) rotate(137.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.740951, 0.671559, -0.671559, -0.740951, 794.8144, 825.2775)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+3→-4</text>
+    </g>
+    <g id="LABEL-7" data-gate="7">
+      <g transform="translate(755.7763, 731.8222) rotate(132.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.671559, 0.740951, -0.740951, -0.671559, 780.6723, 754.3865)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">7</text>
+      <g transform="translate(801.4189, 773.1902) rotate(132.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.671559, 0.740951, -0.740951, -0.671559, 825.2775, 794.8144)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+2→+4</text>
+    </g>
+    <g id="LABEL-4" data-gate="4">
+      <g transform="translate(777.2672, 705.6354) rotate(126.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.595699, 0.803208, -0.803208, -0.595699, 804.2550, 725.6509)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">4</text>
+      <g transform="translate(826.7448, 742.3305) rotate(126.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.595699, 0.803208, -0.803208, -0.595699, 852.6081, 761.5120)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+2→+3</text>
+    </g>
+    <g id="LABEL-29" data-gate="29">
+      <g transform="translate(796.0879, 677.4683) rotate(120.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.514103, 0.857729, -0.857729, -0.514103, 824.9076, 694.7421)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">29</text>
+      <g transform="translate(848.9240, 709.1370) rotate(120.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.514103, 0.857729, -0.857729, -0.514103, 876.5429, 725.6911)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">+2→+2</text>
+    </g>
+    <g id="LABEL-59" data-gate="59">
+      <g transform="translate(812.0571, 647.5920) rotate(115.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.427555, 0.903989, -0.903989, -0.427555, 842.4311, 661.9579)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">59</text>
+      <g transform="translate(867.7428, 673.9294) rotate(115.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.427555, 0.903989, -0.903989, -0.427555, 896.8513, 687.6967)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+2→-1</text>
+    </g>
+    <g id="LABEL-40" data-gate="40">
+      <g transform="translate(825.0210, 616.2944) rotate(109.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.336890, 0.941544, -0.941544, -0.336890, 856.6569, 627.6139)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">40</text>
+      <g transform="translate(883.0201, 637.0468) rotate(109.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.336890, 0.941544, -0.941544, -0.336890, 913.3378, 647.8946)"
+            font-family="Copperplate" font-size="8"
+            fill="#20B090" text-anchor="middle" dominant-baseline="middle">+2→+1</text>
+    </g>
+    <g id="LABEL-64" data-gate="64">
+      <g transform="translate(834.8548, 583.8768) rotate(104.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.242980, 0.970031, -0.970031, -0.242980, 867.4478, 592.0409)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">64</text>
+      <g transform="translate(894.6087, 598.8443) rotate(104.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.242980, 0.970031, -0.970031, -0.242980, 925.8437, 606.6683)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+2→-2</text>
+    </g>
+    <g id="LABEL-47" data-gate="47">
+      <g transform="translate(841.4637, 550.6514) rotate(98.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.146730, 0.989177, -0.989177, -0.146730, 874.7001, 555.5815)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">47</text>
+      <g transform="translate(902.3970, 559.6900) rotate(98.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.146730, 0.989177, -0.989177, -0.146730, 934.2485, 564.4147)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+2→-3</text>
+    </g>
+    <g id="LABEL-6" data-gate="6">
+      <g transform="translate(844.7842, 516.9382) rotate(92.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.049068, 0.998795, -0.998795, -0.049068, 878.3437, 518.5868)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">6</text>
+      <g transform="translate(906.3100, 519.9607) rotate(92.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(-0.049068, 0.998795, -0.998795, -0.049068, 938.4712, 521.5407)"
+            font-family="Copperplate" font-size="8"
+            fill="#E07050" text-anchor="middle" dominant-baseline="middle">+2→-4</text>
+    </g>
+    <g id="LABEL-46" data-gate="46">
+      <g transform="translate(844.7842, 483.0618) rotate(87.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.049068, 0.998795, -0.998795, 0.049068, 878.3437, 481.4132)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">46</text>
+      <g transform="translate(906.3100, 480.0393) rotate(87.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.049068, 0.998795, -0.998795, 0.049068, 938.4712, 478.4593)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-1→+4</text>
+    </g>
+    <g id="LABEL-18" data-gate="18">
+      <g transform="translate(841.4637, 449.3486) rotate(81.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.146730, 0.989177, -0.989177, 0.146730, 874.7001, 444.4185)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">18</text>
+      <g transform="translate(902.3970, 440.3100) rotate(81.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.146730, 0.989177, -0.989177, 0.146730, 934.2485, 435.5853)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-1→+3</text>
+    </g>
+    <g id="LABEL-48" data-gate="48">
+      <g transform="translate(834.8548, 416.1232) rotate(75.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.242980, 0.970031, -0.970031, 0.242980, 867.4478, 407.9591)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">48</text>
+      <g transform="translate(894.6087, 401.1557) rotate(75.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.242980, 0.970031, -0.970031, 0.242980, 925.8437, 393.3317)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-1→+2</text>
+    </g>
+    <g id="LABEL-57" data-gate="57">
+      <g transform="translate(825.0210, 383.7056) rotate(70.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.336890, 0.941544, -0.941544, 0.336890, 856.6569, 372.3861)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">57</text>
+      <g transform="translate(883.0201, 362.9532) rotate(70.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.336890, 0.941544, -0.941544, 0.336890, 913.3378, 352.1054)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">-1→-1</text>
+    </g>
+    <g id="LABEL-32" data-gate="32">
+      <g transform="translate(812.0571, 352.4080) rotate(64.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.427555, 0.903989, -0.903989, 0.427555, 842.4311, 338.0421)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">32</text>
+      <g transform="translate(867.7428, 326.0706) rotate(64.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.427555, 0.903989, -0.903989, 0.427555, 896.8513, 312.3033)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-1→+1</text>
+    </g>
+    <g id="LABEL-50" data-gate="50">
+      <g transform="translate(796.0879, 322.5317) rotate(59.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.514103, 0.857729, -0.857729, 0.514103, 824.9076, 305.2579)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">50</text>
+      <g transform="translate(848.9240, 290.8630) rotate(59.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.514103, 0.857729, -0.857729, 0.514103, 876.5429, 274.3089)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-1→-2</text>
+    </g>
+    <g id="LABEL-28" data-gate="28">
+      <g transform="translate(777.2672, 294.3646) rotate(53.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.595699, 0.803208, -0.803208, 0.595699, 804.2550, 274.3491)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">28</text>
+      <g transform="translate(826.7448, 257.6695) rotate(53.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.595699, 0.803208, -0.803208, 0.595699, 852.6081, 238.4880)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-1→-3</text>
+    </g>
+    <g id="LABEL-44" data-gate="44">
+      <g transform="translate(755.7763, 268.1778) rotate(47.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.671559, 0.740951, -0.740951, 0.671559, 780.6723, 245.6135)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">44</text>
+      <g transform="translate(801.4189, 226.8098) rotate(47.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.671559, 0.740951, -0.740951, 0.671559, 825.2775, 205.1856)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-1→-4</text>
+    </g>
+    <g id="LABEL-1" data-gate="1">
+      <g transform="translate(731.8222, 244.2237) rotate(42.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.740951, 0.671559, -0.671559, 0.740951, 754.3865, 219.3277)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">1</text>
+      <g transform="translate(773.1902, 198.5811) rotate(42.1875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.740951, 0.671559, -0.671559, 0.740951, 794.8144, 174.7225)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">-4→-4</text>
+    </g>
+    <g id="LABEL-43" data-gate="43">
+      <g transform="translate(705.6354, 222.7328) rotate(36.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.803208, 0.595699, -0.595699, 0.803208, 725.6509, 195.7450)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">43</text>
+      <g transform="translate(742.3305, 173.2552) rotate(36.5625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.803208, 0.595699, -0.595699, 0.803208, 761.5120, 147.3919)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-4→-3</text>
+    </g>
+    <g id="LABEL-14" data-gate="14">
+      <g transform="translate(677.4683, 203.9121) rotate(30.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.857729, 0.514103, -0.514103, 0.857729, 694.7421, 175.0924)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">14</text>
+      <g transform="translate(709.1370, 151.0760) rotate(30.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.857729, 0.514103, -0.514103, 0.857729, 725.6911, 123.4571)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-4→-2</text>
+    </g>
+    <g id="LABEL-34" data-gate="34">
+      <g transform="translate(647.5920, 187.9429) rotate(25.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.903989, 0.427555, -0.427555, 0.903989, 661.9579, 157.5689)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">34</text>
+      <g transform="translate(673.9294, 132.2572) rotate(25.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.903989, 0.427555, -0.427555, 0.903989, 687.6967, 103.1487)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-4→+1</text>
+    </g>
+    <g id="LABEL-9" data-gate="9">
+      <g transform="translate(616.2944, 174.9790) rotate(19.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.941544, 0.336890, -0.33689, 0.941544, 627.6139, 143.3431)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">9</text>
+      <g transform="translate(637.0468, 116.9799) rotate(19.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.941544, 0.336890, -0.33689, 0.941544, 647.8946, 86.6622)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-4→-1</text>
+    </g>
+    <g id="LABEL-5" data-gate="5">
+      <g transform="translate(583.8768, 165.1452) rotate(14.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.970031, 0.242980, -0.24298, 0.970031, 592.0409, 132.5522)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">5</text>
+      <g transform="translate(598.8443, 105.3913) rotate(14.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.970031, 0.242980, -0.24298, 0.970031, 606.6683, 74.1563)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-4→+2</text>
+    </g>
+    <g id="LABEL-26" data-gate="26">
+      <g transform="translate(550.6514, 158.5363) rotate(8.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.989177, 0.146730, -0.14673, 0.989177, 555.5815, 125.2999)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">26</text>
+      <g transform="translate(559.6900, 97.6030) rotate(8.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.989177, 0.146730, -0.14673, 0.989177, 564.4147, 65.7515)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-4→+3</text>
+    </g>
+    <g id="LABEL-11" data-gate="11">
+      <g transform="translate(516.9382, 155.2158) rotate(2.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.998795, 0.049068, -0.049068, 0.998795, 518.5868, 121.6563)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">11</text>
+      <g transform="translate(519.9607, 93.6900) rotate(2.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.998795, 0.049068, -0.049068, 0.998795, 521.5407, 61.5288)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-4→+4</text>
+    </g>
+    <g id="LABEL-10" data-gate="10">
+      <g transform="translate(483.0618, 155.2158) rotate(-2.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.998795, -0.049068, 0.049068, 0.998795, 481.4132, 121.6563)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">10</text>
+      <g transform="translate(480.0393, 93.6900) rotate(-2.8125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.998795, -0.049068, 0.049068, 0.998795, 478.4593, 61.5288)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-3→-4</text>
+    </g>
+    <g id="LABEL-58" data-gate="58">
+      <g transform="translate(449.3486, 158.5363) rotate(-8.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.989177, -0.146730, 0.14673, 0.989177, 444.4185, 125.2999)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">58</text>
+      <g transform="translate(440.3100, 97.6030) rotate(-8.4375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.989177, -0.146730, 0.14673, 0.989177, 435.5853, 65.7515)"
+            font-family="Copperplate" font-size="8"
+            fill="#FFD700" text-anchor="middle" dominant-baseline="middle">-3→-3</text>
+    </g>
+    <g id="LABEL-38" data-gate="38">
+      <g transform="translate(416.1232, 165.1452) rotate(-14.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.970031, -0.242980, 0.24298, 0.970031, 407.9591, 132.5522)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">38</text>
+      <g transform="translate(401.1557, 105.3913) rotate(-14.0625)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.970031, -0.242980, 0.24298, 0.970031, 393.3317, 74.1563)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-3→-2</text>
+    </g>
+    <g id="LABEL-54" data-gate="54">
+      <g transform="translate(383.7056, 174.9790) rotate(-19.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.941544, -0.336890, 0.33689, 0.941544, 372.3861, 143.3431)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">54</text>
+      <g transform="translate(362.9532, 116.9799) rotate(-19.6875)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-0.9000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.941544, -0.336890, 0.33689, 0.941544, 352.1054, 86.6622)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-3→+1</text>
+    </g>
+    <g id="LABEL-61" data-gate="61">
+      <g transform="translate(352.4080, 187.9429) rotate(-25.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.903989, -0.427555, 0.427555, 0.903989, 338.0421, 157.5689)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">61</text>
+      <g transform="translate(326.0706, 132.2572) rotate(-25.3125)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="9.0000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.903989, -0.427555, 0.427555, 0.903989, 312.3033, 103.1487)"
+            font-family="Copperplate" font-size="8"
+            fill="#C080E0" text-anchor="middle" dominant-baseline="middle">-3→-1</text>
+    </g>
+    <g id="LABEL-60" data-gate="60">
+      <g transform="translate(322.5317, 203.9121) rotate(-30.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.857729, -0.514103, 0.514103, 0.857729, 305.2579, 175.0924)"
+            font-family="Copperplate" font-size="12" font-weight="bold"
+            fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">60</text>
+      <g transform="translate(290.8630, 151.0760) rotate(-30.9375)" fill="#FFFFFF" opacity="0.85">
+    <rect x="-4.5000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="2.7000" width="3.6000" height="1.8000"/>
+    <rect x="-4.5000" y="-0.9000" width="9.0000" height="1.8000"/>
+    <rect x="-4.5000" y="-4.5000" width="3.6000" height="1.8000"/>
+    <rect x="0.9000" y="-4.5000" width="3.6000" height="1.8000"/>
+  </g>
+      <text transform="matrix(0.857729, -0.514103, 0.514103, 0.857729, 274.3089, 123.4571)"
+            font-family="Copperplate" font-size="8"
+            fill="#4A90D9" text-anchor="middle" dominant-baseline="middle">-3→+2</text>
+    </g>
+  </g>
+  <g id="LEGEND">
+    <text x="500" y="415"
+        font-family="Copperplate" font-size="14"
+        fill="#FFFFFF" text-anchor="middle">ELECTROMAGNETIC GATE TYPES</text>
+    <rect x="380" y="434" width="12" height="12" fill="#FFD700" opacity="0.7"/>
+    <text x="400" y="441"
+          font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+          fill="#FFFFFF" dominant-baseline="middle">Standing Wave</text>
+    <text x="615" y="441"
+          font-family="Copperplate" font-size="10"
+          fill="#FFD700" text-anchor="end" dominant-baseline="middle">(8)</text>
+    <rect x="380" y="456" width="12" height="12" fill="#4A90D9" opacity="0.7"/>
+    <text x="400" y="463"
+          font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+          fill="#FFFFFF" dominant-baseline="middle">Cross-Zero Manifesting</text>
+    <text x="615" y="463"
+          font-family="Copperplate" font-size="10"
+          fill="#4A90D9" text-anchor="end" dominant-baseline="middle">(16)</text>
+    <rect x="380" y="478" width="12" height="12" fill="#E07050" opacity="0.7"/>
+    <text x="400" y="485"
+          font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+          fill="#FFFFFF" dominant-baseline="middle">Cross-Zero Dematerialising</text>
+    <text x="615" y="485"
+          font-family="Copperplate" font-size="10"
+          fill="#E07050" text-anchor="end" dominant-baseline="middle">(16)</text>
+    <rect x="380" y="500" width="12" height="12" fill="#20B090" opacity="0.7"/>
+    <text x="400" y="507"
+          font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+          fill="#FFFFFF" dominant-baseline="middle">Same-Phase Material</text>
+    <text x="615" y="507"
+          font-family="Copperplate" font-size="10"
+          fill="#20B090" text-anchor="end" dominant-baseline="middle">(12)</text>
+    <rect x="380" y="522" width="12" height="12" fill="#C080E0" opacity="0.7"/>
+    <text x="400" y="529"
+          font-family="Copperplate-Light, Copperplate" font-size="10" font-weight="300"
+          fill="#FFFFFF" dominant-baseline="middle">Same-Phase Void</text>
+    <text x="615" y="529"
+          font-family="Copperplate" font-size="10"
+          fill="#C080E0" text-anchor="end" dominant-baseline="middle">(12)</text>
+    <text x="500" y="560"
+        font-family="Copperplate-Light, Copperplate" font-size="9" font-weight="300"
+        fill="#FFFFFF" text-anchor="middle" opacity="0.6">Inner Trigram → Outer Trigram</text>
+  </g>
+</svg>

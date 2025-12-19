@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "phase": "CTB-Phase-1",
+    "title": "Numerical Signatures",
+    "date": "2025-12-19T11:33:30.899Z",
+    "phi": 1.618033988749895
+  },
+  "coreNumbers": {
+    "hexagrams": 64,
+    "lines": 6,
+    "colors": 6,
+    "tones": 6,
+    "bases": 5,
+    "totalPositions": 69120,
+    "positionsPerHexagram": 1080,
+    "positionsPerLine": 180,
+    "primeFactorization": "2^9 × 3^3 × 5"
+  },
+  "phiAnalysis": [
+    {
+      "n": 1,
+      "phiPower": "1.618034",
+      "result": "42718.509",
+      "nearestInt": 42719,
+      "deviation": "0.0011",
+      "special": "-"
+    },
+    {
+      "n": 2,
+      "phiPower": "2.618034",
+      "result": "26401.491",
+      "nearestInt": 26401,
+      "deviation": "0.0019",
+      "special": "-"
+    },
+    {
+      "n": 3,
+      "phiPower": "4.236068",
+      "result": "16317.019",
+      "nearestInt": 16317,
+      "deviation": "0.0001",
+      "special": "-"
+    },
+    {
+      "n": 4,
+      "phiPower": "6.854102",
+      "result": "10084.472",
+      "nearestInt": 10084,
+      "deviation": "0.0047",
+      "special": "-"
+    },
+    {
+      "n": 5,
+      "phiPower": "11.090170",
+      "result": "6232.547",
+      "nearestInt": 6233,
+      "deviation": "0.0073",
+      "special": "-"
+    },
+    {
+      "n": 6,
+      "phiPower": "17.944272",
+      "result": "3851.926",
+      "nearestInt": 3852,
+      "deviation": "0.0019",
+      "special": "6×642"
+    },
+    {
+      "n": 7,
+      "phiPower": "29.034442",
+      "result": "2380.621",
+      "nearestInt": 2381,
+      "deviation": "0.0159",
+      "special": "-"
+    },
+    {
+      "n": 8,
+      "phiPower": "46.978714",
+      "result": "1471.305",
+      "nearestInt": 1471,
+      "deviation": "0.0207",
+      "special": "-"
+    },
+    {
+      "n": 9,
+      "phiPower": "76.013156",
+      "result": "909.316",
+      "nearestInt": 909,
+      "deviation": "0.0348",
+      "special": "-"
+    },
+    {
+      "n": 10,
+      "phiPower": "122.991869",
+      "result": "561.988",
+      "nearestInt": 562,
+      "deviation": "0.0021",
+      "special": "-"
+    }
+  ],
+  "nearMiss255": {
+    "calculation": "69,120 / φ³ / 64",
+    "result": 254.95341569977288,
+    "nearestInteger": 255,
+    "targetPowerOf2": 256,
+    "gap": 1.0465843002271242,
+    "gapPercentage": 0.4088219922762204
+  },
+  "rotationAnalysis": {
+    "degreesPerLine": 180,
+    "rotationsPerHexagram": 3,
+    "totalRotations": 192,
+    "relationToWheel": "192 = 384/2"
+  },
+  "findings": [
+    {
+      "finding": "69,120 / φ³ / 64 ≈ 255",
+      "significance": "One less than 2⁸ — suggests a structural gap",
+      "deviation": "0.39%",
+      "status": "NOTABLE"
+    },
+    {
+      "finding": "180 per line = π radians",
+      "significance": "Each line contains exactly half a rotation",
+      "deviation": "EXACT",
+      "status": "CONFIRMED"
+    },
+    {
+      "finding": "3 rotations per hexagram",
+      "significance": "6 lines × 180° = 1080° = 3 full rotations",
+      "deviation": "EXACT",
+      "status": "CONFIRMED"
+    },
+    {
+      "finding": "192 total rotations",
+      "significance": "64 × 3 = 192 = 384/2 (half wheel)",
+      "deviation": "EXACT",
+      "status": "CONFIRMED"
+    },
+    {
+      "finding": "69,120 = 2⁹ × 3³ × 5",
+      "significance": "Binary × ternary × pentagonal structure",
+      "deviation": "EXACT",
+      "status": "CONFIRMED"
+    },
+    {
+      "finding": "5 Bases × 72° = 360°",
+      "significance": "Pentagon external angles complete rotation",
+      "deviation": "EXACT",
+      "status": "NOTABLE"
+    },
+    {
+      "finding": "Missing 6th Base = 13,824 positions",
+      "significance": "Exactly one pre-Base structure",
+      "deviation": "EXACT",
+      "status": "STRUCTURAL"
+    }
+  ]
+}

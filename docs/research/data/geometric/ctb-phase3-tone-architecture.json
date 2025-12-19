@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "phase": "CTB-Phase-3",
+    "title": "Tone Architecture",
+    "date": "2025-12-19T11:43:09.858Z"
+  },
+  "tones": {
+    "1": {
+      "number": 1,
+      "binary": "Splenic",
+      "binaryPosition": "Left",
+      "sense": "Smell",
+      "keyword": "Security",
+      "character": "Survival instinct",
+      "cognitiveMode": "Strategic"
+    },
+    "2": {
+      "number": 2,
+      "binary": "Splenic",
+      "binaryPosition": "Right",
+      "sense": "Taste",
+      "keyword": "Uncertainty",
+      "character": "Pattern recognition",
+      "cognitiveMode": "Strategic"
+    },
+    "3": {
+      "number": 3,
+      "binary": "Ajna",
+      "binaryPosition": "Left",
+      "sense": "Outer Vision",
+      "keyword": "Action",
+      "character": "External focus",
+      "cognitiveMode": "Strategic"
+    },
+    "4": {
+      "number": 4,
+      "binary": "Ajna",
+      "binaryPosition": "Right",
+      "sense": "Inner Vision",
+      "keyword": "Meditation",
+      "character": "Internal focus",
+      "cognitiveMode": "Receptive"
+    },
+    "5": {
+      "number": 5,
+      "binary": "Solar Plexus",
+      "binaryPosition": "Left",
+      "sense": "Feeling",
+      "keyword": "Judgment",
+      "character": "Emotional assessment",
+      "cognitiveMode": "Receptive"
+    },
+    "6": {
+      "number": 6,
+      "binary": "Solar Plexus",
+      "binaryPosition": "Right",
+      "sense": "Touch",
+      "keyword": "Acceptance",
+      "character": "Physical contact",
+      "cognitiveMode": "Receptive"
+    }
+  },
+  "binaries": {
+    "Splenic": {
+      "name": "Splenic",
+      "tones": [
+        1,
+        2
+      ],
+      "axis": "X",
+      "center": "Spleen",
+      "function": "Survival/Immune",
+      "character": "Instantaneous awareness"
+    },
+    "Ajna": {
+      "name": "Ajna",
+      "tones": [
+        3,
+        4
+      ],
+      "axis": "Y",
+      "center": "Ajna (Mind)",
+      "function": "Mental/Conceptual",
+      "character": "Analytical processing"
+    },
+    "SolarPlexus": {
+      "name": "Solar Plexus",
+      "tones": [
+        5,
+        6
+      ],
+      "axis": "Z",
+      "center": "Solar Plexus",
+      "function": "Emotional/Experiential",
+      "character": "Wave-based knowing"
+    }
+  },
+  "structure": {
+    "dimensionalFormula": "(3 × 2)³ = 216",
+    "positionsInSubCube": 216,
+    "axesCombinations": 27,
+    "polarityCombinations": 8,
+    "verification": true
+  },
+  "leftRight": {
+    "leftTones": [
+      1,
+      2,
+      3
+    ],
+    "rightTones": [
+      4,
+      5,
+      6
+    ],
+    "transitionPoint": "Between Tone 3 and Tone 4 (Ajna binary)",
+    "interpretation": "Global Left/Right = cube diagonal perspective"
+  },
+  "colorToneIntegration": {
+    "colorFunction": "Selects tetrahedron (Void/Material)",
+    "toneFunction": "Selects cognitive axis (Splenic/Ajna/Solar Plexus)",
+    "combined": "Complete internal geometric addressing"
+  },
+  "derivability": {
+    "derivable": [
+      "3×2 structure",
+      "6³ = 216 cubic space",
+      "Binary × axes pattern"
+    ],
+    "empirical": [
+      "Specific axis names",
+      "Left/Right cognitive character"
+    ]
+  }
+}
