@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "analysis": "Penta Gates as Cube Edges",
+    "date": "2025-12-20T11:10:56.898Z"
+  },
+  "pentaGates": [
+    1,
+    2,
+    5,
+    7,
+    8,
+    13,
+    14,
+    15,
+    29,
+    31,
+    33,
+    46
+  ],
+  "classification": {
+    "standingWaves": [
+      {
+        "gate": 1,
+        "trigram": "Heaven"
+      },
+      {
+        "gate": 2,
+        "trigram": "Earth"
+      },
+      {
+        "gate": 29,
+        "trigram": "Water"
+      }
+    ],
+    "edges": [
+      {
+        "gate": 7,
+        "inner": "Earth",
+        "outer": "Water"
+      },
+      {
+        "gate": 8,
+        "inner": "Water",
+        "outer": "Earth"
+      },
+      {
+        "gate": 13,
+        "inner": "Heaven",
+        "outer": "Fire"
+      },
+      {
+        "gate": 14,
+        "inner": "Fire",
+        "outer": "Heaven"
+      },
+      {
+        "gate": 15,
+        "inner": "Earth",
+        "outer": "Mountain"
+      }
+    ],
+    "faceDiagonals": [
+      {
+        "gate": 5,
+        "inner": "Water",
+        "outer": "Heaven"
+      },
+      {
+        "gate": 33,
+        "inner": "Heaven",
+        "outer": "Mountain"
+      },
+      {
+        "gate": 46,
+        "inner": "Earth",
+        "outer": "Wind"
+      }
+    ],
+    "spaceDiagonals": [
+      {
+        "gate": 31,
+        "inner": "Lake",
+        "outer": "Mountain"
+      }
+    ]
+  },
+  "edgeCoverage": {
+    "totalEdges": 12,
+    "coveredByPenta": 3,
+    "uncoveredEdges": [
+      "Earth ↔ Thunder",
+      "Mountain ↔ Wind",
+      "Mountain ↔ Fire",
+      "Water ↔ Wind",
+      "Water ↔ Lake",
+      "Wind ↔ Heaven",
+      "Thunder ↔ Fire",
+      "Thunder ↔ Lake",
+      "Lake ↔ Heaven"
+    ]
+  },
+  "hypothesis": {
+    "original": "12 Penta gates = 12 cube edges",
+    "result": "PARTIAL",
+    "pattern": "3 vertices + 5 edges + 3 face diags + 1 space diags"
+  }
+}

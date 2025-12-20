@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "analysis": "Penta Gates Pathway Topology",
+    "date": "2025-12-20T11:20:47.173Z"
+  },
+  "connectivity": {
+    "isConnected": true,
+    "adjacencyGraph": {
+      "1": [
+        {
+          "gate": 5,
+          "via": "Heaven"
+        },
+        {
+          "gate": 13,
+          "via": "Heaven"
+        },
+        {
+          "gate": 14,
+          "via": "Heaven"
+        },
+        {
+          "gate": 33,
+          "via": "Heaven"
+        }
+      ],
+      "2": [
+        {
+          "gate": 7,
+          "via": "Earth"
+        },
+        {
+          "gate": 8,
+          "via": "Earth"
+        },
+        {
+          "gate": 15,
+          "via": "Earth"
+        },
+        {
+          "gate": 46,
+          "via": "Earth"
+        }
+      ],
+      "5": [
+        {
+          "gate": 1,
+          "via": "Heaven"
+        },
+        {
+          "gate": 7,
+          "via": "Water"
+        },
+        {
+          "gate": 8,
+          "via": "Water"
+        },
+        {
+          "gate": 13,
+          "via": "Heaven"
+        },
+        {
+          "gate": 14,
+          "via": "Heaven"
+        },
+        {
+          "gate": 29,
+          "via": "Water"
+        },
+        {
+          "gate": 33,
+          "via": "Heaven"
+        }
+      ],
+      "7": [
+        {
+          "gate": 2,
+          "via": "Earth"
+        },
+        {
+          "gate": 5,
+          "via": "Water"
+        },
+        {
+          "gate": 8,
+          "via": "Earth"
+        },
+        {
+          "gate": 15,
+          "via": "Earth"
+        },
+        {
+          "gate": 29,
+          "via": "Water"
+        },
+        {
+          "gate": 46,
+          "via": "Earth"
+        }
+      ],
+      "8": [
+        {
+          "gate": 2,
+          "via": "Earth"
+        },
+        {
+          "gate": 5,
+          "via": "Water"
+        },
+        {
+          "gate": 7,
+          "via": "Earth"
+        },
+        {
+          "gate": 15,
+          "via": "Earth"
+        },
+        {
+          "gate": 29,
+          "via": "Water"
+        },
+        {
+          "gate": 46,
+          "via": "Earth"
+        }
+      ],
+      "13": [
+        {
+          "gate": 1,
+          "via": "Heaven"
+        },
+        {
+          "gate": 5,
+          "via": "Heaven"
+        },
+        {
+          "gate": 14,
+          "via": "Heaven"
+        },
+        {
+          "gate": 33,
+          "via": "Heaven"
+        }
+      ],
+      "14": [
+        {
+          "gate": 1,
+          "via": "Heaven"
+        },
+        {
+          "gate": 5,
+          "via": "Heaven"
+        },
+        {
+          "gate": 13,
+          "via": "Heaven"
+        },
+        {
+          "gate": 33,
+          "via": "Heaven"
+        }
+      ],
+      "15": [
+        {
+          "gate": 2,
+          "via": "Earth"
+        },
+        {
+          "gate": 7,
+          "via": "Earth"
+        },
+        {
+          "gate": 8,
+          "via": "Earth"
+        },
+        {
+          "gate": 31,
+          "via": "Mountain"
+        },
+        {
+          "gate": 33,
+          "via": "Mountain"
+        },
+        {
+          "gate": 46,
+          "via": "Earth"
+        }
+      ],
+      "29": [
+        {
+          "gate": 5,
+          "via": "Water"
+        },
+        {
+          "gate": 7,
+          "via": "Water"
+        },
+        {
+          "gate": 8,
+          "via": "Water"
+        }
+      ],
+      "31": [
+        {
+          "gate": 15,
+          "via": "Mountain"
+        },
+        {
+          "gate": 33,
+          "via": "Mountain"
+        }
+      ],
+      "33": [
+        {
+          "gate": 1,
+          "via": "Heaven"
+        },
+        {
+          "gate": 5,
+          "via": "Heaven"
+        },
+        {
+          "gate": 13,
+          "via": "Heaven"
+        },
+        {
+          "gate": 14,
+          "via": "Heaven"
+        },
+        {
+          "gate": 15,
+          "via": "Mountain"
+        },
+        {
+          "gate": 31,
+          "via": "Mountain"
+        }
+      ],
+      "46": [
+        {
+          "gate": 2,
+          "via": "Earth"
+        },
+        {
+          "gate": 7,
+          "via": "Earth"
+        },
+        {
+          "gate": 8,
+          "via": "Earth"
+        },
+        {
+          "gate": 15,
+          "via": "Earth"
+        }
+      ]
+    }
+  },
+  "trigramContacts": {
+    "Earth": 6,
+    "Mountain": 3,
+    "Water": 5,
+    "Wind": 1,
+    "Thunder": 0,
+    "Fire": 2,
+    "Lake": 1,
+    "Heaven": 6
+  },
+  "protectedTrigram": "Thunder",
+  "anchorVertices": {
+    "gates": [
+      {
+        "gate": 1,
+        "trigram": "Heaven"
+      },
+      {
+        "gate": 2,
+        "trigram": "Earth"
+      },
+      {
+        "gate": 29,
+        "trigram": "Water"
+      }
+    ],
+    "triangle": {
+      "sides": {
+        "Heaven-Earth": 1.7320508075688772,
+        "Earth-Water": 1,
+        "Water-Heaven": 1.4142135623730951
+      },
+      "type": "scalene"
+    }
+  },
+  "crossesCentre": true,
+  "pathwayStructure": {
+    "vertices": 3,
+    "edges": 5,
+    "faceDiagonals": 3,
+    "spaceDiagonals": 1
+  },
+  "networkGraph": {
+    "vertices": 12,
+    "edges": 28,
+    "hasCycles": true,
+    "cliques": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        1,
+        5,
+        14
+      ],
+      [
+        1,
+        5,
+        33
+      ],
+      [
+        1,
+        13,
+        14
+      ],
+      [
+        1,
+        13,
+        33
+      ],
+      [
+        1,
+        14,
+        33
+      ],
+      [
+        2,
+        7,
+        8
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        2,
+        7,
+        46
+      ],
+      [
+        2,
+        8,
+        15
+      ],
+      [
+        2,
+        8,
+        46
+      ],
+      [
+        2,
+        15,
+        46
+      ],
+      [
+        5,
+        7,
+        8
+      ],
+      [
+        5,
+        7,
+        29
+      ],
+      [
+        5,
+        8,
+        29
+      ],
+      [
+        5,
+        13,
+        14
+      ],
+      [
+        5,
+        13,
+        33
+      ],
+      [
+        5,
+        14,
+        33
+      ],
+      [
+        7,
+        8,
+        15
+      ],
+      [
+        7,
+        8,
+        29
+      ],
+      [
+        7,
+        8,
+        46
+      ],
+      [
+        7,
+        15,
+        46
+      ],
+      [
+        8,
+        15,
+        46
+      ],
+      [
+        13,
+        14,
+        33
+      ],
+      [
+        15,
+        31,
+        33
+      ]
+    ]
+  },
+  "bestPath": {
+    "sequence": [
+      15,
+      2,
+      7,
+      5,
+      1,
+      13,
+      14,
+      33,
+      31,
+      46,
+      8,
+      29
+    ],
+    "jumps": 1
+  }
+}
