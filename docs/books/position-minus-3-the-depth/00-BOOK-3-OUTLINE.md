@@ -1,4 +1,4 @@
-# Book 3: The Depth
+# Position -3 CAPACITANCE: The Depth
 
 *Beneath the 384 Lines — The Complete Architecture*
 
@@ -9,12 +9,13 @@
 ## Position in the Publishing Architecture
 
 ```
--4 SOURCE (The Proof)        ← Book 2 [COMPLETE]
--3 CAPACITANCE (The Depth)   ← THIS BOOK [IN PROGRESS]
--2 VOLTAGE (The Shape)       ← Book 0 [COMPLETE]
+-4 SOURCE (Geometry of Consciousness)  ← Position -4 [COMPLETE]
+-3 CAPACITANCE (The Depth)             ← THIS WORK [IN PROGRESS]
+-2 VOLTAGE (The Shape of Change)       ← Position -2 [COMPLETE]
+-1 GATE-OUT (The Proof)                ← Position -1 [COMPLETE]
 ```
 
-Book 3 occupies Position -3 (Capacitance) — stored structural knowledge. While Book 2 proves WHY the system must exist and Book 0 shows the geometric shape, Book 3 reveals what lies *beneath* the 384 lines: the 69,120-position architecture of Color, Tone, and Base.
+This work occupies Position -3 (Capacitance) — stored structural knowledge. While Position -1 proves WHY the system must exist and Position -2 shows the geometric shape, Position -3 reveals what lies *beneath* the 384 lines: the 69,120-position architecture of Color, Tone, and Base.
 
 ---
 
