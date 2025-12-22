@@ -51,10 +51,10 @@ docs/
 │   └── historical/            # Previous attempts
 │
 ├── books/                     ═══ PUBLISHED ═══
-│   ├── book-0-shape-of-change/
-│   ├── book-1-the-wave/
-│   ├── book-2-the-proof/
-│   ├── book-3-the-architecture/
+│   ├── position-minus-2-shape-of-change/
+│   ├── position-plus-1-the-wave/
+│   ├── position-minus-1-the-proof/
+│   ├── position-plus-3-the-architecture/
 │   └── series/
 │
 ├── reference/                 # Source materials

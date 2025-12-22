@@ -1,11 +1,11 @@
 # PHASE 1C AUDIT: Position -1 - "The Proof"
 
-> **Note:** This audit was conducted when the work was named "Position -1".
+> **Note:** This audit was conducted when the work was named "Book 2".
 > This work is now **Position -1: The Proof**.
 > Current location: `/docs/books/position-minus-1-the-proof/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book2/` (11 articles) — *now archived*
+**Source:** `/docs/books/position-minus-1-the-proof/` (11 articles)
 
 ---
 

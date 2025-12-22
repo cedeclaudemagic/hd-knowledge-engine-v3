@@ -1,11 +1,11 @@
 # PHASE 1A AUDIT: Position -2 - "The Shape of Change"
 
-> **Note:** This audit was conducted when the work was named "Position -2".
+> **Note:** This audit was conducted when the work was named "Book 0".
 > This work is now **Position -2: The Shape of Change**.
 > Current location: `/docs/books/position-minus-2-shape-of-change/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book0/` (10 chapters) — *now archived*
+**Source:** `/docs/books/position-minus-2-shape-of-change/` (10 chapters)
 
 ---
 

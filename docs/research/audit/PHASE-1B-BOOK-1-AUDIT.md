@@ -1,11 +1,11 @@
 # PHASE 1B AUDIT: Position +1 - "The Wave"
 
-> **Note:** This audit was conducted when the work was named "Position +1".
+> **Note:** This audit was conducted when the work was named "Book 1".
 > This work is now **Position +1: The Wave**.
 > Current location: `/docs/books/position-plus-1-the-wave/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book1/` (14 chapters + erratum) — *now archived*
+**Source:** `/docs/books/position-plus-1-the-wave/` (14 chapters + erratum)
 
 ---
 

@@ -142,7 +142,7 @@ Each position reflects what the work **does**:
 - Ch 9: What Remains Mysterious
 - Ch 10: The Shape That Was Always There
 
-**Location:** `/docs/books/book-0-shape-of-change/`
+**Location:** `/docs/books/position-minus-2-shape-of-change/`
 
 ---
 
@@ -164,7 +164,7 @@ Each position reflects what the work **does**:
 - Ch 10: The Architecture Complete
 - Ch 11: Topology of the Wave
 
-**Location:** `/docs/books/book-2-the-proof/`
+**Location:** `/docs/books/position-minus-1-the-proof/`
 
 ---
 
@@ -190,7 +190,7 @@ Each position reflects what the work **does**:
 - Ch 13: Worked Examples
 - Ch 14: The Living Framework
 
-**Location:** `/docs/books/book-1-the-wave/`
+**Location:** `/docs/books/position-plus-1-the-wave/`
 
 ---
 

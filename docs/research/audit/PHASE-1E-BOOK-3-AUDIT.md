@@ -1,13 +1,13 @@
 # PHASE 1E AUDIT: Position -3/+3 (In Progress) + Reflections
 
-> **Note:** This audit was conducted when the work was named "Position -3/+3".
+> **Note:** This audit was conducted when the work was named "Book 3".
 > This work is now split between:
 > - **Position -3: The Depth** (Lock-Key, CTB architecture) at `/docs/books/position-minus-3-the-depth/`
 > - **Position +3: The Architecture** (HD structures) at `/docs/books/position-plus-3-the-architecture/`
 > Reflections are now at `/docs/books/series/reflections/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book3/` (3 files) + `/docs/articles/EM-Series-Reflections/` (1 file) — *now archived*
+**Source:** `/docs/books/position-minus-3-the-depth/` (3 files) + `/docs/books/series/reflections/` (1 file)
 
 ---
 

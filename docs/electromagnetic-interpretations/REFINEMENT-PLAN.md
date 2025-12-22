@@ -57,7 +57,7 @@ The existing detailed interpretations, reframed as scholarly commentary:
 ---
 
 ### Layer 3: The Framework
-**Folder:** `articles/EM-Series-Book1/` and `articles/EM-Series-Book2/`
+**Folder:** `books/position-plus-1-the-wave/` and `books/position-minus-1-the-proof/`
 
 Already complete. The articles proving the electromagnetic framework.
 
@@ -198,10 +198,10 @@ For the 34 incomplete gates, decide on approach:
 │   ├── gate-01-the-creative.md
 │   ├── gate-02-the-receptive.md
 │   └── ... (all gate files)
-├── articles/
-│   ├── EM-Series-Book1/
-│   ├── EM-Series-Book2/
-│   └── EM-Series-Reflections/
+├── books/
+│   ├── position-plus-1-the-wave/
+│   ├── position-minus-1-the-proof/
+│   └── series/reflections/
 ```
 
 ---

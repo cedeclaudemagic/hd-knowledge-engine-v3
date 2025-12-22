@@ -80,9 +80,9 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Position -3/+3 Outline | `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md` | ✅ Complete |
-| Four Nodes Tetrahedron Research | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
-| Lock-Key Synthesis | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
+| Position -3/+3 Outline | `/docs/books/position-minus-3-the-depth/00-BOOK-3-OUTLINE.md` | ✅ Complete |
+| Four Nodes Tetrahedron Research | `/docs/books/position-minus-3-the-depth/` | ✅ Moved |
+| Lock-Key Synthesis | `/docs/books/position-minus-3-the-depth/` | ✅ Moved |
 | Color-Tone-Base Complete Synthesis | Session outputs | ⚠️ NEEDS FULL CONTENT |
 
 **Position -3/+3 Files:**
@@ -120,7 +120,7 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Position -2: The Shape of Change | `/docs/articles/EM-Series-Book0/` | Complete (10 chapters) |
+| Position -2: The Shape of Change | `/docs/books/position-minus-2-shape-of-change/` | Complete (10 chapters) |
 
 **Files:**
 - `BOOK-0-CHAPTER-01-THE-QUESTION.md`
@@ -195,7 +195,7 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Position +1: The Wave | `/docs/articles/EM-Series-Book1/` | Complete (14 chapters) |
+| Position +1: The Wave | `/docs/books/position-plus-1-the-wave/` | Complete (14 chapters) |
 
 **Files:**
 - `00-teaser-the-pattern-beneath.md`
@@ -353,7 +353,7 @@ APPENDICES (~150 pages)
 
 ### Completed This Session ✅
 1. ~~Move session outputs to permanent location~~ ✅ Position -3/+3 organized
-2. ~~Create DEPTH outline~~ ✅ `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md`
+2. ~~Create DEPTH outline~~ ✅ `/docs/books/position-minus-3-the-depth/00-BOOK-3-OUTLINE.md`
 3. ~~Create 8-Position Wave visualization~~ ✅ `/visualization/output/eight-position-wave-dark.svg`
 
 ### Immediate (Next Session)
@@ -400,11 +400,11 @@ APPENDICES (~150 pages)
 │       ├── editorial-calendar.md
 │       └── derivation-queue.md
 │
-├── articles/
-│   ├── EM-Series-Book0/ (The Shape) ✅
-│   ├── EM-Series-Book1/ (The Wave) ✅
-│   ├── EM-Series-Book2/ (The Proof) ✅
-│   └── EM-Series-Book3/ (The Depth) 🟡
+├── books/
+│   ├── position-minus-2-shape-of-change/ (The Shape) ✅
+│   ├── position-plus-1-the-wave/ (The Wave) ✅
+│   ├── position-minus-1-the-proof/ (The Proof) ✅
+│   └── position-minus-3-the-depth/ (The Depth) 🟡
 │
 ├── electromagnetic-iching/ (The Oracle) 🟡
 │   ├── 00-FRAMEWORK.md

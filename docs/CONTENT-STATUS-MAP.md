@@ -132,7 +132,7 @@ Position -1: GATE-OUT                     Position +1: GATE-IN
 
 **Function:** Driving pressure — creates the philosophical motivation to engage
 
-**Location:** `/docs/books/book-0-shape-of-change/`
+**Location:** `/docs/books/position-minus-2-shape-of-change/`
 
 | Chapter | Title | Status |
 |---------|-------|--------|
@@ -155,7 +155,7 @@ Position -1: GATE-OUT                     Position +1: GATE-IN
 
 **Function:** Release to form — where mathematical proofs cross from insight to expression
 
-**Location:** `/docs/books/book-2-the-proof/`
+**Location:** `/docs/books/position-minus-1-the-proof/`
 
 | Chapter | Title | Status |
 |---------|-------|--------|
@@ -180,7 +180,7 @@ Position -1: GATE-OUT                     Position +1: GATE-IN
 
 **Function:** Entry point — where readers enter the electromagnetic framework
 
-**Location:** `/docs/books/book-1-the-wave/`
+**Location:** `/docs/books/position-plus-1-the-wave/`
 
 | Chapter | Title | Status |
 |---------|-------|--------|
@@ -343,19 +343,20 @@ The positions describe FUNCTION, not sequence. For readers:
 
 ---
 
-# PART V: DIRECTORY RENAMING REQUIRED
+# PART V: DIRECTORY STRUCTURE (COMPLETE)
 
-To align with position-based naming, directories should be renamed:
+Position-based directory naming is now in place:
 
-| Current | Proposed |
-|---------|----------|
-| `/docs/books/book-0-shape-of-change/` | `/docs/books/position-minus-2-shape-of-change/` |
-| `/docs/books/book-1-the-wave/` | `/docs/books/position-plus-1-the-wave/` |
-| `/docs/books/book-2-the-proof/` | `/docs/books/position-minus-1-the-proof/` |
-| `/docs/books/book-3-the-architecture/` | `/docs/books/position-minus-3-the-depth/` |
-| (new) | `/docs/books/position-plus-3-the-architecture/` |
+| Position | Directory |
+|----------|-----------|
+| -4 | `/docs/books/position-minus-4-geometry-of-consciousness/` |
+| -3 | `/docs/books/position-minus-3-the-depth/` |
+| -2 | `/docs/books/position-minus-2-shape-of-change/` |
+| -1 | `/docs/books/position-minus-1-the-proof/` |
+| +1 | `/docs/books/position-plus-1-the-wave/` |
+| +3 | `/docs/books/position-plus-3-the-architecture/` |
 
-**Note:** This renaming is optional for functionality but recommended for consistency.
+**Status:** Directory renaming complete (December 2025).
 
 ---
 

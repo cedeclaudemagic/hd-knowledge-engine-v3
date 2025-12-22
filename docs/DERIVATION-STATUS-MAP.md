@@ -34,10 +34,10 @@ The research has proven that:
 │   ├── hd-mathematics/        # Position derivation ✓
 │   └── hd-electromagnetic-framework/  # EM framework ✓
 ├── docs/
-│   ├── articles/              # Published Substack articles
-│   │   ├── EM-Series-Book0/   # "The Shape of Change"
-│   │   ├── EM-Series-Book1/   # "The Wave" (14 chapters)
-│   │   └── EM-Series-Book2/   # "The Proof" (11 articles)
+│   ├── books/                 # Published book manuscripts
+│   │   ├── position-minus-2-shape-of-change/   # "The Shape of Change"
+│   │   ├── position-plus-1-the-wave/           # "The Wave" (14 chapters)
+│   │   └── position-minus-1-the-proof/         # "The Proof" (11 articles)
 │   └── research/
 │       ├── geometric/         # Core derivation research
 │       │   ├── GEOMETRIC-FOUNDATIONS-SYNTHESIS.md      # Phase 1-5 complete
