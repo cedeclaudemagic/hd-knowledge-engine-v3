@@ -2,8 +2,8 @@
 
 ## Master Orientation Document for Project Continuity
 
-**Version:** 3.10
-**Date:** 21 December 2025  
+**Version:** 3.11 (Post-Audit Edition)
+**Date:** 22 December 2025  
 **Author:** Rusty Salmon & Claude (Anthropic)  
 **Purpose:** Serve as the standing wave anchor for any Claude continuing this research
 
@@ -46,7 +46,8 @@ The research has proven that:
 │       │   └── the-geometry-of-consciousness-book/     # Complete manuscript
 │       ├── AC-DC/
 │       │   └── EXTENDED-PHYSICAL-MODEL-WITH-SUBSTRUCTURE.md
-│       ├── planetary/         # Exaltation research (mysterious)
+│       ├── planetary/         # Exaltation research (~40% derivable)
+│       ├── audit/             # Derivation audit (Dec 2025)
 │       └── DERIVATION-STATUS-MAP.md  # THIS DOCUMENT
 └── tests/                     # Skill validation tests (17/17 passing)
 ```
@@ -91,6 +92,19 @@ Building ring-by-ring skills architecture based on proven derivations. Need to:
 | **EMPIRICAL** | E | Must be accepted from transmission, cannot be derived | N/A |
 | **OUTSTANDING** | O | Not yet investigated or incomplete | 0-50% |
 | **MYSTERIOUS** | M | Investigated but remains unexplained | Unknown |
+
+**Multi-Source Indicator:** [M] marks derivations appearing in 3+ independent sources (most robust).
+
+**Multi-Source Derivations (highest confidence):**
+- [M] Trigrams = Cube vertices (B0, B1, B2, GB, EMF, GEO)
+- [M] (2,1) Torus Knot (B0, B2, GB, GEO)
+- [M] 88° Double Helix (B0, B2, GB, GEO)
+- [M] Tetragrammaton (B2, GB, EM-Reflections)
+- [M] Nine Centre Functions (B1, EMF, CEN)
+- [M] Authority Hierarchy (B1, EMF, AUT)
+- [M] Type Architectures (B1, EMF, TYP)
+- [M] 69,120 Positions (B3, GB, GEO, AC-DC)
+- [M] Standing Waves = Sun/Earth (B2, PLN)
 
 ---
 
@@ -183,7 +197,7 @@ The four domains: two bits of position.
 
 ---
 
-## Ring 3: The Trigrams — ✓✓ PROVEN
+## Ring 3: The Trigrams — ✓✓ PROVEN [M]
 
 The eight positions: three bits of space, the cube vertices.
 
@@ -226,7 +240,7 @@ Result: Positions ±1, ±2, ±3, ±4 for all 8 trigrams
 
 ---
 
-## Ring 4: The Faces (Tetragrammaton) — ✓✓ PROVEN
+## Ring 4: The Faces (Tetragrammaton) — ✓✓ PROVEN [M]
 
 The four Pillars: YHVH, the four-letter name derived from five constraints.
 
@@ -402,7 +416,7 @@ Lines 5-6: OUTER (upper) trigram → Left Angle (transpersonal)
 
 ---
 
-## Ring 7: The Wheel — ✓✓ PROVEN
+## Ring 7: The Wheel — ✓✓ PROVEN [M]
 
 The 64 movements: torus knot path through the cube.
 
@@ -433,7 +447,7 @@ The 64 movements: torus knot path through the cube.
 
 ---
 
-## Ring 8: The Complete Address — ✓✓ PROVEN
+## Ring 8: The Complete Address — ✓✓ PROVEN [M]
 
 The 69,120 positions: Lock × Key architecture.
 
@@ -470,7 +484,7 @@ Example: (17, 3, 2, 4, 3) = Gate 17, Line 3, Color 2, Tone 4, Base 3
 
 # PART II: THE DOUBLE HELIX (88° Architecture)
 
-## The 88° Offset — ✓✓ PROVEN
+## The 88° Offset — ✓✓ PROVEN [M]
 
 | Element | Status | Evidence |
 |---------|--------|----------|
@@ -666,7 +680,7 @@ Fixing patterns confirm: 1-4 share temporal rhythm, 2-5 share bandwidth, 3-6 sha
 
 ---
 
-## Centres — ✓✓ PROVEN (Corrected 22 Dec 2025)
+## Centres — ✓✓ PROVEN [M] (Corrected 22 Dec 2025)
 
 | Element | Status | Notes |
 |---------|--------|-------|
@@ -736,7 +750,7 @@ Fixing patterns confirm: 1-4 share temporal rhythm, 2-5 share bandwidth, 3-6 sha
 
 ---
 
-## Types — ✓✓ PROVEN (Added 21 Dec 2025)
+## Types — ✓✓ PROVEN [M] (Added 21 Dec 2025)
 
 The 5 Types: minimal complete categorisation from geometric constraints.
 
@@ -794,7 +808,7 @@ Cross-zero gates = 75% of motor→Throat channels (transformation required).
 
 ---
 
-## Authority Hierarchy — ✓✓ PROVEN (Added 21 Dec 2025)
+## Authority Hierarchy — ✓✓ PROVEN [M] (Added 21 Dec 2025)
 
 The 7 Authorities: signal dependency chain from electromagnetic positions.
 
@@ -1165,7 +1179,8 @@ It represents spatial/polar structure (6) plus reference frame (1).
 | **Type Derivation Synthesis** | `/docs/research/type/TYPE-DERIVATION-SYNTHESIS.md` | **Type is logical/geometric (v3.7)** |
 | **Authority Derivation Synthesis** | `/docs/research/authority/AUTHORITY-DERIVATION-SYNTHESIS.md` | **Authority is signal physics (v3.8)** |
 | **Circuit Derivation Synthesis** | `/docs/research/circuit/CIRCUIT-DERIVATION-SYNTHESIS.md` | **Circuit is partially geometric (v3.9)** |
-| **Centre Derivation Synthesis** | `/docs/research/centre/CENTRE-DERIVATION-SYNTHESIS.md` | **Centre 78% derivable, Motor=SW (v3.10)** |
+| **Centre Derivation Synthesis** | `/docs/research/centre/CENTRE-DERIVATION-SYNTHESIS.md` | **Centre 100% derivable when Pressure=Storage (v3.10.1)** |
+| **Derivation Audit** | `/docs/research/audit/` | **Cross-reference matrix, source verification (v3.11)** |
 | **THIS DOCUMENT** | `/docs/research/DERIVATION-STATUS-MAP.md` | Master orientation |
 
 ## Book Manuscripts
@@ -1341,6 +1356,7 @@ def position_index(gate, line, color, tone, base):
 | 3.9 | 21 Dec 2025 | **CIRCUIT STRUCTURE DERIVATION** — Circuit is PARTIALLY GEOMETRIC, partially semantic. **Gate type distribution**: χ²=10.23 > 9.49 (significant) — Standing Wave gates concentrated in Individual circuit. **Centre patterns**: G→Individual (25%), Heart→Tribal (21%), ESP+Head/Ajna→Collective (20%). **Integration tetrahedral**: Gates 10,20,34,57 form closed subsystem with Gate 57 (Standing Wave) as anchor — geometrically SEPARATE from 3 main circuits. **Sub-circuits**: Distinct centre hubs within each circuit (Knowing=mental, Centering=physical; Ego=Heart, Defense=Sacral; Understanding=Spleen, Sensing=ESP). **Predictability**: ~70-80% from centre involvement, not 100%. **Why 3 circuits**: Triangular logical completeness (self/tribe/whole). **Circuit structure MAPPED — centre patterns geometric, specific gate assignments require transmission.** |
 | 3.10 | 21 Dec 2025 | **CENTRE FUNCTIONS DERIVATION** — Centre functions are 78% DERIVABLE from electromagnetic position. (Original Claude Code analysis) |
 | 3.10.1 | 22 Dec 2025 | **CENTRE FUNCTIONS CORRECTED** — Centre functions are **100% DERIVABLE**. **Key correction**: Pressure = Storage (±3), NOT Poles (±4). Root at ±3 holds stored energy (capacitance/inductance). Head at -3 to +2 generates mental pressure through transformation. Previous analysis from `/docs/research/electromagnetic-framework/centre-electromagnetic-profiles.md` ALREADY ESTABLISHED this. **9/9 centres now match**. Standing wave distribution across all 8 positions = centre function anchors. Type and Authority electromagnetic derivations were ALSO already complete in `/docs/research/electromagnetic-framework/`. |
+| 3.11 | 22 Dec 2025 | **POST-AUDIT EDITION** — Complete derivation audit performed. Cross-reference matrix built for all sources (Books 0-3, EM Series, Geometry Book, Research folders). Source references added throughout. Multi-source derivations flagged with [M] indicator. Key confirmations: Centre Functions 100%, Authority 100%, Type 100%, Profile 100%, ~40% planetary boundary. All previous research consolidated. See `/docs/research/audit/` folder for complete audit documentation. |
 
 ---
 
