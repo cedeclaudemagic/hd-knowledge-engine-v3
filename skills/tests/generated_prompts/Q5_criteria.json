@@ -1,0 +1,15 @@
+{
+  "test_id": "Q5",
+  "query": "Is Gate 29 a standing wave?",
+  "expected_skill": "hd-mathematics",
+  "category": "gate_classification",
+  "must_contain": [
+    "yes",
+    "Water",
+    "010",
+    "+2",
+    "Current"
+  ],
+  "must_not_contain": [],
+  "evaluation_prompt": "\nEvaluate the response to the query: \"Is Gate 29 a standing wave?\"\n\nCheck if the response contains these required elements (case-insensitive):\n[\n  \"yes\",\n  \"Water\",\n  \"010\",\n  \"+2\",\n  \"Current\"\n]\n\nThe response PASSES if:\n1. All required elements are present (or their clear equivalents)\n2. The explanation is coherent and accurate\n3. The skill navigation was appropriate\n\nThe response FAILS if:\n1. Required elements are missing\n2. The explanation contradicts the skill content\n3. Wrong skill was used or skills weren't consulted\n"
+}

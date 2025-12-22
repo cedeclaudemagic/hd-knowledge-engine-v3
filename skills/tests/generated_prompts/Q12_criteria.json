@@ -1,0 +1,16 @@
+{
+  "test_id": "Q12",
+  "query": "What are the harmonic pairs?",
+  "expected_skill": "hd-electromagnetic-framework",
+  "category": "line_interpretation",
+  "must_contain": [
+    "1-4",
+    "2-5",
+    "3-6",
+    "Foundation",
+    "Hermit",
+    "Projection"
+  ],
+  "must_not_contain": [],
+  "evaluation_prompt": "\nEvaluate the response to the query: \"What are the harmonic pairs?\"\n\nCheck if the response contains these required elements (case-insensitive):\n[\n  \"1-4\",\n  \"2-5\",\n  \"3-6\",\n  \"Foundation\",\n  \"Hermit\",\n  \"Projection\"\n]\n\nThe response PASSES if:\n1. All required elements are present (or their clear equivalents)\n2. The explanation is coherent and accurate\n3. The skill navigation was appropriate\n\nThe response FAILS if:\n1. Required elements are missing\n2. The explanation contradicts the skill content\n3. Wrong skill was used or skills weren't consulted\n"
+}

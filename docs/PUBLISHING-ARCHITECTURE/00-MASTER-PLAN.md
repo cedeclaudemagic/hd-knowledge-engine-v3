@@ -76,20 +76,20 @@ Where we've been                         Where it goes
 
 ### Position -3: THE DEPTH (Capacitance)
 **Purpose:** Stored structural knowledge — what lies beneath the 384 lines
-**Status:** 🟡 MATERIAL EXISTS — NEEDS ASSEMBLY
+**Status:** 🟡 OUTLINE COMPLETE — NEEDS CHAPTERS WRITTEN
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Color-Tone-Base Complete Synthesis | Session outputs | Complete |
-| Four Nodes Tetrahedron Research | Session outputs | Complete |
-| Lock-Key Synthesis | Session outputs | Complete |
-| Lunar Nodes Geometry | Session outputs | Complete |
+| Book 3 Outline | `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md` | ✅ Complete |
+| Four Nodes Tetrahedron Research | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
+| Lock-Key Synthesis | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
+| Color-Tone-Base Complete Synthesis | Session outputs | ⚠️ NEEDS FULL CONTENT |
 
-**Session Output Files (need to be moved to permanent location):**
-- `COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md`
-- `FOUR-NODES-TETRAHEDRON-RESEARCH.md`
-- `LOCK-KEY-SYNTHESIS.md`
-- `PART-IX-LUNAR-NODES-GEOMETRY.md`
+**Book 3 Files:**
+- `00-BOOK-3-OUTLINE.md` — Chapter structure and source mapping
+- `LOCK-KEY-SYNTHESIS.md` — Complete (18KB)
+- `FOUR-NODES-TETRAHEDRON-RESEARCH.md` — Complete (6KB)
+- `COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md` — **NEEDS MANUAL COPY** (839 lines from session)
 
 **What This Book Contains:**
 1. The 69,120 architecture (64 × 216 × 5)
@@ -106,10 +106,11 @@ Where we've been                         Where it goes
 - Penta
 
 **Next Steps:**
-1. Move session outputs to permanent location
-2. Create book structure/outline
-3. Write connecting chapters
-4. Derive remaining structures (Codon Rings, Wa, Penta)
+1. ~~Move session outputs to permanent location~~ ✅ DONE
+2. ~~Create book structure/outline~~ ✅ DONE
+3. Copy full COLOR-TONE-BASE synthesis from session
+4. Write connecting chapters
+5. Derive remaining structures (Codon Rings, Wa, Penta)
 
 ---
 
@@ -277,43 +278,103 @@ Where we've been                         Where it goes
 |-----------|----------|--------|
 | Compiled tome | Not yet created | Not started |
 
-**What The Tome Contains:**
-- Book 0: The Shape (complete)
-- Book 1: The Wave (complete)
-- Book 2: The Proof (complete)
-- The Depth (needs assembly)
-- The EM I Ching (needs completion)
-- Book 3: The Breath (not yet written)
-- Appendices, glossary, index
+**The Tome uses a LAYERED architecture** — readers can enter at any depth:
+
+```
+LAYER 0: THE ORACLE (~100 pages)
+   The EM I Ching itself. 64 gates, 384 lines in oracle voice.
+   Usable without any prior reading.
+   10-page intro: The Wave, Eight Positions, Five Gate Types, How to Use
+
+LAYER 1: THE WAVE (~200 pages)
+   Current Book 1. Entry for practitioners.
+   How to read electromagnetically.
+
+LAYER 2: THE SHAPE (~150 pages)
+   Current Book 0. Visual geometry.
+   "Oh! It's geometry!"
+
+LAYER 3: THE DEPTH (~250 pages)
+   Book 3 (assembled from session outputs).
+   Color-Tone-Base, Lock-Key, Four Nodes.
+
+LAYER 4: THE PROOF (~200 pages)
+   Current Book 2. Mathematical necessity.
+
+APPENDICES (~150 pages)
+   Complete Gate Reference, Channels, Circuits, Planets, Glossary
+```
+
+**Key Principle:** Each layer complete in itself. Cross-references between layers. Readers enter at any level and navigate horizontally or vertically.
+
+**Physical Format Options:**
+- Print: ~1000 pages, likely two volumes (Oracle + Theory)
+- Digital: Hyperlinked PDF with layer-based navigation
+- Web: Searchable reference with layer filtering
 
 **Next Steps:**
 1. Complete all component books first
-2. Design compilation structure
+2. Design compilation structure using layer architecture
 3. Write connecting material
 4. Create comprehensive index
 5. Design for print/digital
 
 ---
 
+## Visualization Strategy
+
+### Priority 1: Critical (Unlocks Everything)
+
+| Visualization | Purpose | Location | Status |
+|---------------|---------|----------|--------|
+| **8-Position Wave** | Core conceptual framework | `/visualization/output/eight-position-wave-dark.svg` | ✅ COMPLETE |
+| Single Gate Template | For each of 64 gates | `/visualization/generators/` | 🔴 NOT STARTED |
+| Cube with Trigrams | Geometric foundation | | 🔴 NOT STARTED |
+
+### Priority 2: High Value
+
+| Visualization | Purpose | Status |
+|---------------|---------|--------|
+| Five Gate Types Diagram | Category understanding | 🔴 NOT STARTED |
+| The Threshold Crossing | Lines 3-4 mechanism | 🔴 NOT STARTED |
+| 64 Hexagrams on Wheel | Complete system view | 🟡 Infrastructure exists |
+| Four Nodes Disphenoid | Incarnation geometry | 🔴 NOT STARTED |
+
+### Priority 3: Enhancement
+
+- Color-Tone-Base hierarchy (interactive)
+- Animated Precession Cycle
+- Individual Chart Overlay tool
+- Educational videos
+
+---
+
 ## Priority Matrix
 
+### Completed This Session ✅
+1. ~~Move session outputs to permanent location~~ ✅ Book 3 organized
+2. ~~Create DEPTH outline~~ ✅ `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md`
+3. ~~Create 8-Position Wave visualization~~ ✅ `/visualization/output/eight-position-wave-dark.svg`
+
 ### Immediate (Next Session)
-1. **Move session outputs** to permanent location in `/docs/PUBLISHING-ARCHITECTURE/`
-2. **Create DEPTH outline** — structure for the beneath-the-line book
+1. **Copy COLOR-TONE-BASE full content** from Claude session
+2. **Continue EM I Ching conversion** — remaining standing wave gates (2, 29, 30, 51, 52, 57, 58)
+3. **Create single-gate SVG template** for oracle illustrations
 
 ### Short-term (Next Few Sessions)
-3. **Begin EM I Ching conversion** — start with 8 standing wave gates
-4. **Write DEPTH connecting chapters** — frame the existing material
+4. **Complete standing wave gates** — 8 gates, 48 lines
+5. **Write DEPTH connecting chapters** — frame the existing material
+6. **Set up Substack** — begin article flow
 
 ### Medium-term
-5. **Derive remaining structures** — Codon Rings, Wa, Penta
-6. **Set up Substack** — begin article flow
-7. **Expand Global→Personal** — full treatment of Lock-Key
+7. **Complete cross-zero gates** — 32 gates, 192 lines
+8. **Derive remaining structures** — Codon Rings, Wa, Penta
+9. **Expand Global→Personal** — full treatment of Lock-Key
 
 ### Long-term
-8. **Complete EM I Ching** — all 384 lines
-9. **Write Book 3: The Breath** — experiential embodiment
-10. **Compile The Tome** — everything together
+10. **Complete EM I Ching** — all 384 lines
+11. **Build interactive wheel viewer** — web-based exploration
+12. **Compile The Tome** — everything together
 
 ---
 
@@ -398,5 +459,5 @@ Where we've been                         Where it goes
 
 ---
 
-*Last Updated: December 2024*
-*Version: 1.0*
+*Last Updated: December 19, 2024*
+*Version: 1.1 — Added Tome layer structure, visualization strategy, session progress*

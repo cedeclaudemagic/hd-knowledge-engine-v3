@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="voidGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6a4c93;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#6a4c93;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="formGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2a7a5a;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#2a7a5a;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <rect x="60" y="80" width="540" height="420" fill="url(#voidGradient)"/>
+  <rect x="600" y="80" width="540" height="420" fill="url(#formGradient)"/>
+  <line x1="600" y1="80" x2="600" y2="500"
+        stroke="#666666" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <line x1="60" y1="290" x2="1140" y2="290"
+        stroke="#1d1d1b" stroke-width="0.5" opacity="0.3"/>
+  <path d="M 127.5 110 C 181.5 110, 208.5 155, 262.5 155 C 316.5 155, 343.5 200, 397.5 200 C 451.5 200, 478.5 245, 532.5 245 C 586.5 245, 613.5 335, 667.5 335 C 721.5 335, 748.5 380, 802.5 380 C 856.5 380, 883.5 425, 937.5 425 C 991.5 425, 1018.5 470, 1072.5 470" fill="none" stroke="#c9a227" stroke-width="3" stroke-linecap="round"/>
+  <g id="positions">
+    <circle cx="127.5" cy="110" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="127.5" y="55"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">-4</text>
+    <text x="127.5" y="75"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Heaven</text>
+    <text x="127.5" y="92"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#6a4c93" text-anchor="middle">Source</text>
+<rect x="119.1" y="29.200000000000003" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="119.1" y="23.6" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="119.1" y="18" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+    <circle cx="262.5" cy="155" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="262.5" y="100"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">-3</text>
+    <text x="262.5" y="120"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Lake</text>
+    <text x="262.5" y="137"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#6a4c93" text-anchor="middle">Capacitance</text>
+<rect x="254.1" y="74.19999999999999" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="254.1" y="68.6" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="254.1" y="63.00000000000001" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="264.25" y="63.00000000000001" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+    <circle cx="397.5" cy="200" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="397.5" y="145"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">-2</text>
+    <text x="397.5" y="165"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Fire</text>
+    <text x="397.5" y="182"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#6a4c93" text-anchor="middle">Voltage</text>
+<rect x="389.1" y="119.19999999999999" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="389.1" y="113.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="399.25" y="113.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="389.1" y="108" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+    <circle cx="532.5" cy="245" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="532.5" y="190"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">-1</text>
+    <text x="532.5" y="210"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Wind</text>
+    <text x="532.5" y="227"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#6a4c93" text-anchor="middle">Gate-OUT</text>
+<rect x="524.1" y="164.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="534.25" y="164.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="524.1" y="158.6" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="524.1" y="153" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+    <circle cx="667.5" cy="335" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="667.5" y="390"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">+1</text>
+    <text x="667.5" y="370"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Thunder</text>
+    <text x="667.5" y="390"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#2a7a5a" text-anchor="middle">Gate-IN</text>
+<rect x="659.1" y="424.20000000000005" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="659.1" y="418.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="669.25" y="418.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="659.1" y="413" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="669.25" y="413" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+    <circle cx="802.5" cy="380" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="802.5" y="435"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">+2</text>
+    <text x="802.5" y="415"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Water</text>
+    <text x="802.5" y="435"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#2a7a5a" text-anchor="middle">Current</text>
+<rect x="794.1" y="469.20000000000005" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="804.25" y="469.20000000000005" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="794.1" y="463.6" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+<rect x="794.1" y="458" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="804.25" y="458" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+    <circle cx="937.5" cy="425" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="937.5" y="480"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">+3</text>
+    <text x="937.5" y="460"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Mountain</text>
+    <text x="937.5" y="480"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#2a7a5a" text-anchor="middle">Inductance</text>
+<rect x="929.1" y="514.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="939.25" y="514.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="929.1" y="508.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="939.25" y="508.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="929.1" y="503" width="16.799999999999997" height="2.8" fill="#1d1d1b"/>
+    <circle cx="1072.5" cy="470" r="8" fill="#c9a227" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="1072.5" y="525"
+          font-family="Copperplate, Georgia, serif" font-size="16" font-weight="bold"
+          fill="#c9a227" text-anchor="middle">+4</text>
+    <text x="1072.5" y="505"
+          font-family="Copperplate, Georgia, serif" font-size="14"
+          fill="#1d1d1b" text-anchor="middle">Earth</text>
+    <text x="1072.5" y="525"
+          font-family="Copperplate, Georgia, serif" font-size="11"
+          fill="#2a7a5a" text-anchor="middle">Sink</text>
+<rect x="1064.1" y="559.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="1074.25" y="559.2" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="1064.1" y="553.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="1074.25" y="553.6" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="1064.1" y="548" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+<rect x="1074.25" y="548" width="6.649999999999999" height="2.8" fill="#1d1d1b"/>
+  </g>
+  <text x="330" y="55"
+        font-family="Copperplate, Georgia, serif" font-size="18" font-weight="bold"
+        fill="#6a4c93" text-anchor="middle">VOID</text>
+  <text x="330" y="73"
+        font-family="Copperplate, Georgia, serif" font-size="11"
+        fill="#6a4c93" text-anchor="middle" opacity="0.7">(Potential)</text>
+  <text x="870" y="55"
+        font-family="Copperplate, Georgia, serif" font-size="18" font-weight="bold"
+        fill="#2a7a5a" text-anchor="middle">FORM</text>
+  <text x="870" y="73"
+        font-family="Copperplate, Georgia, serif" font-size="11"
+        fill="#2a7a5a" text-anchor="middle" opacity="0.7">(Manifestation)</text>
+  <text x="600" y="570"
+        font-family="Copperplate, Georgia, serif" font-size="12"
+        fill="#666666" text-anchor="middle">Zero Crossing</text>
+  <text x="600" y="35"
+        font-family="Copperplate, Georgia, serif" font-size="22" font-weight="bold"
+        fill="#1d1d1b" text-anchor="middle">The Eight Positions</text>
+  <text x="600" y="55"
+        font-family="Copperplate, Georgia, serif" font-size="12"
+        fill="#1d1d1b" text-anchor="middle" opacity="0.7">The Electromagnetic Wave</text>
+</svg>

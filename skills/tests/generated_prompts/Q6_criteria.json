@@ -1,0 +1,16 @@
+{
+  "test_id": "Q6",
+  "query": "What type of gate is Gate 44?",
+  "expected_skill": "hd-mathematics",
+  "category": "gate_classification",
+  "must_contain": [
+    "same-phase",
+    "void",
+    "Wind",
+    "Heaven",
+    "-1",
+    "-4"
+  ],
+  "must_not_contain": [],
+  "evaluation_prompt": "\nEvaluate the response to the query: \"What type of gate is Gate 44?\"\n\nCheck if the response contains these required elements (case-insensitive):\n[\n  \"same-phase\",\n  \"void\",\n  \"Wind\",\n  \"Heaven\",\n  \"-1\",\n  \"-4\"\n]\n\nThe response PASSES if:\n1. All required elements are present (or their clear equivalents)\n2. The explanation is coherent and accurate\n3. The skill navigation was appropriate\n\nThe response FAILS if:\n1. Required elements are missing\n2. The explanation contradicts the skill content\n3. Wrong skill was used or skills weren't consulted\n"
+}

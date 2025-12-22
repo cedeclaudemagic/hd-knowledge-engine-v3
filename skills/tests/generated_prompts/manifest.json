@@ -1,0 +1,104 @@
+[
+  {
+    "test_id": "Q1",
+    "category": "position_derivation",
+    "prompt_file": "Q1_prompt.md",
+    "criteria_file": "Q1_criteria.json"
+  },
+  {
+    "test_id": "Q2",
+    "category": "gate_classification",
+    "prompt_file": "Q2_prompt.md",
+    "criteria_file": "Q2_criteria.json"
+  },
+  {
+    "test_id": "Q3",
+    "category": "amplitude",
+    "prompt_file": "Q3_prompt.md",
+    "criteria_file": "Q3_criteria.json"
+  },
+  {
+    "test_id": "Q4",
+    "category": "complement",
+    "prompt_file": "Q4_prompt.md",
+    "criteria_file": "Q4_criteria.json"
+  },
+  {
+    "test_id": "Q5",
+    "category": "gate_classification",
+    "prompt_file": "Q5_prompt.md",
+    "criteria_file": "Q5_criteria.json"
+  },
+  {
+    "test_id": "Q6",
+    "category": "gate_classification",
+    "prompt_file": "Q6_prompt.md",
+    "criteria_file": "Q6_criteria.json"
+  },
+  {
+    "test_id": "Q7",
+    "category": "gate_classification",
+    "prompt_file": "Q7_prompt.md",
+    "criteria_file": "Q7_criteria.json"
+  },
+  {
+    "test_id": "Q8",
+    "category": "position_meaning",
+    "prompt_file": "Q8_prompt.md",
+    "criteria_file": "Q8_criteria.json"
+  },
+  {
+    "test_id": "Q9",
+    "category": "position_meaning",
+    "prompt_file": "Q9_prompt.md",
+    "criteria_file": "Q9_criteria.json"
+  },
+  {
+    "test_id": "Q10",
+    "category": "line_interpretation",
+    "prompt_file": "Q10_prompt.md",
+    "criteria_file": "Q10_criteria.json"
+  },
+  {
+    "test_id": "Q11",
+    "category": "completion_patterns",
+    "prompt_file": "Q11_prompt.md",
+    "criteria_file": "Q11_criteria.json"
+  },
+  {
+    "test_id": "Q12",
+    "category": "line_interpretation",
+    "prompt_file": "Q12_prompt.md",
+    "criteria_file": "Q12_criteria.json"
+  },
+  {
+    "test_id": "Q13",
+    "category": "gate_reading",
+    "prompt_file": "Q13_prompt.md",
+    "criteria_file": "Q13_criteria.json"
+  },
+  {
+    "test_id": "Q14",
+    "category": "threshold",
+    "prompt_file": "Q14_prompt.md",
+    "criteria_file": "Q14_criteria.json"
+  },
+  {
+    "test_id": "Q15",
+    "category": "completion_patterns",
+    "prompt_file": "Q15_prompt.md",
+    "criteria_file": "Q15_criteria.json"
+  },
+  {
+    "test_id": "Q16",
+    "category": "integration",
+    "prompt_file": "Q16_prompt.md",
+    "criteria_file": "Q16_criteria.json"
+  },
+  {
+    "test_id": "Q17",
+    "category": "integration",
+    "prompt_file": "Q17_prompt.md",
+    "criteria_file": "Q17_criteria.json"
+  }
+]

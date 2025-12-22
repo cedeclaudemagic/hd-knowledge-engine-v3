@@ -1,0 +1,15 @@
+{
+  "test_id": "Q4",
+  "query": "Calculate the complement of Thunder.",
+  "expected_skill": "hd-mathematics",
+  "category": "complement",
+  "must_contain": [
+    "Wind",
+    "100",
+    "011",
+    "+1",
+    "-1"
+  ],
+  "must_not_contain": [],
+  "evaluation_prompt": "\nEvaluate the response to the query: \"Calculate the complement of Thunder.\"\n\nCheck if the response contains these required elements (case-insensitive):\n[\n  \"Wind\",\n  \"100\",\n  \"011\",\n  \"+1\",\n  \"-1\"\n]\n\nThe response PASSES if:\n1. All required elements are present (or their clear equivalents)\n2. The explanation is coherent and accurate\n3. The skill navigation was appropriate\n\nThe response FAILS if:\n1. Required elements are missing\n2. The explanation contradicts the skill content\n3. Wrong skill was used or skills weren't consulted\n"
+}

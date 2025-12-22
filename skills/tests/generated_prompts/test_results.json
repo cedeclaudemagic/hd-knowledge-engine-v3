@@ -1,0 +1,157 @@
+[
+  {
+    "test_id": "Q1",
+    "category": "position_derivation",
+    "query": "Why is Fire at position -2?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "I'll derive Fire's position using the mathematical framework from first principles.\n\n## Fire's Binary Pattern\n\nFire trigram (\u2632) has the pattern:\n- Bottom line: Yang (solid) = 1\n- Middle line: Yin (broken) = 0  \n- Top line: Yang (solid) = 1\n\n**Binary: 101 | Decimal: 5**\n\n## Step-by-Step Derivation\n\n### Step 1: Find Fire's Complement\nUsing XOR with 111 (all bits flipped):\n```\nFire:    101\nXOR:     111\nResult:  010 = Water trigram\n```\n\nFire and Water are complements.\n\n### Step 2: Calculate Spread\nS..."
+  },
+  {
+    "test_id": "Q2",
+    "category": "gate_classification",
+    "query": "What is the binary pattern of Gate 11?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "According to the binary tables, **Gate 11 has the binary pattern 111000**.\n\nLet me break this down:\n\n**Gate 11 (Peace):**\n- Binary: 111000\n- Inner trigram (bits 0-2): 000 = Earth = position +4\n- Outer trigram (bits 3-5): 111 = Heaven = position -4\n- Vector: +4 \u2192 -4 (Cross-zero dematerialising)\n- Amplitude: 8 (maximum possible)\n\nWait, I need to correct this. Looking more carefully at the table:\n\n**Gate 11:**\n- Binary: 111000\n- Inner trigram: 111 = Heaven = position -4  \n- Outer trigram: 000 = Ear..."
+  },
+  {
+    "test_id": "Q3",
+    "category": "amplitude",
+    "query": "Which gates have amplitude 8?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "Looking at the binary mathematics, only **two gates** have amplitude 8:\n\n## Gates 11 and 12\n\n**Gate 11 (Peace/Tai):**\n- Binary: 111000 (Heaven below, Earth above)\n- Vector: -4 \u2192 +4 \n- Amplitude: |+4 - (-4)| = 8\n\n**Gate 12 (Standstill/Pi):**\n- Binary: 000111 (Earth below, Heaven above)  \n- Vector: +4 \u2192 -4\n- Amplitude: |(-4) - (+4)| = 8\n\n## Why Amplitude 8 is Special\n\nThese are the **maximum amplitude gates** - they span the entire electromagnetic spectrum from one pole to the other:\n\n- **Gate 11*..."
+  },
+  {
+    "test_id": "Q4",
+    "category": "complement",
+    "query": "Calculate the complement of Thunder.",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "I'll use the binary mathematics to calculate Thunder's complement.\n\n## Thunder's Binary Pattern\n\nThunder is trigram 100 (binary), which represents:\n- Bottom line: yang (1)\n- Middle line: yin (0) \n- Top line: yin (0)\n\n## Complement Calculation\n\nIn binary mathematics, the complement is found by XOR with 111:\n\n```\nThunder:    100\nXOR mask:   111\nResult:     011\n```\n\nLet me verify: 100 XOR 111 = 011 \u2713\n\n## The Complement\n\n**Thunder's complement is Wind (011)**\n\n## Verification\n\nThis creates a valid c..."
+  },
+  {
+    "test_id": "Q5",
+    "category": "gate_classification",
+    "query": "Is Gate 29 a standing wave?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "Yes, Gate 29 is a standing wave.\n\nLooking at the binary analysis:\n\n**Gate 29: The Abysmal (Water)**\n- Binary: 010010\n- Inner trigram: 010 = Water = +2\n- Outer trigram: 010 = Water = +2\n- Vector: +2 \u2192 +2\n- Amplitude: 0\n\nGate 29 has the same trigram (Water) in both inner and outer positions, which by definition makes it a standing wave. Standing waves have amplitude 0 because there's no movement between positions - they hold their position constant.\n\nThere are exactly 8 standing waves in the I Chi..."
+  },
+  {
+    "test_id": "Q6",
+    "category": "gate_classification",
+    "query": "What type of gate is Gate 44?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "Looking at Gate 44, I need to analyze its binary structure to determine its type.\n\nGate 44 has the binary pattern **011111**, which breaks down as:\n- **Inner trigram** (lower 3 bits): 111 = Heaven = position **-4**\n- **Outer trigram** (upper 3 bits): 011 = Wind = position **-1**\n\nThis gives us the vector: **-1 \u2192 -4** (Wind below, Heaven above)\n\n## Gate Type: Same-Phase Void\n\nGate 44 is classified as a **Same-Phase Void** gate because:\n- Both trigrams occupy negative positions (-1 and -4)\n- This ..."
+  },
+  {
+    "test_id": "Q7",
+    "category": "gate_classification",
+    "query": "List all standing waves.",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Standing Waves \u2014 All 8 Gates\n\nStanding waves occur when the inner and outer trigrams are identical, creating **amplitude 0**. These gates hold fixed positions on the electromagnetic wave.\n\n## Complete List\n\n| Gate | Name | Binary | Trigram | Position | Axis |\n|------|------|--------|---------|----------|------|\n| **1** | The Creative | 111111 | Heaven/Heaven | **-4** | Poles |\n| **2** | The Receptive | 000000 | Earth/Earth | **+4** | Poles |\n| **29** | The Abysmal | 010010 | Water/Water | **+2..."
+  },
+  {
+    "test_id": "Q8",
+    "category": "position_meaning",
+    "query": "What does position +2 mean?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Position +2: Current\n\n**Trigram:** Water (\u2635) \u2014 broken solid broken  \n**Domain:** Form (manifest)  \n**Axis:** Flow\n\n## Essential Quality\n\n**Current** is committed flow through form. It represents movement that has momentum, depth, and cannot easily turn back. This is energy actually flowing \u2014 not potential (voltage) but kinetic energy in motion.\n\n## Core Character\n\n- **Committed movement** \u2014 once in flow, must continue\n- **Depth** \u2014 penetrates into the substance of things\n- **The \"how\" of actua..."
+  },
+  {
+    "test_id": "Q9",
+    "category": "position_meaning",
+    "query": "What is the difference between Gate-IN and Gate-OUT?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "## Gate-IN vs Gate-OUT: The Threshold Positions\n\nThese are the two positions closest to the monopole (zero point), where void and form domains meet. They represent the **minimum threshold** for consciousness to cross between potential and manifest reality.\n\n### Position -1: Gate-OUT (Wind \u2634)\n\n**Domain:** Void (potential)  \n**Function:** Release threshold - the exit from potential into form  \n**Quality:** Penetration, dissolution, letting go\n\n**Character:**\n- The **last moment** before crossing i..."
+  },
+  {
+    "test_id": "Q10",
+    "category": "line_interpretation",
+    "query": "How do I interpret Line 3 in a cross-zero gate?",
+    "passed": false,
+    "missing": [
+      "adaptation"
+    ],
+    "unwanted": [],
+    "response_preview": "# Line 3 in Cross-Zero Gates: The Acceptance Point\n\nLine 3 in cross-zero gates is **the moment of accepting transformation**. It's the peak of the origin domain before crossing into the destination domain.\n\n## The Pattern\n\n**Lines 1-2:** Building in the origin domain\n**Line 3:** Peak of origin - must accept the crossing that's coming\n**Threshold 3\u21924:** Domain crossing occurs (void \u2194 form)\n**Line 4:** First contact with destination domain\n\n## Two Flavors\n\n### In Manifesting Gates (void \u2192 form)\n**..."
+  },
+  {
+    "test_id": "Q11",
+    "category": "completion_patterns",
+    "query": "What is special about Line 6 at Current (+2)?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "Looking at Line 6 at Current (+2), this is the most problematic completion in the entire I Ching system. Here's why:\n\n## The Imprisonment Problem\n\n**Current (+2)** is committed flow \u2014 energy moving through form. Unlike other positions, Current **must keep moving** to maintain its nature. When Current reaches Line 6 (completion/peak), it faces a fundamental contradiction:\n\n- **Current's nature:** Dedicated flow, movement through form\n- **Line 6's function:** Completion, peak, holding the full per..."
+  },
+  {
+    "test_id": "Q12",
+    "category": "line_interpretation",
+    "query": "What are the harmonic pairs?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Harmonic Pairs in the Electromagnetic I Ching\n\nThe harmonic pairs are **three sets of resonant lines** that mirror each other across the inner and outer trigrams. They create electromagnetic resonance patterns within each hexagram.\n\n## The Three Pairs\n\n### Lines 1 and 4: Foundation \u2194 Arrival\n\n**Positions:** Entry-Inner and Entry-Outer\n**Resonance:** Both are **entry lines** \u2014 Line 1 enters the inner trigram, Line 4 enters the outer trigram\n\n**Shared qualities:**\n- Concerns about **conditions a..."
+  },
+  {
+    "test_id": "Q13",
+    "category": "gate_reading",
+    "query": "How do I read Gate 51 electromagnetically?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Gate 51: The Arousing (Thunder)\n\n## Classification\n\n**Trigram:** Thunder over Thunder (\u2633\u2633)\n**Position:** +1 (Gate-IN)\n**Type:** Standing Wave\n**Domain:** Form (manifest)\n**Amplitude:** 0 (no movement, pure being)\n\n## The Position: Gate-IN (+1)\n\nGate-IN is the **entry threshold to form** \u2014 the shock of first contact with manifestation. This is where potential crosses zero and becomes actual, where the void domain touches the form domain.\n\n**Essential qualities:**\n- Maximum rate of change (close..."
+  },
+  {
+    "test_id": "Q14",
+    "category": "threshold",
+    "query": "What is the threshold like in Gate 63?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Gate 63: After Completion \u2014 The Voltage\u2192Current Threshold\n\nGate 63 is a cross-zero manifesting gate that moves from **Voltage (-2)** to **Current (+2)** \u2014 amplitude 4, a moderate crossing.\n\n## The Positions\n\n**Inner Trigram: Fire (Voltage, -2)**\n- Pressure differential in the void domain\n- Potential energy held in tension\n- Clarity, illumination, the \"why\" that precedes action\n\n**Outer Trigram: Water (Current, +2)**  \n- Committed flow in the form domain\n- Movement through manifestation\n- Depth..."
+  },
+  {
+    "test_id": "Q15",
+    "category": "completion_patterns",
+    "query": "Why does Gate 29 have problematic completion?",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "Looking at Gate 29 through the electromagnetic framework reveals why its completion is uniquely problematic.\n\n## Gate 29: Standing Wave at Current (+2)\n\n**Structure:** Water over Water (\u2635\u2635) - broken solid broken, repeated\n**Position:** Current (+2) - committed flow through form\n**Type:** Standing wave - holds position rather than transforming\n**Domain:** Form (manifest)\n\n## The Problem with Held Current\n\nCurrent (+2) has a fundamental characteristic: **it must keep moving**. Current is flow in m..."
+  },
+  {
+    "test_id": "Q16",
+    "category": "integration",
+    "query": "Walk me through Gate 11 from binary to meaning.",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "I'll walk you through Gate 11 from its binary foundation to its complete electromagnetic interpretation.\n\n## Binary Foundation\n\n**Gate 11 Binary Pattern:** 111000\n- Reading bottom to top (lines 1-6)\n- Lower trigram (lines 1-3): 111 = Heaven \u2630\n- Upper trigram (lines 4-6): 000 = Earth \u2637\n\n## Position Derivation\n\n**Heaven (111):**\n- Binary: 111, Decimal: 7\n- Complement: 000 (7 XOR 0 = 7)\n- Spread: |7-0| = 7\n- Magnitude: (7+1)/2 = 4\n- Yang count: 3 (more than Earth's 0)\n- Position: **-4** (Source)\n\n*..."
+  },
+  {
+    "test_id": "Q17",
+    "category": "integration",
+    "query": "Compare Gate 51 and Gate 57 as standing waves.",
+    "passed": true,
+    "missing": [],
+    "unwanted": [],
+    "response_preview": "# Gate 51 vs Gate 57: Standing Wave Comparison\n\nBoth gates are standing waves on the **Gates Axis (\u00b11)**, but they occupy opposite domains and positions.\n\n## Gate 51: The Arousing (Thunder \u2633)\n**Position:** +1 (Gate-IN, Thunder, Form domain)\n**Binary:** 100100 (Thunder below, Thunder above)\n**Character:** Sustained entry threshold into form\n\n## Gate 57: The Gentle (Wind \u2634)  \n**Position:** -1 (Gate-OUT, Wind, Void domain)\n**Binary:** 011011 (Wind below, Wind above)\n**Character:** Sustained release..."
+  }
+]
