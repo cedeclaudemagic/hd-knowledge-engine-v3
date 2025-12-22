@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Article 11; Book 0, Chapter 6; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md; FOUR-NODES-TETRAHEDRON-RESEARCH.md
+**Source:** Position -1, Article 11; Position -2, Chapter 6; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md; FOUR-NODES-TETRAHEDRON-RESEARCH.md
 **Status:** PROVEN — geometric and cosmological analysis
 
 ---
@@ -222,5 +222,5 @@ This 2° gap at closest approach encodes:
 
 ---
 
-*Extracted from: Book 2, Article 11; Book 0, Chapter 6; FOUR-NODES-TETRAHEDRON-RESEARCH.md*
+*Extracted from: Position -1, Article 11; Position -2, Chapter 6; FOUR-NODES-TETRAHEDRON-RESEARCH.md*
 *Framework location: docs/framework/topology/88-degree-offset.md*

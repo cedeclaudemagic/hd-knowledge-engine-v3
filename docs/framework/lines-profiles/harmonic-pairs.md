@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** LINE-QUARTER-PATTERNS.md; Book 1, Chapter 6; six-lines-octahedron.md
+**Source:** LINE-QUARTER-PATTERNS.md; Position +1, Chapter 6; six-lines-octahedron.md
 **Status:** PROVEN — binary analysis confirms structural independence
 
 ---
@@ -175,5 +175,5 @@ This is not failure to find structure — it IS the structure. Independence betw
 
 ---
 
-*Extracted from: LINE-QUARTER-PATTERNS.md; Book 1, Chapter 6*
+*Extracted from: LINE-QUARTER-PATTERNS.md; Position +1, Chapter 6*
 *Framework location: docs/framework/lines-profiles/harmonic-pairs.md*

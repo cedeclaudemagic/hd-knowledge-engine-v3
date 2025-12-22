@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Article 11 — The Topology of the Wave; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md (Phase 3)
+**Source:** Position -1, Article 11 — The Topology of the Wave; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md (Phase 3)
 **Status:** PROVEN — topological analysis complete
 
 ---
@@ -215,5 +215,5 @@ while completing one circuit around the torus.
 
 ---
 
-*Extracted from: Book 2, Article 11; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
+*Extracted from: Position -1, Article 11; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
 *Framework location: docs/framework/topology/torus-knot.md*

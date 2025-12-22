@@ -1,16 +1,16 @@
-# The Proof: Mathematical Foundations of the Electromagnetic I Ching
+# Position -1 GATE-OUT: The Proof
 
-## Book 2 Series Outline
+*Mathematical Foundations of the Electromagnetic I Ching*
 
 ---
 
 ## Overview
 
-**Book 1** ("The Wave") presented an electromagnetic framework for understanding the I Ching—mapping trigrams to wave positions, hexagrams to movements, and revealing the circuit architecture beneath Human Design. It offered an accessible entry point: *Here's how to read the I Ching electromagnetically.*
+**Position +1 (The Wave)** presented an electromagnetic framework for understanding the I Ching—mapping trigrams to wave positions, hexagrams to movements, and revealing the circuit architecture beneath Human Design. It offered an accessible entry point: *Here's how to read the I Ching electromagnetically.*
 
-**Book 2** ("The Proof") goes deeper. It asks: *Why does this structure exist? What makes certain hexagrams special? Is there mathematical necessity beneath the mystical architecture?*
+**Position -1 (The Proof)** goes deeper. It asks: *Why does this structure exist? What makes certain hexagrams special? Is there mathematical necessity beneath the mystical architecture?*
 
-Book 2 stands alone. It introduces the nuclear hierarchy, the Tetragrammaton, and related structures fresh—then proves their special status emerges from binary mathematics. Readers of Book 1 will recognise some concepts; readers who start here will find everything they need.
+This work stands alone. It introduces the nuclear hierarchy, the Tetragrammaton, and related structures fresh—then proves their special status emerges from binary mathematics. Readers of Position +1 will recognise some concepts; readers who start here will find everything they need.
 
 The core revelation: the I Ching's mystical structures (Pillars, standing waves, nuclear families) are not arbitrary traditions. They are mathematical necessities, discoverable through rigorous analysis of six-bit binary patterns.
 
@@ -18,15 +18,15 @@ The core revelation: the I Ching's mystical structures (Pillars, standing waves,
 
 ## Audience
 
-Book 2 is for readers who:
+This work is for readers who:
 
-- Have read Book 1 and want deeper understanding
+- Have read Position +1 (The Wave) and want deeper understanding
 - Ask "But how do you KNOW?" when presented with frameworks
 - Appreciate mathematical elegance without requiring formal training
 - Want to verify claims rather than accept them on authority
 - Are curious whether ancient wisdom encodes discoverable structure
 
-Book 2 is NOT required to use the framework from Book 1. It's the foundation beneath the floor—important for structural integrity, but most people walk on the floor without thinking about it.
+Position -1 is NOT required to use the framework from Position +1. It's the foundation beneath the floor—important for structural integrity, but most people walk on the floor without thinking about it.
 
 ---
 

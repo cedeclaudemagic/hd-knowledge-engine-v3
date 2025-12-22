@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 1, Chapter 6; COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
+**Source:** Position +1, Chapter 6; COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
 **Status:** MAPPED — strong structural correspondence
 
 ---
@@ -207,5 +207,5 @@ Any system encoding 3D spatial information needs exactly 6 fundamental direction
 
 ---
 
-*Extracted from: Book 1, Chapter 6; COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
+*Extracted from: Position +1, Chapter 6; COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
 *Framework location: docs/framework/lines-profiles/six-lines-octahedron.md*

@@ -8,26 +8,26 @@
 # THE SERIES ARCHITECTURE
 
 ```
-BOOK 1: THE WAVE
+POSITION +1 GATE-IN: THE WAVE
 "How to read the I Ching electromagnetically"
 → Accessible introduction, practical framework
 
-BOOK 2: THE PROOF  
+POSITION -1 GATE-OUT: THE PROOF
 "Why this structure exists — mathematical necessity"
 → Binary foundations, I Ching derivations
 
-BOOK 3: THE ARCHITECTURE
+POSITION +3 INDUCTANCE: THE ARCHITECTURE
 "What Human Design inherits — derivable structure"
 → Profile, Type, Authority, Centres — the operational HD
 
-BOOK 4: THE PRACTICE
-"Living the framework — worked examples and integration"
-→ Application, synthesis, the living system
+POSITION -4 SOURCE: THE GEOMETRY OF CONSCIOUSNESS
+"First principles — where it all begins"
+→ Complete geometric synthesis
 ```
 
 ---
 
-# BOOK 1: THE WAVE
+# POSITION +1: THE WAVE
 
 *Electromagnetic Foundations of the I Ching*
 
@@ -69,7 +69,7 @@ BOOK 4: THE PRACTICE
 
 ---
 
-# BOOK 2: THE PROOF
+# POSITION -1: THE PROOF
 
 *Mathematical Foundations of the Electromagnetic I Ching*
 
@@ -80,7 +80,7 @@ BOOK 4: THE PRACTICE
 ## Part I: Binary Foundations
 
 ### 1. Binary Periods — The Four Pillars derived
-### 2. The Palindrome Principle — Phase-shift invariance  
+### 2. The Palindrome Principle — Phase-shift invariance
 ### 3. The Wheel as Wave — Self-complementary architecture
 ### 4. The Tetragrammaton Derived — Four archetypes from necessity
 ### 5. Standing Waves as Anchors — Why eight hexagrams
@@ -100,7 +100,7 @@ BOOK 4: THE PRACTICE
 
 ---
 
-# BOOK 3: THE ARCHITECTURE
+# POSITION +3: THE ARCHITECTURE
 
 *Human Design Structures Derived from First Principles*
 
@@ -161,49 +161,33 @@ BOOK 4: THE PRACTICE
 
 ---
 
-# BOOK 4: THE PRACTICE
+# WHERE DERIVATIONS FIT
 
-*Living the Electromagnetic Framework*
-
-**Purpose:** Integration and application
-
-## Part I: Reading the System
-### 1-4. Reading Gates, Lines, Channels, Centres
-
-## Part II: Reading the Whole
-### 5-8. Reading Type, Authority, Profile, Complete Charts
-
-## Part III: Living the Framework
-### 9-12. Decision, Engagement, Becoming, The Living Framework
-
----
-
-# WHERE TODAY'S DERIVATIONS FIT
-
-| Derivation | Book | Chapter |
-|------------|------|---------|
-| **Profile = Octahedron × 2** | Book 3 | Ch. 1 |
-| **Type = 2² + 1** | Book 3 | Ch. 2 |
-| **Authority = Signal dependency** | Book 3 | Ch. 3 |
-| **Harmonic pairs** | Book 3 | Ch. 4 |
-| **Centre functions (78%)** | Book 3 | Ch. 5 |
-| **Motor = Standing wave** | Book 3 | Ch. 6 |
-| **Circuit patterns (70-80%)** | Book 3 | Ch. 7 |
-| **Awareness = Negative side** | Book 3 | Ch. 8 |
-| **Planetary (~40%)** | Book 3 | Ch. 9 |
-| **G Centre = Monopole** | Book 3 | Ch. 5-6 |
+| Derivation | Position | Chapter |
+|------------|----------|---------|
+| **Profile = Octahedron × 2** | Position +3 | Ch. 1 |
+| **Type = 2² + 1** | Position +3 | Ch. 2 |
+| **Authority = Signal dependency** | Position +3 | Ch. 3 |
+| **Harmonic pairs** | Position +3 | Ch. 4 |
+| **Centre functions (78%)** | Position +3 | Ch. 5 |
+| **Motor = Standing wave** | Position +3 | Ch. 6 |
+| **Circuit patterns (70-80%)** | Position +3 | Ch. 7 |
+| **Awareness = Negative side** | Position +3 | Ch. 8 |
+| **Planetary (~40%)** | Position +3 | Ch. 9 |
+| **G Centre = Monopole** | Position +3 | Ch. 5-6 |
 
 ---
 
 # THE NARRATIVE ARC
 
-**Book 1** invites you into the wave.
-**Book 2** shows you the wave is mathematically necessary.
-**Book 3** proves Human Design's operational structures follow from the wave.
-**Book 4** teaches you to live inside the geometry.
+**Position +1 (The Wave)** invites you into the wave.
+**Position -1 (The Proof)** shows you the wave is mathematically necessary.
+**Position +3 (The Architecture)** proves Human Design's operational structures follow from the wave.
+**Position -4 (The Geometry)** reveals the complete geometric foundation.
 
 The journey: **Encounter → Understand → Verify → Embody**
 
 ---
 
-*Last updated: 21 December 2025*
+*Last updated: 22 December 2025*
+*Updated to position-based naming system*

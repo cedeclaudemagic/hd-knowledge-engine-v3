@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Article 11; Book 0, Chapter 5; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md (Phase 3)
+**Source:** Position -1, Article 11; Position -2, Chapter 5; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md (Phase 3)
 **Status:** PROVEN — geometric analysis of offset paths
 
 ---
@@ -205,5 +205,5 @@ At these moments, both crystals are at peak positions but in different domains. 
 
 ---
 
-*Extracted from: Book 2, Article 11; Book 0, Chapter 5; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
+*Extracted from: Position -1, Article 11; Position -2, Chapter 5; GEOMETRIC-FOUNDATIONS-SYNTHESIS.md*
 *Framework location: docs/framework/topology/double-helix.md*

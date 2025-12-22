@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Article 4 — The Tetragrammaton Derived
+**Source:** Position -1, Article 4 — The Tetragrammaton Derived
 **Status:** PROVEN — unique solution to five constraints
 
 ---
@@ -171,5 +171,5 @@ The tetrahedron is **self-dual** — it maps to itself under duality. The four P
 
 ---
 
-*Extracted from: Book 2, Article 4 — The Tetragrammaton Derived*
+*Extracted from: Position -1, Article 4 — The Tetragrammaton Derived*
 *Framework location: docs/framework/foundation/five-constraints.md*

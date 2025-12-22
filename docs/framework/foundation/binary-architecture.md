@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Articles 1-2 — Binary Periods, The Palindrome Principle
+**Source:** Position -1, Articles 1-2 — Binary Periods, The Palindrome Principle
 **Status:** PROVEN — mathematical necessity
 
 ---
@@ -176,5 +176,5 @@ This wheel can be "phase-shifted" — grouped starting at different points:
 
 ---
 
-*Extracted from: Book 2, Articles 1-2*
+*Extracted from: Position -1, Articles 1-2*
 *Framework location: docs/framework/foundation/binary-architecture.md*

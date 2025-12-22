@@ -34,16 +34,21 @@ The research has proven that:
 │   ├── hd-mathematics/        # Position derivation ✓
 │   └── hd-electromagnetic-framework/  # EM framework ✓
 ├── docs/
-│   ├── articles/              # Published Substack articles
-│   │   ├── EM-Series-Book0/   # "The Shape of Change"
-│   │   ├── EM-Series-Book1/   # "The Wave" (14 chapters)
-│   │   └── EM-Series-Book2/   # "The Proof" (11 articles)
+│   ├── books/                 # Main content (position-based naming)
+│   │   ├── position-minus-4-geometry-of-consciousness/  # P-4: SOURCE
+│   │   ├── position-minus-3-the-depth/                  # P-3: CAPACITANCE
+│   │   ├── position-minus-2-shape-of-change/            # P-2: VOLTAGE
+│   │   ├── position-minus-1-the-proof/                  # P-1: GATE-OUT
+│   │   ├── position-plus-1-the-wave/                    # P+1: GATE-IN
+│   │   ├── position-plus-3-the-architecture/            # P+3: INDUCTANCE
+│   │   └── series/                                       # Article series
+│   ├── framework/             # Proven derivations (canonical)
+│   ├── electromagnetic-interpretations/  # P+2: CURRENT (64 gates)
 │   └── research/
 │       ├── geometric/         # Core derivation research
 │       │   ├── GEOMETRIC-FOUNDATIONS-SYNTHESIS.md      # Phase 1-5 complete
 │       │   ├── COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md   # CTB architecture
-│       │   ├── LOCK-KEY-SYNTHESIS.md                   # Global + Individual
-│       │   └── the-geometry-of-consciousness-book/     # Complete manuscript
+│       │   └── LOCK-KEY-SYNTHESIS.md                   # Global + Individual
 │       ├── AC-DC/
 │       │   └── EXTENDED-PHYSICAL-MODEL-WITH-SUBSTRUCTURE.md
 │       ├── planetary/         # Exaltation research (~40% derivable)
@@ -95,16 +100,26 @@ Building ring-by-ring skills architecture based on proven derivations. Need to:
 
 **Multi-Source Indicator:** [M] marks derivations appearing in 3+ independent sources (most robust).
 
+**Source Abbreviation Key (Position-Based):**
+- P-4 = Position -4: The Geometry of Consciousness (formerly "GB", "GEO")
+- P-3 = Position -3: The Depth
+- P-2 = Position -2: The Shape of Change (formerly "B0")
+- P-1 = Position -1: The Proof (formerly "B2")
+- P+1 = Position +1: The Wave (formerly "B1")
+- P+3 = Position +3: The Architecture (formerly "B3")
+- EMF = Electromagnetic Framework (skills)
+- CEN/AUT/TYP = Centre/Authority/Type derivation syntheses
+
 **Multi-Source Derivations (highest confidence):**
-- [M] Trigrams = Cube vertices (B0, B1, B2, GB, EMF, GEO)
-- [M] (2,1) Torus Knot (B0, B2, GB, GEO)
-- [M] 88° Double Helix (B0, B2, GB, GEO)
-- [M] Tetragrammaton (B2, GB, EM-Reflections)
-- [M] Nine Centre Functions (B1, EMF, CEN)
-- [M] Authority Hierarchy (B1, EMF, AUT)
-- [M] Type Architectures (B1, EMF, TYP)
-- [M] 69,120 Positions (B3, GB, GEO, AC-DC)
-- [M] Standing Waves = Sun/Earth (B2, PLN)
+- [M] Trigrams = Cube vertices (P-2, P+1, P-1, P-4, EMF)
+- [M] (2,1) Torus Knot (P-2, P-1, P-4)
+- [M] 88° Double Helix (P-2, P-1, P-4)
+- [M] Tetragrammaton (P-1, P-4, EM-Reflections)
+- [M] Nine Centre Functions (P+1, EMF, CEN)
+- [M] Authority Hierarchy (P+1, EMF, AUT)
+- [M] Type Architectures (P+1, EMF, TYP)
+- [M] 69,120 Positions (P-3, P-4, AC-DC)
+- [M] Standing Waves = Sun/Earth (P-1, PLN)
 
 ---
 

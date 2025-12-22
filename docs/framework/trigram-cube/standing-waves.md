@@ -2,7 +2,7 @@
 
 ## Geometric Derivation
 
-**Source:** Book 2, Article 5 — Standing Waves as Structural Anchors
+**Source:** Position -1, Article 5 — Standing Waves as Structural Anchors
 **Status:** PROVEN — mathematically derivable
 
 ---
@@ -227,5 +227,5 @@ Cross-zero and same-phase gates show movement FROM and TO trigram positions. Sta
 
 ---
 
-*Extracted from: Book 2, Article 5 — Standing Waves as Structural Anchors*
+*Extracted from: Position -1, Article 5 — Standing Waves as Structural Anchors*
 *Framework location: docs/framework/trigram-cube/standing-waves.md*
