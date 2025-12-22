@@ -1207,8 +1207,8 @@ It represents spatial/polar structure (6) plus reference frame (1).
 | -2 | The Shape of Change | `/docs/books/position-minus-2-shape-of-change/` | Complete |
 | -1 | The Proof | `/docs/books/position-minus-1-the-proof/` | Complete |
 | +1 | The Wave | `/docs/books/position-plus-1-the-wave/` | Complete (14 chapters) |
-| +2 | Interpretations + Series | `/docs/electromagnetic-interpretations/` + `/docs/books/series/` | Ongoing |
-| +3 | The Architecture | `/docs/books/position-plus-3-the-architecture/` | Outline |
+| +2 | Interpretations + Series | `/docs/electromagnetic-interpretations/` + `/docs/books/series/` | Complete |
+| +3 | The Architecture | `/docs/books/position-plus-3-the-architecture/` | Complete (12 chapters) |
 | +4 | The Living Oracle | `/docs/electromagnetic-iching/` | Framework |
 
 ## Validated Skills

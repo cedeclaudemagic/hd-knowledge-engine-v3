@@ -9,11 +9,11 @@ This directory contains the completed book manuscripts and article series, organ
 | Position | Name | Title | Content |
 |----------|------|-------|---------|
 | -4 | SOURCE | The Geometry of Consciousness | First principles, cube geometry, complete synthesis |
-| -3 | CAPACITANCE | The Depth | Lock-Key mechanism, Four Nodes, deep structure |
+| -3 | CAPACITANCE | The Depth | Lock-Key mechanism, Four Nodes, deep structure (outline) |
 | -2 | VOLTAGE | The Shape of Change | Foundational concepts: Monopole, Binary, Trigrams |
 | -1 | GATE-OUT | The Proof | Mathematical proofs: Tetragrammaton, Topology |
 | +1 | GATE-IN | The Wave | Eight Positions, Centres, Authority, Type |
-| +3 | INDUCTANCE | The Architecture | HD structures derived from geometry (outline) |
+| +3 | INDUCTANCE | The Architecture | HD structures derived from geometry (12 chapters) |
 
 ---
 

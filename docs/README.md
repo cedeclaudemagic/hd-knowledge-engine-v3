@@ -16,7 +16,7 @@ See [POSITION-REFERENCE-CARD.md](./POSITION-REFERENCE-CARD.md) for the complete 
 | -1 GATE-OUT | The Proof | [books/position-minus-1-the-proof/](./books/position-minus-1-the-proof/) |
 | +1 GATE-IN | The Wave | [books/position-plus-1-the-wave/](./books/position-plus-1-the-wave/) |
 | +2 CURRENT | Electromagnetic Interpretations | [electromagnetic-interpretations/](./electromagnetic-interpretations/) |
-| +3 INDUCTANCE | The Architecture | [books/position-plus-3-the-architecture/](./books/position-plus-3-the-architecture/) |
+| +3 INDUCTANCE | The Architecture ✅ | [books/position-plus-3-the-architecture/](./books/position-plus-3-the-architecture/) |
 | +4 SINK | The Living Oracle | [electromagnetic-iching/](./electromagnetic-iching/) |
 
 ### Article Series

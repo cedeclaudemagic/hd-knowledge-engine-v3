@@ -27,6 +27,8 @@ Go to `/investigations/boundaries/`. These are pressure points, not permanent li
 ### Reading the Books
 Go to `/books/`. Narrative explanations of proven structure.
 
+**Note:** Position +3 (The Architecture) completed 22 December 2025 — 12 chapters deriving HD structures from geometry.
+
 ---
 
 ## Directory Map

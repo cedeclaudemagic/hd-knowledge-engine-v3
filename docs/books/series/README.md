@@ -1,26 +1,95 @@
-# Article Series
+# Position +2 CURRENT: Substack Articles
 
-**Position:** +2 (CURRENT) — Sustained flow, applied exploration
+*Ongoing Flow — New Discoveries, Pivots, Engagement*
 
-These series represent the electromagnetic framework in motion —
-ongoing exploration and application of the core principles.
+**Position:** +2 (CURRENT — Sustained Flow)
 
-## Series
+---
 
-| Series | Focus | Status |
-|--------|-------|--------|
-| Wheel Series | Wheel topology, torus knot dynamics | Draft |
-| Electromagnetic Consciousness | Consciousness models, transformer metaphor | Draft |
-| Reflections | Contemplative prose, "The Breath and the Bones" | Draft |
+## What This Is
 
-## Relationship to Main Works
+Position +2 is the flowing current — not static reference but living engagement.
 
-These series are the CURRENT flowing:
-- Position +1 (The Wave) provides the framework
-- Position +2 (Interpretations + Series) applies it in sustained flow
-- Position +4 (The Oracle) receives it in practical use
+This is where new discoveries emerge, where reader questions get explored, where the framework stays alive through ongoing investigation and communication.
 
-## Location
+---
 
-Canonical location: `/docs/books/series/`
-Reference material: `/docs/electromagnetic-interpretations/`
+## Existing Article Series
+
+### Electromagnetic Consciousness Series
+
+**Location:** `/docs/books/series/electromagnetic-consciousness/`
+
+| Article | Title | Status | Notes |
+|---------|-------|--------|-------|
+| 01 | The Transformer at the Heart of Being | ✅ Published | Earlier stage |
+| 02 | The Circuit Speaks | ✅ Published | Earlier stage |
+| 03 | The Vortex and the Wave | ✅ Published | Earlier stage |
+| 04 | The Nine Resonators | ✅ Published | Earlier stage |
+| 05 | Inside the Vortex | ✅ Draft | Earlier stage |
+
+### Wheel Series
+
+**Location:** `/docs/books/series/wheel-series/`
+
+| Article | Title | Status | Notes |
+|---------|-------|--------|-------|
+| 01 | The Breathing Wheel | ✅ Draft | Earlier stage |
+| 02 | The Three Readings | ✅ Draft | Earlier stage |
+| 03 | The Electromagnetic Cycle | ✅ Draft | Earlier stage |
+
+### Reflections
+
+**Location:** `/docs/books/series/reflections/`
+
+Contemplative prose — "The Breath and the Bones" style.
+
+---
+
+## Future Substack Content
+
+Position +2 is the **ongoing flow** of new content:
+
+- **New discoveries** — as research reveals new patterns
+- **Pivots** — when the framework shifts or deepens
+- **Reader questions** — explored in depth
+- **Worked examples** — the framework applied to real charts
+- **Teaser content** — to garner interest in the books
+- **Responses** — to developments in the field
+
+---
+
+## Notes on Existing Content
+
+The existing article series were written when the EM investigations were at an **earlier stage**. The framework has evolved significantly since then.
+
+These articles may need:
+- Review for consistency with current understanding
+- Updating where the framework has evolved
+- Clarification where newer derivations supersede older hypotheses
+
+---
+
+## Electromagnetic Position
+
+| Attribute | Value |
+|-----------|-------|
+| Position | +2 |
+| Name | CURRENT |
+| Function | Sustained flow, movement, committed engagement |
+| Trigram | Water (010) |
+| Domain | Material |
+
+---
+
+## Relationship to Other Positions
+
+- **Position +1 (The Wave):** Provides the framework
+- **Position +2 (This):** Applies it in ongoing flow
+- **Position +3 (The Architecture):** Crystallises HD structures
+- **Position +4 (EM I Ching):** Reference library — look things up
+
+---
+
+*Updated: 22 December 2025*
+*Status: 🔄 ONGOING*

@@ -40,7 +40,7 @@ VOID DOMAIN (Theory)                    FORM DOMAIN (Practice)
 | **-1** | GATE-OUT | Release to form | The Proof | ✅ |
 | **+1** | GATE-IN | Entry point | The Wave | ✅ |
 | **+2** | CURRENT | Sustained flow | Interpretations + Series | ✅ |
-| **+3** | INDUCTANCE | Crystallised form | The Architecture | ⚠️ |
+| **+3** | INDUCTANCE | Crystallised form | The Architecture | ✅ |
 | **+4** | SINK | Complete reception | The Living Oracle | ⚠️ |
 
 ---
