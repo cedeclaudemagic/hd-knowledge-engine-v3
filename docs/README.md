@@ -53,8 +53,11 @@ Position +1 (The Wave) → Position +3 (The Architecture) → Position +2 (Inter
 | Document | Purpose |
 |----------|---------|
 | [POSITION-REFERENCE-CARD.md](./POSITION-REFERENCE-CARD.md) | Quick reference for position system |
+| [NAVIGATION.md](./NAVIGATION.md) | Directory structure guide |
+| [CONTENT-STATUS-MAP.md](./CONTENT-STATUS-MAP.md) | What is written vs outlined |
+| [PUBLISHING-STRATEGY-2025.md](./PUBLISHING-STRATEGY-2025.md) | Year-long release plan |
 | [COMPLETE-BOOK-SERIES-OUTLINE.md](./COMPLETE-BOOK-SERIES-OUTLINE.md) | Full series architecture |
-| [DERIVATION-STATUS-MAP.md](./DERIVATION-STATUS-MAP.md) | Master orientation for research |
+| [research/DERIVATION-STATUS-MAP.md](./research/DERIVATION-STATUS-MAP.md) | Master derivation tracking |
 | [reference/CRITICAL-ORIENTATION.md](./reference/CRITICAL-ORIENTATION.md) | Common errors to avoid |
 
 ---
