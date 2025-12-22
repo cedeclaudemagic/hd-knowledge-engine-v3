@@ -6,6 +6,18 @@ The pressure remains. These are not failures — they are open questions. The wo
 
 ---
 
+## Start Here
+
+| Document | Purpose |
+|----------|--------|
+| [CLAUDE-SESSION-ONBOARDING.md](./CLAUDE-SESSION-ONBOARDING.md) | Quick orientation for any Claude session |
+| [METHODOLOGY.md](./METHODOLOGY.md) | The first principles approach — how to derive |
+| [INVESTIGATION-BRIEF-TEMPLATE.md](./INVESTIGATION-BRIEF-TEMPLATE.md) | Template for new investigations |
+
+**New to this project?** Read the onboarding document first.
+
+---
+
 ## What "Outstanding" Means
 
 An investigation is OUTSTANDING when:
@@ -74,11 +86,25 @@ The `historical/` folder preserves previous investigation attempts. This is valu
 
 When starting a new investigation:
 
-1. Create a folder in `active/`
-2. Add an `INVESTIGATION-STATUS.md` using the template
-3. Begin documenting approaches and findings
-4. Move to `boundaries/` if a limit is confirmed
-5. Move to `historical/` when complete (success or proven impossible)
+1. **Read the methodology:** [METHODOLOGY.md](./METHODOLOGY.md)
+2. **Check existing work:** `/docs/DERIVATION-STATUS-MAP.md` and `/docs/framework/`
+3. **Copy the template:** [INVESTIGATION-BRIEF-TEMPLATE.md](./INVESTIGATION-BRIEF-TEMPLATE.md)
+4. **Create folder in `active/`** with `INVESTIGATION-STATUS.md`
+5. **Follow the inductive pattern** documented in the methodology
+6. **Classify results:** PROVEN → `/docs/framework/`, EMPIRICAL → `boundaries/`
+7. **Update status map:** `/docs/DERIVATION-STATUS-MAP.md`
+
+---
+
+## For Claude Code Sessions
+
+When briefing Claude Code for an investigation:
+
+1. Point to [CLAUDE-SESSION-ONBOARDING.md](./CLAUDE-SESSION-ONBOARDING.md)
+2. Provide the investigation brief (use the template)
+3. Specify source materials to consult
+4. Request outputs in standard format
+5. Review before any merge to main
 
 ---
 
