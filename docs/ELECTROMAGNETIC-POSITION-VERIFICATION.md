@@ -1,15 +1,15 @@
 # ELECTROMAGNETIC POSITION VERIFICATION
 
-## Are the Book-to-Position Mappings Accurate?
+## Are the Work-to-Position Mappings Accurate?
 
-**Date:** 22 December 2025  
-**Purpose:** Verify that each book genuinely reflects its assigned electromagnetic position before building the ordering system around them
+**Date:** 22 December 2025
+**Purpose:** Verify that each work genuinely reflects its assigned electromagnetic position before building the ordering system around them
 
 ---
 
 ## THE EIGHT POSITIONS
 
-From Book 1 and Book 2, the positions are defined as:
+From Position +1 (The Wave) and Position -1 (The Proof), the positions are defined as:
 
 | Position | Trigram | Binary | Function | Character |
 |----------|---------|--------|----------|-----------|
@@ -69,7 +69,7 @@ The Depth reveals what's STORED beneath the visible surface. Capacitance stores 
 
 ---
 
-### Position -2: VOLTAGE → The Shape of Change (Book 0)
+### Position -2: VOLTAGE → The Shape of Change (Position -2)
 
 **What VOLTAGE means:**
 - Pressure differential
@@ -85,11 +85,11 @@ The Depth reveals what's STORED beneath the visible surface. Capacitance stores 
 
 **Verdict: ✅ ACCURATE**
 
-Voltage creates the pressure differential that drives current. Book 0 creates the philosophical pressure — the "why should I care?" — that drives the reader into the framework. It's the potential difference that makes engagement flow.
+Voltage creates the pressure differential that drives current. Position -2 creates the philosophical pressure — the "why should I care?" — that drives the reader into the framework. It's the potential difference that makes engagement flow.
 
 ---
 
-### Position -1: GATE-OUT → The Proof (Book 2)
+### Position -1: GATE-OUT → The Proof (Position -1)
 
 **What GATE-OUT means:**
 - Threshold crossing from void to form
@@ -109,7 +109,7 @@ Gate-out is where potential crosses into form. The Proof releases mathematical d
 
 ---
 
-### Position +1: GATE-IN → The Wave (Book 1)
+### Position +1: GATE-IN → The Wave (Position +1)
 
 **What GATE-IN means:**
 - Threshold crossing from form to engagement
@@ -125,7 +125,7 @@ Gate-out is where potential crosses into form. The Proof releases mathematical d
 
 **Verdict: ✅ ACCURATE**
 
-Gate-in is literally the entry point. Book 1 is where readers enter the framework. It's titled "Before We Begin" — the threshold crossing inward. Perfect match.
+Gate-in is literally the entry point. Position +1 is where readers enter the framework. It's titled "Before We Begin" — the threshold crossing inward. Perfect match.
 
 ---
 
@@ -149,7 +149,7 @@ Current is sustained flow. The Interpretations are the framework flowing through
 
 ---
 
-### Position +3: INDUCTANCE → The Architecture (Book 4)
+### Position +3: INDUCTANCE → The Architecture
 
 **What INDUCTANCE means:**
 - Stored form (magnetic field created by current)
@@ -212,7 +212,7 @@ If the electromagnetic positions truly reflect the books' functions (which they 
 
 ### Option A: Use Position Numbers as Identifiers
 
-Drop "Book 0, 1, 2, 3, 4" entirely. Use:
+Drop "Position -2, 1, 2, 3, 4" entirely. Use:
 
 | Position | Title |
 |----------|-------|

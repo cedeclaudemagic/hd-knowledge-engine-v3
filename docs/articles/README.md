@@ -1,39 +1,24 @@
 # Articles Directory
 
-**Updated:** 22 December 2025
+**Note:** This directory is deprecated for book/series content.
 
-This directory contains standalone articles that aren't part of the main book series.
+## Canonical Locations
 
-## Contents
+| Content Type | Location |
+|--------------|----------|
+| Book manuscripts | /docs/books/position-*/ |
+| Article series | /docs/books/series/ |
+| Gate interpretations | /docs/electromagnetic-interpretations/ |
 
-| File | Description |
-|------|-------------|
-| article-01-breathing-wheel.md | The Breathing Wheel concept |
-| article-02-three-readings.md | Three readings approach |
-| article-03-electromagnetic-cycle.md | Electromagnetic cycle overview |
+## Position +2: CURRENT
 
-## Canonical Content Locations
+All applied/exploratory content is part of Position +2:
+- Electromagnetic Interpretations (64 gates)
+- Wheel Series
+- Electromagnetic Consciousness Series
+- Reflections
 
-As of December 2025, book and series content has been consolidated in `/docs/books/`:
-
-| Position | Work | Location |
-|----------|------|----------|
-| -4 | The Geometry of Consciousness | /docs/books/position-minus-4-geometry-of-consciousness/ |
-| -3 | The Depth | /docs/books/position-minus-3-the-depth/ |
-| -2 | The Shape of Change | /docs/books/position-minus-2-shape-of-change/ |
-| -1 | The Proof | /docs/books/position-minus-1-the-proof/ |
-| +1 | The Wave | /docs/books/position-plus-1-the-wave/ |
-| +2 | Electromagnetic Interpretations | /docs/electromagnetic-interpretations/ |
-| +3 | The Architecture | /docs/books/position-plus-3-the-architecture/ |
-| +4 | The Living Oracle | /docs/electromagnetic-iching/ |
-
-## Series Content
-
-| Series | Location |
-|--------|----------|
-| Electromagnetic Consciousness | /docs/books/series/electromagnetic-consciousness/ |
-| Reflections (The Breath and the Bones) | /docs/books/series/reflections/ |
-| Wheel Series | /docs/books/series/wheel-series/ |
+See /docs/POSITION-REFERENCE-CARD.md for the complete position system.
 
 ## Archived Content
 

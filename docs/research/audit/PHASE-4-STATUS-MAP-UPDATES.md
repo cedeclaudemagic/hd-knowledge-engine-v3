@@ -48,61 +48,61 @@ These are the most robust derivations (appear in 3+ independent sources):
 ## Detailed Source References by Section
 
 ### Ring 0: Monopole
-**Sources:** Book 0 Ch.4, Book 3 Lock-Key, Geometry Book Ring 0, geometric/LOCK-KEY-SYNTHESIS.md, centre/CENTRE-DERIVATION-SYNTHESIS.md
+**Sources:** Position -2 Ch.4, Position -3/+3 Lock-Key, Geometry Book Ring 0, geometric/LOCK-KEY-SYNTHESIS.md, centre/CENTRE-DERIVATION-SYNTHESIS.md
 
 ### Ring 1-2: Binary/Quarters
-**Sources:** Book 0 Ch.1-2, Geometry Book Ring 1-2, geometric/QUARTER-BIGRAM-DERIVATION.md
+**Sources:** Position -2 Ch.1-2, Geometry Book Ring 1-2, geometric/QUARTER-BIGRAM-DERIVATION.md
 
 ### Ring 3: Trigrams
-**Sources:** [M] Book 0 Ch.1-2, Book 1 Ch.2, Book 2 Art.7, Geometry Book Ring 3, EMF/synthesis, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
+**Sources:** [M] Position -2 Ch.1-2, Position +1 Ch.2, Position -1 Art.7, Geometry Book Ring 3, EMF/synthesis, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
 
 ### Ring 4: Tetragrammaton
-**Sources:** [M] Book 2 Art.4, Geometry Book Ring 4, EM-Series-Reflections/00-the-breath-and-the-bones.md
+**Sources:** [M] Position -1 Art.4, Geometry Book Ring 4, EM-Series-Reflections/00-the-breath-and-the-bones.md
 
 ### Ring 5: Bases
-**Sources:** Book 0 Ch.8, Geometry Book Ring 5, geometric/BASE-PLATONIC-DERIVATION.md, AC-DC/EXTENDED-PHYSICAL-MODEL.md
+**Sources:** Position -2 Ch.8, Geometry Book Ring 5, geometric/BASE-PLATONIC-DERIVATION.md, AC-DC/EXTENDED-PHYSICAL-MODEL.md
 
 ### Ring 6: Lines
-**Sources:** Book 1 Ch.6, Geometry Book Ring 6, geometric/CTB-COMPLETE-SYNTHESIS.md, profile/PROFILE-DERIVATION-SYNTHESIS.md
+**Sources:** Position +1 Ch.6, Geometry Book Ring 6, geometric/CTB-COMPLETE-SYNTHESIS.md, profile/PROFILE-DERIVATION-SYNTHESIS.md
 
 ### Ring 6b: Profiles
 **Sources:** profile/PROFILE-DERIVATION-SYNTHESIS.md
 
 ### Ring 7: Wheel
-**Sources:** [M] Book 0 Ch.3, Book 2 Art.11, Geometry Book Ring 7, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
+**Sources:** [M] Position -2 Ch.3, Position -1 Art.11, Geometry Book Ring 7, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
 
 ### Ring 8: Complete Address
-**Sources:** [M] Book 3 Lock-Key, Geometry Book Ring 8, geometric/CTB-COMPLETE-SYNTHESIS.md, AC-DC/EXTENDED-PHYSICAL-MODEL.md
+**Sources:** [M] Position -3/+3 Lock-Key, Geometry Book Ring 8, geometric/CTB-COMPLETE-SYNTHESIS.md, AC-DC/EXTENDED-PHYSICAL-MODEL.md
 
 ### 88° Double Helix
-**Sources:** [M] Book 0 Ch.5-6, Book 2 Art.11, Geometry Book Ring 7, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
+**Sources:** [M] Position -2 Ch.5-6, Position -1 Art.11, Geometry Book Ring 7, geometric/GEOMETRIC-FOUNDATIONS-SYNTHESIS.md
 
 ### Four Nodes Disphenoid
-**Sources:** Book 3/FOUR-NODES-TETRAHEDRON-RESEARCH.md
+**Sources:** Position -3/+3/FOUR-NODES-TETRAHEDRON-RESEARCH.md
 
 ### Centres
-**Sources:** [M] Book 1 Ch.9, EMF/centre-electromagnetic-profiles.md, centre/CENTRE-DERIVATION-SYNTHESIS.md
+**Sources:** [M] Position +1 Ch.9, EMF/centre-electromagnetic-profiles.md, centre/CENTRE-DERIVATION-SYNTHESIS.md
 
 **Critical Note:** Centre Functions are **100% derivable** when Pressure = Storage (±3). Previous 78% figure was based on incorrect assumption that Pressure = Poles (±4).
 
 ### Authority
-**Sources:** [M] Book 1 Ch.11, EMF/authority-electromagnetic-analysis.md, authority/AUTHORITY-DERIVATION-SYNTHESIS.md
+**Sources:** [M] Position +1 Ch.11, EMF/authority-electromagnetic-analysis.md, authority/AUTHORITY-DERIVATION-SYNTHESIS.md
 
 **Key Insight:** "Voltage (-2) fluctuates and modulates ALL other signals"
 
 ### Type
-**Sources:** [M] Book 1 Ch.12, EMF/type-determination-analysis.md, type/TYPE-DERIVATION-SYNTHESIS.md
+**Sources:** [M] Position +1 Ch.12, EMF/type-determination-analysis.md, type/TYPE-DERIVATION-SYNTHESIS.md
 
 **Key Insight:** "Strategy is about circuit completion"
 
 ### Circuits
-**Sources:** [M] Book 1 Ch.8, EMF/electromagnetic-framework-synthesis.md, circuit/CIRCUIT-DERIVATION-SYNTHESIS.md, circuits/circuit-architecture-comparison.md
+**Sources:** [M] Position +1 Ch.8, EMF/electromagnetic-framework-synthesis.md, circuit/CIRCUIT-DERIVATION-SYNTHESIS.md, circuits/circuit-architecture-comparison.md
 
 ### Channels
-**Sources:** Book 1 Ch.7, EMF/synthesis, geometric/CHANNEL-EM-COMPLETE-ANALYSIS.md
+**Sources:** Position +1 Ch.7, EMF/synthesis, geometric/CHANNEL-EM-COMPLETE-ANALYSIS.md
 
 ### Planetary Layer
-**Sources:** Book 2 Art.8, planetary/PLANETARY-DERIVATION-COMPLETE-SYNTHESIS.md, planetary/magic-square-complete/COMPLETE-SYNTHESIS.md
+**Sources:** Position -1 Art.8, planetary/PLANETARY-DERIVATION-COMPLETE-SYNTHESIS.md, planetary/magic-square-complete/COMPLETE-SYNTHESIS.md
 
 **Key Finding:** ~40% derivation boundary confirmed
 
@@ -146,8 +146,8 @@ These derivations appear in only one source but are mathematically proven:
 | Derivation | Single Source | Status | Notes |
 |------------|---------------|--------|-------|
 | Profile = Octahedron × 2 | profile/PROFILE-SYNTH | ✓✓ PROVEN | Mathematically necessary |
-| Four Nodes Disphenoid | Book 3 | ✓✓ PROVEN | Geometric calculation |
-| 2.35% Asymmetry | Book 3 | ✓✓ PROVEN | Edge ratio calculation |
+| Four Nodes Disphenoid | Position -3/+3 | ✓✓ PROVEN | Geometric calculation |
+| 2.35% Asymmetry | Position -3/+3 | ✓✓ PROVEN | Edge ratio calculation |
 
 These are hypothesised and need more validation:
 

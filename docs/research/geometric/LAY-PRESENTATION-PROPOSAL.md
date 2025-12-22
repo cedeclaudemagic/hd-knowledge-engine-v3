@@ -13,17 +13,17 @@ The challenge: presenting this so that someone with no background in I Ching, Hu
 
 ---
 
-## Current Book Structure
+## Position Structure
 
-**Book 1 (The Wave):** Practical oracle — how to read the system
+**Position +1 (The Wave):** Practical oracle — how to read the system
 - Starts with wave positions, builds to reading any line
 - Assumes interest in Human Design / I Ching
 
-**Book 2 (The Proof):** Mathematical foundations
+**Position -1 (The Proof):** Mathematical foundations
 - Proves the binary necessity of special structures
 - Requires comfort with mathematical reasoning
 
-**Book 3 (Experiential):** Poetic/meditative approach
+**Position +2 (Reflections/Series):** Experiential approach
 - Enters through embodied experience
 - Requires openness to contemplative framing
 
@@ -31,7 +31,7 @@ The challenge: presenting this so that someone with no background in I Ching, Hu
 
 ---
 
-## Proposal: Book 0 — "The Shape of Change"
+## Position -2 — "The Shape of Change"
 
 A new entry point that precedes everything. Visual. Discovery-based. No prerequisites.
 
@@ -117,19 +117,19 @@ The tone is wonder, not authority. "Look at what we found" not "This is what it 
 
 ## Connection to Existing Books
 
-**Book 0** ends with invitations:
+**Position -2** ends with invitations:
 
-→ *Want to use this as an oracle?* See Book 1.
-→ *Want to understand the mathematical proof?* See Book 2.
-→ *Want to feel this in your body?* See Book 3.
+→ *Want to use this as an oracle?* See Position +1.
+→ *Want to understand the mathematical proof?* See Position -1.
+→ *Want to feel this in your body?* See Position +2.
 
-Book 0 becomes the gateway. It shows *what* the structure is. The other books explore *how* to work with it.
+Position -2 becomes the gateway. It shows *what* the structure is. The other books explore *how* to work with it.
 
 ---
 
 ## The Remaining Mysteries
 
-Book 0 should acknowledge what remains unknown:
+Position -2 should acknowledge what remains unknown:
 
 ### Locks and Keys
 The geometric model suggests:
@@ -151,7 +151,7 @@ These mysteries should be named, honoured, and left open. They're invitations to
 
 ## Visualisation Requirements
 
-Book 0 needs:
+Position -2 needs:
 
 1. **Static Diagrams**
    - Cube with trigram labels
@@ -244,9 +244,9 @@ If true, profiles aren't just personality types — they're the twelve ways that
 
 The existing books are excellent. They don't need replacing.
 
-What's needed is a *door*. A way in for people who think visually, who want to see before they believe, who are put off by either mystical language (Book 3) or mathematical rigour (Book 2).
+What's needed is a *door*. A way in for people who think visually, who want to see before they believe, who are put off by either mystical language (Position +2) or mathematical rigour (Position -1).
 
-Book 0 is that door. It says: "Look. Here's a cube. Here's what happens when you map ancient symbols onto it. Here's what emerges."
+Position -2 is that door. It says: "Look. Here's a cube. Here's what happens when you map ancient symbols onto it. Here's what emerges."
 
 The wonder does the work. The structure speaks for itself.
 

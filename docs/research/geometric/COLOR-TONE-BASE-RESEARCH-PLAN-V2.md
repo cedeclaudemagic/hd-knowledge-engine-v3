@@ -18,7 +18,7 @@ We begin with **only** what we can verify mathematically or have confirmed from 
 7. **Personality Base is invariant** across incarnations (source-confirmed)
 8. **Design Base varies** with each incarnation
 
-### Verified Geometric Facts (from Book 1 & 2):
+### Verified Geometric Facts (from Position +1 & -1):
 1. **8 trigrams** map to cube vertices
 2. **6 lines** correspond to octahedron vertices (cube dual)
 3. The wheel forms a **(2,1) torus knot** topology

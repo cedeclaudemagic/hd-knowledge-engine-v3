@@ -1,7 +1,11 @@
-# PHASE 1A AUDIT: Book 0 - "The Shape of Change"
+# PHASE 1A AUDIT: Position -2 - "The Shape of Change"
+
+> **Note:** This audit was conducted when the work was named "Position -2".
+> This work is now **Position -2: The Shape of Change**.
+> Current location: `/docs/books/position-minus-2-shape-of-change/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book0/` (10 chapters)
+**Source:** `/docs/articles/EM-Series-Book0/` (10 chapters) — *now archived*
 
 ---
 
@@ -177,7 +181,7 @@
 
 ---
 
-## Key Proofs Established in Book 0
+## Key Proofs Established in Position -2
 
 1. **Binary Trigram Mapping:** 8 trigrams = 2^3 = all cube coordinates
 2. **Hexagram Movement:** 64 = 8^2 = all cube corner pairs

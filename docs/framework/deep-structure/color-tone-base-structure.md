@@ -401,11 +401,11 @@ This distinction is crucial. We can derive that there must be 6 Colors in a 3×2
 
 ## Part VII: Integration with Previous Research
 
-### 7.1 Connection to Geometric Foundations (Book 2)
+### 7.1 Connection to Geometric Foundations (Position -1)
 
 The Color-Tone-Base investigation extends the findings from the original Geometric Foundations research:
 
-| Book 2 Finding | CTB Extension |
+| Position -1 Finding | CTB Extension |
 |----------------|---------------|
 | 8 trigrams = 8 cube vertices | Colors map to 2 tetrahedra within the cube |
 | 6 lines = 6 octahedron vertices | Lines confirmed as primary 6-fold structure |
@@ -835,5 +835,5 @@ Platonic Vertices:
 ---
 
 *Synthesis completed: December 2024*
-*Building on: Geometric Foundations Phases 1-5 (Book 2)*
+*Building on: Geometric Foundations Phases 1-5 (Position -1)*
 *Research conducted with: Claude Code*

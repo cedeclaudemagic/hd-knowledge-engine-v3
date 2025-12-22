@@ -12,13 +12,13 @@
 
 These reflections emerged unbidden.
 
-While writing the technical proofs of Book 2—mapping binary periods, testing phase shifts, calculating Z-scores—something else kept wanting to be said. At the end of each article, after the mathematics had done its work, a different voice would speak. Quieter. More wondering. Less certain of what it knew.
+While writing the technical proofs of Position -1 (The Proof)—mapping binary periods, testing phase shifts, calculating Z-scores—something else kept wanting to be said. At the end of each article, after the mathematics had done its work, a different voice would speak. Quieter. More wondering. Less certain of what it knew.
 
 Those closing reflections were my favourite parts to write. Not because they were easier—they were harder, in their way—but because they touched something the proofs could not reach. The proofs established that certain structures exist. The reflections asked what it means that they exist. The proofs mapped the bones. The reflections tried to feel for the breath.
 
 This book gathers those wonderings and follows where they lead. It is not a technical work. It does not prove anything. It sits with questions rather than resolving them.
 
-If Book 1 was an invitation to swim in the wave, and Book 2 was a deep dive to see what holds everything up, this book is what happens when you surface again and float on your back, looking up at the sky, wondering what it all means.
+If Position +1 (The Wave) was an invitation to swim in the wave, and Position -1 (The Proof) was a deep dive to see what holds everything up, this book is what happens when you surface again and float on your back, looking up at the sky, wondering what it all means.
 
 Read it slowly. There's no hurry here.
 
@@ -152,7 +152,7 @@ The two ways need each other. Analysis grounds contemplation—it provides struc
 
 *What we attempted in these books.*
 
-Book 2 was mostly analysis. We proved structures, tested hypotheses, calculated statistics. But the reflections at the end of each article were gestures toward contemplation—moments of stepping back from the proofs to wonder at what they revealed.
+Position -1 (The Proof) was mostly analysis. We proved structures, tested hypotheses, calculated statistics. But the reflections at the end of each article were gestures toward contemplation—moments of stepping back from the proofs to wonder at what they revealed.
 
 This book is the contemplation that wanted to continue after the analysis was done. It doesn't prove anything. It sits with what was proven and asks what it means.
 
@@ -587,7 +587,7 @@ This book has been a pause in the journey. A time to reflect on what we found in
 
 Now the journey continues. For you, the reader, that might mean:
 
-- Returning to Book 1 and working with the electromagnetic framework
+- Returning to Position +1 (The Wave) and working with the electromagnetic framework
 - Consulting the I Ching and seeing what it has to say to your life
 - Studying other traditions with the same questions: What's the structure? What's the meaning?
 - Contributing your own discoveries to the ongoing conversation

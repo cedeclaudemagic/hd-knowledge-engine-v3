@@ -2,7 +2,7 @@
 
 ## Quick Reference for the Position-Based Naming System
 
-**Version:** 1.0  
+**Version:** 2.0  
 **Date:** 22 December 2025
 
 ---
@@ -20,7 +20,7 @@ VOID DOMAIN (Theory)                    FORM DOMAIN (Practice)
    The Depth                               The Architecture
 
 -2 VOLTAGE                              +2 CURRENT
-   The Shape of Change                     Electromagnetic Interpretations
+   The Shape of Change                     Interpretations + Series
 
 -1 GATE-OUT                             +1 GATE-IN
    The Proof                               The Wave
@@ -32,14 +32,14 @@ VOID DOMAIN (Theory)                    FORM DOMAIN (Practice)
 
 ## THE EIGHT POSITIONS
 
-| Position | Name | Function | Work | Status |
-|----------|------|----------|------|--------|
+| Position | Name | Function | Assigned Works | Status |
+|----------|------|----------|----------------|--------|
 | **-4** | SOURCE | Origin, first principles | The Geometry of Consciousness | ✅ |
 | **-3** | CAPACITANCE | Stored potential | The Depth | ⚠️ |
 | **-2** | VOLTAGE | Driving pressure | The Shape of Change | ✅ |
 | **-1** | GATE-OUT | Release to form | The Proof | ✅ |
 | **+1** | GATE-IN | Entry point | The Wave | ✅ |
-| **+2** | CURRENT | Sustained flow | Electromagnetic Interpretations | ✅ |
+| **+2** | CURRENT | Sustained flow | Interpretations + Series | ✅ |
 | **+3** | INDUCTANCE | Crystallised form | The Architecture | ⚠️ |
 | **+4** | SINK | Complete reception | The Living Oracle | ⚠️ |
 
@@ -57,11 +57,32 @@ VOID DOMAIN (Theory)                    FORM DOMAIN (Practice)
 
 **+1 GATE-IN:** The entry threshold. Where readers cross into the system. "This series makes no assumptions."
 
-**+2 CURRENT:** Sustained flow of application. The framework in motion across all 64 gates. Reference and practice.
+**+2 CURRENT:** Sustained flow of application. The framework in motion. Includes:
+- Electromagnetic Interpretations (64 gates — reference material)
+- Wheel Series (topology exploration)
+- Electromagnetic Consciousness Series (consciousness models)
+- Reflections ("The Breath and the Bones" — contemplative prose)
 
 **+3 INDUCTANCE:** Stored form in the material domain. HD structures crystallised from geometric necessity. Profile, Type, Authority derived.
 
-**+4 SINK:** Where the wave terminates. Complete reception into practical embodiment. The oracle in use.
+**+4 SINK:** Where the wave terminates. Complete reception into practical embodiment. The 384-line oracle in use.
+
+---
+
+## POSITION +2: THE CURRENT IN DETAIL
+
+Position +2 encompasses all **sustained applied output**:
+
+| Component | Content | Words |
+|-----------|---------|-------|
+| **Electromagnetic Interpretations** | 64 gates, line-by-line | ~200,000 |
+| **Wheel Series** | 3 articles on topology | ~8,000 |
+| **EM Consciousness Series** | 5 articles on consciousness | ~15,000 |
+| **Reflections** | Contemplative prose | ~5,000 |
+
+**Location:** 
+- `/docs/electromagnetic-interpretations/` (gate reference)
+- `/docs/books/series/` (article series)
 
 ---
 
@@ -69,8 +90,8 @@ VOID DOMAIN (Theory)                    FORM DOMAIN (Practice)
 
 ### General Reader
 ```
-+1 (Wave) → -2 (Shape) → +3 (Architecture) → +2 (Interpretations)
-Entry → Why it matters → HD explained → Look up any gate
++1 (Wave) → -2 (Shape) → +2 (Interpretations) → +3 (Architecture)
+Entry → Why it matters → Look up gates → HD explained
 ```
 
 ### Mathematician
@@ -108,20 +129,41 @@ Source to Sink, void to form, theory to practice
 
 ---
 
+## DIRECTORY STRUCTURE
+
+```
+/docs/books/
+├── position-minus-4-geometry-of-consciousness/   # -4 SOURCE
+├── position-minus-3-the-depth/                   # -3 CAPACITANCE
+├── position-minus-2-shape-of-change/             # -2 VOLTAGE
+├── position-minus-1-the-proof/                   # -1 GATE-OUT
+├── position-plus-1-the-wave/                     # +1 GATE-IN
+├── position-plus-3-the-architecture/             # +3 INDUCTANCE
+└── series/                                       # Part of +2 CURRENT
+    ├── electromagnetic-consciousness/
+    ├── reflections/
+    └── wheel-series/
+
+/docs/electromagnetic-interpretations/            # +2 CURRENT (reference)
+/docs/electromagnetic-iching/                     # +4 SINK
+```
+
+---
+
 ## LEGACY NAMING
 
-For reference, the old book numbers mapped as follows:
+For reference, the old book numbers mapped as:
 
-| Old | New |
-|-----|-----|
-| Book 0 | Position -2 |
-| Book 1 | Position +1 |
-| Book 2 | Position -1 |
-| Book 3 | Position -3 |
-| Book 4 | Position +3 |
-| (none) | Position -4 |
-| (none) | Position +2 |
-| (none) | Position +4 |
+| Old | New | Work |
+|-----|-----|------|
+| Book 0 | Position -2 | The Shape of Change |
+| Book 1 | Position +1 | The Wave |
+| Book 2 | Position -1 | The Proof |
+| Book 3 | Position -3 | The Depth |
+| Book 4 | Position +3 | The Architecture |
+| (none) | Position -4 | The Geometry of Consciousness |
+| (none) | Position +2 | Interpretations + Series |
+| (none) | Position +4 | The Living Oracle |
 
 ---
 
@@ -139,9 +181,13 @@ For reference, the old book numbers mapped as follows:
 
 **"Look up a specific gate"** → Position +2 (Electromagnetic Interpretations)
 
+**"Ongoing exploration"** → Position +2 (Series content)
+
 **"Use it for divination"** → Position +4 (The Living Oracle)
 
 ---
 
 *The positions are the architecture. Each work is a standing wave holding its function.*
+
+*Version 2.0 — Updated to clarify Position +2 encompasses all sustained applied output*
 

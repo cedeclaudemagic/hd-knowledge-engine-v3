@@ -7,13 +7,13 @@
 
 ## Source Key
 
-| Code | Source | Files |
-|------|--------|-------|
-| **B0** | Book 0 "The Shape of Change" | 10 chapters |
-| **B1** | Book 1 "The Wave" | 14 chapters |
-| **B2** | Book 2 "The Proof" | 11 articles |
-| **B3** | Book 3 (in progress) | 3 files |
-| **GB** | Geometry of Consciousness Book | 5 files |
+| Code | Source | Position | Files |
+|------|--------|----------|-------|
+| **B0** | "The Shape of Change" | Position -2 | 10 chapters |
+| **B1** | "The Wave" | Position +1 | 14 chapters |
+| **B2** | "The Proof" | Position -1 | 11 articles |
+| **B3** | "The Depth/Architecture" (in progress) | Position -3/+3 | 3 files |
+| **GB** | Geometry of Consciousness | Position -4 | 5 files |
 | **ECS** | EM Consciousness Series | 5 articles |
 | **WS** | Wheel Series | 3 articles |
 | **RF** | Reflections | 1 file |
@@ -318,15 +318,15 @@
 |---------------------|---------|------------------|--------|
 | Monopole | B0, B3, GB, GEO, CEN | centre/CENTRE-SYNTH | PROVEN |
 | Trigrams = Cube | B0, B1, B2, GB, EMF, GEO | Multiple | PROVEN |
-| Tetragrammaton | B2, GB, RF | Book 2 Art.4 | PROVEN |
+| Tetragrammaton | B2, GB, RF | Position -1 Art.4 | PROVEN |
 | Platonic Solids | B0, GB, GEO, ACD | geometric/BASE-PLAT | MAPPED |
 | Lines = Octahedron | B1, GB, GEO, PRO | profile/PROFILE-SYNTH | PROVEN |
 | Profiles = Octahedron×2 | PRO | profile/PROFILE-SYNTH | PROVEN |
-| Wheel = Torus Knot | B0, B2, GB, GEO | Book 2 Art.11 | PROVEN |
-| Four Nodes Disphenoid | B3 | Book 3 FOUR-NODES | PROVEN |
+| Wheel = Torus Knot | B0, B2, GB, GEO | Position -1 Art.11 | PROVEN |
+| Four Nodes Disphenoid | B3 | Position -3/+3 FOUR-NODES | PROVEN |
 | 69,120 Positions | B3, GB, GEO, ACD | geometric/CTB-COMPLETE | PROVEN |
 | Four Axes | B1, EMF | EMF/synthesis | PROVEN |
-| EM Positions | B1, B2, EMF | Book 2 Art.7 | PROVEN |
+| EM Positions | B1, B2, EMF | Position -1 Art.7 | PROVEN |
 | Gate Types (8/32/24) | B1, B2, EMF, CIR | Multiple | PROVEN |
 | Nine Centres | B1, EMF, CEN | centre/CENTRE-SYNTH | PROVEN |
 | Seven Circuits | B1, EMF, CIR | circuits/architecture | PROVEN |
@@ -335,7 +335,7 @@
 | Type Architectures | B1, EMF, TYP | type/TYPE-SYNTH | PROVEN |
 | Channel Pairings | B1, EMF, CIR | EMF/synthesis | PROVEN |
 | Planetary (~40%) | B2, PLN | planetary/COMPLETE-SYNTH | PARTIAL |
-| Phi Relationships | B0, GB, GEO | Book 0 Ch.7 | PROVEN |
+| Phi Relationships | B0, GB, GEO | Position -2 Ch.7 | PROVEN |
 | Transpersonal | ECS | EM Consciousness Series | HYPOTHESISED |
 
 ---
@@ -344,11 +344,11 @@
 
 | Category | Appears In | Primary Source |
 |----------|------------|----------------|
-| Core Binary Structure | 6+ sources | Book 0, Geometry Book |
-| EM Framework | 4+ sources | Book 1, EMF folder |
-| Geometric Proofs | 4+ sources | Book 2, GEO folder |
-| Centre/Authority/Type | 3+ sources | Book 1, EMF, Synthesis folders |
-| Planetary | 2 sources | Book 2, PLN folder |
+| Core Binary Structure | 6+ sources | Position -2, Geometry Book |
+| EM Framework | 4+ sources | Position +1, EMF folder |
+| Geometric Proofs | 4+ sources | Position -1, GEO folder |
+| Centre/Authority/Type | 3+ sources | Position +1, EMF, Synthesis folders |
+| Planetary | 2 sources | Position -1, PLN folder |
 | Transpersonal | 1 source | EM Consciousness Series |
 
 ---
@@ -359,7 +359,7 @@
 
 **The only derivations appearing in single sources** are:
 - Profile = Octahedron × 2 (profile/ folder only, but fully proven)
-- Four Nodes Disphenoid (Book 3 only, but mathematically proven)
+- Four Nodes Disphenoid (Position -3/+3 only, but mathematically proven)
 - Transpersonal/Penta mappings (ECS only, still hypothesised)
 
 ---

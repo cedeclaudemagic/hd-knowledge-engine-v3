@@ -32,12 +32,12 @@ A comprehensive audit of the HD Knowledge Engine V3 project was conducted across
 
 ### Phase 1: Book Audits ✓
 
-| Book | Files | Key Derivations |
-|------|-------|-----------------|
-| Book 0 | 10 chapters | Monopole, Binary, Trigrams, Cube geometry |
-| Book 1 | 14 chapters | Eight Positions, Centres, Authority, Type |
-| Book 2 | 11 articles | Tetragrammaton, Topology, Binary Periods |
-| Book 3 | 2 files | Lock-Key, Four Nodes disphenoid |
+| Position | Files | Key Derivations |
+|----------|-------|-----------------|
+| Position -2 (Shape of Change) | 10 chapters | Monopole, Binary, Trigrams, Cube geometry |
+| Position +1 (The Wave) | 14 chapters | Eight Positions, Centres, Authority, Type |
+| Position -1 (The Proof) | 11 articles | Tetragrammaton, Topology, Binary Periods |
+| Position -3/+3 (Depth/Arch) | 2 files | Lock-Key, Four Nodes disphenoid |
 | Geometry Book | 5 files | Ring 0-8 Platonic derivations |
 | EM Series | 8 files | Consciousness, Transformer models |
 
@@ -215,7 +215,7 @@ git push origin main
 
 1. `Pre-audit checkpoint` — 150 files baseline
 2. `Phase 1A-1D: Book audits` — Books 0-2, Geometry Book
-3. `Phase 1E-1F: Expanded book audits` — Book 3, EM Series
+3. `Phase 1E-1F: Expanded book audits` — Position -3/+3, EM Series
 4. `Phase 2A-2D: Research folder audits` — EM Framework, Geometric, Planetary, Circuits
 5. `Phase 2E: Synthesis folder audits` — Authority, Centre, Profile, Type, AC-DC
 6. `Phase 3: Cross-reference matrix` — Complete source mapping

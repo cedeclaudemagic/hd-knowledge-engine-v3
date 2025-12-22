@@ -181,7 +181,7 @@ The dynamic Pillars (63, 64) use the stable trigrams (Fire, Water).
 
 ## Electromagnetic Interpretation
 
-In Book 1's electromagnetic framework:
+In Position +1's (The Wave) electromagnetic framework:
 
 | Trigram | EM Position | Role |
 |---------|-------------|------|

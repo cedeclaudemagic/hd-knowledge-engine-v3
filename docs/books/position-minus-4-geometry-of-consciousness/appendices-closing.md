@@ -287,18 +287,18 @@ The disphenoid encodes:
 
 ---
 
-# Appendix C: Connection to Book 2
+# Appendix C: Connection to Position -1 (The Proof)
 ## *How This Volume Relates to "The Proof"*
 
 ---
 
-This volume ("The Geometry of Consciousness") and Book 2 ("The Proof: Mathematical Foundations of the Electromagnetic I Ching") approach the same territory from different directions.
+This volume ("The Geometry of Consciousness") and Position -1 ("The Proof: Mathematical Foundations of the Electromagnetic I Ching") approach the same territory from different directions.
 
 ---
 
-## Book 2: The Binary Proofs
+## Position -1: The Binary Proofs
 
-Book 2 asks: **Given the 64 hexagrams as binary patterns, what structures are privileged?**
+Position -1 asks: **Given the 64 hexagrams as binary patterns, what structures are privileged?**
 
 It proceeds by:
 1. Classifying all 64 hexagrams by period (1, 2, 3, 6)
@@ -308,7 +308,7 @@ It proceeds by:
 5. Validating the nuclear hierarchy statistically
 6. Confirming electromagnetic position correlations
 
-Book 2 proves THAT certain patterns are special. It takes the 64 hexagrams as given and discovers their internal structure.
+Position -1 proves THAT certain patterns are special. It takes the 64 hexagrams as given and discovers their internal structure.
 
 ---
 
@@ -330,19 +330,19 @@ This volume proves WHY the structure must be as it is. It derives the 64 hexagra
 
 ## The Relationship
 
-| Book 2 | This Volume |
-|--------|-------------|
+| Position -1 (The Proof) | This Volume |
+|-------------------------|-------------|
 | Proves THAT | Proves WHY |
 | Analytical | Synthetic |
 | Statistical validation | Geometric derivation |
 | Examines given structure | Derives the structure |
 | "These are the special gates" | "These must be the special gates" |
 
-**Book 2 validates from within; this volume derives from without.**
+**Position -1 validates from within; this volume derives from without.**
 
 Together, they form a complete account:
 - This volume shows why the structure must exist
-- Book 2 shows that the structure has the expected properties
+- Position -1 shows that the structure has the expected properties
 
 ---
 
@@ -350,9 +350,9 @@ Together, they form a complete account:
 
 Either can be read first:
 
-**This Volume First:** Understand why the architecture exists, then see Book 2's validation as confirmation.
+**This Volume First:** Understand why the architecture exists, then see Position -1's validation as confirmation.
 
-**Book 2 First:** Discover the special patterns empirically, then see this volume's derivation as explanation.
+**Position -1 First:** Discover the special patterns empirically, then see this volume's derivation as explanation.
 
 Both arrive at the same destination. The structure is the same; only the path differs.
 
@@ -370,7 +370,7 @@ Both arrive at the same destination. The structure is the same; only the path di
 - The wheel is a (2,1) torus knot
 - The 88° offset creates a disphenoid
 
-**Book 2 Proves:**
+**Position -1 Proves:**
 - Period-1 and period-2 patterns are exactly the Pillars
 - Palindromes are phase-invariant
 - Fire/Water trigrams are uniquely stable

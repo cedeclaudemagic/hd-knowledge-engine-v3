@@ -1,13 +1,17 @@
-# PHASE 1B AUDIT: Book 1 - "The Wave"
+# PHASE 1B AUDIT: Position +1 - "The Wave"
+
+> **Note:** This audit was conducted when the work was named "Position +1".
+> This work is now **Position +1: The Wave**.
+> Current location: `/docs/books/position-plus-1-the-wave/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book1/` (14 chapters + erratum)
+**Source:** `/docs/articles/EM-Series-Book1/` (14 chapters + erratum) — *now archived*
 
 ---
 
 ## Summary
 
-Book 1 establishes the complete electromagnetic interpretation framework. Key derivations include:
+Position +1 (The Wave) establishes the complete electromagnetic interpretation framework. Key derivations include:
 - Eight EM positions with functions
 - Four axes framework
 - Nine Centre functions (from position signatures)
@@ -212,7 +216,7 @@ Book 1 establishes the complete electromagnetic interpretation framework. Key de
 
 ---
 
-## Key Derivations Established in Book 1
+## Key Derivations Established in Position +1
 
 | Structure | Status | Source |
 |-----------|--------|--------|

@@ -44,12 +44,12 @@ This folder contains research synthesis documents from recent Claude sessions ex
 These documents support **Position -3 (CAPACITANCE / THE DEPTH)** in the overall publishing plan:
 
 ```
--4 SOURCE (The Proof)        ← Book 2 [COMPLETE]
+-4 SOURCE (The Proof)        ← Position -1 [COMPLETE]
 -3 CAPACITANCE (The Depth)   ← THIS MATERIAL [IN PROGRESS]
--2 VOLTAGE (The Shape)       ← Book 0 [COMPLETE]
+-2 VOLTAGE (The Shape)       ← Position -2 [COMPLETE]
 -1 GATE-OUT (Global→Personal)← Lock-Key expansion [DRAFTED]
  0 MONOPOLE (The Oracle)     ← EM I Ching [IN PROGRESS]
-+1 GATE-IN (The Wave)        ← Book 1 [COMPLETE]
++1 GATE-IN (The Wave)        ← Position +1 [COMPLETE]
 +2 CURRENT (Articles)        ← Substack [NOT STARTED]
 +3 INDUCTANCE (Library)      ← References [PARTIAL]
 +4 SINK (The Tome)           ← Complete compilation [FUTURE]
@@ -60,8 +60,8 @@ These documents support **Position -3 (CAPACITANCE / THE DEPTH)** in the overall
 ## Integration Notes
 
 These session outputs form the core content for:
-- **Book 3: The Depth** — the "beneath the line" book
-- Potential expansion of Book 2 (The Proof)
+- **Position -3: The Depth** — the "beneath the line" book
+- Potential expansion of Position -1 (The Proof)
 - Foundation for Substack articles on deeper architecture
 
 ### Still to Derive

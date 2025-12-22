@@ -1,13 +1,17 @@
-# PHASE 1C AUDIT: Book 2 - "The Proof"
+# PHASE 1C AUDIT: Position -1 - "The Proof"
+
+> **Note:** This audit was conducted when the work was named "Position -1".
+> This work is now **Position -1: The Proof**.
+> Current location: `/docs/books/position-minus-1-the-proof/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book2/` (11 articles)
+**Source:** `/docs/articles/EM-Series-Book2/` (11 articles) — *now archived*
 
 ---
 
 ## Summary
 
-Book 2 provides mathematical proofs for the electromagnetic framework. Key proofs include:
+Position -1 (The Proof) provides mathematical proofs for the electromagnetic framework. Key proofs include:
 - Binary Period classification (Pillars = period 1-2 gates)
 - Five Constraints proof (Tetragrammaton uniquely determined)
 - EM Positions derivation from pure binary mathematics
@@ -86,7 +90,7 @@ Book 2 provides mathematical proofs for the electromagnetic framework. Key proof
   - Fire (-2): 2 yang > Water's 1 yang, spread 3 -> magnitude 2
   - Wind (-1): 2 yang > Thunder's 1 yang, spread 1 -> magnitude 1
 
-**Key Insight:** EM framework from Book 1 (derived through electromagnetic reasoning) matches positions derived from pure binary mathematics — independent convergence validates framework
+**Key Insight:** EM framework from Position +1 (derived through electromagnetic reasoning) matches positions derived from pure binary mathematics — independent convergence validates framework
 
 ---
 
@@ -141,7 +145,7 @@ DOUBLE HELIX = Design + Personality strands
 
 ---
 
-## Key Proofs in Book 2
+## Key Proofs in Position -1
 
 | Proof | Article | Status |
 |-------|---------|--------|

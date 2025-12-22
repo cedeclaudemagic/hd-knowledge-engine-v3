@@ -159,7 +159,7 @@ Position -1: GATE-OUT                     Position +1: GATE-IN
 
 | Chapter | Title | Status |
 |---------|-------|--------|
-| 00 | Book 2 Outline | ✅ Written |
+| 00 | Position -1 Outline | ✅ Written |
 | 01 | Binary Periods | ✅ Written |
 | 02 | The Palindrome Principle | ✅ Written |
 | 03 | The Wheel as Wave | ✅ Written |

@@ -291,7 +291,7 @@ LEVEL 0: ALL 64 HEXAGRAMS
 
 ## Standing Waves in Electromagnetic Terms
 
-In Book 1's electromagnetic framework, standing waves occupy positions along the wave:
+In Position +1's (The Wave) electromagnetic framework, standing waves occupy positions along the wave:
 
 | Gate | Trigram | EM Position | Role |
 |------|---------|-------------|------|

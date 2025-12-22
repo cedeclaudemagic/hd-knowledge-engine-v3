@@ -1,11 +1,17 @@
-# PHASE 1E AUDIT: Book 3 (In Progress) + Reflections
+# PHASE 1E AUDIT: Position -3/+3 (In Progress) + Reflections
+
+> **Note:** This audit was conducted when the work was named "Position -3/+3".
+> This work is now split between:
+> - **Position -3: The Depth** (Lock-Key, CTB architecture) at `/docs/books/position-minus-3-the-depth/`
+> - **Position +3: The Architecture** (HD structures) at `/docs/books/position-plus-3-the-architecture/`
+> Reflections are now at `/docs/books/series/reflections/`
 
 **Audit Date:** 22 December 2025
-**Source:** `/docs/articles/EM-Series-Book3/` (3 files) + `/docs/articles/EM-Series-Reflections/` (1 file)
+**Source:** `/docs/articles/EM-Series-Book3/` (3 files) + `/docs/articles/EM-Series-Reflections/` (1 file) — *now archived*
 
 ---
 
-## Book 3: "The Lock and the Key" (In Progress)
+## Position -3/+3: "The Lock and the Key" (In Progress)
 
 ### 00-BOOK-3-OUTLINE.md
 
@@ -98,7 +104,7 @@
 
 ---
 
-## Key Findings from Book 3 Materials
+## Key Findings from Position -3/+3 Materials
 
 | Finding | Status | Source |
 |---------|--------|--------|

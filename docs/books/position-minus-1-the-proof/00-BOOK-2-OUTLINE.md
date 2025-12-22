@@ -135,7 +135,7 @@ Mathematical concepts are introduced gently, with visual aids and examples befor
 
 *How wave positions arise from binary structure*
 
-- Review: the -4 to +4 position assignments from Book 1
+- Review: the -4 to +4 position assignments from Position +1 (The Wave)
 - Correlation: structural privilege vs EM position magnitude
 - Period-1 gates at the poles (±4)
 - Palindromic period-3 at flow positions (±2)
@@ -182,7 +182,7 @@ Mathematical concepts are introduced gently, with visual aids and examples befor
 - The complete derivation chain:
   - Binary period → Pillars → Standing waves → EM positions → Nuclear hierarchy → Planetary polarity
 - What we've proven vs what we've discovered vs what we've hypothesised
-- The relationship between Book 1 (practical) and Book 2 (foundational)
+- The relationship between Position +1 (practical) and Position -1 (foundational)
 - Implications for understanding ancient wisdom systems
 - Open questions for future research
 
@@ -238,38 +238,38 @@ Technical terms with precise definitions for reference.
 
 ---
 
-## Relationship to Book 1
+## Relationship to Position +1 (The Wave)
 
-Book 1 is the accessible framework—the invitation to swim in the wave.
+Position +1 is the accessible framework—the invitation to swim in the wave.
 
-Book 2 is the deep dive—for those who want to see what's holding everything up.
+Position -1 is the deep dive—for those who want to see what's holding everything up.
 
-| Book 1 | Book 2 |
-|--------|--------|
+| Position +1 (The Wave) | Position -1 (The Proof) |
+|------------------------|-------------------------|
 | Introduces trigram positions | Proves WHY those positions are mathematically natural |
 | Uses standing waves | Proves WHY they're structurally privileged |
 | Applies the framework | Validates the framework from first principles |
 | "Here's how it works" | "Here's why it must work this way" |
 
-Book 2 doesn't require Book 1. It introduces concepts fresh, then proves them.
+Position -1 doesn't require Position +1. It introduces concepts fresh, then proves them.
 
-Book 1 doesn't require Book 2. The framework works whether or not you understand its mathematical foundations.
+Position +1 doesn't require Position -1. The framework works whether or not you understand its mathematical foundations.
 
 Together, they offer both the practical tool and the structural proof.
 
 ---
 
-## Relationship to Book 3 (Future)
+## Relationship to Position +3 (Future)
 
-Book 3 ("The Application" or "The Mystery") will address:
+Position +3 (The Architecture) will address:
 
-- Planetary exaltation and detriment patterns
+- HD structures derived: Profile, Type, Authority
 - What can be predicted vs what must be accepted
 - The empirical layer that resists derivation
 - Practical applications of partial knowledge
 - Where human wisdom enters the system
 
-Book 2 establishes what CAN be derived. Book 3 will honestly address what CANNOT.
+Position -1 establishes what CAN be derived. Position +3 will address how it crystallises into form.
 
 ---
 

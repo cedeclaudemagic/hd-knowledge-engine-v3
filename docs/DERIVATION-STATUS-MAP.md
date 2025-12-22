@@ -1183,13 +1183,18 @@ It represents spatial/polar structure (6) plus reference frame (1).
 | **Derivation Audit** | `/docs/research/audit/` | **Cross-reference matrix, source verification (v3.11)** |
 | **THIS DOCUMENT** | `/docs/research/DERIVATION-STATUS-MAP.md` | Master orientation |
 
-## Book Manuscripts
+## Book Manuscripts (Position-Based)
 
-| Book | Location | Status |
-|------|----------|--------|
-| Book 0: Shape of Change | `/docs/articles/EM-Series-Book0/` | Complete |
-| Book 1: The Wave | `/docs/articles/EM-Series-Book1/` | Complete (14 chapters) |
-| Book 2: The Proof | `/docs/articles/EM-Series-Book2/` | Complete (11 articles) |
+| Position | Work | Location | Status |
+|----------|------|----------|--------|
+| -4 | The Geometry of Consciousness | `/docs/books/position-minus-4-geometry-of-consciousness/` | Complete |
+| -3 | The Depth | `/docs/books/position-minus-3-the-depth/` | Outline |
+| -2 | The Shape of Change | `/docs/books/position-minus-2-shape-of-change/` | Complete |
+| -1 | The Proof | `/docs/books/position-minus-1-the-proof/` | Complete |
+| +1 | The Wave | `/docs/books/position-plus-1-the-wave/` | Complete (14 chapters) |
+| +2 | Interpretations + Series | `/docs/electromagnetic-interpretations/` + `/docs/books/series/` | Ongoing |
+| +3 | The Architecture | `/docs/books/position-plus-3-the-architecture/` | Outline |
+| +4 | The Living Oracle | `/docs/electromagnetic-iching/` | Framework |
 
 ## Validated Skills
 

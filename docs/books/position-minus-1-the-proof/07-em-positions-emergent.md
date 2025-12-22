@@ -6,7 +6,7 @@
 
 ## Introduction
 
-In Book 1, we presented an electromagnetic framework mapping the eight trigrams to positions along a wave: -4 to +4, representing the journey from source to sink, from yang emission to yin reception.
+In Position +1 (The Wave), we presented an electromagnetic framework mapping the eight trigrams to positions along a wave: -4 to +4, representing the journey from source to sink, from yang emission to yin reception.
 
 At the time, we offered this as a useful model—a way to understand trigram relationships through the metaphor of electrical flow. We didn't claim to have *proven* these positions were correct, only that they were coherent and illuminating.
 
@@ -20,7 +20,7 @@ The electromagnetic positions weren't imposed on the I Ching. They emerged from 
 
 ## The EM Position Assignment
 
-From Book 1, the eight trigrams occupy these positions:
+From Position +1 (The Wave), the eight trigrams occupy these positions:
 
 | Position | Trigram | Name | Role |
 |----------|---------|------|------|
@@ -33,7 +33,7 @@ From Book 1, the eight trigrams occupy these positions:
 | +3 | Mountain (001) | Inductance | Yin storage |
 | +4 | Earth (000) | Sink | Pure yin reception |
 
-In Book 1, we justified these positions through electromagnetic reasoning. Now we show they emerge from pure mathematics.
+In Position +1 (The Wave), we justified these positions through electromagnetic reasoning. Now we show they emerge from pure mathematics.
 
 ---
 
@@ -201,7 +201,7 @@ And the EM positions reflect this:
 
 ## The Circuit Model Validated
 
-In Book 1, we described the eight positions as forming a circuit:
+In Position +1 (The Wave), we described the eight positions as forming a circuit:
 
 ```
         SOURCE                           SINK
@@ -238,7 +238,7 @@ The circuit model isn't a metaphor. It's a structural map.
 
 ### The Framework Is Grounded
 
-Book 1 presented the EM framework as a useful lens. Book 2 reveals it's more than that—it's a *structural description*. The positions emerge from properties that can be proven mathematically:
+Position +1 (The Wave) presented the EM framework as a useful lens. Position -1 (The Proof) reveals it's more than that—it's a *structural description*. The positions emerge from properties that can be proven mathematically:
 - Complement pairing
 - Spread calculation
 - Yang count comparison
@@ -249,7 +249,7 @@ Unlike the planetary layer (which requires observation and achieves only partial
 
 ### Independent Discovery
 
-We derived the EM positions through electromagnetic reasoning in Book 1. We derived them through binary analysis in Book 2. They match.
+We derived the EM positions through electromagnetic reasoning in Position +1 (The Wave). We derived them through binary analysis in Position -1 (The Proof). They match.
 
 This is the hallmark of discovering something real rather than inventing something convenient. Two independent approaches converge on the same structure.
 
@@ -301,7 +301,7 @@ In Article 8, we show how the Pillar-Mystery-Letter structure of the nuclear hie
 4. Yang count determines which complement gets the negative position
 5. No special cases or exceptions—the algorithm is uniform
 6. Palindrome status and phase stability **correlate with** but don't **determine** positions
-7. The circuit model from Book 1 is confirmed by structural analysis
+7. The circuit model from Position +1 (The Wave) is confirmed by structural analysis
 8. Two independent derivations (EM reasoning, binary analysis) converge
 9. The I Ching encodes wave mechanics in its architecture
 
@@ -309,7 +309,7 @@ In Article 8, we show how the Pillar-Mystery-Letter structure of the nuclear hie
 
 ## For Reflection
 
-We began Book 1 with an intuition: the I Ching's trigrams behave like positions on a wave. Yang rises, yin falls, and the eight trigrams mark the journey between.
+We began Position +1 (The Wave) with an intuition: the I Ching's trigrams behave like positions on a wave. Yang rises, yin falls, and the eight trigrams mark the journey between.
 
 We now see this intuition has mathematical grounding. The trigrams *are* wave positions—not by poetic analogy but by structural necessity. Their binary patterns, their symmetries, their phase behaviours all point to the same arrangement.
 

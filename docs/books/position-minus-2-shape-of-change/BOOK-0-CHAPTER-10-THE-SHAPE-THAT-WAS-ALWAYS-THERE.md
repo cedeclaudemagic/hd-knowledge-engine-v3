@@ -87,15 +87,15 @@ Now you can see it too.
 
 ## Where to Go Next
 
-This book (Book 0) shows *what* the structure is.
+This book (Position -2: The Shape of Change) shows *what* the structure is.
 
-Other books explore *how* to use it:
+Other works explore *how* to use it:
 
-**The Wave (Book 1)**: How to read any hexagram, any line, using electromagnetic position. Practical oracle work grounded in geometry.
+**Position +1 (The Wave)**: How to read any hexagram, any line, using electromagnetic position. Practical oracle work grounded in geometry.
 
-**The Proof (Book 2)**: Mathematical foundations — how to derive the special structures (Pillars, standing waves, nuclear hierarchy) from first principles.
+**Position -1 (The Proof)**: Mathematical foundations — how to derive the special structures (Pillars, standing waves, nuclear hierarchy) from first principles.
 
-**The Breath and the Bones (Book 3)**: Experiential approach — feeling the geometry in your body, living the wave.
+**Position +2 (Reflections)**: Experiential approach — feeling the geometry in your body, living the wave.
 
 Each path is valid. Choose what calls to you.
 
@@ -171,7 +171,7 @@ Use it well.
 
 ---
 
-*End of Book 0: The Shape of Change*
+*End of Position -2: The Shape of Change*
 
 ---
 

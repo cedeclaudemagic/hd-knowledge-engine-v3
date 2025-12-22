@@ -167,41 +167,41 @@ The system is internally consistent. Different analyses converge on the same str
 
 ---
 
-## The Two-Book Relationship
+## The Two-Work Relationship
 
-### Book 1: The Wave
+### Position +1: The Wave
 
-Book 1 presented the electromagnetic framework as a practical tool:
+Position +1 presented the electromagnetic framework as a practical tool:
 
 - Here are the eight positions (-4 to +4)
 - Here's how trigrams map to the wave
 - Here's how to read hexagrams as movements
 - Here's the circuit architecture
 
-Book 1 works whether or not you understand its foundations. You can use a map without knowing cartography.
+Position +1 works whether or not you understand its foundations. You can use a map without knowing cartography.
 
-### Book 2: The Proof
+### Position -1: The Proof
 
-Book 2 established the mathematical foundations:
+Position -1 established the mathematical foundations:
 
 - Here's WHY those eight positions are natural
 - Here's WHY certain hexagrams are privileged
 - Here's WHY the framework aligns with traditional structure
 - Here's WHERE the mathematics ends and mystery begins
 
-Book 2 validates Book 1 from first principles. The framework isn't imposed—it's discovered.
+Position -1 validates Position +1 from first principles. The framework isn't imposed—it's discovered.
 
 ### Together
 
-| Aspect | Book 1 | Book 2 |
-|--------|--------|--------|
+| Aspect | Position +1 (The Wave) | Position -1 (The Proof) |
+|--------|------------------------|-------------------------|
 | Purpose | Practical application | Theoretical foundation |
 | Tone | Accessible, inviting | Rigorous, proving |
 | Audience | Anyone curious | Those who ask "why?" |
 | Claim | "This works" | "This must work" |
 | Limitation | Doesn't prove necessity | Doesn't provide meaning |
 
-Neither book is complete alone. Book 1 without Book 2 is useful but ungrounded. Book 2 without Book 1 is proven but impractical.
+Neither work is complete alone. Position +1 without Position -1 is useful but ungrounded. Position -1 without Position +1 is proven but impractical.
 
 ---
 
@@ -349,7 +349,7 @@ Perhaps that's appropriate. The I Ching has always been both—a system precise 
 2. Mathematical necessities include: Pillars, standing waves, wheel symmetry, trigram stability
 3. Statistical validations include: planetary polarity (Z = 7.23), family differentiation
 4. Open mysteries include: why correspondence exists, planetary mechanisms, divination efficacy
-5. Book 1 provides practical framework; Book 2 provides theoretical foundation
+5. Position +1 provides practical framework; Position -1 provides theoretical foundation
 6. The I Ching encodes discoverable mathematical structure
 7. Ancient classification aligns with modern analysis
 8. Structure is derivable; meaning remains mysterious
@@ -374,13 +374,13 @@ The work continues.
 
 ---
 
-*End of Book 2: The Proof*
+*End of Position -1: The Proof*
 
 ---
 
 ## Appendices
 
-The following appendices are referenced throughout Book 2 and contain supporting data:
+The following appendices are referenced throughout Position -1 (The Proof) and contain supporting data:
 
 - **Appendix A:** Phase-Shift Analysis Data (complete tables)
 - **Appendix B:** Binary Pattern Classification (all 64 hexagrams)

@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-The electromagnetic framework established in Book 1 ("The Wave") and the `/docs/research/electromagnetic-framework/` folder already contains **complete derivations** of:
+The electromagnetic framework established in Position +1 ("The Wave") and the `/docs/research/electromagnetic-framework/` folder already contains **complete derivations** of:
 
 1. **Centre Functions** — 100% derivable from position (not 78%)
 2. **Authority Hierarchy** — Fully derived from wave mechanics
@@ -53,7 +53,7 @@ The complete electromagnetic position mapping was already proven:
 
 ### 1.2 Centre Functions — 100% Derived
 
-**Source:** `centre-electromagnetic-profiles.md`, Book 1 Chapter 9
+**Source:** `centre-electromagnetic-profiles.md`, Position +1 Chapter 9
 
 Every centre's function derives from its electromagnetic position signature:
 
@@ -73,7 +73,7 @@ Every centre's function derives from its electromagnetic position signature:
 
 ### 1.3 Authority Hierarchy — Fully Derived
 
-**Source:** `authority-electromagnetic-analysis.md`, Book 1 Chapter 11
+**Source:** `authority-electromagnetic-analysis.md`, Position +1 Chapter 11
 
 The Authority hierarchy follows wave mechanics because **different positions have different temporal characteristics**:
 
@@ -91,7 +91,7 @@ The Authority hierarchy follows wave mechanics because **different positions hav
 
 ### 1.4 Type Architecture — Fully Derived
 
-**Source:** `type-determination-analysis.md`, Book 1 Chapter 12
+**Source:** `type-determination-analysis.md`, Position +1 Chapter 12
 
 Type follows from structural configuration:
 
@@ -238,7 +238,7 @@ Claude Code was missing access to the Four Axes Framework that clearly defines:
 Claude Code did not have access to:
 - `centre-electromagnetic-profiles.md`
 - `electromagnetic-framework-synthesis.md`
-- Book 1 chapters on Centres, Authority, Type
+- Position +1 chapters on Centres, Authority, Type
 
 Without the Four Axes Framework, Claude Code attempted to derive position-function mappings from first principles, leading to the Pressure = Poles error.
 
@@ -316,7 +316,7 @@ This mapping was already proposed but not fully validated. The Profile derivatio
 
 1. **Read existing work first** — The electromagnetic-framework folder contains comprehensive derivations
 2. **Use the Four Axes Framework** — Poles/Storage/Flow/Gates structure prevents errors
-3. **Check Book 1 chapters** — Centres, Authority, Type already fully explained
+3. **Check Position +1 chapters** — Centres, Authority, Type already fully explained
 
 ### 6.2 For Documentation
 
@@ -326,11 +326,11 @@ This mapping was already proposed but not fully validated. The Profile derivatio
 
 ### 6.3 For the Book Project
 
-Given that Centre, Authority, Type were already derived in Book 1:
+Given that Centre, Authority, Type were already derived in Position +1:
 
-- **Book 1** ("The Wave") = Framework introduction + Centre/Authority/Type derivations
-- **Book 2** ("The Proof") = Binary/structural proofs
-- **Book 3** ("The Architecture") = Should focus on genuinely NEW derivations:
+- **Position +1** ("The Wave") = Framework introduction + Centre/Authority/Type derivations
+- **Position -1** ("The Proof") = Binary/structural proofs
+- **Position +3** ("The Architecture") = Should focus on genuinely NEW derivations:
   - Profile as octahedron × 2 distances (NEW from Claude Code)
   - Variable structure
   - Incarnation Cross geometry
@@ -344,17 +344,17 @@ Given that Centre, Authority, Type were already derived in Book 1:
 
 | Structure | Source | Status |
 |-----------|--------|--------|
-| Binary Architecture | Book 2 | ✓✓ |
-| Trigrams (cube vertices) | Book 2 | ✓✓ |
-| Lines (octahedron vertices) | Book 2 | ✓✓ |
-| Harmonic Pairs | Book 2 | ✓✓ |
+| Binary Architecture | Position -1 | ✓✓ |
+| Trigrams (cube vertices) | Position -1 | ✓✓ |
+| Lines (octahedron vertices) | Position -1 | ✓✓ |
+| Harmonic Pairs | Position -1 | ✓✓ |
 | Profile (12 = octahedron × 2) | Claude Code NEW | ✓✓ |
-| Type (5 = 2² + 1) | Book 1 | ✓✓ |
-| Authority (signal dependency) | Book 1 | ✓✓ |
-| Centre Functions (standing wave anchors) | Book 1 | ✓✓ |
-| Circuit Architecture (7 = 6+1) | Book 1 | ✓✓ |
+| Type (5 = 2² + 1) | Position +1 | ✓✓ |
+| Authority (signal dependency) | Position +1 | ✓✓ |
+| Centre Functions (standing wave anchors) | Position +1 | ✓✓ |
+| Circuit Architecture (7 = 6+1) | Position +1 | ✓✓ |
 | 69,120 Addresses (Lock × Key) | Synthesis docs | ✓✓ |
-| Wheel Topology ((2,1) torus knot) | Book 2 | ✓✓ |
+| Wheel Topology ((2,1) torus knot) | Position -1 | ✓✓ |
 | Standing Wave Distribution | EM Framework | ✓✓ |
 
 ### MAPPED (~70-80%)
@@ -382,7 +382,7 @@ The derivation sweep of 21 December 2025 was valuable for:
 2. **Statistical validation** — Chi-square tests confirm existing findings
 3. **Alternative framing** — "Minimal complete" and "signal dependency" are useful alternative descriptions
 
-However, the sweep **re-derived existing work** for Centre, Authority, Type, and Circuit — work that was already complete in Book 1 and the electromagnetic-framework folder.
+However, the sweep **re-derived existing work** for Centre, Authority, Type, and Circuit — work that was already complete in Position +1 and the electromagnetic-framework folder.
 
 The key error (Pressure = Poles instead of Storage) occurred because Claude Code didn't have access to the Four Axes Framework that clearly defines the Storage axis (±3) as distinct from the Poles axis (±4).
 
@@ -392,7 +392,7 @@ The genuine outstanding work is:
 - Variable structure (PHS/Perspective)
 - Incarnation Cross geometry
 - Color-Tone inner meanings (beyond structural 6-6-6-5)
-- Integration of findings into Book 3
+- Integration of findings into Position +3
 
 ---
 

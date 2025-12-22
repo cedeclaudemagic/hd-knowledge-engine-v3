@@ -80,7 +80,7 @@ Contains embedded derivations for:
 | `hexagram-movements/cross-zero-gates.md` | Cross-Zero Manifesting/Dematerialising |
 | `hexagram-movements/same-phase-gates.md` | Same-Phase Void/Material |
 
-### Source: Book 2 - The Proof
+### Source: Position -1 - The Proof
 
 | Framework File Needed | Book Chapter |
 |-----------------------|--------------|
@@ -89,13 +89,13 @@ Contains embedded derivations for:
 | `trigram-cube/standing-waves.md` | Ch 5: Standing Waves as Structural Anchors |
 | `topology/torus-knot.md` | Ch 11: Topology of the Wave |
 | `topology/double-helix.md` | Ch 11: Topology of the Wave |
-| `topology/88-degree-offset.md` | Ch 11: Topology of the Wave (+ Book 0 Ch 6) |
+| `topology/88-degree-offset.md` | Ch 11: Topology of the Wave (+ Position -2 Ch 6) |
 
-### Source: Book 1 - The Wave + Research Files
+### Source: Position +1 - The Wave + Research Files
 
 | Framework File Needed | Source(s) |
 |-----------------------|-----------|
-| `lines-profiles/six-lines-octahedron.md` | Book 1 Ch 6 + COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md |
+| `lines-profiles/six-lines-octahedron.md` | Position +1 Ch 6 + COLOR-TONE-BASE-COMPLETE-SYNTHESIS.md |
 | `lines-profiles/harmonic-pairs.md` | LINE-QUARTER-PATTERNS.md |
 
 ---
@@ -215,9 +215,9 @@ Contains embedded derivations for:
    - **High priority (empty directories):**
      - trigram-cube/ (3 files from GEOMETRIC-FOUNDATIONS-SYNTHESIS.md)
      - hexagram-movements/ (3 files from GEOMETRIC-FOUNDATIONS-SYNTHESIS.md)
-     - topology/ (3 files from Book 2 Ch 11)
+     - topology/ (3 files from Position -1 Ch 11)
    - **Medium priority (partial directories):**
-     - foundation/ (2 files from Book 2)
+     - foundation/ (2 files from Position -1)
      - lines-profiles/ (2 files from mixed sources)
 
 ### Extraction Guidelines

@@ -26,13 +26,13 @@ Where we've been                         Where it goes
    
 -2 VOLTAGE                               +2 CURRENT
    THE SHAPE                                THE ARTICLES
-   Book 0 — seeing clearly                  Substack — ongoing flow
+   Position -2 — seeing clearly             Substack — ongoing flow
    The pressure of revelation               Application to any topic
    "Oh! It's geometry!"                     The living conversation
    
 -1 GATE-OUT                              +1 GATE-IN
    GLOBAL → PERSONAL                        THE WAVE
-   How cosmic becomes individual            Book 1 — entry to practice
+   How cosmic becomes individual            Position +1 — entry to practice
    Ra's cycles to your chart                Learning to read
    Release into applicability               First steps with the system
 
@@ -54,7 +54,7 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Book 2: The Proof | `/docs/articles/EM-Series-Book2/` | Complete (11 articles) |
+| Position -1: The Proof | `/docs/books/position-minus-1-the-proof/` | Complete (11 articles) |
 
 **Files:**
 - `00-BOOK-2-OUTLINE.md`
@@ -80,12 +80,12 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Book 3 Outline | `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md` | ✅ Complete |
+| Position -3/+3 Outline | `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md` | ✅ Complete |
 | Four Nodes Tetrahedron Research | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
 | Lock-Key Synthesis | `/docs/articles/EM-Series-Book3/` | ✅ Moved |
 | Color-Tone-Base Complete Synthesis | Session outputs | ⚠️ NEEDS FULL CONTENT |
 
-**Book 3 Files:**
+**Position -3/+3 Files:**
 - `00-BOOK-3-OUTLINE.md` — Chapter structure and source mapping
 - `LOCK-KEY-SYNTHESIS.md` — Complete (18KB)
 - `FOUR-NODES-TETRAHEDRON-RESEARCH.md` — Complete (6KB)
@@ -120,7 +120,7 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Book 0: The Shape of Change | `/docs/articles/EM-Series-Book0/` | Complete (10 chapters) |
+| Position -2: The Shape of Change | `/docs/articles/EM-Series-Book0/` | Complete (10 chapters) |
 
 **Files:**
 - `BOOK-0-CHAPTER-01-THE-QUESTION.md`
@@ -195,7 +195,7 @@ Where we've been                         Where it goes
 
 | Component | Location | Status |
 |-----------|----------|--------|
-| Book 1: The Wave | `/docs/articles/EM-Series-Book1/` | Complete (14 chapters) |
+| Position +1: The Wave | `/docs/articles/EM-Series-Book1/` | Complete (14 chapters) |
 
 **Files:**
 - `00-teaser-the-pattern-beneath.md`
@@ -287,19 +287,19 @@ LAYER 0: THE ORACLE (~100 pages)
    10-page intro: The Wave, Eight Positions, Five Gate Types, How to Use
 
 LAYER 1: THE WAVE (~200 pages)
-   Current Book 1. Entry for practitioners.
+   Current Position +1. Entry for practitioners.
    How to read electromagnetically.
 
 LAYER 2: THE SHAPE (~150 pages)
-   Current Book 0. Visual geometry.
+   Current Position -2. Visual geometry.
    "Oh! It's geometry!"
 
 LAYER 3: THE DEPTH (~250 pages)
-   Book 3 (assembled from session outputs).
+   Position -3/+3 (assembled from session outputs).
    Color-Tone-Base, Lock-Key, Four Nodes.
 
 LAYER 4: THE PROOF (~200 pages)
-   Current Book 2. Mathematical necessity.
+   Current Position -1. Mathematical necessity.
 
 APPENDICES (~150 pages)
    Complete Gate Reference, Channels, Circuits, Planets, Glossary
@@ -352,7 +352,7 @@ APPENDICES (~150 pages)
 ## Priority Matrix
 
 ### Completed This Session ✅
-1. ~~Move session outputs to permanent location~~ ✅ Book 3 organized
+1. ~~Move session outputs to permanent location~~ ✅ Position -3/+3 organized
 2. ~~Create DEPTH outline~~ ✅ `/docs/articles/EM-Series-Book3/00-BOOK-3-OUTLINE.md`
 3. ~~Create 8-Position Wave visualization~~ ✅ `/visualization/output/eight-position-wave-dark.svg`
 
