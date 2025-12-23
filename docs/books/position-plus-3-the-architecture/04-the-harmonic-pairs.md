@@ -185,6 +185,58 @@ Both are right. The axis is complete when experimentation *and* observation are 
 
 ---
 
+## The Electromagnetic Perspective
+
+We've established the geometry. But why do opposite vertices *complete* each other rather than merely *oppose*? The electromagnetic framework provides another lens.
+
+### Phase Complementarity
+
+In wave mechanics, positions that are 180° apart (directly opposite) are in *antiphase*. When one is at peak, the other is at trough. When one pushes, the other pulls.
+
+This sounds like conflict — but it's actually the foundation of productive oscillation. A wave exists precisely because of the tension between opposite phases. Remove one, and there's no oscillation. No wave. No life.
+
+Harmonic pairs are antipodal on the octahedron — and in electromagnetic terms, this means they're phase complements. They create the full oscillation that neither could produce alone.
+
+### Impedance Matching
+
+In electrical engineering, there's a principle called *impedance matching*. Maximum power transfer occurs when source and load have matched (often complementary) impedance.
+
+Line 1 investigates — it gathers, it accumulates, it stores foundational understanding. This is *capacitive* behaviour: holding potential.
+
+Line 4 networks — it distributes, it spreads, it releases into relationship. This is *inductive* behaviour: sustaining flow through pattern.
+
+Capacitance and inductance are electromagnetic complements. Together, they create resonance. The 1/4 axis resonates because investigation-storage pairs with distribution-pattern.
+
+Similarly:
+- Line 2 (hermit projection = radiating from stillness) pairs with Line 5 (heretic reception = receiving what's radiated)
+- Line 3 (trial-error = breaking to learn) pairs with Line 6 (overview = integrating what's been broken)
+
+Each pairing creates an electromagnetic circuit that neither line could complete alone.
+
+### The Standing Wave Insight
+
+Here's something deeper.
+
+The harmonic pairs map to the standing wave axis positions we established in Chapter 6:
+
+| Axis | Lines | EM Position Parallel |
+|------|-------|---------------------|
+| Foundation—Network | 1—4 | Gate-Out (−1) — Gate-In (+1) |
+| Hermit—Heretic | 2—5 | Voltage (−2) — Current (+2) |
+| Martyr—Role Model | 3—6 | Storage (±3) — Poles (±4) |
+
+The first axis (1—4) corresponds to the threshold positions where energy crosses between domains. Gate-out releases; gate-in receives. Investigation releases understanding; networking receives and distributes it.
+
+The second axis (2—5) corresponds to the flow positions where energy actively moves. Voltage drives; current flows. The hermit drives projection; the heretic carries it.
+
+The third axis (3—6) corresponds to the storage and pole positions — accumulation and extremes. Trial-error accumulates data; role-model synthesises at the extreme of observation.
+
+This isn't perfect correspondence — lines and EM positions aren't the same thing. But the *pattern* is consistent: harmonic pairs complete electromagnetic circuits.
+
+> **Mathematical Foundation:** Position -1 (The Proof), Chapter 7 establishes how electromagnetic positions form complementary pairs. The same principle of complementarity that makes positions ±2 a pair (voltage/current) makes lines 2 and 5 a harmonic pair (projection source/projection recipient).
+
+---
+
 ## Completion, Not Opposition
 
 The word "opposite" can mislead.
@@ -200,6 +252,17 @@ When you carry a harmonic pair in your Profile (gap +3), you contain both ends. 
 The octahedron doesn't have conflict between its opposite vertices. It has *structure*. The three axes are what give it form.
 
 You're not fighting your opposite line. You're living it.
+
+---
+
+## See Also
+
+**Mathematical Foundation:**
+- [Position -1, Chapter 7: EM Positions Emergent](../position-minus-1-the-proof/07-em-positions-emergent.md) — derives complementary position pairs from binary structure
+
+**Related Architecture:**
+- [Chapter 1: The Twelve Profiles](./01-the-twelve-profiles.md) — octahedron geometry applied to profiles
+- [Chapter 6: The Motor Principle](./06-the-motor-principle.md) — standing waves as another form of structural complementarity
 
 ---
 

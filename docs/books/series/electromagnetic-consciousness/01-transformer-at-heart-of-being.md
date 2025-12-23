@@ -68,6 +68,28 @@ The sternum location matters not as a physical address but as a field center. It
 
 ---
 
+## The Geometric Foundation
+
+The electromagnetic model isn't floating in abstraction — it sits on geometric structure.
+
+The G Centre contains 8 gates, and remarkably, these gates span all 8 trigram positions. Every other centre clusters at specific electromagnetic positions (Solar Plexus at -2, Sacral at +2, etc.), but the G Centre contains the complete set. It IS the reference frame — position 0, the monopole point around which all other positions are measured.
+
+Two of those gates are standing waves: Gate 1 (Heaven/Heaven, position -4) and Gate 2 (Earth/Earth, position +4). These are the only standing waves in the G Centre — and they're the poles. The complete amplitude of the wave, from maximum void to maximum form.
+
+```
+         -4 (Heaven) ●──────────● +4 (Earth)
+             Gate 1       G Centre      Gate 2
+              SOURCE                     SINK
+```
+
+The monopole sits at zero, holding both poles in relationship. This is the geometric basis for the transformer function: the G Centre spans from source to sink, containing the full potential of the wave while remaining at the still point between them.
+
+The 88° offset? It maps to a specific position on the wheel — not quite at the quarter boundary (90°), maintaining that productive non-perpendicularity. The geometry ensures the crystals can never lock into static opposition.
+
+> **For deeper foundation:** Position -1 (The Proof), Chapter 5 establishes standing waves as structural anchors. Position -4 (The Geometry of Consciousness) derives the monopole as the origin point of the entire system.
+
+---
+
 ## Why This Matters
 
 Modern civilization runs on DC thinking. We want fixed states, permanent solutions, unchanging identities. We extract energy rather than participating in its flow. We want to be generators OR projectors, magnetic OR electric, conscious OR unconscious. We resist the alternation that is our nature.

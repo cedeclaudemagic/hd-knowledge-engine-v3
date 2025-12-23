@@ -249,4 +249,15 @@ The geometry requires them.
 
 ---
 
+## See Also
+
+**Mathematical Foundation:**
+- [Position -1, Chapter 5: Standing Waves as Structural Anchors](../position-minus-1-the-proof/05-standing-waves-as-structural-anchors.md) — proves standing wave distribution across centres
+- [Position -1, Chapter 7: EM Positions Emergent](../position-minus-1-the-proof/07-em-positions-emergent.md) — derives how wave positions create distinct functions
+
+**Related Architecture:**
+- [Chapter 6: The Motor Principle](./06-the-motor-principle.md) — why standing wave gates enable motor generation
+
+---
+
 *Next: [The Motor Principle](./06-the-motor-principle.md) — why motors generate and how standing waves anchor them*

@@ -63,10 +63,24 @@ Position +2 is the **ongoing flow** of new content:
 
 The existing article series were written when the EM investigations were at an **earlier stage**. The framework has evolved significantly since then.
 
-These articles may need:
-- Review for consistency with current understanding
-- Updating where the framework has evolved
-- Clarification where newer derivations supersede older hypotheses
+**December 2025 Update:** Integration sections have been added to key articles:
+
+### EM Consciousness Series Additions:
+- **Article 01** (Transformer): Added "The Geometric Foundation" section — G Centre's 8-gate span, standing wave poles (Gates 1/2)
+- **Article 04** (Nine Resonators): Added "The Geometric Architecture: 8+1" section — centre-to-position mapping, standing wave distribution
+
+### Wheel Series Additions:
+- **Article 01** (Breathing Wheel): Added "The Electromagnetic Interpretation" section — carrier wave/modulation, standing wave nodes, harmonic frequencies
+- **Article 03** (EM Cycle): Added "Connection to the Electromagnetic Positions" section — trigram-to-position mapping, standing wave anchors
+
+These additions connect the series content to the Position books:
+- Position -1 (The Proof) for mathematical foundations
+- Position +3 (The Architecture) for operational applications
+
+The articles may still benefit from:
+- Full consistency review
+- Additional geometric diagrams
+- Cross-references to the bridge documents
 
 ---
 

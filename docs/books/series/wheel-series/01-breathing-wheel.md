@@ -144,17 +144,63 @@ And the lines between connect them, each mediating between stillness and motion 
 
 ---
 
+## The Electromagnetic Interpretation
+
+The nested frequencies aren't just mathematical curiosity — they have electromagnetic meaning.
+
+### Carrier Waves and Modulation
+
+In radio transmission, you need two things: a **carrier wave** (stable, high-energy, consistent) and a **modulated signal** (variable, information-bearing, changing).
+
+The bottom lines ARE the carrier wave. Line 1 provides the fundamental tone — the great yin/yang polarity that divides the wheel into hemispheres. Line 2 adds the quadrant structure. These slow oscillations carry the signal.
+
+The top lines ARE the modulation. Line 6 flickers with information — the specific variation, the particular expression. Line 5 adds resolution. These rapid changes encode meaning.
+
+A radio signal with only carrier would be static — pure tone, no content. A signal with only modulation would be noise — no foundation to carry it. The wheel needs both: stable foundation AND variable expression.
+
+### Standing Waves and Nodes
+
+The hub-rim structure mirrors standing wave physics.
+
+In a standing wave, there are **nodes** (points of stillness) and **antinodes** (points of maximum motion). The nodes anchor; the antinodes express.
+
+Line 1 = node (stillness, anchor)
+Line 6 = antinode (motion, expression)
+
+The standing wave gates we've identified (1, 2, 29, 30, 51, 52, 57, 58) cluster near the Line 1 transition points — where the fundamental changes. This isn't coincidence. Standing waves prefer nodal positions. They anchor at the stable points.
+
+### Resonance and Harmonics
+
+Each line oscillates at a frequency that's a harmonic of the fundamental.
+
+| Line | Frequency Ratio |
+|------|-----------------|
+| Line 1 | 1× (fundamental) |
+| Line 2 | 1× (fundamental) |
+| Line 3 | 3× |
+| Line 4 | 7× |
+| Line 5 | 15× |
+| Line 6 | 31× |
+
+The doubling pattern reveals harmonic structure. Each higher line oscillates at roughly twice the frequency of the line below — the octave relationship that defines all musical harmony.
+
+The wheel isn't just breathing. It's *resonating* — at multiple simultaneous frequencies that create the complete chord of each hexagram.
+
+> **For deeper foundation:** Position -1 (The Proof), Chapter 3 establishes the wheel as self-complementary standing wave architecture. Position +1 (The Wave), Chapter 6 explains the six lines as octahedron geometry.
+
+---
+
 ## What This Opens
 
 I'm not going to pretend I know what all of this means yet. But I know it's real. It's in the mathematics. It's in the structure Ra gave us.
 
-There are questions now:
+The questions have sharpened:
 
-Why this particular pattern? What does it mean that the foundation is stable while the surface flickers?
+Why do standing waves anchor at the nodal points?
 
-How does this relate to the trigrams — those three-line structures that give each hexagram its character?
+How do the trigrams (three-line structures) relate to this six-line frequency stack?
 
-What happens when we layer the electromagnetic principles we've been exploring onto this breathing architecture?
+What creates the specific phase relationships that produce the short gaps at Gates 24-44?
 
 These are questions for future articles. For now, I want to sit with the image itself.
 

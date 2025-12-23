@@ -76,6 +76,46 @@ When undefined, the G Centre becomes exquisitely sensitive to place and people�
 
 ---
 
+## The Geometric Architecture: 8 + 1
+
+The electromagnetic model rests on geometric structure: 8 cube vertices + 1 central point = 9.
+
+Eight trigrams define eight electromagnetic positions on the wave. Each centre (except the G) clusters at specific positions:
+
+| Centre | Primary EM Position | Function |
+|--------|---------------------|----------|
+| G Centre | 0 (contains all 8) | Reference frame / Monopole |
+| Solar Plexus | -2 (Voltage) | Emotional amplitude |
+| Sacral | +2 (Current) | Life force flow |
+| Spleen | -1 (Gate Out) | Survival threshold |
+| Heart | +1 (Gate In) | Will threshold |
+| Root | ±3 (Storage) | Pressure storage |
+| Head | mixed | Mental pressure source |
+| Ajna | mixed | Mental processing |
+| Throat | +3/+4 (Form) | Expression/manifestation |
+
+The G Centre is unique — it spans all eight positions, containing gates from every trigram. This is why it holds the monopole: it IS the complete reference frame, not a single position on it.
+
+```
+                      HEAD (mixed)
+                         ↓
+                      AJNA (mixed)
+                         ↓
+    THROAT (+3/+4) ←── G (0/all) ──→ SPLEEN (-1)
+                         ↓
+              HEART (+1) │ SOLAR PLEXUS (-2)
+                         ↓
+                    SACRAL (+2)
+                         ↓
+                    ROOT (±3)
+```
+
+Notice the standing wave anchors: Gate 29 (Sacral), Gate 30 (Solar Plexus), Gate 51 (Heart), Gates 52/58 (Root), Gate 57 (Spleen). Every motor has at least one; awareness centres have Gate 57. The geometric distribution creates operational reliability.
+
+> **For deeper foundation:** Position +3 (The Architecture), Chapter 5 derives the 8+1 structure. Chapter 6 explains why standing waves enable motor function.
+
+---
+
 ## The Quantum-Classical Spectrum
 
 Here's where the electromagnetic framework reveals something profound. The centres don't just process different functions—they exist at different points on a quantum-to-classical spectrum.

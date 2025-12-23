@@ -196,6 +196,40 @@ The wheel holds this. Every hexagram sits somewhere in this cycle — its lower 
 
 ---
 
+## Connection to the Electromagnetic Positions
+
+The eight-phase cycle maps directly to the electromagnetic positions established in Position +1 (The Wave):
+
+| Trigram | Cycle Phase | EM Position | Wave Function |
+|---------|-------------|-------------|---------------|
+| Earth | Ground/Manifestation | +4 (Sink) | Form receives |
+| Mountain | Storage | +3 (Inductance) | Pattern crystallises |
+| Water | Current | +2 (Current) | Flow sustains |
+| Wind | Pressure | -1 (Gate Out) | Threshold releases |
+| Heaven | Peak/Seed | -4 (Source) | Potential maximises |
+| Lake | Opening | -3 (Capacitance) | Charge begins release |
+| Fire | Radiation | -2 (Voltage) | Amplitude oscillates |
+| Thunder | Discharge | +1 (Gate In) | Energy strikes into form |
+
+The standing waves (Gates 1, 2, 29, 30, 51, 52, 57, 58) anchor specific cycle points:
+
+- **Gate 1** (Heaven/Heaven) anchors the peak — maximum charge, the seed point
+- **Gate 2** (Earth/Earth) anchors the ground — maximum form, the manifestation point
+- **Gate 29** (Water/Water) anchors the flow — sustained current
+- **Gate 30** (Fire/Fire) anchors the radiation — sustained oscillation
+- **Gate 51** (Thunder/Thunder) anchors the discharge — the spark
+- **Gate 52** (Mountain/Mountain) anchors the storage — contained potential
+- **Gate 57** (Wind/Wind) anchors the threshold — persistent pressure
+- **Gate 58** (Lake/Lake) anchors the opening — capacitive release
+
+Every standing wave is a *doubled* cycle position — the same phase above and below. They don't move through the cycle; they ARE the cycle positions, frozen and anchored.
+
+This is why standing waves enable motors. They hold stable positions in the electromagnetic cycle, creating the fixed reference points around which oscillation can occur.
+
+> **For deeper foundation:** Position -1 (The Proof), Chapter 5 proves why standing waves are structurally privileged. Position +3 (The Architecture), Chapter 6 explains how this privilege enables motor function.
+
+---
+
 ## Why This Matters
 
 This isn't just pretty structure. It's operational.

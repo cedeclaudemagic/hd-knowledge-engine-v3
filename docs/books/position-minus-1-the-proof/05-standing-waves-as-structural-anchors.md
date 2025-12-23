@@ -313,6 +313,8 @@ The secondary anchors (51, 52, 57, 58) occupy the gate and storage positions: ±
 
 The electromagnetic framework, derived independently, aligns with phase-shift mathematics.
 
+> **Operational Significance:** What does this mathematical privilege mean in practice? Position +3 (The Architecture), Chapter 6 addresses this directly. There we show that every motor centre in Human Design requires standing wave gates for reliable generation. The Sacral (Gate 29 at +2), Solar Plexus (Gate 30 at -2), Heart (Gate 51 at +1), and Root (Gates 52 and 58 at ±3) all anchor their generative capacity in standing waves. Centres without standing waves can process energy but cannot create it. The phase-invariance proven here is why motors can sustain oscillation—the mathematics IS the mechanism.
+
 ---
 
 ## Summary

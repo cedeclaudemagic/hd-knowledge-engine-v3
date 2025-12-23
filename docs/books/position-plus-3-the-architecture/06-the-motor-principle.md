@@ -24,6 +24,8 @@ Every single motor has at least one standing wave gate. The centres without stan
 
 Generation requires an anchor. And standing waves are that anchor.
 
+> **Mathematical Foundation:** Why standing waves have this privilege is proven in Position -1 (The Proof), Chapter 5. There we establish that the 8 standing wave gates split into two tiers based on palindrome structure: 4 absolute anchors (100% phase-invariant across all phase shifts) and 4 secondary anchors (67-83% phase-stable). The absolute anchors occupy electromagnetic positions ±2 and ±4; the secondary anchors occupy ±1 and ±3. This mathematical phase-invariance is exactly what enables reliable motor generation. The math isn't metaphor—it's structure.
+
 ---
 
 ## Standing Waves: The Anchors
@@ -234,6 +236,14 @@ Each standing wave carries the teaching of what that motor generates. The names 
 The motors generate according to their nature. Fire burns and clings. Water commits and deepens. Thunder shocks and arouses. Mountain stills and pressures. Lake opens and enjoys.
 
 Standing waves anchor. Motors generate. The fuel flows according to its nature.
+
+---
+
+## See Also
+
+**Mathematical Foundation:**
+- [Position -1, Chapter 5: Standing Waves as Structural Anchors](../position-minus-1-the-proof/05-standing-waves-as-structural-anchors.md) — proves why 8 standing waves exist and their two-tier hierarchy
+- [Position -1, Chapter 2: The Palindrome Principle](../position-minus-1-the-proof/02-the-palindrome-principle.md) — proves phase-invariance of palindromic patterns
 
 ---
 

@@ -117,6 +117,8 @@ The experience of Sacral Authority is that immediate body knowing. Something sho
 
 Sacral outranks everything below it because at the current position, the signal is about *sustained flow*. If the flow is wrong, nothing downstream will work right. The life force itself is saying no.
 
+> **Mathematical Foundation:** The Sacral's instant reliability has a precise mathematical basis. Gate 29 (Water over Water) is the Sacral's standing wave anchor — and it's *palindromic*. Position -1 (The Proof), Chapter 5 proves that palindromic patterns maintain 100% phase-invariance across all possible phase shifts. This isn't metaphor — it's why Sacral response is instant and doesn't need time to stabilise. The signal is structurally stable. Gate 30 (Fire over Fire) at the Solar Plexus is also palindromic and 100% phase-invariant, but its electromagnetic position (-2, voltage) creates amplitude oscillation, which is why Emotional Authority requires waiting. Same mathematical privilege, different positional behaviour.
+
 ---
 
 ### Splenic Authority (Position -1)
@@ -277,6 +279,17 @@ It's not mysticism. It's physics.
 And the physics says: your signal is reliable. You just have to learn to hear it clearly, and to stop letting the mind convince you it knows better.
 
 The mind is a wonderful tool. It just isn't your Authority.
+
+---
+
+## See Also
+
+**Mathematical Foundation:**
+- [Position -1, Chapter 5: Standing Waves as Structural Anchors](../position-minus-1-the-proof/05-standing-waves-as-structural-anchors.md) — proves why palindromic gates (29, 30) are 100% phase-invariant
+- [Position -1, Chapter 7: EM Positions Emergent](../position-minus-1-the-proof/07-em-positions-emergent.md) — derives the electromagnetic positions from binary structure
+
+**Related Architecture:**
+- [Chapter 6: The Motor Principle](./06-the-motor-principle.md) — how standing waves enable generation
 
 ---
 

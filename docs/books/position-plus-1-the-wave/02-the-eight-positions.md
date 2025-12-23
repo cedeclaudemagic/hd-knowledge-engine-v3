@@ -264,6 +264,79 @@ This isn't mysticism. It's mathematics. The ancients encoded wave position in a 
 
 ---
 
+## Why Eight — And Only Eight
+
+Why eight positions? Not seven, not nine, not twelve — eight. Is this arbitrary, or is there something necessary about this number?
+
+There are two ways to derive it. They arrive at the same answer from different directions.
+
+### The Geometric Derivation
+
+Think about binary choices. Each line in a trigram is either solid (yang, 1) or broken (yin, 0). Two possibilities per line.
+
+Three lines means 2 × 2 × 2 = 8 possible combinations. No more, no fewer.
+
+But here's what makes this geometric: three binary dimensions form a *cube*.
+
+Imagine a cube in space. Each corner (vertex) is defined by three coordinates — each either 0 or 1. How many corners does a cube have? Eight.
+
+```
+        111 ●───────────● 110
+           /|          /|
+          / |         / |
+     011 ●───────────● 110
+         |  |        |  |
+         |  ● ───────|──● 100
+         | / 001     | /
+         |/          |/
+     000 ●───────────● 010
+```
+
+The eight trigrams ARE the eight vertices of a cube. Heaven (111) sits at one corner. Earth (000) sits at the opposite corner, as far as you can get in all three dimensions. Fire and Water, Lake and Mountain, Wind and Thunder — all of them occupy specific vertices, positioned by their binary codes.
+
+This is why the I Ching uses three-line symbols. Not mystical tradition — geometric necessity. Three dimensions. Eight vertices. Eight positions.
+
+### The Electromagnetic Derivation
+
+Now approach it from the wave itself.
+
+An electromagnetic wave has two aspects: amplitude and phase. At any moment, the wave is somewhere between its positive and negative extremes.
+
+For a complete description, you need:
+- **Polarity**: Which domain are you in? (potential or form)
+- **Magnitude**: How far from zero? (threshold, flow, storage, or pole)
+- **Phase**: Where in the cycle? (building or releasing)
+
+Polarity gives you 2 options.
+Magnitude gives you 4 distances from zero.
+
+2 × 4 = 8 positions.
+
+But there's something deeper. A complete AC cycle requires returning to where you started — passing through all states and coming back. The minimum number of distinct states needed for a complete oscillation with:
+- Two poles (extreme positive and negative)
+- Balanced intermediate steps
+- Complementary structure (each state has an opposite)
+
+...is eight.
+
+Four states in each domain. Four pairs of complements. Eight positions total.
+
+### The Unity
+
+Both derivations arrive at eight. This isn't coincidence — they're describing the same underlying structure from different angles.
+
+The cube IS the wave. The vertices ARE the positions. The binary addresses ARE the electromagnetic states.
+
+Three dimensions of binary choice create eight vertices.
+Two domains with four magnitudes create eight positions.
+One wave with four complementary axes creates eight states.
+
+Eight is where geometry and electromagnetism meet. It's where the cube and the wave are revealed as the same thing.
+
+> **Mathematical Foundation:** Position -1 (The Proof), Chapter 7 derives the electromagnetic positions from binary structure, showing how the wave positions emerge necessarily from the mathematics. Position -4 (The Geometry of Consciousness) derives the cube structure from first principles.
+
+---
+
 ## Why This Matters
 
 We've now met the eight positions. Not as mystical symbols but as places on a wave. Not as metaphors but as addresses.
