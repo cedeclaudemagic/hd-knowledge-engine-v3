@@ -109,6 +109,7 @@ docs/
 |----------|---------|----------|
 | DERIVATION-STATUS-MAP.md | Master index | /docs/research/ |
 | FRAMEWORK-INTEGRATION-ANALYSIS.md | EM vs geometric coverage analysis | /docs/research/ |
+| HD-THEMES-COVERAGE-MAP.md | All HD themes by coverage status | /docs/research/ |
 | GATE-REFERENCE-TABLE.md | Comprehensive 64-gate reference | /docs/reference/ |
 | four-axes-framework.md | Foundation | /framework/foundation/ |
 | nine-centres.md | Centre derivation | /framework/hd-structures/ |

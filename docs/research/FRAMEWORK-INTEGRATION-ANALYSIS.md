@@ -270,6 +270,7 @@ A systematic effort to show how standing wave properties create operational reli
 
 ## Related Documents
 
+- [HD-THEMES-COVERAGE-MAP.md](HD-THEMES-COVERAGE-MAP.md) - All HD themes by coverage status
 - [GATE-REFERENCE-TABLE.md](../reference/GATE-REFERENCE-TABLE.md) - Comprehensive 64-gate reference
 - [DERIVATION-STATUS-MAP.md](DERIVATION-STATUS-MAP.md) - What's proven vs transmitted
 - [POSITION-REFERENCE-CARD.md](../POSITION-REFERENCE-CARD.md) - Position system quick reference
