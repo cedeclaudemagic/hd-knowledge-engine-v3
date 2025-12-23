@@ -59,8 +59,13 @@ docs/
 │   ├── position-plus-3-the-architecture/
 │   └── series/
 │
-├── reference/                 # Source materials
-├── research/                  # Working research (legacy)
+├── reference/                 # Reference materials
+│   └── GATE-REFERENCE-TABLE.md  # Comprehensive 64-gate reference
+│
+├── research/                  # Research analysis
+│   ├── DERIVATION-STATUS-MAP.md
+│   └── FRAMEWORK-INTEGRATION-ANALYSIS.md
+│
 └── archive/                   # Superseded documents
 ```
 
@@ -102,7 +107,9 @@ docs/
 
 | Document | Purpose | Location |
 |----------|---------|----------|
-| DERIVATION-STATUS-MAP.md | Master index | /docs/ |
+| DERIVATION-STATUS-MAP.md | Master index | /docs/research/ |
+| FRAMEWORK-INTEGRATION-ANALYSIS.md | EM vs geometric coverage analysis | /docs/research/ |
+| GATE-REFERENCE-TABLE.md | Comprehensive 64-gate reference | /docs/reference/ |
 | four-axes-framework.md | Foundation | /framework/foundation/ |
 | nine-centres.md | Centre derivation | /framework/hd-structures/ |
 | planetary-40-percent.md | Derivation boundary | /investigations/boundaries/ |
