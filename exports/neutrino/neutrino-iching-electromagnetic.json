@@ -1,0 +1,2050 @@
+{
+  "1": {
+    "1": {
+      "name": "Gate 1 Line 1 - Creation independent of will",
+      "asc": "[doubled] entry-inner at poles (-4→-4): Entry into pure source position. Creation independent of will — timing as the key to self-expression",
+      "desc": "Shadow: Impatience disrupting natural creative timing. Inner: Heaven (-4), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 1 Line 2 - Love as the light of creation",
+      "asc": "[doubled] development-inner at poles (-4→-4): Development within pure source. Love as the light of creation — beauty harmonising inspiration",
+      "desc": "Shadow: Desire and passion displacing creative clarity. Inner: Heaven (-4), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 1 Line 3 - The energy to sustain creative work",
+      "asc": "[doubled] completion-inner at poles (-4→-4): Completion of inner source — perfected creative energy. The energy to sustain creative work — deep need for self-expression",
+      "desc": "Shadow: Burnout from unsustainable creative output. Inner: Heaven (-4), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 1 Line 4 - Aloneness as the medium for creativity",
+      "asc": "[doubled] entry-outer at poles (-4→-4): Expression shift — internal creation becomes external expression. Aloneness as the medium for creativity — solitary self-expression",
+      "desc": "Shadow: Social rejection blocking authentic expression. Inner: Heaven (-4), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 1 Line 5 - Attraction",
+      "asc": "[doubled] development-outer at poles (-4→-4): Development of external expression. Attraction — creative magnetism that draws attention naturally",
+      "desc": "Shadow: Ego attachment to being seen. Inner: Heaven (-4), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 1 Line 6 - Objectivity",
+      "asc": "[doubled] completion-outer at poles (-4→-4): Completion at pure source — standing wave limit. Objectivity — seeing clearly without personal distortion",
+      "desc": "Shadow: Subjectivity — losing the reference frame through personal identification. Inner: Heaven (-4), Outer: Heaven (-4)"
+    }
+  },
+  "2": {
+    "1": {
+      "name": "Gate 2 Line 1 - Intuition",
+      "asc": "[doubled] entry-inner at poles (4→4): Entry into pure sink position — receptivity begins. Intuition — receptive knowing that doesn't require understanding",
+      "desc": "Shadow: Doubt undermining intuitive reception. Inner: Earth (4), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 2 Line 2 - Genius",
+      "asc": "[doubled] development-inner at poles (4→4): Development within pure sink. Genius — receptivity so complete it accesses universal patterns",
+      "desc": "Shadow: Cynicism blocking the flow of received insight. Inner: Earth (4), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 2 Line 3 - Patience",
+      "asc": "[doubled] completion-inner at poles (4→4): Completion of inner sink — perfected receptivity. Patience — enduring through waiting for what must be received",
+      "desc": "Shadow: Impatience forcing action before reception is complete. Inner: Earth (4), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 2 Line 4 - Secretiveness",
+      "asc": "[doubled] entry-outer at poles (4→4): Expression shift — internal reception becomes external knowing. Secretiveness — not needing to express what has been received",
+      "desc": "Shadow: Manipulation through withholding. Inner: Earth (4), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 2 Line 5 - Application",
+      "asc": "[doubled] development-outer at poles (4→4): Development of external reception. Application — practical grounding of what has been received",
+      "desc": "Shadow: Theory without practice. Inner: Earth (4), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 2 Line 6 - Fixation",
+      "asc": "[doubled] completion-outer at poles (4→4): Completion at pure sink — standing wave limit. Fixation — the perfected form that can become too fixed",
+      "desc": "Shadow: Rigidity — too fixed to receive new direction. Inner: Earth (4), Outer: Earth (4)"
+    }
+  },
+  "3": {
+    "1": {
+      "name": "Gate 3 Line 1 - Synthesis",
+      "asc": "[same-phase-material] entry-inner at gates (1→2): Entry into material circulation from gate-in (matter gate). Synthesis — doing at this position",
+      "desc": "Shadow: The inability to know that order will emerge and the drive to find this knowing elsewhere.. Inner: Thunder (1), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 3 Line 2 - Immaturity",
+      "asc": "[same-phase-material] development-inner at gates (1→2): Development within material circulation from gate-in (matter gate). Immaturity — moving at this position",
+      "desc": "Shadow: Energy and potential that is conditioned by others leading to instability.. Inner: Thunder (1), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 3 Line 3 - Survival",
+      "asc": "[same-phase-material] completion-inner at gates (1→2): Completion of material circulation from gate-in (matter gate). Survival — structuring at this position",
+      "desc": "Shadow: An innate contrariness which refuses to mutate.. Inner: Thunder (1), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 3 Line 4 - Charisma",
+      "asc": "[same-phase-material] entry-outer at gates (1→2): Polarity flip — reversal within the domain. Charisma — progressing at this position",
+      "desc": "Shadow: Confused energy that needs nourishment but is generally rejected.. Inner: Thunder (1), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 3 Line 5 - Victimisation",
+      "asc": "[same-phase-material] development-outer at gates (1→2): Development within material domain at current (matter flow). Victimisation — progressing at this position",
+      "desc": "Shadow: Confused energy which is dominated by the ordering power of others.. Inner: Thunder (1), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 3 Line 6 - Surrender",
+      "asc": "[same-phase-material] completion-outer at gates (1→2): Completion of material domain at current (matter flow). Surrender — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Thunder (1), Outer: Water (2)"
+    }
+  },
+  "4": {
+    "1": {
+      "name": "Gate 4 Line 1 - Pleasure",
+      "asc": "[same-phase-material] entry-inner at flow (2→3): Entry into material circulation from current (matter flow). Pleasure — doing at this position",
+      "desc": "Shadow: The potential to recognize but the urge to force the timing.. Inner: Water (2), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 4 Line 2 - Acceptance",
+      "asc": "[same-phase-material] development-inner at flow (2→3): Development within material circulation from current (matter flow). Acceptance — moving at this position",
+      "desc": "Shadow: The potential to take advantage of the lack of understanding in others.. Inner: Water (2), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 4 Line 3 - Irresponsibility",
+      "asc": "[same-phase-material] completion-inner at flow (2→3): Completion of material circulation from current (matter flow). Irresponsibility — structuring at this position",
+      "desc": "Shadow: The potential to justify such a process in order to maintain it.. Inner: Water (2), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 4 Line 4 - The Liar",
+      "asc": "[same-phase-material] entry-outer at flow (2→3): Polarity flip — reversal within the domain. The Liar — progressing at this position",
+      "desc": "Shadow: The potential danger, to see the fantasy as fact.. Inner: Water (2), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 4 Line 5 - Seduction",
+      "asc": "[same-phase-material] development-outer at flow (2→3): Development within material domain at inductance (matter storage). Seduction — progressing at this position",
+      "desc": "Shadow: The potential for cynicism that comes with always having to acknowledge the understanding of others.. Inner: Water (2), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 4 Line 6 - Excess",
+      "asc": "[same-phase-material] completion-outer at flow (2→3): Completion of material domain at inductance (matter storage). Excess — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Water (2), Outer: Mountain (3)"
+    }
+  },
+  "5": {
+    "1": {
+      "name": "Gate 5 Line 1 - Perseverance",
+      "asc": "[cross-zero-manifesting] entry-inner at poles (-4→2): Entry into void domain at source (void pole) — preparing to manifest. Perseverance — becoming at this position",
+      "desc": "Shadow: Weakness in maintaining ones rhythm when challenged.. Inner: Heaven (-4), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 5 Line 2 - Inner peace",
+      "asc": "[cross-zero-manifesting] development-inner at poles (-4→2): Development within void domain at source (void pole) — preparing to manifest. Inner peace — crossing at this position",
+      "desc": "Shadow: The drive for power that is constrained by the fixed rhythm.. Inner: Heaven (-4), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 5 Line 3 - Compulsiveness",
+      "asc": "[cross-zero-manifesting] completion-inner at poles (-4→2): Completion of void domain at source (void pole) — preparing to manifest. Compulsiveness — releasing at this position",
+      "desc": "Shadow: Unable to surrender and at odds with ones own rhythm.. Inner: Heaven (-4), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 5 Line 4 - The Hunter",
+      "asc": "[cross-zero-manifesting] entry-outer at poles (-4→2): Mode shift — crossing zero between domains. The Hunter — building at this position",
+      "desc": "Shadow: The drive to deny ones own rhythms with predictable costs.. Inner: Heaven (-4), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 5 Line 5 - Joy",
+      "asc": "[cross-zero-manifesting] development-outer at poles (-4→2): Development within matter domain at current (matter flow) — having crossed zero. Joy — building at this position",
+      "desc": "Shadow: Disillusionment with recognizing one's place in the flow.. Inner: Heaven (-4), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 5 Line 6 - Yielding",
+      "asc": "[cross-zero-manifesting] completion-outer at poles (-4→2): Completion of matter domain at current (matter flow) — having crossed zero. Yielding — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Heaven (-4), Outer: Water (2)"
+    }
+  },
+  "6": {
+    "1": {
+      "name": "Gate 6 Line 1 - Retreat",
+      "asc": "[cross-zero-dematerialising] entry-inner at flow (2→-4): Entry into matter domain at current (matter flow) — preparing to release. Retreat — becoming at this position",
+      "desc": "Shadow: Emotional instability in times of intimacy.. Inner: Water (2), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 6 Line 2 - The guerrilla",
+      "asc": "[cross-zero-dematerialising] development-inner at flow (2→-4): Development within matter domain at current (matter flow) — preparing to release. The guerrilla — crossing at this position",
+      "desc": "Shadow: A lack of sensitivity that blunders into conflict.. Inner: Water (2), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 6 Line 3 - Allegiance",
+      "asc": "[cross-zero-dematerialising] completion-inner at flow (2→-4): Completion of matter domain at current (matter flow) — preparing to release. Allegiance — releasing at this position",
+      "desc": "Shadow: Sensitivity to controls which may eventually reject intimacy.. Inner: Water (2), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 6 Line 4 - Triumph",
+      "asc": "[cross-zero-dematerialising] entry-outer at flow (2→-4): Mode shift — crossing zero between domains. Triumph — building at this position",
+      "desc": "Shadow: The lack of emotional control that is destructive in relationships.. Inner: Water (2), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 6 Line 5 - Arbitration",
+      "asc": "[cross-zero-dematerialising] development-outer at flow (2→-4): Development within void domain at source (void pole) — having crossed zero. Arbitration — building at this position",
+      "desc": "Shadow: Insensitivity to the concerns of others in a conflict.. Inner: Water (2), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 6 Line 6 - The peacemaker",
+      "asc": "[cross-zero-dematerialising] completion-outer at flow (2→-4): Completion of void domain at source (void pole) — having crossed zero. The peacemaker — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Water (2), Outer: Heaven (-4)"
+    }
+  },
+  "7": {
+    "1": {
+      "name": "Gate 7 Line 1 - Authoritarian",
+      "asc": "[same-phase-material] entry-inner at flow (2→4): Entry into material circulation from current (matter flow). Authoritarian — doing at this position",
+      "desc": "Shadow: The capacity of the Self to insist that its authority is best.. Inner: Water (2), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 7 Line 2 - The democrat",
+      "asc": "[same-phase-material] development-inner at flow (2→4): Development within material circulation from current (matter flow). The democrat — moving at this position",
+      "desc": "Shadow: The capacity of the Self once chosen to feel superior to those who chose them.. Inner: Water (2), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 7 Line 3 - The anarchist",
+      "asc": "[same-phase-material] completion-inner at flow (2→4): Completion of material circulation from current (matter flow). The anarchist — structuring at this position",
+      "desc": "Shadow: The capacity of the Self to deny value in any role.. Inner: Water (2), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 7 Line 4 - The abdicator",
+      "asc": "[same-phase-material] entry-outer at flow (2→4): Polarity flip — reversal within the domain. The abdicator — progressing at this position",
+      "desc": "Shadow: The refusal of the Self to accept the judgment of others.. Inner: Water (2), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 7 Line 5 - The general",
+      "asc": "[same-phase-material] development-outer at flow (2→4): Development within material domain at sink (matter pole). The general — progressing at this position",
+      "desc": "Shadow: The lack of loyalty when the Self insists on isolation.. Inner: Water (2), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 7 Line 6 - The administrator",
+      "asc": "[same-phase-material] completion-outer at flow (2→4): Completion of material domain at sink (matter pole). The administrator — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Water (2), Outer: Earth (4)"
+    }
+  },
+  "8": {
+    "1": {
+      "name": "Gate 8 Line 1 - Honesty",
+      "asc": "[same-phase-material] entry-inner at poles (4→2): Entry into material circulation from sink (matter pole). Honesty — doing at this position",
+      "desc": "Shadow: The design to share creativity at the expense of individuality.. Inner: Earth (4), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 8 Line 2 - Service",
+      "asc": "[same-phase-material] development-inner at poles (4→2): Development within material circulation from sink (matter pole). Service — moving at this position",
+      "desc": "Shadow: The willingness to be an example for a price.. Inner: Earth (4), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 8 Line 3 - The phoney",
+      "asc": "[same-phase-material] completion-inner at poles (4→2): Completion of material circulation from sink (matter pole). The phoney — structuring at this position",
+      "desc": "Shadow: An overreliance and unfounded confidence in style.. Inner: Earth (4), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 8 Line 4 - Respect",
+      "asc": "[same-phase-material] entry-outer at poles (4→2): Polarity flip — reversal within the domain. Respect — progressing at this position",
+      "desc": "Shadow: A gift for contribution that is not conditioned by limitations.. Inner: Earth (4), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 8 Line 5 - Dharma",
+      "asc": "[same-phase-material] development-outer at poles (4→2): Development within material domain at current (matter flow). Dharma — progressing at this position",
+      "desc": "Shadow: Contribution as an end in itself that neither accepts nor expects limitation exemplified by the parent that cannot let go of the child.. Inner: Earth (4), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 8 Line 6 - Communion",
+      "asc": "[same-phase-material] completion-outer at poles (4→2): Completion of material domain at current (matter flow). Communion — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Earth (4), Outer: Water (2)"
+    }
+  },
+  "9": {
+    "1": {
+      "name": "Gate 9 Line 1 - Sensibility",
+      "asc": "[same-phase-void] entry-inner at poles (-4→-1): Entry into void circulation from source (void pole). Sensibility — doing at this position",
+      "desc": "Shadow: The power to generate that will lose its focus.. Inner: Heaven (-4), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 9 Line 2 - Misery loves company",
+      "asc": "[same-phase-void] development-inner at poles (-4→-1): Development within void circulation from source (void pole). Misery loves company — moving at this position",
+      "desc": "Shadow: The drive to collaborate that will miss the focus.. Inner: Heaven (-4), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 9 Line 3 - The straw that breaks the camel's back",
+      "asc": "[same-phase-void] completion-inner at poles (-4→-1): Completion of void circulation from source (void pole). The straw that breaks the camel's back — structuring at this position",
+      "desc": "Shadow: The power to turn a focus into an obsession.. Inner: Heaven (-4), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 9 Line 4 - Dedication",
+      "asc": "[same-phase-void] entry-outer at poles (-4→-1): Relational reorientation — relationship to potential changes. Dedication — progressing at this position",
+      "desc": "Shadow: The drive for action that ignores the details.. Inner: Heaven (-4), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 9 Line 5 - Faith",
+      "asc": "[same-phase-void] development-outer at poles (-4→-1): Development within void domain at gate-out (void gate). Faith — progressing at this position",
+      "desc": "Shadow: Where the lack of power to concentrate leads to doubt.. Inner: Heaven (-4), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 9 Line 6 - Gratitude",
+      "asc": "[same-phase-void] completion-outer at poles (-4→-1): Completion of void domain at gate-out (void gate). Gratitude — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Heaven (-4), Outer: Wind (-1)"
+    }
+  },
+  "10": {
+    "1": {
+      "name": "Gate 10 Line 1 - Modesty",
+      "asc": "[same-phase-void] entry-inner at storage (-3→-4): Entry into void circulation from capacitance (void storage). Modesty — doing at this position",
+      "desc": "Shadow: Oversensitivity to external conditioning of behavior.. Inner: Lake (-3), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 10 Line 2 - The Hermit",
+      "asc": "[same-phase-void] development-inner at storage (-3→-4): Development within void circulation from capacitance (void storage). The Hermit — moving at this position",
+      "desc": "Shadow: Isolation to preserve independent behavior in the face of conditioning.. Inner: Lake (-3), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 10 Line 3 - The Martyr",
+      "asc": "[same-phase-void] completion-inner at storage (-3→-4): Completion of void circulation from capacitance (void storage). The Martyr — structuring at this position",
+      "desc": "Shadow: Behavior as a way to attract attention.. Inner: Lake (-3), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 10 Line 4 - The Opportunist",
+      "asc": "[same-phase-void] entry-outer at storage (-3→-4): Relational reorientation — relationship to potential changes. The Opportunist — progressing at this position",
+      "desc": "Shadow: Altering one's behavioral patterns in order to take advantage of opportunities.. Inner: Lake (-3), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 10 Line 5 - The Heretic",
+      "asc": "[same-phase-void] development-outer at storage (-3→-4): Development within void domain at source (void pole). The Heretic — progressing at this position",
+      "desc": "Shadow: Behavior which directly challenges behavior and is eventually punished.. Inner: Lake (-3), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 10 Line 6 - The Role Model",
+      "asc": "[same-phase-void] completion-outer at storage (-3→-4): Completion of void domain at source (void pole). The Role Model — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Lake (-3), Outer: Heaven (-4)"
+    }
+  },
+  "11": {
+    "1": {
+      "name": "Gate 11 Line 1 - Attunement",
+      "asc": "[cross-zero-manifesting] entry-inner at poles (-4→4): Entry into void domain at source (void pole) — preparing to manifest. Attunement — becoming at this position",
+      "desc": "Shadow: The sense that no one will value their ideas.. Inner: Heaven (-4), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 11 Line 2 - Rigour",
+      "asc": "[cross-zero-manifesting] development-inner at poles (-4→4): Development within void domain at source (void pole) — preparing to manifest. Rigour — crossing at this position",
+      "desc": "Shadow: Provoking with ideas to escape boredom.. Inner: Heaven (-4), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 11 Line 3 - The Realist",
+      "asc": "[cross-zero-manifesting] completion-inner at poles (-4→4): Completion of void domain at source (void pole) — preparing to manifest. The Realist — releasing at this position",
+      "desc": "Shadow: A pleasure in ideas that have no real application.. Inner: Heaven (-4), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 11 Line 4 - The Teacher",
+      "asc": "[cross-zero-manifesting] entry-outer at poles (-4→4): Mode shift — crossing zero between domains. The Teacher — building at this position",
+      "desc": "Shadow: Ideas which can only be grasped by the few.. Inner: Heaven (-4), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 11 Line 5 - The Philanthropist",
+      "asc": "[cross-zero-manifesting] development-outer at poles (-4→4): Development within matter domain at sink (matter pole) — having crossed zero. The Philanthropist — building at this position",
+      "desc": "Shadow: Giving away ideas out of a sense of insecurity.. Inner: Heaven (-4), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 11 Line 6 - Adaptability",
+      "asc": "[cross-zero-manifesting] completion-outer at poles (-4→4): Completion of matter domain at sink (matter pole) — having crossed zero. Adaptability — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Heaven (-4), Outer: Earth (4)"
+    }
+  },
+  "12": {
+    "1": {
+      "name": "Gate 12 Line 1 - Withdrawal",
+      "asc": "[cross-zero-dematerialising] entry-inner at poles (4→-4): Entry into full polar transit from matter to void. Withdrawal — pulling back as preparation for transformation",
+      "desc": "Shadow: Withdrawal as permanent retreat from life. Inner: Earth (4), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 12 Line 2 - Purification",
+      "asc": "[cross-zero-dematerialising] development-inner at poles (4→-4): Development of dematerialisation process. Purification — cleansing what must be released",
+      "desc": "Shadow: Self-indulgent purification that never completes. Inner: Earth (4), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 12 Line 3 - Confession",
+      "asc": "[cross-zero-dematerialising] completion-inner at poles (4→-4): Completion of inner matter — preparing to cross zero. Confession — recognizing inadequacies, purging vanities",
+      "desc": "Shadow: Confession as performance rather than release. Inner: Earth (4), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 12 Line 4 - The Prophet",
+      "asc": "[cross-zero-dematerialising] entry-outer at poles (4→-4): Mode shift — crossing zero into void domain. The Prophet — speaking from void side after crossing",
+      "desc": "Shadow: False prophecy from incomplete crossing. Inner: Earth (4), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 12 Line 5 - The Pragmatist",
+      "asc": "[cross-zero-dematerialising] development-outer at poles (4→-4): Development in void domain after crossing. The Pragmatist — practical application of transcendent insight",
+      "desc": "Shadow: Pragmatism that loses transcendent source. Inner: Earth (4), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 12 Line 6 - Metamorphosis",
+      "asc": "[cross-zero-dematerialising] completion-outer at poles (4→-4): Completion at source pole — full dematerialisation. Metamorphosis — complete transformation, new social form",
+      "desc": "Shadow: Refusing completion — perfected adaptation to standstill. Inner: Earth (4), Outer: Heaven (-4)"
+    }
+  },
+  "13": {
+    "1": {
+      "name": "Gate 13 Line 1 - Empathy",
+      "asc": "[same-phase-void] entry-inner at flow (-2→-4): Entry into void circulation from voltage (void flow). Empathy — doing at this position",
+      "desc": "Shadow: An openness that is never free of motives.. Inner: Fire (-2), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 13 Line 2 - Bigotry",
+      "asc": "[same-phase-void] development-inner at flow (-2→-4): Development within void circulation from voltage (void flow). Bigotry — moving at this position",
+      "desc": "Shadow: A role of openness so narrow that there is practically no one worth listening to.. Inner: Fire (-2), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 13 Line 3 - Pessimism",
+      "asc": "[same-phase-void] completion-inner at flow (-2→-4): Completion of void circulation from voltage (void flow). Pessimism — structuring at this position",
+      "desc": "Shadow: Where the rightness of suspicion can inspire satire.. Inner: Fire (-2), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 13 Line 4 - Fatigue",
+      "asc": "[same-phase-void] entry-outer at flow (-2→-4): Relational reorientation — relationship to potential changes. Fatigue — progressing at this position",
+      "desc": "Shadow: A role where openness is a vulnerability.. Inner: Fire (-2), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 13 Line 5 - The Saviour",
+      "asc": "[same-phase-void] development-outer at flow (-2→-4): Development within void domain at source (void pole). The Saviour — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Fire (-2), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 13 Line 6 - The Optimist",
+      "asc": "[same-phase-void] completion-outer at flow (-2→-4): Completion of void domain at source (void pole). The Optimist — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Fire (-2), Outer: Heaven (-4)"
+    }
+  },
+  "14": {
+    "1": {
+      "name": "Gate 14 Line 1 - Money isn't everything",
+      "asc": "[same-phase-void] entry-inner at poles (-4→-2): Entry into void circulation from source (void pole). Money isn't everything — doing at this position",
+      "desc": "Shadow: Energy alone can never be the key.. Inner: Heaven (-4), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 14 Line 2 - Management",
+      "asc": "[same-phase-void] development-inner at poles (-4→-2): Development within void circulation from source (void pole). Management — moving at this position",
+      "desc": "Shadow: The key to power is doing everything individually.. Inner: Heaven (-4), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 14 Line 3 - Service",
+      "asc": "[same-phase-void] completion-inner at poles (-4→-2): Completion of void circulation from source (void pole). Service — structuring at this position",
+      "desc": "Shadow: The power of selfishness to fuel greed.. Inner: Heaven (-4), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 14 Line 4 - Security",
+      "asc": "[same-phase-void] entry-outer at poles (-4→-2): Relational reorientation — relationship to potential changes. Security — progressing at this position",
+      "desc": "Shadow: Without the proper skills the inability to guarantee security.. Inner: Heaven (-4), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 14 Line 5 - Arrogance",
+      "asc": "[same-phase-void] development-outer at poles (-4→-2): Development within void domain at voltage (void flow). Arrogance — progressing at this position",
+      "desc": "Shadow: Innate recognition of those without power fueling the illusion of superiority.. Inner: Heaven (-4), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 14 Line 6 - Humility",
+      "asc": "[same-phase-void] completion-outer at poles (-4→-2): Completion of void domain at voltage (void flow). Humility — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Heaven (-4), Outer: Fire (-2)"
+    }
+  },
+  "15": {
+    "1": {
+      "name": "Gate 15 Line 1 - Duty",
+      "asc": "[same-phase-material] entry-inner at storage (3→4): Entry into material circulation from inductance (matter storage). Duty — doing at this position",
+      "desc": "Shadow: The capacity of the Self to alienate others through extremes.. Inner: Mountain (3), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 15 Line 2 - Influence",
+      "asc": "[same-phase-material] development-inner at storage (3→4): Development within material circulation from inductance (matter storage). Influence — moving at this position",
+      "desc": "Shadow: The capacity to use the extreme nature of the self to influence others.. Inner: Mountain (3), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 15 Line 3 - Ego inflation",
+      "asc": "[same-phase-material] completion-inner at storage (3→4): Completion of material circulation from inductance (matter storage). Ego inflation — structuring at this position",
+      "desc": "Shadow: The capacity of the Self to point out the extremes of others.. Inner: Mountain (3), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 15 Line 4 - The wallflower",
+      "asc": "[same-phase-material] entry-outer at storage (3→4): Polarity flip — reversal within the domain. The wallflower — progressing at this position",
+      "desc": "Shadow: Extremism that keeps the Self out of the flow.. Inner: Mountain (3), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 15 Line 5 - Sensitivity",
+      "asc": "[same-phase-material] development-outer at storage (3→4): Development within material domain at sink (matter pole). Sensitivity — progressing at this position",
+      "desc": "Shadow: The drive of the Self to overcompensate and disturb the flow.. Inner: Mountain (3), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 15 Line 6 - Self-defence",
+      "asc": "[same-phase-material] completion-outer at storage (3→4): Completion of material domain at sink (matter pole). Self-defence — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Mountain (3), Outer: Earth (4)"
+    }
+  },
+  "16": {
+    "1": {
+      "name": "Gate 16 Line 1 - Delusion",
+      "asc": "[same-phase-material] entry-inner at poles (4→1): Entry into material circulation from sink (matter pole). Delusion — doing at this position",
+      "desc": "Shadow: The tendency to express fantasy as fact.. Inner: Earth (4), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 16 Line 2 - The Cynic",
+      "asc": "[same-phase-material] development-inner at poles (4→1): Development within material circulation from sink (matter pole). The Cynic — moving at this position",
+      "desc": "Shadow: Objectivity expressed through cynicism.. Inner: Earth (4), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 16 Line 3 - Independence",
+      "asc": "[same-phase-material] completion-inner at poles (4→1): Completion of material circulation from sink (matter pole). Independence — structuring at this position",
+      "desc": "Shadow: The need to have others confirm ones skills or talent.. Inner: Earth (4), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 16 Line 4 - The leader",
+      "asc": "[same-phase-material] entry-outer at poles (4→1): Polarity flip — reversal within the domain. The leader — progressing at this position",
+      "desc": "Shadow: The refusal to support or recognize the talents of others.. Inner: Earth (4), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 16 Line 5 - The grinch",
+      "asc": "[same-phase-material] development-outer at poles (4→1): Development within material domain at gate-in (matter gate). The grinch — progressing at this position",
+      "desc": "Shadow: A lack of confidence in the value of encouraging others.. Inner: Earth (4), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 16 Line 6 - Gullibility",
+      "asc": "[same-phase-material] completion-outer at poles (4→1): Completion of material domain at gate-in (matter gate). Gullibility — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Earth (4), Outer: Thunder (1)"
+    }
+  },
+  "17": {
+    "1": {
+      "name": "Gate 17 Line 1 - Openness",
+      "asc": "[cross-zero-dematerialising] entry-inner at gates (1→-3): Entry into matter domain at gate-in (matter gate) — preparing to release. Openness — becoming at this position",
+      "desc": "Shadow: The possibility to limit opinions to what is pleasing.. Inner: Thunder (1), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 17 Line 2 - Discrimination",
+      "asc": "[cross-zero-dematerialising] development-inner at gates (1→-3): Development within matter domain at gate-in (matter gate) — preparing to release. Discrimination — crossing at this position",
+      "desc": "Shadow: The possibility of being opinionated at the expense of relationships.. Inner: Thunder (1), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 17 Line 3 - Understanding",
+      "asc": "[cross-zero-dematerialising] completion-inner at gates (1→-3): Completion of matter domain at gate-in (matter gate) — preparing to release. Understanding — releasing at this position",
+      "desc": "Shadow: The possibility of skipping details and limiting the value of the opinion.. Inner: Thunder (1), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 17 Line 4 - The personnel manager",
+      "asc": "[cross-zero-dematerialising] entry-outer at gates (1→-3): Mode shift — crossing zero between domains. The personnel manager — building at this position",
+      "desc": "Shadow: The possibility of opinions attracting others.. Inner: Thunder (1), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 17 Line 5 - No man is an island",
+      "asc": "[cross-zero-dematerialising] development-outer at gates (1→-3): Development within void domain at capacitance (void storage) — having crossed zero. No man is an island — building at this position",
+      "desc": "Shadow: The possibility of opinions that refuse to see the value of being organized.. Inner: Thunder (1), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 17 Line 6 - The Bodhisattva",
+      "asc": "[cross-zero-dematerialising] completion-outer at gates (1→-3): Completion of void domain at capacitance (void storage) — having crossed zero. The Bodhisattva — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Thunder (1), Outer: Lake (-3)"
+    }
+  },
+  "18": {
+    "1": {
+      "name": "Gate 18 Line 1 - Conservatism",
+      "asc": "[cross-zero-manifesting] entry-inner at gates (-1→3): Entry into void domain at gate-out (void gate) — preparing to manifest. Conservatism — becoming at this position",
+      "desc": "Shadow: The potential to refuse to correct.. Inner: Wind (-1), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 18 Line 2 - Terminal disease",
+      "asc": "[cross-zero-manifesting] development-inner at gates (-1→3): Development within void domain at gate-out (void gate) — preparing to manifest. Terminal disease — crossing at this position",
+      "desc": "Shadow: The refusal to accept that there is no potential of correction.. Inner: Wind (-1), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 18 Line 3 - The zealot",
+      "asc": "[cross-zero-manifesting] completion-inner at gates (-1→3): Completion of void domain at gate-out (void gate) — preparing to manifest. The zealot — releasing at this position",
+      "desc": "Shadow: An obsession with correction that does not bring satisfaction.. Inner: Wind (-1), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 18 Line 4 - The incompetent",
+      "asc": "[cross-zero-manifesting] entry-outer at gates (-1→3): Mode shift — crossing zero between domains. The incompetent — building at this position",
+      "desc": "Shadow: The demands of correction and its potential to generate anxiety.. Inner: Wind (-1), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 18 Line 5 - Therapy",
+      "asc": "[cross-zero-manifesting] development-outer at gates (-1→3): Development within matter domain at inductance (matter storage) — having crossed zero. Therapy — building at this position",
+      "desc": "Shadow: Where relationships cannot assist in correction the potential of mental instability.. Inner: Wind (-1), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 18 Line 6 - Buddhahood",
+      "asc": "[cross-zero-manifesting] completion-outer at gates (-1→3): Completion of matter domain at inductance (matter storage) — having crossed zero. Buddhahood — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Wind (-1), Outer: Mountain (3)"
+    }
+  },
+  "19": {
+    "1": {
+      "name": "Gate 19 Line 1 - Interdependence",
+      "asc": "[cross-zero-manifesting] entry-inner at storage (-3→4): Entry into void domain at capacitance (void storage) — preparing to manifest. Interdependence — becoming at this position",
+      "desc": "Shadow: The pressure for acceptance which fears eventual rejection.. Inner: Lake (-3), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 19 Line 2 - Service",
+      "asc": "[cross-zero-manifesting] development-inner at storage (-3→4): Development within void domain at capacitance (void storage) — preparing to manifest. Service — crossing at this position",
+      "desc": "Shadow: The need to be wanted that will eventually turn its energy to service.. Inner: Lake (-3), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 19 Line 3 - Dedication",
+      "asc": "[cross-zero-manifesting] completion-inner at storage (-3→4): Completion of void domain at capacitance (void storage) — preparing to manifest. Dedication — releasing at this position",
+      "desc": "Shadow: The need to be wanted which leads to over-sensitivity.. Inner: Lake (-3), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 19 Line 4 - The team player",
+      "asc": "[cross-zero-manifesting] entry-outer at storage (-3→4): Mode shift — crossing zero between domains. The team player — building at this position",
+      "desc": "Shadow: A sensitivity energized by the limitation of others.. Inner: Lake (-3), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 19 Line 5 - Sacrifice",
+      "asc": "[cross-zero-manifesting] development-outer at storage (-3→4): Development within matter domain at sink (matter pole) — having crossed zero. Sacrifice — building at this position",
+      "desc": "Shadow: Sacrifice can fuel a lack of sensitivity.. Inner: Lake (-3), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 19 Line 6 - The recluse",
+      "asc": "[cross-zero-manifesting] completion-outer at storage (-3→4): Completion of matter domain at sink (matter pole) — having crossed zero. The recluse — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Lake (-3), Outer: Earth (4)"
+    }
+  },
+  "20": {
+    "1": {
+      "name": "Gate 20 Line 1 - Superficiality",
+      "asc": "[cross-zero-dematerialising] entry-inner at poles (4→-1): Entry into matter domain at sink (matter pole) — preparing to release. Superficiality — becoming at this position",
+      "desc": "Shadow: The expression of the superficial personality.. Inner: Earth (4), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 20 Line 2 - The dogmatist",
+      "asc": "[cross-zero-dematerialising] development-inner at poles (4→-1): Development within matter domain at sink (matter pole) — preparing to release. The dogmatist — crossing at this position",
+      "desc": "Shadow: The gift through expression of leading others down a narrow restrictive path.. Inner: Earth (4), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 20 Line 3 - Self-awareness",
+      "asc": "[cross-zero-dematerialising] completion-inner at poles (4→-1): Completion of matter domain at sink (matter pole) — preparing to release. Self-awareness — releasing at this position",
+      "desc": "Shadow: The expression of Self-consciousness in the extreme.. Inner: Earth (4), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 20 Line 4 - Application",
+      "asc": "[cross-zero-dematerialising] entry-outer at poles (4→-1): Mode shift — crossing zero between domains. Application — building at this position",
+      "desc": "Shadow: The expression of awareness as an art form with little interest in its application.. Inner: Earth (4), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 20 Line 5 - Realism",
+      "asc": "[cross-zero-dematerialising] development-outer at poles (4→-1): Development within void domain at gate-out (void gate) — having crossed zero. Realism — building at this position",
+      "desc": "Shadow: The expression of awareness in the now through dissatisfaction with the reality one sees.. Inner: Earth (4), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 20 Line 6 - Wisdom",
+      "asc": "[cross-zero-dematerialising] completion-outer at poles (4→-1): Completion of void domain at gate-out (void gate) — having crossed zero. Wisdom — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Earth (4), Outer: Wind (-1)"
+    }
+  },
+  "21": {
+    "1": {
+      "name": "Gate 21 Line 1 - Warning",
+      "asc": "[cross-zero-dematerialising] entry-inner at gates (1→-2): Entry into matter domain at gate-in (matter gate) — preparing to release. Warning — becoming at this position",
+      "desc": "Shadow: A lack of will power that is forced to ask for respect.. Inner: Thunder (1), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 21 Line 2 - Might is right",
+      "asc": "[cross-zero-dematerialising] development-inner at gates (1→-2): Development within matter domain at gate-in (matter gate) — preparing to release. Might is right — crossing at this position",
+      "desc": "Shadow: The ego uncomfortable with severity.. Inner: Thunder (1), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 21 Line 3 - Powerlessness",
+      "asc": "[cross-zero-dematerialising] completion-inner at gates (1→-2): Completion of matter domain at gate-in (matter gate) — preparing to release. Powerlessness — releasing at this position",
+      "desc": "Shadow: A lack of will for the material path in order to protect the ego.. Inner: Thunder (1), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 21 Line 4 - Strategy",
+      "asc": "[cross-zero-dematerialising] entry-outer at gates (1→-2): Mode shift — crossing zero between domains. Strategy — building at this position",
+      "desc": "Shadow: The drive when in the right to follow the ego rather than one's instincts.. Inner: Thunder (1), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 21 Line 5 - Objectivity",
+      "asc": "[cross-zero-dematerialising] development-outer at gates (1→-2): Development within void domain at voltage (void flow) — having crossed zero. Objectivity — building at this position",
+      "desc": "Shadow: The ego whose will power is applied subjectively.. Inner: Thunder (1), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 21 Line 6 - Chaos",
+      "asc": "[cross-zero-dematerialising] completion-outer at gates (1→-2): Completion of void domain at voltage (void flow) — having crossed zero. Chaos — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Thunder (1), Outer: Fire (-2)"
+    }
+  },
+  "22": {
+    "1": {
+      "name": "Gate 22 Line 1 - Second class ticket",
+      "asc": "[cross-zero-manifesting] entry-inner at flow (-2→3): Entry into void domain at voltage (void flow) — preparing to manifest. Second class ticket — becoming at this position",
+      "desc": "Shadow: Where the emotional energy challenges the awareness and can be met with humiliation socially.. Inner: Fire (-2), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 22 Line 2 - Charm school",
+      "asc": "[cross-zero-manifesting] development-inner at flow (-2→3): Development within void domain at voltage (void flow) — preparing to manifest. Charm school — crossing at this position",
+      "desc": "Shadow: Where the style is energized at the expense of awareness.. Inner: Fire (-2), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 22 Line 3 - The enchanter",
+      "asc": "[cross-zero-manifesting] completion-inner at flow (-2→3): Completion of void domain at voltage (void flow) — preparing to manifest. The enchanter — releasing at this position",
+      "desc": "Shadow: An innate openness.. Inner: Fire (-2), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 22 Line 4 - Sensitivity",
+      "asc": "[cross-zero-manifesting] entry-outer at flow (-2→3): Mode shift — crossing zero between domains. Sensitivity — building at this position",
+      "desc": "Shadow: The limitation of social openness through the need for formality.. Inner: Fire (-2), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 22 Line 5 - Directness",
+      "asc": "[cross-zero-manifesting] development-outer at flow (-2→3): Development within matter domain at inductance (matter storage) — having crossed zero. Directness — building at this position",
+      "desc": "Shadow: The possibility that individual behavior in social interaction will generate negative projections from others.. Inner: Fire (-2), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 22 Line 6 - Maturity",
+      "asc": "[cross-zero-manifesting] completion-outer at flow (-2→3): Completion of matter domain at inductance (matter storage) — having crossed zero. Maturity — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Fire (-2), Outer: Mountain (3)"
+    }
+  },
+  "23": {
+    "1": {
+      "name": "Gate 23 Line 1 - Proselytizing",
+      "asc": "[same-phase-material] entry-inner at poles (4→3): Entry into material circulation from sink toward storage. Proselytizing — the drive to spread knowing through expression",
+      "desc": "Shadow: Destructive spreading of incomplete knowing. Inner: Earth (4), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 23 Line 2 - Self-Defense",
+      "asc": "[same-phase-material] development-inner at poles (4→3): Development of material structuring. Self-Defense — protecting the unique expression from attack",
+      "desc": "Shadow: Paranoid defense that isolates. Inner: Earth (4), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 23 Line 3 - Individuality",
+      "asc": "[same-phase-material] completion-inner at poles (4→3): Completion of inner material phase — peak vitality. Individuality — vitality and personal power that attracts attention",
+      "desc": "Shadow: Individuality that repels rather than attracts. Inner: Earth (4), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 23 Line 4 - Fragmentation",
+      "asc": "[same-phase-material] entry-outer at poles (4→3): Polarity flip — vitality fragments before restructuring. Fragmentation — breaking apart of expression before new synthesis",
+      "desc": "Shadow: Permanent fragmentation without reintegration. Inner: Earth (4), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 23 Line 5 - Assimilation",
+      "asc": "[same-phase-material] development-outer at poles (4→3): Development in storage position after polarity flip. Assimilation — integrating diverse elements into new synthesis",
+      "desc": "Shadow: Failed assimilation leaving fragments unintegrated. Inner: Earth (4), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 23 Line 6 - Fusion",
+      "asc": "[same-phase-material] completion-outer at poles (4→3): Completion in storage — holding structured diversity. Fusion — bringing diverse elements to final synthesis",
+      "desc": "Shadow: Withdrawal from fusion into isolation. Inner: Earth (4), Outer: Mountain (3)"
+    }
+  },
+  "24": {
+    "1": {
+      "name": "Gate 24 Line 1 - The sin of omission",
+      "asc": "[same-phase-material] entry-inner at gates (1→4): Entry into material circulation from gate-in (matter gate). The sin of omission — doing at this position",
+      "desc": "Shadow: Inspiration that leads to an irrational focus on what's past.. Inner: Thunder (1), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 24 Line 2 - Recognition",
+      "asc": "[same-phase-material] development-inner at gates (1→4): Development within material circulation from gate-in (matter gate). Recognition — moving at this position",
+      "desc": "Shadow: The mental faculty that seeks a gift can produce.. Inner: Thunder (1), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 24 Line 3 - The addict",
+      "asc": "[same-phase-material] completion-inner at gates (1→4): Completion of material circulation from gate-in (matter gate). The addict — structuring at this position",
+      "desc": "Shadow: Irrationality maintained and legitimized by success.. Inner: Thunder (1), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 24 Line 4 - The hermit",
+      "asc": "[same-phase-material] entry-outer at gates (1→4): Polarity flip — reversal within the domain. The hermit — progressing at this position",
+      "desc": "Shadow: Aloneness encourages the potential of illusion or delusion.. Inner: Thunder (1), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 24 Line 5 - Confession",
+      "asc": "[same-phase-material] development-outer at gates (1→4): Development within material domain at sink (matter pole). Confession — progressing at this position",
+      "desc": "Shadow: Irrational justification of past mistakes.. Inner: Thunder (1), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 24 Line 6 - The gift horse",
+      "asc": "[same-phase-material] completion-outer at gates (1→4): Completion of material domain at sink (matter pole). The gift horse — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Thunder (1), Outer: Earth (4)"
+    }
+  },
+  "25": {
+    "1": {
+      "name": "Gate 25 Line 1 - Selflessness",
+      "asc": "[cross-zero-dematerialising] entry-inner at gates (1→-4): Entry into matter domain at gate-in (matter gate) — preparing to release. Selflessness — becoming at this position",
+      "desc": "Shadow: A lack of innocence in the now that risks protection through projection.. Inner: Thunder (1), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 25 Line 2 - The existentialist",
+      "asc": "[cross-zero-dematerialising] development-inner at gates (1→-4): Development within matter domain at gate-in (matter gate) — preparing to release. The existentialist — crossing at this position",
+      "desc": "Shadow: The potential loss of spirit through loss of shock.. Inner: Thunder (1), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 25 Line 3 - Sensibility",
+      "asc": "[cross-zero-dematerialising] completion-inner at gates (1→-4): Completion of matter domain at gate-in (matter gate) — preparing to release. Sensibility — releasing at this position",
+      "desc": "Shadow: The spiritual warrior, the innocence maintained regardless of circumstances.. Inner: Thunder (1), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 25 Line 4 - Survival",
+      "asc": "[cross-zero-dematerialising] entry-outer at gates (1→-4): Mode shift — crossing zero between domains. Survival — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Thunder (1), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 25 Line 5 - Recuperation",
+      "asc": "[cross-zero-dematerialising] development-outer at gates (1→-4): Development within void domain at source (void pole) — having crossed zero. Recuperation — building at this position",
+      "desc": "Shadow: The weakness of the spirit which requires healing from others.. Inner: Thunder (1), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 25 Line 6 - Ignorance",
+      "asc": "[cross-zero-dematerialising] completion-outer at gates (1→-4): Completion of void domain at source (void pole) — having crossed zero. Ignorance — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Thunder (1), Outer: Heaven (-4)"
+    }
+  },
+  "26": {
+    "1": {
+      "name": "Gate 26 Line 1 - A bird in the hand",
+      "asc": "[cross-zero-manifesting] entry-inner at poles (-4→3): Entry into void domain at source (void pole) — preparing to manifest. A bird in the hand — becoming at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Heaven (-4), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 26 Line 2 - The lessons of history",
+      "asc": "[cross-zero-manifesting] development-inner at poles (-4→3): Development within void domain at source (void pole) — preparing to manifest. The lessons of history — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Heaven (-4), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 26 Line 3 - Influence",
+      "asc": "[cross-zero-manifesting] completion-inner at poles (-4→3): Completion of void domain at source (void pole) — preparing to manifest. Influence — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Heaven (-4), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 26 Line 4 - Censorship",
+      "asc": "[cross-zero-manifesting] entry-outer at poles (-4→3): Mode shift — crossing zero between domains. Censorship — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Heaven (-4), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 26 Line 5 - Adaptability",
+      "asc": "[cross-zero-manifesting] development-outer at poles (-4→3): Development within matter domain at inductance (matter storage) — having crossed zero. Adaptability — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Heaven (-4), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 26 Line 6 - Authority",
+      "asc": "[cross-zero-manifesting] completion-outer at poles (-4→3): Completion of matter domain at inductance (matter storage) — having crossed zero. Authority — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Heaven (-4), Outer: Mountain (3)"
+    }
+  },
+  "27": {
+    "1": {
+      "name": "Gate 27 Line 1 - Selfishness",
+      "asc": "[same-phase-material] entry-inner at gates (1→3): Entry into material circulation from gate-in (matter gate). Selfishness — doing at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Thunder (1), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 27 Line 2 - Self-sufficiency",
+      "asc": "[same-phase-material] development-inner at gates (1→3): Development within material circulation from gate-in (matter gate). Self-sufficiency — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Thunder (1), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 27 Line 3 - Greed",
+      "asc": "[same-phase-material] completion-inner at gates (1→3): Completion of material circulation from gate-in (matter gate). Greed — structuring at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Thunder (1), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 27 Line 4 - Generosity",
+      "asc": "[same-phase-material] entry-outer at gates (1→3): Polarity flip — reversal within the domain. Generosity — progressing at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Thunder (1), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 27 Line 5 - The executor",
+      "asc": "[same-phase-material] development-outer at gates (1→3): Development within material domain at inductance (matter storage). The executor — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Thunder (1), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 27 Line 6 - Wariness",
+      "asc": "[same-phase-material] completion-outer at gates (1→3): Completion of material domain at inductance (matter storage). Wariness — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Thunder (1), Outer: Mountain (3)"
+    }
+  },
+  "28": {
+    "1": {
+      "name": "Gate 28 Line 1 - Preparation",
+      "asc": "[same-phase-void] entry-inner at gates (-1→-3): Entry into void circulation from gate-out (void gate). Preparation — doing at this position",
+      "desc": "Shadow: An intuition for detail without the potential for application.. Inner: Wind (-1), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 28 Line 2 - Shaking hands with the Devil",
+      "asc": "[same-phase-void] development-inner at gates (-1→-3): Development within void circulation from gate-out (void gate). Shaking hands with the Devil — moving at this position",
+      "desc": "Shadow: The risk in sacrificing principles when there is no guarantee of victory.. Inner: Wind (-1), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 28 Line 3 - Adventurism",
+      "asc": "[same-phase-void] completion-inner at gates (-1→-3): Completion of void circulation from gate-out (void gate). Adventurism — structuring at this position",
+      "desc": "Shadow: Intuitive rationalizing of risk taking in times of struggle.. Inner: Wind (-1), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 28 Line 4 - Holding on",
+      "asc": "[same-phase-void] entry-outer at gates (-1→-3): Relational reorientation — relationship to potential changes. Holding on — progressing at this position",
+      "desc": "Shadow: A depth of intuition that is stubbornly selfish in its capacity to hold on.. Inner: Wind (-1), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 28 Line 5 - Treachery",
+      "asc": "[same-phase-void] development-outer at gates (-1→-3): Development within void domain at capacitance (void storage). Treachery — progressing at this position",
+      "desc": "Shadow: The intuitive recognition in times of struggle to know when alliances must be broken and its destabilizing effect on others.. Inner: Wind (-1), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 28 Line 6 - Blaze of glory",
+      "asc": "[same-phase-void] completion-outer at gates (-1→-3): Completion of void domain at capacitance (void storage). Blaze of glory — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Wind (-1), Outer: Lake (-3)"
+    }
+  },
+  "29": {
+    "1": {
+      "name": "Gate 29 Line 1 - The draftee",
+      "asc": "[doubled] entry-inner at flow (2→2): Entry into Water standing wave at current (matter flow). The draftee — being at this position",
+      "desc": "Shadow: Hesitation in making commitments based on past experience.. Inner: Water (2), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 29 Line 2 - Assessment",
+      "asc": "[doubled] development-inner at flow (2→2): Development within Water standing wave at current (matter flow). Assessment — holding at this position",
+      "desc": "Shadow: Caution in saying yes, when perseverance leads to disharmony.. Inner: Water (2), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 29 Line 3 - Evaluation",
+      "asc": "[doubled] completion-inner at flow (2→2): Completion of Water standing wave at current (matter flow). Evaluation — expressing at this position",
+      "desc": "Shadow: The inability to make commitments. The power of caution.. Inner: Water (2), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 29 Line 4 - Directness",
+      "asc": "[doubled] entry-outer at flow (2→2): Expression shift — internal state becomes external expression. Directness — maintaining at this position",
+      "desc": "Shadow: The power of directness often offends others.. Inner: Water (2), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 29 Line 5 - Overreach",
+      "asc": "[doubled] development-outer at flow (2→2): Development within Water standing wave at current (matter flow). Overreach — maintaining at this position",
+      "desc": "Shadow: Saying yes, overextending one's resources and failing to persevere.. Inner: Water (2), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 29 Line 6 - Confusion",
+      "asc": "[doubled] completion-outer at flow (2→2): Completion of Water standing wave at current (matter flow). Confusion — maintaining at this position",
+      "desc": "Shadow: Becoming too fixed to receive or adapt. Inner: Water (2), Outer: Water (2)"
+    }
+  },
+  "30": {
+    "1": {
+      "name": "Gate 30 Line 1 - Composure",
+      "asc": "[doubled] entry-inner at flow (-2→-2): Entry into Fire standing wave at voltage (void flow). Composure — being at this position",
+      "desc": "Shadow: Balanced through feelings but unable to let go of them.. Inner: Fire (-2), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 30 Line 2 - Pragmatism",
+      "asc": "[doubled] development-inner at flow (-2→-2): Development within Fire standing wave at voltage (void flow). Pragmatism — holding at this position",
+      "desc": "Shadow: Burning with demand energy.. Inner: Fire (-2), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 30 Line 3 - Resignation",
+      "asc": "[doubled] completion-inner at flow (-2→-2): Completion of Fire standing wave at voltage (void flow). Resignation — expressing at this position",
+      "desc": "Shadow: The positive or negative feelings which come with acceptance.. Inner: Fire (-2), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 30 Line 4 - Burnout",
+      "asc": "[doubled] entry-outer at flow (-2→-2): Expression shift — internal state becomes external expression. Burnout — maintaining at this position",
+      "desc": "Shadow: Uncontrollable feelings and accompanying emotional outbursts.. Inner: Fire (-2), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 30 Line 5 - Irony",
+      "asc": "[doubled] development-outer at flow (-2→-2): Development within Fire standing wave at voltage (void flow). Irony — maintaining at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Fire (-2), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 30 Line 6 - Enforcement",
+      "asc": "[doubled] completion-outer at flow (-2→-2): Completion of Fire standing wave at voltage (void flow). Enforcement — maintaining at this position",
+      "desc": "Shadow: Losing the reference frame through over-identification. Inner: Fire (-2), Outer: Fire (-2)"
+    }
+  },
+  "31": {
+    "1": {
+      "name": "Gate 31 Line 1 - Manifestation",
+      "asc": "[cross-zero-dematerialising] entry-inner at storage (3→-3): Entry into matter domain at inductance (matter storage) — preparing to release. Manifestation — becoming at this position",
+      "desc": "Shadow: The unnatural expression of leadership.. Inner: Mountain (3), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 31 Line 2 - Arrogance",
+      "asc": "[cross-zero-dematerialising] development-inner at storage (3→-3): Development within matter domain at inductance (matter storage) — preparing to release. Arrogance — crossing at this position",
+      "desc": "Shadow: The drive for expression that cannot wait and may cost leadership.. Inner: Mountain (3), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 31 Line 3 - Selectivity",
+      "asc": "[cross-zero-dematerialising] completion-inner at storage (3→-3): Completion of matter domain at inductance (matter storage) — preparing to release. Selectivity — releasing at this position",
+      "desc": "Shadow: The drive to lead that will accept any follower and the risks.. Inner: Mountain (3), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 31 Line 4 - Intent",
+      "asc": "[cross-zero-dematerialising] entry-outer at storage (3→-3): Mode shift — crossing zero between domains. Intent — building at this position",
+      "desc": "Shadow: External negative projection of one's capacity to lead.. Inner: Mountain (3), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 31 Line 5 - Self-righteousness",
+      "asc": "[cross-zero-dematerialising] development-outer at storage (3→-3): Development within void domain at capacitance (void storage) — having crossed zero. Self-righteousness — building at this position",
+      "desc": "Shadow: A lack of ambition where one is content to lead oneself.. Inner: Mountain (3), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 31 Line 6 - Application",
+      "asc": "[cross-zero-dematerialising] completion-outer at storage (3→-3): Completion of void domain at capacitance (void storage) — having crossed zero. Application — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Mountain (3), Outer: Lake (-3)"
+    }
+  },
+  "32": {
+    "1": {
+      "name": "Gate 32 Line 1 - Conservation",
+      "asc": "[cross-zero-manifesting] entry-inner at gates (-1→1): Entry into void domain at gate-out (void gate) — preparing to manifest. Conservation — becoming at this position",
+      "desc": "Shadow: The fear or lack of potential and the corresponding lack of attention.. Inner: Wind (-1), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 32 Line 2 - Restraint",
+      "asc": "[cross-zero-manifesting] development-inner at gates (-1→1): Development within void domain at gate-out (void gate) — preparing to manifest. Restraint — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Wind (-1), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 32 Line 3 - Lack of continuity",
+      "asc": "[cross-zero-manifesting] completion-inner at gates (-1→1): Completion of void domain at gate-out (void gate) — preparing to manifest. Lack of continuity — releasing at this position",
+      "desc": "Shadow: Indecision in times of transformation.. Inner: Wind (-1), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 32 Line 4 - Right is might",
+      "asc": "[cross-zero-manifesting] entry-outer at gates (-1→1): Mode shift — crossing zero between domains. Right is might — building at this position",
+      "desc": "Shadow: The instinct to maintain ones principles as long as ones security is not threatened.. Inner: Wind (-1), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 32 Line 5 - Flexibility",
+      "asc": "[cross-zero-manifesting] development-outer at gates (-1→1): Development within matter domain at gate-in (matter gate) — having crossed zero. Flexibility — building at this position",
+      "desc": "Shadow: The potential of the instinct to reject adaption and conformity in times of change.. Inner: Wind (-1), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 32 Line 6 - Tranquillity",
+      "asc": "[cross-zero-manifesting] completion-outer at gates (-1→1): Completion of matter domain at gate-in (matter gate) — having crossed zero. Tranquillity — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Wind (-1), Outer: Thunder (1)"
+    }
+  },
+  "33": {
+    "1": {
+      "name": "Gate 33 Line 1 - Avoidance",
+      "asc": "[cross-zero-dematerialising] entry-inner at storage (3→-4): Entry into matter domain at inductance (matter storage) — preparing to release. Avoidance — becoming at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Mountain (3), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 33 Line 2 - Surrender",
+      "asc": "[cross-zero-dematerialising] development-inner at storage (3→-4): Development within matter domain at inductance (matter storage) — preparing to release. Surrender — crossing at this position",
+      "desc": "Shadow: Embracing powerful forces in order to lay the foundation for future success.. Inner: Mountain (3), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 33 Line 3 - Spirit",
+      "asc": "[cross-zero-dematerialising] completion-inner at storage (3→-4): Completion of matter domain at inductance (matter storage) — preparing to release. Spirit — releasing at this position",
+      "desc": "Shadow: Privacy as a path to success.. Inner: Mountain (3), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 33 Line 4 - Dignity",
+      "asc": "[cross-zero-dematerialising] entry-outer at storage (3→-4): Mode shift — crossing zero between domains. Dignity — building at this position",
+      "desc": "Shadow: The healthy retreat for regeneration.. Inner: Mountain (3), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 33 Line 5 - Timing",
+      "asc": "[cross-zero-dematerialising] development-outer at storage (3→-4): Development within void domain at source (void pole) — having crossed zero. Timing — building at this position",
+      "desc": "Shadow: The ability to keep one's intentions secret.. Inner: Mountain (3), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 33 Line 6 - Disassociation",
+      "asc": "[cross-zero-dematerialising] completion-outer at storage (3→-4): Completion of void domain at source (void pole) — having crossed zero. Disassociation — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Mountain (3), Outer: Heaven (-4)"
+    }
+  },
+  "34": {
+    "1": {
+      "name": "Gate 34 Line 1 - The Bully",
+      "asc": "[cross-zero-manifesting] entry-inner at poles (-4→1): Entry into void domain at source (void pole) — preparing to manifest. The Bully — becoming at this position",
+      "desc": "Shadow: The ever present risk of retaliation to power displays.. Inner: Heaven (-4), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 34 Line 2 - Momentum",
+      "asc": "[cross-zero-manifesting] development-inner at poles (-4→1): Development within void domain at source (void pole) — preparing to manifest. Momentum — crossing at this position",
+      "desc": "Shadow: The power for greatness limited by impatience.. Inner: Heaven (-4), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 34 Line 3 - Machismo",
+      "asc": "[cross-zero-manifesting] completion-inner at poles (-4→1): Completion of void domain at source (void pole) — preparing to manifest. Machismo — releasing at this position",
+      "desc": "Shadow: The calculated display of power in order to define the role.. Inner: Heaven (-4), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 34 Line 4 - Triumph",
+      "asc": "[cross-zero-manifesting] entry-outer at poles (-4→1): Mode shift — crossing zero between domains. Triumph — building at this position",
+      "desc": "Shadow: A lack of confidence that can lead to abuse of power.. Inner: Heaven (-4), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 34 Line 5 - Annihilation",
+      "asc": "[cross-zero-manifesting] development-outer at poles (-4→1): Development within matter domain at gate-in (matter gate) — having crossed zero. Annihilation — building at this position",
+      "desc": "Shadow: The discomfort with the need to always release power.. Inner: Heaven (-4), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 34 Line 6 - Common sense",
+      "asc": "[cross-zero-manifesting] completion-outer at poles (-4→1): Completion of matter domain at gate-in (matter gate) — having crossed zero. Common sense — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Heaven (-4), Outer: Thunder (1)"
+    }
+  },
+  "35": {
+    "1": {
+      "name": "Gate 35 Line 1 - Humility",
+      "asc": "[cross-zero-dematerialising] entry-inner at poles (4→-2): Entry into matter domain at sink (matter pole) — preparing to release. Humility — becoming at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Earth (4), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 35 Line 2 - Creative block",
+      "asc": "[cross-zero-dematerialising] development-inner at poles (4→-2): Development within matter domain at sink (matter pole) — preparing to release. Creative block — crossing at this position",
+      "desc": "Shadow: The need for change and the fear of stasis.. Inner: Earth (4), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 35 Line 3 - Collaboration",
+      "asc": "[cross-zero-dematerialising] completion-inner at poles (4→-2): Completion of matter domain at sink (matter pole) — preparing to release. Collaboration — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Earth (4), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 35 Line 4 - Hunger",
+      "asc": "[cross-zero-dematerialising] entry-outer at poles (4→-2): Mode shift — crossing zero between domains. Hunger — building at this position",
+      "desc": "Shadow: Change for change's sake. The drive lessens with age.. Inner: Earth (4), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 35 Line 5 - Altruism",
+      "asc": "[cross-zero-dematerialising] development-outer at poles (4→-2): Development within void domain at voltage (void flow) — having crossed zero. Altruism — building at this position",
+      "desc": "Shadow: Progressive communication that can bring beneficial change to the whole.. Inner: Earth (4), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 35 Line 6 - Rectification",
+      "asc": "[cross-zero-dematerialising] completion-outer at poles (4→-2): Completion of void domain at voltage (void flow) — having crossed zero. Rectification — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Earth (4), Outer: Fire (-2)"
+    }
+  },
+  "36": {
+    "1": {
+      "name": "Gate 36 Line 1 - Resistance",
+      "asc": "[cross-zero-manifesting] entry-inner at flow (-2→4): Entry into void domain at voltage (void flow) — preparing to manifest. Resistance — becoming at this position",
+      "desc": "Shadow: The insecurity to change that will always bring crisis.. Inner: Fire (-2), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 36 Line 2 - Support",
+      "asc": "[cross-zero-manifesting] development-inner at flow (-2→4): Development within void domain at voltage (void flow) — preparing to manifest. Support — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Fire (-2), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 36 Line 3 - Transition",
+      "asc": "[cross-zero-manifesting] completion-inner at flow (-2→4): Completion of void domain at voltage (void flow) — preparing to manifest. Transition — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Fire (-2), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 36 Line 4 - Espionage",
+      "asc": "[cross-zero-manifesting] entry-outer at flow (-2→4): Mode shift — crossing zero between domains. Espionage — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Fire (-2), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 36 Line 5 - The underground",
+      "asc": "[cross-zero-manifesting] development-outer at flow (-2→4): Development within matter domain at sink (matter pole) — having crossed zero. The underground — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Fire (-2), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 36 Line 6 - Justice",
+      "asc": "[cross-zero-manifesting] completion-outer at flow (-2→4): Completion of matter domain at sink (matter pole) — having crossed zero. Justice — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Fire (-2), Outer: Earth (4)"
+    }
+  },
+  "37": {
+    "1": {
+      "name": "Gate 37 Line 1 - The Mother Father",
+      "asc": "[same-phase-void] entry-inner at flow (-2→-1): Entry into void circulation from voltage (void flow). The Mother Father — doing at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Fire (-2), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 37 Line 2 - Responsibility",
+      "asc": "[same-phase-void] development-inner at flow (-2→-1): Development within void circulation from voltage (void flow). Responsibility — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Fire (-2), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 37 Line 3 - Evenhandedness",
+      "asc": "[same-phase-void] completion-inner at flow (-2→-1): Completion of void circulation from voltage (void flow). Evenhandedness — structuring at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Fire (-2), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 37 Line 4 - Leadership by example",
+      "asc": "[same-phase-void] entry-outer at flow (-2→-1): Relational reorientation — relationship to potential changes. Leadership by example — progressing at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Fire (-2), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 37 Line 5 - Love",
+      "asc": "[same-phase-void] development-outer at flow (-2→-1): Development within void domain at gate-out (void gate). Love — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Fire (-2), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 37 Line 6 - Purpose",
+      "asc": "[same-phase-void] completion-outer at flow (-2→-1): Completion of void domain at gate-out (void gate). Purpose — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Fire (-2), Outer: Wind (-1)"
+    }
+  },
+  "38": {
+    "1": {
+      "name": "Gate 38 Line 1 - Qualification",
+      "asc": "[same-phase-void] entry-inner at storage (-3→-2): Entry into void circulation from capacitance (void storage). Qualification — doing at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Lake (-3), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 38 Line 2 - Politeness",
+      "asc": "[same-phase-void] development-inner at storage (-3→-2): Development within void circulation from capacitance (void storage). Politeness — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 38 Line 3 - Alliance",
+      "asc": "[same-phase-void] completion-inner at storage (-3→-2): Completion of void circulation from capacitance (void storage). Alliance — structuring at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Lake (-3), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 38 Line 4 - Investigation",
+      "asc": "[same-phase-void] entry-outer at storage (-3→-2): Relational reorientation — relationship to potential changes. Investigation — progressing at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Lake (-3), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 38 Line 5 - Alienation",
+      "asc": "[same-phase-void] development-outer at storage (-3→-2): Development within void domain at voltage (void flow). Alienation — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Lake (-3), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 38 Line 6 - Misunderstanding",
+      "asc": "[same-phase-void] completion-outer at storage (-3→-2): Completion of void domain at voltage (void flow). Misunderstanding — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Lake (-3), Outer: Fire (-2)"
+    }
+  },
+  "39": {
+    "1": {
+      "name": "Gate 39 Line 1 - Disengagement",
+      "asc": "[same-phase-material] entry-inner at storage (3→2): Entry into material circulation from inductance (matter storage). Disengagement — doing at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Mountain (3), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 39 Line 2 - Confrontation",
+      "asc": "[same-phase-material] development-inner at storage (3→2): Development within material circulation from inductance (matter storage). Confrontation — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Mountain (3), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 39 Line 3 - Responsibility",
+      "asc": "[same-phase-material] completion-inner at storage (3→2): Completion of material circulation from inductance (matter storage). Responsibility — structuring at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Mountain (3), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 39 Line 4 - Temperance",
+      "asc": "[same-phase-material] entry-outer at storage (3→2): Polarity flip — reversal within the domain. Temperance — progressing at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Mountain (3), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 39 Line 5 - Single-mindedness",
+      "asc": "[same-phase-material] development-outer at storage (3→2): Development within material domain at current (matter flow). Single-mindedness — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Mountain (3), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 39 Line 6 - The troubleshooter",
+      "asc": "[same-phase-material] completion-outer at storage (3→2): Completion of material domain at current (matter flow). The troubleshooter — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Mountain (3), Outer: Water (2)"
+    }
+  },
+  "40": {
+    "1": {
+      "name": "Gate 40 Line 1 - Recuperation",
+      "asc": "[same-phase-material] entry-inner at flow (2→1): Entry into material circulation from current (matter flow). Recuperation — doing at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Water (2), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 40 Line 2 - Resoluteness",
+      "asc": "[same-phase-material] development-inner at flow (2→1): Development within material circulation from current (matter flow). Resoluteness — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Water (2), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 40 Line 3 - Humility",
+      "asc": "[same-phase-material] completion-inner at flow (2→1): Completion of material circulation from current (matter flow). Humility — structuring at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Water (2), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 40 Line 4 - Organisation",
+      "asc": "[same-phase-material] entry-outer at flow (2→1): Polarity flip — reversal within the domain. Organisation — progressing at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Water (2), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 40 Line 5 - Rigidity",
+      "asc": "[same-phase-material] development-outer at flow (2→1): Development within material domain at gate-in (matter gate). Rigidity — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Water (2), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 40 Line 6 - Decapitation",
+      "asc": "[same-phase-material] completion-outer at flow (2→1): Completion of material domain at gate-in (matter gate). Decapitation — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Water (2), Outer: Thunder (1)"
+    }
+  },
+  "41": {
+    "1": {
+      "name": "Gate 41 Line 1 - Reasonableness",
+      "asc": "[cross-zero-manifesting] entry-inner at storage (-3→3): Entry into void domain at capacitance (void storage) — preparing to manifest. Reasonableness — becoming at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Lake (-3), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 41 Line 2 - Caution",
+      "asc": "[cross-zero-manifesting] development-inner at storage (-3→3): Development within void domain at capacitance (void storage) — preparing to manifest. Caution — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 41 Line 3 - Efficiency",
+      "asc": "[cross-zero-manifesting] completion-inner at storage (-3→3): Completion of void domain at capacitance (void storage) — preparing to manifest. Efficiency — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Lake (-3), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 41 Line 4 - Correction",
+      "asc": "[cross-zero-manifesting] entry-outer at storage (-3→3): Mode shift — crossing zero between domains. Correction — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Lake (-3), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 41 Line 5 - Authorisation",
+      "asc": "[cross-zero-manifesting] development-outer at storage (-3→3): Development within matter domain at inductance (matter storage) — having crossed zero. Authorisation — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Lake (-3), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 41 Line 6 - Contagion",
+      "asc": "[cross-zero-manifesting] completion-outer at storage (-3→3): Completion of matter domain at inductance (matter storage) — having crossed zero. Contagion — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Lake (-3), Outer: Mountain (3)"
+    }
+  },
+  "42": {
+    "1": {
+      "name": "Gate 42 Line 1 - Diversification",
+      "asc": "[cross-zero-dematerialising] entry-inner at gates (1→-1): Entry into matter domain at gate-in (matter gate) — preparing to release. Diversification — becoming at this position",
+      "desc": "Shadow: Hesitation at entry point. Inner: Thunder (1), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 42 Line 2 - Identification",
+      "asc": "[cross-zero-dematerialising] development-inner at gates (1→-1): Development within matter domain at gate-in (matter gate) — preparing to release. Identification — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Thunder (1), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 42 Line 3 - Trial and error",
+      "asc": "[cross-zero-dematerialising] completion-inner at gates (1→-1): Completion of matter domain at gate-in (matter gate) — preparing to release. Trial and error — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Thunder (1), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 42 Line 4 - The middle man",
+      "asc": "[cross-zero-dematerialising] entry-outer at gates (1→-1): Mode shift — crossing zero between domains. The middle man — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Thunder (1), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 42 Line 5 - Self-Actualisation",
+      "asc": "[cross-zero-dematerialising] development-outer at gates (1→-1): Development within void domain at gate-out (void gate) — having crossed zero. Self-Actualisation — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Thunder (1), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 42 Line 6 - Nurturing",
+      "asc": "[cross-zero-dematerialising] completion-outer at gates (1→-1): Completion of void domain at gate-out (void gate) — having crossed zero. Nurturing — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Thunder (1), Outer: Wind (-1)"
+    }
+  },
+  "43": {
+    "1": {
+      "name": "Gate 43 Line 1 - Patience",
+      "asc": "[same-phase-void] entry-inner at poles (-4→-3): Entry into void circulation from source toward capacitance. Patience — waiting for insight to mature before expression",
+      "desc": "Shadow: Impatience that releases insight prematurely. Inner: Heaven (-4), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 43 Line 2 - Dedication",
+      "asc": "[same-phase-void] development-inner at poles (-4→-3): Development of insight within void. Dedication — commitment to following the insight through",
+      "desc": "Shadow: Fickleness that abandons insight before completion. Inner: Heaven (-4), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 43 Line 3 - Expediency",
+      "asc": "[same-phase-void] completion-inner at poles (-4→-3): Completion of inner void phase — peak flexibility. Expediency — using any means to achieve the insight's goal",
+      "desc": "Shadow: Expediency without ethical grounding. Inner: Heaven (-4), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 43 Line 4 - One-Track Mind",
+      "asc": "[same-phase-void] entry-outer at poles (-4→-3): Relational reorientation — fluid becomes fixed. One-Track Mind — stubborn obsession with the insight",
+      "desc": "Shadow: Fixation that blinds to new information. Inner: Heaven (-4), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 43 Line 5 - Progression",
+      "asc": "[same-phase-void] development-outer at poles (-4→-3): Development in capacitance after reorientation. Progression — steady movement toward breakthrough",
+      "desc": "Shadow: Stagnation before the breakthrough. Inner: Heaven (-4), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 43 Line 6 - Breakthrough",
+      "asc": "[same-phase-void] completion-outer at poles (-4→-3): Completion in capacitance — insight ready to discharge. Breakthrough — establishing new order from insight",
+      "desc": "Shadow: Ego carried over into new order. Inner: Heaven (-4), Outer: Lake (-3)"
+    }
+  },
+  "44": {
+    "1": {
+      "name": "Gate 44 Line 1 - Conditions",
+      "asc": "[same-phase-void] entry-inner at gates (-1→-4): Entry into void circulation from gate-out (void gate). Conditions — doing at this position",
+      "desc": "Shadow: The failure of the instinct out of the need for harmony.. Inner: Wind (-1), Outer: Heaven (-4)"
+    },
+    "2": {
+      "name": "Gate 44 Line 2 - Management",
+      "asc": "[same-phase-void] development-inner at gates (-1→-4): Development within void circulation from gate-out (void gate). Management — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Wind (-1), Outer: Heaven (-4)"
+    },
+    "3": {
+      "name": "Gate 44 Line 3 - Interference",
+      "asc": "[same-phase-void] completion-inner at gates (-1→-4): Completion of void circulation from gate-out (void gate). Interference — structuring at this position",
+      "desc": "Shadow: The possibility that the instinct cannot handle the ego of others.. Inner: Wind (-1), Outer: Heaven (-4)"
+    },
+    "4": {
+      "name": "Gate 44 Line 4 - Honesty",
+      "asc": "[same-phase-void] entry-outer at gates (-1→-4): Relational reorientation — relationship to potential changes. Honesty — progressing at this position",
+      "desc": "Shadow: The sacrifice of indifference out of memory.. Inner: Wind (-1), Outer: Heaven (-4)"
+    },
+    "5": {
+      "name": "Gate 44 Line 5 - Manipulation",
+      "asc": "[same-phase-void] development-outer at gates (-1→-4): Development within void domain at source (void pole). Manipulation — progressing at this position",
+      "desc": "Shadow: The possibility that such a recognition could lead to the abuse of others.. Inner: Wind (-1), Outer: Heaven (-4)"
+    },
+    "6": {
+      "name": "Gate 44 Line 6 - Aloofness",
+      "asc": "[same-phase-void] completion-outer at gates (-1→-4): Completion of void domain at source (void pole). Aloofness — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Wind (-1), Outer: Heaven (-4)"
+    }
+  },
+  "45": {
+    "1": {
+      "name": "Gate 45 Line 1 - Canvassing",
+      "asc": "[cross-zero-dematerialising] entry-inner at poles (4→-3): Entry into matter domain at sink (matter pole) — preparing to release. Canvassing — becoming at this position",
+      "desc": "Shadow: The drive for material that leads to aggressive education.. Inner: Earth (4), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 45 Line 2 - Consensus",
+      "asc": "[cross-zero-dematerialising] development-inner at poles (4→-3): Development within matter domain at sink (matter pole) — preparing to release. Consensus — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Earth (4), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 45 Line 3 - Exclusion",
+      "asc": "[cross-zero-dematerialising] completion-inner at poles (4→-3): Completion of matter domain at sink (matter pole) — preparing to release. Exclusion — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Earth (4), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 45 Line 4 - Direction",
+      "asc": "[cross-zero-dematerialising] entry-outer at poles (4→-3): Mode shift — crossing zero between domains. Direction — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Earth (4), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 45 Line 5 - Leadership",
+      "asc": "[cross-zero-dematerialising] development-outer at poles (4→-3): Development within void domain at capacitance (void storage) — having crossed zero. Leadership — building at this position",
+      "desc": "Shadow: The drive for leadership that may not have yet earned the right.. Inner: Earth (4), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 45 Line 6 - Reconsideration",
+      "asc": "[cross-zero-dematerialising] completion-outer at poles (4→-3): Completion of void domain at capacitance (void storage) — having crossed zero. Reconsideration — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Earth (4), Outer: Lake (-3)"
+    }
+  },
+  "46": {
+    "1": {
+      "name": "Gate 46 Line 1 - Being discovered",
+      "asc": "[cross-zero-manifesting] entry-inner at gates (-1→4): Entry into void domain at gate-out (void gate) — preparing to manifest. Being discovered — becoming at this position",
+      "desc": "Shadow: The determination to succeed that may offend others.. Inner: Wind (-1), Outer: Earth (4)"
+    },
+    "2": {
+      "name": "Gate 46 Line 2 - The Prima Donna",
+      "asc": "[cross-zero-manifesting] development-inner at gates (-1→4): Development within void domain at gate-out (void gate) — preparing to manifest. The Prima Donna — crossing at this position",
+      "desc": "Shadow: The determination to be treated as a success before it has been realized.. Inner: Wind (-1), Outer: Earth (4)"
+    },
+    "3": {
+      "name": "Gate 46 Line 3 - Projection",
+      "asc": "[cross-zero-manifesting] completion-inner at gates (-1→4): Completion of void domain at gate-out (void gate) — preparing to manifest. Projection — releasing at this position",
+      "desc": "Shadow: The determination to treat a projected success as a reality.. Inner: Wind (-1), Outer: Earth (4)"
+    },
+    "4": {
+      "name": "Gate 46 Line 4 - Impact",
+      "asc": "[cross-zero-manifesting] entry-outer at gates (-1→4): Mode shift — crossing zero between domains. Impact — building at this position",
+      "desc": "Shadow: The determination in success to ignore those who helped create it.. Inner: Wind (-1), Outer: Earth (4)"
+    },
+    "5": {
+      "name": "Gate 46 Line 5 - Pacing",
+      "asc": "[cross-zero-manifesting] development-outer at gates (-1→4): Development within matter domain at sink (matter pole) — having crossed zero. Pacing — building at this position",
+      "desc": "Shadow: The determination to say no to the very cycle that brings success.. Inner: Wind (-1), Outer: Earth (4)"
+    },
+    "6": {
+      "name": "Gate 46 Line 6 - Integrity",
+      "asc": "[cross-zero-manifesting] completion-outer at gates (-1→4): Completion of matter domain at sink (matter pole) — having crossed zero. Integrity — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Wind (-1), Outer: Earth (4)"
+    }
+  },
+  "47": {
+    "1": {
+      "name": "Gate 47 Line 1 - Taking stock",
+      "asc": "[cross-zero-dematerialising] entry-inner at flow (2→-3): Entry into matter domain at current (matter flow) — preparing to release. Taking stock — becoming at this position",
+      "desc": "Shadow: The sense that the world is against you.. Inner: Water (2), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 47 Line 2 - Ambition",
+      "asc": "[cross-zero-dematerialising] development-inner at flow (2→-3): Development within matter domain at current (matter flow) — preparing to release. Ambition — crossing at this position",
+      "desc": "Shadow: The inability to sense when and which activity is healthy.. Inner: Water (2), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 47 Line 3 - Self-oppression",
+      "asc": "[cross-zero-dematerialising] completion-inner at flow (2→-3): Completion of matter domain at current (matter flow) — preparing to release. Self-oppression — releasing at this position",
+      "desc": "Shadow: Extreme difficulty in realizing one's self-worth.. Inner: Water (2), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 47 Line 4 - Repression",
+      "asc": "[cross-zero-dematerialising] entry-outer at flow (2→-3): Mode shift — crossing zero between domains. Repression — building at this position",
+      "desc": "Shadow: The identity overwhelmed by external conditioning.. Inner: Water (2), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 47 Line 5 - The saint",
+      "asc": "[cross-zero-dematerialising] development-outer at flow (2→-3): Development within void domain at capacitance (void storage) — having crossed zero. The saint — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Water (2), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 47 Line 6 - Futility",
+      "asc": "[cross-zero-dematerialising] completion-outer at flow (2→-3): Completion of void domain at capacitance (void storage) — having crossed zero. Futility — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Water (2), Outer: Lake (-3)"
+    }
+  },
+  "48": {
+    "1": {
+      "name": "Gate 48 Line 1 - Insignificance",
+      "asc": "[cross-zero-manifesting] entry-inner at gates (-1→2): Entry into void domain at gate-out (void gate) — preparing to manifest. Insignificance — becoming at this position",
+      "desc": "Shadow: A taste for trivia.. Inner: Wind (-1), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 48 Line 2 - Degeneracy",
+      "asc": "[cross-zero-manifesting] development-inner at gates (-1→2): Development within void domain at gate-out (void gate) — preparing to manifest. Degeneracy — crossing at this position",
+      "desc": "Shadow: A lack of confidence that invites interference and deference.. Inner: Wind (-1), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 48 Line 3 - Incommunicado",
+      "asc": "[cross-zero-manifesting] completion-inner at gates (-1→2): Completion of void domain at gate-out (void gate) — preparing to manifest. Incommunicado — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Wind (-1), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 48 Line 4 - Restructuring",
+      "asc": "[cross-zero-manifesting] entry-outer at gates (-1→2): Mode shift — crossing zero between domains. Restructuring — building at this position",
+      "desc": "Shadow: A taste for long term projects that will be frustrated in restraint.. Inner: Wind (-1), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 48 Line 5 - Action",
+      "asc": "[cross-zero-manifesting] development-outer at gates (-1→2): Development within matter domain at current (matter flow) — having crossed zero. Action — building at this position",
+      "desc": "Shadow: Insecurity with one's depth that can fail to take action.. Inner: Wind (-1), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 48 Line 6 - Self-fulfilment",
+      "asc": "[cross-zero-manifesting] completion-outer at gates (-1→2): Completion of matter domain at current (matter flow) — having crossed zero. Self-fulfilment — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Wind (-1), Outer: Water (2)"
+    }
+  },
+  "49": {
+    "1": {
+      "name": "Gate 49 Line 1 - The law of necessity",
+      "asc": "[same-phase-void] entry-inner at flow (-2→-3): Entry into void circulation from voltage (void flow). The law of necessity — doing at this position",
+      "desc": "Shadow: Over-sensitivity to rejection that can turn a principle into a crusade.. Inner: Fire (-2), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 49 Line 2 - The last resort",
+      "asc": "[same-phase-void] development-inner at flow (-2→-3): Development within void circulation from voltage (void flow). The last resort — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Fire (-2), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 49 Line 3 - Popular discontent",
+      "asc": "[same-phase-void] completion-inner at flow (-2→-3): Completion of void circulation from voltage (void flow). Popular discontent — structuring at this position",
+      "desc": "Shadow: An insensitivity in rejection and rejecting.. Inner: Fire (-2), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 49 Line 4 - Platform",
+      "asc": "[same-phase-void] entry-outer at flow (-2→-3): Relational reorientation — relationship to potential changes. Platform — progressing at this position",
+      "desc": "Shadow: A potential sensitivity to insensitively take advantage of the needs of society.. Inner: Fire (-2), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 49 Line 5 - Organisation",
+      "asc": "[same-phase-void] development-outer at flow (-2→-3): Development within void domain at capacitance (void storage). Organisation — progressing at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Fire (-2), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 49 Line 6 - Attraction",
+      "asc": "[same-phase-void] completion-outer at flow (-2→-3): Completion of void domain at capacitance (void storage). Attraction — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Fire (-2), Outer: Lake (-3)"
+    }
+  },
+  "50": {
+    "1": {
+      "name": "Gate 50 Line 1 - The immigrant",
+      "asc": "[same-phase-void] entry-inner at gates (-1→-2): Entry into void circulation from gate-out (void gate). The immigrant — doing at this position",
+      "desc": "Shadow: A dissatisfaction with original values that demands refinement.. Inner: Wind (-1), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 50 Line 2 - Determination",
+      "asc": "[same-phase-void] development-inner at gates (-1→-2): Development within void circulation from gate-out (void gate). Determination — moving at this position",
+      "desc": "Shadow: A lack of strength, where values are threatened by opposition or conditioning.. Inner: Wind (-1), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 50 Line 3 - Adaptability",
+      "asc": "[same-phase-void] completion-inner at gates (-1→-2): Completion of void circulation from gate-out (void gate). Adaptability — structuring at this position",
+      "desc": "Shadow: Discomfort with closeness that one cannot stand alone by one's principles.. Inner: Wind (-1), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 50 Line 4 - Corruption",
+      "asc": "[same-phase-void] entry-outer at gates (-1→-2): Relational reorientation — relationship to potential changes. Corruption — progressing at this position",
+      "desc": "Shadow: The potential disregard of values that may lead to corruption or the breakdown of the defense system.. Inner: Wind (-1), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 50 Line 5 - Consistency",
+      "asc": "[same-phase-void] development-outer at gates (-1→-2): Development within void domain at voltage (void flow). Consistency — progressing at this position",
+      "desc": "Shadow: When effectively stimulated, the drive to rebel against basic principles.. Inner: Wind (-1), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 50 Line 6 - Leadership",
+      "asc": "[same-phase-void] completion-outer at gates (-1→-2): Completion of void domain at voltage (void flow). Leadership — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Wind (-1), Outer: Fire (-2)"
+    }
+  },
+  "51": {
+    "1": {
+      "name": "Gate 51 Line 1 - Reference",
+      "asc": "[doubled] entry-inner at gates (1→1): Entry into Thunder standing wave at gate-in (matter gate). Reference — being at this position",
+      "desc": "Shadow: The weakness of the ego in times of challenge.. Inner: Thunder (1), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 51 Line 2 - Withdrawal",
+      "asc": "[doubled] development-inner at gates (1→1): Development within Thunder standing wave at gate-in (matter gate). Withdrawal — holding at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Thunder (1), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 51 Line 3 - Adaptation",
+      "asc": "[doubled] completion-inner at gates (1→1): Completion of Thunder standing wave at gate-in (matter gate). Adaptation — expressing at this position",
+      "desc": "Shadow: The ego that may be defeated by needs or greed.. Inner: Thunder (1), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 51 Line 4 - Limitation",
+      "asc": "[doubled] entry-outer at gates (1→1): Expression shift — internal state becomes external expression. Limitation — maintaining at this position",
+      "desc": "Shadow: The superficial ego that lacks the resources and depth to answer challenges.. Inner: Thunder (1), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 51 Line 5 - Symmetry",
+      "asc": "[doubled] development-outer at gates (1→1): Development within Thunder standing wave at gate-in (matter gate). Symmetry — maintaining at this position",
+      "desc": "Shadow: The egoism to indulge in victory and lose vigilance.. Inner: Thunder (1), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 51 Line 6 - Separation",
+      "asc": "[doubled] completion-outer at gates (1→1): Completion of Thunder standing wave at gate-in (matter gate). Separation — maintaining at this position",
+      "desc": "Shadow: Seeing clearly but lacking power to effect change. Inner: Thunder (1), Outer: Thunder (1)"
+    }
+  },
+  "52": {
+    "1": {
+      "name": "Gate 52 Line 1 - Think before you speak",
+      "asc": "[doubled] entry-inner at storage (3→3): Entry into Mountain standing wave at inductance (matter storage). Think before you speak — being at this position",
+      "desc": "Shadow: Energy that cannot be stilled.. Inner: Mountain (3), Outer: Mountain (3)"
+    },
+    "2": {
+      "name": "Gate 52 Line 2 - Concern",
+      "asc": "[doubled] development-inner at storage (3→3): Development within Mountain standing wave at inductance (matter storage). Concern — holding at this position",
+      "desc": "Shadow: The pressure to selfishly restrain energy at the expense of others.. Inner: Mountain (3), Outer: Mountain (3)"
+    },
+    "3": {
+      "name": "Gate 52 Line 3 - Controls",
+      "asc": "[doubled] completion-inner at storage (3→3): Completion of Mountain standing wave at inductance (matter storage). Controls — expressing at this position",
+      "desc": "Shadow: The pressure of restraint disturbs inner tranquility.. Inner: Mountain (3), Outer: Mountain (3)"
+    },
+    "4": {
+      "name": "Gate 52 Line 4 - Self-discipline",
+      "asc": "[doubled] entry-outer at storage (3→3): Expression shift — internal state becomes external expression. Self-discipline — maintaining at this position",
+      "desc": "Shadow: Restless energy and doubt in the face of restraint.. Inner: Mountain (3), Outer: Mountain (3)"
+    },
+    "5": {
+      "name": "Gate 52 Line 5 - Explanation",
+      "asc": "[doubled] development-outer at storage (3→3): Development within Mountain standing wave at inductance (matter storage). Explanation — maintaining at this position",
+      "desc": "Shadow: Where too much inaction can lead to a loss of focus and not to detail.. Inner: Mountain (3), Outer: Mountain (3)"
+    },
+    "6": {
+      "name": "Gate 52 Line 6 - Peacefulness",
+      "asc": "[doubled] completion-outer at storage (3→3): Completion of Mountain standing wave at inductance (matter storage). Peacefulness — maintaining at this position",
+      "desc": "Shadow: Becoming too fixed to receive or adapt. Inner: Mountain (3), Outer: Mountain (3)"
+    }
+  },
+  "53": {
+    "1": {
+      "name": "Gate 53 Line 1 - Accumulation",
+      "asc": "[cross-zero-dematerialising] entry-inner at storage (3→-1): Entry into matter domain at inductance (matter storage) — preparing to release. Accumulation — becoming at this position",
+      "desc": "Shadow: The difficulty in starting something new because of the criticism that accompanied the old.. Inner: Mountain (3), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 53 Line 2 - Momentum",
+      "asc": "[cross-zero-dematerialising] development-inner at storage (3→-1): Development within matter domain at inductance (matter storage) — preparing to release. Momentum — crossing at this position",
+      "desc": "Shadow: The pressure based on success to be impatient for something new.. Inner: Mountain (3), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 53 Line 3 - Practicality",
+      "asc": "[cross-zero-dematerialising] completion-inner at storage (3→-1): Completion of matter domain at inductance (matter storage) — preparing to release. Practicality — releasing at this position",
+      "desc": "Shadow: Energy which provokes conflict and threatens development.. Inner: Mountain (3), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 53 Line 4 - Assuredness",
+      "asc": "[cross-zero-dematerialising] entry-outer at storage (3→-1): Mode shift — crossing zero between domains. Assuredness — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Mountain (3), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 53 Line 5 - Assertion",
+      "asc": "[cross-zero-dematerialising] development-outer at storage (3→-1): Development within void domain at gate-out (void gate) — having crossed zero. Assertion — building at this position",
+      "desc": "Shadow: The pressure to recognize the value of development and the energy for beginnings regardless of circumstances.. Inner: Mountain (3), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 53 Line 6 - Phasing",
+      "asc": "[cross-zero-dematerialising] completion-outer at storage (3→-1): Completion of void domain at gate-out (void gate) — having crossed zero. Phasing — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Mountain (3), Outer: Wind (-1)"
+    }
+  },
+  "54": {
+    "1": {
+      "name": "Gate 54 Line 1 - Influence",
+      "asc": "[cross-zero-manifesting] entry-inner at storage (-3→1): Entry into void domain at capacitance (void storage) — preparing to manifest. Influence — becoming at this position",
+      "desc": "Shadow: Ambition which demands formal recognition limiting influence.. Inner: Lake (-3), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 54 Line 2 - Discretion",
+      "asc": "[cross-zero-manifesting] development-inner at storage (-3→1): Development within void domain at capacitance (void storage) — preparing to manifest. Discretion — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 54 Line 3 - Covert interaction",
+      "asc": "[cross-zero-manifesting] completion-inner at storage (-3→1): Completion of void domain at capacitance (void storage) — preparing to manifest. Covert interaction — releasing at this position",
+      "desc": "Shadow: The energy of ambition when blocked will fuel the power of attraction to overcome the obstacle.. Inner: Lake (-3), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 54 Line 4 - Enlightenment Endarkenment",
+      "asc": "[cross-zero-manifesting] entry-outer at storage (-3→1): Mode shift — crossing zero between domains. Enlightenment Endarkenment — building at this position",
+      "desc": "Shadow: Failed transition across threshold. Inner: Lake (-3), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 54 Line 5 - Magnanimity",
+      "asc": "[cross-zero-manifesting] development-outer at storage (-3→1): Development within matter domain at gate-in (matter gate) — having crossed zero. Magnanimity — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Lake (-3), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 54 Line 6 - Selectivity",
+      "asc": "[cross-zero-manifesting] completion-outer at storage (-3→1): Completion of matter domain at gate-in (matter gate) — having crossed zero. Selectivity — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Lake (-3), Outer: Thunder (1)"
+    }
+  },
+  "55": {
+    "1": {
+      "name": "Gate 55 Line 1 - Cooperation",
+      "asc": "[cross-zero-manifesting] entry-inner at flow (-2→1): Entry into manifesting transit from voltage toward gate. Cooperation — spirit working with others as entry point",
+      "desc": "Shadow: Selfish emotional demands that block cooperation. Inner: Fire (-2), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 55 Line 2 - Distrust",
+      "asc": "[cross-zero-manifesting] development-inner at flow (-2→1): Development of spirit in voltage phase. Distrust — protective caution before committing spirit",
+      "desc": "Shadow: Chronic distrust that prevents any commitment. Inner: Fire (-2), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 55 Line 3 - Innocence",
+      "asc": "[cross-zero-manifesting] completion-inner at flow (-2→1): Completion of inner voltage — spirit protected before crossing. Innocence — when form is correct, failure cannot be personally attributed",
+      "desc": "Shadow: False innocence that avoids responsibility. Inner: Fire (-2), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 55 Line 4 - Assimilation",
+      "asc": "[cross-zero-manifesting] entry-outer at flow (-2→1): Mode shift — spirit crosses zero into matter domain. Assimilation — framework balancing principles with energy",
+      "desc": "Shadow: Spirit lost in structural demands. Inner: Fire (-2), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 55 Line 5 - Growth",
+      "asc": "[cross-zero-manifesting] development-outer at flow (-2→1): Development at gate position — spirit in form growing. Growth — expansion of spirit within material framework",
+      "desc": "Shadow: Growth at others' expense. Inner: Fire (-2), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 55 Line 6 - Selfishness",
+      "asc": "[cross-zero-manifesting] completion-outer at flow (-2→1): Completion at gate — manifested spirit. Selfishness — acquisition focus at completion",
+      "desc": "Shadow: Material abundance without shared light. Inner: Fire (-2), Outer: Thunder (1)"
+    }
+  },
+  "56": {
+    "1": {
+      "name": "Gate 56 Line 1 - Quality",
+      "asc": "[cross-zero-dematerialising] entry-inner at storage (3→-2): Entry into matter domain at inductance (matter storage) — preparing to release. Quality — becoming at this position",
+      "desc": "Shadow: The drive to stimulate to pull express any idea no matter how trivial.. Inner: Mountain (3), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 56 Line 2 - Linkage",
+      "asc": "[cross-zero-dematerialising] development-inner at storage (3→-2): Development within matter domain at inductance (matter storage) — preparing to release. Linkage — crossing at this position",
+      "desc": "Shadow: A gift for communication of ideas through depth.. Inner: Mountain (3), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 56 Line 3 - Alienation",
+      "asc": "[cross-zero-dematerialising] completion-inner at storage (3→-2): Completion of matter domain at inductance (matter storage) — preparing to release. Alienation — releasing at this position",
+      "desc": "Shadow: The drive to control the expression at the expense of stimulation.. Inner: Mountain (3), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 56 Line 4 - Expediency",
+      "asc": "[cross-zero-dematerialising] entry-outer at storage (3→-2): Mode shift — crossing zero between domains. Expediency — building at this position",
+      "desc": "Shadow: The role as reality. The fear of silence and of being undiscovered.. Inner: Mountain (3), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 56 Line 5 - Attracting attention",
+      "asc": "[cross-zero-dematerialising] development-outer at storage (3→-2): Development within void domain at voltage (void flow) — having crossed zero. Attracting attention — building at this position",
+      "desc": "Shadow: The power of stimulation to provoke and disturb.. Inner: Mountain (3), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 56 Line 6 - Caution",
+      "asc": "[cross-zero-dematerialising] completion-outer at storage (3→-2): Completion of void domain at voltage (void flow) — having crossed zero. Caution — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Mountain (3), Outer: Fire (-2)"
+    }
+  },
+  "57": {
+    "1": {
+      "name": "Gate 57 Line 1 - Confusion",
+      "asc": "[doubled] entry-inner at gates (-1→-1): Entry into gate discrimination position. Confusion — the state before clarity that demands discrimination",
+      "desc": "Shadow: Paralysis from inability to penetrate confusion. Inner: Wind (-1), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 57 Line 2 - Cleansing",
+      "asc": "[doubled] development-inner at gates (-1→-1): Development of discrimination capacity. Cleansing — the penetrating power that clears what obscures",
+      "desc": "Shadow: Avoidance of necessary cleansing. Inner: Wind (-1), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 57 Line 3 - Acuteness",
+      "asc": "[doubled] completion-inner at gates (-1→-1): Completion of inner gate — perfected discrimination. Acuteness — sharpened clarity that penetrates to essentials",
+      "desc": "Shadow: Over-analysis that misses the moment. Inner: Wind (-1), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 57 Line 4 - The Director",
+      "asc": "[doubled] entry-outer at gates (-1→-1): Expression shift — internal clarity becomes external direction. The Director — clarity becomes the power to direct",
+      "desc": "Shadow: Directing others without clarity. Inner: Wind (-1), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 57 Line 5 - Progression",
+      "asc": "[doubled] development-outer at gates (-1→-1): Development of external clarity. Progression — steady advancement through sustained clarity",
+      "desc": "Shadow: Stagnation from loss of forward momentum. Inner: Wind (-1), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 57 Line 6 - Utilization",
+      "asc": "[doubled] completion-outer at gates (-1→-1): Completion at gate position — standing wave limit. Utilization — putting clarity into practical service",
+      "desc": "Shadow: Frustration — seeing clearly but lacking power to change. Inner: Wind (-1), Outer: Wind (-1)"
+    }
+  },
+  "58": {
+    "1": {
+      "name": "Gate 58 Line 1 - Love of life",
+      "asc": "[doubled] entry-inner at storage (-3→-3): Entry into Lake standing wave at capacitance (void storage). Love of life — being at this position",
+      "desc": "Shadow: A cyclical energy which intermittently fuels the love of life.. Inner: Lake (-3), Outer: Lake (-3)"
+    },
+    "2": {
+      "name": "Gate 58 Line 2 - Perversion",
+      "asc": "[doubled] development-inner at storage (-3→-3): Development within Lake standing wave at capacitance (void storage). Perversion — holding at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Lake (-3)"
+    },
+    "3": {
+      "name": "Gate 58 Line 3 - Electricity",
+      "asc": "[doubled] completion-inner at storage (-3→-3): Completion of Lake standing wave at capacitance (void storage). Electricity — expressing at this position",
+      "desc": "Shadow: The energy for aliveness that is dependent on others for stimulation.. Inner: Lake (-3), Outer: Lake (-3)"
+    },
+    "4": {
+      "name": "Gate 58 Line 4 - Focussing",
+      "asc": "[doubled] entry-outer at storage (-3→-3): Expression shift — internal state becomes external expression. Focussing — maintaining at this position",
+      "desc": "Shadow: The energy to fuel recognition of which stimulation is of value.. Inner: Lake (-3), Outer: Lake (-3)"
+    },
+    "5": {
+      "name": "Gate 58 Line 5 - Defence",
+      "asc": "[doubled] development-outer at storage (-3→-3): Development within Lake standing wave at capacitance (void storage). Defence — maintaining at this position",
+      "desc": "Shadow: The energy for aliveness which forsakes self-defense and will embrace questionable stimulations.. Inner: Lake (-3), Outer: Lake (-3)"
+    },
+    "6": {
+      "name": "Gate 58 Line 6 - Carried away",
+      "asc": "[doubled] completion-outer at storage (-3→-3): Completion of Lake standing wave at capacitance (void storage). Carried away — maintaining at this position",
+      "desc": "Shadow: Losing the reference frame through over-identification. Inner: Lake (-3), Outer: Lake (-3)"
+    }
+  },
+  "59": {
+    "1": {
+      "name": "Gate 59 Line 1 - The preemptive strike",
+      "asc": "[cross-zero-dematerialising] entry-inner at flow (2→-1): Entry into matter domain at current (matter flow) — preparing to release. The preemptive strike — becoming at this position",
+      "desc": "Shadow: The potential of fertility limited by uncertainty.. Inner: Water (2), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 59 Line 2 - Shyness",
+      "asc": "[cross-zero-dematerialising] development-inner at flow (2→-1): Development within matter domain at current (matter flow) — preparing to release. Shyness — crossing at this position",
+      "desc": "Shadow: Infertility, rooted psychologically as a biologically inhibitive drive for separateness.. Inner: Water (2), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 59 Line 3 - Openness",
+      "asc": "[cross-zero-dematerialising] completion-inner at flow (2→-1): Completion of matter domain at current (matter flow) — preparing to release. Openness — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Water (2), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 59 Line 4 - Brotherhood Sisterhood",
+      "asc": "[cross-zero-dematerialising] entry-outer at flow (2→-1): Mode shift — crossing zero between domains. Brotherhood Sisterhood — building at this position",
+      "desc": "Shadow: Where the idea cannot restrain the sex drive.. Inner: Water (2), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 59 Line 5 - The Femme Fatale or Casanova",
+      "asc": "[cross-zero-dematerialising] development-outer at flow (2→-1): Development within void domain at gate-out (void gate) — having crossed zero. The Femme Fatale or Casanova — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Water (2), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 59 Line 6 - The One Night Stand",
+      "asc": "[cross-zero-dematerialising] completion-outer at flow (2→-1): Completion of void domain at gate-out (void gate) — having crossed zero. The One Night Stand — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Water (2), Outer: Wind (-1)"
+    }
+  },
+  "60": {
+    "1": {
+      "name": "Gate 60 Line 1 - Acceptance",
+      "asc": "[cross-zero-manifesting] entry-inner at storage (-3→2): Entry into void domain at capacitance (void storage) — preparing to manifest. Acceptance — becoming at this position",
+      "desc": "Shadow: Restless energy when confronted with external limitations.. Inner: Lake (-3), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 60 Line 2 - Decisiveness",
+      "asc": "[cross-zero-manifesting] development-inner at storage (-3→2): Development within void domain at capacitance (void storage) — preparing to manifest. Decisiveness — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 60 Line 3 - Conservatism",
+      "asc": "[cross-zero-manifesting] completion-inner at storage (-3→2): Completion of void domain at capacitance (void storage) — preparing to manifest. Conservatism — releasing at this position",
+      "desc": "Shadow: Premature completion or over-extension. Inner: Lake (-3), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 60 Line 4 - Resourcefulness",
+      "asc": "[cross-zero-manifesting] entry-outer at storage (-3→2): Mode shift — crossing zero between domains. Resourcefulness — building at this position",
+      "desc": "Shadow: Energy which identifies limitations and accepts the potential for mutation.. Inner: Lake (-3), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 60 Line 5 - Leadership",
+      "asc": "[cross-zero-manifesting] development-outer at storage (-3→2): Development within matter domain at current (matter flow) — having crossed zero. Leadership — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Lake (-3), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 60 Line 6 - Rigidity",
+      "asc": "[cross-zero-manifesting] completion-outer at storage (-3→2): Completion of matter domain at current (matter flow) — having crossed zero. Rigidity — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Lake (-3), Outer: Water (2)"
+    }
+  },
+  "61": {
+    "1": {
+      "name": "Gate 61 Line 1 - Occult knowledge",
+      "asc": "[same-phase-void] entry-inner at storage (-3→-1): Entry into void circulation from capacitance (void storage). Occult knowledge — doing at this position",
+      "desc": "Shadow: Where the pressure can be so strong that one can eventually incapable of handling the exoteric realities.. Inner: Lake (-3), Outer: Wind (-1)"
+    },
+    "2": {
+      "name": "Gate 61 Line 2 - Natural brilliance",
+      "asc": "[same-phase-void] development-inner at storage (-3→-1): Development within void circulation from capacitance (void storage). Natural brilliance — moving at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Lake (-3), Outer: Wind (-1)"
+    },
+    "3": {
+      "name": "Gate 61 Line 3 - Interdependence",
+      "asc": "[same-phase-void] completion-inner at storage (-3→-1): Completion of void circulation from capacitance (void storage). Interdependence — structuring at this position",
+      "desc": "Shadow: The pressure to know enhanced through collaboration.. Inner: Lake (-3), Outer: Wind (-1)"
+    },
+    "4": {
+      "name": "Gate 61 Line 4 - Research",
+      "asc": "[same-phase-void] entry-outer at storage (-3→-1): Relational reorientation — relationship to potential changes. Research — progressing at this position",
+      "desc": "Shadow: The pressure to know the fundamental principles.. Inner: Lake (-3), Outer: Wind (-1)"
+    },
+    "5": {
+      "name": "Gate 61 Line 5 - Influence",
+      "asc": "[same-phase-void] development-outer at storage (-3→-1): Development within void domain at gate-out (void gate). Influence — progressing at this position",
+      "desc": "Shadow: The pressure to know that may result in influence and wisdom.. Inner: Lake (-3), Outer: Wind (-1)"
+    },
+    "6": {
+      "name": "Gate 61 Line 6 - Appeal",
+      "asc": "[same-phase-void] completion-outer at storage (-3→-1): Completion of void domain at gate-out (void gate). Appeal — progressing at this position",
+      "desc": "Shadow: Carrying lesser attributes into the new order. Inner: Lake (-3), Outer: Wind (-1)"
+    }
+  },
+  "62": {
+    "1": {
+      "name": "Gate 62 Line 1 - Routine",
+      "asc": "[same-phase-material] entry-inner at storage (3→1): Entry into material circulation from inductance (matter storage). Routine — doing at this position",
+      "desc": "Shadow: The need for expression which ignores the details.. Inner: Mountain (3), Outer: Thunder (1)"
+    },
+    "2": {
+      "name": "Gate 62 Line 2 - Restraint",
+      "asc": "[same-phase-material] development-inner at storage (3→1): Development within material circulation from inductance (matter storage). Restraint — moving at this position",
+      "desc": "Shadow: The expression of anxiety and restlessness when faced with detail work.. Inner: Mountain (3), Outer: Thunder (1)"
+    },
+    "3": {
+      "name": "Gate 62 Line 3 - Discovery",
+      "asc": "[same-phase-material] completion-inner at storage (3→1): Completion of material circulation from inductance (matter storage). Discovery — structuring at this position",
+      "desc": "Shadow: The expression of dissatisfaction and boredom in detail work.. Inner: Mountain (3), Outer: Thunder (1)"
+    },
+    "4": {
+      "name": "Gate 62 Line 4 - Asceticism",
+      "asc": "[same-phase-material] entry-outer at storage (3→1): Polarity flip — reversal within the domain. Asceticism — progressing at this position",
+      "desc": "Shadow: When the detail is organized, isolation as a strategy waiting for the right opportunity for expression.. Inner: Mountain (3), Outer: Thunder (1)"
+    },
+    "5": {
+      "name": "Gate 62 Line 5 - Metamorphosis",
+      "asc": "[same-phase-material] development-outer at storage (3→1): Development within material domain at gate-in (matter gate). Metamorphosis — progressing at this position",
+      "desc": "Shadow: When the details are organized the need for attention demands expression.. Inner: Mountain (3), Outer: Thunder (1)"
+    },
+    "6": {
+      "name": "Gate 62 Line 6 - Self-discipline",
+      "asc": "[same-phase-material] completion-outer at storage (3→1): Completion of material domain at gate-in (matter gate). Self-discipline — progressing at this position",
+      "desc": "Shadow: Withdrawal from necessary integration. Inner: Mountain (3), Outer: Thunder (1)"
+    }
+  },
+  "63": {
+    "1": {
+      "name": "Gate 63 Line 1 - Composure",
+      "asc": "[cross-zero-manifesting] entry-inner at flow (-2→2): Entry into void domain at voltage (void flow) — preparing to manifest. Composure — becoming at this position",
+      "desc": "Shadow: The pressure in achievement to still doubt one's capabilities and to immediately seek new goals.. Inner: Fire (-2), Outer: Water (2)"
+    },
+    "2": {
+      "name": "Gate 63 Line 2 - Structuring",
+      "asc": "[cross-zero-manifesting] development-inner at flow (-2→2): Development within void domain at voltage (void flow) — preparing to manifest. Structuring — crossing at this position",
+      "desc": "Shadow: Doubts that one can maintain ones program when interacting with others.. Inner: Fire (-2), Outer: Water (2)"
+    },
+    "3": {
+      "name": "Gate 63 Line 3 - Continuance",
+      "asc": "[cross-zero-manifesting] completion-inner at flow (-2→2): Completion of void domain at voltage (void flow) — preparing to manifest. Continuance — releasing at this position",
+      "desc": "Shadow: The pressure to explore the doubt in detail as a foundation for eventual formulating.. Inner: Fire (-2), Outer: Water (2)"
+    },
+    "4": {
+      "name": "Gate 63 Line 4 - Memory",
+      "asc": "[cross-zero-manifesting] entry-outer at flow (-2→2): Mode shift — crossing zero between domains. Memory — building at this position",
+      "desc": "Shadow: The understanding that doubts are necessary and of value.. Inner: Fire (-2), Outer: Water (2)"
+    },
+    "5": {
+      "name": "Gate 63 Line 5 - Affirmation",
+      "asc": "[cross-zero-manifesting] development-outer at flow (-2→2): Development within matter domain at current (matter flow) — having crossed zero. Affirmation — building at this position",
+      "desc": "Shadow: The logic of leaving old doubts behind.. Inner: Fire (-2), Outer: Water (2)"
+    },
+    "6": {
+      "name": "Gate 63 Line 6 - Nostalgia",
+      "asc": "[cross-zero-manifesting] completion-outer at flow (-2→2): Completion of matter domain at current (matter flow) — having crossed zero. Nostalgia — building at this position",
+      "desc": "Shadow: Material abundance without spiritual light. Inner: Fire (-2), Outer: Water (2)"
+    }
+  },
+  "64": {
+    "1": {
+      "name": "Gate 64 Line 1 - Conditions",
+      "asc": "[cross-zero-dematerialising] entry-inner at flow (2→-2): Entry into matter domain at current (matter flow) — preparing to release. Conditions — becoming at this position",
+      "desc": "Shadow: Inner development that can end the confusion over what makes sense.. Inner: Water (2), Outer: Fire (-2)"
+    },
+    "2": {
+      "name": "Gate 64 Line 2 - Qualification",
+      "asc": "[cross-zero-dematerialising] development-inner at flow (2→-2): Development within matter domain at current (matter flow) — preparing to release. Qualification — crossing at this position",
+      "desc": "Shadow: Stagnation during development. Inner: Water (2), Outer: Fire (-2)"
+    },
+    "3": {
+      "name": "Gate 64 Line 3 - Overextension",
+      "asc": "[cross-zero-dematerialising] completion-inner at flow (2→-2): Completion of matter domain at current (matter flow) — preparing to release. Overextension — releasing at this position",
+      "desc": "Shadow: The assuredness that confusion is a process that results in realization.. Inner: Water (2), Outer: Fire (-2)"
+    },
+    "4": {
+      "name": "Gate 64 Line 4 - Conviction",
+      "asc": "[cross-zero-dematerialising] entry-outer at flow (2→-2): Mode shift — crossing zero between domains. Conviction — building at this position",
+      "desc": "Shadow: Confusion over which values and relationships can bring harmony.. Inner: Water (2), Outer: Fire (-2)"
+    },
+    "5": {
+      "name": "Gate 64 Line 5 - Promise",
+      "asc": "[cross-zero-dematerialising] development-outer at flow (2→-2): Development within void domain at voltage (void flow) — having crossed zero. Promise — building at this position",
+      "desc": "Shadow: Losing direction during development. Inner: Water (2), Outer: Fire (-2)"
+    },
+    "6": {
+      "name": "Gate 64 Line 6 - Victory",
+      "asc": "[cross-zero-dematerialising] completion-outer at flow (2→-2): Completion of void domain at voltage (void flow) — having crossed zero. Victory — building at this position",
+      "desc": "Shadow: Refusing to complete the transformation. Inner: Water (2), Outer: Fire (-2)"
+    }
+  }
+}
